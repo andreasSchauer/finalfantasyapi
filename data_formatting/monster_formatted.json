@@ -1,0 +1,114 @@
+{
+    "monster": {
+        "location": ["mount gagazet"],
+        "is_reoccurring": true,
+        "is_catchable": true,
+        "is_boss": false,
+        "is_zombie": true,
+        "allies": ["monster"],
+        "ap": 730,
+        "ap_overkill": 1460,
+        "gil": 420,
+        "ronso_rage": ["monster"],
+        "items": {
+            "steal_common": [{"item": "water gem", "amount": 2}],
+            "steal_rare": [{"item": "healing spring", "amount": 1}],
+            "drop_common": [{"item": "power sphere", "amount": 1}],
+            "drop_rare": [{"item": "power sphere", "amount": 1}],
+            "bribe": [{"item": "healing spring", "amount": 16}]
+        },
+        "equipment": {
+            "drop_rate": 0.23,
+            "min_slots_amount": 2,
+            "max_slots_amount": 3,
+            "min_attached_abilities": 1,
+            "max_attached_abilities": 3,
+            "wpn_abilities": [
+                {
+                    "ability": "piercing",
+                    "characters": {
+                        "kimahri_and_auron": true,
+                        "yuna_and_lulu": false,
+                        "except_yuna_and_lulu": false
+                    }
+                },
+                {
+                    "ability": "strength +5%",
+                    "characters": {
+                        "kimahri_and_auron": false,
+                        "yuna_and_lulu": false,
+                        "except_yuna_and_lulu": false
+                    }
+                },
+                {
+                    "ability": "magic +5%",
+                    "characters": {
+                        "kimahri_and_auron": false,
+                        "yuna_and_lulu": false,
+                        "except_yuna_and_lulu": false
+                    }
+                },
+                {
+                    "ability": "magic +10%",
+                    "characters": {
+                        "kimahri_and_auron": false,
+                        "yuna_and_lulu": false,
+                        "except_yuna_and_lulu": false
+                    }
+                }
+            ],
+            "armour_abilities": [
+                {
+                    "ability": "mp +10%"
+                },
+                {
+                    "ability": "auto-med"
+                }
+            ]
+        },
+        "stats": {
+            "hp": 5100,
+            "overkill_damage": 7500,
+            "mp": 85,
+            "strength": 33,
+            "defence": 10,
+            "magic": 52,
+            "mag_defence": 20,
+            "agility": 20,
+            "luck": 15,
+            "evasion": 0,
+            "accuracy": 1
+        },
+        "elem_resists": {
+            "fire": "resist",
+            "lightning": "weak",
+            "water": "immune",
+            "ice": "normal",
+            "holy": "normal"
+        },
+        "stat_resists": {
+            "silence": 0,
+            "sleep": 20,
+            "dark": 0,
+            "poison": 0,
+            "poison_percentage": 0.25,
+            "petrify": 0,
+            "slow": 100,
+            "zombie": 0,
+            "life": 0,
+            "power_break": 0,
+            "magic_break": 0,
+            "armour_break": 0,
+            "mental_break": 0,
+            "threaten": 100,
+            "death": 0,
+            "provoke": 0,
+            "doom": 0,
+            "doom_countdown": 1,
+            "demi": 0,
+            "delay": 0,
+            "eject": 0,
+            "zanmato_level": 1
+        }
+    }
+}
