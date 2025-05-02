@@ -1,39 +1,47 @@
 {
-    "yu pagoda": {
-        "location": ["sin"],
+    "guado guardian (home)": {
+        "location": ["home"],
         "is_reoccurring": false,
         "is_catchable": false,
-        "is_boss": true,
+        "is_boss": false,
         "is_zombie": false,
-        "allies": [
-            ["braskas final aeon", "yu pagoda"],
-            ["yu yevon", "yu pagoda"]
-        ],
-        "ap": [0, 0],
-        "gil": 0,
+        "allies": [],
+        "ap": [540, 1080],
+        "gil": 380,
         "ronso_rage": null,
         "items": {
-            "steal_common": null,
-            "steal_rare": null,
-            "drop_common": null,
-            "drop_rare": null,
-            "bribe": null
+            "steal_common": ["hi-potion", 1],
+            "steal_rare": ["x-potion", 2],
+            "drop_common": ["ability sphere", 1],
+            "drop_rare": ["ability sphere", 1],
+            "bribe": ["x-potion", 30]
         },
         "equipment": {
-            "drop_rate": 0,
-            "slots_amount": "0",
-            "attached_abilities": "0",
-            "wpn_abilities": null,
-            "armour_abilities": null
+            "drop_rate": 0.03,
+            "slots_amount": "1-3",
+            "attached_abilities": "1-3",
+            "wpn_abilities": [
+                {"ability": "piercing", "characters": "Kimahri and Auron"},
+                {"ability": "strength +5%", "characters": "except Yuna and Lulu"},
+                {"ability": "strength +3%", "characters": "except Yuna and Lulu"},
+                {"ability": "magic +5%", "characters": "Yuna and Lulu"},
+                {"ability": "magic +3%", "characters": "Yuna and Lulu"},
+                {"ability": "sensor"}
+            ],
+            "armour_abilities": [
+                {"ability": "hp +5%"},
+                {"ability": "mp +5%"},
+                {"ability": "magic def +3%"}
+            ]
         },
         "stats": {
-            "hp": [5000, "-"],
-            "mp": 5000,
+            "hp": [2600, 1432],
+            "mp": 600,
             "strength": 1,
             "defence": 1,
-            "magic": 20,
-            "mag_defence": 50,
-            "agility": 40,
+            "magic": 24,
+            "mag_defence": 1,
+            "agility": 20,
             "luck": 15,
             "evasion": 0,
             "accuracy": 1
@@ -47,24 +55,24 @@
             "gravity": 1
         },
         "stat_resists": {
-            "silence": 100,
+            "silence": 20,
             "sleep": 100,
-            "dark": 100,
+            "dark": 0,
             "poison": [100, 0],
-            "petrify": 100,
-            "slow": 50,
-            "zombie": 100,
-            "life": 0,
-            "power_break": 100,
+            "petrify": 25,
+            "slow": 0,
+            "zombie": 0,
+            "life": 100,
+            "power_break": 0,
             "magic_break": 100,
-            "armour_break": 100,
-            "mental_break": 100,
+            "armour_break": 0,
+            "mental_break": 0,
             "threaten": 100,
-            "death": 100,
-            "provoke": 100,
-            "doom": [100, 0],
+            "death": 25,
+            "provoke": 0,
+            "doom": [100, 5],
             "delay": 0,
-            "eject": 100,
+            "eject": 0,
             "zanmato_level": 5
         }
     }
