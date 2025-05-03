@@ -1,8 +1,5 @@
 package dataFormatting
 
-
-
-
 func (mon *MonsterOld) formatItems() map[string][]Item {
 	itemMap := make(map[string][]Item)
 	keys := []string{"steal_common", "steal_rare", "drop_common", "drop_rare", "bribe"}

@@ -24,20 +24,25 @@ func (mon *MonsterOld) createElemResist(element string) ElemResist {
 	}
 }
 
-
-func convertAffinity(multiplier float64) string {
-	switch (multiplier) {
-	case 1.5:
-		return "weak"
-	case 1:
-		return "neutral"
-	case 0.5:
-		return "resist"
-	case 0:
-		return "immune"
-	case -1:
-		return "absorb"
-	default:
-		return ""
+func convertAffinity(multiplier any) string {
+	if val, ok := multiplier.(string); ok && val == "varies" {
+		return val
 	}
+	
+	if val, ok := multiplier.(float64); ok {
+		switch val {
+		case 1.5:
+			return "weak"
+		case 1:
+			return "neutral"
+		case 0.5:
+			return "resist"
+		case 0:
+			return "immune"
+		case -1:
+			return "absorb"
+		}
+	}
+	
+	return ""
 }

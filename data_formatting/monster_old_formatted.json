@@ -47,10 +47,10 @@
             "accuracy": 1
         },
         "elem_resists": {
-            "fire": 1,
+            "fire": "varies",
             "lightning": 1,
             "water": 1,
-            "ice": 1,
+            "ice": "varies",
             "holy": 1,
             "gravity": 1
         },

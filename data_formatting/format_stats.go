@@ -1,6 +1,5 @@
 package dataFormatting
 
-
 func (mon *MonsterOld) formatStats() Stats {
 	statsOld := mon.Stats
 	hp, overkillDamage := mon.splitHP()

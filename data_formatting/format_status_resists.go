@@ -1,5 +1,7 @@
 package dataFormatting
 
+// to test: splitPoison, splitDoom
+
 func (mon *MonsterOld) formatStatusResists() StatusResists {
 	poisonResist, poisonRate := mon.splitPoison()
 	doomResist, doomCountdown := mon.splitDoom()
@@ -77,12 +79,52 @@ func (mon *MonsterOld) getStatusResistances(poisonResist, doomResist int) []Stat
 			Resistance: doomResist,
 		},
 		{
+			Status: "Nul Magic",
+			Resistance: mon.StatusResists.NulMagic,
+		},
+		{
+			Status: "Shell",
+			Resistance: mon.StatusResists.Shell,
+		},
+		{
+			Status: "Protect",
+			Resistance: mon.StatusResists.Protect,
+		},
+		{
+			Status: "Reflect",
+			Resistance: mon.StatusResists.Reflect,
+		},
+		{
+			Status: "Haste",
+			Resistance: mon.StatusResists.Haste,
+		},
+		{
+			Status: "Regen",
+			Resistance: mon.StatusResists.Regen,
+		},
+		{
+			Status: "Distiller",
+			Resistance: mon.StatusResists.Distiller,
+		},
+		{
+			Status: "Sensor",
+			Resistance: mon.StatusResists.Sensor,
+		},
+		{
+			Status: "Scan",
+			Resistance: mon.StatusResists.Scan,
+		},
+		{
 			Status: "Delay",
 			Resistance: mon.StatusResists.Delay,
 		},
 		{
 			Status: "Eject",
 			Resistance: mon.StatusResists.Eject,
+		},
+		{
+			Status: "Berserk",
+			Resistance: mon.StatusResists.Berserk,
 		},
 	}
 }
@@ -119,21 +161,3 @@ func (mon *MonsterOld) splitDoom() (int, *int) {
 
 	return doomResist, doomCountdown
 }
-
-/*
-
-func (mon *MonsterOld) splitHP() (int, *int) {
-	hpData := mon.Stats.HP
-	hp := int(hpData[0].(float64))
-	overkillDamageData := hpData[1]
-	var overkillDamage *int
-
-	if val, ok := overkillDamageData.(float64); ok {
-		v := int(val)
-		overkillDamage = &v
-	}
-
-	return hp, overkillDamage
-}
-
-*/
