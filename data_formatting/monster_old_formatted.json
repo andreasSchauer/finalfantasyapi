@@ -28,7 +28,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "sensor"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "mp +5%"},
                 {"ability": "magic def +3%"}
@@ -52,7 +52,7 @@
             "water": 1,
             "ice": "varies",
             "holy": 1,
-            "gravity": 1
+            "gravity": 0
         },
         "stat_resists": {
             "silence": 20,
@@ -65,7 +65,7 @@
             "life": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 25,

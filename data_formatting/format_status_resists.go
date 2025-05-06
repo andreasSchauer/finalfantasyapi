@@ -55,8 +55,8 @@ func (mon *MonsterOld) getStatusResistances(poisonResist, doomResist int) []Stat
 			Resistance: mon.StatusResists.MagicBreak,
 		},
 		{
-			Status: "Armour Break",
-			Resistance: mon.StatusResists.ArmourBreak,
+			Status: "Armor Break",
+			Resistance: mon.StatusResists.ArmorBreak,
 		},
 		{
 			Status: "Mental Break",
@@ -115,6 +115,10 @@ func (mon *MonsterOld) getStatusResistances(poisonResist, doomResist int) []Stat
 			Resistance: mon.StatusResists.Scan,
 		},
 		{
+			Status: "Demi",
+			Resistance: mon.getDemiResistance(),
+		},
+		{
 			Status: "Delay",
 			Resistance: mon.StatusResists.Delay,
 		},
@@ -127,6 +131,20 @@ func (mon *MonsterOld) getStatusResistances(poisonResist, doomResist int) []Stat
 			Resistance: mon.StatusResists.Berserk,
 		},
 	}
+}
+
+
+func (mon *MonsterOld) getDemiResistance() int {
+	if val, ok := mon.ElemResists["gravity"].(float64); ok {
+		switch(val) {
+		case 0:
+			return 100
+		case 1:
+			return 0
+		}
+	}
+
+	return 0
 }
 
 

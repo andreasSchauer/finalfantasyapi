@@ -2,39 +2,37 @@ package dataFormatting
 
 import "strconv"
 
-
 func (mon *MonsterOld) formatEquipment() Equipment {
 	minSlots, maxSlots := mon.getMinMaxSlots()
 	minAttached, maxAttached := mon.getMinMaxAttachedAbilities()
-	
+
 	return Equipment{
-		DropRate: mon.Equipment.DropRate,
-		MinSlotsAmount: minSlots,
-		MaxSlotsAmount: maxSlots,
+		DropRate:             mon.Equipment.DropRate,
+		MinSlotsAmount:       minSlots,
+		MaxSlotsAmount:       maxSlots,
 		MinAttachedAbilities: minAttached,
 		MaxAttachedAbilities: maxAttached,
-		WpnAbilities: mon.getWpnAbilities(),
-		ArmourAbilities: mon.getArmrAbilities(),
+		WpnAbilities:         mon.getWpnAbilities(),
+		ArmorAbilities:       mon.getArmrAbilities(),
 	}
 }
 
-func (mon *MonsterOld) getArmrAbilities() []ArmourAbility {
-	var armrAbilities []ArmourAbility
+func (mon *MonsterOld) getArmrAbilities() []ArmorAbility {
+	var armrAbilities []ArmorAbility
 
-	for _, armrAbilityOld := range mon.Equipment.ArmourAbilities {
-		armrAbilities = append(armrAbilities, ArmourAbility(armrAbilityOld))
+	for _, armrAbilityOld := range mon.Equipment.ArmorAbilities {
+		armrAbilities = append(armrAbilities, ArmorAbility(armrAbilityOld))
 	}
 
 	return armrAbilities
 }
-
 
 func (mon *MonsterOld) getWpnAbilities() []WpnAbility {
 	var wpnAbilities []WpnAbility
 
 	for _, wpnAbilityOld := range mon.Equipment.WpnAbilities {
 		wpnAbility := WpnAbility{
-			Ability: wpnAbilityOld.Ability,
+			Ability:    wpnAbilityOld.Ability,
 			Characters: getCharacters(wpnAbilityOld.Characters),
 		}
 		wpnAbilities = append(wpnAbilities, wpnAbility)
@@ -46,7 +44,7 @@ func (mon *MonsterOld) getWpnAbilities() []WpnAbility {
 func getCharacters(charString string) Characters {
 	characters := Characters{}
 
-	switch(charString) {
+	switch charString {
 	case "Kimahri and Auron":
 		characters.KimahriAndAuron = true
 	case "Yuna and Lulu":
@@ -57,7 +55,6 @@ func getCharacters(charString string) Characters {
 
 	return characters
 }
-
 
 func (mon *MonsterOld) getMinMaxSlots() (int, int) {
 	slotsAmount := mon.Equipment.SlotsAmount
@@ -71,7 +68,6 @@ func (mon *MonsterOld) getMinMaxSlots() (int, int) {
 
 	return minSlots, maxSlots
 }
-
 
 func (mon *MonsterOld) getMinMaxAttachedAbilities() (int, int) {
 	attachedAbilities := mon.Equipment.AttachedAbilities

@@ -25,7 +25,7 @@
                 {"ability": "magic +5%"},
                 {"ability": "magic +10%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "mp +10%"},
                 {"ability": "auto-med"}
             ]
@@ -60,7 +60,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -95,7 +95,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "half mp cost"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos shell"},
                 {"ability": "sos protect"},
                 {"ability": "hp +20%"}
@@ -131,7 +131,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -167,7 +167,7 @@
                 {"ability": "lightningstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "lightning ward"},
                 {"ability": "lightningproof"},
                 {"ability": "magic def +5%"}
@@ -203,7 +203,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -244,7 +244,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "confuse ward"}
             ]
         },
@@ -278,7 +278,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -314,7 +314,7 @@
                 {"ability": "sensor"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "magic def +5%"}
             ]
@@ -349,7 +349,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -386,7 +386,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "stonetouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "stone ward"}
             ]
         },
@@ -420,7 +420,7 @@
             "zombie": 25,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -456,7 +456,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "water ward"}
             ]
         },
@@ -490,7 +490,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -529,7 +529,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"}
             ]
@@ -564,7 +564,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -598,7 +598,7 @@
             "wpn_abilities": [
                 {"ability": "piercing"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +20%"}
             ]
         },
@@ -632,7 +632,7 @@
             "zombie": [90, 100],
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 50,
+            "armor_break": 50,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -669,7 +669,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "counter-attack"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos haste"},
                 {"ability": "hp +10%"}
             ]
@@ -704,7 +704,7 @@
             "zombie": 25,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 20,
             "death": 100,
@@ -741,7 +741,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "stonetouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "stone ward"},
                 {"ability": "mp +5%"}
             ]
@@ -776,7 +776,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -817,7 +817,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "confuse ward"},
                 {"ability": "mp +5%"}
             ]
@@ -852,7 +852,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -890,7 +890,7 @@
                 {"ability": "zombietouch"},
                 {"ability": "sos overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos shell"},
                 {"ability": "sos protect"},
                 {"ability": "sos reflect"}
@@ -926,7 +926,7 @@
             "zombie": 25,
             "power_break": 80,
             "magic_break": 0,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -962,7 +962,7 @@
                 {"ability": "zombietouch"},
                 {"ability": "sos overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos shell"},
                 {"ability": "sos protect"},
                 {"ability": "sos reflect"}
@@ -998,7 +998,7 @@
             "zombie": 100,
             "power_break": 80,
             "magic_break": 80,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -1033,7 +1033,7 @@
             "wpn_abilities": [
                 {"ability": "piercing"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "mp +20%"}
             ]
         },
@@ -1067,7 +1067,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -1108,7 +1108,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poison ward"},
                 {"ability": "mp +5%"}
             ]
@@ -1143,7 +1143,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -1182,7 +1182,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "fireproof"},
                 {"ability": "lightning ward"},
@@ -1222,7 +1222,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -1258,7 +1258,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "water ward"},
                 {"ability": "waterproof"}
             ]
@@ -1293,7 +1293,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -1329,7 +1329,7 @@
                 {"ability": "firestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"}
             ]
         },
@@ -1363,7 +1363,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -1399,7 +1399,7 @@
                 {"ability": "firestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"}
             ]
         },
@@ -1433,7 +1433,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -1466,7 +1466,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [60000, 20000],
@@ -1498,7 +1498,7 @@
             "zombie": [50, 100],
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -1531,7 +1531,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [120000, 20000],
@@ -1563,7 +1563,7 @@
             "zombie": [50, 100],
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -1604,7 +1604,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "confuse ward"},
                 {"ability": "mp +5%"}
             ]
@@ -1639,7 +1639,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -1678,7 +1678,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "berserk ward"},
                 {"ability": "defence +3%"}
             ]
@@ -1713,7 +1713,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -1748,7 +1748,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "initiative"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp stroll"},
                 {"ability": "mp stroll"},
                 {"ability": "hp +10%"}
@@ -1784,7 +1784,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -1826,7 +1826,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "defence +5%"}
             ]
@@ -1861,7 +1861,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -1898,7 +1898,7 @@
                 {"ability": "magic +5%"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "magic def +10%"}
             ]
         },
@@ -1932,7 +1932,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -1969,7 +1969,7 @@
                 {"ability": "magic +5%"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "magic def +10%"}
             ]
         },
@@ -2003,7 +2003,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -2040,7 +2040,7 @@
                 {"ability": "magic +5%"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "magic def +10%"}
             ]
         },
@@ -2074,7 +2074,7 @@
             "zombie": 25,
             "power_break": 0,
             "magic_break": 25,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -2113,7 +2113,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "sensor"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -2150,7 +2150,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 50,
-            "armour_break": 50,
+            "armor_break": 50,
             "mental_break": 50,
             "threaten": 100,
             "death": 100,
@@ -2188,7 +2188,7 @@
                 {"ability": "magic +10%"},
                 {"ability": "deathstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "death ward"},
                 {"ability": "defence +10%"},
                 {"ability": "magic def +10%"}
@@ -2224,7 +2224,7 @@
             "zombie": 25,
             "power_break": 0,
             "magic_break": 25,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 25,
@@ -2260,7 +2260,7 @@
                 {"ability": "sensor"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "magic def +3%"}
             ]
@@ -2295,7 +2295,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -2335,7 +2335,7 @@
                 {"ability": "icestrike"},
                 {"ability": "alchemy"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -2372,7 +2372,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -2411,7 +2411,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "lightningproof"},
@@ -2449,7 +2449,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -2486,7 +2486,7 @@
                 {"ability": "magic +5%"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "mp +20%"},
                 {"ability": "mp +10%"}
             ]
@@ -2521,7 +2521,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -2558,7 +2558,7 @@
                 {"ability": "strength +3%", "characters": "except Yuna and Lulu"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos protect"},
                 {"ability": "defence +10%"}
             ]
@@ -2593,7 +2593,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -2632,7 +2632,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos protect"}
             ]
         },
@@ -2666,7 +2666,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -2703,7 +2703,7 @@
                 {"ability": "strength +5%", "characters": "except Yuna and Lulu"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos protect"},
                 {"ability": "defence +10%"}
             ]
@@ -2738,7 +2738,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -2774,7 +2774,7 @@
                 {"ability": "stonetouch"},
                 {"ability": "stonestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "stone ward"},
                 {"ability": "stoneproof"},
                 {"ability": "no encounters"}
@@ -2810,7 +2810,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -2849,7 +2849,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
                 {"ability": "magic def +3%"}
@@ -2885,7 +2885,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -2924,7 +2924,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability":"defence +3%"}
             ]
@@ -2959,7 +2959,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -2996,7 +2996,7 @@
                 {"ability": "silencetouch"},
                 {"ability": "distill ability"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"}
             ]
         },
@@ -3030,7 +3030,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3067,7 +3067,7 @@
                 {"ability": "silencetouch"},
                 {"ability": "distill ability"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +10%"},
                 {"ability": "hp +5%"}
             ]
@@ -3102,7 +3102,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3139,7 +3139,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "sos overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +5%"}
             ]
         },
@@ -3173,7 +3173,7 @@
             "zombie": 0,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3214,7 +3214,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "confuse ward"},
                 {"ability": "mp +10%"}
             ]
@@ -3249,7 +3249,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3290,7 +3290,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "confuse ward"},
                 {"ability": "mp +5%"}
             ]
@@ -3325,7 +3325,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3360,7 +3360,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "stonetouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "stone ward"}
             ]
         },
@@ -3394,7 +3394,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -3436,7 +3436,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -3476,7 +3476,7 @@
             "zombie": "auto",
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -3513,7 +3513,7 @@
                 {"ability": "magic +5%", "characters": "except Yuna and Lulu"},
                 {"ability": "sleeptouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sleep ward"},
                 {"ability": "mp +10%"}
             ]
@@ -3548,7 +3548,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3586,7 +3586,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -3623,7 +3623,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -3659,7 +3659,7 @@
                 {"ability": "magic counter"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "zombie ward"},
                 {"ability": "magic def +5%"}
             ]
@@ -3694,7 +3694,7 @@
             "zombie": ["auto", 100],
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -3730,7 +3730,7 @@
                 {"ability": "firestrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "fireproof"}
             ]
@@ -3765,7 +3765,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3806,7 +3806,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "confuse ward"},
                 {"ability": "confuseproof"},
                 {"ability": "mp +10%"}
@@ -3842,7 +3842,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3883,7 +3883,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "confuse ward"},
                 {"ability": "mp +5%"}
             ]
@@ -3918,7 +3918,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -3954,7 +3954,7 @@
                 {"ability": "strength +3%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sleep ward"},
                 {"ability": "mp +5%"}
             ]
@@ -3989,7 +3989,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -4025,7 +4025,7 @@
                 {"ability": "lightningstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "lightning ward"},
                 {"ability": "magic def +3%"}
             ]
@@ -4060,7 +4060,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -4099,7 +4099,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
                 {"ability": "magic def +3%"}
@@ -4135,7 +4135,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -4172,7 +4172,7 @@
                 {"ability": "strength +3%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"}
             ]
         },
@@ -4206,7 +4206,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -4244,7 +4244,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"}
             ]
         },
@@ -4278,7 +4278,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -4315,7 +4315,7 @@
                 {"ability": "strength +3%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"}
             ]
         },
@@ -4349,7 +4349,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -4385,7 +4385,7 @@
                 {"ability": "strength +10%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +10%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos regen"},
                 {"ability": "hp +10%"}
             ]
@@ -4420,7 +4420,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -4456,7 +4456,7 @@
                 {"ability": "strength +10%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +10%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos regen"},
                 {"ability": "hp +10%"}
             ]
@@ -4491,7 +4491,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -4525,7 +4525,7 @@
             "wpn_abilities": [
                 {"ability": "no encounters"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "auto-reflect"}
             ]
         },
@@ -4559,7 +4559,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -4596,7 +4596,7 @@
                 {"ability": "magic +5%"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "death ward"},
                 {"ability": "no encounters"},
                 {"ability": "mp +10%"}
@@ -4632,7 +4632,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -4668,7 +4668,7 @@
                 {"ability": "lightningstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "lightning ward"},
                 {"ability": "lightningproof"}
             ]
@@ -4703,7 +4703,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -4740,7 +4740,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "poisontouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poison ward"},
                 {"ability": "hp +10%"},
                 {"ability": "hp +5%"}
@@ -4776,7 +4776,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 50,
@@ -4814,7 +4814,7 @@
                 {"ability": "sleeptouch"},
                 {"ability": "poisontouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
@@ -4854,7 +4854,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 50,
-            "armour_break": 50,
+            "armor_break": 50,
             "mental_break": 50,
             "threaten": 100,
             "death": 100,
@@ -4890,7 +4890,7 @@
                 {"ability": "firestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "fireproof"}
             ]
@@ -4925,7 +4925,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 50,
@@ -4962,7 +4962,7 @@
                 {"ability": "silencetouch"},
                 {"ability": "distill ability"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +10%"}
             ]
         },
@@ -4996,7 +4996,7 @@
             "zombie": 25,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 50,
@@ -5036,7 +5036,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "sensor"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "mp +5%"},
                 {"ability": "magic def +3%"}
@@ -5072,7 +5072,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 10,
@@ -5112,7 +5112,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "sensor"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "mp +5%"},
                 {"ability": "magic def +3%"}
@@ -5148,7 +5148,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 25,
@@ -5187,7 +5187,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "sensor"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "mp +5%"},
                 {"ability": "magic def +3%"}
@@ -5223,7 +5223,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 25,
@@ -5262,7 +5262,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "berserk ward"},
                 {"ability": "berserkproof"}
             ]
@@ -5297,7 +5297,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5333,7 +5333,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ice ward"},
                 {"ability": "iceproof"}
             ]
@@ -5368,7 +5368,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5407,7 +5407,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "defence +5%"}
             ]
@@ -5442,7 +5442,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5478,7 +5478,7 @@
                 {"ability": "lightningstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "lightning ward"},
                 {"ability": "lightningproof"}
             ]
@@ -5513,7 +5513,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5552,7 +5552,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "defence +3%"}
             ]
@@ -5587,7 +5587,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5625,7 +5625,7 @@
                 {"ability": "magic +10%", "characters": "Yuna and Lulu"},
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos regen"},
                 {"ability": "hp +10%"},
                 {"ability": "hp +5%"}
@@ -5661,7 +5661,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -5700,7 +5700,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poison ward"},
                 {"ability": "mp +5%"}
             ]
@@ -5735,7 +5735,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5770,7 +5770,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "sensor"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +5%"}
             ]
         },
@@ -5804,7 +5804,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -5836,7 +5836,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [1500, 400],
@@ -5868,7 +5868,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5907,7 +5907,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "defence +5%"}
             ]
@@ -5942,7 +5942,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -5981,7 +5981,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "hp +5%"}
             ]
@@ -6016,7 +6016,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -6054,7 +6054,7 @@
                 {"ability": "slowtouch"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "auto-potion"},
                 {"ability": "hp +10%"}
             ]
@@ -6089,7 +6089,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 50,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -6124,7 +6124,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "lightningstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "lightning ward"}
             ]
         },
@@ -6158,7 +6158,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -6194,7 +6194,7 @@
                 {"ability": "strength +5%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
@@ -6234,7 +6234,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -6271,7 +6271,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "sos overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"}
             ]
@@ -6306,7 +6306,7 @@
             "zombie": 0,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -6342,7 +6342,7 @@
                 {"ability": "strength +5%"},
                 {"ability": "strength +3%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "zombie ward"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -6378,7 +6378,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -6417,7 +6417,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "berserk ward"},
                 {"ability": "defence +5%"}
             ]
@@ -6452,7 +6452,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -6484,7 +6484,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [999999, 999999],
@@ -6516,7 +6516,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -6554,7 +6554,7 @@
                 {"ability": "sleeptouch"},
                 {"ability": "poisontouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
@@ -6594,7 +6594,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -6630,7 +6630,7 @@
                 {"ability": "strength +5%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
@@ -6670,7 +6670,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 50,
@@ -6709,7 +6709,7 @@
                 {"ability": "deathtouch"},
                 {"ability": "deathstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "death ward"},
                 {"ability": "deathproof"},
                 {"ability": "curseproof"},
@@ -6747,7 +6747,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -6783,7 +6783,7 @@
                 {"ability": "deathstrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "death ward"},
                 {"ability": "deathproof"}
             ]
@@ -6818,7 +6818,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -6853,7 +6853,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "sleeptouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sleep ward"},
                 {"ability": "magic def +5%"}
             ]
@@ -6888,7 +6888,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -6926,7 +6926,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -6966,7 +6966,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -7004,7 +7004,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -7041,7 +7041,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -7079,7 +7079,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -7119,7 +7119,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -7157,7 +7157,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -7197,7 +7197,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -7235,7 +7235,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -7272,7 +7272,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -7310,7 +7310,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -7347,7 +7347,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -7385,7 +7385,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -7422,7 +7422,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -7461,7 +7461,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "defence +3%"}
             ]
@@ -7496,7 +7496,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -7535,7 +7535,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
                 {"ability": "magic def +3%"}
@@ -7571,7 +7571,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -7603,7 +7603,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [60000, 13560],
@@ -7635,7 +7635,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -7667,7 +7667,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [40000, 13560],
@@ -7699,7 +7699,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -7731,7 +7731,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [40000, 13560],
@@ -7763,7 +7763,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -7795,7 +7795,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [40000, 13560],
@@ -7827,7 +7827,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -7866,7 +7866,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "berserk ward"},
                 {"ability": "defence +5%"}
             ]
@@ -7901,7 +7901,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -7940,7 +7940,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "hp +10%"}
             ]
@@ -7975,7 +7975,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8014,7 +8014,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poison ward"}
             ]
         },
@@ -8048,7 +8048,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8084,7 +8084,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "lightningstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -8121,7 +8121,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -8160,7 +8160,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"}
             ]
         },
@@ -8194,7 +8194,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8229,7 +8229,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "lightningstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +3%"}
             ]
         },
@@ -8263,7 +8263,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -8300,7 +8300,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "poisontouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
@@ -8340,7 +8340,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8377,7 +8377,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "waterstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "water ward"},
                 {"ability": "hp +5%"}
             ]
@@ -8412,7 +8412,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -8449,7 +8449,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "counter-attack"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos haste"},
                 {"ability": "hp +10%"}
             ]
@@ -8484,7 +8484,7 @@
             "zombie": 25,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 25,
@@ -8518,7 +8518,7 @@
             "wpn_abilities": [
                 {"ability": "triple overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "break hp limit"}
             ]
         },
@@ -8552,7 +8552,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -8588,7 +8588,7 @@
                 {"ability": "strength +5%"},
                 {"ability": "magic +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "auto-med"},
                 {"ability": "mp +10%"}
             ]
@@ -8623,7 +8623,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8655,7 +8655,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [50, 225],
@@ -8687,7 +8687,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8719,7 +8719,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [100, 225],
@@ -8751,7 +8751,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8783,7 +8783,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [150, 225],
@@ -8815,7 +8815,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -8851,7 +8851,7 @@
                 {"ability": "firestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fireproof"},
                 {"ability": "fire eater"}
             ]
@@ -8886,7 +8886,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 120,
@@ -8923,7 +8923,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "initiative"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "hp stroll"},
                 {"ability": "mp stroll"}
@@ -8959,7 +8959,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 0,
             "death": 25,
@@ -8996,7 +8996,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "poisontouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poison ward"},
                 {"ability": "hp +5%"}
             ]
@@ -9031,7 +9031,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9070,7 +9070,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "berserk ward"},
                 {"ability": "defence +3%"}
             ]
@@ -9105,7 +9105,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9144,7 +9144,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "defence +3%"}
             ]
@@ -9179,7 +9179,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9215,7 +9215,7 @@
                 {"ability": "firestrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "fireproof"}
             ]
@@ -9250,7 +9250,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9286,7 +9286,7 @@
                 {"ability": "strength +3%"},
                 {"ability": "magic +3%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "zombie ward"},
                 {"ability": "defence +5%"}
             ]
@@ -9321,7 +9321,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9353,7 +9353,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [100, 200],
@@ -9385,7 +9385,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9422,7 +9422,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "waterstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "water ward"},
                 {"ability": "hp +5%"}
             ]
@@ -9457,7 +9457,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9494,7 +9494,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "waterstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "water ward"},
                 {"ability": "hp +5%"}
             ]
@@ -9529,7 +9529,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9561,7 +9561,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [170, 340],
@@ -9593,7 +9593,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9628,7 +9628,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "half mp cost"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "mp +10%"}
             ]
         },
@@ -9662,7 +9662,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 50,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -9701,7 +9701,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
                 {"ability": "magic def +5%"}
@@ -9737,7 +9737,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -9774,7 +9774,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "slowtouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "auto-potion"},
                 {"ability": "hp +10%"}
             ]
@@ -9809,7 +9809,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -9846,7 +9846,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "poisontouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poison ward"},
                 {"ability": "hp +10%"},
                 {"ability": "hp +5%"}
@@ -9882,7 +9882,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 25,
@@ -9918,7 +9918,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "silencestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silenceproof"}
             ]
         },
@@ -9952,7 +9952,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 50,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -9988,7 +9988,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "silencestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silenceproof"}
             ]
         },
@@ -10022,7 +10022,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 50,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -10061,7 +10061,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos shell"}
             ]
         },
@@ -10095,7 +10095,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -10128,7 +10128,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [4000, "-"],
@@ -10160,7 +10160,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 50,
+            "armor_break": 50,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -10196,7 +10196,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "darkstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos shell"}
             ]
         },
@@ -10230,7 +10230,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -10263,7 +10263,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [4000, "-"],
@@ -10295,7 +10295,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -10331,7 +10331,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "magic +20%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos shell"},
                 {"ability": "sos protect"},
                 {"ability": "sos haste"}
@@ -10367,7 +10367,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -10400,7 +10400,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [1, 1],
@@ -10432,7 +10432,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -10471,7 +10471,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "berserk ward"}
             ]
         },
@@ -10505,7 +10505,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -10541,7 +10541,7 @@
                 {"ability": "sensor"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "magic def +3%"}
             ]
@@ -10576,7 +10576,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -10612,7 +10612,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slowproof"}
             ]
         },
@@ -10646,7 +10646,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -10682,7 +10682,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -10719,7 +10719,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -10757,7 +10757,7 @@
                 {"ability": "sleepstrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silenceproof"}
             ]
         },
@@ -10791,7 +10791,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -10826,7 +10826,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "poisonstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poisonproof"}
             ]
         },
@@ -10860,7 +10860,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -10895,7 +10895,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "stonestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "stoneproof"}
             ]
         },
@@ -10929,7 +10929,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -10961,7 +10961,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [100, 500],
@@ -10993,7 +10993,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -11026,7 +11026,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [200, 400],
@@ -11058,7 +11058,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -11091,7 +11091,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [100, 300],
@@ -11123,7 +11123,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 0,
@@ -11155,7 +11155,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [2400, 1000],
@@ -11187,7 +11187,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -11223,7 +11223,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "waterstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "water ward"}
             ]
         },
@@ -11257,7 +11257,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -11293,7 +11293,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "zombiestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "zombieproof"}
             ]
         },
@@ -11327,7 +11327,7 @@
             "zombie": [80, 100],
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -11363,7 +11363,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "darktouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"}
             ]
         },
@@ -11397,7 +11397,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -11433,7 +11433,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "darktouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"}
             ]
         },
@@ -11467,7 +11467,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -11500,7 +11500,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [450, 500],
@@ -11532,7 +11532,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -11568,7 +11568,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "sleepstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sleepproof"}
             ]
         },
@@ -11602,7 +11602,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -11638,7 +11638,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "sleepstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sleepproof"}
             ]
         },
@@ -11672,7 +11672,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -11714,7 +11714,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -11751,7 +11751,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -11790,7 +11790,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -11827,7 +11827,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -11866,7 +11866,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -11903,7 +11903,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -11942,7 +11942,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"}
             ]
@@ -11977,7 +11977,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12013,7 +12013,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ice ward"},
                 {"ability": "iceproof"}
             ]
@@ -12048,7 +12048,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12087,7 +12087,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"},
                 {"ability": "magic def +5%"}
@@ -12123,7 +12123,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12161,7 +12161,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fireproof"},
                 {"ability": "lightningproof"},
                 {"ability": "waterproof"},
@@ -12198,7 +12198,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -12236,7 +12236,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -12273,7 +12273,7 @@
             "zombie": [0, 100],
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 75,
             "death": 100,
@@ -12309,7 +12309,7 @@
                 {"ability": "sleeptouch"},
                 {"ability": "sleepstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sleepproof"},
                 {"ability": "magic def +20%"}
             ]
@@ -12344,7 +12344,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -12381,7 +12381,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "waterstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "defence +3%"}
             ]
@@ -12416,7 +12416,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12453,7 +12453,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "waterstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "defence +3%"}
             ]
@@ -12488,7 +12488,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12525,7 +12525,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "waterstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +5%"},
                 {"ability": "defence +3%"}
             ]
@@ -12560,7 +12560,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12599,7 +12599,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "berserk ward"},
                 {"ability": "defence +5%"}
             ]
@@ -12634,7 +12634,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12673,7 +12673,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "sleeptouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sleep ward"},
                 {"ability": "mp +5%"}
             ]
@@ -12708,7 +12708,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 25,
@@ -12744,7 +12744,7 @@
                 {"ability": "lightningstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "lightning ward"},
                 {"ability": "lightningproof"}
             ]
@@ -12779,7 +12779,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -12815,7 +12815,7 @@
                 {"ability": "deathtouch"},
                 {"ability": "slowtouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "death ward"}
             ]
         },
@@ -12849,7 +12849,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -12881,7 +12881,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [2200, 600],
@@ -12913,7 +12913,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -12947,7 +12947,7 @@
             "wpn_abilities": [
                 {"ability": "double overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "break mp limit"}
             ]
         },
@@ -12981,7 +12981,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -13018,7 +13018,7 @@
                 {"ability": "silencetouch"},
                 {"ability": "distill ability"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +10%"}
             ]
         },
@@ -13052,7 +13052,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -13088,7 +13088,7 @@
                 {"ability": "magic +10%"},
                 {"ability": "double overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos shell"},
                 {"ability": "magic def +10%"}
             ]
@@ -13123,7 +13123,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -13158,7 +13158,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "hp +5%"}
             ]
@@ -13193,7 +13193,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -13232,7 +13232,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "hp +5%"}
             ]
@@ -13267,7 +13267,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -13303,7 +13303,7 @@
                 {"ability": "magic counter"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "death ward"},
                 {"ability": "magic def +5%"}
             ]
@@ -13338,7 +13338,7 @@
             "zombie": 25,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -13377,7 +13377,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill power"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "poison ward"},
                 {"ability": "mp +10%"}
             ]
@@ -13412,7 +13412,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -13448,7 +13448,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "water ward"},
                 {"ability": "waterproof"}
             ]
@@ -13483,7 +13483,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -13519,7 +13519,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "counter-attack"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos haste"},
                 {"ability": "hp +10%"}
             ]
@@ -13554,7 +13554,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -13590,7 +13590,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ice ward"},
                 {"ability": "iceproof"}
             ]
@@ -13625,7 +13625,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -13663,7 +13663,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "sos nulblaze"},
                 {"ability": "sos nulshock"},
                 {"ability": "sos nultide"},
@@ -13700,7 +13700,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -13737,7 +13737,7 @@
                 {"ability": "magic +5%"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "no encounters"},
                 {"ability": "mp +10%"}
             ]
@@ -13772,7 +13772,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -13809,7 +13809,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "sos overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +5%"}
             ]
         },
@@ -13843,7 +13843,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -13879,7 +13879,7 @@
                 {"ability": "strength +5%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -13916,7 +13916,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -13954,7 +13954,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -13991,7 +13991,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -14027,7 +14027,7 @@
                 {"ability": "lightningstrike"},
                 {"ability": "distill mana"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "lightning ward"}
             ]
         },
@@ -14061,7 +14061,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -14096,7 +14096,7 @@
             "wpn_abilities": [
                 {"ability": "piercing"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "mp +20%"}
             ]
         },
@@ -14130,7 +14130,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -14166,7 +14166,7 @@
                 {"ability": "strength +5%", "characters": "except Yuna and Lulu"},
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -14203,7 +14203,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -14241,7 +14241,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire ward"},
                 {"ability": "lightning ward"},
                 {"ability": "water ward"},
@@ -14278,7 +14278,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -14317,7 +14317,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"}
             ]
         },
@@ -14351,7 +14351,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -14387,7 +14387,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [5000, "-"],
@@ -14419,7 +14419,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -14452,7 +14452,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [99999, 99999],
@@ -14484,7 +14484,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -14519,7 +14519,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "zombiestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "zombieproof"}
             ]
         },
@@ -14553,7 +14553,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 75,
             "death": 100,
@@ -14592,7 +14592,7 @@
                 {"ability": "icestrike"},
                 {"ability": "distill speed"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "slow ward"},
                 {"ability": "slowproof"}
             ]
@@ -14627,7 +14627,7 @@
             "zombie": 0,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 0,
@@ -14664,7 +14664,7 @@
                 {"ability": "magic +3%", "characters": "Yuna and Lulu"},
                 {"ability": "darktouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"}
             ]
         },
@@ -14698,7 +14698,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -14735,7 +14735,7 @@
                 {"ability": "magic +5%", "characters": "Yuna and Lulu"},
                 {"ability": "darktouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"}
             ]
         },
@@ -14769,7 +14769,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 100,
             "death": 100,
@@ -14801,7 +14801,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [20000, 20000],
@@ -14833,7 +14833,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -14866,7 +14866,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [12000, 2550],
@@ -14898,7 +14898,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -14930,7 +14930,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [3000, 2550],
@@ -14962,7 +14962,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -14994,7 +14994,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [28000, 28000],
@@ -15026,7 +15026,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15059,7 +15059,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [8000, 2550],
@@ -15091,7 +15091,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15123,7 +15123,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [6000, 924],
@@ -15155,7 +15155,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15187,7 +15187,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [30000, 30000],
@@ -15219,7 +15219,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15251,7 +15251,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [15000, 1432],
@@ -15283,7 +15283,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15315,7 +15315,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [20000, 20000],
@@ -15347,7 +15347,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15379,7 +15379,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [35000, 35000],
@@ -15411,7 +15411,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15444,7 +15444,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [20000, 2550],
@@ -15476,7 +15476,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15508,7 +15508,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [33000, 4060],
@@ -15540,7 +15540,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15572,7 +15572,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [32000, 32000],
@@ -15604,7 +15604,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15642,7 +15642,7 @@
                 {"ability": "silencetouch"},
                 {"ability": "sleeptouch"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "dark ward"},
                 {"ability": "silence ward"},
                 {"ability": "sleep ward"}
@@ -15678,7 +15678,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15710,7 +15710,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [54000, 54000],
@@ -15742,7 +15742,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15775,7 +15775,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [48000, 48000],
@@ -15807,7 +15807,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15840,7 +15840,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [35000, 35000],
@@ -15872,7 +15872,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15905,7 +15905,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [20000, 20000],
@@ -15937,7 +15937,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -15973,7 +15973,7 @@
                 {"ability": "magic +10%"},
                 {"ability": "magic +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +30%"},
                 {"ability": "hp +20%"},
                 {"ability": "hp +10%"}
@@ -16009,7 +16009,7 @@
             "zombie": 100,
             "power_break": 90,
             "magic_break": 90,
-            "armour_break": 90,
+            "armor_break": 90,
             "mental_break": 90,
             "threaten": 100,
             "death": 100,
@@ -16049,7 +16049,7 @@
                 {"ability": "zombiestrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -16089,7 +16089,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16125,7 +16125,7 @@
                 {"ability": "evade and counter"},
                 {"ability": "magic counter"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +30%"},
                 {"ability": "hp +20%"},
                 {"ability": "hp +10%"}
@@ -16161,7 +16161,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16196,7 +16196,7 @@
                 {"ability": "double ap"},
                 {"ability": "deathstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -16236,7 +16236,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16276,7 +16276,7 @@
                 {"ability": "zombiestrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -16316,7 +16316,7 @@
             "zombie": 100,
             "power_break": 90,
             "magic_break": 90,
-            "armour_break": 90,
+            "armor_break": 90,
             "mental_break": 90,
             "threaten": 100,
             "death": 100,
@@ -16352,7 +16352,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -16388,7 +16388,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16424,7 +16424,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -16460,7 +16460,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 0,
-            "armour_break": 0,
+            "armor_break": 0,
             "mental_break": 0,
             "threaten": 0,
             "death": 100,
@@ -16496,7 +16496,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -16532,7 +16532,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16568,7 +16568,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire eater"},
                 {"ability": "water eater"},
                 {"ability": "ice eater"}
@@ -16604,7 +16604,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 50,
-            "armour_break": 50,
+            "armor_break": 50,
             "mental_break": 50,
             "threaten": 100,
             "death": 100,
@@ -16644,7 +16644,7 @@
                 {"ability": "zombiestrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -16684,7 +16684,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16724,7 +16724,7 @@
                 {"ability": "zombiestrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -16764,7 +16764,7 @@
             "zombie": 100,
             "power_break": 50,
             "magic_break": 50,
-            "armour_break": 50,
+            "armor_break": 50,
             "mental_break": 50,
             "threaten": 100,
             "death": 100,
@@ -16800,7 +16800,7 @@
                 {"ability": "magic +10%"},
                 {"ability": "magic +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "magic def +20%"},
                 {"ability": "magic def +10%"},
                 {"ability": "magic def +5%"}
@@ -16836,7 +16836,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16872,7 +16872,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -16908,7 +16908,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -16948,7 +16948,7 @@
                 {"ability": "zombiestrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -16988,7 +16988,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 99,
+            "armor_break": 99,
             "mental_break": 99,
             "threaten": 100,
             "death": 100,
@@ -17022,7 +17022,7 @@
             "wpn_abilities": [
                 {"ability": "double overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -17058,7 +17058,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -17094,7 +17094,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -17130,7 +17130,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -17166,7 +17166,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -17202,7 +17202,7 @@
             "zombie": 100,
             "power_break": 95,
             "magic_break": 95,
-            "armour_break": 95,
+            "armor_break": 95,
             "mental_break": 95,
             "threaten": 100,
             "death": 100,
@@ -17236,7 +17236,7 @@
             "wpn_abilities": [
                 {"ability": "double ap"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "mp +30%"},
                 {"ability": "mp +20%"},
                 {"ability": "mp +10%"}
@@ -17272,7 +17272,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 80,
-            "armour_break": 99,
+            "armor_break": 99,
             "mental_break": 80,
             "threaten": 100,
             "death": 100,
@@ -17306,7 +17306,7 @@
             "wpn_abilities": [
                 {"ability": "triple ap"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "mp +30%"},
                 {"ability": "mp +20%"},
                 {"ability": "mp +10%"}
@@ -17342,7 +17342,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 0,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -17376,7 +17376,7 @@
             "wpn_abilities": [
                 {"ability": "magic booster"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire eater"},
                 {"ability": "water eater"},
                 {"ability": "ice eater"}
@@ -17412,7 +17412,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -17449,7 +17449,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire eater"},
                 {"ability": "lightning eater"},
                 {"ability": "water eater"},
@@ -17486,7 +17486,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -17522,7 +17522,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -17558,7 +17558,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 90,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 99,
             "threaten": 100,
             "death": 100,
@@ -17595,7 +17595,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "fire eater"},
                 {"ability": "water eater"},
                 {"ability": "ice eater"}
@@ -17631,7 +17631,7 @@
             "zombie": 100,
             "power_break": 95,
             "magic_break": 95,
-            "armour_break": 95,
+            "armor_break": 95,
             "mental_break": 95,
             "threaten": 100,
             "death": 100,
@@ -17671,7 +17671,7 @@
                 {"ability": "zombiestrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -17711,7 +17711,7 @@
             "zombie": 100,
             "power_break": 0,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -17747,7 +17747,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -17783,7 +17783,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -17819,7 +17819,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "defence +20%"},
                 {"ability": "defence +10%"},
                 {"ability": "defence +5%"}
@@ -17855,7 +17855,7 @@
             "zombie": 100,
             "power_break": 95,
             "magic_break": 95,
-            "armour_break": 95,
+            "armor_break": 95,
             "mental_break": 95,
             "threaten": 100,
             "death": 100,
@@ -17891,7 +17891,7 @@
                 {"ability": "strength +10%"},
                 {"ability": "strength +5%"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +30%"},
                 {"ability": "hp +20%"},
                 {"ability": "hp +10%"}
@@ -17927,7 +17927,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 95,
-            "armour_break": 95,
+            "armor_break": 95,
             "mental_break": 95,
             "threaten": 100,
             "death": 100,
@@ -17961,7 +17961,7 @@
             "wpn_abilities": [
                 {"ability": "triple overdrive"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "auto-potion"}
             ]
         },
@@ -17995,7 +17995,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18029,7 +18029,7 @@
             "wpn_abilities": [
                 {"ability": "one mp cost"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "auto-phoenix"}
             ]
         },
@@ -18063,7 +18063,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18103,7 +18103,7 @@
                 {"ability": "zombiestrike"},
                 {"ability": "slowstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "darkproof"},
                 {"ability": "silenceproof"},
                 {"ability": "sleepproof"},
@@ -18143,7 +18143,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18178,7 +18178,7 @@
                 {"ability": "triple overdrive"},
                 {"ability": "triple ap"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +30%"},
                 {"ability": "hp +20%"},
                 {"ability": "hp +10%"}
@@ -18214,7 +18214,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18249,7 +18249,7 @@
                 {"ability": "piercing", "characters": "Kimahri and Auron"},
                 {"ability": "triple ap"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "hp +30%"},
                 {"ability": "hp +20%"},
                 {"ability": "hp +10%"}
@@ -18285,7 +18285,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18322,7 +18322,7 @@
                 {"ability": "triple ap"},
                 {"ability": "overdrive -> ap"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "break mp limit"}
             ]
         },
@@ -18356,7 +18356,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18389,7 +18389,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [80000, 1],
@@ -18421,7 +18421,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18454,7 +18454,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [80000, 1],
@@ -18486,7 +18486,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18520,7 +18520,7 @@
             "wpn_abilities": [
                 {"ability": "double ap"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "auto-med"}
             ]
         },
@@ -18554,7 +18554,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18588,7 +18588,7 @@
             "wpn_abilities": [
                 {"ability": "break damage limit"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "break hp limit"}
             ]
         },
@@ -18622,7 +18622,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18661,7 +18661,7 @@
                 {"ability": "waterstrike"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "auto-regen"}
@@ -18697,7 +18697,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18732,7 +18732,7 @@
                 {"ability": "break damage limit"},
                 {"ability": "firestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "fire eater"}
@@ -18768,7 +18768,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18803,7 +18803,7 @@
                 {"ability": "break damage limit"},
                 {"ability": "lightningstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "lightning eater"}
@@ -18839,7 +18839,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18874,7 +18874,7 @@
                 {"ability": "break damage limit"},
                 {"ability": "lightningstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "lightning eater"}
@@ -18910,7 +18910,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -18945,7 +18945,7 @@
                 {"ability": "break damage limit"},
                 {"ability": "icestrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "ice eater"}
@@ -18981,7 +18981,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19018,7 +19018,7 @@
                 {"ability": "double overdrive"},
                 {"ability": "double ap"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "auto-protect"}
@@ -19054,7 +19054,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19091,7 +19091,7 @@
                 {"ability": "counter-attack"},
                 {"ability": "magic counter"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "curseproof"}
@@ -19127,7 +19127,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19164,7 +19164,7 @@
                 {"ability": "one mp cost"},
                 {"ability": "deathstrike"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "deathproof"}
@@ -19200,7 +19200,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19238,7 +19238,7 @@
                 {"ability": "gillionaire"},
                 {"ability": "alchemy"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "auto-phoenix"}
@@ -19274,7 +19274,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19312,7 +19312,7 @@
                 {"ability": "evade and counter"},
                 {"ability": "magic counter"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "auto-shell"}
@@ -19348,7 +19348,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19386,7 +19386,7 @@
                 {"ability": "one mp cost"},
                 {"ability": "magic booster"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"},
                 {"ability": "break hp limit"},
                 {"ability": "auto-haste"}
@@ -19422,7 +19422,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19457,7 +19457,7 @@
             "wpn_abilities": [
                 {"ability": "break damage limit"}
             ],
-            "armour_abilities": [
+            "armor_abilities": [
                 {"ability": "ribbon"}
             ]
         },
@@ -19491,7 +19491,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,
@@ -19524,7 +19524,7 @@
             "slots_amount": "0",
             "attached_abilities": "0",
             "wpn_abilities": null,
-            "armour_abilities": null
+            "armor_abilities": null
         },
         "stats": {
             "hp": [500000, 99999],
@@ -19556,7 +19556,7 @@
             "zombie": 100,
             "power_break": 100,
             "magic_break": 100,
-            "armour_break": 100,
+            "armor_break": 100,
             "mental_break": 100,
             "threaten": 100,
             "death": 100,

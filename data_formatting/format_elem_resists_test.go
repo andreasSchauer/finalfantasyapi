@@ -31,7 +31,7 @@ func TestFormatElemResists(t *testing.T) {
 				},
 				{
 					Element: "water",
-					Affinity: "resist",
+					Affinity: "halved",
 				},
 				{
 					Element: "ice",

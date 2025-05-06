@@ -5,6 +5,36 @@ import (
 	"testing"
 )
 
+
+func TestGetDemiResistance(t *testing.T) {
+	tests := []struct {
+		input 				float64
+		expected 	int
+	}{
+		{
+			input: float64(1),
+			expected: 0,
+		},
+		{
+			input: float64(0),
+			expected: 100,
+		},
+	}
+	
+	for i, tc := range tests {
+		elemResists := make(map[string]any)
+		elemResists["gravity"] = tc.input
+
+		mon := MonsterOld{
+			ElemResists: elemResists,
+		}
+		actual := mon.getDemiResistance()
+		if !reflect.DeepEqual(actual, tc.expected) {
+			t.Errorf("getDemiResistance: Testcase %d: input: %v. expectedResistance: %d, actualResistance: %d", i, tc.input, tc.expected, actual)
+		}
+	}
+}
+
 func TestSplitDoom(t *testing.T) {
 	tests := []struct {
 		input 				[]int

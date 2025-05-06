@@ -36,7 +36,7 @@ func convertAffinity(multiplier any) string {
 		case 1:
 			return "neutral"
 		case 0.5:
-			return "resist"
+			return "halved"
 		case 0:
 			return "immune"
 		case -1:

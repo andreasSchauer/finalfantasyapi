@@ -4,16 +4,16 @@ type WpnAbilityOld struct {
 	Ability    string `json:"ability"`
 	Characters string `json:"characters,omitempty"`
 }
-type ArmourAbilityOld struct {
+type ArmorAbilityOld struct {
 	Ability string `json:"ability"`
 }
 
 type EquipmentOld struct {
-	DropRate          float64              `json:"drop_rate"`
-	SlotsAmount       string               `json:"slots_amount"`
-	AttachedAbilities string               `json:"attached_abilities"`
-	WpnAbilities      []WpnAbilityOld      `json:"wpn_abilities"`
-	ArmourAbilities   []ArmourAbilityOld `json:"armour_abilities"`
+	DropRate          float64            `json:"drop_rate"`
+	SlotsAmount       string             `json:"slots_amount"`
+	AttachedAbilities string             `json:"attached_abilities"`
+	WpnAbilities      []WpnAbilityOld    `json:"wpn_abilities"`
+	ArmorAbilities    []ArmorAbilityOld  `json:"armor_abilities"`
 }
 
 type StatsOld struct {
@@ -40,24 +40,24 @@ type StatusResistsOld struct {
 	Life         int   `json:"life"`
 	PowerBreak   int   `json:"power_break"`
 	MagicBreak   int   `json:"magic_break"`
-	ArmourBreak  int   `json:"armour_break"`
+	ArmorBreak   int   `json:"armor_break"`
 	MentalBreak  int   `json:"mental_break"`
 	Threaten     int   `json:"threaten"`
 	Death        int   `json:"death"`
 	Provoke      int   `json:"provoke"`
 	Doom         []int `json:"doom"`
-	NulMagic	 int   `json:"nul_magic"`
+	NulMagic     int   `json:"nul_magic"`
 	Shell        int   `json:"shell"`
-	Protect		 int   `json:"protect"`
-	Reflect		 int   `json:"reflect"`
-	Haste		 int   `json:"haste"`
-	Regen		 int   `json:"regen"`
-	Distiller	 int   `json:"distiller"`
-	Sensor		 int   `json:"sensor"`
-	Scan		 int   `json:"scan"`
+	Protect      int   `json:"protect"`
+	Reflect      int   `json:"reflect"`
+	Haste        int   `json:"haste"`
+	Regen        int   `json:"regen"`
+	Distiller    int   `json:"distiller"`
+	Sensor       int   `json:"sensor"`
+	Scan         int   `json:"scan"`
 	Delay        int   `json:"delay"`
 	Eject        int   `json:"eject"`
-	Berserk		 int   `json:"berserk"`
+	Berserk      int   `json:"berserk"`
 	ZanmatoLevel int   `json:"zanmato_level"`
 }
 type MonsterOld struct {
@@ -91,17 +91,17 @@ type WpnAbility struct {
 	Ability    string     `json:"ability"`
 	Characters Characters `json:"characters"`
 }
-type ArmourAbility struct {
+type ArmorAbility struct {
 	Ability string `json:"ability"`
 }
 type Equipment struct {
-	DropRate             float64         `json:"drop_rate"`
-	MinSlotsAmount       int             `json:"min_slots_amount"`
-	MaxSlotsAmount       int             `json:"max_slots_amount"`
-	MinAttachedAbilities int             `json:"min_attached_abilities"`
-	MaxAttachedAbilities int             `json:"max_attached_abilities"`
-	WpnAbilities         []WpnAbility    `json:"wpn_abilities"`
-	ArmourAbilities      []ArmourAbility `json:"armour_abilities"`
+	DropRate             float64        `json:"drop_rate"`
+	MinSlotsAmount       int            `json:"min_slots_amount"`
+	MaxSlotsAmount       int            `json:"max_slots_amount"`
+	MinAttachedAbilities int            `json:"min_attached_abilities"`
+	MaxAttachedAbilities int            `json:"max_attached_abilities"`
+	WpnAbilities         []WpnAbility   `json:"wpn_abilities"`
+	ArmorAbilities       []ArmorAbility `json:"armor_abilities"`
 }
 type Stats struct {
 	HP             int  `json:"hp"`
@@ -136,26 +136,26 @@ type StatusResists struct {
 }
 
 type Monster struct {
-	Location      	[]string        	`json:"location"`
-	Species		  	string				`json:"species"`
-	IsReoccurring 	bool            	`json:"is_reoccurring"`
-	IsCatchable   	bool            	`json:"is_catchable"`
-	IsBoss        	bool            	`json:"is_boss"`
-	IsZombie      	bool           		`json:"is_zombie"`
-	IsTough		  	bool				`json:"is_tough"`
-	IsHeavy		  	bool				`json:"is_heavy"`
-	IsArmored	  	bool				`json:"is_armored"`
-	HasOverdrive  	bool				`json:"has_overdrive"`
-	ImmuneToPhysDmg bool				`json:"immune_to_phys_dmg"`
-	ImmuneToMagDmg 	bool				`json:"immune_to_mag_dmg"`
-	Allies        	[]string          	`json:"allies"`
-	Ap            	int               	`json:"ap"`
-	ApOverkill    	int               	`json:"ap_overkill"`
-	Gil           	int               	`json:"gil"`
-	RonsoRage     	[]string          	`json:"ronso_rage"`
-	Items         	map[string][]Item 	`json:"items"`
-	Equipment     	Equipment         	`json:"equipment"`
-	Stats         	Stats             	`json:"stats"`
-	ElemResists   	[]ElemResist      	`json:"elem_resists"`
-	StatusResists 	StatusResists     	`json:"status_resists"`
+	Location        []string          `json:"location"`
+	Species         string            `json:"species"`
+	IsReoccurring   bool              `json:"is_reoccurring"`
+	IsCatchable     bool              `json:"is_catchable"`
+	IsBoss          bool              `json:"is_boss"`
+	IsZombie        bool              `json:"is_zombie"`
+	IsTough         bool              `json:"is_tough"`
+	IsHeavy         bool              `json:"is_heavy"`
+	IsArmored       bool              `json:"is_armored"`
+	HasOverdrive    bool              `json:"has_overdrive"`
+	ImmuneToPhysDmg bool              `json:"immune_to_phys_dmg"`
+	ImmuneToMagDmg  bool              `json:"immune_to_mag_dmg"`
+	Allies          []string          `json:"allies"`
+	Ap              int               `json:"ap"`
+	ApOverkill      int               `json:"ap_overkill"`
+	Gil             int               `json:"gil"`
+	RonsoRage       []string          `json:"ronso_rage"`
+	Items           map[string][]Item `json:"items"`
+	Equipment       Equipment         `json:"equipment"`
+	Stats           Stats             `json:"stats"`
+	ElemResists     []ElemResist      `json:"elem_resists"`
+	StatusResists   StatusResists     `json:"status_resists"`
 }
