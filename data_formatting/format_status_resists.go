@@ -79,8 +79,8 @@ func (mon *MonsterOld) getStatusResistances(poisonResist, doomResist int) []Stat
 			Resistance: doomResist,
 		},
 		{
-			Status: "Nul Magic",
-			Resistance: mon.StatusResists.NulMagic,
+			Status: "Nul Spells",
+			Resistance: mon.StatusResists.NulSpells,
 		},
 		{
 			Status: "Shell",

@@ -46,7 +46,7 @@ type StatusResistsOld struct {
 	Death        int   `json:"death"`
 	Provoke      int   `json:"provoke"`
 	Doom         []int `json:"doom"`
-	NulMagic     int   `json:"nul_magic"`
+	NulSpells    int   `json:"nul_spells"`
 	Shell        int   `json:"shell"`
 	Protect      int   `json:"protect"`
 	Reflect      int   `json:"reflect"`
@@ -145,6 +145,7 @@ type Monster struct {
 	IsTough         bool              `json:"is_tough"`
 	IsHeavy         bool              `json:"is_heavy"`
 	IsArmored       bool              `json:"is_armored"`
+	IsUnderwater	bool			  `json:"is_underwater"`
 	HasOverdrive    bool              `json:"has_overdrive"`
 	ImmuneToPhysDmg bool              `json:"immune_to_phys_dmg"`
 	ImmuneToMagDmg  bool              `json:"immune_to_mag_dmg"`
