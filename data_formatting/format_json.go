@@ -9,7 +9,7 @@ import (
 
 
 func FormatJson() error {
-	const filepath = "./data_formatting/monster_old_formatted.json"
+	const filepath = "./data_old/monsters.json"
 
 	file, err := os.Open(filepath)
 	if err != nil {
@@ -29,14 +29,17 @@ func FormatJson() error {
 	}
 
 	monstersNew := make(map[string]Monster)
-	
+
 	for name, monData := range monstersOld {
 		monstersNew[name] = Monster{
+
 			Location: monData.Location,
+			Species: "",
 			IsReoccurring: monData.IsReoccurring,
 			IsCatchable: monData.IsCatchable,
 			IsBoss: monData.IsBoss,
 			IsZombie: monData.IsZombie,
+			
 			Allies: monData.formatAllies(name),
 			Ap: monData.Ap[0],
 			ApOverkill: monData.Ap[1],

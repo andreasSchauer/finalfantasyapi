@@ -6,9 +6,55 @@ import (
 )
 
 
+func TestFormatResistances(t *testing.T) {
+	tests := []struct {
+		input		[]StatusResist
+		expected	[]StatusResist
+	}{
+		{
+			input: []StatusResist{
+				{
+					Status: "Silence",
+					Resistance: 100,
+				},
+				{
+					Status: "Dark",
+					Resistance: 0,
+				},
+				{
+					Status: "Sleep",
+					Resistance: 101,
+				},
+			},
+			expected: []StatusResist{
+				{
+					Status: "Silence",
+					Resistance: 254,
+				},
+				{
+					Status: "Dark",
+					Resistance: 0,
+				},
+				{
+					Status: "Sleep",
+					Resistance: 101,
+				},
+			},
+		},
+	}
+
+	for i, tc := range tests {
+		actual := formatResistances(tc.input)
+		if !reflect.DeepEqual(actual, tc.expected) {
+			t.Errorf("formatResistances: Testcase %d: input: %v. expectedResistances: %v, actualResistances: %v", i, tc.input, tc.expected, actual)
+		}
+	}
+
+}
+
 func TestGetDemiResistance(t *testing.T) {
 	tests := []struct {
-		input 				float64
+		input 		float64
 		expected 	int
 	}{
 		{

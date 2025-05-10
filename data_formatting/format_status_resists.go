@@ -5,14 +5,30 @@ package dataFormatting
 func (mon *MonsterOld) formatStatusResists() StatusResists {
 	poisonResist, poisonRate := mon.splitPoison()
 	doomResist, doomCountdown := mon.splitDoom()
+	resistances := mon.getStatusResistances(poisonResist, doomResist)
+	resistances_formatted := formatResistances(resistances)
 	
 	return StatusResists{
 		PoisonRate: poisonRate,
 		DoomCountdown: doomCountdown,
 		ZanmatoLevel: mon.StatusResists.ZanmatoLevel,
 		IsImmuneToLife: mon.isImmuneToLife(),
-		Resistances: mon.getStatusResistances(poisonResist, doomResist),
+		Resistances: resistances_formatted,
 	}
+}
+
+
+func formatResistances(resistances []StatusResist) []StatusResist {
+	var resistances_formatted []StatusResist
+
+	for i := range resistances {
+		resistances_formatted = append(resistances_formatted, resistances[i])
+		if resistances_formatted[i].Resistance == 100 {
+			resistances_formatted[i].Resistance = 254
+		}
+	}
+
+	return resistances_formatted
 }
 
 

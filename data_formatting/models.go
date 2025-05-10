@@ -136,6 +136,7 @@ type StatusResists struct {
 }
 
 type Monster struct {
+	Id				int				  `json:"id"`
 	Location        []string          `json:"location"`
 	Species         string            `json:"species"`
 	IsReoccurring   bool              `json:"is_reoccurring"`
