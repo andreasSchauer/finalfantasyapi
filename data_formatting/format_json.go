@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"sort"
 )
 
 
@@ -28,32 +29,43 @@ func FormatJson() error {
 		return fmt.Errorf("couldn't parse JSON: %v", err)
 	}
 
-	monstersNew := make(map[string]Monster)
+	var monstersNew []Monster
 
 	for name, monData := range monstersOld {
-		monstersNew[name] = Monster{
-
+		stats, overkillDamage := monData.formatStats()
+		mon := Monster{
+			Name: name,
 			Location: monData.Location,
 			Species: "",
 			IsReoccurring: monData.IsReoccurring,
 			IsCatchable: monData.IsCatchable,
 			IsBoss: monData.IsBoss,
 			IsZombie: monData.IsZombie,
-			
 			Allies: monData.formatAllies(name),
 			Ap: monData.Ap[0],
 			ApOverkill: monData.Ap[1],
+			OverkillDamage: overkillDamage,
 			Gil: monData.Gil,
 			RonsoRage: monData.RonsoRage,
 			Items: monData.formatItems(),
 			Equipment: monData.formatEquipment(),
-			Stats: monData.formatStats(),
+			Stats: stats,
 			ElemResists: monData.formatElemResist(),
 			StatusResists: monData.formatStatusResists(),
 		}
+
+		monstersNew = append(monstersNew, mon)
 	}
 
-	json, err := json.MarshalIndent(monstersNew, "", " ")
+	sort.SliceStable(monstersNew, func(i, j int) bool { return monstersNew[i].Name < monstersNew[j].Name })
+
+	monstersJson := struct{
+		MonsterData	[]Monster	`json:"monsters_data"`
+	}{
+		MonsterData: monstersNew,
+	}
+
+	json, err := json.MarshalIndent(monstersJson, "", "    ")
 	if err != nil {
 		return fmt.Errorf("couldn't encode JSON: %v", err)
 	}

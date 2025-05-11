@@ -1,0 +1,259 @@
+{
+    "overdrive_modes_data": [
+        {
+            "name": "stoic",
+            "description": "The gauge fills when the character takes damage from an enemy.",
+            "type": "formula",
+            "fill_rate": 0.0,
+            "actions_to_learn": {
+                "Tidus": 0,
+                "Yuna": 0,
+                "Wakka": 0,
+                "Lulu": 0,
+                "Kimahri": 0,
+                "Auron": 0,
+                "Rikku": 0
+            }
+        },
+        {
+            "name": "warrior",
+            "description": "The gauge fills when the character damages an enemy (excluding items and overdrives).",
+            "type": "formula",
+            "fill_rate": 0.0,
+            "actions_to_learn": {
+                "Tidus": 150,
+                "Yuna": 200,
+                "Wakka": 160,
+                "Lulu": 300,
+                "Kimahri": 120,
+                "Auron": 100,
+                "Rikku": 140
+            }
+        },
+        {
+            "name": "comrade",
+            "description": "The gauge fills when an ally takes damage.",
+            "type": "formula",
+            "fill_rate": 0.0,
+            "actions_to_learn": {
+                "Tidus": 300,
+                "Yuna": 240,
+                "Wakka": 100,
+                "Lulu": 100,
+                "Kimahri": 100,
+                "Auron": 220,
+                "Rikku": 100
+            }
+        },
+        {
+            "name": "healer",
+            "description": "The gauge fills when healing an ally, even with full HP.",
+            "type": "formula",
+            "fill_rate": 0.0,
+            "actions_to_learn": {
+                "Tidus": 80,
+                "Yuna": 60,
+                "Wakka": 110,
+                "Lulu": 170,
+                "Kimahri": 100,
+                "Auron": 200,
+                "Rikku": 70
+            }
+        },
+        {
+            "name": "tactician",
+            "description": "The gauge fills when the character inflicts status ailments onto an enemy.",
+            "type": "per action",
+            "fill_rate": 0.16,
+            "actions_to_learn": {
+                "Tidus": 75,
+                "Yuna": 100,
+                "Wakka": 80,
+                "Lulu": 75,
+                "Kimahri": 60,
+                "Auron": 110,
+                "Rikku": 90
+            }
+        },
+        {
+            "name": "victim",
+            "description": "The gauge fills when an enemy inflicts status ailments onto the character.",
+            "type": "per action",
+            "fill_rate": 0.16,
+            "actions_to_learn": {
+                "Tidus": 120,
+                "Yuna": 100,
+                "Wakka": 110,
+                "Lulu": 130,
+                "Kimahri": 100,
+                "Auron": 160,
+                "Rikku": 125
+            }
+        },
+        {
+            "name": "dancer",
+            "description": "The gauge fills when the character evades an enemy attack.",
+            "type": "per action",
+            "fill_rate": 0.16,
+            "actions_to_learn": {
+                "Tidus": 250,
+                "Yuna": 200,
+                "Wakka": 200,
+                "Lulu": 300,
+                "Kimahri": 130,
+                "Auron": 200,
+                "Rikku": 200
+            }
+        },
+        {
+            "name": "avenger",
+            "description": "The gauge fills when an enemy KO's an ally.",
+            "type": "per action",
+            "fill_rate": 0.30,
+            "actions_to_learn": {
+                "Tidus": 100,
+                "Yuna": 80,
+                "Wakka": 100,
+                "Lulu": 150,
+                "Kimahri": 100,
+                "Auron": 120,
+                "Rikku": 90
+            }
+        },
+        {
+            "name": "slayer",
+            "description": "The gauge fills when the character kills an enemy, including via stealing from Machina enemies and treasure chests. Weapons of Warrior Monks, Fallen Monks, Kimahri and Yojimbo (boss battles) also count.",
+            "type": "per action",
+            "fill_rate": 0.20,
+            "actions_to_learn": {
+                "Tidus": 100,
+                "Yuna": 110,
+                "Wakka": 90,
+                "Lulu": 130,
+                "Kimahri": 120,
+                "Auron": 80,
+                "Rikku": 100
+            }
+        },
+        {
+            "name": "hero",
+            "description": "The gauge fills when the character kills an enemy with at least 10,000 HP, or at least 20x more HP than the estimated damage. For learning this mode, the amount is only 3x more HP. Estimated damage is damage dealt by the character's 'Attack' command, regardless of enemy Defense.",
+            "type": "per action",
+            "fill_rate": 0.20,
+            "actions_to_learn": {
+                "Tidus": 50,
+                "Yuna": 50,
+                "Wakka": 50,
+                "Lulu": 70,
+                "Kimahri": 45,
+                "Auron": 40,
+                "Rikku": 50
+            }
+        },
+        {
+            "name": "rook",
+            "description": "The gauge fills when the character reduces or nullifies the damage inflicted by an enemy with Nulspells, Protect, Shell, and Reflect",
+            "type": "per action",
+            "fill_rate": 0.10,
+            "actions_to_learn": {
+                "Tidus": 120,
+                "Yuna": 110,
+                "Wakka": 120,
+                "Lulu": 120,
+                "Kimahri": 120,
+                "Auron": 120,
+                "Rikku": 120
+            }
+        },
+        {
+            "name": "victor",
+            "description": "The gauge fills when winning a battle while being an active fighter.",
+            "type": "per action",
+            "fill_rate": 0.20,
+            "actions_to_learn": {
+                "Tidus": 120,
+                "Yuna": 150,
+                "Wakka": 160,
+                "Lulu": 200,
+                "Kimahri": 120,
+                "Auron": 200,
+                "Rikku": 140
+            }
+        },
+        {
+            "name": "coward",
+            "description": "The gauge fills when the character escapes from battle. Using 'Flee' is also counted, regardless of who uses it.",
+            "type": "per action",
+            "fill_rate": 0.10,
+            "actions_to_learn": {
+                "Tidus": 600,
+                "Yuna": 900,
+                "Wakka": 400,
+                "Lulu": 980,
+                "Kimahri": 700,
+                "Auron": 1000,
+                "Rikku": 450
+            }
+        },
+        {
+            "name": "ally",
+            "description": "The gauge fills at the start of the character's turn.",
+            "type": "per action",
+            "fill_rate": 0.03,
+            "actions_to_learn": {
+                "Tidus": 600,
+                "Yuna": 500,
+                "Wakka": 350,
+                "Lulu": 480,
+                "Kimahri": 300,
+                "Auron": 450,
+                "Rikku": 320
+            }
+        },
+        {
+            "name": "sufferer",
+            "description": "The gauge fills at the start of the character's turn while afflicted with a status ailment.",
+            "type": "per action",
+            "fill_rate": 0.16,
+            "actions_to_learn": {
+                "Tidus": 100,
+                "Yuna": 80,
+                "Wakka": 100,
+                "Lulu": 110,
+                "Kimahri": 130,
+                "Auron": 120,
+                "Rikku": 90
+            }
+        },
+        {
+            "name": "daredevil",
+            "description": "The gauge fills at the start of the character's turn while in 'HP Critical' status.",
+            "type": "per action",
+            "fill_rate": 0.05,
+            "actions_to_learn": {
+                "Tidus": 170,
+                "Yuna": 90,
+                "Wakka": 140,
+                "Lulu": 150,
+                "Kimahri": 200,
+                "Auron": 260,
+                "Rikku": 110
+            }
+        },
+        {
+            "name": "loner",
+            "description": "The gauge fills at the start of the character's turn while fighting alone.",
+            "type": "per action",
+            "fill_rate": 0.16,
+            "actions_to_learn": {
+                "Tidus": 60,
+                "Yuna": 180,
+                "Wakka": 110,
+                "Lulu": 45,
+                "Kimahri": 90,
+                "Auron": 35,
+                "Rikku": 170
+            }
+        }
+    ]
+}

@@ -9,11 +9,11 @@ type ArmorAbilityOld struct {
 }
 
 type EquipmentOld struct {
-	DropRate          float64            `json:"drop_rate"`
-	SlotsAmount       string             `json:"slots_amount"`
-	AttachedAbilities string             `json:"attached_abilities"`
-	WpnAbilities      []WpnAbilityOld    `json:"wpn_abilities"`
-	ArmorAbilities    []ArmorAbilityOld  `json:"armor_abilities"`
+	DropRate          float64           `json:"drop_rate"`
+	SlotsAmount       string            `json:"slots_amount"`
+	AttachedAbilities string            `json:"attached_abilities"`
+	WpnAbilities      []WpnAbilityOld   `json:"wpn_abilities"`
+	ArmorAbilities    []ArmorAbilityOld `json:"armor_abilities"`
 }
 
 type StatsOld struct {
@@ -104,17 +104,16 @@ type Equipment struct {
 	ArmorAbilities       []ArmorAbility `json:"armor_abilities"`
 }
 type Stats struct {
-	HP             int  `json:"hp"`
-	OverkillDamage *int `json:"overkill_damage"`
-	MP             int  `json:"mp"`
-	Strength       int  `json:"strength"`
-	Defence        int  `json:"defence"`
-	Magic          int  `json:"magic"`
-	MagDefence     int  `json:"mag_defence"`
-	Agility        int  `json:"agility"`
-	Luck           int  `json:"luck"`
-	Evasion        int  `json:"evasion"`
-	Accuracy       int  `json:"accuracy"`
+	HP         int `json:"hp"`
+	MP         int `json:"mp"`
+	Strength   int `json:"strength"`
+	Defense    int `json:"defense"`
+	Magic      int `json:"magic"`
+	MagDefense int `json:"mag_defense"`
+	Agility    int `json:"agility"`
+	Luck       int `json:"luck"`
+	Evasion    int `json:"evasion"`
+	Accuracy   int `json:"accuracy"`
 }
 
 type ElemResist struct {
@@ -136,23 +135,24 @@ type StatusResists struct {
 }
 
 type Monster struct {
-	Id				int				  `json:"id"`
+	Name            string            `json:"monster_name"`
 	Location        []string          `json:"location"`
 	Species         string            `json:"species"`
 	IsReoccurring   bool              `json:"is_reoccurring"`
-	IsCatchable     bool              `json:"is_catchable"`
+	IsCatchable     bool              `json:"can_be_caught"`
 	IsBoss          bool              `json:"is_boss"`
 	IsZombie        bool              `json:"is_zombie"`
 	IsTough         bool              `json:"is_tough"`
 	IsHeavy         bool              `json:"is_heavy"`
 	IsArmored       bool              `json:"is_armored"`
-	IsUnderwater	bool			  `json:"is_underwater"`
+	IsUnderwater    bool              `json:"is_underwater"`
 	HasOverdrive    bool              `json:"has_overdrive"`
 	ImmuneToPhysDmg bool              `json:"immune_to_phys_dmg"`
 	ImmuneToMagDmg  bool              `json:"immune_to_mag_dmg"`
 	Allies          []string          `json:"allies"`
 	Ap              int               `json:"ap"`
 	ApOverkill      int               `json:"ap_overkill"`
+	OverkillDamage  *int              `json:"overkill_damage"`
 	Gil             int               `json:"gil"`
 	RonsoRage       []string          `json:"ronso_rage"`
 	Items           map[string][]Item `json:"items"`

@@ -1,0 +1,132 @@
+{
+    "status_ailments_data": [
+        {
+            "name": "power break",
+            "description": "Reduces the unit's Strength by 50%."
+        },
+        {
+            "name": "magic break",
+            "description": "Reduces the unit's Magic by 50%."
+        },
+        {
+            "name": "armor break",
+            "description": "Reduces the unit's Defense to 1 and nullifies 'armored'."
+        },
+        {
+            "name": "mental break",
+            "description": "Reduces the unit's Magic Defense to 1."
+        },
+        {
+            "name": "berserk",
+            "description": "Causes the unit to use 'attack' uncontrollably and boosts damage by 50%. Can be removed by 'Threaten'."
+        },
+        {
+            "name": "confusion",
+            "description": "Causes the unit to use 'attack' uncontrollably, targeting themselves or their allies."
+        },
+        {
+            "name": "curse",
+            "description": "Prevents the character's or aeon's overdrive from filling and overdrive commands can't be used."
+        },
+        {
+            "name": "darkness",
+            "description": "Reduces the unit's chance of landing an evadable physical attack to 10% (before luck)."
+        },
+        {
+            "name": "delay",
+            "description": "Adds to the unit's ticks to their next turn, delaying it."
+        },
+        {
+            "name": "doom",
+            "description": "Gives the unit a turn counter and the unit is KO'd when it hits 0, ignoring immunity."
+        },
+        {
+            "name": "eject",
+            "description": "Removes the unit from battle, making their slot irreplacable, and flagging them as 'dead'."
+        },
+        {
+            "name": "ko",
+            "description": "The unit is unable to act and flagged as 'dead'. Inflicted by attacks that inflict instant KO, or if the unit's HP drop to 0, ingoring immunity."
+        },
+        {
+            "name": "petrification",
+            "description": "The unit is unable to act and flagged as 'dead'. Petrified units can shatter, ejecting them from battle. Enemies always shatter instantly, as well as characters when they're underwater. Characters on land shatter when they're hit by physical attacks."
+        },
+        {
+            "name": "poison",
+            "description": "Deals damage proportional to the unit's max HP every time they take a turn. The rate is 25% for characters and varies for enemies."
+        },
+        {
+            "name": "provoke",
+            "description": "Forces the afflicted enemy to use one ability. If that ability is single-target, it will always target the provoking character. Removed instantly when the provoking character is switched out."
+        },
+        {
+            "name": "silence",
+            "description": "The inflicted unit can not use magical abilities. Overdrives are not affected."
+        },
+        {
+            "name": "sleep",
+            "description": "Forces the unit to skip their turns. Increases physical and magical damage against the unit by 50%. Removed instantly when the unit is hit by a physical attack."
+        },
+        {
+            "name": "slow",
+            "description": "Doubles the unit's ticks until their next turn, causing the unit to take twice the normal amount of time to get turns. Overwrites Haste."
+        },
+        {
+            "name": "threaten",
+            "description": "Causes the afflicted enemy to be frozen in time and thus unable to evade or act until the user's next turn. CTB altering actions like Haste, Slow, or Delay will fail on the user until their turn."
+        },
+        {
+            "name": "zombie",
+            "description": "Restorative items and magic damage the unit. Grants immunity to instant death effects, as long as they don't ignore immunity. Items and magic with that inflict Life will reduce the unit's HP to 0, if it is not immune to Life."
+        },
+        {
+            "name": "life",
+            "description": "Revives a character that is flagged as 'dead'."
+        },
+        {
+            "name": "auto-life",
+            "description": "Instantly revives a character that is KO'd with 25% of their max HP."
+        },
+        {
+            "name": "haste",
+            "description": "Halves the unit's ticks until their next turn, causing the unit to take half the normal amount of time to get turns. Overwrites Slow."
+        },
+        {
+            "name": "HP critical",
+            "description": "The character or Aeon alters their stance. Inflicted when their HP is below 50% (yellow). Activates SOS-Auto-Abilities."
+        },
+        {
+            "name": "nulblaze",
+            "description": "Grants immunity to the next fire-elemental attack targeting the unit."
+        },
+        {
+            "name": "nulshock",
+            "description": "Grants immunity to the next lightning-elemental attack targeting the unit."
+        },
+        {
+            "name": "nultide",
+            "description": "Grants immunity to the next water-elemental attack targeting the unit."
+        },
+        {
+            "name": "nulfrost",
+            "description": "Grants immunity to the next ice-elemental attack targeting the unit."
+        },
+        {
+            "name": "protect",
+            "description": "Halves the unit's damage/healing taken from physical actions."
+        },
+        {
+            "name": "reflect",
+            "description": "Bounces most single-target spells back towards the user."
+        },
+        {
+            "name": "regen",
+            "description": "Restores a small amount of HP at the start of a turn from any unit in battle. The amount of HP restored is between 100 and a tenth of the unit's maximum HP."
+        },
+        {
+            "name": "shell",
+            "description": "Halves the unit's damage/healing taken from magical actions."
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
-    "location_data": [
+    "locations_data": [
         {
             "group": "dream zanarkand",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "dream zanarkand",
                     "areas":[
@@ -13,7 +13,7 @@
         },
         {
             "group": "baaj temple",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "baaj temple",
                     "areas":[
@@ -32,7 +32,7 @@
         },
         {
             "group": "underwater ruins",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "underwater ruins",
                     "areas":[
@@ -46,7 +46,7 @@
         },
         {
             "group": "besaid",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "besaid island",
                     "areas":[
@@ -88,7 +88,7 @@
         },
         {
             "group": "ss liki",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "ss liki",
                     "areas":[
@@ -105,7 +105,7 @@
         },
         {
             "group": "kilika",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "kilika port",
                     "areas":[
@@ -140,7 +140,7 @@
         },
         {
             "group": "ss winno",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "ss winno",
                     "areas":[
@@ -156,7 +156,7 @@
         },
         {
             "group": "luca",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "luca stadium",
                     "areas":[
@@ -188,7 +188,7 @@
         },
         {
             "group": "mi'ihen highroad",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "mi'ihen highroad",
                     "areas":[
@@ -209,7 +209,7 @@
         },
         {
             "group": "mushroom rock road",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "mushroom rock road",
                     "areas":[
@@ -228,7 +228,7 @@
         },
         {
             "group": "djose",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "djose highroad",
                     "areas":[
@@ -254,7 +254,7 @@
         },
         {
             "group": "moonflow",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "moonflow",
                     "areas":[
@@ -276,7 +276,7 @@
         },
         {
             "group": "guadosalam",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "guadosalam",
                     "areas":[
@@ -296,7 +296,7 @@
         },
         {
             "group": "thunder plains",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "thunder plains",
                     "areas":[
@@ -310,7 +310,7 @@
         },
         {
             "group": "macalania",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "macalania woods",
                     "areas":[
@@ -360,7 +360,7 @@
         },
         {
             "group": "bikanel",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "bikanel island",
                     "areas": [
@@ -387,7 +387,7 @@
         },
         {
             "group": "airship",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "airship",
                     "areas": [
@@ -408,7 +408,7 @@
         },
         {
             "group": "bevelle",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "bevelle temple",
                     "areas": [
@@ -418,7 +418,8 @@
                         "priests passage 2",
                         "priests passage 3",
                         "trials",
-                        "antechamber"
+                        "antechamber",
+                        "chamber of the fayth"
                     ]
                 },
                 {
@@ -438,7 +439,7 @@
         },
         {
             "group": "calm lands",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "calm lands",
                     "areas": [
@@ -459,20 +460,20 @@
         },
         {
             "group": "remiem temple",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "remiem temple",
                     "areas": [
                         "remiem temple",
                         "great hall",
-                        "fayth"
+                        "chamber of the fayth"
                     ]
                 }
             ]
         },
         {
             "group": "cavern of the stolen fayth",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "cavern of the stolen fayth",
                     "areas": [
@@ -483,7 +484,7 @@
         },
         {
             "group": "mount gagazet",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "mount gagazet",
                     "areas": [
@@ -506,7 +507,7 @@
         },
         {
             "group": "zanarkand ruins",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "zanarkand ruins",
                     "areas": [
@@ -531,7 +532,7 @@
         },
         {
             "group": "inside sin",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "inside sin",
                     "areas": [
@@ -546,7 +547,7 @@
         },
         {
             "group": "omega ruins",
-            "sublocations": [
+            "locations": [
                 {
                     "location_name": "omega ruins",
                     "areas": [

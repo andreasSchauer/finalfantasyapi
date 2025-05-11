@@ -45,8 +45,12 @@ func TestFormatElemResists(t *testing.T) {
 		},
 		{
 			elemResists: map[string]any{
-				"fire": 	"varies",
-				"lightning": "",
+				"fire": 		"varies",
+				"lightning": 	"",
+				"water": 		nil,
+				"ice": 			"paul",
+				"holy": 		float64(2),
+				"gravity": 		float64(1),
 			},
 			expected:		[]ElemResist{
 				{
@@ -57,37 +61,17 @@ func TestFormatElemResists(t *testing.T) {
 					Element: "lightning",
 					Affinity: "",
 				},
-			},
-		},
-		{
-			elemResists: map[string]any{
-				"fire": 	 nil,
-				"lightning": "paul",
-			},
-			expected:		[]ElemResist{
 				{
-					Element: "fire",
+					Element: "water",
 					Affinity: "",
 				},
 				{
-					Element: "lightning",
-					Affinity: "",
-				},
-			},
-		},
-		{
-			elemResists: map[string]any{
-				"fire": 	 float64(2),
-				"lightning": float64(1.5),
-			},
-			expected:		[]ElemResist{
-				{
-					Element: "fire",
+					Element: "ice",
 					Affinity: "",
 				},
 				{
-					Element: "lightning",
-					Affinity: "weak",
+					Element: "holy",
+					Affinity: "",
 				},
 			},
 		},

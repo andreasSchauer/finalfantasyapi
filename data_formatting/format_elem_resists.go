@@ -1,17 +1,19 @@
 package dataFormatting
 
+import (
+
+)
 
 
 func (mon *MonsterOld) formatElemResist() []ElemResist {
-	elemResistsOld := mon.ElemResists
-	var elemResists []ElemResist
-
-	for element := range elemResistsOld {
-		if element == "gravity" {
-			continue
-		}
-		elemResists = append(elemResists, mon.createElemResist(element))
+	elemResists := []ElemResist{
+		mon.createElemResist("fire"),
+		mon.createElemResist("lightning"),
+		mon.createElemResist("water"),
+		mon.createElemResist("ice"),
+		mon.createElemResist("holy"),
 	}
+
 
 	return elemResists
 }

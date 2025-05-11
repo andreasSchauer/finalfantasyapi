@@ -1,0 +1,148 @@
+{
+    "characters_data": [
+        {
+            "id": 1,
+            "name": "tidus",
+            "weapon_type": "sword",
+            "armor_type": "shield",
+            "base_stats": {
+                "hp": 520,
+                "mp": 12,
+                "strength": 15,
+                "defense": 5,
+                "magic": 5,
+                "magic_defense": 5,
+                "agility": 10,
+                "luck": 18,
+                "evasion": 10,
+                "accuracy": 10
+            }
+        },
+        {
+            "id": 2,
+            "name": "yuna",
+            "weapon_type": "staff",
+            "armor_type": "ring",
+            "base_stats": {
+                "hp": 475,
+                "mp": 84,
+                "strength": 5,
+                "defense": 5,
+                "magic": 20,
+                "magic_defense": 20,
+                "agility": 10,
+                "luck": 17,
+                "evasion": 30,
+                "accuracy": 3
+            }
+        },
+        {
+            "id": 3,
+            "name": "wakka",
+            "weapon_type": "blitzball",
+            "armor_type": "armguard",
+            "base_stats": {
+                "hp": 618,
+                "mp": 10,
+                "strength": 14,
+                "defense": 10,
+                "magic": 10,
+                "magic_defense": 5,
+                "agility": 7,
+                "luck": 19,
+                "evasion": 5,
+                "accuracy": 25
+            }
+        },
+        {
+            "id": 4,
+            "name": "lulu",
+            "weapon_type": "doll",
+            "armor_type": "bangle",
+            "base_stats": {
+                "hp": 380,
+                "mp": 92,
+                "strength": 5,
+                "defense": 8,
+                "magic": 20,
+                "magic_defense": 30,
+                "agility": 5,
+                "luck": 17,
+                "evasion": 40,
+                "accuracy": 3
+            }
+        },
+        {
+            "id": 5,
+            "name": "kimahri",
+            "weapon_type": "spear",
+            "armor_type": "armlet",
+            "base_stats": {
+                "hp": 644,
+                "mp": 78,
+                "strength": 16,
+                "defense": 15,
+                "magic": 17,
+                "magic_defense": 5,
+                "agility": 6,
+                "luck": 18,
+                "evasion": 5,
+                "accuracy": 5
+            }
+        },
+        {
+            "id": 6,
+            "name": "auron",
+            "weapon_type": "blade",
+            "armor_type": "bracer",
+            "base_stats": {
+                "hp": 1030,
+                "mp": 33,
+                "strength": 20,
+                "defense": 15,
+                "magic": 5,
+                "magic_defense": 5,
+                "agility": 5,
+                "luck": 17,
+                "evasion": 5,
+                "accuracy": 3
+            }
+        },
+        {
+            "id": 7,
+            "name": "rikku",
+            "weapon_type": "claw",
+            "armor_type": "targe",
+            "base_stats": {
+                "hp": 360,
+                "mp": 85,
+                "strength": 10,
+                "defense": 8,
+                "magic": 10,
+                "magic_defense": 8,
+                "agility": 16,
+                "luck": 18,
+                "evasion": 5,
+                "accuracy": 5
+            }
+        },
+        {
+            "id": 8,
+            "name": "seymour",
+            "weapon_type": "seymour staff",
+            "armor_type": "seymour armor",
+            "base_stats": {
+                "hp": 1200,
+                "mp": 999,
+                "strength": 20,
+                "defense": 25,
+                "magic": 35,
+                "magic_defense": 100,
+                "agility": 20,
+                "luck": 18,
+                "evasion": 10,
+                "accuracy": 10
+            }
+        }
+    ]
+}

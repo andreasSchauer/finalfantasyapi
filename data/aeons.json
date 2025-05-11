@@ -1,0 +1,224 @@
+{
+    "aeons_data": [
+        {
+            "id": 1,
+            "name": "valefor",
+            "location": {
+                "location_name": "besaid temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": false,
+            "celestial_weapon": "nirvana",
+            "base_stats": {
+                "hp": 725,
+                "mp": 24,
+                "strength": 18,
+                "defense": 23,
+                "magic": 21,
+                "magic_defense": 23,
+                "agility": 10,
+                "luck": 17,
+                "evasion": 19,
+                "accuracy": 11
+            }
+        },
+        {
+            "id": 2,
+            "name": "ifrit",
+            "location": {
+                "location_name": "kilika temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": false,
+            "celestial_weapon": "world champion",
+            "base_stats": {
+                "hp": 857,
+                "mp": 23,
+                "strength": 19,
+                "defense": 29,
+                "magic": 21,
+                "magic_defense": 21,
+                "agility": 9,
+                "luck": 17,
+                "evasion": 10,
+                "accuracy": 11
+            }
+        },
+        {
+            "id": 3,
+            "name": "ixion",
+            "location": {
+                "location_name": "djose temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": false,
+            "celestial_weapon": "spirit lance",
+            "base_stats": {
+                "hp": 891,
+                "mp": 25,
+                "strength": 20,
+                "defense": 26,
+                "magic": 20,
+                "magic_defense": 29,
+                "agility": 8,
+                "luck": 17,
+                "evasion": 11,
+                "accuracy": 12
+            }
+        },
+        {
+            "id": 4,
+            "name": "shiva",
+            "location": {
+                "location_name": "macalania temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": false,
+            "celestial_weapon": "onion knight",
+            "base_stats": {
+                "hp": 820,
+                "mp": 26,
+                "strength": 19,
+                "defense": 17,
+                "magic": 23,
+                "magic_defense": 24,
+                "agility": 14,
+                "luck": 17,
+                "evasion": 32,
+                "accuracy": 11
+            }
+        },
+        {
+            "id": 5,
+            "name": "bahamut",
+            "location": {
+                "location_name": "bevelle temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": false,
+            "celestial_weapon": "",
+            "base_stats": {
+                "hp": 1210,
+                "mp": 35,
+                "strength": 23,
+                "defense": 27,
+                "magic": 18,
+                "magic_defense": 28,
+                "agility": 10,
+                "luck": 17,
+                "evasion": 20,
+                "accuracy": 11
+            }
+        },
+        {
+            "id": 6,
+            "name": "anima",
+            "location": {
+                "location_name": "baaj temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": true,
+            "celestial_weapon": "",
+            "base_stats": {
+                "hp": 1410,
+                "mp": 45,
+                "strength": 33,
+                "defense": 26,
+                "magic": 22,
+                "magic_defense": 23,
+                "agility": 9,
+                "luck": 17,
+                "evasion": 20,
+                "accuracy": 11
+            }
+        },
+        {
+            "id": 7,
+            "name": "yojimbo",
+            "location": {
+                "location_name": "cavern of the stolen fayth",
+                "area_name": "cavern of the stolen fayth"
+            },
+            "is_optional": true,
+            "celestial_weapon": "masamune",
+            "base_stats": {
+                "hp": 1030,
+                "mp": 0,
+                "strength": 29,
+                "defense": 25,
+                "magic": 16,
+                "magic_defense": 23,
+                "agility": 9,
+                "luck": 17,
+                "evasion": 59,
+                "accuracy": 19
+            }
+        },
+        {
+            "id": 8,
+            "name": "cindy",
+            "location": {
+                "location_name": "remiem temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": true,
+            "celestial_weapon": "",
+            "base_stats": {
+                "hp": 2190,
+                "mp": 46,
+                "strength": 28,
+                "defense": 32,
+                "magic": 21,
+                "magic_defense": 28,
+                "agility": 10,
+                "luck": 17,
+                "evasion": 20,
+                "accuracy": 11
+            }
+        },
+        {
+            "id": 9,
+            "name": "sandy",
+            "location": {
+                "location_name": "remiem temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": true,
+            "celestial_weapon": "",
+            "base_stats": {
+                "hp": 1790,
+                "mp": 35,
+                "strength": 42,
+                "defense": 26,
+                "magic": 24,
+                "magic_defense": 28,
+                "agility": 10,
+                "luck": 17,
+                "evasion": 17,
+                "accuracy": 13
+            }
+        },
+        {
+            "id": 10,
+            "name": "mindy",
+            "location": {
+                "location_name": "remiem temple",
+                "area_name": "chamber of the fayth"
+            },
+            "is_optional": true,
+            "celestial_weapon": "",
+            "base_stats": {
+                "hp": 1237,
+                "mp": 58,
+                "strength": 23,
+                "defense": 24,
+                "magic": 28,
+                "magic_defense": 28,
+                "agility": 12,
+                "luck": 17,
+                "evasion": 23,
+                "accuracy": 12
+            }
+        }
+    ]
+}
