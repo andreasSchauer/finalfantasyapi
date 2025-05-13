@@ -1,7 +1,7 @@
 {
     "locations_data": [
         {
-            "group": "dream zanarkand",
+            "location_group": "dream zanarkand",
             "locations": [
                 {
                     "location_name": "dream zanarkand",
@@ -12,7 +12,7 @@
             ]
         },
         {
-            "group": "baaj temple",
+            "location_group": "baaj temple",
             "locations": [
                 {
                     "location_name": "baaj temple",
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "group": "underwater ruins",
+            "location_group": "underwater ruins",
             "locations": [
                 {
                     "location_name": "underwater ruins",
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "group": "besaid",
+            "location_group": "besaid",
             "locations": [
                 {
                     "location_name": "besaid island",
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "group": "ss liki",
+            "location_group": "ss liki",
             "locations": [
                 {
                     "location_name": "ss liki",
@@ -104,7 +104,7 @@
             ]
         },
         {
-            "group": "kilika",
+            "location_group": "kilika",
             "locations": [
                 {
                     "location_name": "kilika port",
@@ -139,7 +139,7 @@
             ]
         },
         {
-            "group": "ss winno",
+            "location_group": "ss winno",
             "locations": [
                 {
                     "location_name": "ss winno",
@@ -155,7 +155,7 @@
             ]
         },
         {
-            "group": "luca",
+            "location_group": "luca",
             "locations": [
                 {
                     "location_name": "luca stadium",
@@ -187,7 +187,7 @@
             ]
         },
         {
-            "group": "mi'ihen highroad",
+            "location_group": "mi'ihen highroad",
             "locations": [
                 {
                     "location_name": "mi'ihen highroad",
@@ -208,7 +208,7 @@
             ]
         },
         {
-            "group": "mushroom rock road",
+            "location_group": "mushroom rock road",
             "locations": [
                 {
                     "location_name": "mushroom rock road",
@@ -227,7 +227,7 @@
             ]
         },
         {
-            "group": "djose",
+            "location_group": "djose and moonflow",
             "locations": [
                 {
                     "location_name": "djose highroad",
@@ -249,12 +249,7 @@
                         "antechamber",
                         "chamber of the fayth"
                     ]
-                }
-            ]
-        },
-        {
-            "group": "moonflow",
-            "locations": [
+                },
                 {
                     "location_name": "moonflow",
                     "areas":[
@@ -275,7 +270,7 @@
             ]
         },
         {
-            "group": "guadosalam",
+            "location_group": "guadosalam",
             "locations": [
                 {
                     "location_name": "guadosalam",
@@ -295,7 +290,7 @@
             ]
         },
         {
-            "group": "thunder plains",
+            "location_group": "thunder plains",
             "locations": [
                 {
                     "location_name": "thunder plains",
@@ -309,7 +304,7 @@
             ]
         },
         {
-            "group": "macalania",
+            "location_group": "macalania",
             "locations": [
                 {
                     "location_name": "macalania woods",
@@ -359,7 +354,7 @@
             ]
         },
         {
-            "group": "bikanel",
+            "location_group": "bikanel",
             "locations": [
                 {
                     "location_name": "bikanel island",
@@ -386,7 +381,7 @@
             ]
         },
         {
-            "group": "airship",
+            "location_group": "airship",
             "locations": [
                 {
                     "location_name": "airship",
@@ -407,7 +402,7 @@
             ]
         },
         {
-            "group": "bevelle",
+            "location_group": "bevelle",
             "locations": [
                 {
                     "location_name": "bevelle temple",
@@ -438,7 +433,7 @@
             ]
         },
         {
-            "group": "calm lands",
+            "location_group": "calm lands",
             "locations": [
                 {
                     "location_name": "calm lands",
@@ -459,7 +454,7 @@
             ]
         },
         {
-            "group": "remiem temple",
+            "location_group": "remiem temple",
             "locations": [
                 {
                     "location_name": "remiem temple",
@@ -472,7 +467,7 @@
             ]
         },
         {
-            "group": "cavern of the stolen fayth",
+            "location_group": "cavern of the stolen fayth",
             "locations": [
                 {
                     "location_name": "cavern of the stolen fayth",
@@ -483,7 +478,7 @@
             ]
         },
         {
-            "group": "mount gagazet",
+            "location_group": "mount gagazet and zanarkand ruins",
             "locations": [
                 {
                     "location_name": "mount gagazet",
@@ -502,12 +497,7 @@
                         "summit region",
                         "road to zanarkand ruins"
                     ]
-                }
-            ]
-        },
-        {
-            "group": "zanarkand ruins",
-            "locations": [
+                },
                 {
                     "location_name": "zanarkand ruins",
                     "areas": [
@@ -531,7 +521,7 @@
             ]
         },
         {
-            "group": "inside sin",
+            "location_group": "inside sin",
             "locations": [
                 {
                     "location_name": "inside sin",
@@ -546,7 +536,7 @@
             ]
         },
         {
-            "group": "omega ruins",
+            "location_group": "omega ruins",
             "locations": [
                 {
                     "location_name": "omega ruins",
