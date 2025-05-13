@@ -1,0 +1,1530 @@
+{
+    "sidequests_data": [
+        {
+            "name": "monster arena",
+            "completion_condition": "Catch every fiend 10 times and defeat every monster arena creation.",
+            "completion_location_area": [
+                {
+                    "location": "calm lands",
+                    "area": "arena"
+                }
+            ],
+            "completion_reward": {
+                "name": "mark of conquest",
+                "amount": 1
+            },
+            "subquests": [
+                {
+                    "name": "stratoavis",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend in Besaid.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "stamina tonic",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "malboro menace",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend in Kilika.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "poison fang",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "kottos",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend on Mi'ihen Highroad.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "soul spring",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "coeurlregina",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend on Mushroom Rock Road.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "candle of life",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "jormungand",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend on Djose Highroad and Moonflow.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "petrify grenade",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "cactuar king",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend in the Thunder Plains.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "chocobo wing",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "espada",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend in Macalania.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "shining gem",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "abyss worm",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend on Bikanel.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "shadow gem",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "chimerageist",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend in the Calm Lands.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "farplane wind",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "don tonberry",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend in the Cavern of the Stolen Fayth.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "silver hourglass",
+                                "amount": 40
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "catoblepas",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend at Mount Gagazet.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "blossom crown",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "abaddon",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend inside Sin.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "lunar curtain",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "vorban",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend in the Omega Ruins.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "designer wallet",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "fenrir",
+                    "data": [
+                        {
+                            "condition": "Capture 3 of every wolf.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "chocobo feather",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ornitholestes",
+                    "data": [
+                        {
+                            "condition": "Capture 3 of every reptile.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "stamina spring",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "pteryx",
+                    "data": [
+                        {
+                            "condition": "Capture 4 of every bird.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mega phoenix",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "hornet",
+                    "data": [
+                        {
+                            "condition": "Capture 4 of every wasp.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mana tonic",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "vidatu",
+                    "data": [
+                        {
+                            "condition": "Capture 4 of every imp.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mana spring",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "one-eye",
+                    "data": [
+                        {
+                            "condition": "Capture 4 of every evil eye.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "stamina tablet",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "jumbo flan",
+                    "data": [
+                        {
+                            "condition": "Capture 3 of every flan.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "twin stars",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "nega elemental",
+                    "data": [
+                        {
+                            "condition": "Capture 3 of every elemental.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "star curtain",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "tanket",
+                    "data": [
+                        {
+                            "condition": "Capture 3 of every helm.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "golden hourglass",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "fafnir",
+                    "data": [
+                        {
+                            "condition": "Capture 4 of every drake.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "purifying salt",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "sleep sprout",
+                    "data": [
+                        {
+                            "condition": "Capture 5 of every fungus.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "healing spring",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "bomb king",
+                    "data": [
+                        {
+                            "condition": "Capture 5 of every bomb.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "turbo ether",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "juggernaut",
+                    "data": [
+                        {
+                            "condition": "Capture 5 of every ruminant.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "light curtain",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ironclad",
+                    "data": [
+                        {
+                            "condition": "Capture 10 of every iron giant.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mana tablet",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "earth eater",
+                    "data": [
+                        {
+                            "condition": "Breed 2 fiends in Area Conquest.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "three stars",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "greater sphere",
+                    "data": [
+                        {
+                            "condition": "Breed 2 fiends in Species Conquest",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "supreme gem",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "catastrophe",
+                    "data": [
+                        {
+                            "condition": "Breed 6 fiends in Area Conquest.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "door to tomorrow",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "th'uban",
+                    "data": [
+                        {
+                            "condition": "Breed 6 fiends in Species Conquest",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "gamblers spirit",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "neslug",
+                    "data": [
+                        {
+                            "condition": "Capture every fiend once.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "winning formula",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ultima buster",
+                    "data": [
+                        {
+                            "condition": "Capture 5 of every fiend.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "dark matter",
+                                "amount": 99
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "shinryu",
+                    "data": [
+                        {
+                            "condition": "Capture 2 of every underwater fiend at Mount Gagazet.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "megalixir",
+                                "amount": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "nemesis",
+                    "data": [
+                        {
+                            "condition": "Capture 10 of every fiend and defeat every other Monster Arena Creation.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "master sphere",
+                                "amount": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "mars sigil",
+                    "data": [
+                        {
+                            "condition": "Breed 10 fiends in Area and/or Species Conquest.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "arena"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mars sigil",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "remiem temple",
+            "completion_condition": "Collect every aeon, win every aeon battle against Belgemine and send her.",
+            "completion_location_area": [
+                {
+                    "location": "remiem temple",
+                    "area": "great hall"
+                }
+            ],
+            "completion_reward": {
+                "name": "moon sigil",
+                "amount": 1
+            },
+            "subquests": [
+                {
+                    "name": "valefor",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "lightning gem",
+                                "amount": 4
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "power sphere",
+                                "amount": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ifrit",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "x-potion",
+                                "amount": 30
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mana sphere",
+                                "amount": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ixion",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "chocobo feather",
+                                "amount": 10
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "power sphere",
+                                "amount": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "shiva",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mega-potion",
+                                "amount": 60
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "star curtain",
+                                "amount": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "bahamut",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "flower sceptre",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mana sphere",
+                                "amount": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "yojimbo",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "shadow gem",
+                                "amount": 8
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "power sphere",
+                                "amount": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "anima",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "stamina spring",
+                                "amount": 60
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mana sphere",
+                                "amount": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "magus sisters",
+                    "data": [
+                        {
+                            "condition": "First win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "shining gem",
+                                "amount": 40
+                            }
+                        },
+                        {
+                            "condition": "Reoccurring win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "great hall"
+                                }
+                            ],
+                            "reward": {
+                                "name": "power sphere",
+                                "amount": 12
+                            }
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "chocobo races",
+            "completion_condition": "",
+            "completion_location_area": [],
+            "completion_reward": {},
+            "subquests": [
+                {
+                    "name": "opened chests",
+                    "data": [
+                        {
+                            "condition": "Initial win.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "remiem temple"
+                                }
+                            ],
+                            "reward": {
+                                "name": "cloudy mirror",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Win with 1 chest opened.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "remiem temple"
+                                }
+                            ],
+                            "reward": {
+                                "name": "elixir",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Win with 2 chests opened.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "remiem temple"
+                                }
+                            ],
+                            "reward": {
+                                "name": "megalixir",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Win with 3 chests opened.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "remiem temple"
+                                }
+                            ],
+                            "reward": {
+                                "name": "wings to discovery",
+                                "amount": 30
+                            }
+                        },
+                        {
+                            "condition": "Win with 4 chests opened.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "remiem temple"
+                                }
+                            ],
+                            "reward": {
+                                "name": "pendulum",
+                                "amount": 30
+                            }
+                        },
+                        {
+                            "condition": "Win with 5 chests opened.",
+                            "location_area": [
+                                {
+                                    "location": "remiem temple",
+                                    "area": "remiem temple"
+                                }
+                            ],
+                            "reward": {
+                                "name": "three stars",
+                                "amount": 60
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "chocobo training",
+            "completion_condition": "",
+            "completion_location_area": [],
+            "completion_reward": {},
+            "subquests": [
+                {
+                    "name": "wobbly chocobo",
+                    "data": [
+                        {
+                            "condition": "Beat the target time of 12.8 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "elixir",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Improve your record.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "x-potion",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "dodger chocobo",
+                    "data": [
+                        {
+                            "condition": "Beat the target time of 16.8 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "lv. 1 key sphere",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Improve your record.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mega-potion",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "hyper dodger chocobo",
+                    "data": [
+                        {
+                            "condition": "Beat the target time of 18.5 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "lv. 2 key sphere",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Improve your record.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "ether",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "catcher chocobo",
+                    "data": [
+                        {
+                            "condition": "Win the race for the first time.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "lv. 3 key sphere",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Improve your record.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "turbo ether",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Get a time below 0 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "calm lands",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "sun sigil",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "valley of the cactuars",
+            "completion_condition": "Find and talk to every guardian.",
+            "completion_location_area": [
+                {
+                    "location": "bikanel island",
+                    "area": "sanubia desert - west"
+                }
+            ],
+            "completion_reward": {
+                "name": "mercury sigil",
+                "amount": 1
+            },
+            "subquests": [
+                {
+                    "name": "guardian Spheres at completion",
+                    "data": [
+                        {
+                            "condition": "1 or 2 Guardian Spheres.",
+                            "location_area": [
+                                {
+                                    "location": "bikanel island",
+                                    "area": "sanubia desert - west"
+                                }
+                            ],
+                            "reward": {
+                                "name": "potion",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "3 to 5 Guardian Spheres.",
+                            "location_area": [
+                                {
+                                    "location": "bikanel island",
+                                    "area": "sanubia desert - west"
+                                }
+                            ],
+                            "reward": {
+                                "name": "elixir",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "6 or 7 Guardian Spheres.",
+                            "location_area": [
+                                {
+                                    "location": "bikanel island",
+                                    "area": "sanubia desert - west"
+                                }
+                            ],
+                            "reward": {
+                                "name": "megalixir",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "8 or 9 Guardian Spheres.",
+                            "location_area": [
+                                {
+                                    "location": "bikanel island",
+                                    "area": "sanubia desert - west"
+                                }
+                            ],
+                            "reward": {
+                                "name": "friend sphere",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "butterfly hunt",
+            "completion_condition": "",
+            "completion_location_area": [],
+            "completion_reward": {},
+            "subquests": [
+                {
+                    "name": "before defeating spherimorph",
+                    "data": [
+                        {
+                            "condition": "Catch all butterflies within 40 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "macalania woods",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mp sphere",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Catch all butterflies within 40 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "macalania woods",
+                                    "area": "north"
+                                }
+                            ],
+                            "reward": {
+                                "name": "ether",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "after defeating spherimorph",
+                    "data": [
+                        {
+                            "condition": "Catch all butterflies within 30 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "macalania woods",
+                                    "area": "central"
+                                }
+                            ],
+                            "reward": {
+                                "name": "megalixir",
+                                "amount": 2
+                            }
+                        },
+                        {
+                            "condition": "Catch all butterflies within 30 seconds.",
+                            "location_area": [
+                                {
+                                    "location": "macalania woods",
+                                    "area": "north"
+                                }
+                            ],
+                            "reward": {
+                                "name": "elixir",
+                                "amount": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "after obtaining the airship",
+                    "data": [
+                        {
+                            "condition": "Catch all butterflies within 30 seconds. One hunt completed.",
+                            "location_area": [
+                                {
+                                    "location": "macalania woods",
+                                    "area": "central"
+                                },
+                                {
+                                    "location": "macalania woods",
+                                    "area": "north"
+                                }
+                            ],
+                            "reward": {
+                                "name": "teleport sphere",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Catch all butterflies within 30 seconds. Both hunts completed.",
+                            "location_area": [
+                                {
+                                    "location": "macalania woods",
+                                    "area": "central"
+                                },
+                                {
+                                    "location": "macalania woods",
+                                    "area": "north"
+                                }
+                            ],
+                            "reward": {
+                                "name": "saturn sigil",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lightning dodging",
+            "completion_condition": "",
+            "completion_location_area": [],
+            "completion_reward": {},
+            "subquests": [
+                {
+                    "name": "lightning dodges",
+                    "data": [
+                        {
+                            "condition": "5 in a row.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "x-potion",
+                                "amount": 2
+                            }
+                        },
+                        {
+                            "condition": "10 in a row.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mega-potion",
+                                "amount": 2
+                            }
+                        },
+                        {
+                            "condition": "20 in a row.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "mp sphere",
+                                "amount": 2
+                            }
+                        },
+                        {
+                            "condition": "50 in a row.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "strength sphere",
+                                "amount": 3
+                            }
+                        },
+                        {
+                            "condition": "100 in a row.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "hp sphere",
+                                "amount": 3
+                            }
+                        },
+                        {
+                            "condition": "150 in a row.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "megalixir",
+                                "amount": 4
+                            }
+                        },
+                        {
+                            "condition": "200 in a row.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "venus sigil",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "cumulative Lightning bolts",
+                    "data": [
+                        {
+                            "condition": "Dodge or get struck by 30 lightning bolts.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "ether",
+                                "amount": 1
+                            }
+                        },
+                        {
+                            "condition": "Dodge or get struck by 80 lightning bolts.",
+                            "location_area": [
+                                {
+                                    "location": "thunder plains",
+                                    "area": "agency front"
+                                }
+                            ],
+                            "reward": {
+                                "name": "elixir",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "blitzball",
+            "completion_condition": "",
+            "completion_location_area": [],
+            "completion_reward": {},
+            "subquests": [
+                {
+                    "name": "blitzball",
+                    "data": [
+                        {
+                            "condition": "Have Aurochs Reels obtained and win the League Season that offers the Jupiter Sigil as a prize.",
+                            "location_area": [
+                                {
+                                    "location": "luca stadium",
+                                    "area": "blitzball"
+                                }
+                            ],
+                            "reward": {
+                                "name": "jupiter sigil",
+                                "amount": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "al bhed primers",
+            "completion_condition": "Collect every Al Bhed primer and talk to Rin.",
+            "completion_location_area": [
+                {
+                    "location": "airship",
+                    "area": "corridor 1"
+                },
+                {
+                    "location": "airship",
+                    "area": "corridor 2"
+                }
+            ],
+            "completion_reward": {
+                "name": "underdogs secret",
+                "amount": 99
+            },
+            "subquests": []
+        }
+    ]
+}

@@ -1,0 +1,2907 @@
+{
+    "shops_data": [
+        {
+            "location_area": {
+                "location": "besaid village",
+                "area": "shop"
+            },
+            "note": "Equipment becomes available after the tutorials are completed. Items are always available.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "warrior's sword",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "enchanted rod",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "power ball",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "magical mog",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "seeker's shield",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                },
+                {
+                    "name": "seeker's ring",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                },
+                {
+                    "name": "seeker's armguard",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                },
+                {
+                    "name": "seeker's bangle",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "kilika port",
+                "area": "dock"
+            },
+            "note": "Available after the party wakes up.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [],
+            "equipment": [
+                {
+                    "name": "hunter's sword",
+                    "type": "weapon",
+                    "price": 250,
+                    "abilities": ["sensor"]
+                },
+                {
+                    "name": "rod of wisdom",
+                    "type": "weapon",
+                    "price": 250,
+                    "abilities": ["sensor"]
+                },
+                {
+                    "name": "scout",
+                    "type": "weapon",
+                    "price": 250,
+                    "abilities": ["sensor"]
+                },
+                {
+                    "name": "cactuar scope",
+                    "type": "weapon",
+                    "price": 250,
+                    "abilities": ["sensor"]
+                },
+                {
+                    "name": "hunter's spear",
+                    "type": "weapon",
+                    "price": 375,
+                    "abilities": ["piercing", "sensor"]
+                },
+                {
+                    "name": "seeker's shield",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                },
+                {
+                    "name": "seeker's ring",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                },
+                {
+                    "name": "seeker's armguard",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                },
+                {
+                    "name": "seeker's bangle",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                },
+                {
+                    "name": "seeker's armlet",
+                    "type": "armor",
+                    "price": 150,
+                    "abilities": ["hp +5%"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "ss winno",
+                "area": "corridor"
+            },
+            "note": "",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                }
+            ],
+            "equipment": []
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "number 1 dock"
+            },
+            "note": "",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "stunning steel",
+                    "type": "weapon",
+                    "price": 3050,
+                    "abilities": ["slowtouch"]
+                },
+                {
+                    "name": "rulebreaker",
+                    "type": "weapon",
+                    "price": 1550,
+                    "abilities": ["poisontouch"]
+                },
+                {
+                    "name": "thunder spear",
+                    "type": "weapon",
+                    "price": 1125,
+                    "abilities": ["piercing", "lightningstrike"]
+                },
+                {
+                    "name": "magic ring",
+                    "type": "armor",
+                    "price": 1250,
+                    "abilities": ["mp +5%"]
+                },
+                {
+                    "name": "magic bangle",
+                    "type": "armor",
+                    "price": 1250,
+                    "abilities": ["mp +5%"]
+                },
+                {
+                    "name": "red armlet",
+                    "type": "armor",
+                    "price": 1550,
+                    "abilities": ["fire ward"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "main gate"
+            },
+            "note": "Becomes available after Auron joins the party.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "warrior's sword",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "enchanted rod",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "power ball",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "magical mog",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "halberd",
+                    "type": "weapon",
+                    "price": 225,
+                    "abilities": ["piercing","strength +3%"]
+                },
+                {
+                    "name": "shimmering blade",
+                    "type": "weapon",
+                    "price": 225,
+                    "abilities": ["piercing", "strength +3%"]
+                },
+                {
+                    "name": "metal shield",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal ring",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal armguard",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal bangle",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal armlet",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal bracer",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca",
+                "area": "square"
+            },
+            "note": "Becomes available after Auron joins the party.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "warrior's sword",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "enchanted rod",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "power ball",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "magical mog",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "halberd",
+                    "type": "weapon",
+                    "price": 225,
+                    "abilities": ["piercing","strength +3%"]
+                },
+                {
+                    "name": "metal shield",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal ring",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal armguard",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal bangle",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                },
+                {
+                    "name": "metal armlet",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["defense +3%"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "agency"
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "grenade",
+                    "price": 300
+                },
+                {
+                    "name": "map",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "warrior's sword",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "enchanted rod",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "power ball",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["strength +3%"]
+                },
+                {
+                    "name": "magical mog",
+                    "type": "weapon",
+                    "price": 150,
+                    "abilities": ["magic +3%"]
+                },
+                {
+                    "name": "halberd",
+                    "type": "weapon",
+                    "price": 225,
+                    "abilities": ["piercing","strength +3%"]
+                },
+                {
+                    "name": "shimmering blade",
+                    "type": "weapon",
+                    "price": 225,
+                    "abilities": ["piercing", "strength +3%"]
+                },
+                {
+                    "name": "pearl shield",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["magic def +3%"]
+                },
+                {
+                    "name": "pearl ring",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["magic def +3%"]
+                },
+                {
+                    "name": "pearl armguard",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["magic def +3%"]
+                },
+                {
+                    "name": "pearl bangle",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["magic def +3%"]
+                },
+                {
+                    "name": "pearl armlet",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["magic def +3%"]
+                },
+                {
+                    "name": "pearl bracer",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["magic def +3%"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "oldroad south"
+            },
+            "note": "",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                }
+            ],
+            "equipment": []
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "mushroom rock"
+            },
+            "note": "Prices will vary depending on how much money you gave O'aka. < 100 Gil: 200%; > 100 Gil: 150%; > 1000 Gil: 120%; > 10000 Gil: 70%. Listed are the standard 100% prices.",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "icebrand",
+                    "type": "weapon",
+                    "price": 750,
+                    "abilities": ["icestrike"]
+                },
+                {
+                    "name": "metal shield",
+                    "type": "armor",
+                    "price": 525,
+                    "abilities": ["hp +5%", "defense +3%"]
+                },
+                {
+                    "name": "rod of wisdom",
+                    "type": "weapon",
+                    "price": 525,
+                    "abilities": ["magic +3%", "sensor"]
+                },
+                {
+                    "name": "magic ring",
+                    "type": "armor",
+                    "price": 2025,
+                    "abilities": ["hp +5%", "mp +5%"]
+                },
+                {
+                    "name": "nulfrost armguard",
+                    "type": "armor",
+                    "price": 975,
+                    "abilities": ["hp +5%", "sos nulfrost"]
+                },
+                {
+                    "name": "magic bangle",
+                    "type": "armor",
+                    "price": 2025,
+                    "abilities": ["hp +5%", "mp +5%"]
+                },
+                {
+                    "name": "light bracer",
+                    "type": "armor",
+                    "price": 1575,
+                    "abilities": ["slow ward", "empty"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "ridge"
+            },
+            "note": "Prices will vary depending on how much money you gave O'aka. < 100 Gil: 200%; > 100 Gil: 150%; > 1000 Gil: 120%; > 10000 Gil: 70%. Listed are the standard 100% prices.",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "soft",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "avenger",
+                    "type": "weapon",
+                    "price": 4050,
+                    "abilities": ["counterattack"]
+                },
+                {
+                    "name": "t.k.o.",
+                    "type": "weapon",
+                    "price": 5050,
+                    "abilities": ["stonetouch"]
+                },
+                {
+                    "name": "sentry",
+                    "type": "weapon",
+                    "price": 9075,
+                    "abilities": ["piercing", "initiative"]
+                },
+                {
+                    "name": "pearl ring",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["magic def +3%"]
+                },
+                {
+                    "name": "white armlet",
+                    "type": "armor",
+                    "price": 1550,
+                    "abilities": ["ice ward"]
+                },
+                {
+                    "name": "alert armlet",
+                    "type": "armor",
+                    "price": 250,
+                    "abilities": ["sleep ward"]
+                },
+                {
+                    "name": "blue bangle",
+                    "type": "armor",
+                    "price": 2625,
+                    "abilities": ["magic def +3%", "water ward"]
+                },
+                {
+                    "name": "red ring",
+                    "type": "armor",
+                    "price": 6150,
+                    "abilities": ["fire ward", "sos nultide", "empty"]
+                },
+                {
+                    "name": "lucid armguard",
+                    "type": "armor",
+                    "price": 1875,
+                    "abilities": ["magic def +3%", "confuse ward"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "aftermath"
+            },
+            "note": "Prices will vary depending on how much money you gave O'aka. < 100 Gil: 200%; > 100 Gil: 150%; > 1000 Gil: 120%; > 10000 Gil: 70%. Listed are the standard 100% prices.",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "soft",
+                    "price": 50
+                }
+            ],
+            "equipment": []
+        },
+        {
+            "location_area": {
+                "location": "djose temple",
+                "area": "inn"
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "soft",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "fencing saber",
+                    "type": "weapon",
+                    "price": 550,
+                    "abilities": ["strength +5%"]
+                },
+                {
+                    "name": "rune rod",
+                    "type": "weapon",
+                    "price": 550,
+                    "abilities": ["magic +5%"]
+                },
+                {
+                    "name": "hyper ball",
+                    "type": "weapon",
+                    "price": 550,
+                    "abilities": ["strength +5%"]
+                },
+                {
+                    "name": "rune mog",
+                    "type": "weapon",
+                    "price": 550,
+                    "abilities": ["magic +5%"]
+                },
+                {
+                    "name": "halberd",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["piercing", "strength +5%"]
+                },
+                {
+                    "name": "shimmering blade",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["piercing", "strength +5%"]
+                },
+                {
+                    "name": "metal shield",
+                    "type": "armor",
+                    "price": 550,
+                    "abilities": ["defense +5%"]
+                },
+                {
+                    "name": "metal ring",
+                    "type": "armor",
+                    "price": 550,
+                    "abilities": ["defense +5%"]
+                },
+                {
+                    "name": "metal armguard",
+                    "type": "armor",
+                    "price": 550,
+                    "abilities": ["defense +5%"]
+                },
+                {
+                    "name": "metal bangle",
+                    "type": "armor",
+                    "price": 550,
+                    "abilities": ["defense +5%"]
+                },
+                {
+                    "name": "metal armlet",
+                    "type": "armor",
+                    "price": 550,
+                    "abilities": ["defense +5%"]
+                },
+                {
+                    "name": "metal bracer",
+                    "type": "armor",
+                    "price": 550,
+                    "abilities": ["defense +5%"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "southwarf 1"
+            },
+            "note": "",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "soft",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "double-edge",
+                    "type": "weapon",
+                    "price": 2175,
+                    "abilities": ["firestrike", "icestrike"]
+                },
+                {
+                    "name": "switch hitter",
+                    "type": "weapon",
+                    "price": 975,
+                    "abilities": ["strength +5%", "strength +3%"]
+                },
+                {
+                    "name": "snakehead",
+                    "type": "weapon",
+                    "price": 3075,
+                    "abilities": ["magic +5%", "poisontouch"]
+                },
+                {
+                    "name": "mythril ring",
+                    "type": "armor",
+                    "price": 1575,
+                    "abilities": ["magic def +5%", "defense +5%"]
+                },
+                {
+                    "name": "emerald bangle",
+                    "type": "armor",
+                    "price": 1125,
+                    "abilities": ["magic def +5%", "magic def +3%"]
+                },
+                {
+                    "name": "serum bracer",
+                    "type": "armor",
+                    "price": 1425,
+                    "abilities": ["poison ward", "sos nulshock"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "southwarf 2"
+            },
+            "note": "The woman by the stairs.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 62
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 125
+                },
+                {
+                    "name": "antidote",
+                    "price": 62
+                },
+                {
+                    "name": "eye drops",
+                    "price": 62
+                },
+                {
+                    "name": "echo screen",
+                    "price": 62
+                },
+                {
+                    "name": "soft",
+                    "price": 62
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "bright shield",
+                    "type": "armor",
+                    "price": 1968,
+                    "abilities": ["defense +5%", "dark ward"]
+                },
+                {
+                    "name": "serum ring",
+                    "type": "armor",
+                    "price": 1781,
+                    "abilities": ["defense +5%", "poison ward"]
+                },
+                {
+                    "name": "danger armguard",
+                    "type": "armor",
+                    "price": 1968,
+                    "abilities": ["sos nulshock", "sos nulblaze"]
+                },
+                {
+                    "name": "echo bangle",
+                    "type": "armor",
+                    "price": 1968,
+                    "abilities": ["defense +5%", "silence ward"]
+                },
+                {
+                    "name": "soft armlet",
+                    "type": "armor",
+                    "price": 3281,
+                    "abilities": ["defense +5%", "stone ward"]
+                },
+                {
+                    "name": "blue bracer",
+                    "type": "armor",
+                    "price": 3843,
+                    "abilities": ["defense +5%", "water ward"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "southwarf 2"
+            },
+            "note": "The man next to the shoopuf.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 100
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 200
+                },
+                {
+                    "name": "antidote",
+                    "price": 100
+                },
+                {
+                    "name": "eye drops",
+                    "price": 100
+                },
+                {
+                    "name": "echo screen",
+                    "price": 100
+                },
+                {
+                    "name": "soft",
+                    "price": 100
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "serum shield",
+                    "type": "armor",
+                    "price": 2850,
+                    "abilities": ["magic def +5%", "poison ward"]
+                },
+                {
+                    "name": "nultide ring",
+                    "type": "armor",
+                    "price": 3150,
+                    "abilities": ["magic def +5%", "sos nultide"]
+                },
+                {
+                    "name": "soft armguard",
+                    "type": "armor",
+                    "price": 5250,
+                    "abilities": ["magic def +5%", "stone ward"]
+                },
+                {
+                    "name": "emerald bangle",
+                    "type": "armor",
+                    "price": 2250,
+                    "abilities": ["magic def +5%", "magic def +3%"]
+                },
+                {
+                    "name": "bright armlet",
+                    "type": "armor",
+                    "price": 3150,
+                    "abilities": ["magic def +5%", "dark ward"]
+                },
+                {
+                    "name": "white bracer",
+                    "type": "armor",
+                    "price": 6150,
+                    "abilities": ["magic def +5%", "ice ward"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "southwarf 3"
+            },
+            "note": "The man inside the tent.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 100
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 200
+                },
+                {
+                    "name": "antidote",
+                    "price": 100
+                },
+                {
+                    "name": "eye drops",
+                    "price": 100
+                },
+                {
+                    "name": "echo screen",
+                    "price": 100
+                },
+                {
+                    "name": "soft",
+                    "price": 100
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "hunter's sword",
+                    "type": "weapon",
+                    "price": 2250,
+                    "abilities": ["strength +5%", "sensor"]
+                },
+                {
+                    "name": "flametongue",
+                    "type": "weapon",
+                    "price": 3750,
+                    "abilities": ["strength +5%", "firestrike"]
+                },
+                {
+                    "name": "ice ball",
+                    "type": "weapon",
+                    "price": 3750,
+                    "abilities": ["strength +5%", "icestrike"]
+                },
+                {
+                    "name": "twin lance",
+                    "type": "weapon",
+                    "price": 8700,
+                    "abilities": ["piercing", "firestrike", "icestrike"]
+                },
+                {
+                    "name": "blurry moon",
+                    "type": "weapon",
+                    "price": 6150,
+                    "abilities": ["piercing", "darktouch"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "southwarf 3"
+            },
+            "note": "The woman in front of the tent. Appears after the cutscene and re-entering the screen.",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 92
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 185
+                },
+                {
+                    "name": "antidote",
+                    "price": 92
+                },
+                {
+                    "name": "eye drops",
+                    "price": 92
+                },
+                {
+                    "name": "echo screen",
+                    "price": 92
+                },
+                {
+                    "name": "soft",
+                    "price": 92
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "rod of darkness",
+                    "type": "weapon",
+                    "price": 7076,
+                    "abilities": ["magic +5%", "darktouch"]
+                },
+                {
+                    "name": "fatal cait sith",
+                    "type": "weapon",
+                    "price": 14892,
+                    "abilities": ["deathtouch"]
+                },
+                {
+                    "name": "noxious cait sith",
+                    "type": "weapon",
+                    "price": 5688,
+                    "abilities": ["magic +5%", "poisontouch"]
+                },
+                {
+                    "name": "force lance",
+                    "type": "weapon",
+                    "price": 5827,
+                    "abilities": ["magic +5%", "strength +5%", "piercing"]
+                },
+                {
+                    "name": "thunder spear",
+                    "type": "weapon",
+                    "price": 6937,
+                    "abilities": ["magic +5%", "lightningstrike", "piercing"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "north wharf 2"
+            },
+            "note": "",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "soft",
+                    "price": 50
+                }
+            ],
+            "equipment": []
+        },
+        {
+            "location_area": {
+                "location": "guadosalam",
+                "area": "shop"
+            },
+            "note": "",
+            "isOaka": true,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "soft",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "double-edge",
+                    "type": "weapon",
+                    "price": 2175,
+                    "abilities": ["waterstrike", "lightningstrike"]
+                },
+                {
+                    "name": "beladonna wand",
+                    "type": "weapon",
+                    "price": 3075,
+                    "abilities": ["magic +5%", "poisontouch"]
+                },
+                {
+                    "name": "blind pass",
+                    "type": "weapon",
+                    "price": 3075,
+                    "abilities": ["darktouch", "empty"]
+                },
+                {
+                    "name": "fatal cait sith",
+                    "type": "weapon",
+                    "price": 12825,
+                    "abilities": ["magic +5%", "deathtouch"]
+                },
+                {
+                    "name": "shimmering blade",
+                    "type": "weapon",
+                    "price": 1650,
+                    "abilities": ["piercing", "strength +5%", "empty"]
+                },
+                {
+                    "name": "devastator",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["strength +5%", "empty"]
+                },
+                {
+                    "name": "yellow shield",
+                    "type": "armor",
+                    "price": 2325,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow ring",
+                    "type": "armor",
+                    "price": 2325,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow armguard",
+                    "type": "armor",
+                    "price": 2325,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow bangle",
+                    "type": "armor",
+                    "price": 2325,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow armlet",
+                    "type": "armor",
+                    "price": 2325,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow bracer",
+                    "type": "armor",
+                    "price": 2325,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow targe",
+                    "type": "armor",
+                    "price": 2325,
+                    "abilities": ["lightning ward", "empty"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "guadosalam",
+                "area": "shop"
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 75
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 150
+                },
+                {
+                    "name": "antidote",
+                    "price": 75
+                },
+                {
+                    "name": "eye drops",
+                    "price": 75
+                },
+                {
+                    "name": "echo screen",
+                    "price": 75
+                },
+                {
+                    "name": "soft",
+                    "price": 75
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "baroque sword",
+                    "type": "weapon",
+                    "price": 1237,
+                    "abilities": ["strength +5%", "empty"]
+                },
+                {
+                    "name": "ductile rod",
+                    "type": "weapon",
+                    "price": 1237,
+                    "abilities": ["magic +5%", "empty"]
+                },
+                {
+                    "name": "switch hitter",
+                    "type": "weapon",
+                    "price": 1237,
+                    "abilities": ["strength +5%", "empty"]
+                },
+                {
+                    "name": "variable mog",
+                    "type": "weapon",
+                    "price": 1237,
+                    "abilities": ["magic +5%", "empty"]
+                },
+                {
+                    "name": "halberd",
+                    "type": "weapon",
+                    "price": 2475,
+                    "abilities": ["piercing", "strength +5%", "empty"]
+                },
+                {
+                    "name": "shimmering blade",
+                    "type": "weapon",
+                    "price": 2475,
+                    "abilities": ["piercing", "strength +5%", "empty"]
+                },
+                {
+                    "name": "devastator",
+                    "type": "weapon",
+                    "price": 1237,
+                    "abilities": ["strength +5%", "empty"]
+                },
+                {
+                    "name": "yellow shield",
+                    "type": "armor",
+                    "price": 3487,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow ring",
+                    "type": "armor",
+                    "price": 3487,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow armguard",
+                    "type": "armor",
+                    "price": 3487,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow bangle",
+                    "type": "armor",
+                    "price": 3487,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow armlet",
+                    "type": "armor",
+                    "price": 3487,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow bracer",
+                    "type": "armor",
+                    "price": 3487,
+                    "abilities": ["lightning ward", "empty"]
+                },
+                {
+                    "name": "yellow targe",
+                    "type": "armor",
+                    "price": 3487,
+                    "abilities": ["lightning ward", "empty"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "thunder plains",
+                "area": "agency"
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "potion",
+                    "price": 50
+                },
+                {
+                    "name": "phoenix down",
+                    "price": 100
+                },
+                {
+                    "name": "antidote",
+                    "price": 50
+                },
+                {
+                    "name": "eye drops",
+                    "price": 50
+                },
+                {
+                    "name": "echo screen",
+                    "price": 50
+                },
+                {
+                    "name": "soft",
+                    "price": 50
+                },
+                {
+                    "name": "grenade",
+                    "price": 300
+                },
+                {
+                    "name": "map",
+                    "price": 50
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "baroque sword",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["strength +5%", "empty"]
+                },
+                {
+                    "name": "ductile rod",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["magic +5%", "empty"]
+                },
+                {
+                    "name": "switch hitter",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["strength +5%", "empty"]
+                },
+                {
+                    "name": "variable mog",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["magic +5%", "empty"]
+                },
+                {
+                    "name": "halberd",
+                    "type": "weapon",
+                    "price": 1650,
+                    "abilities": ["piercing", "strength +5%", "empty"]
+                },
+                {
+                    "name": "shimmering blade",
+                    "type": "weapon",
+                    "price": 1650,
+                    "abilities": ["piercing", "strength +5%", "empty"]
+                },
+                {
+                    "name": "devastator",
+                    "type": "weapon",
+                    "price": 825,
+                    "abilities": ["strength +5%", "empty"]
+                },
+                {
+                    "name": "yellow shield",
+                    "type": "armor",
+                    "price": 2475,
+                    "abilities": ["lightning ward", "hp +5%"]
+                },
+                {
+                    "name": "yellow ring",
+                    "type": "armor",
+                    "price": 2475,
+                    "abilities": ["lightning ward", "hp +5%"]
+                },
+                {
+                    "name": "yellow armguard",
+                    "type": "armor",
+                    "price": 2475,
+                    "abilities": ["lightning ward", "hp +5%"]
+                },
+                {
+                    "name": "yellow bangle",
+                    "type": "armor",
+                    "price": 2475,
+                    "abilities": ["lightning ward", "hp +5%"]
+                },
+                {
+                    "name": "yellow armlet",
+                    "type": "armor",
+                    "price": 2475,
+                    "abilities": ["lightning ward", "hp +5%"]
+                },
+                {
+                    "name": "yellow bracer",
+                    "type": "armor",
+                    "price": 2475,
+                    "abilities": ["lightning ward", "hp +5%"]
+                },
+                {
+                    "name": "yellow targe",
+                    "type": "armor",
+                    "price": 2475,
+                    "abilities": ["lightning ward", "hp +5%"]
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "note": "",
+            "isOaka": false,
+            "isPostAirship": false,
+            "items": [
+                {
+                    "name": "",
+                    "price": 0
+                }
+            ],
+            "equipment": [
+                {
+                    "name": "",
+                    "type": "",
+                    "price": 0,
+                    "abilities": []
+                }
+            ]
+        }
+    ]
+}

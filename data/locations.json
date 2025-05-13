@@ -169,17 +169,18 @@
                         "number 2 dock",
                         "number 3 dock",
                         "number 4 dock",
-                        "number 5 dock"
+                        "number 5 dock",
+                        "blitzball"
                     ]
                 },
                 {
-                    "location_name": "luca city",
+                    "location_name": "luca",
                     "areas":[
                         "bridge",
                         "theatre - entrance",
                         "theatre -reception",
                         "theatre - main hall",
-                        "luca square",
+                        "square",
                         "cafe",
                         "city limits"
                     ]
@@ -258,11 +259,9 @@
                         "south warf 1",
                         "south warf 2",
                         "south warf 3",
-                        "south warf 4",
                         "north warf 1",
                         "north warf 2",
                         "north warf 3",
-                        "north warf 4",
                         "north bank",
                         "north bank road"
                     ]
@@ -360,9 +359,9 @@
                     "location_name": "bikanel island",
                     "areas": [
                         "oasis",
-                        "east",
-                        "west",
-                        "central",
+                        "sanubia desert - east",
+                        "sanubia desert - central",
+                        "sanubia desert - west",
                         "sanubia sands"
                     ]
                 },
@@ -389,9 +388,9 @@
                         "bridge",
                         "corridor 1",
                         "corridor 2",
+                        "compartment 1",
                         "corridor 3",
                         "corridor 4",
-                        "compartment 1",
                         "compartment 2",
                         "cabin",
                         "cabin lift bottom",
@@ -420,8 +419,8 @@
                 {
                     "location_name": "via purifico",
                     "areas": [
-                        "via purifico yuna",
-                        "via purifico underwater"
+                        "yuna",
+                        "underwater"
                     ]
                 },
                 {
@@ -442,12 +441,7 @@
                         "central",
                         "north",
                         "near bridge",
-                        "gorge bottom"
-                    ]
-                },
-                {
-                    "location_name": "monster arena",
-                    "areas": [
+                        "gorge bottom",
                         "arena"
                     ]
                 }
@@ -486,12 +480,7 @@
                         "mountain gate",
                         "mountain trail",
                         "prominence",
-                        "fayth cluster"
-                    ]
-                },
-                {
-                    "location_name": "mountain cave",
-                    "areas": [
+                        "fayth cluster",
                         "mountain cave",
                         "submerged passage",
                         "summit region",
