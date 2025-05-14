@@ -1,0 +1,4058 @@
+{
+    "treasures_data": [
+        {
+            "location_area": {
+                "location": "baaj temple",
+                "area": "submerged ruins"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 200,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "baaj temple",
+                "area": "underwater hall"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "baaj temple",
+                "area": "hall"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "upstairs",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "baaj temple",
+                "area": "small room"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "flint",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "baaj temple",
+                "area": "stairs"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "withered bouquet",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "underwater ruins",
+                "area": "deck"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer i",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Can be repeated infinitely, if you dive into the water, come back up, and talk to the guy again.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "besaid island",
+                "area": "beach"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "antidote",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "moon crest",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "Only on arrival.",
+                    "gil_amount": 200,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only on arrival.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only on arrival.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only on arrival.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Only when leaving the village.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "seeker's ring",
+                        "abilities": ["hp +10%"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "Only when leaving the village.",
+                    "gil_amount": 400,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only when leaving the village.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only when leaving the village.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only when leaving the village.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "besaid island",
+                "area": "valley"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "antidote",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "besaid village",
+                "area": "besaid village"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 400,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "On the next morning, when leaving the village.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "brotherhood",
+                        "abilities": ["strength +5%", "empty", "empty", "empty"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "besaid village",
+                "area": "crusaders lodge"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer ii",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "besaid temple",
+                "area": "trials"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Opening this chest is required for getting Anima.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "rod of wisdom",
+                        "abilities": ["magic +5%", "magic +3%", "sensor"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "ss liki",
+                "area": "cabin"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "object",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "You can kick the suitcase until you have 20 potions.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "ss liki",
+                "area": "power room"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer iii",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "kilika port",
+                "area": "tavern"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer iv",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "kilika port",
+                "area": "house"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "kilika woods",
+                "area": "wood"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mana sphere",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "scout",
+                        "abilities": ["icestrike", "sensor"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "luck sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Speak to Luzzu twice.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "antidote",
+                        "amount": 4
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Given by Luzzu after defeating Lord Ochu.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "elixir",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "After defeating Lord Ochu.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "nulblaze shield",
+                        "abilities": ["sos nulblaze"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "kilika temple",
+                "area": "trials"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Opening this chest is required for getting Anima.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "red armlet",
+                        "abilities": ["fire ward", "ice ward", "lightning ward"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "ss winno",
+                "area": "bridge"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer v",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "ss winno",
+                "area": "cabin"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "locker room"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "After the events at Luca.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "jupiter crest",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "basement b"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer vi",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "number 1 dock"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 600,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "tidal spear",
+                        "abilities": ["piercing", "waterstrike"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "number 2 dock"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "number 5 dock"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hp sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "magic sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca stadium",
+                "area": "blitzball"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Win the game against the Luca Goers.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "strength sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca",
+                "area": "theatre - main hall"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer vii",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "luca",
+                "area": "city limits"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 1000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "south end"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "hunter's spear",
+                        "abilities": ["piercing", "sensor", "strength +10%"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "antidote",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "icebrand",
+                        "abilities": ["icestrike"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Loss against Belgemine.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "seeker's ring",
+                        "abilities": ["hp +10%"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Win against Belgemine.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "echo ring",
+                        "abilities": ["hp +10%", "silence ward"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "south"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "red ring",
+                        "abilities": ["hp +10%", "fire ward"]
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "soft",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "central"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "lv. 1 key sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "antidote",
+                        "amount": 4
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 2000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 600,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "eye drops",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "agency"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "lv. 1 key sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer viii",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "newroad north"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Only accessible via Chocobo.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "heat lance",
+                        "abilities": ["piercing", "firestrike"]
+                    }
+                },
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer ix",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "north end"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "oldroad north"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Only accessible via Chocobo.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "scout",
+                        "abilities": ["sensor", "lightningstrike"]
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Only accessible via Chocobo.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "thunder blade",
+                        "abilities": ["piercing", "lightningstrike"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mi'ihen highroad",
+                "area": "oldroad south"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only accessible via Chocobo.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "fortune sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mars crest",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "mushroom rock"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "tough bangle",
+                        "abilities": ["hp +20%", "empty"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "valley"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 1000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 10
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "precipice"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "serene armlet",
+                        "abilities": ["dark ward", "berserk ward"]
+                    }
+                },
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer x",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 400,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "plateau"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only after completing the Cloyster of Trials at Djose Temple.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "soft",
+                        "amount": 4
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "ridge"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "serene bracer",
+                        "abilities": ["hp +5%", "berserk ward"]
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "mushroom rock road",
+                "area": "aftermath"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose highroad",
+                "area": "highroad"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "variable steel",
+                        "abilities": ["strength +3%", "empty", "empty", "empty"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "soft ring",
+                        "abilities": ["stoneproof", "empty"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer xi",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "bright bangle",
+                        "abilities": ["dark ward", "empty"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose highroad",
+                "area": "pilgrimage road"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Only after completing the Cloyster of Trials at Djose Temple.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "halberd",
+                        "abilities": ["magic +20%", "empty"]
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only after completing the Cloyster of Trials at Djose Temple.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Only after completing the Cloyster of Trials at Djose Temple.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "potion",
+                        "amount": 10
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose temple",
+                "area": "temple"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 4000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ability sphere",
+                        "amount": 4
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose temple",
+                "area": "inn"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "Only after completing the Cloyster of Trials at Djose Temple.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "switch hitter",
+                        "abilities": ["strength +3%", "strength +5%"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose temple",
+                "area": "great hall"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose temple",
+                "area": "nun's chamber"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose temple",
+                "area": "monk's chamber"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega phoenix",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "djose temple",
+                "area": "trials"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Opening this chest is required for getting Anima.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "magic sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "south bank road"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "lv. 1 key sphere",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "lv. 1 key sphere",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "magic def sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "After the battle against Belgemine.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "summoner's soul",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Loss against Belgemine.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "smoke bomb",
+                        "amount": 6
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Win against Belgemine.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "dragon scale",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "south wharf 1"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "south wharf 3"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 5000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "north wharf 2"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer xii",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "north wharf 3"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "north bank"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "antidote",
+                        "amount": 4
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "moonflow",
+                "area": "north bank road"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "guadosalam",
+                "area": "guadosalam"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "elixir",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "guadosalam",
+                "area": "house 1"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer xiii",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 3000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "guadosalam",
+                "area": "mansion - entrance"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "guadosalam",
+                "area": "road to farplane"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "lightning marble",
+                        "amount": 8
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "guadosalam",
+                "area": "the farplane"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "After the events at the mansion.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "venus crest",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "thunder plains",
+                "area": "south"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 5000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "water ball",
+                        "abilities": ["waterstrike", "empty"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "thunder plains",
+                "area": "agency front"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "yellow shield",
+                        "abilities": ["lightningproof"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "thunder plains",
+                "area": "agency"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer xiv",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "thunder plains",
+                "area": "north"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 2000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania woods",
+                "area": "south"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "sleepy cait sith",
+                        "abilities": ["sleeptouch"]
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 2000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania woods",
+                "area": "central"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania woods",
+                "area": "north"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania woods",
+                "area": "lake road"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer xv",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania woods",
+                "area": "spring"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "jecht sphere 1",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "lake macalania",
+                "area": "agency front"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "After the battle against Crawler.",
+                    "gil_amount": 4000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "object",
+                    "item_type": "key item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "al bhed primer xvi",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "lake macalania",
+                "area": "crevasse"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "lv. 1 key sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "lake macalania",
+                "area": "lake bottom"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "lv. 2 key sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "avenger",
+                        "abilities": ["counterattack"]
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania temple",
+                "area": "road"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 400,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania temple",
+                "area": "hall"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "equipment",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "shell targe",
+                        "abilities": ["sos shell"]
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "gil",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 5000,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania temple",
+                "area": "monk's chamber"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "elixir",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 3
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania temple",
+                "area": "nun's chamber"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "gift",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                },
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "remedy",
+                        "amount": 2
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "macalania temple",
+                "area": "trials"
+            },
+            "treasures": [
+                {
+                    "treasure_type": "chest",
+                    "item_type": "item",
+                    "is_post_airship": false,
+                    "notes": "Opening this chest is required for getting Anima.",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "luck sphere",
+                        "amount": 1
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        },
+        {
+            "location_area": {
+                "location": "",
+                "area": ""
+            },
+            "treasures": [
+                {
+                    "treasure_type": "",
+                    "item_type": "",
+                    "is_post_airship": false,
+                    "notes": "",
+                    "gil_amount": 0,
+                    "item": {
+                        "name": "",
+                        "amount": 0
+                    },
+                    "equipment": {
+                        "name": "",
+                        "abilities": []
+                    }
+                }
+            ]
+        }
+    ]
+}
