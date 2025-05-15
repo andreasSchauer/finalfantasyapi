@@ -3924,7 +3924,7 @@
             "name": "bevelle shop",
             "location_area": {
                 "location": "bevelle",
-                "area": "via purifico underwater"
+                "area": "via purifico tidus"
             },
             "note": "This shop opens when you open the first treasure chest.",
             "is_oaka": false,
@@ -4945,7 +4945,7 @@
                 "location": "mount gagazet",
                 "area": "mountain trail"
             },
-            "note": "If you don't speak to Wantz at Gagazet, he won't be in the Macalania Woods after acquiring the Airship.",
+            "note": "If you don't speak to Wantz at Gagazet, he won't be in the Macalania Woods after obtaining the Airship.",
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -5236,7 +5236,6 @@
                     }
                 ]
             }
-            
         }
     ]
 }

@@ -5,7 +5,7 @@
             "locations": [
                 {
                     "location_name": "dream zanarkand",
-                    "areas":[
+                    "areas": [
                         "dream zanarkand"
                     ]
                 }
@@ -16,7 +16,7 @@
             "locations": [
                 {
                     "location_name": "baaj temple",
-                    "areas":[
+                    "areas": [
                         "submerged ruins",
                         "underwater hall",
                         "corridor",
@@ -35,7 +35,7 @@
             "locations": [
                 {
                     "location_name": "underwater ruins",
-                    "areas":[
+                    "areas": [
                         "deck",
                         "surface",
                         "underwater",
@@ -49,7 +49,7 @@
             "locations": [
                 {
                     "location_name": "besaid island",
-                    "areas":[
+                    "areas": [
                         "beach",
                         "crossroads",
                         "valley",
@@ -64,7 +64,7 @@
                 },
                 {
                     "location_name": "besaid village",
-                    "areas":[
+                    "areas": [
                         "besaid village",
                         "shop",
                         "house 1",
@@ -75,7 +75,7 @@
                 },
                 {
                     "location_name": "besaid temple",
-                    "areas":[
+                    "areas": [
                         "great hall",
                         "monk's chamber",
                         "nun's chamber",
@@ -91,7 +91,7 @@
             "locations": [
                 {
                     "location_name": "ss liki",
-                    "areas":[
+                    "areas": [
                         "deck",
                         "deck upstairs",
                         "bridge",
@@ -108,7 +108,7 @@
             "locations": [
                 {
                     "location_name": "kilika port",
-                    "areas":[
+                    "areas": [
                         "dock",
                         "tavern",
                         "residential area",
@@ -118,14 +118,14 @@
                 },
                 {
                     "location_name": "kilika woods",
-                    "areas":[
+                    "areas": [
                         "wood",
                         "pilgrimage road"
                     ]
                 },
                 {
                     "location_name": "kilika temple",
-                    "areas":[
+                    "areas": [
                         "temple",
                         "monk's chamber 1",
                         "monk's chamber 2",
@@ -143,7 +143,7 @@
             "locations": [
                 {
                     "location_name": "ss winno",
-                    "areas":[
+                    "areas": [
                         "deck",
                         "deck upstairs",
                         "bridge",
@@ -159,7 +159,7 @@
             "locations": [
                 {
                     "location_name": "luca stadium",
-                    "areas":[
+                    "areas": [
                         "main gate",
                         "stands",
                         "basement a",
@@ -175,7 +175,7 @@
                 },
                 {
                     "location_name": "luca",
-                    "areas":[
+                    "areas": [
                         "bridge",
                         "theatre - entrance",
                         "theatre - reception",
@@ -192,7 +192,7 @@
             "locations": [
                 {
                     "location_name": "mi'ihen highroad",
-                    "areas":[
+                    "areas": [
                         "south end",
                         "south",
                         "central",
@@ -213,16 +213,16 @@
             "locations": [
                 {
                     "location_name": "mushroom rock road",
-                    "areas":[
+                    "areas": [
                         "mushroom rock",
                         "valley",
-                        "valley lower",
                         "precipice",
                         "plateau",
                         "ridge",
                         "beach",
                         "aftermath",
-                        "battle site"
+                        "battle site",
+                        "mushroom rock valley"
                     ]
                 }
             ]
@@ -232,14 +232,14 @@
             "locations": [
                 {
                     "location_name": "djose highroad",
-                    "areas":[
+                    "areas": [
                         "highroad",
                         "pilgrimage road"
                     ]
                 },
                 {
                     "location_name": "djose temple",
-                    "areas":[
+                    "areas": [
                         "temple",
                         "inn",
                         "great hall",
@@ -252,7 +252,7 @@
                 },
                 {
                     "location_name": "moonflow",
-                    "areas":[
+                    "areas": [
                         "south bank road",
                         "south bank",
                         "south wharf 1",
@@ -272,7 +272,7 @@
             "locations": [
                 {
                     "location_name": "guadosalam",
-                    "areas":[
+                    "areas": [
                         "guadosalam",
                         "inn",
                         "shop",
@@ -292,7 +292,7 @@
             "locations": [
                 {
                     "location_name": "thunder plains",
-                    "areas":[
+                    "areas": [
                         "south",
                         "agency front",
                         "agency",
@@ -306,30 +306,25 @@
             "locations": [
                 {
                     "location_name": "macalania woods",
-                    "areas":[
+                    "areas": [
                         "south",
                         "central",
                         "north",
-                        "skytrail - south",
-                        "skytrail - central",
-                        "skytrail - north",
+                        "crystal path - south",
+                        "crystal path - central",
+                        "crystal path - north",
                         "lake road",
-                        "spring"
-                    ]
-                },
-                {
-                    "location_name": "campsite",
-                    "areas": [
-                        "campsite",
-                        "crossroads",
-                        "to bevelle",
                         "spring",
-                        "north"
-                    ]
+                        "to bevelle",
+                        "to thunder plains",
+                        "campsite",
+                        "campsite - spring",
+                        "campsite - north"
+                    ]   
                 },
                 {
                     "location_name": "lake macalania",
-                    "areas": [
+                    "areas":  [
                         "agency front",
                         "agency",
                         "lake macalania",
@@ -339,7 +334,7 @@
                 },
                 {
                     "location_name": "macalania temple",
-                    "areas": [
+                    "areas":  [
                         "road",
                         "hall",
                         "monk's chamber",
@@ -356,7 +351,7 @@
             "locations": [
                 {
                     "location_name": "bikanel island",
-                    "areas": [
+                    "areas":  [
                         "oasis",
                         "sanubia desert - east",
                         "sanubia desert - central",
@@ -366,7 +361,7 @@
                 },
                 {
                     "location_name": "home",
-                    "areas": [
+                    "areas":  [
                         "home",
                         "entrance",
                         "main corridor",
@@ -383,7 +378,7 @@
             "locations": [
                 {
                     "location_name": "airship",
-                    "areas": [
+                    "areas":  [
                         "bridge",
                         "corridor",
                         "compartment 1",
@@ -399,7 +394,7 @@
             "locations": [
                 {
                     "location_name": "bevelle temple",
-                    "areas": [
+                    "areas":  [
                         "tower of light",
                         "passage of cleansing",
                         "priests passage 1",
@@ -412,9 +407,9 @@
                 },
                 {
                     "location_name": "bevelle",
-                    "areas": [
+                    "areas":  [
                         "via purifico yuna",
-                        "via purifico underwater",
+                        "via purifico tidus",
                         "highbridge"
                     ]
                 }
@@ -425,7 +420,7 @@
             "locations": [
                 {
                     "location_name": "calm lands",
-                    "areas": [
+                    "areas":  [
                         "south",
                         "central",
                         "north",
@@ -441,7 +436,7 @@
             "locations": [
                 {
                     "location_name": "remiem temple",
-                    "areas": [
+                    "areas":  [
                         "remiem temple",
                         "great hall",
                         "chamber of the fayth"
@@ -454,8 +449,9 @@
             "locations": [
                 {
                     "location_name": "cavern of the stolen fayth",
-                    "areas": [
-                        "cavern of the stolen fayth"
+                    "areas":  [
+                        "cavern of the stolen fayth",
+                        "chamber of the fayth"
                     ]
                 }
             ]
@@ -465,7 +461,7 @@
             "locations": [
                 {
                     "location_name": "mount gagazet",
-                    "areas": [
+                    "areas":  [
                         "mountain gate",
                         "mountain trail",
                         "prominence",
@@ -478,16 +474,15 @@
                 },
                 {
                     "location_name": "zanarkand ruins",
-                    "areas": [
+                    "areas":  [
                         "zanarkand ruins",
                         "overpass",
-                        "dome",
-                        "dome entry"
+                        "dome"
                     ]
                 },
                 {
                     "location_name": "zanarkand dome",
-                    "areas": [
+                    "areas":  [
                         "interior",
                         "corridor",
                         "trials",
@@ -503,12 +498,14 @@
             "locations": [
                 {
                     "location_name": "inside sin",
-                    "areas": [
+                    "areas":  [
                         "near airship",
                         "sea of sorrow",
                         "garden of pain",
                         "city of dying dreams",
-                        "tower of the dead"
+                        "tower of the dead",
+                        "the nucleus",
+                        "dream's end"
                     ]
                 }
             ]
@@ -518,9 +515,9 @@
             "locations": [
                 {
                     "location_name": "omega ruins",
-                    "areas": [
-                        "bottom level",
-                        "top level"
+                    "areas":  [
+                        "bottom",
+                        "top"
                     ]
                 }
             ]
