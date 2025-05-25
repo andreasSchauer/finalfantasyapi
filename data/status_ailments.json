@@ -19,7 +19,7 @@
         {
             "name": "berserk",
             "description": "Causes the unit to use 'attack' uncontrollably and boosts damage by 50%. Can be removed by 'Threaten'."
-        },
+        }, 
         {
             "name": "confusion",
             "description": "Causes the unit to use 'attack' uncontrollably, targeting themselves or their allies."
@@ -32,6 +32,10 @@
             "name": "darkness",
             "description": "Reduces the unit's chance of landing an evadable physical attack to 10% (before luck)."
         },
+        {
+            "name": "death",
+            "description": "The unit's HP are reduced to 0."
+        }
         {
             "name": "delay",
             "description": "Adds to the unit's ticks to their next turn, delaying it."
@@ -78,7 +82,23 @@
         },
         {
             "name": "zombie",
-            "description": "Restorative items and magic damage the unit. Grants immunity to instant death effects, as long as they don't ignore immunity. Items and magic with that inflict Life will reduce the unit's HP to 0, if it is not immune to Life."
+            "description": "Restorative items and magic damage the unit. Grants immunity to instant death effects, as long as they don't ignore immunity. Items and magic that inflict Life will reduce the unit's HP to 0, if it is not immune to Life."
+        },
+        {
+            "name": "power distiller",
+            "description": "Causes an enemy to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally."
+        },
+        {
+            "name": "mana distiller",
+            "description": "Causes an enemy to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally."
+        },
+        {
+            "name": "speed distiller",
+            "description": "Causes an enemy to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally."
+        },
+        {
+            "name": "ability distiller",
+            "description": "Causes an enemy to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally."
         },
         {
             "name": "life",
@@ -127,6 +147,10 @@
         {
             "name": "shell",
             "description": "Halves the unit's damage/healing taken from magical actions."
+        }
+        {
+            "name": "yet to add",
+            "description": "scan, defend, guard, sentinel, shield?, boost?"
         }
     ]
 }

@@ -13,6 +13,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -40,6 +41,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -62,6 +64,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -84,6 +87,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -98,7 +102,7 @@
             "game_description": "Adds fire element to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to be fire-elemental.",
             "type": "weapon",
-            "category": "",
+            "category": "elemental-strike",
             "value": 700,
             "required_item": {
                 "name": "bomb fragment",
@@ -106,6 +110,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": "fire",
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -120,7 +125,7 @@
             "game_description": "Adds lightning element to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to be lightning-elemental.",
             "type": "weapon",
-            "category": "",
+            "category": "elemental-strike",
             "value": 700,
             "required_item": {
                 "name": "electro marble",
@@ -128,6 +133,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": "lightning",
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -142,7 +148,7 @@
             "game_description": "Adds water element to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to be water-elemental.",
             "type": "weapon",
-            "category": "",
+            "category": "elemental-strike",
             "value": 700,
             "required_item": {
                 "name": "fish scale",
@@ -150,6 +156,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": "water",
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -164,7 +171,7 @@
             "game_description": "Adds ice element to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to be ice-elemental.",
             "type": "weapon",
-            "category": "",
+            "category": "elemental-strike",
             "value": 700,
             "required_item": {
                 "name": "antarctic wind",
@@ -172,6 +179,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": "ice",
                 "added_elem_affinity": null,
                 "on_hit_status": null,
@@ -186,7 +194,7 @@
             "game_description": "Sometimes adds darkness to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict darkness for three turns. Chance stacks additively with darkstrike.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 2000,
             "required_item": {
                 "name": "eye drops",
@@ -194,6 +202,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -212,7 +221,7 @@
             "game_description": "Almost always adds darkness to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict darkness for three turns. Chance stacks additively with darktouch.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 4000,
             "required_item": {
                 "name": "smoke bomb",
@@ -220,6 +229,7 @@
             },
             "locked_out_abilities": ["darktouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -238,7 +248,7 @@
             "game_description": "Sometimes adds silence to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict silence for three turns. Chance stacks additively with silencestrike.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 3000,
             "required_item": {
                 "name": "echo screen",
@@ -246,6 +256,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -264,7 +275,7 @@
             "game_description": "Almost always adds silence to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict silence for three turns. Chance stacks additively with silencetouch.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 8000,
             "required_item": {
                 "name": "silence grenade",
@@ -272,6 +283,7 @@
             },
             "locked_out_abilities": ["silencetouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -290,7 +302,7 @@
             "game_description": "Sometimes adds sleep to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict sleep for three turns. Chance stacks additively with sleepstrike.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 1000,
             "required_item": {
                 "name": "sleeping powder",
@@ -298,6 +310,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -316,7 +329,7 @@
             "game_description": "Almost always adds sleep to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict sleep for three turns. Chance stacks additively with sleeptouch.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 8000,
             "required_item": {
                 "name": "dream powder",
@@ -324,6 +337,7 @@
             },
             "locked_out_abilities": ["sleeptouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -342,7 +356,7 @@
             "game_description": "Sometimes adds poison to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict poison. Chance stacks additively with poisonstrike.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 1500,
             "required_item": {
                 "name": "antidote",
@@ -350,6 +364,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -368,7 +383,7 @@
             "game_description": "Almost always adds poison to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict poison. Chance stacks additively with poisontouch.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 10000,
             "required_item": {
                 "name": "poison fang",
@@ -376,6 +391,7 @@
             },
             "locked_out_abilities": ["poisontouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -394,7 +410,7 @@
             "game_description": "Sometimes adds petrification to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict petrification. Chance stacks additively with stonestrike.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 5000,
             "required_item": {
                 "name": "petrify grenade",
@@ -402,6 +418,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -420,7 +437,7 @@
             "game_description": "Almost always adds petrification to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict petrification. Chance stacks additively with stonetouch.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 12000,
             "required_item": {
                 "name": "petrify grenade",
@@ -428,6 +445,7 @@
             },
             "locked_out_abilities": ["stonetouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -446,7 +464,7 @@
             "game_description": "Sometimes adds death to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance of instantly KO'ing the target. Chance stacks additively with Darkstrike. Doesn't work on zombies.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 8000,
             "required_item": {
                 "name": "farplane shadow",
@@ -454,6 +472,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -472,7 +491,7 @@
             "game_description": "Almost always adds death to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance of instantly KO'ing the target. Chance stacks additively with Darktouch. Doesn't work on zombies.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 20000,
             "required_item": {
                 "name": "farplane wind",
@@ -480,6 +499,7 @@
             },
             "locked_out_abilities": ["deathtouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -498,7 +518,7 @@
             "game_description": "Sometimes adds zombie to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict zombie. Chance stacks additively with zombiestrike.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 8000,
             "required_item": {
                 "name": "holy water",
@@ -506,6 +526,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -524,7 +545,7 @@
             "game_description": "Almost always adds zombie to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict zombie. Chance stacks additively with zombietouch.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 12000,
             "required_item": {
                 "name": "candle of life",
@@ -532,6 +553,7 @@
             },
             "locked_out_abilities": ["zombietouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -550,7 +572,7 @@
             "game_description": "Sometimes adds slow to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict slow. Chance stacks additively with slowstrike.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 3000,
             "required_item": {
                 "name": "silver hourglass",
@@ -558,6 +580,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -576,7 +599,7 @@
             "game_description": "Almost always adds darkness to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict slow. Chance stacks additively with slowtouch.",
             "type": "weapon",
-            "category": "",
+            "category": "status-infliction",
             "value": 7000,
             "required_item": {
                 "name": "gold hourglass",
@@ -584,6 +607,7 @@
             },
             "locked_out_abilities": ["slowtouch"],
             "meta": {
+                "counter": null,
                 "on_hit_element": null,
                 "added_elem_affinity": null,
                 "on_hit_status": {
@@ -597,6 +621,2747 @@
                 "other_changes": []
             }
         },
+        {
+            "name": "distill power",
+            "game_description": "Adds Power Distiller effect to attacks and skills.",
+            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "type": "weapon",
+            "category": "distiller",
+            "value": 10,
+            "required_item": {
+                "name": "power sphere",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": {
+                    "name": "power distiller",
+                    "probability": 100,
+                    "turns_amount": null
+                },
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "distill mana",
+            "game_description": "Adds Mana Distiller effect to attacks and skills.",
+            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "type": "weapon",
+            "category": "distiller",
+            "value": 10,
+            "required_item": {
+                "name": "mana sphere",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": {
+                    "name": "mana distiller",
+                    "probability": 100,
+                    "turns_amount": null
+                },
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "distill speed",
+            "game_description": "Adds Speed Distiller effect to attacks and skills.",
+            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "type": "weapon",
+            "category": "distiller",
+            "value": 10,
+            "required_item": {
+                "name": "speed sphere",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": {
+                    "name": "speed distiller",
+                    "probability": 100,
+                    "turns_amount": null
+                },
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "distill ability",
+            "game_description": "Adds Ability Distiller effect to attacks and skills.",
+            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "type": "weapon",
+            "category": "distiller",
+            "value": 10,
+            "required_item": {
+                "name": "ability sphere",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": {
+                    "name": "ability distiller",
+                    "probability": 100,
+                    "turns_amount": null
+                },
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "strength +3%",
+            "game_description": "Enhances physical attack power by 3%.",
+            "description": "Causes the user's physical Attacks to deal 3% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 100,
+            "required_item": {
+                "name": "power sphere",
+                "amount": 3
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.03
+                    }
+                ]
+            }
+        },
+        {
+            "name": "strength +5%",
+            "game_description": "Enhances physical attack power by 5%.",
+            "description": "Causes the user's physical Attacks to deal 5% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 500,
+            "required_item": {
+                "name": "stamina spring",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.05
+                    }
+                ]
+            }
+        },
+        {
+            "name": "strength +10%",
+            "game_description": "Enhances physical attack power by 10%.",
+            "description": "Causes the user's physical Attacks to deal 10% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 5000,
+            "required_item": {
+                "name": "skill sphere",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "strength +20%",
+            "game_description": "Enhances physical attack power by 20%.",
+            "description": "Causes the user's physical Attacks to deal 20% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 10000,
+            "required_item": {
+                "name": "supreme gem",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.2
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic +3%",
+            "game_description": "Enhances magic attack power by 3%.",
+            "description": "Causes the user's magical Attacks to deal 3% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 100,
+            "required_item": {
+                "name": "mana sphere",
+                "amount": 3
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.03
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic +5%",
+            "game_description": "Enhances magic attack power by 5%.",
+            "description": "Causes the user's magical Attacks to deal 5% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 500,
+            "required_item": {
+                "name": "mana spring",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.05
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic +10%",
+            "game_description": "Enhances magic attack power by 10%.",
+            "description": "Causes the user's magical Attacks to deal 10% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 5000,
+            "required_item": {
+                "name": "blk magic sphere",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic +20%",
+            "game_description": "Enhances magic attack power by 20%.",
+            "description": "Causes the user's magical Attacks to deal 20% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 10000,
+            "required_item": {
+                "name": "supreme gem",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": "additively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.2
+                    }
+                ]
+            }
+        },
+        {
+            "name": "counterattack",
+            "game_description": "Strike back after being physically attacked.",
+            "description": "User targets attacker with a counter attack if targeted with a physical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
+            "type": "weapon",
+            "category": "counter",
+            "value": 4000,
+            "required_item": {
+                "name": "friend sphere",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": "on-physical",
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "evade & counter",
+            "game_description": "Evade physical attack and strike back.",
+            "description": "If targeted with a physical attack, the user evades the attack, if possible, and then targets attacker with a counter attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
+            "type": "weapon",
+            "category": "counter",
+            "value": 22000,
+            "required_item": {
+                "name": "teleport sphere",
+                "amount": 1
+            },
+            "locked_out_abilities": ["counterattack"],
+            "meta": {
+                "counter": "on-physical",
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "magic counter",
+            "game_description": "Strike back after being attacked with magic.",
+            "description": "User targets attacker with a counter attack if targeted with a magical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Shell.",
+            "type": "weapon",
+            "category": "counter",
+            "value": 25000,
+            "required_item": {
+                "name": "shining gem",
+                "amount": 16
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": "on-magical",
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "magic booster",
+            "game_description": "Use more MP to heighten spell power.",
+            "description": "Increases the damage and healing of Black and White Magic abilities by 50%, but doubles their MP cost. The MP cost increase stacks multiplicatively with 'Half MP Cost' and 'One MP Cost'.",
+            "type": "weapon",
+            "category": "",
+            "value": 17000,
+            "required_item": {
+                "name": "turbo ether",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-dealt",
+                        "activation_condition": "always",
+                        "stack_calc": null,
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 1.5
+                    },
+                    {
+                        "name": "mp-cost",
+                        "activation_condition": "always",
+                        "stack_calc": "multiplicatively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "alchemy",
+            "game_description": "Doubles the potency of recovery items.",
+            "description": "Recovery items will heal double the normal HP. Does not affect Mix abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 8000,
+            "required_item": {
+                "name": "healing water",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "healing-items",
+                        "activation_condition": "always",
+                        "stack_calc": null,
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "half mp cost",
+            "game_description": "Reduces MP cost of spells by half.",
+            "description": "Reduces the MP cost of all abilities by half. Stacks multiplicatively with Magic Booster.",
+            "type": "weapon",
+            "category": "",
+            "value": 20000,
+            "required_item": {
+                "name": "twin stars",
+                "amount": 20
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "mp-cost",
+                        "activation_condition": "always",
+                        "stack_calc": "multiplicatively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.5
+                    }
+                ]
+            }
+        },
+        {
+            "name": "one mp cost",
+            "game_description": "Reduces MP cost of spells to 1.",
+            "description": "Sets the MP cost of all abilities by half. Stacks multiplicatively with Magic Booster.",
+            "type": "weapon",
+            "category": "",
+            "value": 30000,
+            "required_item": {
+                "name": "three stars",
+                "amount": 20
+            },
+            "locked_out_abilities": ["half mp cost"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "mp-cost",
+                        "activation_condition": "always",
+                        "stack_calc": "multiplicatively",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": true,
+                        "amount": 1.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "double ap",
+            "game_description": "Doubles the amount of AP earned.",
+            "description": "Doubles the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
+            "type": "weapon",
+            "category": "",
+            "value": 40000,
+            "required_item": {
+                "name": "megalixir",
+                "amount": 20
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "ap-gain",
+                        "activation_condition": "active-party",
+                        "stack_calc": "highest",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "triple ap",
+            "game_description": "Triples the amount of AP earned.",
+            "description": "Triples the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
+            "type": "weapon",
+            "category": "",
+            "value": 60000,
+            "required_item": {
+                "name": "wings to discovery",
+                "amount": 50
+            },
+            "locked_out_abilities": ["double ap"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "ap-gain",
+                        "activation_condition": "active-party",
+                        "stack_calc": "highest",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 3.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "overdrive -> ap",
+            "game_description": "Earn more AP instead of charging Overdrive gauge.",
+            "description": "Converts all Overdrive gauge points obtained by the user to AP while the Auto-Ability is equipped.",
+            "type": "weapon",
+            "category": "",
+            "value": 25000,
+            "required_item": {
+                "name": "door to tomorrow",
+                "amount": 10
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "overdrive-charge",
+                        "activation_condition": "always",
+                        "stack_calc": "multiplicatively",
+                        "converted_to": "ap-gain",
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 0.0
+                    },
+                    {
+                        "name": "ap-gain",
+                        "activation_condition": "always",
+                        "stack_calc": "multiplicatively",
+                        "converted_to": null,
+                        "converted_from": "overdrive-charge",
+                        "is_set_change": false,
+                        "amount": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "sos overdrive",
+            "game_description": "Charges Overdrive at double speed when HP is low.",
+            "description": "Doubles the Overdrive charge speed if the user is in HP critical. Doesn't stack with 'Double Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 20000,
+            "required_item": {
+                "name": "gamblers spirit",
+                "amount": 20
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "overdrive-charge",
+                        "activation_condition": "hp-critical",
+                        "stack_calc": "highest",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "double overdrive",
+            "game_description": "Charges Overdrive at double speed.",
+            "description": "Doubles the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 30000,
+            "required_item": {
+                "name": "underdogs secret",
+                "amount": 30
+            },
+            "locked_out_abilities": ["sos overdrive"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "overdrive-charge",
+                        "activation_condition": "always",
+                        "stack_calc": "highest",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "triple overdrive",
+            "game_description": "Charges Overdrive at triple speed.",
+            "description": "Triples the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Double Overdrive', but does stack with Mix abilities.",
+            "type": "weapon",
+            "category": "",
+            "value": 40000,
+            "required_item": {
+                "name": "winning formula",
+                "amount": 30
+            },
+            "locked_out_abilities": ["sos overdrive", "double overdrive"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "overdrive-charge",
+                        "activation_condition": "always",
+                        "stack_calc": "highest",
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 3.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "gillionaire",
+            "game_description": "Doubles amount of Gil earned.",
+            "description": "Doubles the amount of Gil earned from battles, if the user is in the active party at the end of the battle.",
+            "type": "weapon",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "designer wallet",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "gil-gain",
+                        "activation_condition": "active-party",
+                        "stack_calc": null,
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": false,
+                        "amount": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "break damage limit",
+            "game_description": "Allows max damage to exceed 9999.",
+            "description": "Sets the maximum amount of damage and recovery the character deals to 99,999. This does not affect items or most Mixes.",
+            "type": "weapon",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "dark matter",
+                "amount": 60
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "capture",
+            "game_description": null,
+            "description": "Attacks and Skills will capture certain monsters as long as it is the killing blow.",
+            "type": "weapon",
+            "category": "",
+            "value": 6000,
+            "required_item": {
+                "name": null,
+                "amount": null
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "no ap",
+            "game_description": null,
+            "description": "The user receives zero AP. Has no effect if the user does not equip the ability at the time the enemy is defeated.",
+            "type": "weapon",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": null,
+                "amount": null
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "ap-gain",
+                        "activation_condition": "always",
+                        "stack_calc": null,
+                        "converted_to": null,
+                        "converted_from": null,
+                        "is_set_change": true,
+                        "amount": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "-",
+            "game_description": null,
+            "description": "",
+            "type": "weapon",
+            "category": "",
+            "value": null,
+            "required_item": {
+                "name": null,
+                "amount": null
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "power break",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "magic break",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "armor break",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "mental break",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "berserk",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "confusion",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "darkness",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "delay",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "death",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "doom",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "petrification",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "poison",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "provoke",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "silence",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "sleep",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "slow",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "threaten",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "zombie",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "power distiller",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "mana distiller",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "speed distiller",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "ability distiller",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "scan",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "defend",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "guard",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "sentinel",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "",
+                        "resistance": 254
+                    },
+                    
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "game_description": "",
+            "description": "",
+            "type": "",
+            "category": "",
+            "value": 0,
+            "required_item": {
+                "name": "",
+                "amount": 0
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
         
         {
             "name": "",
@@ -611,1943 +3376,7 @@
             },
             "locked_out_abilities": [],
             "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
+                "counter": null,
                 "on_hit_element": "",
                 "added_elem_affinity": {
                     "name": "",
