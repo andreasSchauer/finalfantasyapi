@@ -35,7 +35,7 @@
         {
             "name": "death",
             "description": "The unit's HP are reduced to 0."
-        }
+        },
         {
             "name": "delay",
             "description": "Adds to the unit's ticks to their next turn, delaying it."
@@ -147,10 +147,34 @@
         {
             "name": "shell",
             "description": "Halves the unit's damage/healing taken from magical actions."
-        }
+        },
         {
-            "name": "yet to add",
-            "description": "scan, defend, guard, sentinel, shield?, boost?"
+            "name": "sensor",
+            "description": "Shows enemy's HP, elemental resistances, active statuses, and a brief description."
+        },
+        {
+            "name": "scan",
+            "description": "Shows enemy's HP, elemental resistances, status immunities and a verbose description."
+        },
+        {
+            "name": "defend",
+            "description": "Halves all physical damage taken by the user until their next turn."
+        },
+        {
+            "name": "guard",
+            "description": "Causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn."
+        },
+        {
+            "name": "sentinel",
+            "description": "Halves all damage taken from physical attacks and causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn."
+        },
+        {
+            "name": "shield",
+            "description": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn."
+        },
+        {
+            "name": "boost",
+            "description": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn."
         }
     ]
 }

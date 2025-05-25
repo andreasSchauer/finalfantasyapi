@@ -5,7 +5,7 @@
             "game_description": "View enemy data during battle.",
             "description": "Shows enemy HP, elemental resistances, active statuses, and a brief description, while the user is in the active party.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 200,
             "required_item": {
                 "name": "ability sphere",
@@ -33,7 +33,7 @@
             "game_description": "Deal normal damage to armored enemies.",
             "description": "Attacks and skills ignore enemy's Armoured status.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 0,
             "required_item": {
                 "name": "lv. 2 key sphere",
@@ -56,7 +56,7 @@
             "game_description": "Act first at beginning of battle.",
             "description": "Guarantees the first turn during battle even in an ambush.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 6000,
             "required_item": {
                 "name": "return sphere",
@@ -79,7 +79,7 @@
             "game_description": "Raises party's chances for a preemptive strike.",
             "description": "Raises party's chances for a preemptive strike and eliminates ambushes, except against enemys with a 100% ambush rate.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 6000,
             "required_item": {
                 "name": "chocobo feather",
@@ -626,7 +626,7 @@
             "game_description": "Adds Power Distiller effect to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
-            "category": "distiller",
+            "category": "status-infliction",
             "value": 10,
             "required_item": {
                 "name": "power sphere",
@@ -653,7 +653,7 @@
             "game_description": "Adds Mana Distiller effect to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
-            "category": "distiller",
+            "category": "status-infliction",
             "value": 10,
             "required_item": {
                 "name": "mana sphere",
@@ -680,7 +680,7 @@
             "game_description": "Adds Speed Distiller effect to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
-            "category": "distiller",
+            "category": "status-infliction",
             "value": 10,
             "required_item": {
                 "name": "speed sphere",
@@ -707,7 +707,7 @@
             "game_description": "Adds Ability Distiller effect to attacks and skills.",
             "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
-            "category": "distiller",
+            "category": "status-infliction",
             "value": 10,
             "required_item": {
                 "name": "ability sphere",
@@ -734,7 +734,7 @@
             "game_description": "Enhances physical attack power by 3%.",
             "description": "Causes the user's physical Attacks to deal 3% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 100,
             "required_item": {
                 "name": "power sphere",
@@ -753,11 +753,11 @@
                     {
                         "name": "physical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.03
+                        "calculation": "additively",
+                        "added_percentage": 3,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -767,7 +767,7 @@
             "game_description": "Enhances physical attack power by 5%.",
             "description": "Causes the user's physical Attacks to deal 5% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 500,
             "required_item": {
                 "name": "stamina spring",
@@ -786,11 +786,11 @@
                     {
                         "name": "physical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.05
+                        "calculation": "additively",
+                        "added_percentage": 5,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -800,7 +800,7 @@
             "game_description": "Enhances physical attack power by 10%.",
             "description": "Causes the user's physical Attacks to deal 10% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 5000,
             "required_item": {
                 "name": "skill sphere",
@@ -819,11 +819,11 @@
                     {
                         "name": "physical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.1
+                        "calculation": "additively",
+                        "added_percentage": 10,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -833,7 +833,7 @@
             "game_description": "Enhances physical attack power by 20%.",
             "description": "Causes the user's physical Attacks to deal 20% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 10000,
             "required_item": {
                 "name": "supreme gem",
@@ -852,11 +852,11 @@
                     {
                         "name": "physical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.2
+                        "calculation": "additively",
+                        "added_percentage": 20,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -866,7 +866,7 @@
             "game_description": "Enhances magic attack power by 3%.",
             "description": "Causes the user's magical Attacks to deal 3% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 100,
             "required_item": {
                 "name": "mana sphere",
@@ -885,11 +885,11 @@
                     {
                         "name": "magical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.03
+                        "calculation": "additively",
+                        "added_percentage": 3,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -899,7 +899,7 @@
             "game_description": "Enhances magic attack power by 5%.",
             "description": "Causes the user's magical Attacks to deal 5% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 500,
             "required_item": {
                 "name": "mana spring",
@@ -918,11 +918,11 @@
                     {
                         "name": "magical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.05
+                        "calculation": "additively",
+                        "added_percentage": 5,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -932,7 +932,7 @@
             "game_description": "Enhances magic attack power by 10%.",
             "description": "Causes the user's magical Attacks to deal 10% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 5000,
             "required_item": {
                 "name": "blk magic sphere",
@@ -951,11 +951,11 @@
                     {
                         "name": "magical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.1
+                        "calculation": "additively",
+                        "added_percentage": 10,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -965,7 +965,7 @@
             "game_description": "Enhances magic attack power by 20%.",
             "description": "Causes the user's magical Attacks to deal 20% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "stat +x%",
             "value": 10000,
             "required_item": {
                 "name": "supreme gem",
@@ -984,11 +984,11 @@
                     {
                         "name": "magical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": "additively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.2
+                        "calculation": "additively",
+                        "added_percentage": 20,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1067,7 +1067,7 @@
             "game_description": "Use more MP to heighten spell power.",
             "description": "Increases the damage and healing of Black and White Magic abilities by 50%, but doubles their MP cost. The MP cost increase stacks multiplicatively with 'Half MP Cost' and 'One MP Cost'.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 17000,
             "required_item": {
                 "name": "turbo ether",
@@ -1086,20 +1086,20 @@
                     {
                         "name": "magical-damage-dealt",
                         "activation_condition": "always",
-                        "stack_calc": null,
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 1.5
+                        "calculation": "multiplicatively",
+                        "added_percentage": null,
+                        "change_factor": 1.5,
+                        "set_value": null,
+                        "converted_to": null
                     },
                     {
                         "name": "mp-cost",
                         "activation_condition": "always",
-                        "stack_calc": "multiplicatively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 2.0
+                        "calculation": "multiplicatively",
+                        "added_percentage": null,
+                        "change_factor": 2.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1109,11 +1109,11 @@
             "game_description": "Doubles the potency of recovery items.",
             "description": "Recovery items will heal double the normal HP. Does not affect Mix abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 8000,
             "required_item": {
                 "name": "healing water",
-                "amount": 4
+                "amount": 4                
             },
             "locked_out_abilities": [],
             "meta": {
@@ -1128,11 +1128,11 @@
                     {
                         "name": "healing-items",
                         "activation_condition": "always",
-                        "stack_calc": null,
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 2.0
+                        "calculation": "multiplicatively",
+                        "added_percentage": null,
+                        "change_factor": 2.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1142,7 +1142,7 @@
             "game_description": "Reduces MP cost of spells by half.",
             "description": "Reduces the MP cost of all abilities by half. Stacks multiplicatively with Magic Booster.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 20000,
             "required_item": {
                 "name": "twin stars",
@@ -1161,11 +1161,11 @@
                     {
                         "name": "mp-cost",
                         "activation_condition": "always",
-                        "stack_calc": "multiplicatively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.5
+                        "calculation": "multiplicatively",
+                        "added_percentage": null,
+                        "change_factor": 0.5,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1175,7 +1175,7 @@
             "game_description": "Reduces MP cost of spells to 1.",
             "description": "Sets the MP cost of all abilities by half. Stacks multiplicatively with Magic Booster.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 30000,
             "required_item": {
                 "name": "three stars",
@@ -1194,11 +1194,11 @@
                     {
                         "name": "mp-cost",
                         "activation_condition": "always",
-                        "stack_calc": "multiplicatively",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": true,
-                        "amount": 1.0
+                        "calculation": "fixed",
+                        "added_percentage": null,
+                        "change_factor": null,
+                        "set_value": 1,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1208,7 +1208,7 @@
             "game_description": "Doubles the amount of AP earned.",
             "description": "Doubles the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
             "type": "weapon",
-            "category": "",
+            "category": "ap and overdrive",
             "value": 40000,
             "required_item": {
                 "name": "megalixir",
@@ -1227,11 +1227,11 @@
                     {
                         "name": "ap-gain",
                         "activation_condition": "active-party",
-                        "stack_calc": "highest",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 2.0
+                        "calculation": "highest",
+                        "added_percentage": null,
+                        "change_factor": 2.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1241,7 +1241,7 @@
             "game_description": "Triples the amount of AP earned.",
             "description": "Triples the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
             "type": "weapon",
-            "category": "",
+            "category": "ap and overdrive",
             "value": 60000,
             "required_item": {
                 "name": "wings to discovery",
@@ -1260,11 +1260,11 @@
                     {
                         "name": "ap-gain",
                         "activation_condition": "active-party",
-                        "stack_calc": "highest",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 3.0
+                        "calculation": "highest",
+                        "added_percentage": null,
+                        "change_factor": 3.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1272,9 +1272,9 @@
         {
             "name": "overdrive -> ap",
             "game_description": "Earn more AP instead of charging Overdrive gauge.",
-            "description": "Converts all Overdrive gauge points obtained by the user to AP while the Auto-Ability is equipped.",
+            "description": "Converts all Overdrive gauge points obtained by the user to AP while the auto-ability is equipped.",
             "type": "weapon",
-            "category": "",
+            "category": "ap and overdrive",
             "value": 25000,
             "required_item": {
                 "name": "door to tomorrow",
@@ -1293,20 +1293,11 @@
                     {
                         "name": "overdrive-charge",
                         "activation_condition": "always",
-                        "stack_calc": "multiplicatively",
-                        "converted_to": "ap-gain",
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 0.0
-                    },
-                    {
-                        "name": "ap-gain",
-                        "activation_condition": "always",
-                        "stack_calc": "multiplicatively",
-                        "converted_to": null,
-                        "converted_from": "overdrive-charge",
-                        "is_set_change": false,
-                        "amount": null
+                        "calculation": "multiplicatively",
+                        "added_percentage": null,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": "ap-gain"
                     }
                 ]
             }
@@ -1316,7 +1307,7 @@
             "game_description": "Charges Overdrive at double speed when HP is low.",
             "description": "Doubles the Overdrive charge speed if the user is in HP critical. Doesn't stack with 'Double Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "ap and overdrive",
             "value": 20000,
             "required_item": {
                 "name": "gamblers spirit",
@@ -1335,11 +1326,11 @@
                     {
                         "name": "overdrive-charge",
                         "activation_condition": "hp-critical",
-                        "stack_calc": "highest",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 2.0
+                        "calculation": "highest",
+                        "added_percentage": null,
+                        "change_factor": 2.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1349,7 +1340,7 @@
             "game_description": "Charges Overdrive at double speed.",
             "description": "Doubles the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "ap and overdrive",
             "value": 30000,
             "required_item": {
                 "name": "underdogs secret",
@@ -1368,11 +1359,11 @@
                     {
                         "name": "overdrive-charge",
                         "activation_condition": "always",
-                        "stack_calc": "highest",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 2.0
+                        "calculation": "highest",
+                        "added_percentage": null,
+                        "change_factor": 2.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1382,7 +1373,7 @@
             "game_description": "Charges Overdrive at triple speed.",
             "description": "Triples the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Double Overdrive', but does stack with Mix abilities.",
             "type": "weapon",
-            "category": "",
+            "category": "ap and overdrive",
             "value": 40000,
             "required_item": {
                 "name": "winning formula",
@@ -1401,11 +1392,11 @@
                     {
                         "name": "overdrive-charge",
                         "activation_condition": "always",
-                        "stack_calc": "highest",
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 3.0
+                        "calculation": "highest",
+                        "added_percentage": null,
+                        "change_factor": 3.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1415,7 +1406,7 @@
             "game_description": "Doubles amount of Gil earned.",
             "description": "Doubles the amount of Gil earned from battles, if the user is in the active party at the end of the battle.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 0,
             "required_item": {
                 "name": "designer wallet",
@@ -1434,11 +1425,11 @@
                     {
                         "name": "gil-gain",
                         "activation_condition": "active-party",
-                        "stack_calc": null,
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": false,
-                        "amount": 2.0
+                        "calculation": "multiplicatively",
+                        "added_percentage": null,
+                        "change_factor": 2.0,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1448,7 +1439,7 @@
             "game_description": "Allows max damage to exceed 9999.",
             "description": "Sets the maximum amount of damage and recovery the character deals to 99,999. This does not affect items or most Mixes.",
             "type": "weapon",
-            "category": "",
+            "category": "break limit",
             "value": 0,
             "required_item": {
                 "name": "dark matter",
@@ -1471,7 +1462,7 @@
             "game_description": null,
             "description": "Attacks and Skills will capture certain monsters as long as it is the killing blow.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": 6000,
             "required_item": {
                 "name": null,
@@ -1494,7 +1485,7 @@
             "game_description": null,
             "description": "The user receives zero AP. Has no effect if the user does not equip the ability at the time the enemy is defeated.",
             "type": "weapon",
-            "category": "",
+            "category": "ap and overdrive",
             "value": 0,
             "required_item": {
                 "name": null,
@@ -1513,11 +1504,11 @@
                     {
                         "name": "ap-gain",
                         "activation_condition": "always",
-                        "stack_calc": null,
-                        "converted_to": null,
-                        "converted_from": null,
-                        "is_set_change": true,
-                        "amount": 0.0
+                        "calculation": "fixed",
+                        "added_percentage": null,
+                        "change_factor": null,
+                        "set_value": 0,
+                        "converted_to": null
                     }
                 ]
             }
@@ -1525,9 +1516,9 @@
         {
             "name": "-",
             "game_description": null,
-            "description": "",
+            "description": "Hidden auto-ability used by Aeons. Grants immunity to all status ailments except Curse and Eject.",
             "type": "weapon",
-            "category": "",
+            "category": "other",
             "value": null,
             "required_item": {
                 "name": null,
@@ -1633,6 +1624,10 @@
                         "resistance": 254
                     },
                     {
+                        "name": "sensor",
+                        "resistance": 254
+                    },
+                    {
                         "name": "defend",
                         "resistance": 254
                     },
@@ -1643,40 +1638,7 @@
                     {
                         "name": "sentinel",
                         "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    {
-                        "name": "",
-                        "resistance": 254
-                    },
-                    
+                    }
                 ],
                 "added_statuses": [],
                 "stat_changes": [],
