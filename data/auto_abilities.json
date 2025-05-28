@@ -54,7 +54,7 @@
         {
             "name": "first strike",
             "game_description": "Act first at beginning of battle.",
-            "description": "Guarantees the first turn during battle even in an ambush.",
+            "description": "Guarantees the first turn during battle, even in an ambush.",
             "type": "weapon",
             "category": "other",
             "value": 6000,
@@ -100,7 +100,7 @@
         {
             "name": "firestrike",
             "game_description": "Adds fire element to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to be fire-elemental.",
+            "description": "Causes the user's attacks and skills to be fire-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -123,7 +123,7 @@
         {
             "name": "lightningstrike",
             "game_description": "Adds lightning element to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to be lightning-elemental.",
+            "description": "Causes the user's attacks and skills to be lightning-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -146,7 +146,7 @@
         {
             "name": "waterstrike",
             "game_description": "Adds water element to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to be water-elemental.",
+            "description": "Causes the user's attacks and skills to be water-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -169,7 +169,7 @@
         {
             "name": "icestrike",
             "game_description": "Adds ice element to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to be ice-elemental.",
+            "description": "Causes the user's attacks and skills to be ice-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -192,7 +192,7 @@
         {
             "name": "darktouch",
             "game_description": "Sometimes adds darkness to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict darkness for three turns. Chance stacks additively with darkstrike.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict darkness for three turns. Chance stacks additively with darkstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 2000,
@@ -219,7 +219,7 @@
         {
             "name": "darkstrike",
             "game_description": "Almost always adds darkness to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict darkness for three turns. Chance stacks additively with darktouch.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict darkness for three turns. Chance stacks additively with darktouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 4000,
@@ -246,7 +246,7 @@
         {
             "name": "silencetouch",
             "game_description": "Sometimes adds silence to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict silence for three turns. Chance stacks additively with silencestrike.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict silence for three turns. Chance stacks additively with silencestrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 3000,
@@ -273,7 +273,7 @@
         {
             "name": "silencestrike",
             "game_description": "Almost always adds silence to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict silence for three turns. Chance stacks additively with silencetouch.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict silence for three turns. Chance stacks additively with silencetouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -300,7 +300,7 @@
         {
             "name": "sleeptouch",
             "game_description": "Sometimes adds sleep to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict sleep for three turns. Chance stacks additively with sleepstrike.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict sleep for three turns. Chance stacks additively with sleepstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 1000,
@@ -327,7 +327,7 @@
         {
             "name": "sleepstrike",
             "game_description": "Almost always adds sleep to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict sleep for three turns. Chance stacks additively with sleeptouch.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict sleep for three turns. Chance stacks additively with sleeptouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -354,7 +354,7 @@
         {
             "name": "poisontouch",
             "game_description": "Sometimes adds poison to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict poison. Chance stacks additively with poisonstrike.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict poison. Chance stacks additively with poisonstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 1500,
@@ -381,7 +381,7 @@
         {
             "name": "poisonstrike",
             "game_description": "Almost always adds poison to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict poison. Chance stacks additively with poisontouch.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict poison. Chance stacks additively with poisontouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10000,
@@ -408,7 +408,7 @@
         {
             "name": "stonetouch",
             "game_description": "Sometimes adds petrification to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict petrification. Chance stacks additively with stonestrike.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict petrification. Chance stacks additively with stonestrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 5000,
@@ -435,7 +435,7 @@
         {
             "name": "stonestrike",
             "game_description": "Almost always adds petrification to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict petrification. Chance stacks additively with stonetouch.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict petrification. Chance stacks additively with stonetouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 12000,
@@ -462,7 +462,7 @@
         {
             "name": "deathtouch",
             "game_description": "Sometimes adds death to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance of instantly KO'ing the target. Chance stacks additively with Darkstrike. Doesn't work on zombies.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance of instantly KO'ing the target. Chance stacks additively with Darkstrike. Doesn't work on zombies.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -489,7 +489,7 @@
         {
             "name": "deathstrike",
             "game_description": "Almost always adds death to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance of instantly KO'ing the target. Chance stacks additively with Darktouch. Doesn't work on zombies.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance of instantly KO'ing the target. Chance stacks additively with Darktouch. Doesn't work on zombies.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 20000,
@@ -516,7 +516,7 @@
         {
             "name": "zombietouch",
             "game_description": "Sometimes adds zombie to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict zombie. Chance stacks additively with zombiestrike.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict zombie. Chance stacks additively with zombiestrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -543,7 +543,7 @@
         {
             "name": "zombiestrike",
             "game_description": "Almost always adds zombie to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict zombie. Chance stacks additively with zombietouch.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict zombie. Chance stacks additively with zombietouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 12000,
@@ -570,7 +570,7 @@
         {
             "name": "slowtouch",
             "game_description": "Sometimes adds slow to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 50% base chance to inflict slow. Chance stacks additively with slowstrike.",
+            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict slow. Chance stacks additively with slowstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 3000,
@@ -597,7 +597,7 @@
         {
             "name": "slowstrike",
             "game_description": "Almost always adds darkness to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to have a 100% base chance to inflict slow. Chance stacks additively with slowtouch.",
+            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict slow. Chance stacks additively with slowtouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 7000,
@@ -624,7 +624,7 @@
         {
             "name": "distill power",
             "game_description": "Adds Power Distiller effect to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Causes the user's attacks and skills to force the enemy hit to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -651,7 +651,7 @@
         {
             "name": "distill mana",
             "game_description": "Adds Mana Distiller effect to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Causes the user's attacks and skills to force the enemy hit to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -678,7 +678,7 @@
         {
             "name": "distill speed",
             "game_description": "Adds Speed Distiller effect to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Causes the user's attacks and skills to force the enemy hit to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -705,7 +705,7 @@
         {
             "name": "distill ability",
             "game_description": "Adds Ability Distiller effect to attacks and skills.",
-            "description": "Causes the user's Attacks and Skills to force the enemy hit to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Causes the user's attacks and skills to force the enemy hit to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -732,7 +732,7 @@
         {
             "name": "strength +3%",
             "game_description": "Enhances physical attack power by 3%.",
-            "description": "Causes the user's physical Attacks to deal 3% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Causes the user's physical attacks to deal 3% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 100,
@@ -765,7 +765,7 @@
         {
             "name": "strength +5%",
             "game_description": "Enhances physical attack power by 5%.",
-            "description": "Causes the user's physical Attacks to deal 5% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Causes the user's physical attacks to deal 5% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 500,
@@ -798,7 +798,7 @@
         {
             "name": "strength +10%",
             "game_description": "Enhances physical attack power by 10%.",
-            "description": "Causes the user's physical Attacks to deal 10% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Causes the user's physical attacks to deal 10% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 5000,
@@ -831,7 +831,7 @@
         {
             "name": "strength +20%",
             "game_description": "Enhances physical attack power by 20%.",
-            "description": "Causes the user's physical Attacks to deal 20% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Causes the user's physical attacks to deal 20% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 10000,
@@ -864,7 +864,7 @@
         {
             "name": "magic +3%",
             "game_description": "Enhances magic attack power by 3%.",
-            "description": "Causes the user's magical Attacks to deal 3% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Causes the user's magical attacks to deal 3% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 100,
@@ -897,7 +897,7 @@
         {
             "name": "magic +5%",
             "game_description": "Enhances magic attack power by 5%.",
-            "description": "Causes the user's magical Attacks to deal 5% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Causes the user's magical attacks to deal 5% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 500,
@@ -930,7 +930,7 @@
         {
             "name": "magic +10%",
             "game_description": "Enhances magic attack power by 10%.",
-            "description": "Causes the user's magical Attacks to deal 10% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Causes the user's magical attacks to deal 10% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 5000,
@@ -963,7 +963,7 @@
         {
             "name": "magic +20%",
             "game_description": "Enhances magic attack power by 20%.",
-            "description": "Causes the user's magical Attacks to deal 20% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Causes the user's magical attacks to deal 20% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 10000,
@@ -996,7 +996,7 @@
         {
             "name": "counterattack",
             "game_description": "Strike back after being physically attacked.",
-            "description": "User targets attacker with a counter attack if targeted with a physical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
+            "description": "user targets attacker with a counter attack if targeted with a physical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
             "type": "weapon",
             "category": "counter",
             "value": 4000,
@@ -1042,7 +1042,7 @@
         {
             "name": "magic counter",
             "game_description": "Strike back after being attacked with magic.",
-            "description": "User targets attacker with a counter attack if targeted with a magical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Shell.",
+            "description": "user targets attacker with a counter attack if targeted with a magical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Shell.",
             "type": "weapon",
             "category": "counter",
             "value": 25000,
@@ -1227,7 +1227,7 @@
                     {
                         "name": "ap-gain",
                         "activation_condition": "active-party",
-                        "calculation": "highest",
+                        "calculation": "highest-factor",
                         "added_percentage": null,
                         "change_factor": 2.0,
                         "set_value": null,
@@ -1260,7 +1260,7 @@
                     {
                         "name": "ap-gain",
                         "activation_condition": "active-party",
-                        "calculation": "highest",
+                        "calculation": "highest-factor",
                         "added_percentage": null,
                         "change_factor": 3.0,
                         "set_value": null,
@@ -1326,7 +1326,7 @@
                     {
                         "name": "overdrive-charge",
                         "activation_condition": "hp-critical",
-                        "calculation": "highest",
+                        "calculation": "highest-factor",
                         "added_percentage": null,
                         "change_factor": 2.0,
                         "set_value": null,
@@ -1359,7 +1359,7 @@
                     {
                         "name": "overdrive-charge",
                         "activation_condition": "always",
-                        "calculation": "highest",
+                        "calculation": "highest-factor",
                         "added_percentage": null,
                         "change_factor": 2.0,
                         "set_value": null,
@@ -1392,7 +1392,7 @@
                     {
                         "name": "overdrive-charge",
                         "activation_condition": "always",
-                        "calculation": "highest",
+                        "calculation": "highest-factor",
                         "added_percentage": null,
                         "change_factor": 3.0,
                         "set_value": null,
@@ -1437,9 +1437,9 @@
         {
             "name": "break damage limit",
             "game_description": "Allows max damage to exceed 9999.",
-            "description": "Sets the maximum amount of damage and recovery the character deals to 99,999. This does not affect items or most Mixes.",
+            "description": "Sets the maximum amount of damage and recovery the user deals to 99,999. This does not affect items or most Mixes.",
             "type": "weapon",
-            "category": "break limit",
+            "category": "break-limit",
             "value": 0,
             "required_item": {
                 "name": "dark matter",
@@ -1646,1737 +1646,2181 @@
             }
         },
         {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
+            "name": "fire ward",
+            "game_description": "Reduces fire damage by half.",
+            "description": "Reduces fire-elemental damage by half.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 1500,
             "required_item": {
-                "name": "",
-                "amount": 0
+                "name": "bomb fragment",
+                "amount": 4
             },
             "locked_out_abilities": [],
             "meta": {
                 "counter": null,
                 "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": null,
-                "added_elem_affinity": null,
-                "on_hit_status": null,
-                "added_status_resists": [],
-                "added_statuses": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        
-        {
-            "name": "",
-            "game_description": "",
-            "description": "",
-            "type": "",
-            "category": "",
-            "value": 0,
-            "required_item": {
-                "name": "",
-                "amount": 0
-            },
-            "locked_out_abilities": [],
-            "meta": {
-                "counter": null,
-                "on_hit_element": "",
                 "added_elem_affinity": {
-                    "name": "",
-                    "affinity": ""
+                    "name": "fire",
+                    "affinity": "halved"
                 },
-                "on_hit_status": {
-                    "name": "",
-                    "probability": 0,
-                    "turns_amount": 0
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "fireproof",
+            "game_description": "Grants immunity to fire attacks.",
+            "description": "Fire-elemental attacks deal zero damage to the user.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 3000,
+            "required_item": {
+                "name": "bomb core",
+                "amount": 8
+            },
+            "locked_out_abilities": ["fire ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "fire",
+                    "affinity": "immune"
                 },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "fire eater",
+            "game_description": "Converts fire damage to HP.",
+            "description": "Fire-elemental attacks directed towards the user are absorbed.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 10000,
+            "required_item": {
+                "name": "fire gem",
+                "amount": 20
+            },
+            "locked_out_abilities": ["fire ward", "fireproof"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "fire",
+                    "affinity": "absorbed"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "lightning ward",
+            "game_description": "Reduces lightning damage by half.",
+            "description": "Reduces lightning-elemental damage by half.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 1500,
+            "required_item": {
+                "name": "electro marble",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "lightning",
+                    "affinity": "halved"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "lightningproof",
+            "game_description": "Grants immunity to lightning attacks.",
+            "description": "Lightning-elemental attacks deal zero damage to the user.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 3000,
+            "required_item": {
+                "name": "lightning marble",
+                "amount": 8
+            },
+            "locked_out_abilities": ["lightning ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "lightning",
+                    "affinity": "immune"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "lightning eater",
+            "game_description": "Converts lightning damage to HP.",
+            "description": "Lightning-elemental attacks directed towards the user are absorbed.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 10000,
+            "required_item": {
+                "name": "lightning gem",
+                "amount": 20
+            },
+            "locked_out_abilities": ["lightning ward", "lightningproof"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "lightning",
+                    "affinity": "absorbed"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "water ward",
+            "game_description": "Reduces water damage by half.",
+            "description": "Reduces water-elemental damage by half.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 1500,
+            "required_item": {
+                "name": "fish scale",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "water",
+                    "affinity": "halved"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "waterproof",
+            "game_description": "Grants immunity to water attacks.",
+            "description": "Water-elemental attacks deal zero damage to the user.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 3000,
+            "required_item": {
+                "name": "dragon scale",
+                "amount": 8
+            },
+            "locked_out_abilities": ["water ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "water",
+                    "affinity": "immune"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "water eater",
+            "game_description": "Converts water damage to HP.",
+            "description": "Water-elemental attacks directed towards the user are absorbed.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 10000,
+            "required_item": {
+                "name": "water gem",
+                "amount": 20
+            },
+            "locked_out_abilities": ["water ward", "waterproof"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "water",
+                    "affinity": "absorbed"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "ice ward",
+            "game_description": "Reduces ice damage by half.",
+            "description": "Reduces ice-elemental damage by half.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 1500,
+            "required_item": {
+                "name": "antarctic wind",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "ice",
+                    "affinity": "halved"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "iceproof",
+            "game_description": "Grants immunity to ice attacks.",
+            "description": "Ice-elemental attacks deal zero damage to the user.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 3000,
+            "required_item": {
+                "name": "arctic wind",
+                "amount": 8
+            },
+            "locked_out_abilities": ["ice ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "ice",
+                    "affinity": "immune"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "ice eater",
+            "game_description": "Converts ice damage to HP.",
+            "description": "Ice-elemental attacks directed towards the user are absorbed.",
+            "type": "armor",
+            "category": "elemental-protection",
+            "value": 10000,
+            "required_item": {
+                "name": "ice gem",
+                "amount": 20
+            },
+            "locked_out_abilities": ["ice ward", "iceproof"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": {
+                    "name": "ice",
+                    "affinity": "absorbed"
+                },
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "dark ward",
+            "game_description": "Sometimes protects against darkness.",
+            "description": "Grants the user 50% resistance to darkness.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 500,
+            "required_item": {
+                "name": "eye drops",
+                "amount": 40
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
                 "added_status_resists": [
                     {
-                        "name": "",
-                        "resistance": 0
+                        "name": "darkness",
+                        "resistance": 50
                     }
                 ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "darkproof",
+            "game_description": "Almost completely protects against darkness.",
+            "description": "Grants the user immunity to darkness.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 2000,
+            "required_item": {
+                "name": "smoke bomb",
+                "amount": 10
+            },
+            "locked_out_abilities": ["dark ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "darkness",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "silence ward",
+            "game_description": "Sometimes protects against silence.",
+            "description": "Grants the user 50% resistance to silence.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 500,
+            "required_item": {
+                "name": "echo screen",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "silence",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "silenceproof",
+            "game_description": "Almost completely protects against silence.",
+            "description": "Grants the user immunity to silence.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 3000,
+            "required_item": {
+                "name": "silence grenade",
+                "amount": 10
+            },
+            "locked_out_abilities": ["silence ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "silence",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sleep ward",
+            "game_description": "Sometimes protects against sleep.",
+            "description": "Grants the user 50% resistance to sleep.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 200,
+            "required_item": {
+                "name": "sleeping powder",
+                "amount": 6
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "sleep",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sleepproof",
+            "game_description": "Almost completely protects against sleep.",
+            "description": "Grants the user immunity to sleep.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 800,
+            "required_item": {
+                "name": "dream powder",
+                "amount": 8
+            },
+            "locked_out_abilities": ["sleep ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "sleep",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "poison ward",
+            "game_description": "Sometimes protects against poison.",
+            "description": "Grants the user 50% resistance to poison.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 400,
+            "required_item": {
+                "name": "antidote",
+                "amount": 40
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "poison",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "poisonproof",
+            "game_description": "Almost completely protects against poison.",
+            "description": "Grants the user immunity to poison.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 1500,
+            "required_item": {
+                "name": "poison fang",
+                "amount": 12
+            },
+            "locked_out_abilities": ["poison ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "poison",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "stone ward",
+            "game_description": "Sometimes protects against petrification.",
+            "description": "Grants the user 50% resistance to petrification.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 1200,
+            "required_item": {
+                "name": "soft",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "petrification",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "stoneproof",
+            "game_description": "Almost completely protects against petrification.",
+            "description": "Grants the user immunity to petrification.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 2500,
+            "required_item": {
+                "name": "petrify grenade",
+                "amount": 20
+            },
+            "locked_out_abilities": ["stone ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "petrification",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "death ward",
+            "game_description": "Sometimes protects against death.",
+            "description": "Grants the user 50% resistance to death.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 2000,
+            "required_item": {
+                "name": "farplane shadow",
+                "amount": 15
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "death",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "deathproof",
+            "game_description": "Almost completely protects against death.",
+            "description": "Grants the user immunity to death.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 4000,
+            "required_item": {
+                "name": "farplane wind",
+                "amount": 60
+            },
+            "locked_out_abilities": ["death ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "death",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "zombie ward",
+            "game_description": "Sometimes protects against zombie.",
+            "description": "Grants the user 50% resistance to zombie.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 2000,
+            "required_item": {
+                "name": "holy water",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "zombie",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "zombieproof",
+            "game_description": "Almost completely protects against zombie.",
+            "description": "Grants the user immunity to zombie.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 4000,
+            "required_item": {
+                "name": "candle of life",
+                "amount": 10
+            },
+            "locked_out_abilities": ["zombie ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "zombie",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "slow ward",
+            "game_description": "Sometimes protects against slow.",
+            "description": "Grants the user 50% resistance to slow.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 1000,
+            "required_item": {
+                "name": "silver hourglass",
+                "amount": 10
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "slow",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "slowproof",
+            "game_description": "Almost always protects against slow.",
+            "description": "Grants the user immunity to slow.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 3000,
+            "required_item": {
+                "name": "gold hourglass",
+                "amount": 20
+            },
+            "locked_out_abilities": ["slow ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "slow",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "confuse ward",
+            "game_description": "Sometimes protects against confusion.",
+            "description": "Grants the user 50% resistance to confusion.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 1000,
+            "required_item": {
+                "name": "musk",
+                "amount": 16
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "confusion",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "confuseproof",
+            "game_description": "Almost always protects against confusion.",
+            "description": "Grants the user immunity to confusion.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 4000,
+            "required_item": {
+                "name": "musk",
+                "amount": 48
+            },
+            "locked_out_abilities": ["confuse ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "confusion",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "berserk ward",
+            "game_description": "Sometimes protects against berserk.",
+            "description": "Grants the user 50% resistance to berserk.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 1000,
+            "required_item": {
+                "name": "hypello potion",
+                "amount": 8
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "berserk",
+                        "resistance": 50
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "berserkproof",
+            "game_description": "Almost always protects against berserk.",
+            "description": "Grants the user immunity to berserk.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 6000,
+            "required_item": {
+                "name": "hypello potion",
+                "amount": 32
+            },
+            "locked_out_abilities": ["berserk ward"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "berserk",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "curse ward",
+            "game_description": "",
+            "description": "Grants the user immunity to curse (dummied auto-ability).",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 0,
+            "required_item": null,
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "curse",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "curseproof",
+            "game_description": "Almost always protects against curse.",
+            "description": "Grants the user immunity to curse.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 8000,
+            "required_item": {
+                "name": "tetra elemental",
+                "amount": 12
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "curse",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos nulblaze",
+            "game_description": "Casts NulBlaze when HP is low.",
+            "description": "Grants the user unremovable NulBlaze status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 500,
+            "required_item": {
+                "name": "bomb core",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
                 "added_statuses": [
                     {
-                        "name": "",
-                        "activation_condition": ""
+                        "name": "nulblaze",
+                        "activation_condition": "hp-critical"
                     }
                 ],
-                "stat_changes": [
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos nulshock",
+            "game_description": "Casts NulShock when HP is low.",
+            "description": "Grants the user unremovable NulShock status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 500,
+            "required_item": {
+                "name": "lightning marble",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
                     {
-                        "name": "",
-                        "calculation": "",
-                        "amount": 0.0
+                        "name": "nulshock",
+                        "activation_condition": "hp-critical"
                     }
                 ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos nultide",
+            "game_description": "Casts NulTide when HP is low.",
+            "description": "Grants the user unremovable NulTide status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 500,
+            "required_item": {
+                "name": "dragon scale",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "nultide",
+                        "activation_condition": "hp-critical"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos nulfrost",
+            "game_description": "Casts NulFrost when HP is low.",
+            "description": "Grants the user unremovable NulFrost status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 500,
+            "required_item": {
+                "name": "arctic wind",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "nulfrost",
+                        "activation_condition": "hp-critical"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos shell",
+            "game_description": "Casts Shell when HP is low.",
+            "description": "Grants the user unremovable Shell status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 4000,
+            "required_item": {
+                "name": "lunar curtain",
+                "amount": 8
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "shell",
+                        "activation_condition": "hp-critical"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos protect",
+            "game_description": "Casts Protect when HP is low.",
+            "description": "Grants the user unremovable Protect status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 4000,
+            "required_item": {
+                "name": "light curtain",
+                "amount": 8
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "protect",
+                        "activation_condition": "hp-critical"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos reflect",
+            "game_description": "Casts Reflect when HP is low.",
+            "description": "Grants the user unremovable Reflect status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 1000,
+            "required_item": {
+                "name": "star curtain",
+                "amount": 8
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "reflect",
+                        "activation_condition": "hp-critical"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos haste",
+            "game_description": "Casts Haste when HP is low.",
+            "description": "Grants the user unremovable Haste status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 20000,
+            "required_item": {
+                "name": "chocobo feather",
+                "amount": 20
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "haste",
+                        "activation_condition": "hp-critical"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "sos regen",
+            "game_description": "Casts Regen when HP is low.",
+            "description": "Grants the user unremovable Regen status while in HP Critical.",
+            "type": "armor",
+            "category": "sos-status",
+            "value": 20000,
+            "required_item": {
+                "name": "healing spring",
+                "amount": 12
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "regen",
+                        "activation_condition": "hp-critical"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-shell",
+            "game_description": "Automatically casts Shell on user.",
+            "description": "Always grants the user unremovable Shell status.",
+            "type": "armor",
+            "category": "auto-status",
+            "value": 22000,
+            "required_item": {
+                "name": "lunar curtain",
+                "amount": 80
+            },
+            "locked_out_abilities": ["sos shell"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "shell",
+                        "activation_condition": "always"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-protect",
+            "game_description": "Automatically casts Protect on user.",
+            "description": "Always grants the user unremovable Protect status.",
+            "type": "armor",
+            "category": "auto-status",
+            "value": 22000,
+            "required_item": {
+                "name": "light curtain",
+                "amount": 70
+            },
+            "locked_out_abilities": ["sos protect"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "protect",
+                        "activation_condition": "always"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-reflect",
+            "game_description": "Automatically casts Reflect on user.",
+            "description": "Always grants the user unremovable Reflect status.",
+            "type": "armor",
+            "category": "auto-status",
+            "value": 14000,
+            "required_item": {
+                "name": "star curtain",
+                "amount": 40
+            },
+            "locked_out_abilities": ["sos reflect"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "reflect",
+                        "activation_condition": "always"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-haste",
+            "game_description": "Automatically casts Haste on user.",
+            "description": "Always grants the user unremovable Haste status.",
+            "type": "armor",
+            "category": "auto-status",
+            "value": 50000,
+            "required_item": {
+                "name": "chocobo wing",
+                "amount": 80
+            },
+            "locked_out_abilities": ["sos haste"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "haste",
+                        "activation_condition": "always"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-regen",
+            "game_description": "Automatically casts Regen on user.",
+            "description": "Always grants the user unremovable Regen status.",
+            "type": "armor",
+            "category": "auto-status",
+            "value": 60000,
+            "required_item": {
+                "name": "healing spring",
+                "amount": 80
+            },
+            "locked_out_abilities": ["sos regen"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [
+                    {
+                        "name": "regen",
+                        "activation_condition": "always"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "defense +3%",
+            "game_description": "Reduces damage from physical attacks by 3%.",
+            "description": "Reduces the user's damage taken from physical attacks by 3%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 200,
+            "required_item": {
+                "name": "power sphere",
+                "amount": 3
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
                 "other_changes": [
                     {
-                        "name": "",
-                        "calculation": "",
-                        "amount": 0.0
+                        "name": "physical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -3,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
                     }
                 ]
             }
+        },
+        {
+            "name": "defense +5%",
+            "game_description": "Reduces damage from physical attacks by 5%.",
+            "description": "Reduces the user's damage taken from physical attacks by 5%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 500,
+            "required_item": {
+                "name": "stamina spring",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -5,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "defense +10%",
+            "game_description": "Reduces damage from physical attacks by 10%.",
+            "description": "Reduces the user's damage taken from physical attacks by 10%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 5000,
+            "required_item": {
+                "name": "special sphere",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -10,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "defense +20%",
+            "game_description": "Reduces damage from physical attacks by 20%.",
+            "description": "Reduces the user's damage taken from physical attacks by 20%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 10000,
+            "required_item": {
+                "name": "blessed gem",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -20,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic def +3%",
+            "game_description": "Reduces damage from magical attacks by 3%.",
+            "description": "Reduces the user's damage taken from magical attacks by 3%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 200,
+            "required_item": {
+                "name": "mana sphere",
+                "amount": 3
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -3,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic def +5%",
+            "game_description": "Reduces damage from magical attacks by 5%.",
+            "description": "Reduces the user's damage taken from magical attacks by 5%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 500,
+            "required_item": {
+                "name": "mana spring",
+                "amount": 2
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -5,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic def +10%",
+            "game_description": "Reduces damage from magical attacks by 10%.",
+            "description": "Reduces the user's damage taken from magical attacks by 10%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 5000,
+            "required_item": {
+                "name": "wht magic sphere",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -10,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic def +20%",
+            "game_description": "Reduces damage from magical attacks by 20%.",
+            "description": "Reduces the user's damage taken from magical attacks by 20%. Stacks additively with other 'Defense +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 10000,
+            "required_item": {
+                "name": "blessed gem",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-taken",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": -20,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "hp +5%",
+            "game_description": "Raises max HP by 5%.",
+            "description": "Raises the users's max HP by 5%. Stacks additively with other 'HP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 100,
+            "required_item": {
+                "name": "x-potion",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "hp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 5,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "hp +10%",
+            "game_description": "Raises max HP by 10%.",
+            "description": "Raises the users's max HP by 10%. Stacks additively with other 'HP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 1000,
+            "required_item": {
+                "name": "soul spring",
+                "amount": 3
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "hp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 10,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "hp +20%",
+            "game_description": "Raises max HP by 20%.",
+            "description": "Raises the users's max HP by 20%. Stacks additively with other 'HP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 6000,
+            "required_item": {
+                "name": "elixir",
+                "amount": 5
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "hp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 20,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "hp +30%",
+            "game_description": "Raises max HP by 30%.",
+            "description": "Raises the users's max HP by 30%. Stacks additively with other 'HP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 15000,
+            "required_item": {
+                "name": "stamina tonic",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "hp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 30,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "mp +5%",
+            "game_description": "Raises max MP by 5%.",
+            "description": "Raises the users's max MP by 5%. Stacks additively with other 'MP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 1200,
+            "required_item": {
+                "name": "ether",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "mp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 5,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "mp +10%",
+            "game_description": "Raises max MP by 10%.",
+            "description": "Raises the users's max MP by 10%. Stacks additively with other 'MP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 6000,
+            "required_item": {
+                "name": "soul spring",
+                "amount": 3
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "mp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 10,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "mp +20%",
+            "game_description": "Raises max MP by 20%.",
+            "description": "Raises the users's max MP by 20%. Stacks additively with other 'MP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 8000,
+            "required_item": {
+                "name": "elixir",
+                "amount": 5
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "mp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 20,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "mp +30%",
+            "game_description": "Raises max MP by 30%.",
+            "description": "Raises the users's max MP by 30%. Stacks additively with other 'MP +x%' abilities.",
+            "type": "armor",
+            "category": "stat +x%",
+            "value": 18000,
+            "required_item": {
+                "name": "mana tonic",
+                "amount": 1
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [
+                    {
+                        "name": "mp",
+                        "activation_condition": "always",
+                        "calculation": "additively",
+                        "added_percentage": 30,
+                        "change_factor": null,
+                        "set_value": null,
+                        "converted_to": null
+                    }
+                ],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-potion",
+            "game_description": "Automatically use items to recover HP when damaged.",
+            "description": "If the user is in HP Critical after an attack, they will use either a Potion, Hi-Potion, or X-Potion in this priority order, if the item is in your inventory.",
+            "type": "armor",
+            "category": "auto-cure",
+            "value": 12000,
+            "required_item": {
+                "name": "stamina tablet",
+                "amount": 4
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-med",
+            "game_description": "Automatically use items to cure status ailments.",
+            "description": "Causes the user to automatically use an item to remove status ailments that are inflicted on them. If multiple ailments are inflicted at once, or if the item for the ailment in question is not available, a Remedy will be used; otherwise, the status recovery item for that particular status will be used. Does not function if the user is inflicted with a status that incapacitates them or makes them uncontrollable.",
+            "type": "armor",
+            "category": "auto-cure",
+            "value": 10000,
+            "required_item": {
+                "name": "remedy",
+                "amount": 20
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "auto-phoenix",
+            "game_description": "Automatically use Phoenix Down on KO'd user.",
+            "description": "If an ally in the active party is KO'd, the user will use a Phoenix Down on the KO'd user. This can trigger multiple times from the same attack if more than one user is KO'd, but the user cannot revive themselves this way.",
+            "type": "armor",
+            "category": "auto-cure",
+            "value": 20000,
+            "required_item": {
+                "name": "mega phoenix",
+                "amount": 20
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "pickpocket",
+            "game_description": "Improves odds of stealing rare items.",
+            "description": "Raises the user's chance of stealing the rare item from 25% to 50%.",
+            "type": "armor",
+            "category": "",
+            "value": 40000,
+            "required_item": {
+                "name": "amulet",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "common-steal-rate",
+                        "activation_condition": "always",
+                        "calculation": "fixed",
+                        "added_percentage": null,
+                        "change_factor": null,
+                        "set_value": 50,
+                        "converted_to": null
+                    },
+                    {
+                        "name": "rare-steal-rate",
+                        "activation_condition": "always",
+                        "calculation": "fixed",
+                        "added_percentage": null,
+                        "change_factor": null,
+                        "set_value": 50,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "master thief",
+            "game_description": "Steal only rare items.",
+            "description": "The user always steals the rare item.",
+            "type": "armor",
+            "category": "",
+            "value": 60000,
+            "required_item": {
+                "name": "pendulum",
+                "amount": 30
+            },
+            "locked_out_abilities": ["pickpocket"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "common-steal-rate",
+                        "activation_condition": "always",
+                        "calculation": "fixed",
+                        "added_percentage": null,
+                        "change_factor": null,
+                        "set_value": 0,
+                        "converted_to": null
+                    },
+                    {
+                        "name": "rare-steal-rate",
+                        "activation_condition": "always",
+                        "calculation": "fixed",
+                        "added_percentage": null,
+                        "change_factor": null,
+                        "set_value": 100,
+                        "converted_to": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "hp stroll",
+            "game_description": "Automatically recover HP while walking.",
+            "description": "The user's HP gradually increases while walking in the field.",
+            "type": "armor",
+            "category": "",
+            "value": 6000,
+            "required_item": {
+                "name": "stamina tablet",
+                "amount": 2
+            },    
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "mp stroll",
+            "game_description": "Automatically recover MP while walking.",
+            "description": "The user's MP gradually increases while walking in the field.",
+            "type": "armor",
+            "category": "",
+            "value": 6000,
+            "required_item": {
+                "name": "mana tablet",
+                "amount": 2
+            },    
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "no encounters",
+            "game_description": "No random enemy encounters.",
+            "description": "Random enemy encounters are prevented, if an armor with this ability is equipped. Cannot prevent fixed encounters, such as bosses and scripted fights.",
+            "type": "armor",
+            "category": "",
+            "value": 6500,
+            "required_item": {
+                "name": "purifying salt",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "break mp limit",
+            "game_description": "Allows max MP to exceed 999.",
+            "description": "Allows the user's max MP to break the cap of 999, up to a maximum of 9,999.",
+            "type": "armor",
+            "category": "break-limit",
+            "value": 0,
+            "required_item": {
+                "name": "three stars",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "break hp limit",
+            "game_description": "Allows max HP to exceed 9999.",
+            "description": "Allows the user's max HP to break the cap of 9,999, up to a maximum of 99,999.",
+            "type": "armor",
+            "category": "break-limit",
+            "value": 0,
+            "required_item": {
+                "name": "wings to discovery",
+                "amount": 30
+            },
+            "locked_out_abilities": [],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "ribbon",
+            "game_description": "Almost completely protects against all status ailments.",
+            "description": "Grants the user immunity to all status ailments except Death, Power Break, Magic Break, Armor Break, Mental Break, Curse, Delay, and Eject.",
+            "type": "armor",
+            "category": "status-protection",
+            "value": 5000,
+            "required_item": {
+                "name": "dark matter",
+                "amount": 99
+            },
+            "locked_out_abilities": ["dark ward", "darkproof", "silence ward", "silenceproof", "sleep ward", "sleepproof", "poison ward", "poisonproof", "stone ward", "stoneproof", "zombie ward", "zombieproof", "slow ward", "slowproof", "confuse ward", "confuseproof", "berserk ward", "berserkproof"],
+            "meta": {
+                "counter": null,
+                "on_hit_element": null,
+                "added_elem_affinity": null,
+                "on_hit_status": null,
+                "added_status_resists": [
+                    {
+                        "name": "berserk",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "confusion",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "darkness",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "doom",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "petrification",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "poison",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "silence",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "sleep",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "slow",
+                        "resistance": 254
+                    },
+                    {
+                        "name": "zombie",
+                        "resistance": 254
+                    }
+                ],
+                "added_statuses": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
         }
-        
     ]
 }

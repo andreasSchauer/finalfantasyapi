@@ -113,7 +113,7 @@
             "description": "Halves the unit's ticks until their next turn, causing the unit to take half the normal amount of time to get turns. Overwrites Slow."
         },
         {
-            "name": "HP critical",
+            "name": "hp critical",
             "description": "The character or Aeon alters their stance. Inflicted when their HP is below 50% (yellow). Activates SOS-Auto-Abilities."
         },
         {
@@ -175,6 +175,18 @@
         {
             "name": "boost",
             "description": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn."
+        },
+        {
+            "name": "tough",
+            "description": "Prevents enemy from getting knocked back due to being hit by Delay attack or Delay Buster."
+        },
+        {
+            "name": "heavy",
+            "description": "Prevents enemy from getting lifted off the ground by Energy Rain and Tornado."
+        },
+        {
+            "name": "armored",
+            "description": "Damage taken from physical attacks is reduced to a third."
         }
     ]
 }
