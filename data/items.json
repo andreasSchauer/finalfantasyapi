@@ -12,17 +12,25 @@
             "base_price": 50,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 4,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 4,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -41,17 +49,25 @@
             "base_price": 500,
             "sell_value": 125,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -70,17 +86,25 @@
             "base_price": null,
             "sell_value": 250,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "rate",
-                "target_stats": ["hp"],
-                "damage_constant": 16,
-                "rate_based_on": "max",
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 16,
+                            "rate_based_on": "max"
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -99,17 +123,25 @@
             "base_price": null,
             "sell_value": 375,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 40,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 40,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -128,17 +160,25 @@
             "base_price": null,
             "sell_value": 250,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "special",
-                "target_stats": ["mp"],
-                "damage_constant": 2,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "special",
+                            "target_stat": "mp",
+                            "damage_constant": 2,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -157,17 +197,25 @@
             "base_price": null,
             "sell_value": 750,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "special",
-                "target_stats": ["mp"],
-                "damage_constant": 10,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "special",
+                            "target_stat": "mp",
+                            "damage_constant": 10,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -186,17 +234,25 @@
             "base_price": 100,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "rate",
-                "target_stats": ["hp"],
-                "damage_constant": 8,
-                "rate_based_on": "max",
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 8,
+                            "rate_based_on": "max"
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "life",
@@ -221,17 +277,25 @@
             "base_price": null,
             "sell_value": 1000,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "rate",
-                "target_stats": ["hp"],
-                "damage_constant": 16,
-                "rate_based_on": "max",
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 16,
+                            "rate_based_on": "max"
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "life",
@@ -256,17 +320,32 @@
             "base_price": null,
             "sell_value": 1250,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "rate",
-                "target_stats": ["hp", "mp"],
-                "damage_constant": 16,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 16,
+                            "rate_based_on": null
+                        },
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "mp",
+                            "damage_constant": 16,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -285,17 +364,32 @@
             "base_price": null,
             "sell_value": 5000,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "heal",
-                "formula": "rate",
-                "target_stats": ["hp", "mp"],
-                "damage_constant": 16,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 16,
+                            "rate_based_on": null
+                        },
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "mp",
+                            "damage_constant": 16,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -314,17 +408,17 @@
             "base_price": 50,
             "sell_value": 12,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["poison"],
                 "stat_changes": [],
@@ -343,17 +437,17 @@
             "base_price": 50,
             "sell_value": 12,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["petrification"],
                 "stat_changes": [],
@@ -372,17 +466,17 @@
             "base_price": 50,
             "sell_value": 12,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["darkness"],
                 "stat_changes": [],
@@ -401,17 +495,17 @@
             "base_price": 50,
             "sell_value": 12,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["silence"],
                 "stat_changes": [],
@@ -430,17 +524,17 @@
             "base_price": 300,
             "sell_value": 75,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["zombie", "curse"],
                 "stat_changes": [],
@@ -459,17 +553,17 @@
             "base_price": 1500,
             "sell_value": 375,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["berserk", "confusion", "darkness", "petrification", "poison", "silence", "sleep", "slow", "zombie"],
                 "stat_changes": [],
@@ -488,17 +582,17 @@
             "base_price": 100,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "enemy",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "enemy"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "power distiller",
@@ -523,17 +617,17 @@
             "base_price": 100,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "enemy",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "enemy"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "mana distiller",
@@ -558,17 +652,17 @@
             "base_price": 100,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "enemy",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "enemy"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "speed distiller",
@@ -593,17 +687,17 @@
             "base_price": 100,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "enemy",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "enemy"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "ability distiller",
@@ -628,17 +722,25 @@
             "base_price": 1000,
             "sell_value": 250,
             "meta": {
-                "target_type": "all",
-                "target_party": "player",
-                "damage_type": "heal",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["poison", "silence", "petrification"],
                 "stat_changes": [],
@@ -657,17 +759,25 @@
             "base_price": null,
             "sell_value": 125,
             "meta": {
-                "target_type": "all",
-                "target_party": "player",
-                "damage_type": "heal",
-                "formula": "rate",
-                "target_stats": ["hp"],
-                "damage_constant": 16,
-                "rate_based_on": "max",
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 16,
+                            "rate_based_on": "max"
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -686,17 +796,25 @@
             "base_price": null,
             "sell_value": 200,
             "meta": {
-                "target_type": "single",
-                "target_party": "player",
-                "damage_type": "heal",
-                "formula": "rate",
-                "target_stats": ["hp"],
-                "damage_constant": 16,
-                "rate_based_on": "max",
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "heal",
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 16,
+                            "rate_based_on": "max"
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "nulblaze",
@@ -736,17 +854,25 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "ice"
+                },
                 "hit_amount": 1,
-                "element": "ice",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -765,17 +891,25 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "ice"
+                },
                 "hit_amount": 1,
-                "element": "ice",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -794,17 +928,25 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "random",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "random",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "ice"
+                },
                 "hit_amount": 5,
-                "element": "ice",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -823,17 +965,25 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "fire"
+                },
                 "hit_amount": 1,
-                "element": "fire",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -852,17 +1002,25 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "fire"
+                },
                 "hit_amount": 1,
-                "element": "fire",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -881,17 +1039,25 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "random",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "random",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "fire"
+                },
                 "hit_amount": 5,
-                "element": "fire",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -910,17 +1076,25 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "lightning"
+                },
                 "hit_amount": 1,
-                "element": "lightning",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -939,17 +1113,25 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "lightning"
+                },
                 "hit_amount": 1,
-                "element": "lightning",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -968,17 +1150,25 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "random",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "random",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "lightning"
+                },
                 "hit_amount": 5,
-                "element": "lightning",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -997,17 +1187,25 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "water"
+                },
                 "hit_amount": 1,
-                "element": "water",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1026,17 +1224,25 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "water"
+                },
                 "hit_amount": 1,
-                "element": "water",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1055,17 +1261,25 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "random",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 12,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "random",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 12,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "water"
+                },
                 "hit_amount": 5,
-                "element": "water",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1084,17 +1298,25 @@
             "base_price": 300,
             "sell_value": 75,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 7,
-                "rate_based_on": null,
-                "can_critical": true,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 7,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": true,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1113,17 +1335,25 @@
             "base_price": null,
             "sell_value": 125,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 16,
-                "rate_based_on": null,
-                "can_critical": true,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 16,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": true,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "armor break",
@@ -1148,17 +1378,25 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 15,
-                "rate_based_on": null,
-                "can_critical": true,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 15,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": true,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "sleep",
@@ -1183,17 +1421,25 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": true,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": true,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "sleep",
@@ -1218,17 +1464,25 @@
             "base_price": null,
             "sell_value": 37,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 15,
-                "rate_based_on": null,
-                "can_critical": true,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 15,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": true,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "silence",
@@ -1253,17 +1507,25 @@
             "base_price": null,
             "sell_value": 37,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 15,
-                "rate_based_on": null,
-                "can_critical": true,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 15,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": true,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "darkness",
@@ -1288,17 +1550,25 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "rate",
-                "target_stats": ["hp"],
-                "damage_constant": 8,
-                "rate_based_on": "current",
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "rate",
+                            "target_stat": "hp",
+                            "damage_constant": 8,
+                            "rate_based_on": "current"
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1317,17 +1587,25 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 120,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 120,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1346,17 +1624,25 @@
             "base_price": null,
             "sell_value": 125,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 160,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 160,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": "holy"
+                },
                 "hit_amount": 1,
-                "element": "holy",
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1375,17 +1661,25 @@
             "base_price": null,
             "sell_value": 250,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 200,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 200,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1404,17 +1698,25 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 40,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 40,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "poison",
@@ -1439,17 +1741,25 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "agility",
+                            "target_stat": "ctb",
+                            "damage_constant": 16,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "slow",
@@ -1474,17 +1784,32 @@
             "base_price": null,
             "sell_value": 37,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        },
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "agility",
+                            "target_stat": "ctb",
+                            "damage_constant": 16,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "slow",
@@ -1509,17 +1834,17 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "doom",
@@ -1544,17 +1869,17 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "petrification",
@@ -1579,17 +1904,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "death",
@@ -1614,17 +1939,17 @@
             "base_price": null,
             "sell_value": 100,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "death",
@@ -1649,17 +1974,25 @@
             "base_price": null,
             "sell_value": 7500,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 255,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": true,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 255,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": true,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1678,17 +2011,17 @@
             "base_price": null,
             "sell_value": 40,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "haste",
@@ -1713,17 +2046,17 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": "all",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "haste",
@@ -1748,17 +2081,17 @@
             "base_price": null,
             "sell_value": 45,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "shell",
@@ -1783,17 +2116,17 @@
             "base_price": null,
             "sell_value": 45,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "protect",
@@ -1818,17 +2151,17 @@
             "base_price": null,
             "sell_value": 45,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "reflect",
@@ -1853,17 +2186,17 @@
             "base_price": null,
             "sell_value": 150,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [
                     {
                         "name": "regen",
@@ -1888,17 +2221,25 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "single",
-                "target_party": "enemy",
-                "damage_type": "drain",
-                "formula": "special",
-                "target_stats": ["mp"],
-                "damage_constant": 20,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "enemy"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "drain",
+                            "formula": "special",
+                            "target_stat": "mp",
+                            "damage_constant": 20,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1917,17 +2258,25 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": "single",
-                "target_party": "enemy",
-                "damage_type": "drain",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 8,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "enemy"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "drain",
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 8,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1946,17 +2295,32 @@
             "base_price": null,
             "sell_value": 100,
             "meta": {
-                "target_type": "single",
-                "target_party": "enemy",
-                "damage_type": "drain",
-                "formula": "special",
-                "target_stats": ["hp", "mp"],
-                "damage_constant": 30,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "enemy"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "drain",
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 30,
+                            "rate_based_on": null
+                        },
+                        {
+                            "damage_type": "drain",
+                            "formula": "special",
+                            "target_stat": "mp",
+                            "damage_constant": 30,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -1975,17 +2339,25 @@
             "base_price": null,
             "sell_value": 70,
             "meta": {
-                "target_type": "single",
-                "target_party": "either",
-                "damage_type": "damage",
-                "formula": "special",
-                "target_stats": ["hp"],
-                "damage_constant": 22,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "either"
+                },
+                "damage": {
+                    "damages": [
+                        {
+                            "damage_type": "damage" ,
+                            "formula": "special",
+                            "target_stat": "hp",
+                            "damage_constant": 22,
+                            "rate_based_on": null
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": ["power break", "magic break", "armor break", "mental break", "curse", "slow", "haste", "protect", "shell", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost"],
                 "stat_changes": [],
@@ -2004,17 +2376,17 @@
             "base_price": null,
             "sell_value": 200,
             "meta": {
-                "target_type": "single",
-                "target_party": "player",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [
@@ -2043,17 +2415,17 @@
             "base_price": null,
             "sell_value": 500,
             "meta": {
-                "target_type": "single",
-                "target_party": "player",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [
@@ -2082,17 +2454,17 @@
             "base_price": null,
             "sell_value": 400,
             "meta": {
-                "target_type": "all",
-                "target_party": "player",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [
@@ -2121,17 +2493,17 @@
             "base_price": null,
             "sell_value": 400,
             "meta": {
-                "target_type": "all",
-                "target_party": "player",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [
@@ -2160,17 +2532,17 @@
             "base_price": null,
             "sell_value": 200,
             "meta": {
-                "target_type": "single",
-                "target_party": "player",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "single",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2199,17 +2571,17 @@
             "base_price": null,
             "sell_value": 2500,
             "meta": {
-                "target_type": "all",
-                "target_party": "player",
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": "all",
+                    "target_party": "player"
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": 1,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2238,17 +2610,17 @@
             "base_price": null,
             "sell_value": 1,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2267,17 +2639,17 @@
             "base_price": null,
             "sell_value": 1,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2296,17 +2668,17 @@
             "base_price": null,
             "sell_value": 1,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2325,17 +2697,17 @@
             "base_price": null,
             "sell_value": 1,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2354,17 +2726,17 @@
             "base_price": null,
             "sell_value": 5,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2383,17 +2755,17 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2412,17 +2784,17 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2441,17 +2813,17 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2470,17 +2842,17 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2499,17 +2871,17 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2528,17 +2900,17 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2557,17 +2929,17 @@
             "base_price": null,
             "sell_value": 25,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2586,17 +2958,17 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2615,17 +2987,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2644,17 +3016,17 @@
             "base_price": null,
             "sell_value": 100,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2673,17 +3045,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2702,17 +3074,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2731,17 +3103,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2760,17 +3132,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2789,17 +3161,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2818,17 +3190,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2847,17 +3219,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2876,17 +3248,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2905,17 +3277,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2934,17 +3306,17 @@
             "base_price": null,
             "sell_value": 75,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2963,17 +3335,17 @@
             "base_price": 10000,
             "sell_value": 2500,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -2992,17 +3364,17 @@
             "base_price": null,
             "sell_value": 125,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3021,17 +3393,17 @@
             "base_price": null,
             "sell_value": 150,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3050,17 +3422,17 @@
             "base_price": null,
             "sell_value": 200,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3079,17 +3451,17 @@
             "base_price": null,
             "sell_value": 250,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3108,17 +3480,17 @@
             "base_price": 50,
             "sell_value": 12,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3137,17 +3509,17 @@
             "base_price": null,
             "sell_value": 5,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3166,17 +3538,17 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3195,17 +3567,17 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3224,17 +3596,17 @@
             "base_price": null,
             "sell_value": 50,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3253,17 +3625,17 @@
             "base_price": null,
             "sell_value": 1250,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3282,17 +3654,17 @@
             "base_price": null,
             "sell_value": 3450,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3311,17 +3683,17 @@
             "base_price": null,
             "sell_value": 200,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3340,17 +3712,17 @@
             "base_price": null,
             "sell_value": 2000,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3369,17 +3741,17 @@
             "base_price": null,
             "sell_value": 7500,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3398,17 +3770,17 @@
             "base_price": null,
             "sell_value": 4000,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3427,17 +3799,17 @@
             "base_price": null,
             "sell_value": 5000,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],
@@ -3456,17 +3828,17 @@
             "base_price": null,
             "sell_value": 10000,
             "meta": {
-                "target_type": null,
-                "target_party": null,
-                "damage_type": null,
-                "formula": null,
-                "target_stats": [],
-                "damage_constant": null,
-                "rate_based_on": null,
-                "can_critical": false,
-                "can_break_dmg_lmt": false,
+                "target": {
+                    "target_type": null,
+                    "target_party": null
+                },
+                "damage": {
+                    "damages": [],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "element": null
+                },
                 "hit_amount": null,
-                "element": null,
                 "inflicted_status_ailments": [],
                 "removed_status_ailments": [],
                 "stat_changes": [],

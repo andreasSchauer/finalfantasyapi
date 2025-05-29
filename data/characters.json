@@ -5,6 +5,8 @@
             "name": "tidus",
             "weapon_type": "sword",
             "armor_type": "shield",
+            "clstl_wpn_formula": "hp-high",
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 520,
                 "mp": 12,
@@ -23,6 +25,8 @@
             "name": "yuna",
             "weapon_type": "staff",
             "armor_type": "ring",
+            "clstl_wpn_formula": "mp-high",
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 475,
                 "mp": 84,
@@ -41,6 +45,8 @@
             "name": "wakka",
             "weapon_type": "blitzball",
             "armor_type": "armguard",
+            "clstl_wpn_formula": "hp-high",
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 618,
                 "mp": 10,
@@ -59,6 +65,8 @@
             "name": "lulu",
             "weapon_type": "doll",
             "armor_type": "bangle",
+            "clstl_wpn_formula": "mp-high",
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 380,
                 "mp": 92,
@@ -77,6 +85,8 @@
             "name": "kimahri",
             "weapon_type": "spear",
             "armor_type": "armlet",
+            "clstl_wpn_formula": "hp-high",
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 644,
                 "mp": 78,
@@ -95,6 +105,8 @@
             "name": "auron",
             "weapon_type": "blade",
             "armor_type": "bracer",
+            "clstl_wpn_formula": "hp-low",
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 1030,
                 "mp": 33,
@@ -113,6 +125,8 @@
             "name": "rikku",
             "weapon_type": "claw",
             "armor_type": "targe",
+            "clstl_wpn_formula": "hp-high",
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 360,
                 "mp": 85,
@@ -131,6 +145,8 @@
             "name": "seymour",
             "weapon_type": "seymour staff",
             "armor_type": "seymour armor",
+            "clstl_wpn_formula": null,
+            "physical_attack_range": "",
             "base_stats": {
                 "hp": 1200,
                 "mp": 999,
