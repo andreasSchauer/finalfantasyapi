@@ -8,7 +8,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 50,
             "sell_value": 25,
             "meta": {
@@ -17,13 +17,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "special",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 4,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "no-variance"
+                            },
+                            "damage_constant": 4
                         }
                     ],
                     "can_critical": false,
@@ -45,7 +47,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 500,
             "sell_value": 125,
             "meta": {
@@ -54,13 +56,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "special",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "no-variance"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": false,
@@ -82,7 +86,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": {
@@ -91,13 +95,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 16,
-                            "rate_based_on": "max"
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -119,7 +125,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 375,
             "meta": {
@@ -128,13 +134,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "special",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 40,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "no-variance"
+                            },
+                            "damage_constant": 40
                         }
                     ],
                     "can_critical": false,
@@ -156,7 +164,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": {
@@ -165,13 +173,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "special",
+                            "attack_type": "heal",
                             "target_stat": "mp",
-                            "damage_constant": 2,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "no-variance"
+                            },
+                            "damage_constant": 2
                         }
                     ],
                     "can_critical": false,
@@ -193,7 +203,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 750,
             "meta": {
@@ -202,13 +212,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "special",
+                            "attack_type": "heal",
                             "target_stat": "mp",
-                            "damage_constant": 10,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "no-variance"
+                            },
+                            "damage_constant": 10
                         }
                     ],
                     "can_critical": false,
@@ -230,7 +242,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": {
@@ -239,13 +251,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 8,
-                            "rate_based_on": "max"
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
@@ -273,7 +287,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 1000,
             "meta": {
@@ -282,13 +296,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 16,
-                            "rate_based_on": "max"
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -316,7 +332,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 1250,
             "meta": {
@@ -325,20 +341,24 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 16,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         },
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "mp",
-                            "damage_constant": 16,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -360,7 +380,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 5000,
             "meta": {
@@ -369,20 +389,24 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 16,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         },
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "mp",
-                            "damage_constant": 16,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -404,7 +428,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": {
@@ -413,7 +437,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -433,7 +457,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": {
@@ -442,7 +466,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -462,7 +486,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": {
@@ -471,7 +495,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -491,7 +515,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": {
@@ -500,7 +524,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -520,7 +544,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 300,
             "sell_value": 75,
             "meta": {
@@ -529,7 +553,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -549,7 +573,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 1500,
             "sell_value": 375,
             "meta": {
@@ -558,7 +582,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -578,7 +602,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": {
@@ -587,7 +611,7 @@
                     "target_party": "enemy"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -613,7 +637,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": {
@@ -622,7 +646,7 @@
                     "target_party": "enemy"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -648,7 +672,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": {
@@ -657,7 +681,7 @@
                     "target_party": "enemy"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -683,7 +707,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": {
@@ -692,7 +716,7 @@
                     "target_party": "enemy"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -718,7 +742,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 1000,
             "sell_value": 250,
             "meta": {
@@ -727,13 +751,15 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "special",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "no-variance"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": false,
@@ -755,7 +781,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": {
@@ -764,13 +790,15 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 16,
-                            "rate_based_on": "max"
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -792,7 +820,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 200,
             "meta": {
@@ -801,13 +829,15 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "heal",
-                            "formula": "rate",
+                            "attack_type": "heal",
                             "target_stat": "hp",
-                            "damage_constant": 16,
-                            "rate_based_on": "max"
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-max"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -850,7 +880,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -859,13 +889,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -887,7 +919,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -896,13 +928,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": false,
@@ -924,7 +958,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -933,13 +967,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -961,7 +997,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -970,13 +1006,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -998,7 +1036,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -1007,13 +1045,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": false,
@@ -1035,7 +1075,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -1044,13 +1084,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -1072,7 +1114,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -1081,13 +1123,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -1109,7 +1153,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -1118,13 +1162,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": false,
@@ -1146,7 +1192,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -1155,13 +1201,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -1183,7 +1231,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -1192,13 +1240,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -1220,7 +1270,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -1229,13 +1279,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": false,
@@ -1257,7 +1309,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -1266,13 +1318,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 12,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 12
                         }
                     ],
                     "can_critical": false,
@@ -1294,7 +1348,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 300,
             "sell_value": 75,
             "meta": {
@@ -1303,13 +1357,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 7,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 7
                         }
                     ],
                     "can_critical": true,
@@ -1331,7 +1387,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": {
@@ -1340,13 +1396,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 16,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": true,
@@ -1374,7 +1432,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -1383,13 +1441,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 15,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 15
                         }
                     ],
                     "can_critical": true,
@@ -1417,7 +1477,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -1426,13 +1486,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": true,
@@ -1460,7 +1522,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 37,
             "meta": {
@@ -1469,13 +1531,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 15,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 15
                         }
                     ],
                     "can_critical": true,
@@ -1503,7 +1567,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 37,
             "meta": {
@@ -1512,13 +1576,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 15,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 15
                         }
                     ],
                     "can_critical": true,
@@ -1546,7 +1612,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -1555,13 +1621,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "rate",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 8,
-                            "rate_based_on": "current"
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "rate-current"
+                            },
+                            "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
@@ -1583,7 +1651,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -1592,13 +1660,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 120,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 120
                         }
                     ],
                     "can_critical": false,
@@ -1620,7 +1690,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": {
@@ -1629,13 +1699,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 160,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 160
                         }
                     ],
                     "can_critical": false,
@@ -1657,7 +1729,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": {
@@ -1666,13 +1738,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 200,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 200
                         }
                     ],
                     "can_critical": false,
@@ -1694,7 +1768,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -1703,13 +1777,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 40,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 40
                         }
                     ],
                     "can_critical": false,
@@ -1737,7 +1813,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -1746,13 +1822,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "agility",
+                            "attack_type": "damage" ,
                             "target_stat": "ctb",
-                            "damage_constant": 16,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "agility",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -1780,7 +1858,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 37,
             "meta": {
@@ -1789,20 +1867,24 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 20
                         },
                         {
-                            "damage_type": "damage" ,
-                            "formula": "agility",
+                            "attack_type": "damage" ,
                             "target_stat": "ctb",
-                            "damage_constant": 16,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "agility",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 16
                         }
                     ],
                     "can_critical": false,
@@ -1830,7 +1912,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -1839,7 +1921,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -1865,7 +1947,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -1874,7 +1956,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -1900,7 +1982,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -1909,7 +1991,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -1935,7 +2017,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 100,
             "meta": {
@@ -1944,7 +2026,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -1970,7 +2052,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 7500,
             "meta": {
@@ -1979,13 +2061,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 255,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 255
                         }
                     ],
                     "can_critical": false,
@@ -2007,7 +2091,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 40,
             "meta": {
@@ -2016,7 +2100,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2042,7 +2126,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -2051,7 +2135,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2077,7 +2161,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 45,
             "meta": {
@@ -2086,7 +2170,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2112,7 +2196,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 45,
             "meta": {
@@ -2121,7 +2205,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2147,7 +2231,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 45,
             "meta": {
@@ -2156,7 +2240,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2182,7 +2266,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 150,
             "meta": {
@@ -2191,7 +2275,7 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2217,7 +2301,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -2226,13 +2310,15 @@
                     "target_party": "enemy"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "drain",
-                            "formula": "special",
+                            "attack_type": "absorb",
                             "target_stat": "mp",
-                            "damage_constant": 20,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 20
                         }
                     ],
                     "can_critical": false,
@@ -2254,7 +2340,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -2263,13 +2349,15 @@
                     "target_party": "enemy"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "drain",
-                            "formula": "special",
+                            "attack_type": "absorb",
                             "target_stat": "hp",
-                            "damage_constant": 8,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
@@ -2291,7 +2379,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 100,
             "meta": {
@@ -2300,20 +2388,24 @@
                     "target_party": "enemy"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "drain",
-                            "formula": "special",
+                            "attack_type": "absorb",
                             "target_stat": "hp",
-                            "damage_constant": 30,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 30
                         },
                         {
-                            "damage_type": "drain",
-                            "formula": "special",
+                            "attack_type": "absorb",
                             "target_stat": "mp",
-                            "damage_constant": 30,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 30
                         }
                     ],
                     "can_critical": false,
@@ -2335,7 +2427,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 70,
             "meta": {
@@ -2344,13 +2436,15 @@
                     "target_party": "either"
                 },
                 "damage": {
-                    "damages": [
+                    "damage_calcs": [
                         {
-                            "damage_type": "damage" ,
-                            "formula": "special",
+                            "attack_type": "damage" ,
                             "target_stat": "hp",
-                            "damage_constant": 22,
-                            "rate_based_on": null
+                            "formula": {
+                                "damage_type": "special",
+                                "damage_formula": "standard"
+                            },
+                            "damage_constant": 22
                         }
                     ],
                     "can_critical": false,
@@ -2372,7 +2466,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": ["hp"],
+            "related_stats": ["hp"],
             "base_price": null,
             "sell_value": 200,
             "meta": {
@@ -2381,7 +2475,7 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2411,7 +2505,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": ["mp"],
+            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 500,
             "meta": {
@@ -2420,7 +2514,7 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2450,7 +2544,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": ["hp"],
+            "related_stats": ["hp"],
             "base_price": null,
             "sell_value": 400,
             "meta": {
@@ -2459,7 +2553,7 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2489,7 +2583,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": ["mp"],
+            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 400,
             "meta": {
@@ -2498,7 +2592,7 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2528,7 +2622,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 200,
             "meta": {
@@ -2537,7 +2631,7 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2567,7 +2661,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 2500,
             "meta": {
@@ -2576,7 +2670,7 @@
                     "target_party": "player"
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2606,7 +2700,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["hp", "strength", "defense"],
+            "related_stats": ["hp", "strength", "defense"],
             "base_price": null,
             "sell_value": 1,
             "meta": {
@@ -2615,7 +2709,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2635,7 +2729,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["mp", "magic", "magic defense"],
+            "related_stats": ["mp", "magic", "magic defense"],
             "base_price": null,
             "sell_value": 1,
             "meta": {
@@ -2644,7 +2738,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2664,7 +2758,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["agility", "evasion", "accuracy"],
+            "related_stats": ["agility", "evasion", "accuracy"],
             "base_price": null,
             "sell_value": 1,
             "meta": {
@@ -2673,7 +2767,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2693,7 +2787,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 1,
             "meta": {
@@ -2702,7 +2796,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2722,7 +2816,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["luck"],
+            "related_stats": ["luck"],
             "base_price": null,
             "sell_value": 5,
             "meta": {
@@ -2731,7 +2825,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2751,7 +2845,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
+            "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -2760,7 +2854,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2780,7 +2874,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -2789,7 +2883,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2809,7 +2903,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -2818,7 +2912,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2838,7 +2932,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -2847,7 +2941,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2867,7 +2961,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -2876,7 +2970,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2896,7 +2990,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
+            "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -2905,7 +2999,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2925,7 +3019,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": {
@@ -2934,7 +3028,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2954,7 +3048,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -2963,7 +3057,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -2983,7 +3077,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -2992,7 +3086,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3012,7 +3106,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 100,
             "meta": {
@@ -3021,7 +3115,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3041,7 +3135,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["hp"],
+            "related_stats": ["hp"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3050,7 +3144,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3070,7 +3164,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["mp"],
+            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3079,7 +3173,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3099,7 +3193,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["strength"],
+            "related_stats": ["strength"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3108,7 +3202,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3128,7 +3222,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["defense"],
+            "related_stats": ["defense"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3137,7 +3231,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3157,7 +3251,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["magic"],
+            "related_stats": ["magic"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3166,7 +3260,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3186,7 +3280,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["magic defense"],
+            "related_stats": ["magic defense"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3195,7 +3289,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3215,7 +3309,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["agility"],
+            "related_stats": ["agility"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3224,7 +3318,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3244,7 +3338,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["evasion"],
+            "related_stats": ["evasion"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3253,7 +3347,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3273,7 +3367,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["accuracy"],
+            "related_stats": ["accuracy"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3282,7 +3376,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3302,7 +3396,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["luck"],
+            "related_stats": ["luck"],
             "base_price": null,
             "sell_value": 75,
             "meta": {
@@ -3311,7 +3405,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3331,7 +3425,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
+            "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
             "base_price": 10000,
             "sell_value": 2500,
             "meta": {
@@ -3340,7 +3434,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3360,7 +3454,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": {
@@ -3369,7 +3463,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3389,7 +3483,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 150,
             "meta": {
@@ -3398,7 +3492,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3418,7 +3512,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 200,
             "meta": {
@@ -3427,7 +3521,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3447,7 +3541,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": {
@@ -3456,7 +3550,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3476,7 +3570,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": {
@@ -3485,7 +3579,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3505,7 +3599,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 5,
             "meta": {
@@ -3514,7 +3608,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3534,7 +3628,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -3543,7 +3637,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3563,7 +3657,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -3572,7 +3666,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3592,7 +3686,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": {
@@ -3601,7 +3695,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3621,7 +3715,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 1250,
             "meta": {
@@ -3630,7 +3724,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3650,7 +3744,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 3450,
             "meta": {
@@ -3659,7 +3753,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3679,7 +3773,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 200,
             "meta": {
@@ -3688,7 +3782,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3708,7 +3802,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 2000,
             "meta": {
@@ -3717,7 +3811,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3737,7 +3831,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 7500,
             "meta": {
@@ -3746,7 +3840,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3766,7 +3860,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 4000,
             "meta": {
@@ -3775,7 +3869,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3795,7 +3889,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 5000,
             "meta": {
@@ -3804,7 +3898,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
@@ -3824,7 +3918,7 @@
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "access_via_use": false,
-            "affected_stats": [],
+            "related_stats": [],
             "base_price": null,
             "sell_value": 10000,
             "meta": {
@@ -3833,7 +3927,7 @@
                     "target_party": null
                 },
                 "damage": {
-                    "damages": [],
+                    "damage_calcs": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "element": null
