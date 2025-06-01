@@ -9,6 +9,7 @@
             },
             "is_optional": false,
             "celestial_weapon": "nirvana",
+            "num_battles_to_regenerate": 8,
             "base_stats": {
                 "hp": 725,
                 "mp": 24,
@@ -31,6 +32,7 @@
             },
             "is_optional": false,
             "celestial_weapon": "world champion",
+            "num_battles_to_regenerate": 12,
             "base_stats": {
                 "hp": 857,
                 "mp": 23,
@@ -53,6 +55,7 @@
             },
             "is_optional": false,
             "celestial_weapon": "spirit lance",
+            "num_battles_to_regenerate": 20,
             "base_stats": {
                 "hp": 891,
                 "mp": 25,
@@ -75,6 +78,7 @@
             },
             "is_optional": false,
             "celestial_weapon": "onion knight",
+            "num_battles_to_regenerate": 20,
             "base_stats": {
                 "hp": 820,
                 "mp": 26,
@@ -97,6 +101,7 @@
             },
             "is_optional": false,
             "celestial_weapon": "",
+            "num_battles_to_regenerate": 24,
             "base_stats": {
                 "hp": 1210,
                 "mp": 35,
@@ -119,6 +124,7 @@
             },
             "is_optional": true,
             "celestial_weapon": "",
+            "num_battles_to_regenerate": 24,
             "base_stats": {
                 "hp": 1410,
                 "mp": 45,
@@ -141,6 +147,7 @@
             },
             "is_optional": true,
             "celestial_weapon": "masamune",
+            "num_battles_to_regenerate": 24,
             "base_stats": {
                 "hp": 1030,
                 "mp": 0,
@@ -163,6 +170,7 @@
             },
             "is_optional": true,
             "celestial_weapon": "",
+            "num_battles_to_regenerate": 30,
             "base_stats": {
                 "hp": 2190,
                 "mp": 46,
@@ -185,6 +193,7 @@
             },
             "is_optional": true,
             "celestial_weapon": "",
+            "num_battles_to_regenerate": 30,
             "base_stats": {
                 "hp": 1790,
                 "mp": 35,
@@ -207,6 +216,7 @@
             },
             "is_optional": true,
             "celestial_weapon": "",
+            "num_battles_to_regenerate": 30,
             "base_stats": {
                 "hp": 1237,
                 "mp": 58,

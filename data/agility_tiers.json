@@ -1,45 +1,27 @@
 {
     "agility_tiers_data": [
         {
-            "agility_range": {
-                "min_agility": 0,
-                "max_agility": 0
-            },
+            "agility_tier_range": [0, 0],
             "tick_speed": 28,
-            "monster_icvs": {
-                "min_icv": null,
-                "max_icv": null
-            },
+            "monster_icv_min_max": null,
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 0,
-                            "max_agility": 0
-                        },
-                        "min_icv": null
+                        "agility_subtier_range": [0, 0],
+                        "min_character_icv": null
                     }
                 ],
                 "max_character_icv": null
             }
         },
         {
-            "agility_range": {
-                "min_agility": 1,
-                "max_agility": 1
-            },
+            "agility_tier_range": [1, 1],
             "tick_speed": 26,
-            "monster_icvs": {
-                "min_icv": 84,
-                "max_icv": 93
-            },
+            "monster_icv_min_max": [84, 93],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 1,
-                            "max_agility": 1
-                        },
+                        "agility_subtier_range": [1, 1],
                         "min_character_icv": 83
                     }
                 ],
@@ -47,22 +29,13 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 2,
-                "max_agility": 2
-            },
+            "agility_tier_range": [2, 2],
             "tick_speed": 24,
-            "monster_icvs": {
-                "min_icv": 78,
-                "max_icv": 86
-            },
+            "monster_icv_min_max": [78, 86],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 2,
-                            "max_agility": 2
-                        },
+                        "agility_subtier_range": [2, 2],
                         "min_character_icv": 77
                     }
                 ],
@@ -70,22 +43,13 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 3,
-                "max_agility": 3
-            },
+            "agility_tier_range": [3, 3],
             "tick_speed": 22,
-            "monster_icvs": {
-                "min_icv": 72,
-                "max_icv": 80
-            },
+            "monster_icv_min_max": [72, 80],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 3,
-                            "max_agility": 3
-                        },
+                        "agility_subtier_range": [3, 3],
                         "min_character_icv": 71
                     }
                 ],
@@ -93,22 +57,13 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 4,
-                "max_agility": 4
-            },
+            "agility_tier_range": [4, 4],
             "tick_speed": 20,
-            "monster_icvs": {
-                "min_icv": 60,
-                "max_icv": 66
-            },
+            "monster_icv_min_max": [60, 66],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 4,
-                            "max_agility": 4
-                        },
+                        "agility_subtier_range": [4, 4],
                         "min_character_icv": 59
                     }
                 ],
@@ -116,29 +71,17 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 5,
-                "max_agility": 6
-            },
+            "agility_tier_range": [5, 6],
             "tick_speed": 16,
-            "monster_icvs": {
-                "min_icv": 48,
-                "max_icv": 53
-            },
+            "monster_icv_min_max": [48, 53],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 5,
-                            "max_agility": 5
-                        },
+                        "agility_subtier_range": [5, 5],
                         "min_character_icv": 47
                     },
                     {
-                        "agility": {
-                            "min_agility": 6,
-                            "max_agility": 6
-                        },
+                        "agility_subtier_range": [6, 6],
                         "min_character_icv": 46
                     }
                 ],
@@ -146,36 +89,21 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 7,
-                "max_agility": 9
-            },
+            "agility_tier_range": [7, 9],
             "tick_speed": 15,
-            "monster_icvs": {
-                "min_icv": 45,
-                "max_icv": 50
-            },
+            "monster_icv_min_max": [45, 50],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 7,
-                            "max_agility": 7
-                        },
+                        "agility_subtier_range": [7, 7],
                         "min_character_icv": 44
                     },
                     {
-                        "agility": {
-                            "min_agility": 8,
-                            "max_agility": 8
-                        },
+                        "agility_subtier_range": [8, 8],
                         "min_character_icv": 43
                     },
                     {
-                        "agility": {
-                            "min_agility": 9,
-                            "max_agility": 9
-                        },
+                        "agility_subtier_range": [9, 9],
                         "min_character_icv": 42
                     }
                 ],
@@ -183,29 +111,17 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 10,
-                "max_agility": 11
-            },
+            "agility_tier_range": [10, 11],
             "tick_speed": 14,
-            "monster_icvs": {
-                "min_icv": 42,
-                "max_icv": 46
-            },
+            "monster_icv_min_max": [42, 46],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 10,
-                            "max_agility": 10
-                        },
+                        "agility_subtier_range": [10, 10],
                         "min_character_icv": 41
                     },
                     {
-                        "agility": {
-                            "min_agility": 11,
-                            "max_agility": 11
-                        },
+                        "agility_subtier_range": [11, 11],
                         "min_character_icv": 40
                     }
                 ],
@@ -213,36 +129,21 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 12,
-                "max_agility": 14
-            },
+            "agility_tier_range": [12, 14],
             "tick_speed": 13,
-            "monster_icvs": {
-                "min_icv": 39,
-                "max_icv": 43
-            },
+            "monster_icv_min_max": [39, 43],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 12,
-                            "max_agility": 12
-                        },
+                        "agility_subtier_range": [12, 12],
                         "min_character_icv": 38
                     },
                     {
-                        "agility": {
-                            "min_agility": 13,
-                            "max_agility": 13
-                        },
+                        "agility_subtier_range": [13, 13],
                         "min_character_icv": 37
                     },
                     {
-                        "agility": {
-                            "min_agility": 14,
-                            "max_agility": 14
-                        },
+                        "agility_subtier_range": [14, 14],
                         "min_character_icv": 36
                     }
                 ],
@@ -250,29 +151,17 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 15,
-                "max_agility": 16
-            },
+            "agility_tier_range": [15, 16],
             "tick_speed": 12,
-            "monster_icvs": {
-                "min_icv": 36,
-                "max_icv": 40
-            },
+            "monster_icv_min_max": [36, 40],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 15,
-                            "max_agility": 15
-                        },
+                        "agility_subtier_range": [15, 15],
                         "min_character_icv": 35
                     },
                     {
-                        "agility": {
-                            "min_agility": 16,
-                            "max_agility": 16
-                        },
+                        "agility_subtier_range": [16, 16],
                         "min_character_icv": 34
                     }
                 ],
@@ -280,29 +169,17 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 17,
-                "max_agility": 18
-            },
+            "agility_tier_range": [17, 18],
             "tick_speed": 11,
-            "monster_icvs": {
-                "min_icv": 33,
-                "max_icv": 36
-            },
+            "monster_icv_min_max": [33, 36],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 17,
-                            "max_agility": 17
-                        },
+                        "agility_subtier_range": [17, 17],
                         "min_character_icv": 32
                     },
                     {
-                        "agility": {
-                            "min_agility": 18,
-                            "max_agility": 18
-                        },
+                        "agility_subtier_range": [18, 18],
                         "min_character_icv": 31
                     }
                 ],
@@ -310,43 +187,25 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 19,
-                "max_agility": 22
-            },
+            "agility_tier_range": [19, 22],
             "tick_speed": 10,
-            "monster_icvs": {
-                "min_icv": 30,
-                "max_icv": 33
-            },
+            "monster_icv_min_max": [30, 33],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 19,
-                            "max_agility": 19
-                        },
+                        "agility_subtier_range": [19, 19],
                         "min_character_icv": 29
                     },
                     {
-                        "agility": {
-                            "min_agility": 20,
-                            "max_agility": 20
-                        },
+                        "agility_subtier_range": [20, 20],
                         "min_character_icv": 28
                     },
                     {
-                        "agility": {
-                            "min_agility": 21,
-                            "max_agility": 21
-                        },
+                        "agility_subtier_range": [21, 21],
                         "min_character_icv": 27
                     },
                     {
-                        "agility": {
-                            "min_agility": 22,
-                            "max_agility": 22
-                        },
+                        "agility_subtier_range": [22, 22],
                         "min_character_icv": 26
                     }
                 ],
@@ -354,57 +213,33 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 23,
-                "max_agility": 28
-            },
+            "agility_tier_range": [23, 28],
             "tick_speed": 9,
-            "monster_icvs": {
-                "min_icv": 27,
-                "max_icv": 30
-            },
+            "monster_icv_min_max": [27, 30],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 23,
-                            "max_agility": 23
-                        },
+                        "agility_subtier_range": [23, 23],
                         "min_character_icv": 26
                     },
                     {
-                        "agility": {
-                            "min_agility": 24,
-                            "max_agility": 24
-                        },
+                        "agility_subtier_range": [24, 24],
                         "min_character_icv": 25
                     },
                     {
-                        "agility": {
-                            "min_agility": 25,
-                            "max_agility": 25
-                        },
+                        "agility_subtier_range": [25, 25],
                         "min_character_icv": 24
                     },
                     {
-                        "agility": {
-                            "min_agility": 26,
-                            "max_agility": 26
-                        },
+                        "agility_subtier_range": [26, 26],
                         "min_character_icv": 23
                     },
                     {
-                        "agility": {
-                            "min_agility": 27,
-                            "max_agility": 27
-                        },
+                        "agility_subtier_range": [27, 27],
                         "min_character_icv": 22
                     },
                     {
-                        "agility": {
-                            "min_agility": 28,
-                            "max_agility": 28
-                        },
+                        "agility_subtier_range": [28, 28],
                         "min_character_icv": 21
                     }
                 ],
@@ -412,57 +247,33 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 29,
-                "max_agility": 34
-            },
+            "agility_tier_range": [29, 34],
             "tick_speed": 8,
-            "monster_icvs": {
-                "min_icv": 24,
-                "max_icv": 26
-            },
+            "monster_icv_min_max": [24, 26],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 29,
-                            "max_agility": 29
-                        },
+                        "agility_subtier_range": [29, 29],
                         "min_character_icv": 23
                     },
                     {
-                        "agility": {
-                            "min_agility": 30,
-                            "max_agility": 30
-                        },
+                        "agility_subtier_range": [30, 30],
                         "min_character_icv": 22
                     },
                     {
-                        "agility": {
-                            "min_agility": 31,
-                            "max_agility": 31
-                        },
+                        "agility_subtier_range": [31, 31],
                         "min_character_icv": 21
                     },
                     {
-                        "agility": {
-                            "min_agility": 32,
-                            "max_agility": 32
-                        },
+                        "agility_subtier_range": [32, 32],
                         "min_character_icv": 20
                     },
                     {
-                        "agility": {
-                            "min_agility": 33,
-                            "max_agility": 33
-                        },
+                        "agility_subtier_range": [33, 33],
                         "min_character_icv": 19
                     },
                     {
-                        "agility": {
-                            "min_agility": 34,
-                            "max_agility": 34
-                        },
+                        "agility_subtier_range": [34, 34],
                         "min_character_icv": 18
                     }
                 ],
@@ -470,78 +281,45 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 35,
-                "max_agility": 43
-            },
+            "agility_tier_range": [35, 43],
             "tick_speed": 7,
-            "monster_icvs": {
-                "min_icv": 21,
-                "max_icv": 23
-            },
+            "monster_icv_min_max": [21, 23],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 35,
-                            "max_agility": 35
-                        },
+                        "agility_subtier_range": [35, 35],
                         "min_character_icv": 20
                     },
                     {
-                        "agility": {
-                            "min_agility": 36,
-                            "max_agility": 36
-                        },
+                        "agility_subtier_range": [36, 36],
                         "min_character_icv": 19
                     },
                     {
-                        "agility": {
-                            "min_agility": 37,
-                            "max_agility": 37
-                        },
+                        "agility_subtier_range": [37, 37],
                         "min_character_icv": 18
                     },
                     {
-                        "agility": {
-                            "min_agility": 38,
-                            "max_agility": 38
-                        },
+                        "agility_subtier_range": [38, 38],
                         "min_character_icv": 17
                     },
                     {
-                        "agility": {
-                            "min_agility": 39,
-                            "max_agility": 39
-                        },
+                        "agility_subtier_range": [39, 39],
                         "min_character_icv": 16
                     },
                     {
-                        "agility": {
-                            "min_agility": 40,
-                            "max_agility": 40
-                        },
+                        "agility_subtier_range": [40, 40],
                         "min_character_icv": 15
                     },
                     {
-                        "agility": {
-                            "min_agility": 41,
-                            "max_agility": 41
-                        },
+                        "agility_subtier_range": [41, 41],
                         "min_character_icv": 14
                     },
                     {
-                        "agility": {
-                            "min_agility": 42,
-                            "max_agility": 42
-                        },
+                        "agility_subtier_range": [42, 42],
                         "min_character_icv": 13
                     },
                     {
-                        "agility": {
-                            "min_agility": 43,
-                            "max_agility": 43
-                        },
+                        "agility_subtier_range": [43, 43],
                         "min_character_icv": 12
                     }
                 ],
@@ -549,78 +327,45 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 44,
-                "max_agility": 61
-            },
+            "agility_tier_range": [44, 61],
             "tick_speed": 6,
-            "monster_icvs": {
-                "min_icv": 18,
-                "max_icv": 20
-            },
+            "monster_icv_min_max": [18, 20],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 44,
-                            "max_agility": 45
-                        },
+                        "agility_subtier_range": [44, 45],
                         "min_character_icv": 17
                     },
                     {
-                        "agility": {
-                            "min_agility": 46,
-                            "max_agility": 47
-                        },
+                        "agility_subtier_range": [46, 47],
                         "min_character_icv": 16
                     },
                     {
-                        "agility": {
-                            "min_agility": 48,
-                            "max_agility": 49
-                        },
+                        "agility_subtier_range": [48, 49],
                         "min_character_icv": 15
                     },
                     {
-                        "agility": {
-                            "min_agility": 50,
-                            "max_agility": 51
-                        },
+                        "agility_subtier_range": [50, 51],
                         "min_character_icv": 14
                     },
                     {
-                        "agility": {
-                            "min_agility": 52,
-                            "max_agility": 53
-                        },
+                        "agility_subtier_range": [52, 53],
                         "min_character_icv": 13
                     },
                     {
-                        "agility": {
-                            "min_agility": 54,
-                            "max_agility": 55
-                        },
+                        "agility_subtier_range": [54, 55],
                         "min_character_icv": 12
                     },
                     {
-                        "agility": {
-                            "min_agility": 56,
-                            "max_agility": 57
-                        },
+                        "agility_subtier_range": [56, 57],
                         "min_character_icv": 11
                     },
                     {
-                        "agility": {
-                            "min_agility": 58,
-                            "max_agility": 59
-                        },
+                        "agility_subtier_range": [58, 59],
                         "min_character_icv": 10
                     },
                     {
-                        "agility": {
-                            "min_agility": 60,
-                            "max_agility": 61
-                        },
+                        "agility_subtier_range": [60, 61],
                         "min_character_icv": 9
                     }
                 ],
@@ -628,78 +373,45 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 62,
-                "max_agility": 97
-            },
+            "agility_tier_range": [62, 97],
             "tick_speed": 5,
-            "monster_icvs": {
-                "min_icv": 15,
-                "max_icv": 16
-            },
+            "monster_icv_min_max": [15, 16],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 62,
-                            "max_agility": 65
-                        },
+                        "agility_subtier_range": [62, 65],
                         "min_character_icv": 14
                     },
                     {
-                        "agility": {
-                            "min_agility": 66,
-                            "max_agility": 69
-                        },
+                        "agility_subtier_range": [66, 69],
                         "min_character_icv": 13
                     },
                     {
-                        "agility": {
-                            "min_agility": 70,
-                            "max_agility": 73
-                        },
+                        "agility_subtier_range": [70, 73],
                         "min_character_icv": 12
                     },
                     {
-                        "agility": {
-                            "min_agility": 74,
-                            "max_agility": 77
-                        },
+                        "agility_subtier_range": [74, 77],
                         "min_character_icv": 11
                     },
                     {
-                        "agility": {
-                            "min_agility": 78,
-                            "max_agility": 81
-                        },
+                        "agility_subtier_range": [78, 81],
                         "min_character_icv": 10
                     },
                     {
-                        "agility": {
-                            "min_agility": 82,
-                            "max_agility": 85
-                        },
+                        "agility_subtier_range": [82, 85],
                         "min_character_icv": 9
                     },
                     {
-                        "agility": {
-                            "min_agility": 86,
-                            "max_agility": 89
-                        },
+                        "agility_subtier_range": [86, 89],
                         "min_character_icv": 8
                     },
                     {
-                        "agility": {
-                            "min_agility": 90,
-                            "max_agility": 93
-                        },
+                        "agility_subtier_range": [90, 93],
                         "min_character_icv": 7
                     },
                     {
-                        "agility": {
-                            "min_agility": 94,
-                            "max_agility": 97
-                        },
+                        "agility_subtier_range": [94, 97],
                         "min_character_icv": 6
                     }
                 ],
@@ -707,78 +419,45 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 98,
-                "max_agility": 169
-            },
+            "agility_tier_range": [98, 169],
             "tick_speed": 4,
-            "monster_icvs": {
-                "min_icv": 12,
-                "max_icv": 13
-            },
+            "monster_icv_min_max": [12, 13],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 98,
-                            "max_agility": 105
-                        },
+                        "agility_subtier_range": [98, 105],
                         "min_character_icv": 11
                     },
                     {
-                        "agility": {
-                            "min_agility": 106,
-                            "max_agility": 113
-                        },
+                        "agility_subtier_range": [106, 113],
                         "min_character_icv": 10
                     },
                     {
-                        "agility": {
-                            "min_agility": 114,
-                            "max_agility": 121
-                        },
+                        "agility_subtier_range": [114, 121],
                         "min_character_icv": 9
                     },
                     {
-                        "agility": {
-                            "min_agility": 122,
-                            "max_agility": 129
-                        },
+                        "agility_subtier_range": [122, 129],
                         "min_character_icv": 8
                     },
                     {
-                        "agility": {
-                            "min_agility": 130,
-                            "max_agility": 137
-                        },
+                        "agility_subtier_range": [130, 137],
                         "min_character_icv": 7
                     },
                     {
-                        "agility": {
-                            "min_agility": 138,
-                            "max_agility": 145
-                        },
+                        "agility_subtier_range": [138, 145],
                         "min_character_icv": 6
                     },
                     {
-                        "agility": {
-                            "min_agility": 146,
-                            "max_agility": 153
-                        },
+                        "agility_subtier_range": [146, 153],
                         "min_character_icv": 5
                     },
                     {
-                        "agility": {
-                            "min_agility": 154,
-                            "max_agility": 161
-                        },
+                        "agility_subtier_range": [154, 161],
                         "min_character_icv": 4
                     },
                     {
-                        "agility": {
-                            "min_agility": 162,
-                            "max_agility": 169
-                        },
+                        "agility_subtier_range": [162, 169],
                         "min_character_icv": 3
                     }
                 ],
@@ -786,57 +465,33 @@
             }
         },
         {
-            "agility_range": {
-                "min_agility": 170,
-                "max_agility": 255
-            },
+            "agility_tier_range": [170, 255],
             "tick_speed": 3,
-            "monster_icvs": {
-                "min_icv": 9,
-                "max_icv": 10
-            },
+            "monster_icv_min_max": [9, 10],
             "character_icvs": {
                 "min_character_icvs": [
                     {
-                        "agility": {
-                            "min_agility": 170,
-                            "max_agility": 185
-                        },
+                        "agility_subtier_range": [170, 185],
                         "min_character_icv": 8
                     },
                     {
-                        "agility": {
-                            "min_agility": 186,
-                            "max_agility": 201
-                        },
+                        "agility_subtier_range": [186, 201],
                         "min_character_icv": 7
                     },
                     {
-                        "agility": {
-                            "min_agility": 202,
-                            "max_agility": 217
-                        },
+                        "agility_subtier_range": [202, 217],
                         "min_character_icv": 6
                     },
                     {
-                        "agility": {
-                            "min_agility": 218,
-                            "max_agility": 233
-                        },
+                        "agility_subtier_range": [218, 233],
                         "min_character_icv": 5
                     },
                     {
-                        "agility": {
-                            "min_agility": 234,
-                            "max_agility": 249
-                        },
+                        "agility_subtier_range": [234, 249],
                         "min_character_icv": 4
                     },
                     {
-                        "agility": {
-                            "min_agility": 250,
-                            "max_agility": 255
-                        },
+                        "agility_subtier_range": [250, 255],
                         "min_character_icv": 3
                     }
                 ],
