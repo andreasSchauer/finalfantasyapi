@@ -10,6 +10,8 @@
             "is_optional": false,
             "celestial_weapon": "nirvana",
             "num_battles_to_regenerate": 8,
+            "phys_atk_dmg_constant": 14,
+            "phys_atk_acc_modifier": 2.5,
             "base_stats": {
                 "hp": 725,
                 "mp": 24,
@@ -33,6 +35,8 @@
             "is_optional": false,
             "celestial_weapon": "world champion",
             "num_battles_to_regenerate": 12,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 857,
                 "mp": 23,
@@ -56,6 +60,8 @@
             "is_optional": false,
             "celestial_weapon": "spirit lance",
             "num_battles_to_regenerate": 20,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 891,
                 "mp": 25,
@@ -79,6 +85,8 @@
             "is_optional": false,
             "celestial_weapon": "onion knight",
             "num_battles_to_regenerate": 20,
+            "phys_atk_dmg_constant": 14,
+            "phys_atk_acc_modifier": 2.5,
             "base_stats": {
                 "hp": 820,
                 "mp": 26,
@@ -100,8 +108,10 @@
                 "area_name": "chamber of the fayth"
             },
             "is_optional": false,
-            "celestial_weapon": "",
+            "celestial_weapon": null,
             "num_battles_to_regenerate": 24,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 1210,
                 "mp": 35,
@@ -123,8 +133,10 @@
                 "area_name": "chamber of the fayth"
             },
             "is_optional": true,
-            "celestial_weapon": "",
+            "celestial_weapon": null,
             "num_battles_to_regenerate": 24,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 1410,
                 "mp": 45,
@@ -148,6 +160,8 @@
             "is_optional": true,
             "celestial_weapon": "masamune",
             "num_battles_to_regenerate": 24,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 1030,
                 "mp": 0,
@@ -169,8 +183,10 @@
                 "area_name": "chamber of the fayth"
             },
             "is_optional": true,
-            "celestial_weapon": "",
+            "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 2190,
                 "mp": 46,
@@ -192,8 +208,10 @@
                 "area_name": "chamber of the fayth"
             },
             "is_optional": true,
-            "celestial_weapon": "",
+            "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 1790,
                 "mp": 35,
@@ -215,8 +233,10 @@
                 "area_name": "chamber of the fayth"
             },
             "is_optional": true,
-            "celestial_weapon": "",
+            "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
+            "phys_atk_dmg_constant": 16,
+            "phys_atk_acc_modifier": 1.0,
             "base_stats": {
                 "hp": 1237,
                 "mp": 58,

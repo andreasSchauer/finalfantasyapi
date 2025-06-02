@@ -7,6 +7,7 @@
             "armor_type": "shield",
             "clstl_wpn_formula": "hp-high",
             "physical_attack_range": "",
+            "can_fight_underwater": true,
             "base_stats": {
                 "hp": 520,
                 "mp": 12,
@@ -27,6 +28,7 @@
             "armor_type": "ring",
             "clstl_wpn_formula": "mp-high",
             "physical_attack_range": "",
+            "can_fight_underwater": false,
             "base_stats": {
                 "hp": 475,
                 "mp": 84,
@@ -47,6 +49,7 @@
             "armor_type": "armguard",
             "clstl_wpn_formula": "hp-high",
             "physical_attack_range": "",
+            "can_fight_underwater": true,
             "base_stats": {
                 "hp": 618,
                 "mp": 10,
@@ -67,6 +70,7 @@
             "armor_type": "bangle",
             "clstl_wpn_formula": "mp-high",
             "physical_attack_range": "",
+            "can_fight_underwater": false,
             "base_stats": {
                 "hp": 380,
                 "mp": 92,
@@ -87,6 +91,7 @@
             "armor_type": "armlet",
             "clstl_wpn_formula": "hp-high",
             "physical_attack_range": "",
+            "can_fight_underwater": false,
             "base_stats": {
                 "hp": 644,
                 "mp": 78,
@@ -107,6 +112,7 @@
             "armor_type": "bracer",
             "clstl_wpn_formula": "hp-low",
             "physical_attack_range": "",
+            "can_fight_underwater": false,
             "base_stats": {
                 "hp": 1030,
                 "mp": 33,
@@ -127,6 +133,7 @@
             "armor_type": "targe",
             "clstl_wpn_formula": "hp-high",
             "physical_attack_range": "",
+            "can_fight_underwater": true,
             "base_stats": {
                 "hp": 360,
                 "mp": 85,
@@ -147,6 +154,7 @@
             "armor_type": "seymour armor",
             "clstl_wpn_formula": null,
             "physical_attack_range": "",
+            "can_fight_underwater": false,
             "base_stats": {
                 "hp": 1200,
                 "mp": 999,
