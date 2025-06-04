@@ -1,10 +1,11 @@
 {
-    "sub_locations_data": [
+    "locations_data": [
         {
             "location": "dream zanarkand",
             "sub_locations": [
                 {
                     "sub_location": "dream zanarkand",
+                    "note": null,
                     "areas": [
                         {
                             "area": "dream zanarkand",
@@ -95,6 +96,7 @@
             "sub_locations": [
                 {
                     "sub_location": "baaj temple",
+                    "note": null,
                     "areas": [
                         {
                             "area": "submerged ruins",
@@ -188,7 +190,7 @@
                                 },
                                 {
                                     "location": "underwater ruins",
-                                    "sub_location": "underwater ruins",
+                                    "sub_location": "salvage ship",
                                     "area": "deck",
                                     "section": null,
                                     "warp_type": "story-warp"
@@ -297,7 +299,8 @@
             "location": "underwater ruins",
             "sub_locations": [
                 {
-                    "sub_location": "underwater ruins",
+                    "sub_location": "salvage ship",
+                    "note": null,
                     "areas": [
                         {
                             "area": "deck",
@@ -321,7 +324,13 @@
                                     "warp_type": "story-warp"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "sub_location": "underwater ruins",
+                    "note": null,
+                    "areas": [
                         {
                             "area": "surface",
                             "section": null,
@@ -331,7 +340,7 @@
                             "connected_areas": [
                                 {
                                     "location": "underwater ruins",
-                                    "sub_location": "underwater ruins",
+                                    "sub_location": "salvage ship",
                                     "area": "deck",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -393,6 +402,7 @@
             "sub_locations": [
                 {
                     "sub_location": "besaid",
+                    "note": "besaid island",
                     "areas": [
                         {
                             "area": "beach",
@@ -465,7 +475,7 @@
                         },
                         {
                             "area": "waterfall way",
-                            "section": null,
+                            "section": "main",
                             "can_revisit": true,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
@@ -488,7 +498,7 @@
                         },
                         {
                             "area": "ancient road",
-                            "section": null,
+                            "section": "main",
                             "can_revisit": true,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
@@ -548,165 +558,42 @@
                                 },
                                 {
                                     "location": "besaid",
-                                    "sub_location": "village",
-                                    "area": "village",
-                                    "section": null,
-                                    "warp_type": "both-directions"
-                                }
-                            ]
-                        },
-                        {
-                            "area": "besaid falls",
-                            "section": null,
-                            "can_revisit": true,
-                            "has_save_sphere": true,
-                            "airship_drop_off": true,
-                            "connected_areas": []
-                        },
-                        {
-                            "area": "besaid ruins",
-                            "section": "a",
-                            "can_revisit": true,
-                            "has_save_sphere": true,
-                            "airship_drop_off": true,
-                            "connected_areas": []
-                        },
-                        {
-                            "area": "besaid ruins",
-                            "section": "b",
-                            "can_revisit": true,
-                            "has_save_sphere": true,
-                            "airship_drop_off": true,
-                            "connected_areas": []
-                        },
-                        {
-                            "area": "great hall",
-                            "section": null,
-                            "can_revisit": true,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
-                            "connected_areas": [
-                                {
-                                    "location": "besaid",
                                     "sub_location": "besaid village",
                                     "area": "besaid village",
                                     "section": null,
                                     "warp_type": "both-directions"
-                                },
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "monk's chamber",
-                                    "section": null,
-                                    "warp_type": "both-directions"
-                                },
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "nun's chamber",
-                                    "section": null,
-                                    "warp_type": "both-directions"
-                                },
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "trials",
-                                    "section": null,
-                                    "warp_type": "one-direction"
                                 }
                             ]
                         },
                         {
-                            "area": "monk's chamber",
-                            "section": null,
+                            "area": "waterfall way",
+                            "section": "besaid falls",
                             "can_revisit": true,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
-                            "connected_areas": [
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "great hall",
-                                    "section": null,
-                                    "warp_type": "both-directions"
-                                }
-                            ]
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": []
                         },
                         {
-                            "area": "nun's chamber",
-                            "section": null,
+                            "area": "ancient road",
+                            "section": "besaid ruins 1",
                             "can_revisit": true,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
-                            "connected_areas": [
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "great hall",
-                                    "section": null,
-                                    "warp_type": "both-directions"
-                                }
-                            ]
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": []
                         },
                         {
-                            "area": "trials",
-                            "section": null,
+                            "area": "ancient road",
+                            "section": "besaid ruins 2",
                             "can_revisit": true,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
-                            "connected_areas": [
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "antechamber",
-                                    "section": null,
-                                    "warp_type": "one-direction"
-                                }
-                            ]
-                        },
-                        {
-                            "area": "antechamber",
-                            "section": null,
-                            "can_revisit": true,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
-                            "connected_areas": [
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "chamber of the fayth",
-                                    "section": null,
-                                    "warp_type": "both-directions"
-                                },
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "great hall",
-                                    "section": null,
-                                    "warp_type": "story-warp"
-                                }
-                            ]
-                        },
-                        {
-                            "area": "chamber of the fayth",
-                            "section": null,
-                            "can_revisit": true,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
-                            "connected_areas": [
-                                {
-                                    "location": "besaid",
-                                    "sub_location": "besaid",
-                                    "area": "antechamber",
-                                    "section": null,
-                                    "warp_type": "both-directions"
-                                }
-                            ]
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": []
                         }
                     ]
                 },
                 {
                     "sub_location": "besaid village",
+                    "note": null,
                     "areas": [
                         {
                             "area": "besaid village",
@@ -847,6 +734,136 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "sub_location": "besaid",
+                    "note": "besaid temple",
+                    "areas": [
+                        {
+                            "area": "great hall",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid village",
+                                    "area": "besaid village",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "monk's chamber",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "nun's chamber",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "trials",
+                                    "section": null,
+                                    "warp_type": "one-direction"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "monk's chamber",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "great hall",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "nun's chamber",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "great hall",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "trials",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "antechamber",
+                                    "section": null,
+                                    "warp_type": "one-direction"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "antechamber",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "chamber of the fayth",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "great hall",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "chamber of the fayth",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "besaid",
+                                    "sub_location": "besaid",
+                                    "area": "antechamber",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -855,6 +872,7 @@
             "sub_locations": [
                 {
                     "sub_location": "ss liki",
+                    "note": null,
                     "areas": [
                         {
                             "area": "deck",
@@ -1012,6 +1030,7 @@
             "sub_locations": [
                 {
                     "sub_location": "kilika port",
+                    "note": null,
                     "areas": [
                         {
                             "area": "dock",
@@ -1132,6 +1151,7 @@
                 },
                 {
                     "sub_location": "kilika woods",
+                    "note": null,
                     "areas": [
                         {
                             "area": "kilika woods",
@@ -1160,6 +1180,7 @@
                 },
                 {
                     "sub_location": "kilika",
+                    "note": "kilika temple",
                     "areas": [
                         {
                             "area": "pilgrimage road",
@@ -1363,6 +1384,7 @@
             "sub_locations": [
                 {
                     "sub_location": "ss winno",
+                    "note": null,
                     "areas": [
                         {
                             "area": "deck",
@@ -1503,7 +1525,8 @@
             "location": "luca",
             "sub_locations": [
                 {
-                    "sub_location": "luca stadium",
+                    "sub_location": "stadium",
+                    "note": null,
                     "areas": [
                         {
                             "area": "main gate",
@@ -1514,21 +1537,21 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "stands",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "basement a",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "basement b",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -1565,7 +1588,7 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "main gate",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -1581,14 +1604,14 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "main gate",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "locker room",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -1604,14 +1627,14 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "basement a",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "blitzball field",
                                     "section": null,
                                     "warp_type": "story-warp"
@@ -1627,7 +1650,7 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "main gate",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -1643,7 +1666,7 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "number 4 dock",
                                     "section": null,
                                     "warp_type": "story-warp"
@@ -1662,6 +1685,7 @@
                 },
                 {
                     "sub_location": "luca",
+                    "note": null,
                     "areas": [
                         {
                             "area": "number 1 dock",
@@ -1672,7 +1696,7 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "main gate",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -1755,7 +1779,7 @@
                                 },
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "basement a",
                                     "section": null,
                                     "warp_type": "story-warp"
@@ -1778,7 +1802,7 @@
                                 },
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "main gate",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -1794,7 +1818,7 @@
                             "connected_areas": [
                                 {
                                     "location": "luca",
-                                    "sub_location": "luca stadium",
+                                    "sub_location": "stadium",
                                     "area": "main gate",
                                     "section": null,
                                     "warp_type": "both-directions"
@@ -1955,6 +1979,7 @@
             "sub_locations": [
                 {
                     "sub_location": "highroad",
+                    "note": null,
                     "areas": [
                         {
                             "area": "south end",
@@ -2194,8 +2219,8 @@
                             ]
                         },
                         {
-                            "area": "mi'ihen ruins",
-                            "section": null,
+                            "area": "agency front",
+                            "section": "mi'ihen ruins",
                             "can_revisit": true,
                             "has_save_sphere": true,
                             "airship_drop_off": true,
@@ -2210,6 +2235,7 @@
             "sub_locations": [
                 {
                     "sub_location": "mushroom rock",
+                    "note": null,
                     "areas": [
                         {
                             "area": "mushroom rock",
@@ -2335,7 +2361,7 @@
                         },
                         {
                             "area": "beach",
-                            "section": null,
+                            "section": "main",
                             "can_revisit": false,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
@@ -2373,8 +2399,8 @@
                             ]
                         },
                         {
-                            "area": "battle site",
-                            "section": null,
+                            "area": "beach",
+                            "section": "battle site",
                             "can_revisit": true,
                             "has_save_sphere": true,
                             "airship_drop_off": true,
@@ -2382,7 +2408,7 @@
                         },
                         {
                             "area": "valley",
-                            "section": "secret",
+                            "section": "mushroom rock",
                             "can_revisit": true,
                             "has_save_sphere": true,
                             "airship_drop_off": true,
@@ -2397,13 +2423,14 @@
             "sub_locations": [
                 {
                     "sub_location": "djose highroad",
+                    "note": null,
                     "areas": [
                         {
                             "area": "djose highroad",
                             "section": null,
                             "can_revisit": true,
                             "has_save_sphere": true,
-                            "airship_drop_off": true,
+                            "airship_drop_off": false,
                             "connected_areas": [
                                 {
                                     "location": "mushroom rock road",
@@ -2432,6 +2459,7 @@
                 },
                 {
                     "sub_location": "djose",
+                    "note": "djose temple",
                     "areas": [
                         {
                             "area": "pilgrimage road",
@@ -2635,6 +2663,7 @@
             "sub_locations": [
                 {
                     "sub_location": "moonflow",
+                    "note": null,
                     "areas": [
                         {
                             "area": "south bank road",
@@ -2898,6 +2927,7 @@
             "sub_locations": [
                 {
                     "sub_location": "guadosalam",
+                    "note": null,
                     "areas": [
                         {
                             "area": "guadosalam",
@@ -3131,6 +3161,7 @@
             "sub_locations": [
                 {
                     "sub_location": "thunder plains",
+                    "note": null,
                     "areas": [
                         {
                             "area": "south",
@@ -3157,7 +3188,7 @@
                         },
                         {
                             "area": "agency front",
-                            "section": null,
+                            "section": "main",
                             "can_revisit": true,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
@@ -3229,10 +3260,11 @@
             ]
         },
         {
-            "location": "macalania woods",
+            "location": "macalania",
             "sub_locations": [
                 {
                     "sub_location": "macalania woods",
+                    "note": null,
                     "areas": [
                         {
                             "area": "south",
@@ -3249,21 +3281,21 @@
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "south",
                                     "section": "crystal path",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "central",
                                     "section": "main",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "to bevelle",
                                     "section": null,
@@ -3279,14 +3311,14 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "south",
                                     "section": "main",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "north",
                                     "section": "main",
@@ -3302,14 +3334,14 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "central",
                                     "section": "main",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "lake road",
                                     "section": null,
@@ -3325,14 +3357,14 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "south",
                                     "section": "main",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "central",
                                     "section": "crystal path",
@@ -3348,14 +3380,14 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "south",
                                     "section": "crystal path",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "north",
                                     "section": "crystal path",
@@ -3371,14 +3403,14 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "central",
                                     "section": "crystal path",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "lake road",
                                     "section": null,
@@ -3394,28 +3426,28 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "north",
                                     "section": "main",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "north",
                                     "section": "crystal path",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "spring",
                                     "section": "spherimorph",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "agency front",
                                     "section": null,
@@ -3431,7 +3463,7 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "lake road",
                                     "section": null,
@@ -3447,14 +3479,14 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "south",
                                     "section": "main",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "to thunder plains",
                                     "section": null,
@@ -3477,28 +3509,28 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "to thunder plains",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "campsite",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "spring",
                                     "section": "campsite",
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "north",
                                     "section": "campsite",
@@ -3514,7 +3546,7 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "to thunder plains",
                                     "section": null,
@@ -3530,7 +3562,7 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "to thunder plains",
                                     "section": null,
@@ -3546,7 +3578,7 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "to thunder plains",
                                     "section": null,
@@ -3562,14 +3594,10 @@
                             ]
                         }
                     ]   
-                }
-            ]
-        },
-        {
-            "location": "lake macalania",
-            "sub_locations": [
+                },
                 {
                     "sub_location": "lake macalania",
+                    "note": null,
                     "areas": [
                         {
                             "area": "agency front",
@@ -3579,21 +3607,21 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "macalania woods",
+                                    "location": "macalania",
                                     "sub_location": "macalania woods",
                                     "area": "lake road",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "agency",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "lake macalania",
                                     "section": null,
@@ -3609,7 +3637,7 @@
                             "airship_drop_off": true,
                             "connected_areas": [
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "agency front",
                                     "section": null,
@@ -3625,21 +3653,21 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "agency front",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "crevasse",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 },
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "lake bottom",
                                     "section": null,
@@ -3655,7 +3683,7 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "lake macalania",
                                     "section": null,
@@ -3678,23 +3706,19 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "oasis",
+                                    "location": "bikanel",
                                     "sub_location": "oasis",
                                     "area": "oasis",
                                     "section": null,
-                                    "warp_type": "both-directions"
+                                    "warp_type": "story-warp"
                                 }
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "location": "macalania",
-            "sub_locations": [
+                },
                 {
                     "sub_location": "macalania",
+                    "note": "macalania temple",
                     "areas": [
                         {
                             "area": "road",
@@ -3704,7 +3728,7 @@
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "lake macalania",
+                                    "location": "macalania",
                                     "sub_location": "lake macalania",
                                     "area": "crevasse",
                                     "section": null,
@@ -3858,57 +3882,254 @@
             "location": "bikanel",
             "sub_locations": [
                 {
-                    "sub_location": "bikanel island",
+                    "sub_location": "oasis",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "oasis",
                             "section": null,
-                            "can_revisit": false,
-                            "has_save_sphere": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "sanubia desert",
+                                    "area": "east",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sub_location": "sanubia desert",
+                    "note": null,
+                    "areas": [
+                        {
+                            "area": "east",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "bikanel",
+                                    "sub_location": "oasis",
+                                    "area": "oasis",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "sanubia desert",
+                                    "area": "central",
+                                    "section": "main",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "central",
+                            "section": "main",
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "sanubia desert",
+                                    "area": "east",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "sanubia desert",
+                                    "area": "west",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "oasis",
-                        "sanubia desert - east",
-                        "sanubia desert - central",
-                        "sanubia desert - west",
-                        "sanubia sands"
+                        {
+                            "area": "west",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "sanubia desert",
+                                    "area": "central",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "home",
+                                    "section": null,
+                                    "warp_type": "one-direction"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "central",
+                            "section": "sanubia sands",
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": []
+                        }
                     ]
                 },
                 {
                     "sub_location": "home",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "home",
+                            "section": null,
+                            "can_revisit": false,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "entrance",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "entrance",
                             "section": null,
                             "can_revisit": false,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "main corridor",
+                                    "section": null,
+                                    "warp_type": "one-direction"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "main corridor",
+                            "section": null,
+                            "can_revisit": false,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "living quarters",
+                                    "section": "southern",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "living quarters",
+                                    "section": "northern",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "environment controls",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "home",
-                        "entrance",
-                        "main corridor",
-                        "living quarters 1",
-                        "living quarters 2",
-                        "environment controls",
-                        "airship dock"
+                        {
+                            "area": "living quarters",
+                            "section": "southern",
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "main corridor",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "living quarters",
+                            "section": "northern",
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "main corridor",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "environment controls",
+                            "section": null,
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "main corridor",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "airship dock",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "airship dock",
+                            "section": null,
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bikanel",
+                                    "sub_location": "home",
+                                    "area": "environment controls",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "bridge",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
@@ -3918,29 +4139,261 @@
             "sub_locations": [
                 {
                     "sub_location": "airship",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "bridge",
                             "section": null,
-                            "can_revisit": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "bridge entrance",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "corridor",
+                            "section": "bridge entrance",
+                            "can_revisit": true,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "bridge",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "to northern compartment",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "bridge entrance to cabin",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "corridor",
+                            "section": "to northern compartment",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "bridge entrance",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "northern compartment",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "corridor",
+                            "section": "northern compartment",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "to northern compartment",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "corridor",
+                            "section": "bridge entrance to cabin",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "bridge entrance",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "to cabin",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "corridor",
+                            "section": "to cabin",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "bridge entrance to cabin",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "to southern compartment",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "cabin",
+                                    "section": "lower level",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "corridor",
+                            "section": "to southern compartment",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "to cabin",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "southern compartment",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "corridor",
+                            "section": "southern compartment",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "to southern compartment",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "cabin",
+                            "section": "lower level",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "corridor",
+                                    "section": "to cabin",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "cabin",
+                                    "section": "upper level",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "cabin",
+                            "section": "upper level",
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "cabin",
+                                    "section": "lower level",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "deck",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "bridge",
-                        "corridor",
-                        "compartment 1",
-                        "compartment 2",
-                        "cabin",
-                        "deck"
+                        {
+                            "area": "deck",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "cabin",
+                                    "section": "upper level",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "tower of light",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                },
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "near airship",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
@@ -3949,56 +4402,187 @@
             "location": "bevelle",
             "sub_locations": [
                 {
-                    "sub_location": "bevelle temple",
+                    "sub_location": "bevelle",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "tower of light",
                             "section": null,
                             "can_revisit": false,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "passage of cleansing",
                                     "section": null,
+                                    "warp_type": "one-direction"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "passage of cleansing",
+                            "section": null,
+                            "can_revisit": false,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "priests' passage",
+                                    "section": "stairs",
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "tower of light",
-                        "passage of cleansing",
-                        "priests passage 1",
-                        "priests passage 2",
-                        "priests passage 3",
-                        "trials",
-                        "antechamber",
-                        "chamber of the fayth"
+                        {
+                            "area": "priests' passage",
+                            "section": "stairs",
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "passage of cleansing",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "priests' passage",
+                                    "section": "entrance",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "priests' passage",
+                            "section": "entrance",
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "priests' passage",
+                                    "section": "stairs",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "priests' passage",
+                                    "section": "trials entrance",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "priests' passage",
+                            "section": "trials entrance",
+                            "can_revisit": false,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "priests' passage",
+                                    "section": "entrance",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "trials",
+                                    "section": null,
+                                    "warp_type": "one-direction"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "trials",
+                            "section": null,
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "via purifico",
+                                    "section": "yuna",
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "via purifico",
+                            "section": "yuna",
+                            "can_revisit": false,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "bevelle",
+                                    "area": "via purifico",
+                                    "section": "tidus",
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "via purifico",
+                            "section": "tidus",
+                            "can_revisit": false,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "bevelle",
+                                    "sub_location": "highbridge",
+                                    "area": "highbridge",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        }
                     ]
                 },
                 {
-                    "sub_location": "bevelle",
+                    "sub_location": "highbridge",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "highbridge",
                             "section": null,
-                            "can_revisit": false,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "macalania",
+                                    "sub_location": "macalania woods",
+                                    "area": "campsite",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                },
+                                {
+                                    "location": "macalania",
+                                    "sub_location": "macalania woods",
+                                    "area": "to bevelle",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
-                        },
-                        "via purifico yuna",
-                        "via purifico tidus",
-                        "highbridge"
+                        }
                     ]
                 }
             ]
@@ -4008,29 +4592,160 @@
             "sub_locations": [
                 {
                     "sub_location": "calm lands",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "south",
                             "section": null,
-                            "can_revisit": false,
+                            "can_revisit": true,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "macalania",
+                                    "sub_location": "macalania woods",
+                                    "area": "north",
+                                    "section": "campsite",
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "central",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "remiem temple",
+                                    "sub_location": "remiem temple",
+                                    "area": "remiem temple",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "south",
-                        "central",
-                        "north",
-                        "near bridge",
-                        "gorge bottom",
-                        "arena"
+                        {
+                            "area": "central",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": [
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "south",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "north",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "arena",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "north",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "central",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "near bridge",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "arena",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "central",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "near bridge",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "north",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "gorge bottom",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "mountain gate",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "gorge bottom",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "near bridge",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "cavern of the stolen fayth",
+                                    "sub_location": "cavern of the stolen fayth",
+                                    "area": "cavern of the stolen fayth",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
@@ -4040,26 +4755,70 @@
             "sub_locations": [
                 {
                     "sub_location": "remiem temple",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "remiem temple",
                             "section": null,
-                            "can_revisit": false,
-                            "has_save_sphere": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "south",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "remiem temple",
+                                    "sub_location": "remiem temple",
+                                    "area": "great hall",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "remiem temple",
-                        "great hall",
-                        "chamber of the fayth"
+                        {
+                            "area": "great hall",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "remiem temple",
+                                    "sub_location": "remiem temple",
+                                    "area": "remiem temple",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "remiem temple",
+                                    "sub_location": "remiem temple",
+                                    "area": "fayth",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "fayth",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "remiem temple",
+                                    "sub_location": "remiem temple",
+                                    "area": "great hall",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
@@ -4069,110 +4828,473 @@
             "sub_locations": [
                 {
                     "sub_location": "cavern of the stolen fayth",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "cavern of the stolen fayth",
                             "section": null,
-                            "can_revisit": false,
-                            "has_save_sphere": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "gorge bottom",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "cavern of the stolen fayth",
+                                    "sub_location": "cavern of the stolen fayth",
+                                    "area": "chamber of the fayth",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "cavern of the stolen fayth",
-                        "chamber of the fayth"
+                        {
+                            "area": "chamber of the fayth",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "cavern of the stolen fayth",
+                                    "sub_location": "cavern of the stolen fayth",
+                                    "area": "cavern of the stolen fayth",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
         },
         {
-            "location": "mount gagazet and zanarkand ruins",
+            "location": "mount gagazet",
             "sub_locations": [
                 {
-                    "sub_location": "mount gagazet",
+                    "sub_location": "gagazet",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "mountain gate",
                             "section": null,
-                            "can_revisit": false,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "calm lands",
+                                    "sub_location": "calm lands",
+                                    "area": "near bridge",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "mountain trail",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "mountain gate",
-                        "mountain trail",
-                        "prominence",
-                        "fayth cluster",
-                        "mountain cave",
-                        "submerged passage",
-                        "summit region",
-                        "road to zanarkand ruins"
+                        {
+                            "area": "mountain trail",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "mountain gate",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "prominence",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "prominence",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "mountain trail",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "fayth cluster",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "fayth cluster",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "prominence",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "mountain cave",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "mountain cave",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "fayth cluster",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "submerged passage",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "summit region",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "submerged passage",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "mountain cave",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "summit region",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "mountain cave",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "road to zanarkand ruins",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "road to zanarkand ruins",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "summit region",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "zanarkand ruins",
+                                    "area": "zanarkand ruins",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "location": "zanarkand ruins",
+            "sub_locations": [
                 {
                     "sub_location": "zanarkand ruins",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "zanarkand ruins",
                             "section": null,
-                            "can_revisit": false,
-                            "has_save_sphere": false,
-                            "airship_drop_off": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "mount gagazet",
+                                    "sub_location": "gagazet",
+                                    "area": "road to zanarkand ruins",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "zanarkand ruins",
+                                    "area": "overpass",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "zanarkand ruins",
-                        "overpass",
-                        "dome"
+                        {
+                            "area": "overpass",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "zanarkand ruins",
+                                    "area": "zanarkand ruins",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "dome",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
                     ]
                 },
                 {
-                    "sub_location": "zanarkand dome",
+                    "sub_location": "dome",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "dome",
                             "section": null,
-                            "can_revisit": false,
-                            "has_save_sphere": false,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "zanarkand ruins",
+                                    "area": "overpass",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "interior",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "airship",
+                                    "sub_location": "airship",
+                                    "area": "bridge",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "interior",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "dome",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "corridor",
                                     "section": null,
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "interior",
-                        "corridor",
-                        "trials",
-                        "chamber of the fayth",
-                        "great hall",
-                        "the beyond"
+                        {
+                            "area": "corridor",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "interior",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "trials",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "trials",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "corridor",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "chamber of the fayth",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "dome",
+                                    "section": null,
+                                    "warp_type": "story-warp"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "chamber of the fayth",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "trials",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "great hall",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "great hall",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "chamber of the fayth",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "the beyond",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "the beyond",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "zanarkand ruins",
+                                    "sub_location": "dome",
+                                    "area": "great hall",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
@@ -4181,31 +5303,141 @@
             "location": "inside sin",
             "sub_locations": [
                 {
-                    "sub_location": "inside sin",
+                    "sub_location": "sin",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
+                            "area": "near airship",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": true,
+                            "connected_areas": [
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "sea of sorrow",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "sea of sorrow",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "near airship",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "garden of pain",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "garden of pain",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "sea of sorrow",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "city of dying dreams",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "city of dying dreams",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "garden of pain",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "tower of the dead",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "tower of the dead",
+                            "section": null,
+                            "can_revisit": true,
+                            "has_save_sphere": true,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "city of dying dreams",
+                                    "section": null,
+                                    "warp_type": "both-directions"
+                                },
+                                {
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "the nucleus",
+                                    "section": null,
+                                    "warp_type": "one-direction"
+                                }
+                            ]
+                        },
+                        {
+                            "area": "the nucleus",
                             "section": null,
                             "can_revisit": false,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
+                                    "location": "inside sin",
+                                    "sub_location": "sin",
+                                    "area": "dream's end",
                                     "section": null,
-                                    "warp_type": "both-directions"
+                                    "warp_type": "story-warp"
                                 }
                             ]
                         },
-                        "near airship",
-                        "sea of sorrow",
-                        "garden of pain",
-                        "city of dying dreams",
-                        "tower of the dead",
-                        "the nucleus",
-                        "dream's end"
+                        {
+                            "area": "dream's end",
+                            "section": null,
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": []
+                        }
                     ]
                 }
             ]
@@ -4215,25 +5447,40 @@
             "sub_locations": [
                 {
                     "sub_location": "omega ruins",
+                    "note": null,
                     "areas": [
                         {
-                            "area": "",
-                            "section": null,
+                            "area": "omega ruins",
+                            "section": "bottom",
                             "can_revisit": false,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
                             "connected_areas": [
                                 {
-                                    "location": "",
-                                    "sub_location": "",
-                                    "area": "",
-                                    "section": null,
+                                    "location": "omega ruins",
+                                    "sub_location": "omega ruins",
+                                    "area": "omega ruins",
+                                    "section": "top",
                                     "warp_type": "both-directions"
                                 }
                             ]
                         },
-                        "bottom",
-                        "top"
+                        {
+                            "area": "omega ruins",
+                            "section": "top",
+                            "can_revisit": false,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "connected_areas": [
+                                {
+                                    "location": "omega ruins",
+                                    "sub_location": "omega ruins",
+                                    "area": "omega ruins",
+                                    "section": "bottom",
+                                    "warp_type": "both-directions"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]

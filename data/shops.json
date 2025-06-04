@@ -3,8 +3,10 @@
         {
             "name": "besaid village shop",
             "location_area": {
-                "location": "besaid village",
-                "area": "shop"
+                "location": "besaid",
+                "sub_location" : "besaid village",
+                "area": "shop",
+                "section": null
             },
             "note": "Equipment becomes available after the tutorials are completed. Items are always available.",
             "is_oaka": false,
@@ -212,8 +214,10 @@
         {
             "name": "kilika port shop",
             "location_area": {
-                "location": "kilika port",
-                "area": "dock"
+                "location": "kilika",
+                "sub_location" : "kilika port",
+                "area": "dock",
+                "section": null
             },
             "note": "Available after the party wakes up.",
             "is_oaka": false,
@@ -376,9 +380,11 @@
             "name": "ss winno o'aka",
             "location_area": {
                 "location": "ss winno",
-                "area": "corridor"
+                "sub_location" : "ss winno",
+                "area": "corridor",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -405,10 +411,12 @@
         {
             "name": "luca o'aka",
             "location_area": {
-                "location": "luca stadium",
-                "area": "number 1 dock"
+                "location": "luca",
+                "sub_location" : "luca",
+                "area": "number 1 dock",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -480,8 +488,10 @@
         {
             "name": "luca stadium shop",
             "location_area": {
-                "location": "luca stadium",
-                "area": "main gate"
+                "location": "luca",
+                "sub_location" : "stadium",
+                "area": "main gate",
+                "section": null
             },
             "note": "Becomes available after Auron joins the party.",
             "is_oaka": false,
@@ -722,7 +732,9 @@
             "name": "luca shop",
             "location_area": {
                 "location": "luca",
-                "area": "square"
+                "sub_location" : "luca",
+                "area": "luca square",
+                "section": null
             },
             "note": "Becomes available after Auron joins the party.",
             "is_oaka": false,
@@ -943,9 +955,11 @@
             "name": "mi'ihen highroad travel agency",
             "location_area": {
                 "location": "mi'ihen highroad",
-                "area": "agency"
+                "sub_location" : "highroad",
+                "area": "agency",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -1200,9 +1214,11 @@
             "name": "mi'ihen highroad o'aka",
             "location_area": {
                 "location": "mi'ihen highroad",
-                "area": "oldroad south"
+                "sub_location" : "highroad",
+                "area": "oldroad south",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -1238,7 +1254,9 @@
             "name": "mushroom rock road o'aka 1",
             "location_area": {
                 "location": "mushroom rock road",
-                "area": "mushroom rock"
+                "sub_location" : "mushroom rock",
+                "area": "mushroom rock",
+                "section": null
             },
             "note": "Prices will vary depending on how much money you gave O'aka. < 100 Gil: 200%; > 100 Gil: 150%; > 1000 Gil: 120%; > 10000 Gil: 70%. Listed are the standard 100% prices.",
             "is_oaka": true,
@@ -1319,7 +1337,9 @@
             "name": "mushroom rock road o'aka 2",
             "location_area": {
                 "location": "mushroom rock road",
-                "area": "ridge"
+                "sub_location" : "mushroom rock",
+                "area": "ridge",
+                "section": null
             },
             "note": "Prices will vary depending on how much money you gave O'aka. < 100 Gil: 200%; > 100 Gil: 150%; > 1000 Gil: 120%; > 10000 Gil: 70%. Listed are the standard 100% prices.",
             "is_oaka": true,
@@ -1416,7 +1436,9 @@
             "name": "mushroom rock road o'aka 3",
             "location_area": {
                 "location": "mushroom rock road",
-                "area": "aftermath"
+                "sub_location" : "mushroom rock",
+                "area": "aftermath",
+                "section": null
             },
             "note": "Prices will vary depending on how much money you gave O'aka. < 100 Gil: 200%; > 100 Gil: 150%; > 1000 Gil: 120%; > 10000 Gil: 70%. Listed are the standard 100% prices.",
             "is_oaka": true,
@@ -1457,10 +1479,12 @@
         {
             "name": "djose temple shop",
             "location_area": {
-                "location": "djose temple",
-                "area": "inn"
+                "location": "djose",
+                "sub_location" : "djose",
+                "area": "inn",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -1703,9 +1727,11 @@
             "name": "moonflow o'aka 1",
             "location_area": {
                 "location": "moonflow",
-                "area": "southwharf 1"
+                "sub_location" : "moonflow",
+                "area": "southwharf",
+                "section": "entrance"
             },
-            "note": "",
+            "note": null,
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -1782,7 +1808,9 @@
             "name": "moonflow shop 1",
             "location_area": {
                 "location": "moonflow",
-                "area": "southwharf 2"
+                "sub_location" : "moonflow",
+                "area": "southwharf",
+                "section": "shoopuf"
             },
             "note": "The woman by the stairs.",
             "is_oaka": false,
@@ -1923,7 +1951,9 @@
             "name": "moonflow shop 2",
             "location_area": {
                 "location": "moonflow",
-                "area": "southwharf 2"
+                "sub_location" : "moonflow",
+                "area": "southwharf",
+                "section": "shoopuf"
             },
             "note": "The man next to the shoopuf.",
             "is_oaka": false,
@@ -2064,7 +2094,9 @@
             "name": "moonflow shop 3",
             "location_area": {
                 "location": "moonflow",
-                "area": "southwharf 3"
+                "sub_location" : "moonflow",
+                "area": "southwharf",
+                "section": "tent"
             },
             "note": "The man inside the tent.",
             "is_oaka": false,
@@ -2193,7 +2225,9 @@
             "name": "moonflow shop 4",
             "location_area": {
                 "location": "moonflow",
-                "area": "southwharf 3"
+                "sub_location" : "moonflow",
+                "area": "southwharf",
+                "section": "tent"
             },
             "note": "The woman in front of the tent. Appears after the cutscene and re-entering the screen.",
             "is_oaka": false,
@@ -2322,9 +2356,11 @@
             "name": "moonflow o'aka 2",
             "location_area": {
                 "location": "moonflow",
-                "area": "north wharf 2"
+                "sub_location" : "moonflow",
+                "area": "north wharf",
+                "section": "shoopuf"
             },
-            "note": "",
+            "note": null,
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -2364,9 +2400,11 @@
             "name": "guadosalam o'aka",
             "location_area": {
                 "location": "guadosalam",
-                "area": "shop"
+                "sub_location" : "guadosalam",
+                "area": "shop",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -2485,9 +2523,11 @@
             "name": "guadosalam shop",
             "location_area": {
                 "location": "guadosalam",
-                "area": "shop"
+                "sub_location" : "guadosalam",
+                "area": "shop",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -2742,9 +2782,11 @@
             "name": "thunder plains travel agency",
             "location_area": {
                 "location": "thunder plains",
-                "area": "agency"
+                "sub_location" : "thunder plains",
+                "area": "agency",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -3014,8 +3056,10 @@
         {
             "name": "macalania woods o'aka",
             "location_area": {
-                "location": "macalania woods",
-                "area": "lake road"
+                "location": "macalania",
+                "sub_location" : "macalania woods",
+                "area": "lake road",
+                "section": null
             },
             "note": "Talk to O'aka a second time and he will ask you if his prices are too expensive. 'Too pricey.' decreases his prices by 25%, 'Just right.' leaves the prices unchanged, and 'Too cheap.' increases his prices by 25%. Listed are the default prices.",
             "is_oaka": true,
@@ -3103,8 +3147,10 @@
         {
             "name": "lake macalania o'aka",
             "location_area": {
-                "location": "lake macalania",
-                "area": "agency front"
+                "location": "macalania",
+                "sub_location" : "lake macalania",
+                "area": "agency front",
+                "section": null
             },
             "note": "These prices are affected by the answer you gave O'aka in Macalania Woods, regarding his prices: 'Too pricey.': -25%; 'Just right.': unchanged; 'Too cheap.': +25%. If you didn't speak to him a second time earlier, these prices will be at their most expensive by default. Listed are the unchanged prices.",
             "is_oaka": true,
@@ -3198,10 +3244,12 @@
         {
             "name": "lake macalania travel agency",
             "location_area": {
-                "location": "lake macalania",
-                "area": "agency"
+                "location": "macalania",
+                "sub_location" : "lake macalania",
+                "area": "agency",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -3481,8 +3529,10 @@
         {
             "name": "macalania temple o'aka 1",
             "location_area": {
-                "location": "macalania temple",
-                "area": "hall"
+                "location": "macalania",
+                "sub_location" : "macalania",
+                "area": "hall",
+                "section": null
             },
             "note": "These prices are affected by the answer you gave O'aka in Macalania Woods, regarding his prices: 'Too pricey.': -25%; 'Just right.': unchanged; 'Too cheap.': +25%. If you didn't speak to him a second time earlier, these prices will be at their most expensive by default. Listed are the unchanged prices.",
             "is_oaka": true,
@@ -3576,8 +3626,10 @@
         {
             "name": "macalania temple o'aka 2",
             "location_area": {
-                "location": "macalania temple",
-                "area": "road"
+                "location": "macalania",
+                "sub_location" : "macalania",
+                "area": "road",
+                "section": null
             },
             "note": "These prices are affected by the answer you gave O'aka in Macalania Woods, regarding his prices: 'Too pricey.': -25%; 'Just right.': unchanged; 'Too cheap.': +25%. If you didn't speak to him a second time earlier, these prices will be at their most expensive by default. Listed are the unchanged prices.",
             "is_oaka": true,
@@ -3623,9 +3675,11 @@
             "name": "airship travel agency",
             "location_area": {
                 "location": "airship",
-                "area": "corridor"
+                "sub_location" : "airship",
+                "area": "corridor",
+                "section": "bridge entrance to cabin"
             },
-            "note": "Before you fight Evrae, Rin will move to the lift with the exact same list.",
+            "note": "Before you fight Evrae, Rin will move to the lift (cabin) with the exact same list.",
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -3924,7 +3978,9 @@
             "name": "bevelle shop",
             "location_area": {
                 "location": "bevelle",
-                "area": "via purifico tidus"
+                "sub_location" : "bevelle",
+                "area": "via purifico",
+                "section": "tidus"
             },
             "note": "This shop opens when you open the first treasure chest.",
             "is_oaka": false,
@@ -3986,9 +4042,11 @@
             "name": "bevelle o'aka",
             "location_area": {
                 "location": "bevelle",
-                "area": "highbridge"
+                "sub_location" : "highbridge",
+                "area": "highbridge",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": true,
             "pre_airship": {
                 "items": [
@@ -4048,7 +4106,9 @@
             "name": "calm lands travel agency 1",
             "location_area": {
                 "location": "calm lands",
-                "area": "south"
+                "sub_location" : "calm lands",
+                "area": "south",
+                "section": null
             },
             "note": "This is a one-time-only shop. Once you leave the Calm Lands, or enter the Arena, this shop will disappear. The Buckler with Magic Counter is a one of a kind armor, as it holds a weapon ability.",
             "is_oaka": false,
@@ -4153,9 +4213,11 @@
             "name": "calm lands travel agency 2",
             "location_area": {
                 "location": "calm lands",
-                "area": "central"
+                "sub_location" : "calm lands",
+                "area": "central",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -4450,7 +4512,9 @@
             "name": "calm lands monster arena shop",
             "location_area": {
                 "location": "calm lands",
-                "area": "arena"
+                "sub_location" : "calm lands",
+                "area": "arena",
+                "section": null
             },
             "note": "Clear Spheres become available once you have unlocked Ultima Buster.",
             "is_oaka": false,
@@ -4659,9 +4723,11 @@
             "name": "mount gagazet shop",
             "location_area": {
                 "location": "mount gagazet",
-                "area": "mountain gate"
+                "sub_location" : "gagazet",
+                "area": "mountain gate",
+                "section": null
             },
-            "note": "",
+            "note": null,
             "is_oaka": false,
             "pre_airship": {
                 "items": [
@@ -4943,7 +5009,9 @@
             "name": "mount gagazet wantz",
             "location_area": {
                 "location": "mount gagazet",
-                "area": "mountain trail"
+                "sub_location" : "gagazet",
+                "area": "mountain trail",
+                "section": null
             },
             "note": "If you don't speak to Wantz at Gagazet, he won't be in the Macalania Woods after obtaining the Airship.",
             "is_oaka": true,
@@ -5093,8 +5161,10 @@
         {
             "name": "macalania woods wantz",
             "location_area": {
-                "location": "macalania woods",
-                "area": "south"
+                "location": "macalania",
+                "sub_location" : "macalania woods",
+                "area": "south",
+                "section": "main"
             },
             "note": "Wantz will only appear if you talked to him on Mount Gagazet and if you completed the Highbridge section after obtaining the airship.",
             "is_oaka": true,

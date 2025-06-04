@@ -3,246 +3,246 @@
         {
             "name": "stratoavis",
             "category": "area",
-            "location": "besaid",
-            "species": "",
+            "locations": ["besaid"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "malboro menace",
             "category": "area",
-            "location": "kilika",
-            "species": "",
+            "locations": ["kilika"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "kottos",
             "category": "area",
-            "location": "mi'ihen highroad",
-            "species": "",
+            "locations": ["mi'ihen highroad"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "coeurlregina",
             "category": "area",
-            "location": "mushroom rock road",
-            "species": "",
+            "locations": ["mushroom rock road"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "jormungand",
             "category": "area",
-            "location": "djose and moonflow",
-            "species": "",
+            "locations": ["djose", "moonflow"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "cactuar king",
             "category": "area",
-            "location": "thunder plains",
-            "species": "",
+            "locations": ["thunder plains"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "espada",
             "category": "area",
-            "location": "macalania",
-            "species": "",
+            "locations": ["macalania"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "abyss worm",
             "category": "area",
-            "location": "bikanel",
-            "species": "",
+            "locations": ["bikanel"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "chimerageist",
             "category": "area",
-            "location": "calm lands",
-            "species": "",
+            "locations": ["calm lands"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "don tonberry",
             "category": "area",
-            "location": "cavern of the stolen fayth",
-            "species": "",
+            "locations": ["cavern of the stolen fayth"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "catoblepas",
             "category": "area",
-            "location": "mount gagazet and zanarkand ruins",
-            "species": "",
+            "locations": ["mount gagazet"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "abaddon",
             "category": "area",
-            "location": "inside sin",
-            "species": "",
+            "locations": ["inside sin"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "vorban",
             "category": "area",
-            "location": "omega ruins",
-            "species": "",
+            "locations": ["omega ruins"],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "fenrir",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "wolf",
             "catch_amount": 3
         },
         {
             "name": "ornitholestes",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "reptile",
             "catch_amount": 3
         },
         {
             "name": "pteryx",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "bird",
             "catch_amount": 4
         },
         {
             "name": "hornet",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "wasp",
             "catch_amount": 4
         },
         {
             "name": "vidatu",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "imp",
             "catch_amount": 4
         },
         {
             "name": "one-eye",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "evil eye",
             "catch_amount": 4
         },
         {
             "name": "jumbo flan",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "flan",
             "catch_amount": 3
         },
         {
             "name": "nega elemental",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "elemental",
             "catch_amount": 3
         },
         {
             "name": "tanket",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "helm",
             "catch_amount": 3
         },
         {
             "name": "fafnir",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "drake",
             "catch_amount": 4
         },
         {
             "name": "sleep sprout",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "fungus",
             "catch_amount": 5
         },
         {
             "name": "bomb king",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "bomb",
             "catch_amount": 5
         },
         {
             "name": "juggernaut",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "ruminant",
             "catch_amount": 5
         },
         {
             "name": "ironclad",
             "category": "species",
-            "location": "",
+            "locations": [],
             "species": "iron giant",
             "catch_amount": 10
         },
         {
             "name": "earth eater",
             "category": "original",
-            "location": "",
-            "species": "",
+            "locations": [],
+            "species": null,
             "catch_amount": 0
         },
         {
             "name": "greater sphere",
             "category": "original",
-            "location": "",
-            "species": "",
+            "locations": [],
+            "species": null,
             "catch_amount": 0
         },
         {
             "name": "catastrophe",
             "category": "original",
-            "location": "",
-            "species": "",
+            "locations": [],
+            "species": null,
             "catch_amount": 0
         },
         {
             "name": "th'uban",
             "category": "original",
-            "location": "",
-            "species": "",
+            "locations": [],
+            "species": null,
             "catch_amount": 0
         },
         {
             "name": "neslug",
             "category": "original",
-            "location": "",
-            "species": "",
+            "locations": [],
+            "species": null,
             "catch_amount": 1
         },
         {
             "name": "ultima buster",
             "category": "original",
-            "location": "",
-            "species": "",
+            "locations": [],
+            "species": null,
             "catch_amount": 5
         },
         {
             "name": "shinryu",
             "category": "original",
-            "location": "mount gagazet and zanarkand ruins",
-            "species": "",
+            "locations": ["mount gagazet"],
+            "species": null,
             "catch_amount": 2
         },
         {
             "name": "nemesis",
             "category": "original",
-            "location": "",
-            "species": "",
+            "locations": [],
+            "species": null,
             "catch_amount": 10
         }
     ]

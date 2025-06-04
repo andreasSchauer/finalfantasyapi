@@ -3,9 +3,10 @@
         {
             "id": 1,
             "name": "valefor",
-            "location": {
-                "location_name": "besaid temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "besaid temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": false,
             "celestial_weapon": "nirvana",
@@ -28,9 +29,10 @@
         {
             "id": 2,
             "name": "ifrit",
-            "location": {
-                "location_name": "kilika temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "kilika temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": false,
             "celestial_weapon": "world champion",
@@ -53,9 +55,10 @@
         {
             "id": 3,
             "name": "ixion",
-            "location": {
-                "location_name": "djose temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "djose temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": false,
             "celestial_weapon": "spirit lance",
@@ -78,9 +81,10 @@
         {
             "id": 4,
             "name": "shiva",
-            "location": {
-                "location_name": "macalania temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "macalania temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": false,
             "celestial_weapon": "onion knight",
@@ -103,9 +107,10 @@
         {
             "id": 5,
             "name": "bahamut",
-            "location": {
-                "location_name": "bevelle temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "bevelle temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": false,
             "celestial_weapon": null,
@@ -128,9 +133,10 @@
         {
             "id": 6,
             "name": "anima",
-            "location": {
-                "location_name": "baaj temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "baaj temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": true,
             "celestial_weapon": null,
@@ -153,9 +159,10 @@
         {
             "id": 7,
             "name": "yojimbo",
-            "location": {
-                "location_name": "cavern of the stolen fayth",
-                "area_name": "cavern of the stolen fayth"
+            "location_area": {
+                "location": "cavern of the stolen fayth",
+                "sub_location": "",
+                "area": "cavern of the stolen fayth"
             },
             "is_optional": true,
             "celestial_weapon": "masamune",
@@ -178,9 +185,10 @@
         {
             "id": 8,
             "name": "cindy",
-            "location": {
-                "location_name": "remiem temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "remiem temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": true,
             "celestial_weapon": null,
@@ -203,9 +211,10 @@
         {
             "id": 9,
             "name": "sandy",
-            "location": {
-                "location_name": "remiem temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "remiem temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": true,
             "celestial_weapon": null,
@@ -228,9 +237,10 @@
         {
             "id": 10,
             "name": "mindy",
-            "location": {
-                "location_name": "remiem temple",
-                "area_name": "chamber of the fayth"
+            "location_area": {
+                "location": "remiem temple",
+                "sub_location": "",
+                "area": "chamber of the fayth"
             },
             "is_optional": true,
             "celestial_weapon": null,
