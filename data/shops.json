@@ -10,7 +10,7 @@
             },
             "note": "Equipment becomes available after the tutorials are completed. Items are always available.",
             "is_oaka": false,
-            "pre_airship": {
+            "pre_airship": { 
                 "items": [
                     {
                         "name": "potion",
@@ -733,7 +733,7 @@
             "location_area": {
                 "location": "luca",
                 "sub_location" : "luca",
-                "area": "luca square",
+                "area": "square",
                 "section": null
             },
             "note": "Becomes available after Auron joins the party.",

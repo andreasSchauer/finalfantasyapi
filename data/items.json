@@ -2,8 +2,9 @@
     "items_data": [
         {
             "name": "potion",
-            "game_description": "Restores 200 HP of one character.",
-            "description": "Restores 200 HP of one unit. Damages zombies.",
+            "description": "Restores 200 HP of one character.",
+            "sphere_grid_description": null,
+            "effect": "Restores 200 HP of one target. Damages zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
@@ -13,8 +14,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -28,8 +28,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -37,8 +37,9 @@
         },
         {
             "name": "hi-potion",
-            "game_description": "Restores 1000 HP of one character.",
-            "description": "Restores 1000 HP of one unit. Damages zombies.",
+            "description": "Restores 1000 HP of one character.",
+            "sphere_grid_description": null,
+            "effect": "Restores 1000 HP of one target. Damages zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
@@ -48,8 +49,7 @@
             "sell_value": 125,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -63,8 +63,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -72,8 +72,9 @@
         },
         {
             "name": "x-potion",
-            "game_description": "Fully restores HP of one character.",
-            "description": "Fully restores HP of one unit (maximum of 9,999 HP). zamages Zombies.",
+            "description": "Fully restores HP of one character.",
+            "sphere_grid_description": null,
+            "effect": "Fully restores HP of one target (maximum of 9,999 HP). zamages Zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
@@ -83,8 +84,7 @@
             "sell_value": 250,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -98,8 +98,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -107,8 +107,9 @@
         },
         {
             "name": "mega-potion",
-            "game_description": "Restores 2000 HP to each party member.",
-            "description": "Restores 2000 HP to each party member. Damages Zombies.",
+            "description": "Restores 2000 HP of each party member.",
+            "sphere_grid_description": null,
+            "effect": "Restores 2000 HP of target party. Damages Zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
@@ -118,8 +119,7 @@
             "sell_value": 375,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -133,8 +133,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -142,8 +142,9 @@
         },
         {
             "name": "ether",
-            "game_description": "Restores 100 MP of one character.",
-            "description": "Restores 100 MP of one unit. Lowers MP of zombies.",
+            "description": "Restores 100 MP of one character.",
+            "sphere_grid_description": null,
+            "effect": "Restores 100 MP of one target. Lowers MP of zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
@@ -153,8 +154,7 @@
             "sell_value": 250,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -168,8 +168,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -177,8 +177,9 @@
         },
         {
             "name": "turbo ether",
-            "game_description": "Restores 500 MP of one character.",
-            "description": "Restores 500 MP of one unit. Lowers MP of zombies.",
+            "description": "Restores 500 MP of one character.",
+            "sphere_grid_description": null,
+            "effect": "Restores 500 MP of one target. Lowers MP of zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
@@ -188,8 +189,7 @@
             "sell_value": 750,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -203,8 +203,92 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "elixir",
+            "description": "Fully restores one character's HP & MP.",
+            "sphere_grid_description": null,
+            "effect": "Fully restores HP & MP of one target (maximum of 9,999 HP and 999 MP). Damages zombies.",
+            "category": "healing",
+            "can_use_in_battle": true,
+            "can_use_outside_battle": true,
+            "access_via_use": false,
+            "related_stats": [],
+            "base_price": null,
+            "sell_value": 1250,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "damage": [
+                        {
+                            "attack_type": "heal",
+                            "target_stat": "hp",
+                            "damage_type": "special",
+                            "damage_formula": "percentage-max",
+                            "damage_constant": 16
+                        },
+                        {
+                            "attack_type": "heal",
+                            "target_stat": "mp",
+                            "damage_type": null,
+                            "damage_formula": "percentage-max",
+                            "damage_constant": 16
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "hit_amount": 1,
+                    "element": null,
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "megalixir",
+            "description": "Fully restores HP & MP of party.",
+            "sphere_grid_description": null,
+            "effect": "Fully restores HP & MP of target party (maximum of 9,999 HP and 999 MP). Damages zombies.",
+            "category": "healing",
+            "can_use_in_battle": true,
+            "can_use_outside_battle": true,
+            "access_via_use": false,
+            "related_stats": [],
+            "base_price": null,
+            "sell_value": 5000,
+            "meta": [
+                {
+                    "target": "target-party",
+                    "damage": [
+                        {
+                            "attack_type": "heal",
+                            "target_stat": "hp",
+                            "damage_type": "special",
+                            "damage_formula": "percentage-max",
+                            "damage_constant": 16
+                        },
+                        {
+                            "attack_type": "heal",
+                            "target_stat": "mp",
+                            "damage_type": null,
+                            "damage_formula": "percentage-max",
+                            "damage_constant": 16
+                        }
+                    ],
+                    "can_critical": false,
+                    "can_break_dmg_lmt": false,
+                    "hit_amount": 1,
+                    "element": null,
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -212,8 +296,9 @@
         },
         {
             "name": "phoenix down",
-            "game_description": "Revives one character from KO.",
-            "description": "Revives one character from KO with half of their max HP (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
+            "description": "Revives one character from KO.",
+            "sphere_grid_description": null,
+            "effect": "Revives one character from KO with half of their max HP (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -223,8 +308,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -238,14 +322,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "life",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": ["ko"],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -253,8 +337,9 @@
         },
         {
             "name": "mega phoenix",
-            "game_description": "Revives party from KO.",
-            "description": "Revives party from KO and fully restores HP of revived characters (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
+            "description": "Revives party from KO.",
+            "sphere_grid_description": null,
+            "effect": "Revives party from KO and fully restores HP of revived characters (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -264,8 +349,7 @@
             "sell_value": 1000,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -279,98 +363,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "life",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": ["ko"],
-                    "stat_changes": [],
-                    "other_changes": []
-                }
-            ]
-        },
-        {
-            "name": "elixir",
-            "game_description": "Fully restores one character's HP & MP.",
-            "description": "Fully restores one unit's HP & MP (maximum of 9,999 HP and 999 MP). Damages zombies.",
-            "category": "healing",
-            "can_use_in_battle": true,
-            "can_use_outside_battle": true,
-            "access_via_use": false,
-            "related_stats": [],
-            "base_price": null,
-            "sell_value": 1250,
-            "meta": [
-                {
-                    "target_type": "single",
-                    "target_party": "either",
-                    "damage": [
-                        {
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        },
-                        {
-                            "attack_type": "heal",
-                            "target_stat": "mp",
-                            "damage_type": null,
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "can_critical": false,
-                    "can_break_dmg_lmt": false,
-                    "hit_amount": 1,
-                    "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
-                    "stat_changes": [],
-                    "other_changes": []
-                }
-            ]
-        },
-        {
-            "name": "megalixir",
-            "game_description": "Fully restores HP & MP of party.",
-            "description": "Fully restores HP & MP of party (maximum of 9,999 HP and 999 MP). Damages zombies.",
-            "category": "healing",
-            "can_use_in_battle": true,
-            "can_use_outside_battle": true,
-            "access_via_use": false,
-            "related_stats": [],
-            "base_price": null,
-            "sell_value": 5000,
-            "meta": [
-                {
-                    "target_type": "all",
-                    "target_party": "either",
-                    "damage": [
-                        {
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        },
-                        {
-                            "attack_type": "heal",
-                            "target_stat": "mp",
-                            "damage_type": null,
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "can_critical": false,
-                    "can_break_dmg_lmt": false,
-                    "hit_amount": 1,
-                    "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -378,8 +378,9 @@
         },
         {
             "name": "antidote",
-            "game_description": "Cures poison.",
-            "description": "Cures poison of one unit.",
+            "description": "Cures poison.",
+            "sphere_grid_description": null,
+            "effect": "Cures poison of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -389,15 +390,14 @@
             "sell_value": 12,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["poison"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["poison"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -405,8 +405,9 @@
         },
         {
             "name": "soft",
-            "game_description": "Cures petrification.",
-            "description": "Cures petrification of one unit.",
+            "description": "Cures petrification.",
+            "sphere_grid_description": null,
+            "effect": "Cures petrification of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -416,15 +417,14 @@
             "sell_value": 12,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["petrification"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["petrification"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -432,8 +432,9 @@
         },
         {
             "name": "eye drops",
-            "game_description": "Cures darkness.",
-            "description": "Cures darkness of one unit.",
+            "description": "Cures darkness.",
+            "sphere_grid_description": null,
+            "effect": "Cures darkness of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -443,15 +444,14 @@
             "sell_value": 12,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["darkness"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["darkness"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -459,8 +459,9 @@
         },
         {
             "name": "echo screen",
-            "game_description": "Cures silence.",
-            "description": "Cures silence of one unit.",
+            "description": "Cures silence.",
+            "sphere_grid_description": null,
+            "effect": "Cures silence of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -470,15 +471,14 @@
             "sell_value": 12,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["silence"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["silence"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -486,8 +486,9 @@
         },
         {
             "name": "holy water",
-            "game_description": "Cures zombie and curse.",
-            "description": "Cures zombie and curse of one unit.",
+            "description": "Cures zombie and curse.",
+            "sphere_grid_description": null,
+            "effect": "Cures zombie and curse of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -497,15 +498,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["zombie", "curse"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["zombie", "curse"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -513,8 +513,9 @@
         },
         {
             "name": "remedy",
-            "game_description": "Cures all status abnormalities except KO and Curse.",
-            "description": "Cures all status ailments, except breaks, curse, doom, and KO.",
+            "description": "Cures all status abnormalities.",
+            "sphere_grid_description": null,
+            "effect": "Cures all status ailments of one target, except breaks, curse, doom, and KO.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -524,15 +525,14 @@
             "sell_value": 375,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["berserk", "confusion", "darkness", "petrification", "poison", "silence", "sleep", "slow", "zombie"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["berserk", "confusion", "darkness", "petrification", "poison", "silence", "sleep", "slow", "zombie"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -540,8 +540,9 @@
         },
         {
             "name": "power distiller",
-            "game_description": "Makes one enemy drop Power Spheres.",
-            "description": "Makes one enemy drop Power Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+            "description": "Makes one enemy drop Power Spheres.",
+            "sphere_grid_description": null,
+            "effect": "Makes one enemy drop Power Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -551,21 +552,20 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "enemy",
+                    "target": "single-enemy",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "power distiller",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -573,8 +573,9 @@
         },
         {
             "name": "mana distiller",
-            "game_description": "Makes one enemy drop Mana Spheres.",
-            "description": "Makes one enemy drop Mana Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+            "description": "Makes one enemy drop Mana Spheres.",
+            "sphere_grid_description": null,
+            "effect": "Makes one enemy drop Mana Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -584,21 +585,20 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "enemy",
+                    "target": "single-enemy",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "mana distiller",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -606,8 +606,9 @@
         },
         {
             "name": "speed distiller",
-            "game_description": "Makes one enemy drop Speed Spheres.",
-            "description": "Makes one enemy drop Speed Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+            "description": "Makes one enemy drop Speed Spheres.",
+            "sphere_grid_description": null,
+            "effect": "Makes one enemy drop Speed Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -617,21 +618,20 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "enemy",
+                    "target": "single-enemy",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "speed distiller",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -639,8 +639,9 @@
         },
         {
             "name": "ability distiller",
-            "game_description": "Makes one enemy drop Ability Spheres.",
-            "description": "Makes one enemy drop Ability Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+            "description": "Makes one enemy drop Ability Spheres.",
+            "sphere_grid_description": null,
+            "effect": "Makes one enemy drop Ability Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -650,21 +651,20 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "enemy",
+                    "target": "single-enemy",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "ability distiller",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -672,8 +672,9 @@
         },
         {
             "name": "al bhed potion",
-            "game_description": "Cures poison, silence, petrification. Restores 1000 HP of each party member.",
-            "description": "Cures poison, silence, and petrification and restores 1000 HP of party.",
+            "description": "Cures poison, silence, petrification. Gives 1000 HP to all.",
+            "sphere_grid_description": null,
+            "effect": "Cures poison, silence, and petrification and restores 1000 HP of target party.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -683,8 +684,7 @@
             "sell_value": 250,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "player",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -698,8 +698,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["poison", "silence", "petrification"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["poison", "silence", "petrification"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -707,8 +707,9 @@
         },
         {
             "name": "healing water",
-            "game_description": "Fully restores HP of party.",
-            "description": "Fully restores HP of party. Maximum of 9,999 HP.",
+            "description": "Fully restores HP of party.",
+            "sphere_grid_description": null,
+            "effect": "Fully restores HP of target party. Maximum of 9,999 HP.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -718,8 +719,7 @@
             "sell_value": 125,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "player",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -733,8 +733,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -742,8 +742,9 @@
         },
         {
             "name": "tetra elemental",
-            "game_description": "Fully restores HP and casts NulAll on all characters.",
-            "description": "Fully restores HP (maximum of 9,999 HP) and casts NulAll on a character.",
+            "description": "Fully restores HP and casts NulAll on party.",
+            "sphere_grid_description": null,
+            "effect": "Fully restores HP (maximum of 9,999 HP) and casts NulAll on one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -753,8 +754,7 @@
             "sell_value": 200,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "player",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
@@ -768,7 +768,7 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "nulblaze",
                             "probability": 254,
@@ -790,7 +790,7 @@
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -798,8 +798,9 @@
         },
         {
             "name": "antarctic wind",
-            "game_description": "Deals ice damage to an enemy.",
-            "description": "Deals around 600 HP of ice-elemental damage to one target.",
+            "description": "Deals ice damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 600 HP of ice-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -809,8 +810,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -824,8 +824,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "ice",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -833,8 +833,9 @@
         },
         {
             "name": "arctic wind",
-            "game_description": "Deals ice damage to an enemy.",
-            "description": "Deals around 1,000 HP of ice-elemental damage to one target.",
+            "description": "Deals ice damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 1,000 HP of ice-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -844,8 +845,7 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -859,8 +859,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "ice",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -868,8 +868,9 @@
         },
         {
             "name": "ice gem",
-            "game_description": "Deals ice damage to an enemy.",
-            "description": "Deals five hits of around 600 HP of ice-elemental damage to target party. The hits are randomly distributed.",
+            "description": "Deals ice damage to all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Deals five hits of around 600 HP of ice-elemental damage to all enemies. The hits are randomly distributed.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -879,8 +880,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "random",
-                    "target_party": "either",
+                    "target": "random-enemy",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -894,8 +894,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 5,
                     "element": "ice",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -903,8 +903,9 @@
         },
         {
             "name": "bomb fragment",
-            "game_description": "Deals fire damage to an enemy.",
-            "description": "Deals around 600 HP of fire-elemental damage to one target.",
+            "description": "Deals fire damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 600 HP of fire-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -914,8 +915,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -929,8 +929,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "fire",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -938,8 +938,9 @@
         },
         {
             "name": "bomb core",
-            "game_description": "Deals fire damage to an enemy.",
-            "description": "Deals around 1,000 HP of fire-elemental damage to one target.",
+            "description": "Deals fire damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 1,000 HP of fire-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -949,8 +950,7 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -964,8 +964,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "fire",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -973,8 +973,9 @@
         },
         {
             "name": "fire gem",
-            "game_description": "Deals fire damage to an enemy.",
-            "description": "Deals five hits of around 600 HP of fire-elemental damage to target party. The hits are randomly distributed.",
+            "description": "Deals fire damage to all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Deals five hits of around 600 HP of fire-elemental damage to all enemies. The hits are randomly distributed.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -984,8 +985,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "random",
-                    "target_party": "either",
+                    "target": "random-enemy",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -999,8 +999,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 5,
                     "element": "fire",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1008,8 +1008,9 @@
         },
         {
             "name": "electro marble",
-            "game_description": "Deals lightning damage to an enemy.",
-            "description": "Deals around 600 HP of lightning-elemental damage to one target.",
+            "description": "Deals lightning damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 600 HP of lightning-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1019,8 +1020,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1034,8 +1034,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "lightning",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1043,8 +1043,9 @@
         },
         {
             "name": "lightning marble",
-            "game_description": "Deals lightning damage to an enemy.",
-            "description": "Deals around 1,000 HP of lightning-elemental damage to one target.",
+            "description": "Deals lightning damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 1,000 HP of lightning-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1054,8 +1055,7 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1069,8 +1069,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "lightning",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1078,8 +1078,9 @@
         },
         {
             "name": "lightning gem",
-            "game_description": "Deals lightning damage to an enemy.",
-            "description": "Deals five hits of around 600 HP of lightning-elemental damage to target party. The hits are randomly distributed.",
+            "description": "Deals lightning damage to all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Deals five hits of around 600 HP of lightning-elemental damage to all enemies. The hits are randomly distributed.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1089,8 +1090,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "random",
-                    "target_party": "either",
+                    "target": "random-enemy",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1104,8 +1104,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 5,
                     "element": "lightning",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1113,8 +1113,9 @@
         },
         {
             "name": "fish scale",
-            "game_description": "Deals water damage to an enemy.",
-            "description": "Deals around 600 HP of water-elemental damage to one target.",
+            "description": "Deals water damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 600 HP of water-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1124,8 +1125,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1139,8 +1139,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "water",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1148,8 +1148,9 @@
         },
         {
             "name": "dragon scale",
-            "game_description": "Deals water damage to an enemy.",
-            "description": "Deals around 1,000 HP of water-elemental damage to one target.",
+            "description": "Deals water damage to an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 1,000 HP of water-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1159,8 +1160,7 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1174,8 +1174,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "water",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1183,8 +1183,9 @@
         },
         {
             "name": "water gem",
-            "game_description": "Deals water damage to an enemy.",
-            "description": "Deals five hits of around 600 HP of water-elemental damage to target party. The hits are randomly distributed.",
+            "description": "Deals water damage to all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Deals five hits of around 600 HP of water-elemental damage to all enemies. The hits are randomly distributed.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1194,8 +1195,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "random",
-                    "target_party": "either",
+                    "target": "random-enemy",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1209,8 +1209,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 5,
                     "element": "water",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1218,8 +1218,9 @@
         },
         {
             "name": "grenade",
-            "game_description": "Damage all enemies.",
-            "description": "Deals around 350 HP of non-elemental damage to target party.",
+            "description": "Damages all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 350 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1229,8 +1230,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1244,8 +1244,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1253,8 +1253,9 @@
         },
         {
             "name": "frag grenade",
-            "game_description": "Inflicts damage and Armor Break on all enemies.",
-            "description": "Inflicts Armor Break and deals around 800 HP of non-elemental damage to target party.",
+            "description": "Inflicts damage and Armor Break on all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Armor Break and deals around 800 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1264,8 +1265,7 @@
             "sell_value": 125,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1279,14 +1279,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "armor break",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1294,8 +1294,9 @@
         },
         {
             "name": "sleeping powder",
-            "game_description": "Inflicts damage and sleep on all enemies.",
-            "description": "Inflicts Sleep and deals around 750 HP of non-elemental damage to target party.",
+            "description": "Inflicts damage and sleep on all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Sleep and deals around 750 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1305,8 +1306,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1320,14 +1320,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "sleep",
                             "probability": 254,
                             "turns_amount": 8
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1335,8 +1335,9 @@
         },
         {
             "name": "dream powder",
-            "game_description": "Inflicts damage and sleep on all enemies.",
-            "description": "Inflicts Sleep and deals around 1000 HP of non-elemental damage to target party.",
+            "description": "Inflicts damage and sleep on all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Sleep and deals around 1000 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1346,8 +1347,7 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1361,14 +1361,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "sleep",
                             "probability": 254,
                             "turns_amount": 8
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1376,8 +1376,9 @@
         },
         {
             "name": "silence grenade",
-            "game_description": "Inflicts damage and silence on all enemies.",
-            "description": "Inflicts Silence and deals around 750 HP of non-elemental damage to target party.",
+            "description": "Inflicts damage and silence on all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Silence and deals around 750 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1387,8 +1388,7 @@
             "sell_value": 37,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1402,14 +1402,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "silence",
                             "probability": 254,
                             "turns_amount": 8
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1417,8 +1417,9 @@
         },
         {
             "name": "smoke bomb",
-            "game_description": "Inflicts damage and darkness on all enemies.",
-            "description": "Inflicts Darkness and deals around 750 HP of non-elemental damage to target party.",
+            "description": "Inflicts damage and darkness on all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Darkness and deals around 750 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1428,8 +1429,7 @@
             "sell_value": 37,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1443,14 +1443,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "darkness",
                             "probability": 254,
                             "turns_amount": 8
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1458,8 +1458,9 @@
         },
         {
             "name": "shadow gem",
-            "game_description": "Reduces HP of all enemies by half.",
-            "description": "Deals gravity-based damage to target party equal to half their current HP (maximum of 9,999 HP).",
+            "description": "Reduces HP of all enemies by half.",
+            "sphere_grid_description": null,
+            "effect": "Deals gravity-based damage to target party equal to half their current HP (maximum of 9,999 HP).",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1469,8 +1470,7 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1484,8 +1484,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1493,8 +1493,9 @@
         },
         {
             "name": "shining gem",
-            "game_description": "Damages an enemy.",
-            "description": "Deals around 6,000 HP of non-elemental damage to one target.",
+            "description": "Damages an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 6,000 HP of non-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1504,8 +1505,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1519,8 +1519,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1528,8 +1528,9 @@
         },
         {
             "name": "blessed gem",
-            "game_description": "Damages an enemy.",
-            "description": "Deals around 8,000 HP of holy-elemental damage to one target.",
+            "description": "Damages an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 8,000 HP of holy-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1539,8 +1540,7 @@
             "sell_value": 125,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1554,8 +1554,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": "holy",
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1563,8 +1563,9 @@
         },
         {
             "name": "supreme gem",
-            "game_description": "Damages all enemies.",
-            "description": "Deals around 10,000 HP of non-elemental damage to one target (maximum of 9,999 HP).",
+            "description": "Damages all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 10,000 HP of non-elemental damage to one target (maximum of 9,999 HP).",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1574,8 +1575,7 @@
             "sell_value": 250,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1589,8 +1589,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1598,8 +1598,9 @@
         },
         {
             "name": "poison fang",
-            "game_description": "Inflicts damage and poison on an enemy.",
-            "description": "Inflicts Poison and deals around 2000 HP of non-elemental damage to one target.",
+            "description": "Inflicts damage and poison on an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Poison and deals around 2000 HP of non-elemental damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1609,8 +1610,7 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1624,14 +1624,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "poison",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1639,8 +1639,9 @@
         },
         {
             "name": "silver hourglass",
-            "game_description": "Delays next turn of all enemies.",
-            "description": "Inflicts Slow on target party.",
+            "description": "Delays next turn of all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Slow on target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1650,29 +1651,28 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
                             "target_stat": "ctb",
                             "damage_type": null,
-                            "damage_formula": "agility",
-                            "damage_constant": 16
+                            "damage_formula": "agility-current-tick",
+                            "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "slow",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1680,8 +1680,9 @@
         },
         {
             "name": "gold hourglass",
-            "game_description": "Damages all enemies and delays their next turn.",
-            "description": "Inflicts Slow and deals around 1000 HP of non-elemental damage to target party.",
+            "description": "Damages all enemies and delays their next turn.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Slow and deals around 1000 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1691,8 +1692,7 @@
             "sell_value": 37,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1705,22 +1705,22 @@
                             "attack_type": "attack",
                             "target_stat": "ctb",
                             "damage_type": null,
-                            "damage_formula": "agility",
-                            "damage_constant": 16
+                            "damage_formula": "agility-current-tick",
+                            "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "slow",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1728,8 +1728,9 @@
         },
         {
             "name": "candle of life",
-            "game_description": "Casts Doom on an enemy.",
-            "description": "Inflicts Doom on one target.",
+            "description": "Casts Doom on an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Doom on one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1739,21 +1740,20 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "doom",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1761,8 +1761,9 @@
         },
         {
             "name": "petrify grenade",
-            "game_description": "Petrifies all enemies.",
-            "description": "Inflicts Petrification on target party.",
+            "description": "Petrifies all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Petrification on all enemies.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1772,21 +1773,20 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "all-enemies",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "petrification",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1794,8 +1794,9 @@
         },
         {
             "name": "farplane shadow",
-            "game_description": "Inflicts death on an enemy.",
-            "description": "Inflicts Death on one target.",
+            "description": "Inflicts death on an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Death on one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1805,21 +1806,20 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "death",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1827,8 +1827,9 @@
         },
         {
             "name": "farplane wind",
-            "game_description": "Inflicts death on all enemies.",
-            "description": "Inflicts Death on target party.",
+            "description": "Inflicts death on all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Inflicts Death on all enemies.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1838,21 +1839,20 @@
             "sell_value": 100,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "all-enemies",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "death",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1860,8 +1860,9 @@
         },
         {
             "name": "dark matter",
-            "game_description": "Deals major damage to all enemies.",
-            "description": "Deals around 12,750 HP of non-elemental damage to target party.",
+            "description": "Deals major damage to all enemies.",
+            "sphere_grid_description": null,
+            "effect": "Deals around 12,750 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1871,8 +1872,7 @@
             "sell_value": 7500,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -1886,8 +1886,8 @@
                     "can_break_dmg_lmt": true,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1895,8 +1895,9 @@
         },
         {
             "name": "chocobo feather",
-            "game_description": "Casts Haste on one character.",
-            "description": "Casts Haste on one target.",
+            "description": "Casts Haste on one character.",
+            "sphere_grid_description": null,
+            "effect": "Casts Haste on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1906,14 +1907,13 @@
             "sell_value": 40,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "heal",
                             "target_stat": "ctb",
                             "damage_type": null,
-                            "damage_formula": "agility",
+                            "damage_formula": "agility-current-tick",
                             "damage_constant": 8
                         }
                     ],
@@ -1921,14 +1921,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "haste",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1936,8 +1936,9 @@
         },
         {
             "name": "chocobo wing",
-            "game_description": "Casts Haste on party.",
-            "description": "Casts Haste on target party.",
+            "description": "Casts Haste on party.",
+            "sphere_grid_description": null,
+            "effect": "Casts Haste on target party.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1947,14 +1948,13 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "either",
+                    "target": "target-party",
                     "damage": [
                         {
                             "attack_type": "heal",
                             "target_stat": "ctb",
                             "damage_type": null,
-                            "damage_formula": "agility",
+                            "damage_formula": "agility-current-tick",
                             "damage_constant": 8
                         }
                     ],
@@ -1962,14 +1962,14 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "haste",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -1977,8 +1977,9 @@
         },
         {
             "name": "lunar curtain",
-            "game_description": "Casts Shell on one character.",
-            "description": "Casts Shell on one target.",
+            "description": "Casts Shell on one character.",
+            "sphere_grid_description": null,
+            "effect": "Casts Shell on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1988,21 +1989,20 @@
             "sell_value": 45,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "shell",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2010,8 +2010,9 @@
         },
         {
             "name": "light curtain",
-            "game_description": "Casts Protect on one character.",
-            "description": "Casts Protect on one target.",
+            "description": "Casts Protect on one character.",
+            "sphere_grid_description": null,
+            "effect": "Casts Protect on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2021,21 +2022,20 @@
             "sell_value": 45,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "protect",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2043,8 +2043,9 @@
         },
         {
             "name": "star curtain",
-            "game_description": "Casts Reflect on one character.",
-            "description": "Casts Reflect on one target.",
+            "description": "Casts Reflect on one character.",
+            "sphere_grid_description": null,
+            "effect": "Casts Reflect on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2054,21 +2055,20 @@
             "sell_value": 45,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "reflect",
                             "probability": 254,
                             "turns_amount": null
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2076,8 +2076,9 @@
         },
         {
             "name": "healing spring",
-            "game_description": "Casts Regen on one character.",
-            "description": "Casts Regen on one target.",
+            "description": "Casts Regen on one character.",
+            "sphere_grid_description": null,
+            "effect": "Casts Regen on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2087,21 +2088,20 @@
             "sell_value": 150,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [
+                    "inflicted_status_conditions": [
                         {
                             "name": "regen",
                             "probability": 254,
                             "turns_amount": 10
                         }
                     ],
-                    "removed_status_ailments": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2109,8 +2109,9 @@
         },
         {
             "name": "mana spring",
-            "game_description": "Absorbs MP from an enemy.",
-            "description": "Absorbs around 1000 MP from one enemy.",
+            "description": "Absorbs MP from an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Absorbs around 1000 MP from one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2120,8 +2121,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "enemy",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "absorb",
@@ -2135,8 +2135,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2144,8 +2144,9 @@
         },
         {
             "name": "stamina spring",
-            "game_description": "Absorbs HP from an enemy.",
-            "description": "Absorbs around 400 HP from one enemy.",
+            "description": "Absorbs HP from an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Absorbs around 400 HP from one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2155,8 +2156,7 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "enemy",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "absorb",
@@ -2170,8 +2170,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2179,8 +2179,9 @@
         },
         {
             "name": "soul spring",
-            "game_description": "Absorbs HP & MP from an enemy.",
-            "description": "Absorbs around 1500 HP and MP from one enemy.",
+            "description": "Absorbs HP & MP from an enemy.",
+            "sphere_grid_description": null,
+            "effect": "Absorbs around 1500 HP and MP from one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2190,8 +2191,7 @@
             "sell_value": 100,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "enemy",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "absorb",
@@ -2212,8 +2212,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2221,8 +2221,9 @@
         },
         {
             "name": "purifying salt",
-            "game_description": "Damages an enemy and dispels its magic effects.",
-            "description": "Casts Dispel and deals around 1,100 HP of non-elemental damage to one target.",
+            "description": "Damages an enemy and dispels its magic effects.",
+            "sphere_grid_description": null,
+            "effect": "Casts Dispel and deals around 1,100 HP of non-elemental damage to one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2232,8 +2233,7 @@
             "sell_value": 70,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "either",
+                    "target": "single-target",
                     "damage": [
                         {
                             "attack_type": "attack",
@@ -2247,8 +2247,8 @@
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": ["power break", "magic break", "armor break", "mental break", "curse", "slow", "haste", "protect", "shell", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost"],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "curse", "slow", "haste", "protect", "shell", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost"],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2256,8 +2256,9 @@
         },
         {
             "name": "stamina tablet",
-            "game_description": "Doubles max HP of one character.",
-            "description": "Doubles max HP of one character (maximum of 9,999 HP without 'Break HP Limit').",
+            "description": "Doubles max HP of one character.",
+            "sphere_grid_description": null,
+            "effect": "Doubles max HP of one character (maximum of 9,999 HP without 'Break HP Limit').",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2267,22 +2268,19 @@
             "sell_value": 200,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "player",
+                    "target": "single-character",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [
                         {
                             "name": "hp",
-                            "calculation_type": "multiplicatively",
-                            "added_percentage": null,
-                            "change_factor": 2.0,
-                            "set_value": null
+                            "calculation_type": "multiply",
+                            "value": 2.0
                         }
                     ],
                     "other_changes": []
@@ -2291,8 +2289,9 @@
         },
         {
             "name": "mana tablet",
-            "game_description": "Doubles max MP of one character.",
-            "description": "Doubles max MP of one character (maximum of 999 MP without 'Break MP Limit').",
+            "description": "Doubles max MP of one character.",
+            "sphere_grid_description": null,
+            "effect": "Doubles max MP of one character (maximum of 999 MP without 'Break MP Limit').",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2302,22 +2301,19 @@
             "sell_value": 500,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "player",
+                    "target": "single-character",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [
                         {
                             "name": "mp",
-                            "calculation_type": "multiplicatively",
-                            "added_percentage": null,
-                            "change_factor": 2.0,
-                            "set_value": null
+                            "calculation_type": "multiply",
+                            "value": 2.0
                         }
                     ],
                     "other_changes": []
@@ -2326,8 +2322,9 @@
         },
         {
             "name": "stamina tonic",
-            "game_description": "Doubles max HP of party.",
-            "description": "Doubles max HP of party (maximum of 9,999 HP without 'Break HP Limit').",
+            "description": "Doubles max HP of party.",
+            "sphere_grid_description": null,
+            "effect": "Doubles max HP of party (maximum of 9,999 HP without 'Break HP Limit').",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2337,22 +2334,19 @@
             "sell_value": 400,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "player",
+                    "target": "all-characters",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [
                         {
                             "name": "hp",
-                            "calculation_type": "multiplicatively",
-                            "added_percentage": null,
-                            "change_factor": 2.0,
-                            "set_value": null
+                            "calculation_type": "multiply",
+                            "value": 2.0
                         }
                     ],
                     "other_changes": []
@@ -2361,8 +2355,9 @@
         },
         {
             "name": "mana tonic",
-            "game_description": "Doubles max MP of party.",
-            "description": "Doubles max MP of party (maximum of 999 MP without 'Break MP Limit').",
+            "description": "Doubles max MP of party.",
+            "sphere_grid_description": null,
+            "effect": "Doubles max MP of party (maximum of 999 MP without 'Break MP Limit').",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2372,22 +2367,19 @@
             "sell_value": 400,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "player",
+                    "target": "all-characters",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [
                         {
                             "name": "mp",
-                            "calculation_type": "multiplicatively",
-                            "added_percentage": null,
-                            "change_factor": 2.0,
-                            "set_value": null
+                            "calculation_type": "multiply",
+                            "value": 2.0
                         }
                     ],
                     "other_changes": []
@@ -2396,8 +2388,9 @@
         },
         {
             "name": "twin stars",
-            "game_description": "Reduces MP cost of one character to 0.",
             "description": "Reduces MP cost of one character to 0.",
+            "sphere_grid_description": null,
+            "effect": "Reduces MP cost of one character to 0.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2407,23 +2400,20 @@
             "sell_value": 200,
             "meta": [
                 {
-                    "target_type": "single",
-                    "target_party": "player",
+                    "target": "single-character",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": [
                         {
                             "name": "mp-cost",
-                            "calculation_type": "fixed",
-                            "added_percentage": null,
-                            "change_factor": null,
-                            "set_value": 0
+                            "calculation_type": "set-value",
+                            "value": 0.0
                         }
                     ]
                 }
@@ -2431,8 +2421,9 @@
         },
         {
             "name": "three stars",
-            "game_description": "Reduces party's MP cost to 0.",
-            "description": "Reduces MP cost of party to 0.",
+            "description": "Reduces party's MP cost to 0.",
+            "sphere_grid_description": null,
+            "effect": "Reduces MP cost of party to 0.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -2442,23 +2433,20 @@
             "sell_value": 2500,
             "meta": [
                 {
-                    "target_type": "all",
-                    "target_party": "player",
+                    "target": "all-characters",
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": 1,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": [
                         {
                             "name": "mp-cost",
-                            "calculation_type": "fixed",
-                            "added_percentage": null,
-                            "change_factor": null,
-                            "set_value": 0
+                            "calculation_type": "set-value",
+                            "value": 0.0
                         }
                     ]
                 }
@@ -2466,8 +2454,9 @@
         },
         {
             "name": "power sphere",
-            "game_description": "Activates Strength, Defense, or HP nodes on Sphere Grid.",
-            "description": "Activates Strength, Defense, and HP nodes on the Sphere Grid.",
+            "description": "Activates nodes on Sphere Grid.",
+            "sphere_grid_description": "Activates Strength, Defense, or HP node.",
+            "effect": "Activates Strength, Defense, and HP nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2477,15 +2466,14 @@
             "sell_value": 1,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2493,8 +2481,9 @@
         },
         {
             "name": "mana sphere",
-            "game_description": "Activates Magic, Magic Defense, or MP nodes on Sphere Grid.",
-            "description": "Activates Magic, Magic Defense, and MP nodes on the Sphere Grid.",
+            "description": "Activates nodes on Sphere Grid.",
+            "sphere_grid_description": "Activates Magic, Magic Defense, or MP node.",
+            "effect": "Activates Magic, Magic Defense, and MP nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2504,15 +2493,14 @@
             "sell_value": 1,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2520,8 +2508,9 @@
         },
         {
             "name": "speed sphere",
-            "game_description": "Activates Agility, Accuracy, or Evasion nodes on Sphere Grid.",
-            "description": "Activates Agility, Accuracy, and Evasion nodes on the Sphere Grid.",
+            "description": "Activates nodes on Sphere Grid.",
+            "sphere_grid_description": "Activates Agility, Accuracy, or Evasion node.",
+            "effect": "Activates Agility, Accuracy, and Evasion nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2531,15 +2520,14 @@
             "sell_value": 1,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2547,8 +2535,9 @@
         },
         {
             "name": "ability sphere",
-            "game_description": "Activates Ability nodes on Sphere Grid.",
-            "description": "Activates Ability nodes on the Sphere Grid.",
+            "description": "Activates nodes on Sphere Grid.",
+            "sphere_grid_description": "Activates Ability node.",
+            "effect": "Activates Ability nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2558,15 +2547,14 @@
             "sell_value": 1,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2574,8 +2562,9 @@
         },
         {
             "name": "fortune sphere",
-            "game_description": "Activates Luck nodes on Sphere Grid.",
-            "description": "Activates Luck nodes on the Sphere Grid.",
+            "description": "Activates nodes on Sphere Grid.",
+            "sphere_grid_description": "Activates Luck node.",
+            "effect": "Activates Luck nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2585,15 +2574,14 @@
             "sell_value": 5,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2601,8 +2589,9 @@
         },
         {
             "name": "attribute sphere",
-            "game_description": "Activates Attribute nodes used by allies on Sphere Grid.",
-            "description": "Activates an attribute-increasing node activated by another character on the Sphere Grid.",
+            "description": "Activates Attribute nodes used by allies on Sphere Grid.",
+            "sphere_grid_description": "Activates Attribute node already used by ally.",
+            "effect": "Activates an attribute-increasing node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2612,15 +2601,14 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2628,8 +2616,9 @@
         },
         {
             "name": "special sphere",
-            "game_description": "Activates Special nodes used by allies on Sphere Grid.",
-            "description": "Activates a Special Ability node activated by another character on the Sphere Grid.",
+            "description": "Activates Special nodes used by allies on Sphere Grid.",
+            "sphere_grid_description": "Activates Special node already used by ally.",
+            "effect": "Activates a Special Ability node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2639,15 +2628,14 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2655,8 +2643,9 @@
         },
         {
             "name": "skill sphere",
-            "game_description": "Activates Skill nodes used by allies on Sphere Grid.",
-            "description": "Activates a Skill node activated by another character on the Sphere Grid.",
+            "description": "Activates Skill nodes used by allies on Sphere Grid.",
+            "sphere_grid_description": "Activates Skill node already used by ally.",
+            "effect": "Activates a Skill node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2666,15 +2655,14 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2682,8 +2670,9 @@
         },
         {
             "name": "wht magic sphere",
-            "game_description": "Activates White Magic nodes used by allies on Sphere Grid.",
-            "description": "Activates a White Magic Ability node activated by another character on the Sphere Grid.",
+            "description": "Activates White Magic nodes used by allies on Sphere Grid.",
+            "sphere_grid_description": "Activates White Magic node already used by ally.",
+            "effect": "Activates a White Magic Ability node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2693,15 +2682,14 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2709,8 +2697,9 @@
         },
         {
             "name": "blk magic sphere",
-            "game_description": "Activates Black Magic nodes used by allies on Sphere Grid.",
-            "description": "Activates a Black Magic Ability node activated by another character on the Sphere Grid.",
+            "description": "Activates Black Magic nodes used by allies on Sphere Grid.",
+            "sphere_grid_description": "Activates Black Magic node already used by ally.",
+            "effect": "Activates a Black Magic Ability node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2720,15 +2709,14 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2736,8 +2724,9 @@
         },
         {
             "name": "master sphere",
-            "game_description": "Activates any Ability or Attribute nodes on Sphere Grid.",
-            "description": "Activates any node on the Sphere Grid, regardless of location and activation.",
+            "description": "Activates any Ability or Attribute nodes on Sphere Grid.",
+            "sphere_grid_description": "Activates any Ability or Attribute node.",
+            "effect": "Activates any node on the Sphere Grid, regardless of location and activation.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2747,15 +2736,14 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2763,8 +2751,9 @@
         },
         {
             "name": "lv. 1 key sphere",
-            "game_description": "Opens Lv. 1 Locks on Sphere Grid.",
-            "description": "Changes a Lv. 1 Lock on the Sphere Grid into an empty node.",
+            "description": "Open Locks on Sphere Grid.",
+            "sphere_grid_description": "Opens Lv. 1 Lock.",
+            "effect": "Changes a Lv. 1 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2774,15 +2763,14 @@
             "sell_value": 25,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2790,8 +2778,9 @@
         },
         {
             "name": "lv. 2 key sphere",
-            "game_description": "Opens Lv. 2 Locks on Sphere Grid.",
-            "description": "Changes a Lv. 2 Lock on the Sphere Grid into an empty node.",
+            "description": "Open Locks on Sphere Grid.",
+            "sphere_grid_description": "Opens Lv. 2 Lock.",
+            "effect": "Changes a Lv. 2 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2801,15 +2790,14 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2817,8 +2805,9 @@
         },
         {
             "name": "lv. 3 key sphere",
-            "game_description": "Opens Lv. 3 Locks on Sphere Grid.",
-            "description": "Changes a Lv. 3 Lock on the Sphere Grid into an empty node.",
+            "description": "Open Locks on Sphere Grid.",
+            "sphere_grid_description": "Opens Lv. 3 Lock.",
+            "effect": "Changes a Lv. 3 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2828,15 +2817,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2844,8 +2832,9 @@
         },
         {
             "name": "lv. 4 key sphere",
-            "game_description": "Opens Lv. 4 Locks on Sphere Grid.",
-            "description": "Changes a Lv. 4 Lock on the Sphere Grid into an empty node.",
+            "description": "Open Locks on Sphere Grid.",
+            "sphere_grid_description": "Opens Lv. 4 Lock..",
+            "effect": "Changes a Lv. 4 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2855,15 +2844,14 @@
             "sell_value": 100,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2871,8 +2859,9 @@
         },
         {
             "name": "hp sphere",
-            "game_description": "Changes empty node to HP node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'HP +300'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into HP node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'HP +300'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2882,15 +2871,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2898,8 +2886,9 @@
         },
         {
             "name": "mp sphere",
-            "game_description": "Changes empty node to MP node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'MP +40'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into MP node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'MP +40'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2909,15 +2898,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2925,8 +2913,9 @@
         },
         {
             "name": "strength sphere",
-            "game_description": "Changes empty node to Strength node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Strength +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Strength node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Strength +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2936,15 +2925,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2952,8 +2940,9 @@
         },
         {
             "name": "defense sphere",
-            "game_description": "Changes empty node to Defense node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Defense +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Defense node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Defense +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2963,15 +2952,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -2979,8 +2967,9 @@
         },
         {
             "name": "magic sphere",
-            "game_description": "Changes empty node to Magic node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Magic +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Magic node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Magic +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -2990,15 +2979,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3006,8 +2994,9 @@
         },
         {
             "name": "magic def sphere",
-            "game_description": "Changes empty node to Magic Def node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Magic Def +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Magic Def node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Magic Def +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3017,15 +3006,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3033,8 +3021,9 @@
         },
         {
             "name": "agility sphere",
-            "game_description": "Changes empty node to Agility node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Agility +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Agility node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Agility +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3044,15 +3033,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3060,8 +3048,9 @@
         },
         {
             "name": "evasion sphere",
-            "game_description": "Changes empty node to Evasion node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Evasion +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Evasion node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Evasion +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3071,15 +3060,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3087,8 +3075,9 @@
         },
         {
             "name": "accuracy sphere",
-            "game_description": "Changes empty node to Accuracy node on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Accuracy +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Accuracy node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Accuracy +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3098,15 +3087,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3114,8 +3102,9 @@
         },
         {
             "name": "luck sphere",
-            "game_description": "Fills empty Luck nodes on Sphere Grid.",
-            "description": "Converts an empty node on the Sphere Grid into 'Luck +4'.",
+            "description": "Fills empty nodes on Sphere Grid.",
+            "sphere_grid_description": "Changes empty node into Luck node.",
+            "effect": "Converts an empty node on the Sphere Grid into 'Luck +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3125,15 +3114,14 @@
             "sell_value": 75,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3141,8 +3129,9 @@
         },
         {
             "name": "clear sphere",
-            "game_description": "Clears nodes from Sphere Grid.",
-            "description": "Converts an attribute-increasing node on the Sphere Grid into an empty node.",
+            "description": "Clears nodes from Sphere Grid.",
+            "sphere_grid_description": "Clears node from Grid.",
+            "effect": "Converts an attribute-increasing node on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3152,15 +3141,14 @@
             "sell_value": 2500,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3168,8 +3156,9 @@
         },
         {
             "name": "return sphere",
-            "game_description": "Return to any previously activated node on Sphere Grid.",
-            "description": "Enables move to any node on the Sphere Grid that is already activated by the current character.",
+            "description": "Changes current location on Sphere Grid.",
+            "sphere_grid_description": "Return to any previously activated node.",
+            "effect": "Enables move to any node on the Sphere Grid that is already activated by the current character.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3179,15 +3168,14 @@
             "sell_value": 125,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3195,8 +3183,9 @@
         },
         {
             "name": "friend sphere",
-            "game_description": "Move to an ally's location on Sphere Grid.",
-            "description": "Enables move to another character's location on the Sphere Grid.",
+            "description": "Changes current location on Sphere Grid.",
+            "sphere_grid_description": "Move to any ally's location.",
+            "effect": "Enables move to another character's location on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3206,15 +3195,14 @@
             "sell_value": 150,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3222,8 +3210,9 @@
         },
         {
             "name": "teleport sphere",
-            "game_description": "Move to any node activated by an ally on Sphere Grid.",
-            "description": "Enables move to any node on the Sphere Grid that is already activated by a character.",
+            "description": "Changes current location on Sphere Grid.",
+            "sphere_grid_description": "Move to any node activated by ally.",
+            "effect": "Enables move to any node on the Sphere Grid that is already activated by a character.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3233,15 +3222,14 @@
             "sell_value": 200,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3249,8 +3237,9 @@
         },
         {
             "name": "warp sphere",
-            "game_description": "",
-            "description": "Enables move to any node on the Sphere Grid.",
+            "description": "Changes current location on Sphere Grid.",
+            "sphere_grid_description": "Move to any node.",
+            "effect": "Enables move to any node on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3260,15 +3249,14 @@
             "sell_value": 250,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3276,8 +3264,9 @@
         },
         {
             "name": "map",
-            "game_description": "Displays world map.",
-            "description": "Displays the world map.",
+            "description": "Displays world map.",
+            "sphere_grid_description": null,
+            "effect": "Displays the world map.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3287,15 +3276,14 @@
             "sell_value": 12,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3303,8 +3291,9 @@
         },
         {
             "name": "rename card",
-            "game_description": "Renames aeon.",
-            "description": "Renames any Aeon.",
+            "description": "Renames aeon.",
+            "sphere_grid_description": null,
+            "effect": "Renames any Aeon.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
@@ -3314,15 +3303,14 @@
             "sell_value": 5,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3330,8 +3318,9 @@
         },
         {
             "name": "musk",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3341,15 +3330,14 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3357,8 +3345,9 @@
         },
         {
             "name": "hypello potion",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3368,15 +3357,14 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3384,8 +3372,9 @@
         },
         {
             "name": "shining thorn",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes, and for teaching Aeons the Mental Break ability.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes, and for teaching Aeons the Mental Break ability.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3395,15 +3384,14 @@
             "sell_value": 50,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3411,8 +3399,9 @@
         },
         {
             "name": "pendulum",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3422,15 +3411,14 @@
             "sell_value": 1250,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3438,8 +3426,9 @@
         },
         {
             "name": "amulet",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3449,15 +3438,14 @@
             "sell_value": 3450,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3465,8 +3453,9 @@
         },
         {
             "name": "designer wallet",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3476,15 +3465,14 @@
             "sell_value": 200,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3492,8 +3480,9 @@
         },
         {
             "name": "door to tomorrow",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3503,15 +3492,14 @@
             "sell_value": 2000,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3519,8 +3507,9 @@
         },
         {
             "name": "wings to discovery",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3530,15 +3519,14 @@
             "sell_value": 7500,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3546,8 +3534,9 @@
         },
         {
             "name": "gamblers spirit",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3557,15 +3546,14 @@
             "sell_value": 4000,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3573,8 +3561,9 @@
         },
         {
             "name": "underdogs secret",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3584,15 +3573,14 @@
             "sell_value": 5000,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }
@@ -3600,8 +3588,9 @@
         },
         {
             "name": "winning formula",
-            "game_description": "There seems to be some use for this...",
-            "description": "Used for customization and mixes.",
+            "description": "There seems to be some use for this...",
+            "sphere_grid_description": null,
+            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
@@ -3611,15 +3600,14 @@
             "sell_value": 10000,
             "meta": [
                 {
-                    "target_type": null,
-                    "target_party": null,
+                    "target": null,
                     "damage": [],
                     "can_critical": false,
                     "can_break_dmg_lmt": false,
                     "hit_amount": null,
                     "element": null,
-                    "inflicted_status_ailments": [],
-                    "removed_status_ailments": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
                 }

@@ -2,8 +2,8 @@
     "auto_abilities_data": [
         {
             "name": "sensor",
-            "game_description": "View enemy data during battle.",
-            "description": "Shows enemy HP, elemental resistances, active statuses, and a brief description, while the user is in the active party.",
+            "description": "View enemy data during battle.",
+            "effect": "Shows enemy HP, elemental resistances, active statuses, and a brief description, while the user is in the active party.",
             "type": "weapon",
             "category": "other",
             "value": 200,
@@ -32,8 +32,8 @@
         },
         {
             "name": "piercing",
-            "game_description": "Deal normal damage to armored enemies.",
-            "description": "Attacks and skills ignore enemy's Armored status.",
+            "description": "Deal normal damage to armored enemies.",
+            "effect": "Attacks and skills ignore enemy's Armored status.",
             "type": "weapon",
             "category": "other",
             "value": 0,
@@ -62,8 +62,8 @@
         },
         {
             "name": "first strike",
-            "game_description": "Act first at beginning of battle.",
-            "description": "Guarantees the first turn during battle, even in an ambush.",
+            "description": "Act first at beginning of battle.",
+            "effect": "Guarantees the first turn during battle, even in an ambush.",
             "type": "weapon",
             "category": "other",
             "value": 6000,
@@ -90,18 +90,16 @@
                 "other_changes": [
                     {
                         "name": "initial-counter-value",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 0
+                        "calculation_type": "set-value",
+                        "value": 0.0
                     }
                 ]
             }
         },
         {
             "name": "initiative",
-            "game_description": "Raises party's chances for a preemptive strike.",
-            "description": "Raises party's chances for a preemptive strike and eliminates ambushes, except against enemys with a 100% ambush rate.",
+            "description": "Raises party's chances for a preemptive strike.",
+            "effect": "Raises party's chances for a preemptive strike and eliminates ambushes, except against enemys with a 100% ambush rate.",
             "type": "weapon",
             "category": "other",
             "value": 6000,
@@ -128,25 +126,21 @@
                 "other_changes": [
                     {
                         "name": "ambush-chance",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 0
+                        "calculation_type": "set-value",
+                        "value": 0.0
                     },
                     {
                         "name": "preemptive-strike-chance",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 25
+                        "calculation_type": "set-value",
+                        "value": 25.0
                     }
                 ]
             }
         },
         {
             "name": "firestrike",
-            "game_description": "Adds fire element to attacks and skills.",
-            "description": "Causes the user's attacks and skills to be fire-elemental.",
+            "description": "Adds fire element to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to be fire-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -175,8 +169,8 @@
         },
         {
             "name": "lightningstrike",
-            "game_description": "Adds lightning element to attacks and skills.",
-            "description": "Causes the user's attacks and skills to be lightning-elemental.",
+            "description": "Adds lightning element to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to be lightning-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -205,8 +199,8 @@
         },
         {
             "name": "waterstrike",
-            "game_description": "Adds water element to attacks and skills.",
-            "description": "Causes the user's attacks and skills to be water-elemental.",
+            "description": "Adds water element to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to be water-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -235,8 +229,8 @@
         },
         {
             "name": "icestrike",
-            "game_description": "Adds ice element to attacks and skills.",
-            "description": "Causes the user's attacks and skills to be ice-elemental.",
+            "description": "Adds ice element to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to be ice-elemental.",
             "type": "weapon",
             "category": "elemental-strike",
             "value": 700,
@@ -265,8 +259,8 @@
         },
         {
             "name": "darktouch",
-            "game_description": "Sometimes adds darkness to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict Darkness for three turns. Chance stacks additively with Darkstrike.",
+            "description": "Sometimes adds darkness to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance to inflict Darkness for three turns. Chance stacks additively with Darkstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 2000,
@@ -299,8 +293,8 @@
         },
         {
             "name": "darkstrike",
-            "game_description": "Almost always adds darkness to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict Darkness for three turns. Chance stacks additively with Darktouch.",
+            "description": "Almost always adds darkness to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance to inflict Darkness for three turns. Chance stacks additively with Darktouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 4000,
@@ -333,8 +327,8 @@
         },
         {
             "name": "silencetouch",
-            "game_description": "Sometimes adds silence to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict Silence for three turns. Chance stacks additively with Silencestrike.",
+            "description": "Sometimes adds silence to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance to inflict Silence for three turns. Chance stacks additively with Silencestrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 3000,
@@ -367,8 +361,8 @@
         },
         {
             "name": "silencestrike",
-            "game_description": "Almost always adds silence to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict Silence for three turns. Chance stacks additively with Silencetouch.",
+            "description": "Almost always adds silence to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance to inflict Silence for three turns. Chance stacks additively with Silencetouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -401,8 +395,8 @@
         },
         {
             "name": "sleeptouch",
-            "game_description": "Sometimes adds sleep to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict Sleep for three turns. Chance stacks additively with Sleepstrike.",
+            "description": "Sometimes adds sleep to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance to inflict Sleep for three turns. Chance stacks additively with Sleepstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 1000,
@@ -435,8 +429,8 @@
         },
         {
             "name": "sleepstrike",
-            "game_description": "Almost always adds sleep to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict Sleep for three turns. Chance stacks additively with Sleeptouch.",
+            "description": "Almost always adds sleep to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance to inflict Sleep for three turns. Chance stacks additively with Sleeptouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -469,8 +463,8 @@
         },
         {
             "name": "poisontouch",
-            "game_description": "Sometimes adds poison to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict Poison. Chance stacks additively with Poisonstrike.",
+            "description": "Sometimes adds poison to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance to inflict Poison. Chance stacks additively with Poisonstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 1500,
@@ -503,8 +497,8 @@
         },
         {
             "name": "poisonstrike",
-            "game_description": "Almost always adds poison to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict Poison. Chance stacks additively with Poisontouch.",
+            "description": "Almost always adds poison to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance to inflict Poison. Chance stacks additively with Poisontouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10000,
@@ -537,8 +531,8 @@
         },
         {
             "name": "stonetouch",
-            "game_description": "Sometimes adds petrification to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict Petrification. Chance stacks additively with Stonestrike.",
+            "description": "Sometimes adds petrification to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance to inflict Petrification. Chance stacks additively with Stonestrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 5000,
@@ -571,8 +565,8 @@
         },
         {
             "name": "stonestrike",
-            "game_description": "Almost always adds petrification to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict Petrification. Chance stacks additively with Stonetouch.",
+            "description": "Almost always adds petrification to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance to inflict Petrification. Chance stacks additively with Stonetouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 12000,
@@ -605,8 +599,8 @@
         },
         {
             "name": "deathtouch",
-            "game_description": "Sometimes adds death to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance of instantly KO'ing the target. Chance stacks additively with Deathstrike. Doesn't work on zombies.",
+            "description": "Sometimes adds death to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance of instantly KO'ing the target. Chance stacks additively with Deathstrike. Doesn't work on zombies.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -639,8 +633,8 @@
         },
         {
             "name": "deathstrike",
-            "game_description": "Almost always adds death to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance of instantly KO'ing the target. Chance stacks additively with Deathtouch. Doesn't work on zombies.",
+            "description": "Almost always adds death to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance of instantly KO'ing the target. Chance stacks additively with Deathtouch. Doesn't work on zombies.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 20000,
@@ -673,8 +667,8 @@
         },
         {
             "name": "zombietouch",
-            "game_description": "Sometimes adds zombie to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict Zombie. Chance stacks additively with Zombiestrike.",
+            "description": "Sometimes adds zombie to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance to inflict Zombie. Chance stacks additively with Zombiestrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 8000,
@@ -707,8 +701,8 @@
         },
         {
             "name": "zombiestrike",
-            "game_description": "Almost always adds zombie to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict Zombie. Chance stacks additively with Zombietouch.",
+            "description": "Almost always adds zombie to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance to inflict Zombie. Chance stacks additively with Zombietouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 12000,
@@ -741,8 +735,8 @@
         },
         {
             "name": "slowtouch",
-            "game_description": "Sometimes adds slow to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 50% base chance to inflict Slow. Chance stacks additively with Slowstrike.",
+            "description": "Sometimes adds slow to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 50% base chance to inflict Slow. Chance stacks additively with Slowstrike.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 3000,
@@ -775,8 +769,8 @@
         },
         {
             "name": "slowstrike",
-            "game_description": "Almost always adds darkness to attacks and skills.",
-            "description": "Causes the user's attacks and skills to have a 100% base chance to inflict Slow. Chance stacks additively with Slowtouch.",
+            "description": "Almost always adds darkness to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to have a 100% base chance to inflict Slow. Chance stacks additively with Slowtouch.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 7000,
@@ -809,8 +803,8 @@
         },
         {
             "name": "distill power",
-            "game_description": "Adds Power Distiller effect to attacks and skills.",
-            "description": "Causes the user's attacks and skills to force the enemy hit to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Adds Power Distiller effect to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to force the enemy hit to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -843,8 +837,8 @@
         },
         {
             "name": "distill mana",
-            "game_description": "Adds Mana Distiller effect to attacks and skills.",
-            "description": "Causes the user's attacks and skills to force the enemy hit to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Adds Mana Distiller effect to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to force the enemy hit to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -877,8 +871,8 @@
         },
         {
             "name": "distill speed",
-            "game_description": "Adds Speed Distiller effect to attacks and skills.",
-            "description": "Causes the user's attacks and skills to force the enemy hit to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Adds Speed Distiller effect to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to force the enemy hit to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -911,8 +905,8 @@
         },
         {
             "name": "distill ability",
-            "game_description": "Adds Ability Distiller effect to attacks and skills.",
-            "description": "Causes the user's attacks and skills to force the enemy hit to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "description": "Adds Ability Distiller effect to attacks and skills.",
+            "effect": "Causes the user's attacks and skills to force the enemy hit to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
             "type": "weapon",
             "category": "status-infliction",
             "value": 10,
@@ -945,8 +939,8 @@
         },
         {
             "name": "strength +3%",
-            "game_description": "Enhances physical attack power by 3%.",
-            "description": "Causes the user's physical attacks to deal 3% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Enhances physical attack power by 3%.",
+            "effect": "Causes the user's physical attacks to deal 3% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 100,
@@ -973,18 +967,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 3,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 3.0
                     }
                 ]
             }
         },
         {
             "name": "strength +5%",
-            "game_description": "Enhances physical attack power by 5%.",
-            "description": "Causes the user's physical attacks to deal 5% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Enhances physical attack power by 5%.",
+            "effect": "Causes the user's physical attacks to deal 5% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 500,
@@ -1011,18 +1003,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 5,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 5.0
                     }
                 ]
             }
         },
         {
             "name": "strength +10%",
-            "game_description": "Enhances physical attack power by 10%.",
-            "description": "Causes the user's physical attacks to deal 10% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Enhances physical attack power by 10%.",
+            "effect": "Causes the user's physical attacks to deal 10% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 5000,
@@ -1049,18 +1039,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 10,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 10.0
                     }
                 ]
             }
         },
         {
             "name": "strength +20%",
-            "game_description": "Enhances physical attack power by 20%.",
-            "description": "Causes the user's physical attacks to deal 20% more damage. Stacks additively with other 'Strength +x%' Abilities.",
+            "description": "Enhances physical attack power by 20%.",
+            "effect": "Causes the user's physical attacks to deal 20% more damage. Stacks additively with other 'Strength +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 10000,
@@ -1087,18 +1075,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 20,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 20.0
                     }
                 ]
             }
         },
         {
             "name": "magic +3%",
-            "game_description": "Enhances magic attack power by 3%.",
-            "description": "Causes the user's magical attacks to deal 3% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Enhances magic attack power by 3%.",
+            "effect": "Causes the user's magical attacks to deal 3% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 100,
@@ -1125,18 +1111,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 3,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 3.0
                     }
                 ]
             }
         },
         {
             "name": "magic +5%",
-            "game_description": "Enhances magic attack power by 5%.",
-            "description": "Causes the user's magical attacks to deal 5% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Enhances magic attack power by 5%.",
+            "effect": "Causes the user's magical attacks to deal 5% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 500,
@@ -1163,18 +1147,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 5,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 5.0
                     }
                 ]
             }
         },
         {
             "name": "magic +10%",
-            "game_description": "Enhances magic attack power by 10%.",
-            "description": "Causes the user's magical attacks to deal 10% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Enhances magic attack power by 10%.",
+            "effect": "Causes the user's magical attacks to deal 10% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 5000,
@@ -1201,18 +1183,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 10,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 10.0
                     }
                 ]
             }
         },
         {
             "name": "magic +20%",
-            "game_description": "Enhances magic attack power by 20%.",
-            "description": "Causes the user's magical attacks to deal 20% more damage. Stacks additively with other 'Magic +x%' Abilities.",
+            "description": "Enhances magic attack power by 20%.",
+            "effect": "Causes the user's magical attacks to deal 20% more damage. Stacks additively with other 'Magic +x%' Abilities.",
             "type": "weapon",
             "category": "stat +x%",
             "value": 10000,
@@ -1239,18 +1219,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-dealt",
-                        "calculation_type": "additively",
-                        "added_percentage": 20,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 20.0
                     }
                 ]
             }
         },
         {
             "name": "counterattack",
-            "game_description": "Strike back after being physically attacked.",
-            "description": "User targets attacker with a counter attack if targeted via a physical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
+            "description": "Strike back after being physically attacked.",
+            "effect": "User targets attacker with a counter attack if targeted via a physical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
             "type": "weapon",
             "category": "counter",
             "value": 4000,
@@ -1279,8 +1257,8 @@
         },
         {
             "name": "evade & counter",
-            "game_description": "Evade physical attack and strike back.",
-            "description": "If targeted via a physical attack, the user evades the attack, if possible, and then targets attacker with a counter attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
+            "description": "Evade physical attack and strike back.",
+            "effect": "If targeted via a physical attack, the user evades the attack, if possible, and then targets attacker with a counter attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Protect.",
             "type": "weapon",
             "category": "counter",
             "value": 22000,
@@ -1309,8 +1287,8 @@
         },
         {
             "name": "magic counter",
-            "game_description": "Strike back after being attacked with magic.",
-            "description": "User targets attacker with a counter attack if targeted via a magical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Shell.",
+            "description": "Strike back after being attacked with magic.",
+            "effect": "User targets attacker with a counter attack if targeted via a magical attack. Does not trigger against attacks hitting more than one target, nor against attacks that ignore Shell.",
             "type": "weapon",
             "category": "counter",
             "value": 25000,
@@ -1339,8 +1317,8 @@
         },
         {
             "name": "magic booster",
-            "game_description": "Use more MP to heighten spell power.",
-            "description": "Increases the damage and healing of Black and White Magic abilities by 50%, but doubles their MP cost. The MP cost increase stacks multiplicatively with 'Half MP Cost' and 'One MP Cost'.",
+            "description": "Use more MP to heighten spell power.",
+            "effect": "Increases the damage and healing of Black and White Magic abilities by 50%, but doubles their MP cost. The MP cost increase stacks multiplicatively with 'Half MP Cost' and 'One MP Cost'.",
             "type": "weapon",
             "category": "other",
             "value": 17000,
@@ -1367,25 +1345,21 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-dealt",
-                        "calculation_type": "multiplicatively",
-                        "added_percentage": null,
-                        "change_factor": 1.5,
-                        "set_value": null
+                        "calculation_type": "multiply",
+                        "value": 1.5
                     },
                     {
                         "name": "mp-cost",
-                        "calculation_type": "multiplicatively",
-                        "added_percentage": null,
-                        "change_factor": 2.0,
-                        "set_value": null
+                        "calculation_type": "multiply",
+                        "value": 2.0
                     }
                 ]
             }
         },
         {
             "name": "alchemy",
-            "game_description": "Doubles the potency of recovery items.",
-            "description": "Recovery items will heal double the normal HP. Does not affect Mix abilities.",
+            "description": "Doubles the potency of recovery items.",
+            "effect": "Recovery items will heal double the normal HP. Does not affect Mix abilities.",
             "type": "weapon",
             "category": "other",
             "value": 8000,
@@ -1411,19 +1385,17 @@
                 "stat_changes": [],
                 "other_changes": [
                     {
-                        "name": "healing-items",
-                        "calculation_type": "multiplicatively",
-                        "added_percentage": null,
-                        "change_factor": 2.0,
-                        "set_value": null
+                        "name": "items-healing",
+                        "calculation_type": "multiply",
+                        "value": 2.0
                     }
                 ]
             }
         },
         {
             "name": "half mp cost",
-            "game_description": "Reduces MP cost of spells by half.",
-            "description": "Reduces the MP cost of all abilities by half. Stacks multiplicatively with Magic Booster.",
+            "description": "Reduces MP cost of spells by half.",
+            "effect": "Reduces the MP cost of all abilities by half. Stacks multiplicatively with Magic Booster.",
             "type": "weapon",
             "category": "other",
             "value": 20000,
@@ -1450,18 +1422,16 @@
                 "other_changes": [
                     {
                         "name": "mp-cost",
-                        "calculation_type": "multiplicatively",
-                        "added_percentage": null,
-                        "change_factor": 0.5,
-                        "set_value": null
+                        "calculation_type": "multiply",
+                        "value": 0.5
                     }
                 ]
             }
         },
         {
             "name": "one mp cost",
-            "game_description": "Reduces MP cost of spells to 1.",
-            "description": "Sets the MP cost of all abilities to 1. Stacks multiplicatively with Magic Booster.",
+            "description": "Reduces MP cost of spells to 1.",
+            "effect": "Sets the MP cost of all abilities to 1. Stacks multiplicatively with Magic Booster.",
             "type": "weapon",
             "category": "other",
             "value": 30000,
@@ -1488,18 +1458,16 @@
                 "other_changes": [
                     {
                         "name": "mp-cost",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 1
+                        "calculation_type": "set-value",
+                        "value": 1.0
                     }
                 ]
             }
         },
         {
             "name": "double ap",
-            "game_description": "Doubles the amount of AP earned.",
-            "description": "Doubles the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
+            "description": "Doubles the amount of AP earned.",
+            "effect": "Doubles the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
             "type": "weapon",
             "category": "ap and overdrive",
             "value": 40000,
@@ -1526,18 +1494,16 @@
                 "other_changes": [
                     {
                         "name": "ap-gain",
-                        "calculation_type": "highest-factor",
-                        "added_percentage": null,
-                        "change_factor": 2.0,
-                        "set_value": null
+                        "calculation_type": "multiply-highest",
+                        "value": 2.0
                     }
                 ]
             }
         },
         {
             "name": "triple ap",
-            "game_description": "Triples the amount of AP earned.",
-            "description": "Triples the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
+            "description": "Triples the amount of AP earned.",
+            "effect": "Triples the amount of AP the user receives when in the active party at the time the respective enemy is defeated.",
             "type": "weapon",
             "category": "ap and overdrive",
             "value": 60000,
@@ -1564,18 +1530,16 @@
                 "other_changes": [
                     {
                         "name": "ap-gain",
-                        "calculation_type": "highest-factor",
-                        "added_percentage": null,
-                        "change_factor": 3.0,
-                        "set_value": null
+                        "calculation_type": "multiply-highest",
+                        "value": 3.0
                     }
                 ]
             }
         },
         {
             "name": "overdrive -> ap",
-            "game_description": "Earn more AP instead of charging Overdrive gauge.",
-            "description": "Converts all Overdrive gauge points obtained by the user to AP while the auto-ability is equipped.",
+            "description": "Earn more AP instead of charging Overdrive gauge.",
+            "effect": "Converts all Overdrive gauge points obtained by the user to AP while the auto-ability is equipped.",
             "type": "weapon",
             "category": "ap and overdrive",
             "value": 25000,
@@ -1604,8 +1568,8 @@
         },
         {
             "name": "sos overdrive",
-            "game_description": "Charges Overdrive at double speed when HP is low.",
-            "description": "Doubles the Overdrive charge speed if the user is in HP critical. Doesn't stack with 'Double Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
+            "description": "Charges Overdrive at double speed when HP is low.",
+            "effect": "Doubles the Overdrive charge speed if the user is in HP critical. Doesn't stack with 'Double Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
             "type": "weapon",
             "category": "ap and overdrive",
             "value": 20000,
@@ -1632,18 +1596,16 @@
                 "other_changes": [
                     {
                         "name": "overdrive-charge",
-                        "calculation_type": "highest-factor",
-                        "added_percentage": null,
-                        "change_factor": 2.0,
-                        "set_value": null
+                        "calculation_type": "multiply-highest",
+                        "value": 2.0
                     }
                 ]
             }
         },
         {
             "name": "double overdrive",
-            "game_description": "Charges Overdrive at double speed.",
-            "description": "Doubles the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
+            "description": "Charges Overdrive at double speed.",
+            "effect": "Doubles the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Triple Overdrive', but does stack with Mix abilities.",
             "type": "weapon",
             "category": "ap and overdrive",
             "value": 30000,
@@ -1670,18 +1632,16 @@
                 "other_changes": [
                     {
                         "name": "overdrive-charge",
-                        "calculation_type": "highest-factor",
-                        "added_percentage": null,
-                        "change_factor": 2.0,
-                        "set_value": null
+                        "calculation_type": "multiply-highest",
+                        "value": 2.0
                     }
                 ]
             }
         },
         {
             "name": "triple overdrive",
-            "game_description": "Charges Overdrive at triple speed.",
-            "description": "Triples the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Double Overdrive', but does stack with Mix abilities.",
+            "description": "Charges Overdrive at triple speed.",
+            "effect": "Triples the Overdrive charge speed. Doesn't stack with 'SOS Overdrive' or 'Double Overdrive', but does stack with Mix abilities.",
             "type": "weapon",
             "category": "ap and overdrive",
             "value": 40000,
@@ -1708,18 +1668,16 @@
                 "other_changes": [
                     {
                         "name": "overdrive-charge",
-                        "calculation_type": "highest-factor",
-                        "added_percentage": null,
-                        "change_factor": 3.0,
-                        "set_value": null
+                        "calculation_type": "multiply-highest",
+                        "value": 3.0
                     }
                 ]
             }
         },
         {
             "name": "gillionaire",
-            "game_description": "Doubles amount of Gil earned.",
-            "description": "Doubles the amount of Gil earned from battles, if the user is in the active party at the end of the battle.",
+            "description": "Doubles amount of Gil earned.",
+            "effect": "Doubles the amount of Gil earned from battles, if the user is in the active party at the end of the battle.",
             "type": "weapon",
             "category": "other",
             "value": 0,
@@ -1746,18 +1704,16 @@
                 "other_changes": [
                     {
                         "name": "gil-gain",
-                        "calculation_type": "multiplicatively",
-                        "added_percentage": null,
-                        "change_factor": 2.0,
-                        "set_value": null
+                        "calculation_type": "multiply",
+                        "value": 2.0
                     }
                 ]
             }
         },
         {
             "name": "break damage limit",
-            "game_description": "Allows max damage to exceed 9999.",
-            "description": "Sets the maximum amount of damage and recovery the user can deal to 99,999. This does not affect items or most Mixes.",
+            "description": "Allows max damage to exceed 9999.",
+            "effect": "Sets the maximum amount of damage and recovery the user can deal to 99,999. This does not affect items or most Mixes.",
             "type": "weapon",
             "category": "break-limit",
             "value": 0,
@@ -1784,18 +1740,16 @@
                 "other_changes": [
                     {
                         "name": "damage-limit",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 99999
+                        "calculation_type": "set-value",
+                        "value": 99999.0
                     }
                 ]
             }
         },
         {
             "name": "capture",
-            "game_description": null,
-            "description": "Attacks and Skills will capture certain monsters as long as it is the killing blow.",
+            "description": null,
+            "effect": "Attacks and Skills will capture certain monsters as long as it is the killing blow.",
             "type": "weapon",
             "category": "other",
             "value": 6000,
@@ -1828,8 +1782,8 @@
         },
         {
             "name": "no ap",
-            "game_description": null,
-            "description": "The user receives zero AP. Has no effect if the user does not equip the ability at the time the enemy is defeated.",
+            "description": null,
+            "effect": "The user receives zero AP. Has no effect if the user does not equip the ability at the time the enemy is defeated.",
             "type": "weapon",
             "category": "ap and overdrive",
             "value": 0,
@@ -1856,18 +1810,16 @@
                 "other_changes": [
                     {
                         "name": "ap-gain",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 0
+                        "calculation_type": "set-value",
+                        "value": 0.0
                     }
                 ]
             }
         },
         {
             "name": "-",
-            "game_description": null,
-            "description": "Hidden auto-ability used by Aeons. Grants immunity to all status ailments except Curse and Eject.",
+            "description": null,
+            "effect": "Hidden auto-ability used by Aeons. Grants immunity to all status ailments except Curse and Eject.",
             "type": "weapon",
             "category": "other",
             "value": null,
@@ -2005,8 +1957,8 @@
         },
         {
             "name": "fire ward",
-            "game_description": "Reduces fire damage by half.",
-            "description": "Reduces fire-elemental damage by half.",
+            "description": "Reduces fire damage by half.",
+            "effect": "Reduces fire-elemental damage by half.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 1500,
@@ -2038,8 +1990,8 @@
         },
         {
             "name": "fireproof",
-            "game_description": "Grants immunity to fire attacks.",
-            "description": "Fire-elemental attacks deal zero damage to the user.",
+            "description": "Grants immunity to fire attacks.",
+            "effect": "Fire-elemental attacks deal zero damage to the user.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 3000,
@@ -2071,8 +2023,8 @@
         },
         {
             "name": "fire eater",
-            "game_description": "Converts fire damage to HP.",
-            "description": "Fire-elemental attacks directed towards the user are absorbed.",
+            "description": "Converts fire damage to HP.",
+            "effect": "Fire-elemental attacks directed towards the user are absorbed.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 10000,
@@ -2104,8 +2056,8 @@
         },
         {
             "name": "lightning ward",
-            "game_description": "Reduces lightning damage by half.",
-            "description": "Reduces lightning-elemental damage by half.",
+            "description": "Reduces lightning damage by half.",
+            "effect": "Reduces lightning-elemental damage by half.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 1500,
@@ -2137,8 +2089,8 @@
         },
         {
             "name": "lightningproof",
-            "game_description": "Grants immunity to lightning attacks.",
-            "description": "Lightning-elemental attacks deal zero damage to the user.",
+            "description": "Grants immunity to lightning attacks.",
+            "effect": "Lightning-elemental attacks deal zero damage to the user.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 3000,
@@ -2170,8 +2122,8 @@
         },
         {
             "name": "lightning eater",
-            "game_description": "Converts lightning damage to HP.",
-            "description": "Lightning-elemental attacks directed towards the user are absorbed.",
+            "description": "Converts lightning damage to HP.",
+            "effect": "Lightning-elemental attacks directed towards the user are absorbed.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 10000,
@@ -2203,8 +2155,8 @@
         },
         {
             "name": "water ward",
-            "game_description": "Reduces water damage by half.",
-            "description": "Reduces water-elemental damage by half.",
+            "description": "Reduces water damage by half.",
+            "effect": "Reduces water-elemental damage by half.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 1500,
@@ -2236,8 +2188,8 @@
         },
         {
             "name": "waterproof",
-            "game_description": "Grants immunity to water attacks.",
-            "description": "Water-elemental attacks deal zero damage to the user.",
+            "description": "Grants immunity to water attacks.",
+            "effect": "Water-elemental attacks deal zero damage to the user.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 3000,
@@ -2269,8 +2221,8 @@
         },
         {
             "name": "water eater",
-            "game_description": "Converts water damage to HP.",
-            "description": "Water-elemental attacks directed towards the user are absorbed.",
+            "description": "Converts water damage to HP.",
+            "effect": "Water-elemental attacks directed towards the user are absorbed.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 10000,
@@ -2302,8 +2254,8 @@
         },
         {
             "name": "ice ward",
-            "game_description": "Reduces ice damage by half.",
-            "description": "Reduces ice-elemental damage by half.",
+            "description": "Reduces ice damage by half.",
+            "effect": "Reduces ice-elemental damage by half.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 1500,
@@ -2335,8 +2287,8 @@
         },
         {
             "name": "iceproof",
-            "game_description": "Grants immunity to ice attacks.",
-            "description": "Ice-elemental attacks deal zero damage to the user.",
+            "description": "Grants immunity to ice attacks.",
+            "effect": "Ice-elemental attacks deal zero damage to the user.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 3000,
@@ -2368,8 +2320,8 @@
         },
         {
             "name": "ice eater",
-            "game_description": "Converts ice damage to HP.",
-            "description": "Ice-elemental attacks directed towards the user are absorbed.",
+            "description": "Converts ice damage to HP.",
+            "effect": "Ice-elemental attacks directed towards the user are absorbed.",
             "type": "armor",
             "category": "elemental-protection",
             "value": 10000,
@@ -2401,8 +2353,8 @@
         },
         {
             "name": "dark ward",
-            "game_description": "Sometimes protects against darkness.",
-            "description": "Grants the user 50% resistance to Darkness.",
+            "description": "Sometimes protects against darkness.",
+            "effect": "Grants the user 50% resistance to Darkness.",
             "type": "armor",
             "category": "status-protection",
             "value": 500,
@@ -2436,8 +2388,8 @@
         },
         {
             "name": "darkproof",
-            "game_description": "Almost completely protects against darkness.",
-            "description": "Grants the user immunity to Darkness.",
+            "description": "Almost completely protects against darkness.",
+            "effect": "Grants the user immunity to Darkness.",
             "type": "armor",
             "category": "status-protection",
             "value": 2000,
@@ -2471,8 +2423,8 @@
         },
         {
             "name": "silence ward",
-            "game_description": "Sometimes protects against silence.",
-            "description": "Grants the user 50% resistance to Silence.",
+            "description": "Sometimes protects against silence.",
+            "effect": "Grants the user 50% resistance to Silence.",
             "type": "armor",
             "category": "status-protection",
             "value": 500,
@@ -2506,8 +2458,8 @@
         },
         {
             "name": "silenceproof",
-            "game_description": "Almost completely protects against silence.",
-            "description": "Grants the user immunity to Silence.",
+            "description": "Almost completely protects against silence.",
+            "effect": "Grants the user immunity to Silence.",
             "type": "armor",
             "category": "status-protection",
             "value": 3000,
@@ -2541,8 +2493,8 @@
         },
         {
             "name": "sleep ward",
-            "game_description": "Sometimes protects against sleep.",
-            "description": "Grants the user 50% resistance to Sleep.",
+            "description": "Sometimes protects against sleep.",
+            "effect": "Grants the user 50% resistance to Sleep.",
             "type": "armor",
             "category": "status-protection",
             "value": 200,
@@ -2576,8 +2528,8 @@
         },
         {
             "name": "sleepproof",
-            "game_description": "Almost completely protects against sleep.",
-            "description": "Grants the user immunity to Sleep.",
+            "description": "Almost completely protects against sleep.",
+            "effect": "Grants the user immunity to Sleep.",
             "type": "armor",
             "category": "status-protection",
             "value": 800,
@@ -2611,8 +2563,8 @@
         },
         {
             "name": "poison ward",
-            "game_description": "Sometimes protects against poison.",
-            "description": "Grants the user 50% resistance to Poison.",
+            "description": "Sometimes protects against poison.",
+            "effect": "Grants the user 50% resistance to Poison.",
             "type": "armor",
             "category": "status-protection",
             "value": 400,
@@ -2646,8 +2598,8 @@
         },
         {
             "name": "poisonproof",
-            "game_description": "Almost completely protects against poison.",
-            "description": "Grants the user immunity to Poison.",
+            "description": "Almost completely protects against poison.",
+            "effect": "Grants the user immunity to Poison.",
             "type": "armor",
             "category": "status-protection",
             "value": 1500,
@@ -2681,8 +2633,8 @@
         },
         {
             "name": "stone ward",
-            "game_description": "Sometimes protects against petrification.",
-            "description": "Grants the user 50% resistance to Petrification.",
+            "description": "Sometimes protects against petrification.",
+            "effect": "Grants the user 50% resistance to Petrification.",
             "type": "armor",
             "category": "status-protection",
             "value": 1200,
@@ -2716,8 +2668,8 @@
         },
         {
             "name": "stoneproof",
-            "game_description": "Almost completely protects against petrification.",
-            "description": "Grants the user immunity to Petrification.",
+            "description": "Almost completely protects against petrification.",
+            "effect": "Grants the user immunity to Petrification.",
             "type": "armor",
             "category": "status-protection",
             "value": 2500,
@@ -2751,8 +2703,8 @@
         },
         {
             "name": "death ward",
-            "game_description": "Sometimes protects against death.",
-            "description": "Grants the user 50% resistance to Death.",
+            "description": "Sometimes protects against death.",
+            "effect": "Grants the user 50% resistance to Death.",
             "type": "armor",
             "category": "status-protection",
             "value": 2000,
@@ -2786,8 +2738,8 @@
         },
         {
             "name": "deathproof",
-            "game_description": "Almost completely protects against death.",
-            "description": "Grants the user immunity to Death.",
+            "description": "Almost completely protects against death.",
+            "effect": "Grants the user immunity to Death.",
             "type": "armor",
             "category": "status-protection",
             "value": 4000,
@@ -2821,8 +2773,8 @@
         },
         {
             "name": "zombie ward",
-            "game_description": "Sometimes protects against zombie.",
-            "description": "Grants the user 50% resistance to Zombie.",
+            "description": "Sometimes protects against zombie.",
+            "effect": "Grants the user 50% resistance to Zombie.",
             "type": "armor",
             "category": "status-protection",
             "value": 2000,
@@ -2856,8 +2808,8 @@
         },
         {
             "name": "zombieproof",
-            "game_description": "Almost completely protects against zombie.",
-            "description": "Grants the user immunity to Zombie.",
+            "description": "Almost completely protects against zombie.",
+            "effect": "Grants the user immunity to Zombie.",
             "type": "armor",
             "category": "status-protection",
             "value": 4000,
@@ -2891,8 +2843,8 @@
         },
         {
             "name": "slow ward",
-            "game_description": "Sometimes protects against slow.",
-            "description": "Grants the user 50% resistance to Slow.",
+            "description": "Sometimes protects against slow.",
+            "effect": "Grants the user 50% resistance to Slow.",
             "type": "armor",
             "category": "status-protection",
             "value": 1000,
@@ -2926,8 +2878,8 @@
         },
         {
             "name": "slowproof",
-            "game_description": "Almost always protects against slow.",
-            "description": "Grants the user immunity to Slow.",
+            "description": "Almost completely protects against slow.",
+            "effect": "Grants the user immunity to Slow.",
             "type": "armor",
             "category": "status-protection",
             "value": 3000,
@@ -2961,8 +2913,8 @@
         },
         {
             "name": "confuse ward",
-            "game_description": "Sometimes protects against confusion.",
-            "description": "Grants the user 50% resistance to Confusion.",
+            "description": "Sometimes protects against confusion.",
+            "effect": "Grants the user 50% resistance to Confusion.",
             "type": "armor",
             "category": "status-protection",
             "value": 1000,
@@ -2996,8 +2948,8 @@
         },
         {
             "name": "confuseproof",
-            "game_description": "Almost always protects against confusion.",
-            "description": "Grants the user immunity to Confusion.",
+            "description": "Almost completely protects against confusion.",
+            "effect": "Grants the user immunity to Confusion.",
             "type": "armor",
             "category": "status-protection",
             "value": 4000,
@@ -3031,8 +2983,8 @@
         },
         {
             "name": "berserk ward",
-            "game_description": "Sometimes protects against berserk.",
-            "description": "Grants the user 50% resistance to Berserk.",
+            "description": "Sometimes protects against berserk.",
+            "effect": "Grants the user 50% resistance to Berserk.",
             "type": "armor",
             "category": "status-protection",
             "value": 1000,
@@ -3066,8 +3018,8 @@
         },
         {
             "name": "berserkproof",
-            "game_description": "Almost always protects against berserk.",
-            "description": "Grants the user immunity to Berserk.",
+            "description": "Almost completely protects against berserk.",
+            "effect": "Grants the user immunity to Berserk.",
             "type": "armor",
             "category": "status-protection",
             "value": 6000,
@@ -3101,8 +3053,8 @@
         },
         {
             "name": "curse ward",
-            "game_description": "",
-            "description": "Grants the user immunity to Curse (dummied auto-ability).",
+            "description": null,
+            "effect": "Grants the user immunity to Curse (dummied auto-ability).",
             "type": "armor",
             "category": "status-protection",
             "value": 0,
@@ -3133,8 +3085,8 @@
         },
         {
             "name": "curseproof",
-            "game_description": "Almost always protects against curse.",
-            "description": "Grants the user immunity to Curse.",
+            "description": "Almost completely protects against curse.",
+            "effect": "Grants the user immunity to Curse.",
             "type": "armor",
             "category": "status-protection",
             "value": 8000,
@@ -3168,8 +3120,8 @@
         },
         {
             "name": "sos nulblaze",
-            "game_description": "Casts NulBlaze when HP is low.",
-            "description": "Grants the user unremovable NulBlaze status while in HP Critical.",
+            "description": "Casts NulBlaze when HP is low.",
+            "effect": "Grants the user unremovable NulBlaze status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 500,
@@ -3197,8 +3149,8 @@
         },
         {
             "name": "sos nulshock",
-            "game_description": "Casts NulShock when HP is low.",
-            "description": "Grants the user unremovable NulShock status while in HP Critical.",
+            "description": "Casts NulShock when HP is low.",
+            "effect": "Grants the user unremovable NulShock status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 500,
@@ -3227,8 +3179,8 @@
         },
         {
             "name": "sos nultide",
-            "game_description": "Casts NulTide when HP is low.",
-            "description": "Grants the user unremovable NulTide status while in HP Critical.",
+            "description": "Casts NulTide when HP is low.",
+            "effect": "Grants the user unremovable NulTide status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 500,
@@ -3257,8 +3209,8 @@
         },
         {
             "name": "sos nulfrost",
-            "game_description": "Casts NulFrost when HP is low.",
-            "description": "Grants the user unremovable NulFrost status while in HP Critical.",
+            "description": "Casts NulFrost when HP is low.",
+            "effect": "Grants the user unremovable NulFrost status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 500,
@@ -3287,8 +3239,8 @@
         },
         {
             "name": "sos shell",
-            "game_description": "Casts Shell when HP is low.",
-            "description": "Grants the user unremovable Shell status while in HP Critical.",
+            "description": "Casts Shell when HP is low.",
+            "effect": "Grants the user unremovable Shell status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 4000,
@@ -3317,8 +3269,8 @@
         },
         {
             "name": "sos protect",
-            "game_description": "Casts Protect when HP is low.",
-            "description": "Grants the user unremovable Protect status while in HP Critical.",
+            "description": "Casts Protect when HP is low.",
+            "effect": "Grants the user unremovable Protect status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 4000,
@@ -3347,8 +3299,8 @@
         },
         {
             "name": "sos reflect",
-            "game_description": "Casts Reflect when HP is low.",
-            "description": "Grants the user unremovable Reflect status while in HP Critical.",
+            "description": "Casts Reflect when HP is low.",
+            "effect": "Grants the user unremovable Reflect status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 1000,
@@ -3377,8 +3329,8 @@
         },
         {
             "name": "sos haste",
-            "game_description": "Casts Haste when HP is low.",
-            "description": "Grants the user unremovable Haste status while in HP Critical.",
+            "description": "Casts Haste when HP is low.",
+            "effect": "Grants the user unremovable Haste status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 20000,
@@ -3407,8 +3359,8 @@
         },
         {
             "name": "sos regen",
-            "game_description": "Casts Regen when HP is low.",
-            "description": "Grants the user unremovable Regen status while in HP Critical.",
+            "description": "Casts Regen when HP is low.",
+            "effect": "Grants the user unremovable Regen status while in HP Critical.",
             "type": "armor",
             "category": "sos-status",
             "value": 20000,
@@ -3437,8 +3389,8 @@
         },
         {
             "name": "auto-shell",
-            "game_description": "Automatically casts Shell on user.",
-            "description": "Always grants the user unremovable Shell status.",
+            "description": "Automatically casts Shell on user.",
+            "effect": "Always grants the user unremovable Shell status.",
             "type": "armor",
             "category": "auto-status",
             "value": 22000,
@@ -3467,8 +3419,8 @@
         },
         {
             "name": "auto-protect",
-            "game_description": "Automatically casts Protect on user.",
-            "description": "Always grants the user unremovable Protect status.",
+            "description": "Automatically casts Protect on user.",
+            "effect": "Always grants the user unremovable Protect status.",
             "type": "armor",
             "category": "auto-status",
             "value": 22000,
@@ -3497,8 +3449,8 @@
         },
         {
             "name": "auto-reflect",
-            "game_description": "Automatically casts Reflect on user.",
-            "description": "Always grants the user unremovable Reflect status.",
+            "description": "Automatically casts Reflect on user.",
+            "effect": "Always grants the user unremovable Reflect status.",
             "type": "armor",
             "category": "auto-status",
             "value": 14000,
@@ -3527,8 +3479,8 @@
         },
         {
             "name": "auto-haste",
-            "game_description": "Automatically casts Haste on user.",
-            "description": "Always grants the user unremovable Haste status.",
+            "description": "Automatically casts Haste on user.",
+            "effect": "Always grants the user unremovable Haste status.",
             "type": "armor",
             "category": "auto-status",
             "value": 50000,
@@ -3557,8 +3509,8 @@
         },
         {
             "name": "auto-regen",
-            "game_description": "Automatically casts Regen on user.",
-            "description": "Always grants the user unremovable Regen status.",
+            "description": "Automatically casts Regen on user.",
+            "effect": "Always grants the user unremovable Regen status.",
             "type": "armor",
             "category": "auto-status",
             "value": 60000,
@@ -3587,8 +3539,8 @@
         },
         {
             "name": "defense +3%",
-            "game_description": "Reduces damage from physical attacks by 3%.",
-            "description": "Reduces the user's damage taken from physical attacks by 3%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from physical attacks by 3%.",
+            "effect": "Reduces the user's damage taken from physical attacks by 3%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 200,
@@ -3615,18 +3567,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -3,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -3.0
                     }
                 ]
             }
         },
         {
             "name": "defense +5%",
-            "game_description": "Reduces damage from physical attacks by 5%.",
-            "description": "Reduces the user's damage taken from physical attacks by 5%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from physical attacks by 5%.",
+            "effect": "Reduces the user's damage taken from physical attacks by 5%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 500,
@@ -3653,18 +3603,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -5,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -5.0
                     }
                 ]
             }
         },
         {
             "name": "defense +10%",
-            "game_description": "Reduces damage from physical attacks by 10%.",
-            "description": "Reduces the user's damage taken from physical attacks by 10%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from physical attacks by 10%.",
+            "effect": "Reduces the user's damage taken from physical attacks by 10%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 5000,
@@ -3691,18 +3639,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -10,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -10.0
                     }
                 ]
             }
         },
         {
             "name": "defense +20%",
-            "game_description": "Reduces damage from physical attacks by 20%.",
-            "description": "Reduces the user's damage taken from physical attacks by 20%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from physical attacks by 20%.",
+            "effect": "Reduces the user's damage taken from physical attacks by 20%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 10000,
@@ -3729,18 +3675,16 @@
                 "other_changes": [
                     {
                         "name": "physical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -20,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -20.0
                     }
                 ]
             }
         },
         {
             "name": "magic def +3%",
-            "game_description": "Reduces damage from magical attacks by 3%.",
-            "description": "Reduces the user's damage taken from magical attacks by 3%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from magical attacks by 3%.",
+            "effect": "Reduces the user's damage taken from magical attacks by 3%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 200,
@@ -3767,18 +3711,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -3,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -3.0
                     }
                 ]
             }
         },
         {
             "name": "magic def +5%",
-            "game_description": "Reduces damage from magical attacks by 5%.",
-            "description": "Reduces the user's damage taken from magical attacks by 5%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from magical attacks by 5%.",
+            "effect": "Reduces the user's damage taken from magical attacks by 5%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 500,
@@ -3805,18 +3747,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -5,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -5.0
                     }
                 ]
             }
         },
         {
             "name": "magic def +10%",
-            "game_description": "Reduces damage from magical attacks by 10%.",
-            "description": "Reduces the user's damage taken from magical attacks by 10%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from magical attacks by 10%.",
+            "effect": "Reduces the user's damage taken from magical attacks by 10%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 5000,
@@ -3843,18 +3783,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -10,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -10.0
                     }
                 ]
             }
         },
         {
             "name": "magic def +20%",
-            "game_description": "Reduces damage from magical attacks by 20%.",
-            "description": "Reduces the user's damage taken from magical attacks by 20%. Stacks additively with other 'Defense +x%' abilities.",
+            "description": "Reduces damage from magical attacks by 20%.",
+            "effect": "Reduces the user's damage taken from magical attacks by 20%. Stacks additively with other 'Defense +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 10000,
@@ -3881,18 +3819,16 @@
                 "other_changes": [
                     {
                         "name": "magical-damage-taken",
-                        "calculation_type": "additively",
-                        "added_percentage": -20,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": -20.0
                     }
                 ]
             }
         },
         {
             "name": "hp +5%",
-            "game_description": "Raises max HP by 5%.",
-            "description": "Raises the users's max HP by 5%. Stacks additively with other 'HP +x%' abilities.",
+            "description": "Raises max HP by 5%.",
+            "effect": "Raises the users's max HP by 5%. Stacks additively with other 'HP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 100,
@@ -3918,10 +3854,8 @@
                 "stat_changes": [
                     {
                         "name": "hp",
-                        "calculation_type": "additively",
-                        "added_percentage": 5,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 5.0
                     }
                 ],
                 "other_changes": []
@@ -3929,8 +3863,8 @@
         },
         {
             "name": "hp +10%",
-            "game_description": "Raises max HP by 10%.",
-            "description": "Raises the users's max HP by 10%. Stacks additively with other 'HP +x%' abilities.",
+            "description": "Raises max HP by 10%.",
+            "effect": "Raises the users's max HP by 10%. Stacks additively with other 'HP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 1000,
@@ -3956,10 +3890,8 @@
                 "stat_changes": [
                     {
                         "name": "hp",
-                        "calculation_type": "additively",
-                        "added_percentage": 10,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 10.0
                     }
                 ],
                 "other_changes": []
@@ -3967,8 +3899,8 @@
         },
         {
             "name": "hp +20%",
-            "game_description": "Raises max HP by 20%.",
-            "description": "Raises the users's max HP by 20%. Stacks additively with other 'HP +x%' abilities.",
+            "description": "Raises max HP by 20%.",
+            "effect": "Raises the users's max HP by 20%. Stacks additively with other 'HP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 6000,
@@ -3994,10 +3926,8 @@
                 "stat_changes": [
                     {
                         "name": "hp",
-                        "calculation_type": "additively",
-                        "added_percentage": 20,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 20.0
                     }
                 ],
                 "other_changes": []
@@ -4005,8 +3935,8 @@
         },
         {
             "name": "hp +30%",
-            "game_description": "Raises max HP by 30%.",
-            "description": "Raises the users's max HP by 30%. Stacks additively with other 'HP +x%' abilities.",
+            "description": "Raises max HP by 30%.",
+            "effect": "Raises the users's max HP by 30%. Stacks additively with other 'HP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 15000,
@@ -4032,10 +3962,8 @@
                 "stat_changes": [
                     {
                         "name": "hp",
-                        "calculation_type": "additively",
-                        "added_percentage": 30,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 30.0
                     }
                 ],
                 "other_changes": []
@@ -4043,8 +3971,8 @@
         },
         {
             "name": "mp +5%",
-            "game_description": "Raises max MP by 5%.",
-            "description": "Raises the users's max MP by 5%. Stacks additively with other 'MP +x%' abilities.",
+            "description": "Raises max MP by 5%.",
+            "effect": "Raises the users's max MP by 5%. Stacks additively with other 'MP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 1200,
@@ -4070,10 +3998,8 @@
                 "stat_changes": [
                     {
                         "name": "mp",
-                        "calculation_type": "additively",
-                        "added_percentage": 5,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 5.0
                     }
                 ],
                 "other_changes": []
@@ -4081,8 +4007,8 @@
         },
         {
             "name": "mp +10%",
-            "game_description": "Raises max MP by 10%.",
-            "description": "Raises the users's max MP by 10%. Stacks additively with other 'MP +x%' abilities.",
+            "description": "Raises max MP by 10%.",
+            "effect": "Raises the users's max MP by 10%. Stacks additively with other 'MP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 6000,
@@ -4108,10 +4034,8 @@
                 "stat_changes": [
                     {
                         "name": "mp",
-                        "calculation_type": "additively",
-                        "added_percentage": 10,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 10.0
                     }
                 ],
                 "other_changes": []
@@ -4119,8 +4043,8 @@
         },
         {
             "name": "mp +20%",
-            "game_description": "Raises max MP by 20%.",
-            "description": "Raises the users's max MP by 20%. Stacks additively with other 'MP +x%' abilities.",
+            "description": "Raises max MP by 20%.",
+            "effect": "Raises the users's max MP by 20%. Stacks additively with other 'MP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 8000,
@@ -4146,10 +4070,8 @@
                 "stat_changes": [
                     {
                         "name": "mp",
-                        "calculation_type": "additively",
-                        "added_percentage": 20,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 20.0
                     }
                 ],
                 "other_changes": []
@@ -4157,8 +4079,8 @@
         },
         {
             "name": "mp +30%",
-            "game_description": "Raises max MP by 30%.",
-            "description": "Raises the users's max MP by 30%. Stacks additively with other 'MP +x%' abilities.",
+            "description": "Raises max MP by 30%.",
+            "effect": "Raises the users's max MP by 30%. Stacks additively with other 'MP +x%' abilities.",
             "type": "armor",
             "category": "stat +x%",
             "value": 18000,
@@ -4184,10 +4106,8 @@
                 "stat_changes": [
                     {
                         "name": "mp",
-                        "calculation_type": "additively",
-                        "added_percentage": 30,
-                        "change_factor": null,
-                        "set_value": null
+                        "calculation_type": "added-percentage",
+                        "value": 30.0
                     }
                 ],
                 "other_changes": []
@@ -4195,8 +4115,8 @@
         },
         {
             "name": "auto-potion",
-            "game_description": "Automatically use items to recover HP when damaged.",
-            "description": "If the user is in HP Critical after an attack, they will use either a Potion, Hi-Potion, or X-Potion in this priority order, if the item is in your inventory.",
+            "description": "Automatically use items to recover HP when damaged.",
+            "effect": "If the user is in HP Critical after an attack, they will use either a Potion, Hi-Potion, or X-Potion in this priority order, if the item is in your inventory.",
             "type": "armor",
             "category": "auto-cure",
             "value": 12000,
@@ -4225,8 +4145,8 @@
         },
         {
             "name": "auto-med",
-            "game_description": "Automatically use items to cure status ailments.",
-            "description": "Causes the user to automatically use an item to remove status ailments that are inflicted on them. If multiple ailments are inflicted at once, or if the item for the ailment in question is not available, a Remedy will be used; otherwise, the status recovery item for that particular status will be used. Does not function if the user is inflicted with a status that incapacitates them or makes them uncontrollable.",
+            "description": "Automatically use items to cure status ailments.",
+            "effect": "Causes the user to automatically use an item to remove status ailments that are inflicted on them. If multiple ailments are inflicted at once, or if the item for the ailment in question is not available, a Remedy will be used; otherwise, the status recovery item for that particular status will be used. Does not function if the user is inflicted with a status that incapacitates them or makes them uncontrollable.",
             "type": "armor",
             "category": "auto-cure",
             "value": 10000,
@@ -4255,8 +4175,8 @@
         },
         {
             "name": "auto-phoenix",
-            "game_description": "Automatically use Phoenix Down on KO'd user.",
-            "description": "If an ally in the active party is KO'd, the user will use a Phoenix Down on the KO'd user. This can trigger multiple times from the same attack if more than one user is KO'd, but the user cannot revive themselves this way.",
+            "description": "Automatically use Phoenix Down on KO'd user.",
+            "effect": "If an ally in the active party is KO'd, the user will use a Phoenix Down on the KO'd user. This can trigger multiple times from the same attack if more than one user is KO'd, but the user cannot revive themselves this way.",
             "type": "armor",
             "category": "auto-cure",
             "value": 20000,
@@ -4285,8 +4205,8 @@
         },
         {
             "name": "pickpocket",
-            "game_description": "Improves odds of stealing rare items.",
-            "description": "Raises the user's chance of stealing the rare item from 25% to 50%.",
+            "description": "Improves odds of stealing rare items.",
+            "effect": "Raises the user's chance of stealing the rare item from 25% to 50%.",
             "type": "armor",
             "category": "",
             "value": 40000,
@@ -4313,25 +4233,21 @@
                 "other_changes": [
                     {
                         "name": "common-steal-rate",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 50
+                        "calculation_type": "set-value",
+                        "value": 50.0
                     },
                     {
                         "name": "rare-steal-rate",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 50
+                        "calculation_type": "set-value",
+                        "value": 50.0
                     }
                 ]
             }
         },
         {
             "name": "master thief",
-            "game_description": "Steal only rare items.",
-            "description": "The user always steals the rare item.",
+            "description": "Steal only rare items.",
+            "effect": "The user always steals the rare item.",
             "type": "armor",
             "category": "",
             "value": 60000,
@@ -4358,25 +4274,21 @@
                 "other_changes": [
                     {
                         "name": "common-steal-rate",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 0
+                        "calculation_type": "set-value",
+                        "value": 0.0
                     },
                     {
                         "name": "rare-steal-rate",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 100
+                        "calculation_type": "set-value",
+                        "value": 100.0
                     }
                 ]
             }
         },
         {
             "name": "hp stroll",
-            "game_description": "Automatically recover HP while walking.",
-            "description": "The user's HP gradually increases while walking in the field.",
+            "description": "Automatically recover HP while walking.",
+            "effect": "The user's HP gradually increases while walking in the field.",
             "type": "armor",
             "category": "",
             "value": 6000,
@@ -4405,8 +4317,8 @@
         },
         {
             "name": "mp stroll",
-            "game_description": "Automatically recover MP while walking.",
-            "description": "The user's MP gradually increases while walking in the field.",
+            "description": "Automatically recover MP while walking.",
+            "effect": "The user's MP gradually increases while walking in the field.",
             "type": "armor",
             "category": "",
             "value": 6000,
@@ -4435,8 +4347,8 @@
         },
         {
             "name": "no encounters",
-            "game_description": "No random enemy encounters.",
-            "description": "Random enemy encounters are prevented, if an armor with this ability is equipped. Cannot prevent fixed encounters, such as bosses and scripted fights.",
+            "description": "No random enemy encounters.",
+            "effect": "Random enemy encounters are prevented, if an armor with this ability is equipped. Cannot prevent fixed encounters, such as bosses and scripted fights.",
             "type": "armor",
             "category": "",
             "value": 6500,
@@ -4463,18 +4375,16 @@
                 "other_changes": [
                     {
                         "name": "encounter-rate",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 0
+                        "calculation_type": "set-value",
+                        "value": 0.0
                     }
                 ]
             }
         },
         {
             "name": "break mp limit",
-            "game_description": "Allows max MP to exceed 999.",
-            "description": "Allows the user's max MP to break the cap of 999, up to a maximum of 9,999.",
+            "description": "Allows max MP to exceed 999.",
+            "effect": "Allows the user's max MP to break the cap of 999, up to a maximum of 9,999.",
             "type": "armor",
             "category": "break-limit",
             "value": 0,
@@ -4501,18 +4411,16 @@
                 "other_changes": [
                     {
                         "name": "mp-limit",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 9999
+                        "calculation_type": "set-value",
+                        "value": 9999.0
                     }
                 ]
             }
         },
         {
             "name": "break hp limit",
-            "game_description": "Allows max HP to exceed 9999.",
-            "description": "Allows the user's max HP to break the cap of 9,999, up to a maximum of 99,999.",
+            "description": "Allows max HP to exceed 9999.",
+            "effect": "Allows the user's max HP to break the cap of 9,999, up to a maximum of 99,999.",
             "type": "armor",
             "category": "break-limit",
             "value": 0,
@@ -4539,18 +4447,16 @@
                 "other_changes": [
                     {
                         "name": "hp-limit",
-                        "calculation_type": "fixed",
-                        "added_percentage": null,
-                        "change_factor": null,
-                        "set_value": 99999
+                        "calculation_type": "set-value",
+                        "value": 99999.0
                     }
                 ]
             }
         },
         {
             "name": "ribbon",
-            "game_description": "Almost completely protects against all status ailments.",
-            "description": "Grants the user immunity to all status ailments except Death, Power Break, Magic Break, Armor Break, Mental Break, Curse, Delay, and Eject.",
+            "description": "Almost completely protects against all status ailments.",
+            "effect": "Grants the user immunity to all status ailments except Death, Power Break, Magic Break, Armor Break, Mental Break, Curse, Delay, and Eject.",
             "type": "armor",
             "category": "status-protection",
             "value": 5000,

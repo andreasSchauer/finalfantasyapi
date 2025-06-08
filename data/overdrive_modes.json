@@ -2,9 +2,10 @@
     "overdrive_modes_data": [
         {
             "name": "stoic",
-            "description": "The gauge fills when the character takes damage from an enemy.",
+            "description": "Charges when character takes damage.",
+            "effect": "The gauge fills when the character takes damage from an enemy.",
             "type": "formula",
-            "fill_rate": 0.0,
+            "fill_rate": null,
             "actions_to_learn": {
                 "Tidus": 0,
                 "Yuna": 0,
@@ -17,9 +18,10 @@
         },
         {
             "name": "warrior",
-            "description": "The gauge fills when the character damages an enemy (excluding items and overdrives).",
+            "description": "Charges when character damages an enemy.",
+            "effect": "The gauge fills when the character damages an enemy (excluding items and overdrives).",
             "type": "formula",
-            "fill_rate": 0.0,
+            "fill_rate": null,
             "actions_to_learn": {
                 "Tidus": 150,
                 "Yuna": 200,
@@ -32,9 +34,10 @@
         },
         {
             "name": "comrade",
-            "description": "The gauge fills when an ally takes damage.",
+            "description": "Charges when allies take damage.",
+            "effect": "The gauge fills when an ally takes damage.",
             "type": "formula",
-            "fill_rate": 0.0,
+            "fill_rate": null,
             "actions_to_learn": {
                 "Tidus": 300,
                 "Yuna": 240,
@@ -47,9 +50,10 @@
         },
         {
             "name": "healer",
-            "description": "The gauge fills when healing an ally, even with full HP.",
+            "description": "Charges when character heals allies.",
+            "effect": "The gauge fills when healing an ally, even with full HP.",
             "type": "formula",
-            "fill_rate": 0.0,
+            "fill_rate": null,
             "actions_to_learn": {
                 "Tidus": 80,
                 "Yuna": 60,
@@ -62,7 +66,8 @@
         },
         {
             "name": "tactician",
-            "description": "The gauge fills when the character inflicts status ailments onto an enemy.",
+            "description": "Charges when status attacks succeeds.",
+            "effect": "The gauge fills when the character inflicts status ailments onto an enemy.",
             "type": "per action",
             "fill_rate": 0.16,
             "actions_to_learn": {
@@ -77,7 +82,8 @@
         },
         {
             "name": "victim",
-            "description": "The gauge fills when an enemy inflicts status ailments onto the character.",
+            "description": "Charges when character hit with status attack.",
+            "effect": "The gauge fills when an enemy inflicts status ailments onto the character.",
             "type": "per action",
             "fill_rate": 0.16,
             "actions_to_learn": {
@@ -92,7 +98,8 @@
         },
         {
             "name": "dancer",
-            "description": "The gauge fills when the character evades an enemy attack.",
+            "description": "Charges when character evades attack.",
+            "effect": "The gauge fills when the character evades an enemy attack.",
             "type": "per action",
             "fill_rate": 0.16,
             "actions_to_learn": {
@@ -107,7 +114,8 @@
         },
         {
             "name": "avenger",
-            "description": "The gauge fills when an enemy KO's an ally.",
+            "description": "Charges when ally gets KO'd.",
+            "effect": "The gauge fills when an enemy KO's an ally.",
             "type": "per action",
             "fill_rate": 0.30,
             "actions_to_learn": {
@@ -122,7 +130,8 @@
         },
         {
             "name": "slayer",
-            "description": "The gauge fills when the character kills an enemy, including via stealing from Machina enemies and treasure chests. Weapons of Warrior Monks, Fallen Monks, Kimahri and Yojimbo (boss battles) also count.",
+            "description": "Charges when character defeats an enemy.",
+            "effect": "The gauge fills when the character kills an enemy, including via stealing from Machina enemies and treasure chests. Weapons of Warrior Monks, Fallen Monks, Kimahri and Yojimbo (boss battles) also count.",
             "type": "per action",
             "fill_rate": 0.20,
             "actions_to_learn": {
@@ -137,7 +146,8 @@
         },
         {
             "name": "hero",
-            "description": "The gauge fills when the character kills an enemy with at least 10,000 HP, or at least 20x more HP than the estimated damage. For learning this mode, the amount is only 3x more HP. Estimated damage is damage dealt by the character's 'Attack' command, regardless of enemy Defense.",
+            "description": "Charges when character defeats a powerful enemy.",
+            "effect": "The gauge fills when the character kills an enemy with at least 10,000 HP, or at least 20x more HP than the estimated damage. For learning this mode, the amount is only 3x more HP. Estimated damage is damage dealt by the character's 'Attack' command, regardless of enemy Defense.",
             "type": "per action",
             "fill_rate": 0.20,
             "actions_to_learn": {
@@ -152,7 +162,8 @@
         },
         {
             "name": "rook",
-            "description": "The gauge fills when the character reduces or nullifies the damage inflicted by an enemy with Nulspells, Protect, Shell, and Reflect",
+            "description": "Charge when character magically blocks attacks.",
+            "effect": "The gauge fills when the character reduces or nullifies the damage inflicted by an enemy with Nulspells, Protect, Shell, and Reflect",
             "type": "per action",
             "fill_rate": 0.10,
             "actions_to_learn": {
@@ -167,7 +178,8 @@
         },
         {
             "name": "victor",
-            "description": "The gauge fills when winning a battle while being an active fighter.",
+            "description": "Charges when party wins a battle.",
+            "effect": "The gauge fills when winning a battle while being an active fighter.",
             "type": "per action",
             "fill_rate": 0.20,
             "actions_to_learn": {
@@ -182,7 +194,8 @@
         },
         {
             "name": "coward",
-            "description": "The gauge fills when the character escapes from battle. Using 'Flee' is also counted, regardless of who uses it.",
+            "description": "Charges when character flees from battle.",
+            "effect": "The gauge fills when the character escapes from battle. Using 'Flee' is also counted, regardless of who uses it.",
             "type": "per action",
             "fill_rate": 0.10,
             "actions_to_learn": {
@@ -197,7 +210,8 @@
         },
         {
             "name": "ally",
-            "description": "The gauge fills at the start of the character's turn.",
+            "description": "Charges on character's turn.",
+            "effect": "The gauge fills at the start of the character's turn.",
             "type": "per action",
             "fill_rate": 0.03,
             "actions_to_learn": {
@@ -212,7 +226,8 @@
         },
         {
             "name": "sufferer",
-            "description": "The gauge fills at the start of the character's turn while afflicted with a status ailment.",
+            "description": "Charges while character suffers status ailments.",
+            "effect": "The gauge fills at the start of the character's turn while afflicted with a status ailment.",
             "type": "per action",
             "fill_rate": 0.16,
             "actions_to_learn": {
@@ -227,7 +242,8 @@
         },
         {
             "name": "daredevil",
-            "description": "The gauge fills at the start of the character's turn while in 'HP Critical' status.",
+            "description": "Charges while character fights with low HP.",
+            "effect": "The gauge fills at the start of the character's turn while in 'HP Critical' status.",
             "type": "per action",
             "fill_rate": 0.05,
             "actions_to_learn": {
@@ -242,7 +258,8 @@
         },
         {
             "name": "loner",
-            "description": "The gauge fills at the start of the character's turn while fighting alone.",
+            "description": "Charges when character fights alone.",
+            "effect": "The gauge fills at the start of the character's turn while fighting alone.",
             "type": "per action",
             "fill_rate": 0.16,
             "actions_to_learn": {

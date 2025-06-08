@@ -2,56 +2,56 @@
     "commands_data": [
         {
             "name": "summon",
-            "game_description": "Summon an aeon.",
             "description": "Summon an aeon.",
+            "effect": "Summon an aeon.",
             "used_by": ["yuna"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "skill",
-            "game_description": "Use Skills.",
             "description": "Use Skills.",
+            "effect": "Use Skills.",
             "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "special",
-            "game_description": "Use Special Abilities.",
             "description": "Use Special Abilities.",
+            "effect": "Use Special Abilities.",
             "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "wht magic",
-            "game_description": "Cast white magic spells.",
             "description": "Cast white magic spells.",
+            "effect": "Cast white magic spells.",
             "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "blk magic",
-            "game_description": "Cast black magic spells.",
             "description": "Cast black magic spells.",
+            "effect": "Cast black magic spells.",
             "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "item",
-            "game_description": "Use an item.",
             "description": "Use an item.",
+            "effect": "Use an item.",
             "used_by": ["characters"],
             "rank": 2,
             "possible_abilities": []
         },
         {
             "name": "pay",
-            "game_description": "Pay Yojimbo for his services.",
-            "description": "Pay Gil to Yojimbo in order for him to execute one of his abilities. 0 Gil to dismiss.",
+            "description": "Pay Yojimbo for his services.",
+            "effect": "Pay Gil to Yojimbo in order for him to execute one of his abilities. 0 Gil to dismiss.",
             "used_by": ["yojimbo"],
             "rank": 3,
             "possible_abilities": [
@@ -63,8 +63,8 @@
         },
         {
             "name": "do as you will.",
-            "game_description": "Let the Sisters do as they please.",
-            "description": "Ask the Magus Sisters to use a wide range of actions. Cindy may use Life-spells, Black Magic, attack. Sandy may use her physical or special attack, or cast reflect on Cindy. Mindy will use her physical or special attack. If Cindy has Reflect, Mindy will use Black Magic on her.",
+            "description": "Let the Sisters do as they please.",
+            "effect": "Ask the Magus Sisters to use a wide range of actions. Cindy may use Life-spells, Black Magic, attack. Sandy may use her physical or special attack, or cast reflect on Cindy. Mindy will use her physical or special attack. If Cindy has Reflect, Mindy will use Black Magic on her.",
             "used_by": ["cindy", "sandy", "mindy"],
             "rank": null,
             "possible_abilities": [
@@ -84,8 +84,8 @@
         },
         {
             "name": "one more time.",
-            "game_description": "Ask the Sisters to repeat their last move.",
-            "description": "Ask the Magus Sisters to repeat their last move. They might use their physical or special attack instead.",
+            "description": "Ask the Sisters to repeat their last move.",
+            "effect": "Ask the Magus Sisters to repeat their last move. They might use their physical or special attack instead.",
             "used_by": ["cindy", "sandy", "mindy"],
             "rank": null,
             "possible_abilities": [
@@ -105,8 +105,8 @@
         },
         {
             "name": "fight!",
-            "game_description": "Ask the Sisters to physically attack.",
-            "description": "Ask the Magus Sisters to attack. They will either use their physical, or their special attack.",
+            "description": "Ask the Sisters to physically attack.",
+            "effect": "Ask the Magus Sisters to attack. They will either use their physical, or their special attack.",
             "used_by": ["cindy", "sandy", "mindy"],
             "rank": null,
             "possible_abilities": [
@@ -126,8 +126,8 @@
         },
         {
             "name": "go, go!",
-            "game_description": "Ask the Sisters to use offensive magic and skills.",
-            "description": "Ask Cindy to use black magic. She sometimes uses Pray first.",
+            "description": "Ask the Sisters to use offensive magic and skills.",
+            "effect": "Ask Cindy to use black magic. She sometimes uses Pray first.",
             "used_by": ["cindy"],
             "rank": null,
             "possible_abilities": [
@@ -139,8 +139,8 @@
         },
         {
             "name": "help each other!",
-            "game_description": "Ask the Sisters to use healing magic on each other.",
-            "description": "Ask Cindy to cure or revive her sisters, or to cast Auto-Life.",
+            "description": "Ask the Sisters to use healing magic on each other.",
+            "effect": "Ask Cindy to cure or revive her sisters, or to cast Auto-Life.",
             "used_by": ["cindy"],
             "rank": null,
             "possible_abilities": [
@@ -152,8 +152,8 @@
         },
         {
             "name": "defense!",
-            "game_description": "Ask the Sisters to use defensive and support magic.",
-            "description": "Ask Sandy to use Haste, Protect, and Shell, or to cure her sisters.",
+            "description": "Ask the Sisters to use defensive and support magic.",
+            "effect": "Ask Sandy to use Haste, Protect, and Shell, or to cure her sisters.",
             "used_by": ["sandy"],
             "rank": null,
             "possible_abilities": [
@@ -165,8 +165,8 @@
         },
         {
             "name": "are you alright?",
-            "game_description": "Ask the Sisters to absorb HP and MP from the enemy.",
-            "description": "Ask Mindy to absorb HP and MP, if hers are low.",
+            "description": "Ask the Sisters to absorb HP and MP from the enemy.",
+            "effect": "Ask Mindy to absorb HP and MP, if hers are low.",
             "used_by": ["mindy"],
             "rank": null,
             "possible_abilities": [
@@ -178,8 +178,8 @@
         },
         {
             "name": "combine powers!",
-            "game_description": "Ask the Sisters for their combined attack.",
-            "description": "The Magus Sisters will use Delta-Attack, if all their Overdrive Gauges are full.",
+            "description": "Ask the Sisters for their combined attack.",
+            "effect": "The Magus Sisters will use Delta-Attack, if all their Overdrive Gauges are full.",
             "used_by": ["cindy", "sandy", "mindy"],
             "rank": null,
             "possible_abilities": [

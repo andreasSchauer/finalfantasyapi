@@ -1,180 +1,220 @@
 {
-    "default_abilities_data": {
-        "characters": [
-            {
-                "name": "tidus",
-                "skills": [],
-                "special": [],
-                "white magic": [],
-                "black magic": [],
-                "overdrives": ["spiral cut"],
-                "commands": ["attack", "skills", "special", "wht magic", "blk magic", "item", "defend", "change weapon", "change armor", "escape", "switch"]
-            },
-            {
-                "name": "yuna",
-                "skills": [],
-                "special": [],
-                "white magic": ["cure", "esuna"],
-                "black magic": [],
-                "overdrives": ["grand summon"],
-                "commands": ["attack", "summon", "skills", "special", "wht magic", "blk magic", "item", "defend", "change weapon", "change armor", "escape", "switch"]
-            },
-            {
-                "name": "wakka",
-                "skills": ["dark attack"],
-                "special": [],
-                "white magic": [],
-                "black magic": [],
-                "overdrives": ["element reels"],
-                "commands": ["attack", "skills", "special", "wht magic", "blk magic", "item", "defend", "change weapon", "change armor", "escape", "switch"]
-            },
-            {
-                "name": "lulu",
-                "skills": [],
-                "special": [],
-                "white magic": [],
-                "black magic": ["fire", "thunder", "water", "blizzard"],
-                "overdrives": ["fire fury", "thunder fury", "water fury", "blizzard fury"],
-                "commands": ["attack", "skills", "special", "wht magic", "blk magic", "item", "defend", "change weapon", "change armor", "escape", "switch"]
-            },
-            {
-                "name": "kimahri",
-                "skills": [],
-                "special": ["lancet"],
-                "white magic": [],
-                "black magic": [],
-                "overdrives": ["jump"],
-                "commands": ["attack", "skills", "special", "wht magic", "blk magic", "item", "defend", "change weapon", "change armor", "escape", "switch"]
-            },
-            {
-                "name": "auron",
-                "skills": ["power break"],
-                "special": [],
-                "white magic": [],
-                "black magic": [],
-                "overdrives": ["dragon fang"],
-                "commands": ["attack", "skills", "special", "wht magic", "blk magic", "item", "defend", "change weapon", "change armor", "escape", "switch"]
-            },
-            {
-                "name": "rikku",
-                "skills": [],
-                "special": ["steal", "use"],
-                "white magic": [],
-                "black magic": [],
-                "overdrives": ["mix"],
-                "commands": ["attack", "skills", "special", "wht magic", "blk magic", "item", "defend", "change weapon", "change armor", "escape", "switch"]
-            },
-            {
-                "name": "seymour",
-                "skills": [],
-                "special": [],
-                "white magic": ["cure", "cura", "scan", "nulblaze", "nulfrost", "nulshock", "nultide"],
-                "black magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara"],
-                "overdrives": ["requiem"],
-                "commands": ["attack", "wht magic", "blk magic", "item", "defend", "switch"]
-            }
-        ],
-        "aeons": [
-            {
-                "name": "valefor",
-                "skills": [],
-                "special": [],
-                "white magic": [],
-                "black magic": ["fire", "thunder", "water", "blizzard"],
-                "overdrives": ["energy ray"],
-                "aeon_abilities": ["sonic wings"],
-                "commands": ["attack", "shield", "boost", "dismiss"]
-            },
-            {
-                "name": "ifrit",
-                "skills": [],
-                "special": [],
-                "white magic": ["nulblaze", "nulfrost"],
-                "black magic": ["fire"],
-                "overdrives": ["hellfire"],
-                "aeon_abilities": ["meteor strike"],
-                "commands": ["attack", "shield", "boost", "dismiss"]
-            },
-            {
-                "name": "ixion",
-                "skills": [],
-                "special": [],
-                "white magic": ["nulshock", "nultide"],
-                "black magic": ["thunder", "thundara"],
-                "overdrives": ["thor's hammer"],
-                "aeon_abilities": ["aerospark"],
-                "commands": ["attack", "shield", "boost", "dismiss"]
-            },
-            {
-                "name": "shiva",
-                "skills": [],
-                "special": [],
-                "white magic": ["nulblaze", "nulfrost"],
-                "black magic": ["blizzard", "blizzara"],
-                "overdrives": ["diamond dust"],
-                "aeon_abilities": ["heavenly strike"],
-                "commands": ["attack", "shield", "boost", "dismiss"]
-            },
-            {
-                "name": "bahamut",
-                "skills": [],
-                "special": [],
-                "white magic": [],
-                "black magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga"],
-                "overdrives": ["mega flare"],
-                "aeon_abilities": ["impulse"],
-                "commands": ["attack", "shield", "boost", "dismiss"]
-            },
-            {
-                "name": "anima",
-                "skills": ["sleep attack", "silence attack", "dark attack", "sleep buster", "silence buster", "dark buster", "zombie attack"],
-                "special": [],
-                "white magic": [],
-                "black magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga", "bio", "death"],
-                "overdrives": ["oblivion"],
-                "aeon_abilities": ["pain"],
-                "commands": ["attack", "shield", "boost", "dismiss"]
-            },
-            {
-                "name": "yojimbo",
-                "skills": [],
-                "special": [],
-                "white magic": [],
-                "black magic": [],
-                "overdrives": [],
-                "aeon_abilities": ["daigoro", "kozuka", "wakizashi", "zanmato"],
-                "commands": ["pay", "dismiss"]
-            },
-            {
-                "name": "cindy",
-                "skills": [],
-                "special": ["pray"],
-                "white magic": ["cure", "cura", "curaga", "life", "full-life", "auto-life"],
-                "black magic": ["firaga", "thundaga", "waterga", "blizzaga", "drain", "osmose", "flare", "ultima"],
-                "overdrives": ["delta attack"],
-                "aeon_abilities": ["attack", "camisade", "taking a break..."],
-                "commands": ["do as you will.", "one more time.", "fight!", "go, go!", "help each other!", "combine powers!", "dismiss"]
-            },
-            {
-                "name": "sandy",
-                "skills": [],
-                "special": [],
-                "white magic": ["cure", "cura", "curaga", "haste", "protect", "shell", "reflect", "nulall"],
-                "black magic": [],
-                "overdrives": ["delta attack"],
-                "aeon_abilities": ["attack", "razzia", "taking a break..."],
-                "commands": ["do as you will.", "one more time.", "fight!", "defense!", "dismiss"]
-            },
-            {
-                "name": "mindy",
-                "skills": [],
-                "special": ["lancet", "doublecast"],
-                "white magic": [],
-                "black magic": ["fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga",  "drain", "osmose", "bio", "death", "flare"],
-                "overdrives": ["delta attack"],
-                "aeon_abilities": ["attack", "passado", "taking a break..."],
-                "commands": ["do as you will.", "one more time.", "fight!", "are you alright?", "dismiss"]
-            }
-        ]
-    }
+    "default_abilities_data": [
+        {
+            "name": "tidus",
+            "category": "character",
+            "skills": [],
+            "special": [],
+            "white_magic": [],
+            "black_magic": [],
+            "overdrives": ["spiral cut"],
+            "aeon_abilities": [],
+            "commands": ["item"],
+            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+        },
+        {
+            "name": "yuna",
+            "category": "character",
+            "skills": [],
+            "special": [],
+            "white_magic": ["cure", "esuna"],
+            "black_magic": [],
+            "overdrives": ["grand summon"],
+            "aeon_abilities": [],
+            "commands": ["wht magic", "item"],
+            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+        },
+        {
+            "name": "wakka",
+            "category": "character",
+            "skills": ["dark attack"],
+            "special": [],
+            "white_magic": [],
+            "black_magic": [],
+            "overdrives": ["element reels"],
+            "aeon_abilities": [],
+            "commands": ["skills", "item"],
+            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+        },
+        {
+            "name": "lulu",
+            "category": "character",
+            "skills": [],
+            "special": [],
+            "white_magic": [],
+            "black_magic": ["fire", "thunder", "water", "blizzard"],
+            "overdrives": ["fire fury", "thunder fury", "water fury", "blizzard fury"],
+            "aeon_abilities": [],
+            "commands": ["blk magic", "item"],
+            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+        },
+        {
+            "name": "kimahri",
+            "category": "character",
+            "skills": [],
+            "special": ["lancet"],
+            "white_magic": [],
+            "black_magic": [],
+            "overdrives": ["jump"],
+            "aeon_abilities": [],
+            "commands": ["special", "item"],
+            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+        },
+        {
+            "name": "auron",
+            "category": "character",
+            "skills": ["power break"],
+            "special": [],
+            "white_magic": [],
+            "black_magic": [],
+            "overdrives": ["dragon fang"],
+            "aeon_abilities": [],
+            "commands": ["skills", "item"],
+            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+        },
+        {
+            "name": "rikku",
+            "category": "character",
+            "skills": [],
+            "special": ["steal", "use"],
+            "white_magic": [],
+            "black_magic": [],
+            "overdrives": ["mix"],
+            "aeon_abilities": [],
+            "commands": ["special", "item"],
+            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+        },
+        {
+            "name": "seymour",
+            "category": "character",
+            "skills": [],
+            "special": [],
+            "white_magic": ["cure", "cura", "scan", "nulblaze", "nulfrost", "nulshock", "nultide"],
+            "black_magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara"],
+            "overdrives": ["requiem"],
+            "aeon_abilities": [],
+            "commands": ["wht magic", "blk magic", "item"],
+            "other": ["attack", "defend", "switch"]
+        },
+        {
+            "name": "valefor",
+            "category": "aeon",
+            "skills": [],
+            "special": [],
+            "white_magic": [],
+            "black_magic": ["fire", "thunder", "water", "blizzard"],
+            "overdrives": ["energy ray"],
+            "aeon_abilities": ["sonic wings"],
+            "commands": ["blk magic"],
+            "other": ["attack", "shield", "boost", "dismiss"]
+        },
+        {
+            "name": "ifrit",
+            "category": "aeon",
+            "skills": [],
+            "special": [],
+            "white_magic": ["nulblaze", "nulfrost"],
+            "black_magic": ["fire"],
+            "overdrives": ["hellfire"],
+            "aeon_abilities": ["meteor strike"],
+            "commands": ["wht magic", "blk magic"],
+            "other": ["attack", "shield", "boost", "dismiss"]
+        },
+        {
+            "name": "ixion",
+            "category": "aeon",
+            "skills": [],
+            "special": [],
+            "white_magic": ["nulshock", "nultide"],
+            "black_magic": ["thunder", "thundara"],
+            "overdrives": ["thor's hammer"],
+            "aeon_abilities": ["aerospark"],
+            "commands": ["wht magic", "blk magic"],
+            "other": ["attack", "shield", "boost", "dismiss"]
+        },
+        {
+            "name": "shiva",
+            "category": "aeon",
+            "skills": [],
+            "special": [],
+            "white_magic": ["nulblaze", "nulfrost"],
+            "black_magic": ["blizzard", "blizzara"],
+            "overdrives": ["diamond dust"],
+            "aeon_abilities": ["heavenly strike"],
+            "commands": ["wht magic", "blk magic"],
+            "other": ["attack", "shield", "boost", "dismiss"]
+        },
+        {
+            "name": "bahamut",
+            "category": "aeon",
+            "skills": [],
+            "special": [],
+            "white_magic": [],
+            "black_magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga"],
+            "overdrives": ["mega flare"],
+            "aeon_abilities": ["impulse"],
+            "commands": ["blk magic"],
+            "other": ["attack", "shield", "boost", "dismiss"]
+        },
+        {
+            "name": "anima",
+            "category": "aeon",
+            "skills": ["sleep attack", "silence attack", "dark attack", "sleep buster", "silence buster", "dark buster", "zombie attack"],
+            "special": [],
+            "white_magic": [],
+            "black_magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga", "bio", "death"],
+            "overdrives": ["oblivion"],
+            "aeon_abilities": ["pain"],
+            "commands": ["skills", "blk magic"],
+            "other": ["attack", "shield", "boost", "dismiss"]
+        },
+        {
+            "name": "yojimbo",
+            "category": "aeon",
+            "skills": [],
+            "special": [],
+            "white_magic": [],
+            "black_magic": [],
+            "overdrives": [],
+            "aeon_abilities": ["daigoro", "kozuka", "wakizashi", "zanmato"],
+            "commands": ["pay"],
+            "other": ["dismiss"]
+        },
+        {
+            "name": "cindy",
+            "category": "aeon",
+            "skills": [],
+            "special": ["pray"],
+            "white_magic": ["cure", "cura", "curaga", "life", "full-life", "auto-life"],
+            "black_magic": ["firaga", "thundaga", "waterga", "blizzaga", "drain", "osmose", "flare", "ultima"],
+            "overdrives": ["delta attack"],
+            "aeon_abilities": ["camisade"],
+            "commands": ["do as you will.", "one more time.", "fight!", "go, go!", "help each other!", "combine powers!"],
+            "other": ["attack", "dismiss", "taking a break..."]
+        },
+        {
+            "name": "sandy",
+            "category": "aeon",
+            "skills": [],
+            "special": [],
+            "white_magic": ["cure", "cura", "curaga", "haste", "protect", "shell", "reflect", "nulall"],
+            "black_magic": [],
+            "overdrives": ["delta attack"],
+            "aeon_abilities": ["razzia"],
+            "commands": ["do as you will.", "one more time.", "fight!", "defense!"],
+            "other": ["attack", "dismiss", "taking a break..."]
+        },
+        {
+            "name": "mindy",
+            "category": "aeon",
+            "skills": [],
+            "special": ["lancet", "doublecast"],
+            "white_magic": [],
+            "black_magic": ["fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga",  "drain", "osmose", "bio", "death", "flare"],
+            "overdrives": ["delta attack"],
+            "aeon_abilities": ["passado"],
+            "commands": ["do as you will.", "one more time.", "fight!", "are you alright?"],
+            "other": ["attack", "dismiss", "taking a break..."]
+        }
+    ]
 }

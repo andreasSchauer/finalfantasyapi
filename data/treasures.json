@@ -2,17 +2,17 @@
     "treasures_data": [
         {
             "location_area": {
-                "location": "baaj temple",
-                "sub_location": "baaj templebaaj temple",
-                "area": "submerged ruins",
-                "section": null
+                "location": "zanarkand",
+                "sub_location": "zanarkand",
+                "area": "overpass",
+                "section": "pre sin attack"
             },
             "treasures": [
                 {
                     "treasure_type": "gift",
                     "item_type": "item",
                     "is_post_airship": false,
-                    "notes": "Talk to the girl in pink three times and say 'Sure thing' when prompted.",
+                    "notes": "Talk to the girl in pink on the far right three times and say 'Sure thing' when prompted.",
                     "gil_amount": null,
                     "items": [
                         {
@@ -31,7 +31,7 @@
         {
             "location_area": {
                 "location": "baaj temple",
-                "sub_location": "baaj templebaaj temple",
+                "sub_location": "submerged ruins",
                 "area": "submerged ruins",
                 "section": null
             },
@@ -71,7 +71,7 @@
         {
             "location_area": {
                 "location": "baaj temple",
-                "sub_location": "baaj temple",
+                "sub_location": "ruins",
                 "area": "underwater hall",
                 "section": null
             },
@@ -111,7 +111,7 @@
         {
             "location_area": {
                 "location": "baaj temple",
-                "sub_location": "baaj temple",
+                "sub_location": "ruins",
                 "area": "hall",
                 "section": "main"
             },
@@ -139,7 +139,7 @@
         {
             "location_area": {
                 "location": "baaj temple",
-                "sub_location": "baaj temple",
+                "sub_location": "ruins",
                 "area": "small room",
                 "section": null
             },
@@ -167,7 +167,7 @@
         {
             "location_area": {
                 "location": "baaj temple",
-                "sub_location": "baaj temple",
+                "sub_location": "ruins",
                 "area": "stairs",
                 "section": null
             },
@@ -213,7 +213,7 @@
         {
             "location_area": {
                 "location": "baaj temple",
-                "sub_location": "baaj temple",
+                "sub_location": "ruins",
                 "area": "hall",
                 "section": "upstairs"
             },
@@ -241,7 +241,7 @@
         {
             "location_area": {
                 "location": "baaj temple",
-                "sub_location": "baaj temple",
+                "sub_location": "ruins",
                 "area": "antechamber",
                 "section": null
             },
@@ -396,7 +396,7 @@
                         {
                             "name": "hi-potion",
                             "is_key_item": false,
-                            "amount": 2
+                            "amount": 1
                         }
                     ],
                     "equipment": {
@@ -474,7 +474,7 @@
                         {
                             "name": "phoenix down",
                             "is_key_item": false,
-                            "amount": 1
+                            "amount": 3
                         }
                     ],
                     "equipment": {
@@ -1066,7 +1066,7 @@
                     "treasure_type": "chest",
                     "item_type": "item",
                     "is_post_airship": false,
-                    "notes": null,
+                    "notes": "Save the kid in the residential area and come back to the tavern.",
                     "gil_amount": null,
                     "items": [
                         {
@@ -1224,7 +1224,7 @@
                     "treasure_type": "gift",
                     "item_type": "item",
                     "is_post_airship": false,
-                    "notes": "Speak to Luzzu twice.",
+                    "notes": "Speak to Luzzu twice before defeating Lord Ochu.",
                     "gil_amount": null,
                     "items": [
                         {
@@ -2282,7 +2282,7 @@
                 "location": "mushroom rock road",
                 "sub_location": "mushroom rock",
                 "area": "mushroom rock",
-                "section": null
+                "section": "main"
             },
             "treasures": [
                 {
@@ -3580,7 +3580,7 @@
         {
             "location_area": {
                 "location": "guadosalam",
-                "sub_location": "guadosalam",
+                "sub_location": "road to farplane",
                 "area": "road to farplane",
                 "section": null
             },
@@ -3608,7 +3608,7 @@
         {
             "location_area": {
                 "location": "guadosalam",
-                "sub_location": "guadosalam",
+                "sub_location": "the farplane",
                 "area": "the farplane",
                 "section": null
             },
@@ -6354,7 +6354,7 @@
         },
         {
             "location_area": {
-                "location": "inside sin",
+                "location": "sin",
                 "sub_location": "sin",
                 "area": "sea of sorrow",
                 "section": null
@@ -6442,7 +6442,7 @@
         },
         {
             "location_area": {
-                "location": "inside sin",
+                "location": "sin",
                 "sub_location": "sin",
                 "area": "city of dying dreams",
                 "section": null
@@ -6572,7 +6572,7 @@
         },
         {
             "location_area": {
-                "location": "inside sin",
+                "location": "sin",
                 "sub_location": "sin",
                 "area": "the nucleus",
                 "section": null
