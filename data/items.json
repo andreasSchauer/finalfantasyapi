@@ -17,6 +17,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -24,8 +25,9 @@
                             "damage_constant": 4
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -52,6 +54,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -59,8 +62,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -87,6 +91,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -94,8 +99,9 @@
                             "damage_constant": 16
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -122,6 +128,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -129,8 +136,9 @@
                             "damage_constant": 40
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -157,6 +165,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "mp",
                             "damage_type": null,
@@ -164,8 +173,9 @@
                             "damage_constant": 2
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -192,6 +202,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "mp",
                             "damage_type": null,
@@ -199,8 +210,9 @@
                             "damage_constant": 10
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -227,6 +239,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -234,6 +247,7 @@
                             "damage_constant": 16
                         },
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "mp",
                             "damage_type": null,
@@ -241,8 +255,9 @@
                             "damage_constant": 16
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -269,6 +284,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -276,6 +292,7 @@
                             "damage_constant": 16
                         },
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "mp",
                             "damage_type": null,
@@ -283,8 +300,9 @@
                             "damage_constant": 16
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -311,6 +329,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": "Only KO'd characters and zombies.",
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -318,8 +337,9 @@
                             "damage_constant": 8
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -352,6 +372,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": "Only KO'd characters and zombies.",
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -359,8 +380,9 @@
                             "damage_constant": 16
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -392,8 +414,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -419,8 +442,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -446,8 +470,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -473,8 +498,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -500,8 +526,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -527,8 +554,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -554,8 +582,9 @@
                 {
                     "target": "single-enemy",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -587,8 +616,9 @@
                 {
                     "target": "single-enemy",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -620,8 +650,9 @@
                 {
                     "target": "single-enemy",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -653,8 +684,9 @@
                 {
                     "target": "single-enemy",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -687,6 +719,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -694,8 +727,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -722,6 +756,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -729,8 +764,9 @@
                             "damage_constant": 16
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -757,6 +793,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "heal",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -764,8 +801,9 @@
                             "damage_constant": 16
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -813,6 +851,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -820,8 +859,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "ice",
                     "inflicted_status_conditions": [],
@@ -848,6 +888,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -855,8 +896,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "ice",
                     "inflicted_status_conditions": [],
@@ -883,6 +925,7 @@
                     "target": "random-enemy",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -890,8 +933,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 5,
                     "element": "ice",
                     "inflicted_status_conditions": [],
@@ -918,6 +962,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -925,8 +970,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "fire",
                     "inflicted_status_conditions": [],
@@ -953,6 +999,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -960,8 +1007,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "fire",
                     "inflicted_status_conditions": [],
@@ -988,6 +1036,7 @@
                     "target": "random-enemy",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -995,8 +1044,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 5,
                     "element": "fire",
                     "inflicted_status_conditions": [],
@@ -1023,6 +1073,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1030,8 +1081,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "lightning",
                     "inflicted_status_conditions": [],
@@ -1058,6 +1110,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1065,8 +1118,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "lightning",
                     "inflicted_status_conditions": [],
@@ -1093,6 +1147,7 @@
                     "target": "random-enemy",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1100,8 +1155,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 5,
                     "element": "lightning",
                     "inflicted_status_conditions": [],
@@ -1128,6 +1184,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1135,8 +1192,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "water",
                     "inflicted_status_conditions": [],
@@ -1163,6 +1221,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1170,8 +1229,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "water",
                     "inflicted_status_conditions": [],
@@ -1198,6 +1258,7 @@
                     "target": "random-enemy",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1205,8 +1266,9 @@
                             "damage_constant": 12
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 5,
                     "element": "water",
                     "inflicted_status_conditions": [],
@@ -1233,6 +1295,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1240,8 +1303,9 @@
                             "damage_constant": 7
                         }
                     ],
+                    "delay": [],
                     "can_critical": true,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -1268,6 +1332,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1275,8 +1340,9 @@
                             "damage_constant": 16
                         }
                     ],
+                    "delay": [],
                     "can_critical": true,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1309,6 +1375,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1316,8 +1383,9 @@
                             "damage_constant": 15
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1350,6 +1418,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1357,8 +1426,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1391,6 +1461,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1398,8 +1469,9 @@
                             "damage_constant": 15
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1432,6 +1504,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1439,8 +1512,9 @@
                             "damage_constant": 15
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1473,6 +1547,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1480,8 +1555,9 @@
                             "damage_constant": 8
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -1508,6 +1584,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1515,8 +1592,9 @@
                             "damage_constant": 120
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -1543,6 +1621,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1550,8 +1629,9 @@
                             "damage_constant": 160
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": "holy",
                     "inflicted_status_conditions": [],
@@ -1578,6 +1658,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1585,8 +1666,9 @@
                             "damage_constant": 200
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -1613,6 +1695,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1620,8 +1703,9 @@
                             "damage_constant": 40
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1652,17 +1736,18 @@
             "meta": [
                 {
                     "target": "target-party",
-                    "damage": [
+                    "damage": [],
+                    "delay": [
                         {
-                            "attack_type": "attack",
-                            "target_stat": "ctb",
-                            "damage_type": null,
-                            "damage_formula": "agility-current-tick",
+                            "condition": "Moment of Infliction.",
+                            "ctb_attack_type": "attack",
+                            "delay_type": "ctb-based",
+                            "intensity": "weak",
                             "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1682,7 +1767,7 @@
             "name": "gold hourglass",
             "description": "Damages all enemies and delays their next turn.",
             "sphere_grid_description": null,
-            "effect": "Inflicts Slow and deals around 1000 HP of non-elemental damage to target party.",
+            "effect": "Inflicts Slow and weak Delay, and deals around 1000 HP of non-elemental damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
@@ -1695,22 +1780,25 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
                             "damage_formula": "special-variance",
                             "damage_constant": 20
-                        },
+                        }
+                    ],
+                    "delay": [
                         {
-                            "attack_type": "attack",
-                            "target_stat": "ctb",
-                            "damage_type": null,
-                            "damage_formula": "agility-current-tick",
-                            "damage_constant": 8
+                            "condition": null,
+                            "ctb_attack_type": "attack",
+                            "delay_type": "tick-speed-based",
+                            "intensity": "weak",
+                            "damage_constant": 24
                         }
                     ],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1742,8 +1830,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1775,8 +1864,9 @@
                 {
                     "target": "all-enemies",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1808,8 +1898,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1841,8 +1932,9 @@
                 {
                     "target": "all-enemies",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1875,6 +1967,7 @@
                     "target": "target-party",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -1882,8 +1975,9 @@
                             "damage_constant": 255
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": true,
+                    "break_dmg_lmt": "always",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -1908,17 +2002,18 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "damage": [
+                    "damage": [],
+                    "delay": [
                         {
-                            "attack_type": "heal",
-                            "target_stat": "ctb",
-                            "damage_type": null,
-                            "damage_formula": "agility-current-tick",
+                            "condition": "Moment of Infliction.",
+                            "ctb_attack_type": "heal",
+                            "delay_type": "ctb-based",
+                            "intensity": "weak",
                             "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1949,17 +2044,18 @@
             "meta": [
                 {
                     "target": "target-party",
-                    "damage": [
+                    "damage": [],
+                    "delay": [
                         {
-                            "attack_type": "heal",
-                            "target_stat": "ctb",
-                            "damage_type": null,
-                            "damage_formula": "agility-current-tick",
+                            "condition": "Moment of Infliction.",
+                            "ctb_attack_type": "heal",
+                            "delay_type": "ctb-based",
+                            "intensity": "weak",
                             "damage_constant": 8
                         }
                     ],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -1991,8 +2087,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -2024,8 +2121,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -2057,8 +2155,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -2090,8 +2189,9 @@
                 {
                     "target": "single-target",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [
@@ -2124,6 +2224,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "absorb",
                             "target_stat": "mp",
                             "damage_type": null,
@@ -2131,8 +2232,9 @@
                             "damage_constant": 20
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2159,6 +2261,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "absorb",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -2166,8 +2269,9 @@
                             "damage_constant": 8
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2194,6 +2298,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "absorb",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -2201,6 +2306,7 @@
                             "damage_constant": 30
                         },
                         {
+                            "condition": null,
                             "attack_type": "absorb",
                             "target_stat": "mp",
                             "damage_type": null,
@@ -2208,8 +2314,9 @@
                             "damage_constant": 30
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2236,6 +2343,7 @@
                     "target": "single-target",
                     "damage": [
                         {
+                            "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
                             "damage_type": "special",
@@ -2243,8 +2351,9 @@
                             "damage_constant": 22
                         }
                     ],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2270,8 +2379,9 @@
                 {
                     "target": "single-character",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2303,8 +2413,9 @@
                 {
                     "target": "single-character",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2336,8 +2447,9 @@
                 {
                     "target": "all-characters",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2369,8 +2481,9 @@
                 {
                     "target": "all-characters",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2402,8 +2515,9 @@
                 {
                     "target": "single-character",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2435,8 +2549,9 @@
                 {
                     "target": "all-characters",
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": 1,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2468,8 +2583,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2495,8 +2611,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2522,8 +2639,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2549,8 +2667,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2576,8 +2695,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2603,8 +2723,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2630,8 +2751,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2657,8 +2779,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2684,8 +2807,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2711,8 +2835,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2738,8 +2863,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2765,8 +2891,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2792,8 +2919,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2819,8 +2947,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2846,8 +2975,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2873,8 +3003,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2900,8 +3031,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2927,8 +3059,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2954,8 +3087,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -2981,8 +3115,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3008,8 +3143,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3035,8 +3171,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3062,8 +3199,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3089,8 +3227,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3116,8 +3255,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3143,8 +3283,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3170,8 +3311,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3197,8 +3339,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3224,8 +3367,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3251,8 +3395,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3278,8 +3423,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3305,8 +3451,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3332,8 +3479,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3359,8 +3507,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3386,8 +3535,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3413,8 +3563,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3440,8 +3591,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3467,8 +3619,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3494,8 +3647,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3521,8 +3675,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3548,8 +3703,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3575,8 +3731,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
@@ -3602,8 +3759,9 @@
                 {
                     "target": null,
                     "damage": [],
+                    "delay": [],
                     "can_critical": false,
-                    "can_break_dmg_lmt": false,
+                    "break_dmg_lmt": "never",
                     "hit_amount": null,
                     "element": null,
                     "inflicted_status_conditions": [],
