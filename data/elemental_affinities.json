@@ -1,0 +1,24 @@
+{
+    "elemental_affinities_data": [
+        {
+            "name": "neutral",
+            "damage_factor": 1.0
+        },
+        {
+            "name": "weak",
+            "damage_factor": 1.5
+        },
+        {
+            "name": "halved",
+            "damage_factor": 0.5
+        },
+        {
+            "name": "immune",
+            "damage_factor": 0.0
+        },
+        {
+            "name": "absorb",
+            "damage_factor": -1.0
+        }
+    ]
+}

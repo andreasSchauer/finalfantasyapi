@@ -1,7 +1,35 @@
 {
     "commands_data": [
         {
+            "name": "attack",
+            "version": "a",
+            "description": "Attack an enemy with equipped weapon.",
+            "effect": "Attacks one target with a physical attack.",
+            "used_by": ["characters", "seymour"],
+            "rank": 3,
+            "possible_abilities": []
+        },
+        {
+            "name": "attack",
+            "version": "b",
+            "description": "Attack an enemy.",
+            "effect": "Attacks one target with a physical attack.",
+            "used_by": ["aeons", "magus sisters"],
+            "rank": 3,
+            "possible_abilities": []
+        },
+        {
+            "name": "defend",
+            "version": null,
+            "description": null,
+            "effect": "Halves all physical damage taken by the user until their next turn.",
+            "used_by": ["characters", "seymour"],
+            "rank": 2,
+            "possible_abilities": []
+        },
+        {
             "name": "summon",
+            "version": null,
             "description": "Summon an aeon.",
             "effect": "Summon an aeon.",
             "used_by": ["yuna"],
@@ -10,46 +38,88 @@
         },
         {
             "name": "skill",
+            "version": null,
             "description": "Use Skills.",
             "effect": "Use Skills.",
-            "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
+            "used_by": ["characters", "aeons"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "special",
+            "version": null,
             "description": "Use Special Abilities.",
             "effect": "Use Special Abilities.",
-            "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
+            "used_by": ["characters", "aeons"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "wht magic",
+            "version": null,
             "description": "Cast white magic spells.",
             "effect": "Cast white magic spells.",
-            "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
+            "used_by": ["characters", "seymour", "aeons"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "blk magic",
+            "version": null,
             "description": "Cast black magic spells.",
             "effect": "Cast black magic spells.",
-            "used_by": ["characters", "valefor", "ifrit", "ixion", "shiva", "bahamut", "anima"],
+            "used_by": ["characters", "seymour", "aeons"],
             "rank": 3,
             "possible_abilities": []
         },
         {
             "name": "item",
+            "version": null,
             "description": "Use an item.",
             "effect": "Use an item.",
-            "used_by": ["characters"],
+            "used_by": ["characters", "seymour"],
             "rank": 2,
             "possible_abilities": []
         },
         {
+            "name": "switch",
+            "version": null,
+            "description": "Switch to $character.",
+            "effect": "Switch the user out with another available character. Doesn't cost a turn.",
+            "used_by": ["characters"],
+            "rank": null,
+            "possible_abilities": []
+        },
+        {
+            "name": "weapon",
+            "version": null,
+            "description": "Change equipped weapon.",
+            "effect": "Changes the user's Weapon.",
+            "used_by": ["characters"],
+            "rank": 1,
+            "possible_abilities": []
+        },
+        {
+            "name": "armor",
+            "version": null,
+            "description": "Change equipped armor.",
+            "effect": "Changes the user's Armor.",
+            "used_by": ["characters"],
+            "rank": 1,
+            "possible_abilities": []
+        },
+        {
+            "name": "escape",
+            "version": null,
+            "description": "Run away from battle.",
+            "effect": "The user attempts to escape from battle. Has a 75% success rate. If successful, only the user of the ability is removed from battle.",
+            "used_by": ["characters"],
+            "rank": 1,
+            "possible_abilities": []
+        },
+        {
             "name": "pay",
+            "version": null,
             "description": "Pay Yojimbo for his services.",
             "effect": "Pay Gil to Yojimbo in order for him to execute one of his abilities. 0 Gil to dismiss.",
             "used_by": ["yojimbo"],
@@ -63,9 +133,10 @@
         },
         {
             "name": "do as you will.",
+            "version": null,
             "description": "Let the Sisters do as they please.",
             "effect": "Ask the Magus Sisters to use a wide range of actions. Cindy may use Life-spells, Black Magic, attack. Sandy may use her physical or special attack, or cast reflect on Cindy. Mindy will use her physical or special attack. If Cindy has Reflect, Mindy will use Black Magic on her.",
-            "used_by": ["cindy", "sandy", "mindy"],
+            "used_by": ["magus sisters"],
             "rank": null,
             "possible_abilities": [
                 {
@@ -84,9 +155,10 @@
         },
         {
             "name": "one more time.",
+            "version": null,
             "description": "Ask the Sisters to repeat their last move.",
             "effect": "Ask the Magus Sisters to repeat their last move. They might use their physical or special attack instead.",
-            "used_by": ["cindy", "sandy", "mindy"],
+            "used_by": ["magus sisters"],
             "rank": null,
             "possible_abilities": [
                 {
@@ -105,9 +177,10 @@
         },
         {
             "name": "fight!",
+            "version": null,
             "description": "Ask the Sisters to physically attack.",
             "effect": "Ask the Magus Sisters to attack. They will either use their physical, or their special attack.",
-            "used_by": ["cindy", "sandy", "mindy"],
+            "used_by": ["magus sisters"],
             "rank": null,
             "possible_abilities": [
                 {
@@ -126,6 +199,7 @@
         },
         {
             "name": "go, go!",
+            "version": null,
             "description": "Ask the Sisters to use offensive magic and skills.",
             "effect": "Ask Cindy to use black magic. She sometimes uses Pray first.",
             "used_by": ["cindy"],
@@ -139,6 +213,7 @@
         },
         {
             "name": "help each other!",
+            "version": null,
             "description": "Ask the Sisters to use healing magic on each other.",
             "effect": "Ask Cindy to cure or revive her sisters, or to cast Auto-Life.",
             "used_by": ["cindy"],
@@ -152,6 +227,7 @@
         },
         {
             "name": "defense!",
+            "version": null,
             "description": "Ask the Sisters to use defensive and support magic.",
             "effect": "Ask Sandy to use Haste, Protect, and Shell, or to cure her sisters.",
             "used_by": ["sandy"],
@@ -165,6 +241,7 @@
         },
         {
             "name": "are you alright?",
+            "version": null,
             "description": "Ask the Sisters to absorb HP and MP from the enemy.",
             "effect": "Ask Mindy to absorb HP and MP, if hers are low.",
             "used_by": ["mindy"],
@@ -178,9 +255,10 @@
         },
         {
             "name": "combine powers!",
+            "version": null,
             "description": "Ask the Sisters for their combined attack.",
             "effect": "The Magus Sisters will use Delta-Attack, if all their Overdrive Gauges are full.",
-            "used_by": ["cindy", "sandy", "mindy"],
+            "used_by": ["magus sisters"],
             "rank": null,
             "possible_abilities": [
                 {
@@ -196,6 +274,33 @@
                     "abilities": ["delta attack"]
                 }
             ]
+        },
+        {
+            "name": "shield",
+            "version": null,
+            "description": "Take less damage, but Overdrive gauge won’t charge.",
+            "effect": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn.",
+            "used_by": ["aeons"],
+            "rank": 3,
+            "possible_abilities": []
+        },
+        {
+            "name": "boost",
+            "version": null,
+            "description": "Take more damage, but charge Overdrive gauge faster.",
+            "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
+            "used_by": ["aeons"],
+            "rank": 3,
+            "possible_abilities": []
+        },
+        {
+            "name": "dismiss",
+            "version": null,
+            "description": "Send aeon away.",
+            "effect": "Remove all your Aeons from the field and return to your active party. In the case of the Magus Sisters, any KO'd Sisters will be revived with 1 HP.",
+            "used_by": ["aeons", "yojimbo", "magus sisters"],
+            "rank": 0,
+            "possible_abilities": []
         }
     ]
 }

@@ -3,6 +3,7 @@
         {
             "name": "power break",
             "effect": "Reduces the unit's physical damage dealt by 50%.",
+            "related_stats": ["strength"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -19,6 +20,7 @@
         {
             "name": "magic break",
             "effect": "Reduces the unit's magical damage dealt by 50%.",
+            "related_stats": ["magic"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -35,6 +37,7 @@
         {
             "name": "armor break",
             "effect": "Reduces the unit's Defense to 0 and nullifies 'armored'.",
+            "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [
@@ -56,6 +59,7 @@
         {
             "name": "mental break",
             "effect": "Reduces the unit's Magic Defense to 0.",
+            "related_stats": ["magic defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -72,6 +76,7 @@
         {
             "name": "berserk",
             "effect": "Causes the unit to use 'attack' uncontrollably and boosts damage by 50%. Can be removed by 'Threaten'.",
+            "related_stats": ["strength"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -93,6 +98,7 @@
         {
             "name": "confusion",
             "effect": "Causes the unit to use 'attack' uncontrollably, targeting themselves or their allies.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -103,6 +109,7 @@
         {
             "name": "curse",
             "effect": "Prevents the character's or aeon's overdrive from filling and overdrive commands can't be used.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -119,6 +126,7 @@
         {
             "name": "darkness",
             "effect": "Reduces the unit's chance of landing an evadable physical attack to 10% (before luck).",
+            "related_stats": ["accuracy"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -135,6 +143,7 @@
         {
             "name": "death",
             "effect": "The unit's HP are reduced to 0.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -151,6 +160,7 @@
         {
             "name": "delay",
             "effect": "Adds to the unit's ticks to their next turn, delaying it.",
+            "related_stats": ["agility"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -161,6 +171,7 @@
         {
             "name": "doom",
             "effect": "Gives the unit a turn counter and the unit is KO'd when it hits 0, ignoring immunity.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -171,6 +182,7 @@
         {
             "name": "eject",
             "effect": "Removes the unit from battle, making their slot irreplacable, and flagging them as 'dead'.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -181,6 +193,7 @@
         {
             "name": "ko",
             "effect": "The unit is unable to act and flagged as 'dead'. Inflicted by attacks that inflict instant KO, or if the unit's HP drop to 0, ingoring immunity.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "berserk", "confusion", "curse", "darkness", "doom", "poison", "silence", "sleep", "slow", "zombie", "auto-life", "haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost", "guard", "sentinel", "shield", "boost"],
                 "nullified_status_conditions": [],
@@ -191,6 +204,7 @@
         {
             "name": "petrification",
             "effect": "The unit is unable to act and flagged as 'dead'. Petrified units can shatter, ejecting them from battle. Enemies always shatter instantly, as well as characters when they're underwater. Characters on land shatter when they're hit by physical attacks.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "berserk", "confusion", "curse", "darkness", "doom", "poison", "silence", "sleep", "slow", "zombie", "auto-life", "haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost", "guard", "sentinel", "shield", "boost"],
                 "nullified_status_conditions": [],
@@ -201,6 +215,7 @@
         {
             "name": "poison",
             "effect": "Deals damage proportional to the unit's max HP every time they take a turn. The rate is 25% for characters and varies for enemies.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -211,6 +226,7 @@
         {
             "name": "provoke",
             "effect": "Forces the afflicted enemy to use one ability. If that ability is single-target, it will always target the provoking character. Removed instantly when the provoking character is switched out.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -221,6 +237,7 @@
         {
             "name": "silence",
             "effect": "The inflicted unit can not use magical abilities. Overdrives are not affected.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -231,6 +248,7 @@
         {
             "name": "sleep",
             "effect": "Forces the unit to skip their turns. Increases physical and magical damage against the unit by 50%. Removed instantly when the unit is hit by a physical attack.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -241,6 +259,7 @@
         {
             "name": "slow",
             "effect": "Doubles the unit's ticks until their next turn, causing the unit to take twice the normal amount of time to get turns. Overwrites Haste.",
+            "related_stats": ["agility"],
             "meta": {
                 "removed_status_conditions": ["haste"],
                 "nullified_status_conditions": [],
@@ -251,6 +270,7 @@
         {
             "name": "threaten",
             "effect": "Causes the afflicted enemy to be frozen in time and thus unable to evade or act until the user's next turn. CTB altering actions like Haste, Slow, or Delay will fail on the user until their turn.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["berserk"],
                 "nullified_status_conditions": [],
@@ -261,6 +281,7 @@
         {
             "name": "zombie",
             "effect": "Restorative items and magic damage the unit. Grants immunity to instant death effects, as long as they don't ignore immunity. Items and magic that inflict Life will reduce the unit's HP to 0, if it is not immune to Life.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -271,6 +292,7 @@
         {
             "name": "power distiller",
             "effect": "Causes an enemy to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": ["hp", "strength", "defense"],
             "meta": {
                 "removed_status_conditions": ["mana distiller", "speed distiller", "ability distiller"],
                 "nullified_status_conditions": [],
@@ -281,6 +303,7 @@
         {
             "name": "mana distiller",
             "effect": "Causes an enemy to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": ["mp", "magic", "magic defense"],
             "meta": {
                 "removed_status_conditions": ["power distiller", "speed distiller", "ability distiller"],
                 "nullified_status_conditions": [],
@@ -291,6 +314,7 @@
         {
             "name": "speed distiller",
             "effect": "Causes an enemy to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": ["agility", "evasion", "accuracy"],
             "meta": {
                 "removed_status_conditions": ["power distiller", "mana distiller", "ability distiller"],
                 "nullified_status_conditions": [],
@@ -301,6 +325,7 @@
         {
             "name": "ability distiller",
             "effect": "Causes an enemy to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["power distiller", "mana distiller", "speed distiller"],
                 "nullified_status_conditions": [],
@@ -311,6 +336,7 @@
         {
             "name": "life",
             "effect": "Revives a character that is flagged as 'dead'.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["ko"],
                 "nullified_status_conditions": [],
@@ -321,6 +347,7 @@
         {
             "name": "auto-life",
             "effect": "Instantly revives a character that is KO'd with 25% of their max HP.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -331,6 +358,7 @@
         {
             "name": "haste",
             "effect": "Halves the unit's ticks until their next turn, causing the unit to take half the normal amount of time to get turns. Overwrites Slow.",
+            "related_stats": ["agility"],
             "meta": {
                 "removed_status_conditions": ["slow"],
                 "nullified_status_conditions": [],
@@ -341,6 +369,7 @@
         {
             "name": "hp critical",
             "effect": "The character or Aeon alters their stance. Inflicted when their HP is below 50% (yellow). Activates SOS-Auto-Abilities.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -351,6 +380,7 @@
         {
             "name": "nulblaze",
             "effect": "Grants immunity to the next fire-elemental attack targeting the unit.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -361,6 +391,7 @@
         {
             "name": "nulshock",
             "effect": "Grants immunity to the next lightning-elemental attack targeting the unit.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -371,6 +402,7 @@
         {
             "name": "nultide",
             "effect": "Grants immunity to the next water-elemental attack targeting the unit.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -381,6 +413,7 @@
         {
             "name": "nulfrost",
             "effect": "Grants immunity to the next ice-elemental attack targeting the unit.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -391,6 +424,7 @@
         {
             "name": "protect",
             "effect": "Halves the unit's damage/healing taken from physical actions.",
+            "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -407,6 +441,7 @@
         {
             "name": "reflect",
             "effect": "Bounces most single-target spells back towards the user.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -417,6 +452,7 @@
         {
             "name": "regen",
             "effect": "Restores a small amount of HP at the start of a turn from any unit in battle. The amount of HP restored is between 100 and a tenth of the unit's maximum HP.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -427,6 +463,7 @@
         {
             "name": "shell",
             "effect": "Halves the unit's damage/healing taken from magical actions.",
+            "related_stats": ["magic defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -443,6 +480,7 @@
         {
             "name": "sensor",
             "effect": "Shows enemy's HP, elemental resistances, active statuses, and a brief description.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -453,6 +491,7 @@
         {
             "name": "scan",
             "effect": "Shows enemy's HP, elemental resistances, status immunities and a verbose description.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -463,6 +502,7 @@
         {
             "name": "defend",
             "effect": "Halves all physical damage taken by the user until their next turn.",
+            "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -479,6 +519,7 @@
         {
             "name": "guard",
             "effect": "Causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -489,6 +530,7 @@
         {
             "name": "sentinel",
             "effect": "Halves all damage taken from physical attacks and causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn.",
+            "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -505,6 +547,7 @@
         {
             "name": "shield",
             "effect": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn.",
+            "related_stats": ["defense", "magic defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -536,6 +579,7 @@
         {
             "name": "boost",
             "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
+            "related_stats": ["defense", "magic defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -567,6 +611,7 @@
         {
             "name": "tough",
             "effect": "Prevents enemy from getting knocked back due to being hit by Delay attack or Delay Buster.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -577,6 +622,7 @@
         {
             "name": "heavy",
             "effect": "Prevents enemy from getting lifted off the ground by Energy Rain and Tornado.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -587,6 +633,7 @@
         {
             "name": "armored",
             "effect": "Damage taken from physical attacks is reduced to a third.",
+            "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
@@ -603,6 +650,7 @@
         {
             "name": "piercing",
             "effect": "Attacks and skills ignore enemy's Armored status.",
+            "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [
@@ -618,6 +666,7 @@
         {
             "name": "capture",
             "effect": "Attacks and skills capture a monster with the killing blow, if it can be captured and less than 10 of that monster have been captured.",
+            "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],

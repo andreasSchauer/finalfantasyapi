@@ -2395,7 +2395,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "related_stats": [],
+            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 200,
             "meta": [
@@ -2428,7 +2428,7 @@
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "access_via_use": true,
-            "related_stats": [],
+            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 2500,
             "meta": [
