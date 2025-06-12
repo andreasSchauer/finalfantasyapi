@@ -1,0 +1,1104 @@
+{
+    "mix_combinations_data": [
+        {
+            "name": "grenade",
+            "mix_combinations": [
+                {
+                    "first_item": "antarctic wind",
+                    "possible_second_items": ["bomb fragment"]
+                },
+                {
+                    "first_item": "arctic wind",
+                    "possible_second_items": ["bomb core"]
+                },
+                {
+                    "first_item": "electro marble",
+                    "possible_second_items": ["fish scale"]
+                },
+                {
+                    "first_item": "ice gem",
+                    "possible_second_items": ["fire gem"]
+                },
+                {
+                    "first_item": "lightning gem",
+                    "possible_second_items": ["water gem"]
+                },
+                {
+                    "first_item": "lightning marble",
+                    "possible_second_items": ["dragon scale"]
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "antarctic wind",
+                    "second_item": "bomb fragment"
+                },
+                {
+                    "first_item": "electro marble",
+                    "second_item": "fish scale"
+                }
+            ]
+        },
+        {
+            "name": "frag grenade",
+            "mix_combinations": [
+                {
+                    "first_item": "power sphere",
+                    "possible_second_items": ["power sphere"]
+                },
+                {
+                    "first_item": "mana sphere",
+                    "possible_second_items": ["mana sphere"]
+                },
+                {
+                    "first_item": "speed sphere",
+                    "possible_second_items": ["speed sphere"]
+                },
+                {
+                    "first_item": "ability sphere",
+                    "possible_second_items": ["ability sphere"]
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "power sphere",
+                    "second_item": "power sphere"
+                }
+            ]
+        },
+        {
+            "name": "pineapple",
+            "mix_combinations": [
+                {
+                    "first_item": "antarctic wind",
+                    "possible_second_items": ["dragon scale", "electro marble", "fish scale", "lightning gem", "lightning marble", "water gem"]
+                },
+                {
+                    "first_item": "arctic wind",
+                    "possible_second_items": ["dragon scale", "electro marble", "fish scale", "lightning marble"]
+                },
+                {
+                    "first_item": "attribute sphere",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere"]
+                },
+                {
+                    "first_item": "blk magic sphere",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere"]
+                },
+                {
+                    "first_item": "bomb core",
+                    "possible_second_items": ["dragon scale", "electro marble", "fish scale", "lightning marble"]
+                },
+                {
+                    "first_item": "bomb fragment",
+                    "possible_second_items": ["dragon scale", "electro marble", "fish scale", "lightning gem", "lightning marble", "water gem"]
+                },
+                {
+                    "first_item": "fire gem",
+                    "possible_second_items": ["electro marble", "fish scale"]
+                },
+                {
+                    "first_item": "ice gem",
+                    "possible_second_items": ["electro marble", "fish scale"]
+                },
+                {
+                    "first_item": "lv. 1 key sphere",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere"]
+                },
+                {
+                    "first_item": "map",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere", "ability distiller", "mana distiller", "power distiller", "speed distiller"]
+                },
+                {
+                    "first_item": "rename card",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere", "ability distiller", "mana distiller", "power distiller", "speed distiller"]
+                },
+                {
+                    "first_item": "skill sphere",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere"]
+                },
+                {
+                    "first_item": "special sphere",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere"]
+                },
+                {
+                    "first_item": "wht magic sphere",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere"]
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "map",
+                    "second_item": "ability distiller"
+                }
+            ]
+        },
+        {
+            "name": "potato masher",
+            "mix_combinations": [
+                {
+                    "first_item": "arctic wind",
+                    "possible_second_items": ["lightning gem", "water gem"]
+                },
+                {
+                    "first_item": "attribute sphere",
+                    "possible_second_items": ["attribute sphere"]
+                },
+                {
+                    "first_item": "blk magic sphere",
+                    "possible_second_items": ["blk magic sphere", "skill sphere", "special sphere", "wht magic sphere"]
+                },
+                {
+                    "first_item": "bomb core",
+                    "possible_second_items": ["lightning gem", "water gem"]
+                },
+                {
+                    "first_item": "clear sphere",
+                    "possible_second_items": ["ability sphere", "agility sphere", "accuracy sphere", "blk magic sphere", "clear sphere", "map", "rename card", "defense sphere", "evasion sphere", "hp sphere", "lv. 1 key sphere", "lv. 2 key sphere", "lv. 3 key sphere", "magic def sphere", "magic sphere", "mana sphere", "master sphere", "mp sphere", "power sphere", "skill sphere", "speed sphere", "strength sphere", "wht magic sphere"]
+                },
+                {
+                    "first_item": "fire gem",
+                    "possible_second_items": ["dragon scale", "lightning gem", "lightning marble", "water gem"]
+                },
+                {
+                    "first_item": "ice gem",
+                    "possible_second_items": ["dragon scale", "lightning gem", "lightning marble", "water gem"]
+                },
+                {
+                    "first_item": "lv. 1 key sphere",
+                    "possible_second_items": ["lv. 1 key sphere", "master sphere", "blk magic sphere", "skill sphere", "special sphere", "wht magic sphere"]
+                },
+                {
+                    "first_item": "lv. 2 key sphere",
+                    "possible_second_items": ["ability sphere", "mana sphere", "power sphere", "speed sphere"]
+                },
+                {
+                    "first_item": "map",
+                    "possible_second_items": ["accuracy sphere", "agility sphere", "blk magic sphere", "defense sphere", "friend sphere", "hp sphere", "lv. 1 key sphere", "lv. 2 key sphere", "lv. 3 key sphere", "magic def sphere", "magic sphere", "map", "master sphere", "mp sphere", "return sphere", "skill sphere", "special sphere", "strength sphere", "teleport sphere", "warp sphere", "wht magic sphere"]
+                },
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                },
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                },
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                },
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "map",
+                    "second_item": "map"
+                }
+            ]
+        },
+        {
+            "name": "cluster bomb",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "tallboy",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "blaster mine",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "hazardous shell",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "calamity bomb",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "chaos grenade",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "heat blaster",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "firestorm",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "burning soul",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "brimstone",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "abaddon flame",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "thunderbolt",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "rolling thunder",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "lightning bolt",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "electroshock",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "thunderblast",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "waterfall",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "flash flood",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "tidal wave",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "aqua toxin",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "dark rain",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "snow flurry",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "icefall",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "winter storm",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "black ice",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "krysta",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "nega burst",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "black hole",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "sunburst",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "ultra potion",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "panacea",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "ultra cure",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "mega phoenix",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "final phoenix",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "elixir",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "megalixir",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "super elixir",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "final elixir",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "nulall",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "mega nulall",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "hyper nulall",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "ultra nulall",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "mighty wall",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "mighty g",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "super mighty g",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "hyper mighty g",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "vitality",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "mega vitality",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "hyper vitality",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "mana",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "mega mana",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "hyper mana",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "freedom",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "freedom x",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "quartet of 9",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "trio of 9999",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "hero drink",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "miracle drink",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "hot spurs",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        },
+        {
+            "name": "eccentrick",
+            "mix_combinations": [
+                {
+                    "first_item": "",
+                    "possible_second_items": []
+                }
+            ],
+            "easiest_combinations": [
+                {
+                    "first_item": "",
+                    "second_item": ""
+                }
+            ]
+        }
+    ]
+}

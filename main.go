@@ -10,7 +10,7 @@ import (
 
 
 func main() {
-	err := format.FormatJson()
+	err := format.FormatMixes()
 	if err != nil {
 		log.Fatal(err)
 	}
