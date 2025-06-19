@@ -594,6 +594,7 @@ arctic wind + supreme gem
 blessed gem + blk magic sphere
 wht magic sphere + winning formula
 ice gem + supreme gem
+grenade + three stars
 blessed gem + lv. 1 key sphere
 blk magic sphere + master sphere
 grenade + supreme gem
@@ -2930,7 +2931,6 @@ speed distiller + gold hourglass
 ability distiller + purifying salt
 power distiller + purifying salt
 speed distiller + candle of life
-ability distiller + musk
 power distiller + musk
 speed distiller + petrify grenade
 ability distiller + hypello potion
@@ -3148,6 +3148,7 @@ antidote + smoke bomb
 holy water + shining gem
 hi-potion + tetra elemental
 antidote + shadow gem
+elixir + map
 holy water + blessed gem
 hi-potion + sleeping powder
 antidote + shining gem
@@ -3531,6 +3532,7 @@ remedy + lv. 4 key sphere
 mana spring + wht magic sphere
 potion + agility sphere
 remedy + hp sphere
+eye drops + amulet
 mana spring + blk magic sphere
 potion + evasion sphere
 remedy + mp sphere
@@ -3807,475 +3809,318 @@ speed distiller + evasion sphere
 purifying salt + warp sphere
 antidote + lv. 3 key sphere
 speed distiller + accuracy sphere
-power distiller + sleeping powder
 antidote + lv. 4 key sphere
 speed distiller + clear sphere
-power distiller + dream powder
 antidote + hp sphere
 speed distiller + return sphere
-power distiller + silence grenade
 antidote + mp sphere
 speed distiller + friend sphere
-power distiller + smoke bomb
 antidote + strength sphere
 speed distiller + teleport sphere
-power distiller + poison fang
 antidote + defense sphere
 speed distiller + warp sphere
-power distiller + silver hourglass
 antidote + magic sphere
 speed distiller + pendulum
-power distiller + gold hourglass
 antidote + magic def sphere
 speed distiller + amulet
-power distiller + candle of life
 antidote + agility sphere
 speed distiller + door to tomorrow
-power distiller + petrify grenade
 antidote + evasion sphere
 speed distiller + wings to discovery
-power distiller + farplane shadow
 antidote + accuracy sphere
 speed distiller + gamblers spirit
-power distiller + farplane wind
 antidote + clear sphere
 speed distiller + underdogs secret
-power distiller + chocobo feather
 antidote + return sphere
 speed distiller + winning formula
-power distiller + chocobo wing
 antidote + friend sphere
 ability distiller + attribute sphere
-power distiller + healing spring
 antidote + teleport sphere
 ability distiller + special sphere
-power distiller + mana spring
 antidote + warp sphere
 ability distiller + skill sphere
-power distiller + stamina spring
 antidote + pendulum
 ability distiller + wht magic sphere
-power distiller + soul spring
 antidote + amulet
 ability distiller + blk magic sphere
-power distiller + purifying salt
 antidote + door to tomorrow
 ability distiller + lv. 1 key sphere
-power distiller + musk
 antidote + wings to discovery
 ability distiller + lv. 2 key sphere
-power distiller + hypello potion
 antidote + gamblers spirit
 ability distiller + hp sphere
-power distiller + shining thorn
 antidote + underdogs secret
 ability distiller + mp sphere
-mana distiller + sleeping powder
 antidote + winning formula
 ability distiller + strength sphere
-mana distiller + dream powder
 soft + attribute sphere
 ability distiller + defense sphere
-mana distiller + silence grenade
 soft + special sphere
 ability distiller + magic sphere
-mana distiller + smoke bomb
 soft + skill sphere
 ability distiller + magic def sphere
-mana distiller + poison fang
 soft + wht magic sphere
 ability distiller + agility sphere
-mana distiller + silver hourglass
 soft + blk magic sphere
 ability distiller + evasion sphere
-mana distiller + gold hourglass
 soft + master sphere
 ability distiller + accuracy sphere
-mana distiller + candle of life
 soft + lv. 1 key sphere
 ability distiller + clear sphere
-mana distiller + petrify grenade
 soft + lv. 2 key sphere
 ability distiller + return sphere
-mana distiller + farplane shadow
 soft + lv. 3 key sphere
 ability distiller + friend sphere
-mana distiller + farplane wind
 soft + lv. 4 key sphere
 ability distiller + teleport sphere
-mana distiller + chocobo feather
 soft + hp sphere
 ability distiller + warp sphere
-mana distiller + chocobo wing
 soft + mp sphere
 ability distiller + pendulum
-mana distiller + healing spring
 soft + strength sphere
 ability distiller + amulet
-mana distiller + mana spring
 soft + defense sphere
 ability distiller + door to tomorrow
-mana distiller + stamina spring
 soft + magic sphere
 ability distiller + wings to discovery
-mana distiller + soul spring
 soft + magic def sphere
 ability distiller + gamblers spirit
-mana distiller + purifying salt
 soft + agility sphere
 ability distiller + underdogs secret
-mana distiller + musk
 soft + evasion sphere
 ability distiller + winning formula
-mana distiller + hypello potion
 soft + accuracy sphere
 al bhed potion + attribute sphere
-mana distiller + shining thorn
 soft + clear sphere
 al bhed potion + special sphere
-speed distiller + sleeping powder
 soft + return sphere
 al bhed potion + skill sphere
-speed distiller + dream powder
 soft + friend sphere
 al bhed potion + wht magic sphere
-speed distiller + silence grenade
 soft + teleport sphere
 al bhed potion + blk magic sphere
-speed distiller + smoke bomb
 soft + warp sphere
 al bhed potion + lv. 1 key sphere
-speed distiller + poison fang
 soft + pendulum
 al bhed potion + lv. 2 key sphere
-speed distiller + silver hourglass
 soft + amulet
 al bhed potion + hp sphere
-speed distiller + gold hourglass
 soft + door to tomorrow
 al bhed potion + mp sphere
-speed distiller + candle of life
 soft + wings to discovery
 al bhed potion + strength sphere
-speed distiller + petrify grenade
 soft + gamblers spirit
 al bhed potion + defense sphere
-speed distiller + farplane shadow
 soft + underdogs secret
 al bhed potion + magic sphere
-speed distiller + farplane wind
 soft + winning formula
 al bhed potion + magic def sphere
-speed distiller + chocobo feather
 eye drops + attribute sphere
 al bhed potion + agility sphere
-speed distiller + chocobo wing
 eye drops + special sphere
 al bhed potion + evasion sphere
-speed distiller + healing spring
 eye drops + skill sphere
 al bhed potion + accuracy sphere
-speed distiller + mana spring
 eye drops + wht magic sphere
 al bhed potion + clear sphere
-speed distiller + stamina spring
 eye drops + blk magic sphere
 al bhed potion + return sphere
-speed distiller + soul spring
 eye drops + lv. 1 key sphere
 al bhed potion + friend sphere
-speed distiller + purifying salt
 eye drops + lv. 2 key sphere
 al bhed potion + teleport sphere
-speed distiller + musk
 eye drops + lv. 3 key sphere
 al bhed potion + warp sphere
-speed distiller + hypello potion
 eye drops + lv. 4 key sphere
 al bhed potion + door to tomorrow
-speed distiller + shining thorn
 eye drops + hp sphere
 al bhed potion + wings to discovery
-ability distiller + sleeping powder
 eye drops + mp sphere
 al bhed potion + gamblers spirit
-ability distiller + dream powder
 eye drops + strength sphere
 al bhed potion + underdogs secret
-ability distiller + silence grenade
 eye drops + defense sphere
 al bhed potion + winning formula
-ability distiller + smoke bomb
 eye drops + magic sphere
 healing water + healing water
-ability distiller + poison fang
 eye drops + magic def sphere
 healing water + tetra elemental
-ability distiller + silver hourglass
 eye drops + agility sphere
 healing water + sleeping powder
-ability distiller + gold hourglass
 eye drops + evasion sphere
 healing water + dream powder
-ability distiller + candle of life
 eye drops + accuracy sphere
 healing water + silence grenade
-ability distiller + petrify grenade
 eye drops + clear sphere
 healing water + smoke bomb
-ability distiller + farplane shadow
 eye drops + return sphere
 healing water + shadow gem
-ability distiller + farplane wind
 eye drops + friend sphere
 healing water + shining gem
-ability distiller + chocobo feather
 eye drops + teleport sphere
 healing water + blessed gem
-ability distiller + chocobo wing
 eye drops + warp sphere
 healing water + supreme gem
-ability distiller + healing spring
 eye drops + pendulum
 healing water + poison fang
-ability distiller + mana spring
-eye drops + amulet
 healing water + silver hourglass
-ability distiller + stamina spring
 eye drops + door to tomorrow
 healing water + gold hourglass
-ability distiller + soul spring
 eye drops + wings to discovery
 healing water + candle of life
-ability distiller + purifying salt
 eye drops + gamblers spirit
 healing water + petrify grenade
 ability distiller + musk
 eye drops + underdogs secret
 healing water + farplane shadow
-ability distiller + hypello potion
 eye drops + winning formula
 healing water + healing spring
-ability distiller + shining thorn
 echo screen + attribute sphere
 healing water + mana spring
-al bhed potion + sleeping powder
 echo screen + special sphere
 healing water + stamina spring
-al bhed potion + dream powder
 echo screen + skill sphere
 healing water + soul spring
-al bhed potion + silence grenade
 echo screen + wht magic sphere
 healing water + purifying salt
-al bhed potion + smoke bomb
 echo screen + blk magic sphere
 healing water + attribute sphere
-al bhed potion + poison fang
 echo screen + lv. 1 key sphere
 healing water + special sphere
-al bhed potion + silver hourglass
 echo screen + lv. 2 key sphere
 healing water + skill sphere
-al bhed potion + gold hourglass
 echo screen + lv. 3 key sphere
 healing water + wht magic sphere
-al bhed potion + candle of life
 echo screen + lv. 4 key sphere
 healing water + blk magic sphere
-al bhed potion + petrify grenade
 echo screen + hp sphere
 healing water + lv. 1 key sphere
-al bhed potion + farplane shadow
 echo screen + mp sphere
 healing water + lv. 2 key sphere
-al bhed potion + farplane wind
 echo screen + strength sphere
 healing water + hp sphere
-al bhed potion + chocobo feather
 echo screen + defense sphere
 healing water + mp sphere
-al bhed potion + chocobo wing
 echo screen + magic sphere
 healing water + strength sphere
-potion + potion
 echo screen + magic def sphere
 healing water + defense sphere
-potion + hi-potion
 echo screen + agility sphere
 healing water + magic sphere
-potion + x-potion
 echo screen + evasion sphere
 healing water + magic def sphere
-potion + mega-potion
 echo screen + accuracy sphere
 healing water + agility sphere
-potion + power distiller
 echo screen + clear sphere
 healing water + evasion sphere
-potion + mana distiller
 echo screen + return sphere
 healing water + accuracy sphere
-potion + speed distiller
 echo screen + friend sphere
 healing water + clear sphere
-potion + ability distiller
 echo screen + teleport sphere
 healing water + return sphere
-potion + al bhed potion
 echo screen + warp sphere
 healing water + friend sphere
-potion + grenade
 echo screen + pendulum
 tetra elemental + tetra elemental
-potion + frag grenade
 echo screen + amulet
 tetra elemental + sleeping powder
-potion + power sphere
 echo screen + door to tomorrow
 tetra elemental + dream powder
-potion + mana sphere
 echo screen + wings to discovery
 tetra elemental + silence grenade
-potion + speed sphere
 echo screen + gamblers spirit
 tetra elemental + smoke bomb
-potion + ability sphere
 echo screen + underdogs secret
 tetra elemental + shadow gem
-potion + map
 echo screen + winning formula
 tetra elemental + shining gem
-potion + rename card
 holy water + attribute sphere
 tetra elemental + blessed gem
-hi-potion + mega-potion
 holy water + special sphere
 tetra elemental + supreme gem
-hi-potion + power distiller
 holy water + skill sphere
 tetra elemental + poison fang
-hi-potion + mana distiller
 holy water + wht magic sphere
 tetra elemental + silver hourglass
-hi-potion + speed distiller
 holy water + blk magic sphere
 tetra elemental + gold hourglass
-hi-potion + ability distiller
 holy water + lv. 1 key sphere
 tetra elemental + candle of life
-hi-potion + al bhed potion
 holy water + lv. 2 key sphere
 tetra elemental + petrify grenade
-hi-potion + grenade
 holy water + lv. 3 key sphere
 tetra elemental + farplane shadow
-hi-potion + frag grenade
 holy water + lv. 4 key sphere
 tetra elemental + healing spring
-hi-potion + power sphere
 holy water + hp sphere
 tetra elemental + mana spring
-hi-potion + mana sphere
 holy water + mp sphere
 tetra elemental + stamina spring
-hi-potion + speed sphere
 holy water + strength sphere
 tetra elemental + soul spring
-hi-potion + ability sphere
 holy water + defense sphere
 tetra elemental + purifying salt
-hi-potion + map
 holy water + magic sphere
 tetra elemental + attribute sphere
-hi-potion + rename card
 holy water + magic def sphere
 tetra elemental + special sphere
-x-potion + power distiller
 holy water + agility sphere
 tetra elemental + skill sphere
-x-potion + mana distiller
 holy water + evasion sphere
 tetra elemental + wht magic sphere
-x-potion + speed distiller
 holy water + accuracy sphere
 tetra elemental + blk magic sphere
-x-potion + ability distiller
 holy water + clear sphere
 tetra elemental + lv. 1 key sphere
-x-potion + al bhed potion
 holy water + return sphere
 tetra elemental + lv. 2 key sphere
-x-potion + power sphere
 holy water + friend sphere
 tetra elemental + hp sphere
-x-potion + mana sphere
 holy water + teleport sphere
 tetra elemental + mp sphere
-x-potion + speed sphere
 holy water + warp sphere
 tetra elemental + strength sphere
-x-potion + ability sphere
 holy water + pendulum
 tetra elemental + defense sphere
-x-potion + map
 holy water + amulet
 tetra elemental + magic sphere
-x-potion + rename card
 holy water + door to tomorrow
 tetra elemental + magic def sphere
-mega-potion + power distiller
 holy water + wings to discovery
 tetra elemental + agility sphere
-mega-potion + mana distiller
 holy water + gamblers spirit
 tetra elemental + evasion sphere
-mega-potion + speed distiller
 holy water + underdogs secret
 tetra elemental + accuracy sphere
-mega-potion + ability distiller
 holy water + winning formula
 tetra elemental + clear sphere
-mega-potion + al bhed potion
 remedy + healing water
 tetra elemental + return sphere
-mega-potion + power sphere
 remedy + tetra elemental
 tetra elemental + friend sphere
-mega-potion + mana sphere
 remedy + sleeping powder
 healing spring + attribute sphere
-mega-potion + speed sphere
 remedy + dream powder
 healing spring + special sphere
-mega-potion + ability sphere
 remedy + silence grenade
 healing spring + skill sphere
-mega-potion + map
 remedy + smoke bomb
 healing spring + wht magic sphere
-mega-potion + rename card
 remedy + shadow gem
 healing spring + blk magic sphere
-phoenix down + map
 remedy + shining gem
 healing spring + master sphere
-phoenix down + rename card
 remedy + blessed gem
 healing spring + lv. 1 key sphere
-power distiller + al bhed potion
 remedy + supreme gem
 healing spring + lv. 2 key sphere
-mana distiller + al bhed potion
 remedy + poison fang
 healing spring + lv. 3 key sphere
-speed distiller + al bhed potion
 remedy + silver hourglass
 healing spring + lv. 4 key sphere
-ability distiller + al bhed potion
 remedy + gold hourglass
 healing spring + hp sphere
-al bhed potion + al bhed potion
 remedy + candle of life
 healing spring + mp sphere
 al bhed potion + pendulum
@@ -4347,6 +4192,7 @@ speed distiller + dark matter
 hi-potion + clear sphere
 megalixir + antarctic wind
 speed distiller + three stars
+speed distiller + master sphere
 hi-potion + return sphere
 megalixir + arctic wind
 speed distiller + lv. 3 key sphere
@@ -4359,6 +4205,7 @@ ability distiller + dark matter
 hi-potion + warp sphere
 megalixir + dream powder
 ability distiller + three stars
+ability distiller + master sphere
 hi-potion + pendulum
 megalixir + silence grenade
 ability distiller + lv. 3 key sphere
@@ -5659,6 +5506,7 @@ dragon scale + twin stars
 twin stars + accuracy sphere
 ether + blessed gem
 water gem + twin stars
+twin stars + grenade
 twin stars + clear sphere
 ether + supreme gem
 antarctic wind + twin stars
@@ -6076,6 +5924,7 @@ power sphere + fortune sphere
 antidote + luck sphere
 al bhed potion + designer wallet
 power sphere + luck sphere
+magic sphere + luck sphere
 antidote + designer wallet
 healing water + fortune sphere
 mana sphere + fortune sphere
