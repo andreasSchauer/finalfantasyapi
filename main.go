@@ -10,7 +10,7 @@ import (
 
 
 func main() {
-	err := format.FormatMixes()
+	err := format.FormatMixCombinations()
 	if err != nil {
 		log.Fatal(err)
 	}
