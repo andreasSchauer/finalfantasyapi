@@ -1,4 +1,4 @@
-package dataFormatting
+package dataFormattingMonsters
 
 
 func (mon *MonsterOld) formatAllies(name string) []string {

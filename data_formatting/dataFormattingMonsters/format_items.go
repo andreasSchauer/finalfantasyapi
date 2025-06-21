@@ -1,4 +1,13 @@
-package dataFormatting
+package dataFormattingMonsters
+
+
+
+type Item struct {
+	Item   string `json:"item"`
+	Amount int    `json:"amount"`
+}
+
+
 
 func (mon *MonsterOld) formatItems() map[string][]Item {
 	itemMap := make(map[string][]Item)

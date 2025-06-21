@@ -1,6 +1,61 @@
-package dataFormatting
+package dataFormattingMonsters
 
 import "strconv"
+
+
+
+type Equipment struct {
+	DropRate             float64        `json:"drop_rate"`
+	MinSlotsAmount       int            `json:"min_slots_amount"`
+	MaxSlotsAmount       int            `json:"max_slots_amount"`
+	MinAttachedAbilities int            `json:"min_attached_abilities"`
+	MaxAttachedAbilities int            `json:"max_attached_abilities"`
+	WpnAbilities         []WpnAbility   `json:"wpn_abilities"`
+	ArmorAbilities       []ArmorAbility `json:"armor_abilities"`
+}
+
+
+type WpnAbility struct {
+	Ability    string     `json:"ability"`
+	Characters Characters `json:"characters"`
+}
+
+
+type Characters struct {
+	KimahriAndAuron   bool `json:"kimahri_and_auron"`
+	YunaAndLulu       bool `json:"yuna_and_lulu"`
+	ExceptYunaAndLulu bool `json:"except_yuna_and_lulu"`
+}
+
+
+type ArmorAbility struct {
+	Ability string `json:"ability"`
+}
+
+
+
+type EquipmentOld struct {
+	DropRate          float64           `json:"drop_rate"`
+	SlotsAmount       string            `json:"slots_amount"`
+	AttachedAbilities string            `json:"attached_abilities"`
+	WpnAbilities      []WpnAbilityOld   `json:"wpn_abilities"`
+	ArmorAbilities    []ArmorAbilityOld `json:"armor_abilities"`
+}
+
+
+type WpnAbilityOld struct {
+	Ability    string `json:"ability"`
+	Characters string `json:"characters,omitempty"`
+}
+
+
+type ArmorAbilityOld struct {
+	Ability string `json:"ability"`
+}
+
+
+
+
 
 func (mon *MonsterOld) formatEquipment() Equipment {
 	minSlots, maxSlots := mon.getMinMaxSlots()

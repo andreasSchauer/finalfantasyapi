@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	format "github.com/andreasSchauer/finalfantasyapi/data_formatting"
+	mixes "github.com/andreasSchauer/finalfantasyapi/data_formatting/mixes"
 )
 
 
@@ -10,7 +10,7 @@ import (
 
 
 func main() {
-	err := format.FormatMixCombinations()
+	err := mixes.FormatMixCombinations()
 	if err != nil {
 		log.Fatal(err)
 	}

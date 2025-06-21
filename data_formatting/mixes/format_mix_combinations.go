@@ -1,4 +1,4 @@
-package dataFormatting
+package dataFormattingMixes
 
 import (
 	"encoding/json"
@@ -8,7 +8,20 @@ import (
 	"strings"
 )
 
+type MixCombinationsData struct {
+	MixCombinationsData []Mix `json:"mix_combinations_data"`
+}
 
+type Mix struct {
+	Name               string     `json:"name"`
+	UniqueCombinations int        `json:"unique_combinations"`
+	MixCombinations    []MixItems `json:"mix_combinations"`
+}
+
+type MixItems struct {
+	FirstItem           string   `json:"first_item"`
+	PossibleSecondItems []string `json:"possible_second_items"`
+}
 
 func FormatMixCombinations() error {
 	combinationsFilePath := "./data/mix_data/mix_combinations_copy.txt"
@@ -45,8 +58,6 @@ func FormatMixCombinations() error {
 	return nil
 }
 
-
-
 func processMixCombinations(data []byte) (string, []MixMap) {
 	mixData := string(data)
 	mixes := strings.Split(mixData, "* ") // a slice of the individual mixes and their combinations
@@ -57,10 +68,10 @@ func processMixCombinations(data []byte) (string, []MixMap) {
 		if mix == "" {
 			continue
 		}
-		mixSplit := strings.Split(mix, "\n") // a mix and its combinations
+		mixSplit := strings.Split(mix, "\n") // a mix and its combinations as strings
 		mixName := mixSplit[0]               // the name of the mix
-		combinationsString := mixSplit[2:]   // the combinations of the mix (item 1 + item 2)
-		combinations := getCombinationSlice(combinationsString)
+		combinationsString := mixSplit[2:]   // the combinationStrings of the mix (= item 1 + item 2)
+		combinations := getCombinations(combinationsString)
 
 		mixTable := getMixTable(mixName, combinations)
 		sortedMixes = append(sortedMixes, mixTable)
@@ -74,8 +85,20 @@ func processMixCombinations(data []byte) (string, []MixMap) {
 	return mixCombinations, mixMapSlice
 }
 
+func getMixJsonData(mixMapSlice []MixMap) []Mix {
+	var mixes []Mix
 
+	for _, mixMap := range mixMapSlice {
+		mixCombinations := mixMap.getJsonMixCombinations()
 
+		mix := Mix{
+			Name:               mixMap.Name,
+			UniqueCombinations: mixMap.UniqueCombinations,
+			MixCombinations:    mixCombinations,
+		}
 
+		mixes = append(mixes, mix)
+	}
 
-
+	return mixes
+}

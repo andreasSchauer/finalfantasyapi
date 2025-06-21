@@ -1,8 +1,14 @@
-package dataFormatting
+package dataFormattingMonsters
 
 import (
 
 )
+
+
+type ElemResist struct {
+	Element  string `json:"element"`
+	Affinity string `json:"affinity"`
+}
 
 
 func (mon *MonsterOld) formatElemResist() []ElemResist {

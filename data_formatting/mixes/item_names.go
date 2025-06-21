@@ -1,32 +1,5 @@
-package dataFormatting
+package dataFormattingMixes
 
-type Combination struct {
-	item1 string
-	item2 string
-}
-
-type MixMap struct {
-	Name            	string
-	UniqueCombinations	int
-	MixCombinations 	map[string][]string
-}
-
-
-type MixCombinationsData struct {
-	MixCombinationsData []Mix `json:"mix_combinations_data"`
-}
-
-
-type Mix struct {
-	Name            	string    	`json:"name"`
-	UniqueCombinations	int			`json:"unique_combinations"`
-	MixCombinations 	[]MixItems	`json:"mix_combinations"`
-}
-
-type MixItems struct {
-	FirstItem           string   `json:"first_item"`
-	PossibleSecondItems []string `json:"possible_second_items"`
-}
 
 var itemNames = []string{
 	"potion", "hi-potion", "x-potion", "mega-potion", "ether", "turbo ether", "elixir", "megalixir", "phoenix down", "mega phoenix", "antidote", "soft", "eye drops", "echo screen", "holy water", "remedy", "power distiller", "mana distiller", "speed distiller", "ability distiller", "al bhed potion", "healing water", "tetra elemental", "antarctic wind", "arctic wind", "ice gem", "bomb fragment", "bomb core", "fire gem", "electro marble", "lightning marble", "lightning gem", "fish scale", "dragon scale", "water gem", "grenade", "frag grenade", "sleeping powder", "dream powder", "silence grenade", "smoke bomb", "shadow gem", "shining gem", "blessed gem", "supreme gem", "poison fang", "silver hourglass", "gold hourglass", "candle of life", "petrify grenade", "farplane shadow", "farplane wind", "dark matter", "chocobo feather", "chocobo wing", "lunar curtain", "light curtain", "star curtain", "healing spring", "mana spring", "stamina spring", "soul spring", "purifying salt", "stamina tablet", "mana tablet", "stamina tonic", "mana tonic", "twin stars", "three stars", "power sphere", "mana sphere", "speed sphere", "ability sphere", "fortune sphere", "attribute sphere", "special sphere", "skill sphere", "wht magic sphere", "blk magic sphere", "master sphere", "lv. 1 key sphere", "lv. 2 key sphere", "lv. 3 key sphere", "lv. 4 key sphere", "hp sphere", "mp sphere", "strength sphere", "defense sphere", "magic sphere", "magic def sphere", "agility sphere", "evasion sphere", "accuracy sphere", "luck sphere", "clear sphere", "return sphere", "friend sphere", "teleport sphere", "warp sphere", "map", "rename card", "musk", "hypello potion", "shining thorn", "pendulum", "amulet", "designer wallet", "door to tomorrow", "wings to discovery", "gamblers spirit", "underdogs secret", "winning formula",

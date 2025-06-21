@@ -1,6 +1,57 @@
-package dataFormatting
+package dataFormattingMonsters
 
-// to test: splitPoison, splitDoom
+
+
+type StatusResists struct {
+	Resistances    []StatusResist `json:"resistances"`
+	PoisonRate     *float64       `json:"poison_rate"`
+	DoomCountdown  *int           `json:"doom_countdown"`
+	ZanmatoLevel   int            `json:"zanmato_level"`
+	IsImmuneToLife bool           `json:"is_immune_to_life"`
+}
+
+
+type StatusResist struct {
+	Status     string `json:"status"`
+	Resistance int    `json:"resistance"`
+}
+
+
+
+type StatusResistsOld struct {
+	Silence      int   `json:"silence"`
+	Sleep        int   `json:"sleep"`
+	Dark         int   `json:"dark"`
+	Poison       []any `json:"poison"`
+	Petrify      int   `json:"petrify"`
+	Slow         int   `json:"slow"`
+	Zombie       int   `json:"zombie"`
+	Life         int   `json:"life"`
+	PowerBreak   int   `json:"power_break"`
+	MagicBreak   int   `json:"magic_break"`
+	ArmorBreak   int   `json:"armor_break"`
+	MentalBreak  int   `json:"mental_break"`
+	Threaten     int   `json:"threaten"`
+	Death        int   `json:"death"`
+	Provoke      int   `json:"provoke"`
+	Doom         []int `json:"doom"`
+	NulSpells    int   `json:"nul_spells"`
+	Shell        int   `json:"shell"`
+	Protect      int   `json:"protect"`
+	Reflect      int   `json:"reflect"`
+	Haste        int   `json:"haste"`
+	Regen        int   `json:"regen"`
+	Distiller    int   `json:"distiller"`
+	Sensor       int   `json:"sensor"`
+	Scan         int   `json:"scan"`
+	Delay        int   `json:"delay"`
+	Eject        int   `json:"eject"`
+	Berserk      int   `json:"berserk"`
+	ZanmatoLevel int   `json:"zanmato_level"`
+}
+
+
+
 
 func (mon *MonsterOld) formatStatusResists() StatusResists {
 	poisonResist, poisonRate := mon.splitPoison()
