@@ -98,14 +98,6 @@ ability sphere + rename card
 
 * potato masher
 
-arctic wind + lightning gem
-arctic wind + water gem
-ice gem + lightning marble
-ice gem + lightning gem
-ice gem + dragon scale
-ice gem + water gem
-bomb core + lightning gem
-bomb core + water gem
 fire gem + lightning marble
 fire gem + lightning gem
 fire gem + dragon scale
@@ -242,19 +234,14 @@ grenade + shining gem
 grenade + blessed gem
 frag grenade + shining gem
 frag grenade + blessed gem
-frag grenade + pendulum
 sleeping powder + shining gem
 sleeping powder + blessed gem
-sleeping powder + pendulum
 dream powder + shining gem
 dream powder + blessed gem
-dream powder + pendulum
 silence grenade + shining gem
 silence grenade + blessed gem
-silence grenade + pendulum
 smoke bomb + shining gem
 smoke bomb + blessed gem
-smoke bomb + pendulum
 shining gem + map
 shining gem + rename card
 blessed gem + map
@@ -781,6 +768,12 @@ master sphere + master sphere
 master sphere + lv. 4 key sphere
 master sphere + warp sphere
 master sphere + pendulum
+master sphere + amulet
+master sphere + door to tomorrow
+master sphere + wings to discovery
+master sphere + gamblers spirit
+master sphere + underdogs secret
+master sphere + winning formula
 lv. 1 key sphere + lv. 4 key sphere
 lv. 1 key sphere + warp sphere
 lv. 2 key sphere + lv. 4 key sphere
@@ -874,8 +867,8 @@ grenade + silver hourglass
 grenade + gold hourglass
 grenade + candle of life
 grenade + petrify grenade
-grenade + chocobo feather
 grenade + chocobo wing
+grenade + chocobo feather
 grenade + mana spring
 grenade + stamina spring
 grenade + soul spring
@@ -887,22 +880,28 @@ grenade + ability sphere
 grenade + musk
 grenade + hypello potion
 grenade + shining thorn
+grenade + pendulum
+frag grenade + pendulum
 sleeping powder + power sphere
 sleeping powder + mana sphere
 sleeping powder + speed sphere
 sleeping powder + ability sphere
+sleeping powder + pendulum
 dream powder + power sphere
 dream powder + mana sphere
 dream powder + speed sphere
 dream powder + ability sphere
+dream powder + pendulum
 silence grenade + power sphere
 silence grenade + mana sphere
 silence grenade + speed sphere
 silence grenade + ability sphere
+silence grenade + pendulum
 smoke bomb + power sphere
 smoke bomb + mana sphere
 smoke bomb + speed sphere
 smoke bomb + ability sphere
+smoke bomb + pendulum
 poison fang + power sphere
 poison fang + mana sphere
 poison fang + speed sphere
@@ -978,8 +977,8 @@ frag grenade + candle of life
 frag grenade + petrify grenade
 frag grenade + farplane shadow
 frag grenade + farplane wind
-frag grenade + chocobo feather
 frag grenade + chocobo wing
+frag grenade + chocobo feather
 frag grenade + mana spring
 frag grenade + stamina spring
 frag grenade + soul spring
@@ -1002,8 +1001,8 @@ sleeping powder + silver hourglass
 sleeping powder + gold hourglass
 sleeping powder + candle of life
 sleeping powder + petrify grenade
-sleeping powder + chocobo feather
 sleeping powder + chocobo wing
+sleeping powder + chocobo feather
 sleeping powder + healing spring
 sleeping powder + mana spring
 sleeping powder + stamina spring
@@ -1022,8 +1021,8 @@ dream powder + silver hourglass
 dream powder + gold hourglass
 dream powder + candle of life
 dream powder + petrify grenade
-dream powder + chocobo feather
 dream powder + chocobo wing
+dream powder + chocobo feather
 dream powder + healing spring
 dream powder + mana spring
 dream powder + stamina spring
@@ -1041,8 +1040,8 @@ silence grenade + silver hourglass
 silence grenade + gold hourglass
 silence grenade + candle of life
 silence grenade + petrify grenade
-silence grenade + chocobo feather
 silence grenade + chocobo wing
+silence grenade + chocobo feather
 silence grenade + healing spring
 silence grenade + mana spring
 silence grenade + stamina spring
@@ -1059,8 +1058,8 @@ smoke bomb + silver hourglass
 smoke bomb + gold hourglass
 smoke bomb + candle of life
 smoke bomb + petrify grenade
-smoke bomb + chocobo feather
 smoke bomb + chocobo wing
+smoke bomb + chocobo feather
 smoke bomb + healing spring
 smoke bomb + mana spring
 smoke bomb + stamina spring
@@ -1084,8 +1083,8 @@ poison fang + silver hourglass
 poison fang + gold hourglass
 poison fang + candle of life
 poison fang + petrify grenade
-poison fang + chocobo feather
 poison fang + chocobo wing
+poison fang + chocobo feather
 poison fang + lunar curtain
 poison fang + light curtain
 poison fang + star curtain
@@ -1101,8 +1100,8 @@ silver hourglass + silver hourglass
 silver hourglass + gold hourglass
 silver hourglass + candle of life
 silver hourglass + petrify grenade
-silver hourglass + chocobo feather
 silver hourglass + chocobo wing
+silver hourglass + chocobo feather
 silver hourglass + lunar curtain
 silver hourglass + light curtain
 silver hourglass + star curtain
@@ -1117,8 +1116,8 @@ silver hourglass + shining thorn
 gold hourglass + gold hourglass
 gold hourglass + candle of life
 gold hourglass + petrify grenade
-gold hourglass + chocobo feather
 gold hourglass + chocobo wing
+gold hourglass + chocobo feather
 gold hourglass + lunar curtain
 gold hourglass + light curtain
 gold hourglass + star curtain
@@ -1132,8 +1131,8 @@ gold hourglass + hypello potion
 gold hourglass + shining thorn
 candle of life + candle of life
 candle of life + petrify grenade
-candle of life + chocobo feather
 candle of life + chocobo wing
+candle of life + chocobo feather
 candle of life + lunar curtain
 candle of life + light curtain
 candle of life + star curtain
@@ -1145,8 +1144,8 @@ candle of life + purifying salt
 candle of life + musk
 candle of life + hypello potion
 candle of life + shining thorn
-petrify grenade + chocobo feather
 petrify grenade + chocobo wing
+petrify grenade + chocobo feather
 petrify grenade + lunar curtain
 petrify grenade + light curtain
 petrify grenade + star curtain
@@ -1164,7 +1163,6 @@ farplane shadow + speed sphere
 farplane shadow + ability sphere
 farplane shadow + map
 farplane shadow + rename card
-farplane wind + three stars
 farplane wind + power sphere
 farplane wind + mana sphere
 farplane wind + speed sphere
@@ -1183,10 +1181,17 @@ rename card + shining thorn
 
 * calamity bomb
 
+arctic wind + lightning gem
+arctic wind + water gem
+ice gem + lightning marble
+ice gem + lightning gem
+ice gem + dragon scale
+ice gem + water gem
+bomb core + lightning gem
+bomb core + water gem
 grenade + master sphere
 grenade + lv. 3 key sphere
 grenade + lv. 4 key sphere
-grenade + pendulum
 frag grenade + attribute sphere
 frag grenade + special sphere
 frag grenade + skill sphere
@@ -1245,8 +1250,8 @@ shining gem + silver hourglass
 shining gem + gold hourglass
 shining gem + candle of life
 shining gem + petrify grenade
-shining gem + chocobo feather
 shining gem + chocobo wing
+shining gem + chocobo feather
 shining gem + lunar curtain
 shining gem + light curtain
 shining gem + star curtain
@@ -1260,8 +1265,8 @@ blessed gem + silver hourglass
 blessed gem + gold hourglass
 blessed gem + candle of life
 blessed gem + petrify grenade
-blessed gem + chocobo feather
 blessed gem + chocobo wing
+blessed gem + chocobo feather
 blessed gem + lunar curtain
 blessed gem + light curtain
 blessed gem + star curtain
@@ -1332,8 +1337,8 @@ petrify grenade + lv. 2 key sphere
 petrify grenade + clear sphere
 farplane shadow + farplane shadow
 farplane shadow + farplane wind
-farplane shadow + chocobo feather
 farplane shadow + chocobo wing
+farplane shadow + chocobo feather
 farplane shadow + lunar curtain
 farplane shadow + light curtain
 farplane shadow + star curtain
@@ -1346,8 +1351,8 @@ farplane shadow + three stars
 farplane shadow + musk
 farplane shadow + hypello potion
 farplane shadow + shining thorn
-farplane wind + chocobo feather
 farplane wind + chocobo wing
+farplane wind + chocobo feather
 farplane wind + lunar curtain
 farplane wind + light curtain
 farplane wind + star curtain
@@ -1355,6 +1360,7 @@ farplane wind + healing spring
 farplane wind + mana spring
 farplane wind + stamina spring
 farplane wind + soul spring
+farplane wind + three stars
 farplane wind + purifying salt
 farplane wind + musk
 farplane wind + hypello potion
@@ -1493,8 +1499,8 @@ supreme gem + candle of life
 supreme gem + petrify grenade
 supreme gem + farplane shadow
 supreme gem + farplane wind
-supreme gem + chocobo feather
 supreme gem + chocobo wing
+supreme gem + chocobo feather
 supreme gem + lunar curtain
 supreme gem + light curtain
 supreme gem + star curtain
@@ -1769,6 +1775,7 @@ echo screen + bomb core
 holy water + bomb fragment
 holy water + bomb core
 remedy + bomb fragment
+remedy + bomb core
 power distiller + bomb fragment
 power distiller + bomb core
 mana distiller + bomb fragment
@@ -1817,7 +1824,6 @@ soft + fire gem
 eye drops + fire gem
 echo screen + fire gem
 holy water + fire gem
-remedy + bomb core
 remedy + fire gem
 power distiller + fire gem
 mana distiller + fire gem
@@ -1840,20 +1846,11 @@ bomb core + bomb core
 bomb core + fire gem
 bomb core + frag grenade
 bomb core + three stars
-bomb core + special sphere
-bomb core + skill sphere
-bomb core + wht magic sphere
-bomb core + blk magic sphere
 bomb core + lv. 1 key sphere
 bomb core + clear sphere
 fire gem + fire gem
 fire gem + grenade
 fire gem + frag grenade
-fire gem + power sphere
-fire gem + mana sphere
-fire gem + speed sphere
-fire gem + ability sphere
-fire gem + attribute sphere
 fire gem + clear sphere
 
 
@@ -1961,22 +1958,31 @@ bomb core + mana spring
 bomb core + stamina spring
 bomb core + soul spring
 bomb core + purifying salt
+bomb core + special sphere
+bomb core + skill sphere
+bomb core + wht magic sphere
+bomb core + blk magic sphere
 bomb core + musk
 bomb core + hypello potion
 bomb core + shining thorn
+fire gem + power sphere
+fire gem + mana sphere
+fire gem + speed sphere
+fire gem + ability sphere
+fire gem + attribute sphere
 
 
 
 
 * abaddon flame
 
-bomb fragment + chocobo feather
 bomb fragment + chocobo wing
+bomb fragment + chocobo feather
 bomb core + dream powder
 bomb core + farplane shadow
 bomb core + farplane wind
-bomb core + chocobo feather
 bomb core + chocobo wing
+bomb core + chocobo feather
 fire gem + sleeping powder
 fire gem + dream powder
 fire gem + silence grenade
@@ -1988,8 +1994,8 @@ fire gem + candle of life
 fire gem + petrify grenade
 fire gem + farplane shadow
 fire gem + farplane wind
-fire gem + chocobo feather
 fire gem + chocobo wing
+fire gem + chocobo feather
 fire gem + healing spring
 fire gem + mana spring
 fire gem + stamina spring
@@ -2015,6 +2021,7 @@ echo screen + lightning marble
 holy water + electro marble
 holy water + lightning marble
 remedy + electro marble
+remedy + lightning marble
 power distiller + electro marble
 power distiller + lightning marble
 mana distiller + electro marble
@@ -2063,7 +2070,6 @@ soft + lightning gem
 eye drops + lightning gem
 echo screen + lightning gem
 holy water + lightning gem
-remedy + lightning marble
 remedy + lightning gem
 power distiller + lightning gem
 mana distiller + lightning gem
@@ -2186,8 +2192,8 @@ electro marble + candle of life
 electro marble + petrify grenade
 electro marble + farplane shadow
 electro marble + farplane wind
-electro marble + chocobo feather
 electro marble + chocobo wing
+electro marble + chocobo feather
 electro marble + healing spring
 electro marble + mana spring
 electro marble + stamina spring
@@ -2204,8 +2210,8 @@ lightning marble + silver hourglass
 lightning marble + gold hourglass
 lightning marble + candle of life
 lightning marble + petrify grenade
-lightning marble + chocobo feather
 lightning marble + chocobo wing
+lightning marble + chocobo feather
 lightning marble + healing spring
 lightning marble + mana spring
 lightning marble + stamina spring
@@ -2234,8 +2240,8 @@ lightning gem + candle of life
 lightning gem + petrify grenade
 lightning gem + farplane shadow
 lightning gem + farplane wind
-lightning gem + chocobo feather
 lightning gem + chocobo wing
+lightning gem + chocobo feather
 lightning gem + healing spring
 lightning gem + mana spring
 lightning gem + stamina spring
@@ -2261,6 +2267,7 @@ echo screen + dragon scale
 holy water + fish scale
 holy water + dragon scale
 remedy + fish scale
+remedy + dragon scale
 power distiller + fish scale
 power distiller + dragon scale
 mana distiller + fish scale
@@ -2309,7 +2316,6 @@ soft + water gem
 eye drops + water gem
 echo screen + water gem
 holy water + water gem
-remedy + dragon scale
 remedy + water gem
 power distiller + water gem
 mana distiller + water gem
@@ -2435,8 +2441,8 @@ fish scale + candle of life
 fish scale + petrify grenade
 fish scale + farplane shadow
 fish scale + farplane wind
-fish scale + chocobo feather
 fish scale + chocobo wing
+fish scale + chocobo feather
 fish scale + healing spring
 fish scale + mana spring
 fish scale + stamina spring
@@ -2446,6 +2452,7 @@ fish scale + musk
 fish scale + hypello potion
 fish scale + shining thorn
 dragon scale + sleeping powder
+dragon scale + dream powder
 dragon scale + silence grenade
 dragon scale + smoke bomb
 dragon scale + poison fang
@@ -2453,8 +2460,8 @@ dragon scale + silver hourglass
 dragon scale + gold hourglass
 dragon scale + candle of life
 dragon scale + petrify grenade
-dragon scale + chocobo feather
 dragon scale + chocobo wing
+dragon scale + chocobo feather
 dragon scale + healing spring
 dragon scale + mana spring
 dragon scale + stamina spring
@@ -2469,7 +2476,6 @@ dragon scale + shining thorn
 
 * dark rain
 
-dragon scale + dream powder
 dragon scale + farplane shadow
 dragon scale + farplane wind
 water gem + sleeping powder
@@ -2483,8 +2489,8 @@ water gem + candle of life
 water gem + petrify grenade
 water gem + farplane shadow
 water gem + farplane wind
-water gem + chocobo feather
 water gem + chocobo wing
+water gem + chocobo feather
 water gem + healing spring
 water gem + mana spring
 water gem + stamina spring
@@ -2510,6 +2516,7 @@ echo screen + arctic wind
 holy water + antarctic wind
 holy water + arctic wind
 remedy + antarctic wind
+remedy + arctic wind
 power distiller + antarctic wind
 power distiller + arctic wind
 mana distiller + antarctic wind
@@ -2558,7 +2565,6 @@ soft + ice gem
 eye drops + ice gem
 echo screen + ice gem
 holy water + ice gem
-remedy + arctic wind
 remedy + ice gem
 power distiller + ice gem
 mana distiller + ice gem
@@ -2681,8 +2687,8 @@ antarctic wind + candle of life
 antarctic wind + petrify grenade
 antarctic wind + farplane shadow
 antarctic wind + farplane wind
-antarctic wind + chocobo feather
 antarctic wind + chocobo wing
+antarctic wind + chocobo feather
 antarctic wind + healing spring
 antarctic wind + mana spring
 antarctic wind + stamina spring
@@ -2699,8 +2705,8 @@ arctic wind + silver hourglass
 arctic wind + gold hourglass
 arctic wind + candle of life
 arctic wind + petrify grenade
-arctic wind + chocobo feather
 arctic wind + chocobo wing
+arctic wind + chocobo feather
 arctic wind + healing spring
 arctic wind + mana spring
 arctic wind + stamina spring
@@ -2709,6 +2715,7 @@ arctic wind + purifying salt
 arctic wind + musk
 arctic wind + hypello potion
 arctic wind + shining thorn
+ice gem + sleeping powder
 
 
 
@@ -2718,7 +2725,6 @@ arctic wind + shining thorn
 arctic wind + dream powder
 arctic wind + farplane shadow
 arctic wind + farplane wind
-ice gem + sleeping powder
 ice gem + dream powder
 ice gem + silence grenade
 ice gem + smoke bomb
@@ -2729,8 +2735,8 @@ ice gem + candle of life
 ice gem + petrify grenade
 ice gem + farplane shadow
 ice gem + farplane wind
-ice gem + chocobo feather
 ice gem + chocobo wing
+ice gem + chocobo feather
 ice gem + healing spring
 ice gem + mana spring
 ice gem + stamina spring
@@ -2776,8 +2782,8 @@ shadow gem + candle of life
 shadow gem + petrify grenade
 shadow gem + farplane shadow
 shadow gem + farplane wind
-shadow gem + chocobo feather
 shadow gem + chocobo wing
+shadow gem + chocobo feather
 shadow gem + healing spring
 shadow gem + mana spring
 shadow gem + stamina spring
@@ -2859,6 +2865,7 @@ supreme gem + wings to discovery
 supreme gem + gamblers spirit
 supreme gem + underdogs secret
 supreme gem + winning formula
+designer wallet + dark matter
 dark matter + dark matter
 dark matter + fortune sphere
 dark matter + attribute sphere
@@ -2887,19 +2894,12 @@ dark matter + friend sphere
 dark matter + teleport sphere
 dark matter + warp sphere
 dark matter + amulet
-dark matter + designer wallet
 dark matter + door to tomorrow
 dark matter + wings to discovery
 dark matter + gamblers spirit
 dark matter + underdogs secret
 dark matter + winning formula
 three stars + three stars
-master sphere + amulet
-master sphere + door to tomorrow
-master sphere + wings to discovery
-master sphere + gamblers spirit
-master sphere + underdogs secret
-master sphere + winning formula
 wings to discovery + gamblers spirit
 wings to discovery + underdogs secret
 wings to discovery + winning formula
@@ -2998,8 +2998,8 @@ potion + silver hourglass
 potion + gold hourglass
 potion + candle of life
 potion + petrify grenade
-potion + chocobo feather
 potion + chocobo wing
+potion + chocobo feather
 potion + lunar curtain
 potion + light curtain
 potion + star curtain
@@ -3101,8 +3101,8 @@ power distiller + candle of life
 power distiller + petrify grenade
 power distiller + farplane shadow
 power distiller + farplane wind
-power distiller + chocobo feather
 power distiller + chocobo wing
+power distiller + chocobo feather
 power distiller + healing spring
 power distiller + mana spring
 power distiller + stamina spring
@@ -3122,8 +3122,8 @@ mana distiller + candle of life
 mana distiller + petrify grenade
 mana distiller + farplane shadow
 mana distiller + farplane wind
-mana distiller + chocobo feather
 mana distiller + chocobo wing
+mana distiller + chocobo feather
 mana distiller + healing spring
 mana distiller + mana spring
 mana distiller + stamina spring
@@ -3143,8 +3143,8 @@ speed distiller + candle of life
 speed distiller + petrify grenade
 speed distiller + farplane shadow
 speed distiller + farplane wind
-speed distiller + chocobo feather
 speed distiller + chocobo wing
+speed distiller + chocobo feather
 speed distiller + healing spring
 speed distiller + mana spring
 speed distiller + stamina spring
@@ -3164,13 +3164,14 @@ ability distiller + candle of life
 ability distiller + petrify grenade
 ability distiller + farplane shadow
 ability distiller + farplane wind
-ability distiller + chocobo feather
 ability distiller + chocobo wing
+ability distiller + chocobo feather
 ability distiller + healing spring
 ability distiller + mana spring
 ability distiller + stamina spring
 ability distiller + soul spring
 ability distiller + purifying salt
+ability distiller + musk
 ability distiller + hypello potion
 ability distiller + shining thorn
 al bhed potion + sleeping powder
@@ -3184,8 +3185,8 @@ al bhed potion + candle of life
 al bhed potion + petrify grenade
 al bhed potion + farplane shadow
 al bhed potion + farplane wind
-al bhed potion + chocobo feather
 al bhed potion + chocobo wing
+al bhed potion + chocobo feather
 
 
 
@@ -3216,8 +3217,8 @@ phoenix down + silver hourglass
 phoenix down + gold hourglass
 phoenix down + candle of life
 phoenix down + petrify grenade
-phoenix down + chocobo feather
 phoenix down + chocobo wing
+phoenix down + chocobo feather
 phoenix down + lunar curtain
 phoenix down + light curtain
 phoenix down + star curtain
@@ -3243,8 +3244,6 @@ potion + mega phoenix
 hi-potion + mega phoenix
 x-potion + mega phoenix
 mega-potion + mega phoenix
-elixir + mega phoenix
-phoenix down + mega phoenix
 phoenix down + shining gem
 phoenix down + blessed gem
 phoenix down + farplane shadow
@@ -3281,6 +3280,7 @@ phoenix down + gamblers spirit
 phoenix down + underdogs secret
 phoenix down + winning formula
 mega phoenix + mega phoenix
+mega phoenix + elixir
 mega phoenix + antidote
 mega phoenix + soft
 mega phoenix + eye drops
@@ -3310,8 +3310,8 @@ mega phoenix + candle of life
 mega phoenix + petrify grenade
 mega phoenix + farplane shadow
 mega phoenix + farplane wind
-mega phoenix + chocobo feather
 mega phoenix + chocobo wing
+mega phoenix + chocobo feather
 mega phoenix + lunar curtain
 mega phoenix + light curtain
 mega phoenix + star curtain
@@ -3379,8 +3379,8 @@ hi-potion + candle of life
 hi-potion + petrify grenade
 hi-potion + farplane shadow
 hi-potion + farplane wind
-hi-potion + chocobo feather
 hi-potion + chocobo wing
+hi-potion + chocobo feather
 hi-potion + lunar curtain
 hi-potion + light curtain
 hi-potion + star curtain
@@ -3410,8 +3410,8 @@ x-potion + silver hourglass
 x-potion + gold hourglass
 x-potion + candle of life
 x-potion + petrify grenade
-x-potion + chocobo feather
 x-potion + chocobo wing
+x-potion + chocobo feather
 x-potion + lunar curtain
 x-potion + light curtain
 x-potion + star curtain
@@ -3441,8 +3441,8 @@ mega-potion + silver hourglass
 mega-potion + gold hourglass
 mega-potion + candle of life
 mega-potion + petrify grenade
-mega-potion + chocobo feather
 mega-potion + chocobo wing
+mega-potion + chocobo feather
 mega-potion + lunar curtain
 mega-potion + light curtain
 mega-potion + star curtain
@@ -3454,8 +3454,11 @@ mega-potion + purifying salt
 mega-potion + musk
 mega-potion + hypello potion
 mega-potion + shining thorn
+phoenix down + mega phoenix
+phoenix down + elixir
+mega phoenix + map
+mega phoenix + rename card
 elixir + elixir
-elixir + phoenix down
 elixir + antidote
 elixir + soft
 elixir + eye drops
@@ -3475,8 +3478,6 @@ elixir + speed sphere
 elixir + ability sphere
 elixir + map
 elixir + rename card
-mega phoenix + map
-mega phoenix + rename card
 antidote + healing water
 antidote + tetra elemental
 antidote + sleeping powder
@@ -3494,8 +3495,8 @@ antidote + candle of life
 antidote + petrify grenade
 antidote + farplane shadow
 antidote + farplane wind
-antidote + chocobo feather
 antidote + chocobo wing
+antidote + chocobo feather
 antidote + healing spring
 antidote + mana spring
 antidote + stamina spring
@@ -3523,8 +3524,8 @@ soft + candle of life
 soft + petrify grenade
 soft + farplane shadow
 soft + farplane wind
-soft + chocobo feather
 soft + chocobo wing
+soft + chocobo feather
 soft + healing spring
 soft + mana spring
 soft + stamina spring
@@ -3552,8 +3553,8 @@ eye drops + candle of life
 eye drops + petrify grenade
 eye drops + farplane shadow
 eye drops + farplane wind
-eye drops + chocobo feather
 eye drops + chocobo wing
+eye drops + chocobo feather
 eye drops + healing spring
 eye drops + mana spring
 eye drops + stamina spring
@@ -3581,8 +3582,8 @@ echo screen + candle of life
 echo screen + petrify grenade
 echo screen + farplane shadow
 echo screen + farplane wind
-echo screen + chocobo feather
 echo screen + chocobo wing
+echo screen + chocobo feather
 echo screen + healing spring
 echo screen + mana spring
 echo screen + stamina spring
@@ -3610,8 +3611,8 @@ holy water + candle of life
 holy water + petrify grenade
 holy water + farplane shadow
 holy water + farplane wind
-holy water + chocobo feather
 holy water + chocobo wing
+holy water + chocobo feather
 holy water + healing spring
 holy water + mana spring
 holy water + stamina spring
@@ -3665,7 +3666,6 @@ al bhed potion + mana spring
 al bhed potion + stamina spring
 al bhed potion + soul spring
 al bhed potion + purifying salt
-al bhed potion + three stars
 al bhed potion + power sphere
 al bhed potion + mana sphere
 al bhed potion + speed sphere
@@ -3761,6 +3761,8 @@ mega-potion + farplane shadow
 mega-potion + farplane wind
 ether + megalixir
 turbo ether + megalixir
+phoenix down + megalixir
+mega phoenix + megalixir
 elixir + megalixir
 elixir + remedy
 elixir + tetra elemental
@@ -3787,8 +3789,8 @@ elixir + gold hourglass
 elixir + candle of life
 elixir + petrify grenade
 elixir + farplane shadow
-elixir + chocobo feather
 elixir + chocobo wing
+elixir + chocobo feather
 elixir + lunar curtain
 elixir + light curtain
 elixir + star curtain
@@ -3800,8 +3802,6 @@ elixir + purifying salt
 elixir + musk
 elixir + hypello potion
 elixir + shining thorn
-megalixir + phoenix down
-megalixir + mega phoenix
 megalixir + antidote
 megalixir + soft
 megalixir + eye drops
@@ -3856,7 +3856,6 @@ soft + special sphere
 soft + skill sphere
 soft + wht magic sphere
 soft + blk magic sphere
-soft + master sphere
 soft + lv. 1 key sphere
 soft + lv. 2 key sphere
 soft + lv. 3 key sphere
@@ -3989,8 +3988,8 @@ remedy + candle of life
 remedy + petrify grenade
 remedy + farplane shadow
 remedy + farplane wind
-remedy + chocobo feather
 remedy + chocobo wing
+remedy + chocobo feather
 remedy + healing spring
 remedy + mana spring
 remedy + stamina spring
@@ -4131,7 +4130,6 @@ ability distiller + return sphere
 ability distiller + friend sphere
 ability distiller + teleport sphere
 ability distiller + warp sphere
-ability distiller + musk
 ability distiller + pendulum
 ability distiller + amulet
 ability distiller + door to tomorrow
@@ -4475,52 +4473,6 @@ mega-potion + underdogs secret
 mega-potion + winning formula
 ether + dark matter
 turbo ether + dark matter
-elixir + shining gem
-elixir + blessed gem
-elixir + supreme gem
-elixir + farplane wind
-megalixir + healing water
-megalixir + tetra elemental
-megalixir + antarctic wind
-megalixir + arctic wind
-megalixir + ice gem
-megalixir + bomb fragment
-megalixir + bomb core
-megalixir + fire gem
-megalixir + electro marble
-megalixir + lightning marble
-megalixir + lightning gem
-megalixir + fish scale
-megalixir + dragon scale
-megalixir + water gem
-megalixir + sleeping powder
-megalixir + dream powder
-megalixir + silence grenade
-megalixir + smoke bomb
-megalixir + shadow gem
-megalixir + shining gem
-megalixir + blessed gem
-megalixir + supreme gem
-megalixir + poison fang
-megalixir + silver hourglass
-megalixir + gold hourglass
-megalixir + candle of life
-megalixir + petrify grenade
-megalixir + farplane shadow
-megalixir + farplane wind
-megalixir + chocobo feather
-megalixir + chocobo wing
-megalixir + lunar curtain
-megalixir + light curtain
-megalixir + star curtain
-megalixir + healing spring
-megalixir + mana spring
-megalixir + stamina spring
-megalixir + soul spring
-megalixir + purifying salt
-megalixir + musk
-megalixir + hypello potion
-megalixir + shining thorn
 phoenix down + supreme gem
 phoenix down + dark matter
 mega phoenix + supreme gem
@@ -4556,11 +4508,58 @@ mega phoenix + wings to discovery
 mega phoenix + gamblers spirit
 mega phoenix + underdogs secret
 mega phoenix + winning formula
+elixir + shining gem
+elixir + blessed gem
+elixir + supreme gem
+elixir + farplane wind
+megalixir + healing water
+megalixir + tetra elemental
+megalixir + antarctic wind
+megalixir + arctic wind
+megalixir + ice gem
+megalixir + bomb fragment
+megalixir + bomb core
+megalixir + fire gem
+megalixir + electro marble
+megalixir + lightning marble
+megalixir + lightning gem
+megalixir + fish scale
+megalixir + dragon scale
+megalixir + water gem
+megalixir + sleeping powder
+megalixir + dream powder
+megalixir + silence grenade
+megalixir + smoke bomb
+megalixir + shadow gem
+megalixir + shining gem
+megalixir + blessed gem
+megalixir + supreme gem
+megalixir + poison fang
+megalixir + silver hourglass
+megalixir + gold hourglass
+megalixir + candle of life
+megalixir + petrify grenade
+megalixir + farplane shadow
+megalixir + farplane wind
+megalixir + chocobo wing
+megalixir + chocobo feather
+megalixir + lunar curtain
+megalixir + light curtain
+megalixir + star curtain
+megalixir + healing spring
+megalixir + mana spring
+megalixir + stamina spring
+megalixir + soul spring
+megalixir + purifying salt
+megalixir + musk
+megalixir + hypello potion
+megalixir + shining thorn
 antidote + dark matter
 antidote + three stars
 antidote + master sphere
 soft + dark matter
 soft + three stars
+soft + master sphere
 eye drops + dark matter
 eye drops + three stars
 eye drops + master sphere
@@ -4594,11 +4593,13 @@ ability distiller + master sphere
 ability distiller + lv. 3 key sphere
 ability distiller + lv. 4 key sphere
 al bhed potion + dark matter
+al bhed potion + three stars
 al bhed potion + master sphere
 al bhed potion + lv. 3 key sphere
 al bhed potion + lv. 4 key sphere
 healing water + farplane wind
 healing water + dark matter
+healing water + three stars
 healing water + master sphere
 healing water + lv. 3 key sphere
 healing water + lv. 4 key sphere
@@ -4613,6 +4614,7 @@ healing water + underdogs secret
 healing water + winning formula
 tetra elemental + farplane wind
 tetra elemental + dark matter
+tetra elemental + three stars
 tetra elemental + master sphere
 tetra elemental + lv. 3 key sphere
 tetra elemental + lv. 4 key sphere
@@ -4831,10 +4833,10 @@ shining thorn + shining thorn
 
 * ultra nulall
 
-healing water + chocobo feather
 healing water + chocobo wing
-tetra elemental + chocobo feather
+healing water + chocobo feather
 tetra elemental + chocobo wing
+tetra elemental + chocobo feather
 lunar curtain + healing spring
 light curtain + healing spring
 star curtain + healing spring
@@ -4898,14 +4900,14 @@ ability distiller + ability sphere
 grenade + lunar curtain
 grenade + light curtain
 grenade + star curtain
-chocobo feather + power sphere
-chocobo feather + mana sphere
-chocobo feather + speed sphere
-chocobo feather + ability sphere
 chocobo wing + power sphere
 chocobo wing + mana sphere
 chocobo wing + speed sphere
 chocobo wing + ability sphere
+chocobo feather + power sphere
+chocobo feather + mana sphere
+chocobo feather + speed sphere
+chocobo feather + ability sphere
 lunar curtain + power sphere
 lunar curtain + mana sphere
 lunar curtain + speed sphere
@@ -4998,8 +5000,47 @@ frag grenade + lunar curtain
 frag grenade + light curtain
 frag grenade + star curtain
 frag grenade + healing spring
+chocobo wing + chocobo wing
+chocobo wing + chocobo feather
+chocobo wing + lunar curtain
+chocobo wing + light curtain
+chocobo wing + star curtain
+chocobo wing + healing spring
+chocobo wing + mana spring
+chocobo wing + stamina spring
+chocobo wing + soul spring
+chocobo wing + purifying salt
+chocobo wing + three stars
+chocobo wing + attribute sphere
+chocobo wing + special sphere
+chocobo wing + skill sphere
+chocobo wing + wht magic sphere
+chocobo wing + blk magic sphere
+chocobo wing + master sphere
+chocobo wing + lv. 1 key sphere
+chocobo wing + lv. 2 key sphere
+chocobo wing + lv. 3 key sphere
+chocobo wing + lv. 4 key sphere
+chocobo wing + hp sphere
+chocobo wing + mp sphere
+chocobo wing + strength sphere
+chocobo wing + defense sphere
+chocobo wing + magic sphere
+chocobo wing + magic def sphere
+chocobo wing + agility sphere
+chocobo wing + evasion sphere
+chocobo wing + accuracy sphere
+chocobo wing + clear sphere
+chocobo wing + return sphere
+chocobo wing + friend sphere
+chocobo wing + teleport sphere
+chocobo wing + warp sphere
+chocobo wing + map
+chocobo wing + rename card
+chocobo wing + musk
+chocobo wing + hypello potion
+chocobo wing + shining thorn
 chocobo feather + chocobo feather
-chocobo feather + chocobo wing
 chocobo feather + lunar curtain
 chocobo feather + light curtain
 chocobo feather + star curtain
@@ -5045,45 +5086,6 @@ chocobo feather + wings to discovery
 chocobo feather + gamblers spirit
 chocobo feather + underdogs secret
 chocobo feather + winning formula
-chocobo wing + chocobo wing
-chocobo wing + lunar curtain
-chocobo wing + light curtain
-chocobo wing + star curtain
-chocobo wing + healing spring
-chocobo wing + mana spring
-chocobo wing + stamina spring
-chocobo wing + soul spring
-chocobo wing + purifying salt
-chocobo wing + three stars
-chocobo wing + attribute sphere
-chocobo wing + special sphere
-chocobo wing + skill sphere
-chocobo wing + wht magic sphere
-chocobo wing + blk magic sphere
-chocobo wing + master sphere
-chocobo wing + lv. 1 key sphere
-chocobo wing + lv. 2 key sphere
-chocobo wing + lv. 3 key sphere
-chocobo wing + lv. 4 key sphere
-chocobo wing + hp sphere
-chocobo wing + mp sphere
-chocobo wing + strength sphere
-chocobo wing + defense sphere
-chocobo wing + magic sphere
-chocobo wing + magic def sphere
-chocobo wing + agility sphere
-chocobo wing + evasion sphere
-chocobo wing + accuracy sphere
-chocobo wing + clear sphere
-chocobo wing + return sphere
-chocobo wing + friend sphere
-chocobo wing + teleport sphere
-chocobo wing + warp sphere
-chocobo wing + map
-chocobo wing + rename card
-chocobo wing + musk
-chocobo wing + hypello potion
-chocobo wing + shining thorn
 lunar curtain + lunar curtain
 lunar curtain + light curtain
 lunar curtain + star curtain
@@ -5233,10 +5235,10 @@ x-potion + stamina tablet
 x-potion + three stars
 mega-potion + stamina tablet
 mega-potion + three stars
-elixir + stamina tablet
-elixir + three stars
 phoenix down + stamina tablet
 phoenix down + three stars
+elixir + stamina tablet
+elixir + three stars
 antidote + stamina tablet
 soft + stamina tablet
 eye drops + stamina tablet
@@ -5279,8 +5281,9 @@ candle of life + stamina tablet
 petrify grenade + stamina tablet
 farplane shadow + stamina tablet
 farplane wind + stamina tablet
-chocobo feather + stamina tablet
+designer wallet + stamina tablet
 chocobo wing + stamina tablet
+chocobo feather + stamina tablet
 lunar curtain + stamina tablet
 light curtain + stamina tablet
 star curtain + stamina tablet
@@ -5290,6 +5293,7 @@ stamina spring + stamina tablet
 soul spring + stamina tablet
 purifying salt + stamina tablet
 stamina tablet + stamina tablet
+stamina tablet + three stars
 stamina tablet + power sphere
 stamina tablet + mana sphere
 stamina tablet + speed sphere
@@ -5323,7 +5327,6 @@ stamina tablet + rename card
 stamina tablet + musk
 stamina tablet + hypello potion
 stamina tablet + shining thorn
-stamina tablet + designer wallet
 
 
 
@@ -5336,8 +5339,8 @@ x-potion + stamina tonic
 mega-potion + stamina tonic
 ether + stamina tonic
 turbo ether + stamina tonic
-elixir + stamina tonic
 phoenix down + stamina tonic
+elixir + stamina tonic
 antidote + stamina tonic
 soft + stamina tonic
 eye drops + stamina tonic
@@ -5350,7 +5353,6 @@ speed distiller + stamina tonic
 ability distiller + stamina tonic
 al bhed potion + stamina tonic
 healing water + stamina tonic
-healing water + three stars
 tetra elemental + stamina tonic
 tetra elemental + three stars
 antarctic wind + stamina tonic
@@ -5379,8 +5381,9 @@ candle of life + stamina tonic
 petrify grenade + stamina tonic
 farplane shadow + stamina tonic
 farplane wind + stamina tonic
-chocobo feather + stamina tonic
+designer wallet + stamina tonic
 chocobo wing + stamina tonic
+chocobo feather + stamina tonic
 lunar curtain + stamina tonic
 light curtain + stamina tonic
 star curtain + stamina tonic
@@ -5392,7 +5395,6 @@ purifying salt + stamina tonic
 stamina tablet + stamina tonic
 stamina tonic + stamina tonic
 stamina tonic + mana tonic
-stamina tonic + twin stars
 stamina tonic + three stars
 stamina tonic + power sphere
 stamina tonic + mana sphere
@@ -5428,7 +5430,6 @@ stamina tonic + musk
 stamina tonic + hypello potion
 stamina tonic + shining thorn
 stamina tonic + pendulum
-stamina tonic + designer wallet
 
 
 
@@ -5494,8 +5495,8 @@ ether + gold hourglass
 ether + candle of life
 ether + petrify grenade
 ether + farplane shadow
-ether + chocobo feather
 ether + chocobo wing
+ether + chocobo feather
 ether + lunar curtain
 ether + light curtain
 ether + star curtain
@@ -5533,8 +5534,8 @@ ether + rename card
 ether + hypello potion
 ether + shining thorn
 turbo ether + turbo ether
-turbo ether + elixir
 turbo ether + phoenix down
+turbo ether + elixir
 turbo ether + antidote
 turbo ether + soft
 turbo ether + eye drops
@@ -5572,8 +5573,8 @@ turbo ether + gold hourglass
 turbo ether + candle of life
 turbo ether + petrify grenade
 turbo ether + farplane shadow
-turbo ether + chocobo feather
 turbo ether + chocobo wing
+turbo ether + chocobo feather
 turbo ether + lunar curtain
 turbo ether + light curtain
 turbo ether + star curtain
@@ -5634,10 +5635,10 @@ ether + three stars
 turbo ether + mana tablet
 turbo ether + mana tonic
 turbo ether + three stars
-elixir + mana tablet
-elixir + mana tonic
 phoenix down + mana tablet
 phoenix down + mana tonic
+elixir + mana tablet
+elixir + mana tonic
 antidote + mana tablet
 antidote + mana tonic
 soft + mana tablet
@@ -5716,10 +5717,12 @@ farplane shadow + mana tablet
 farplane shadow + mana tonic
 farplane wind + mana tablet
 farplane wind + mana tonic
-chocobo feather + mana tablet
-chocobo feather + mana tonic
+designer wallet + mana tablet
+designer wallet + mana tonic
 chocobo wing + mana tablet
 chocobo wing + mana tonic
+chocobo feather + mana tablet
+chocobo feather + mana tonic
 lunar curtain + mana tablet
 lunar curtain + mana tonic
 light curtain + mana tablet
@@ -5737,13 +5740,12 @@ soul spring + mana tonic
 purifying salt + mana tablet
 purifying salt + mana tonic
 stamina tablet + mana tablet
-stamina tablet + mana tonic
 stamina tablet + twin stars
-stamina tablet + three stars
+stamina tablet + mana tonic
 mana tablet + mana tablet
+mana tablet + twin stars
 mana tablet + stamina tonic
 mana tablet + mana tonic
-mana tablet + twin stars
 mana tablet + three stars
 mana tablet + power sphere
 mana tablet + mana sphere
@@ -5779,9 +5781,9 @@ mana tablet + musk
 mana tablet + hypello potion
 mana tablet + shining thorn
 mana tablet + pendulum
-mana tablet + designer wallet
+twin stars + stamina tonic
+twin stars + mana tonic
 mana tonic + mana tonic
-mana tonic + twin stars
 mana tonic + three stars
 mana tonic + power sphere
 mana tonic + mana sphere
@@ -5817,7 +5819,6 @@ mana tonic + musk
 mana tonic + hypello potion
 mana tonic + shining thorn
 mana tonic + pendulum
-mana tonic + designer wallet
 
 
 
@@ -5866,8 +5867,8 @@ turbo ether + wings to discovery
 turbo ether + gamblers spirit
 turbo ether + underdogs secret
 turbo ether + winning formula
-elixir + twin stars
 phoenix down + twin stars
+elixir + twin stars
 antidote + twin stars
 soft + twin stars
 eye drops + twin stars
@@ -5907,8 +5908,9 @@ candle of life + twin stars
 petrify grenade + twin stars
 farplane shadow + twin stars
 farplane wind + twin stars
-chocobo feather + twin stars
+designer wallet + twin stars
 chocobo wing + twin stars
+chocobo feather + twin stars
 lunar curtain + twin stars
 light curtain + twin stars
 star curtain + twin stars
@@ -5953,7 +5955,6 @@ twin stars + musk
 twin stars + hypello potion
 twin stars + shining thorn
 twin stars + pendulum
-twin stars + designer wallet
 three stars + power sphere
 three stars + mana sphere
 three stars + speed sphere
@@ -6067,8 +6068,8 @@ silver hourglass + dark matter
 gold hourglass + dark matter
 candle of life + dark matter
 petrify grenade + dark matter
-dark matter + chocobo feather
 dark matter + chocobo wing
+dark matter + chocobo feather
 dark matter + lunar curtain
 dark matter + light curtain
 dark matter + star curtain
@@ -6198,9 +6199,9 @@ farplane shadow + dark matter
 farplane wind + dark matter
 dark matter + stamina tablet
 dark matter + mana tablet
+dark matter + twin stars
 dark matter + stamina tonic
 dark matter + mana tonic
-dark matter + twin stars
 dark matter + pendulum
 lv. 3 key sphere + pendulum
 lv. 3 key sphere + amulet
@@ -6229,68 +6230,68 @@ gamblers spirit + gamblers spirit
 
 * hero drink
 
+potion + designer wallet
 potion + fortune sphere
 potion + luck sphere
-potion + designer wallet
+hi-potion + designer wallet
 hi-potion + fortune sphere
 hi-potion + luck sphere
-hi-potion + designer wallet
+x-potion + designer wallet
 x-potion + fortune sphere
 x-potion + luck sphere
-x-potion + designer wallet
+mega-potion + designer wallet
 mega-potion + fortune sphere
 mega-potion + luck sphere
-mega-potion + designer wallet
 ether + fortune sphere
-elixir + fortune sphere
+phoenix down + designer wallet
 phoenix down + fortune sphere
 phoenix down + luck sphere
-phoenix down + designer wallet
+elixir + fortune sphere
+antidote + designer wallet
 antidote + fortune sphere
 antidote + luck sphere
-antidote + designer wallet
+soft + designer wallet
 soft + fortune sphere
 soft + luck sphere
-soft + designer wallet
+eye drops + designer wallet
 eye drops + fortune sphere
 eye drops + luck sphere
-eye drops + designer wallet
+echo screen + designer wallet
 echo screen + fortune sphere
 echo screen + luck sphere
-echo screen + designer wallet
+holy water + designer wallet
 holy water + fortune sphere
 holy water + luck sphere
-holy water + designer wallet
+remedy + designer wallet
 remedy + fortune sphere
 remedy + luck sphere
-remedy + designer wallet
+power distiller + designer wallet
 power distiller + fortune sphere
 power distiller + luck sphere
-power distiller + designer wallet
+mana distiller + designer wallet
 mana distiller + fortune sphere
 mana distiller + luck sphere
-mana distiller + designer wallet
+speed distiller + designer wallet
 speed distiller + fortune sphere
 speed distiller + luck sphere
-speed distiller + designer wallet
+ability distiller + designer wallet
 ability distiller + fortune sphere
 ability distiller + luck sphere
-ability distiller + designer wallet
+al bhed potion + designer wallet
 al bhed potion + fortune sphere
 al bhed potion + luck sphere
-al bhed potion + designer wallet
+healing water + designer wallet
 healing water + fortune sphere
 healing water + luck sphere
-healing water + designer wallet
+tetra elemental + designer wallet
 tetra elemental + fortune sphere
 tetra elemental + luck sphere
-tetra elemental + designer wallet
 antarctic wind + fortune sphere
 bomb fragment + fortune sphere
 electro marble + fortune sphere
 fish scale + fortune sphere
-grenade + fortune sphere
 grenade + designer wallet
+grenade + fortune sphere
 frag grenade + fortune sphere
 sleeping powder + fortune sphere
 dream powder + fortune sphere
@@ -6299,8 +6300,8 @@ smoke bomb + fortune sphere
 shadow gem + fortune sphere
 poison fang + fortune sphere
 petrify grenade + fortune sphere
-chocobo feather + fortune sphere
 chocobo wing + fortune sphere
+chocobo feather + fortune sphere
 lunar curtain + fortune sphere
 light curtain + fortune sphere
 star curtain + fortune sphere
@@ -6316,143 +6317,181 @@ speed sphere + fortune sphere
 speed sphere + luck sphere
 ability sphere + fortune sphere
 ability sphere + luck sphere
-fortune sphere + fortune sphere
 fortune sphere + map
 fortune sphere + rename card
 fortune sphere + musk
 fortune sphere + hypello potion
 fortune sphere + shining thorn
-magic sphere + luck sphere
 
 
 
 
 * miracle drink
 
-ether + luck sphere
 ether + designer wallet
+ether + luck sphere
+turbo ether + designer wallet
 turbo ether + fortune sphere
 turbo ether + luck sphere
-turbo ether + designer wallet
-elixir + luck sphere
-elixir + designer wallet
-megalixir + fortune sphere
-megalixir + luck sphere
-megalixir + designer wallet
+mega phoenix + designer wallet
 mega phoenix + fortune sphere
 mega phoenix + luck sphere
-mega phoenix + designer wallet
-antarctic wind + luck sphere
+elixir + designer wallet
+elixir + luck sphere
+megalixir + designer wallet
+megalixir + fortune sphere
+megalixir + luck sphere
 antarctic wind + designer wallet
+antarctic wind + luck sphere
+arctic wind + designer wallet
 arctic wind + fortune sphere
 arctic wind + luck sphere
-arctic wind + designer wallet
+ice gem + designer wallet
 ice gem + fortune sphere
 ice gem + luck sphere
-ice gem + designer wallet
-bomb fragment + luck sphere
 bomb fragment + designer wallet
+bomb fragment + luck sphere
+bomb core + designer wallet
 bomb core + fortune sphere
 bomb core + luck sphere
-bomb core + designer wallet
+fire gem + designer wallet
 fire gem + fortune sphere
 fire gem + luck sphere
-fire gem + designer wallet
-electro marble + luck sphere
 electro marble + designer wallet
+electro marble + luck sphere
+lightning marble + designer wallet
 lightning marble + fortune sphere
 lightning marble + luck sphere
-lightning marble + designer wallet
+lightning gem + designer wallet
 lightning gem + fortune sphere
 lightning gem + luck sphere
-lightning gem + designer wallet
-fish scale + luck sphere
 fish scale + designer wallet
+fish scale + luck sphere
+dragon scale + designer wallet
 dragon scale + fortune sphere
 dragon scale + luck sphere
-dragon scale + designer wallet
+water gem + designer wallet
 water gem + fortune sphere
 water gem + luck sphere
-water gem + designer wallet
 grenade + luck sphere
-frag grenade + luck sphere
 frag grenade + designer wallet
-sleeping powder + luck sphere
+frag grenade + luck sphere
 sleeping powder + designer wallet
-dream powder + luck sphere
+sleeping powder + luck sphere
 dream powder + designer wallet
-silence grenade + luck sphere
+dream powder + luck sphere
 silence grenade + designer wallet
-smoke bomb + luck sphere
+silence grenade + luck sphere
 smoke bomb + designer wallet
-shadow gem + luck sphere
+smoke bomb + luck sphere
 shadow gem + designer wallet
+shadow gem + luck sphere
+shining gem + designer wallet
 shining gem + fortune sphere
 shining gem + luck sphere
-shining gem + designer wallet
+blessed gem + designer wallet
 blessed gem + fortune sphere
 blessed gem + luck sphere
-blessed gem + designer wallet
+supreme gem + designer wallet
 supreme gem + fortune sphere
 supreme gem + luck sphere
-supreme gem + designer wallet
-poison fang + luck sphere
 poison fang + designer wallet
+poison fang + luck sphere
+silver hourglass + designer wallet
 silver hourglass + fortune sphere
 silver hourglass + luck sphere
-silver hourglass + designer wallet
+gold hourglass + designer wallet
 gold hourglass + fortune sphere
 gold hourglass + luck sphere
-gold hourglass + designer wallet
+candle of life + designer wallet
 candle of life + fortune sphere
 candle of life + luck sphere
-candle of life + designer wallet
-petrify grenade + luck sphere
 petrify grenade + designer wallet
+petrify grenade + luck sphere
+farplane shadow + designer wallet
 farplane shadow + fortune sphere
 farplane shadow + luck sphere
-farplane shadow + designer wallet
+farplane wind + designer wallet
 farplane wind + fortune sphere
 farplane wind + luck sphere
-farplane wind + designer wallet
-chocobo feather + luck sphere
-chocobo feather + designer wallet
+designer wallet + designer wallet
+designer wallet + chocobo wing
+designer wallet + chocobo feather
+designer wallet + lunar curtain
+designer wallet + light curtain
+designer wallet + star curtain
+designer wallet + healing spring
+designer wallet + mana spring
+designer wallet + stamina spring
+designer wallet + soul spring
+designer wallet + purifying salt
+designer wallet + three stars
+designer wallet + power sphere
+designer wallet + mana sphere
+designer wallet + speed sphere
+designer wallet + ability sphere
+designer wallet + fortune sphere
+designer wallet + attribute sphere
+designer wallet + special sphere
+designer wallet + skill sphere
+designer wallet + wht magic sphere
+designer wallet + blk magic sphere
+designer wallet + master sphere
+designer wallet + lv. 1 key sphere
+designer wallet + lv. 2 key sphere
+designer wallet + lv. 3 key sphere
+designer wallet + lv. 4 key sphere
+designer wallet + hp sphere
+designer wallet + mp sphere
+designer wallet + strength sphere
+designer wallet + defense sphere
+designer wallet + magic sphere
+designer wallet + magic def sphere
+designer wallet + agility sphere
+designer wallet + evasion sphere
+designer wallet + accuracy sphere
+designer wallet + luck sphere
+designer wallet + clear sphere
+designer wallet + return sphere
+designer wallet + friend sphere
+designer wallet + teleport sphere
+designer wallet + warp sphere
+designer wallet + map
+designer wallet + rename card
+designer wallet + musk
+designer wallet + hypello potion
+designer wallet + shining thorn
+designer wallet + pendulum
+designer wallet + amulet
+designer wallet + door to tomorrow
+designer wallet + wings to discovery
+designer wallet + gamblers spirit
+designer wallet + underdogs secret
+designer wallet + winning formula
 chocobo wing + luck sphere
-chocobo wing + designer wallet
+chocobo feather + luck sphere
 lunar curtain + luck sphere
-lunar curtain + designer wallet
 light curtain + luck sphere
-light curtain + designer wallet
 star curtain + luck sphere
-star curtain + designer wallet
 healing spring + fortune sphere
 healing spring + luck sphere
-healing spring + designer wallet
 mana spring + luck sphere
-mana spring + designer wallet
 stamina spring + luck sphere
-stamina spring + designer wallet
 soul spring + luck sphere
-soul spring + designer wallet
 purifying salt + luck sphere
-purifying salt + designer wallet
 stamina tablet + fortune sphere
 stamina tablet + luck sphere
 mana tablet + fortune sphere
 mana tablet + luck sphere
+twin stars + fortune sphere
+twin stars + luck sphere
 stamina tonic + fortune sphere
 stamina tonic + luck sphere
 mana tonic + fortune sphere
 mana tonic + luck sphere
-twin stars + fortune sphere
-twin stars + luck sphere
 three stars + fortune sphere
 three stars + luck sphere
-three stars + designer wallet
-power sphere + designer wallet
-mana sphere + designer wallet
-speed sphere + designer wallet
-ability sphere + designer wallet
+fortune sphere + fortune sphere
 fortune sphere + attribute sphere
 fortune sphere + special sphere
 fortune sphere + skill sphere
@@ -6480,49 +6519,30 @@ fortune sphere + teleport sphere
 fortune sphere + warp sphere
 fortune sphere + pendulum
 fortune sphere + amulet
-fortune sphere + designer wallet
 fortune sphere + door to tomorrow
 fortune sphere + wings to discovery
 fortune sphere + gamblers spirit
 fortune sphere + underdogs secret
 fortune sphere + winning formula
 attribute sphere + luck sphere
-attribute sphere + designer wallet
 special sphere + luck sphere
-special sphere + designer wallet
 skill sphere + luck sphere
-skill sphere + designer wallet
 wht magic sphere + luck sphere
-wht magic sphere + designer wallet
 blk magic sphere + luck sphere
-blk magic sphere + designer wallet
 master sphere + luck sphere
-master sphere + designer wallet
 lv. 1 key sphere + luck sphere
-lv. 1 key sphere + designer wallet
 lv. 2 key sphere + luck sphere
-lv. 2 key sphere + designer wallet
 lv. 3 key sphere + luck sphere
-lv. 3 key sphere + designer wallet
 lv. 4 key sphere + luck sphere
-lv. 4 key sphere + designer wallet
 hp sphere + luck sphere
-hp sphere + designer wallet
 mp sphere + luck sphere
-mp sphere + designer wallet
 strength sphere + luck sphere
-strength sphere + designer wallet
 defense sphere + luck sphere
-defense sphere + designer wallet
-magic sphere + designer wallet
+magic sphere + luck sphere
 magic def sphere + luck sphere
-magic def sphere + designer wallet
 agility sphere + luck sphere
-agility sphere + designer wallet
 evasion sphere + luck sphere
-evasion sphere + designer wallet
 accuracy sphere + luck sphere
-accuracy sphere + designer wallet
 luck sphere + luck sphere
 luck sphere + clear sphere
 luck sphere + return sphere
@@ -6536,36 +6556,23 @@ luck sphere + hypello potion
 luck sphere + shining thorn
 luck sphere + pendulum
 luck sphere + amulet
-luck sphere + designer wallet
 luck sphere + door to tomorrow
 luck sphere + wings to discovery
 luck sphere + gamblers spirit
 luck sphere + underdogs secret
 luck sphere + winning formula
-clear sphere + designer wallet
-return sphere + designer wallet
-friend sphere + designer wallet
-teleport sphere + designer wallet
-warp sphere + designer wallet
-map + designer wallet
-rename card + designer wallet
-musk + designer wallet
-hypello potion + designer wallet
-shining thorn + designer wallet
-pendulum + designer wallet
-amulet + designer wallet
-designer wallet + designer wallet
-designer wallet + door to tomorrow
-designer wallet + wings to discovery
-designer wallet + gamblers spirit
-designer wallet + underdogs secret
-designer wallet + winning formula
 
 
 
 
 * hot spurs
 
+mega phoenix + stamina tablet
+mega phoenix + mana tablet
+mega phoenix + twin stars
+mega phoenix + stamina tonic
+mega phoenix + mana tonic
+mega phoenix + three stars
 elixir + attribute sphere
 elixir + special sphere
 elixir + skill sphere
@@ -6592,25 +6599,19 @@ elixir + teleport sphere
 elixir + warp sphere
 elixir + pendulum
 megalixir + megalixir
-mega phoenix + stamina tablet
-mega phoenix + mana tablet
-mega phoenix + stamina tonic
-mega phoenix + mana tonic
-mega phoenix + twin stars
-mega phoenix + three stars
 ice gem + three stars
 fire gem + three stars
 lightning gem + three stars
 water gem + three stars
 shining gem + mana tablet
+shining gem + twin stars
 shining gem + stamina tonic
 shining gem + mana tonic
-shining gem + twin stars
-blessed gem + stamina tonic
 blessed gem + twin stars
+blessed gem + stamina tonic
 blessed gem + lv. 4 key sphere
-supreme gem + stamina tonic
 supreme gem + twin stars
+supreme gem + stamina tonic
 supreme gem + lv. 3 key sphere
 supreme gem + friend sphere
 supreme gem + teleport sphere
@@ -6630,9 +6631,9 @@ elixir + winning formula
 megalixir + dark matter
 megalixir + stamina tablet
 megalixir + mana tablet
+megalixir + twin stars
 megalixir + stamina tonic
 megalixir + mana tonic
-megalixir + twin stars
 megalixir + three stars
 megalixir + attribute sphere
 megalixir + special sphere
@@ -6671,6 +6672,12 @@ mana tablet + wings to discovery
 mana tablet + gamblers spirit
 mana tablet + underdogs secret
 mana tablet + winning formula
+twin stars + amulet
+twin stars + door to tomorrow
+twin stars + wings to discovery
+twin stars + gamblers spirit
+twin stars + underdogs secret
+twin stars + winning formula
 stamina tonic + amulet
 stamina tonic + door to tomorrow
 stamina tonic + wings to discovery
@@ -6683,12 +6690,6 @@ mana tonic + wings to discovery
 mana tonic + gamblers spirit
 mana tonic + underdogs secret
 mana tonic + winning formula
-twin stars + amulet
-twin stars + door to tomorrow
-twin stars + wings to discovery
-twin stars + gamblers spirit
-twin stars + underdogs secret
-twin stars + winning formula
 three stars + amulet
 three stars + door to tomorrow
 three stars + wings to discovery

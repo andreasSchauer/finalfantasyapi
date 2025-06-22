@@ -396,31 +396,8 @@
         },
         {
             "name": "potato masher",
-            "unique_combinations": 110,
+            "unique_combinations": 102,
             "mix_combinations": [
-                {
-                    "first_item": "arctic wind",
-                    "possible_second_items": [
-                        "lightning gem",
-                        "water gem"
-                    ]
-                },
-                {
-                    "first_item": "ice gem",
-                    "possible_second_items": [
-                        "lightning marble",
-                        "lightning gem",
-                        "dragon scale",
-                        "water gem"
-                    ]
-                },
-                {
-                    "first_item": "bomb core",
-                    "possible_second_items": [
-                        "lightning gem",
-                        "water gem"
-                    ]
-                },
                 {
                     "first_item": "fire gem",
                     "possible_second_items": [
@@ -433,32 +410,24 @@
                 {
                     "first_item": "lightning marble",
                     "possible_second_items": [
-                        "ice gem",
                         "fire gem"
                     ]
                 },
                 {
                     "first_item": "lightning gem",
                     "possible_second_items": [
-                        "arctic wind",
-                        "ice gem",
-                        "bomb core",
                         "fire gem"
                     ]
                 },
                 {
                     "first_item": "dragon scale",
                     "possible_second_items": [
-                        "ice gem",
                         "fire gem"
                     ]
                 },
                 {
                     "first_item": "water gem",
                     "possible_second_items": [
-                        "arctic wind",
-                        "ice gem",
-                        "bomb core",
                         "fire gem"
                     ]
                 },
@@ -798,7 +767,7 @@
         },
         {
             "name": "cluster bomb",
-            "unique_combinations": 375,
+            "unique_combinations": 370,
             "mix_combinations": [
                 {
                     "first_item": "antarctic wind",
@@ -895,40 +864,35 @@
                     "first_item": "frag grenade",
                     "possible_second_items": [
                         "shining gem",
-                        "blessed gem",
-                        "pendulum"
+                        "blessed gem"
                     ]
                 },
                 {
                     "first_item": "sleeping powder",
                     "possible_second_items": [
                         "shining gem",
-                        "blessed gem",
-                        "pendulum"
+                        "blessed gem"
                     ]
                 },
                 {
                     "first_item": "dream powder",
                     "possible_second_items": [
                         "shining gem",
-                        "blessed gem",
-                        "pendulum"
+                        "blessed gem"
                     ]
                 },
                 {
                     "first_item": "silence grenade",
                     "possible_second_items": [
                         "shining gem",
-                        "blessed gem",
-                        "pendulum"
+                        "blessed gem"
                     ]
                 },
                 {
                     "first_item": "smoke bomb",
                     "possible_second_items": [
                         "shining gem",
-                        "blessed gem",
-                        "pendulum"
+                        "blessed gem"
                     ]
                 },
                 {
@@ -1746,11 +1710,6 @@
                 {
                     "first_item": "pendulum",
                     "possible_second_items": [
-                        "frag grenade",
-                        "sleeping powder",
-                        "dream powder",
-                        "silence grenade",
-                        "smoke bomb",
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
@@ -1829,7 +1788,7 @@
         },
         {
             "name": "tallboy",
-            "unique_combinations": 242,
+            "unique_combinations": 248,
             "mix_combinations": [
                 {
                     "first_item": "antarctic wind",
@@ -2203,7 +2162,13 @@
                         "master sphere",
                         "lv. 4 key sphere",
                         "warp sphere",
-                        "pendulum"
+                        "pendulum",
+                        "amulet",
+                        "door to tomorrow",
+                        "wings to discovery",
+                        "gamblers spirit",
+                        "underdogs secret",
+                        "winning formula"
                     ]
                 },
                 {
@@ -2484,6 +2449,7 @@
                         "skill sphere",
                         "wht magic sphere",
                         "blk magic sphere",
+                        "master sphere",
                         "clear sphere",
                         "return sphere",
                         "friend sphere",
@@ -2505,6 +2471,7 @@
                         "skill sphere",
                         "wht magic sphere",
                         "blk magic sphere",
+                        "master sphere",
                         "clear sphere",
                         "return sphere",
                         "friend sphere",
@@ -2526,6 +2493,7 @@
                         "skill sphere",
                         "wht magic sphere",
                         "blk magic sphere",
+                        "master sphere",
                         "clear sphere",
                         "return sphere",
                         "friend sphere",
@@ -2547,6 +2515,7 @@
                         "skill sphere",
                         "wht magic sphere",
                         "blk magic sphere",
+                        "master sphere",
                         "clear sphere",
                         "return sphere",
                         "friend sphere",
@@ -2568,6 +2537,7 @@
                         "skill sphere",
                         "wht magic sphere",
                         "blk magic sphere",
+                        "master sphere",
                         "clear sphere",
                         "return sphere",
                         "friend sphere",
@@ -2589,6 +2559,7 @@
                         "skill sphere",
                         "wht magic sphere",
                         "blk magic sphere",
+                        "master sphere",
                         "clear sphere",
                         "return sphere",
                         "friend sphere",
@@ -2600,7 +2571,7 @@
         },
         {
             "name": "blaster mine",
-            "unique_combinations": 102,
+            "unique_combinations": 108,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -2714,7 +2685,8 @@
                         "ability sphere",
                         "musk",
                         "hypello potion",
-                        "shining thorn"
+                        "shining thorn",
+                        "pendulum"
                     ]
                 },
                 {
@@ -2730,7 +2702,8 @@
                         "mana distiller",
                         "speed distiller",
                         "ability distiller",
-                        "al bhed potion"
+                        "al bhed potion",
+                        "pendulum"
                     ]
                 },
                 {
@@ -2740,7 +2713,8 @@
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
-                        "ability sphere"
+                        "ability sphere",
+                        "pendulum"
                     ]
                 },
                 {
@@ -2750,7 +2724,8 @@
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
-                        "ability sphere"
+                        "ability sphere",
+                        "pendulum"
                     ]
                 },
                 {
@@ -2760,7 +2735,8 @@
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
-                        "ability sphere"
+                        "ability sphere",
+                        "pendulum"
                     ]
                 },
                 {
@@ -2770,7 +2746,8 @@
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
-                        "ability sphere"
+                        "ability sphere",
+                        "pendulum"
                     ]
                 },
                 {
@@ -2990,12 +2967,23 @@
                         "speed sphere",
                         "ability sphere"
                     ]
+                },
+                {
+                    "first_item": "pendulum",
+                    "possible_second_items": [
+                        "grenade",
+                        "frag grenade",
+                        "sleeping powder",
+                        "dream powder",
+                        "silence grenade",
+                        "smoke bomb"
+                    ]
                 }
             ]
         },
         {
             "name": "hazardous shell",
-            "unique_combinations": 226,
+            "unique_combinations": 225,
             "mix_combinations": [
                 {
                     "first_item": "healing water",
@@ -3346,7 +3334,6 @@
                     "possible_second_items": [
                         "grenade",
                         "frag grenade",
-                        "three stars",
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
@@ -3487,12 +3474,6 @@
                         "gold hourglass",
                         "candle of life",
                         "petrify grenade"
-                    ]
-                },
-                {
-                    "first_item": "three stars",
-                    "possible_second_items": [
-                        "farplane wind"
                     ]
                 },
                 {
@@ -3670,15 +3651,65 @@
         },
         {
             "name": "calamity bomb",
-            "unique_combinations": 200,
+            "unique_combinations": 208,
             "mix_combinations": [
+                {
+                    "first_item": "arctic wind",
+                    "possible_second_items": [
+                        "lightning gem",
+                        "water gem"
+                    ]
+                },
+                {
+                    "first_item": "ice gem",
+                    "possible_second_items": [
+                        "lightning marble",
+                        "lightning gem",
+                        "dragon scale",
+                        "water gem"
+                    ]
+                },
+                {
+                    "first_item": "bomb core",
+                    "possible_second_items": [
+                        "lightning gem",
+                        "water gem"
+                    ]
+                },
+                {
+                    "first_item": "lightning marble",
+                    "possible_second_items": [
+                        "ice gem"
+                    ]
+                },
+                {
+                    "first_item": "lightning gem",
+                    "possible_second_items": [
+                        "arctic wind",
+                        "ice gem",
+                        "bomb core"
+                    ]
+                },
+                {
+                    "first_item": "dragon scale",
+                    "possible_second_items": [
+                        "ice gem"
+                    ]
+                },
+                {
+                    "first_item": "water gem",
+                    "possible_second_items": [
+                        "arctic wind",
+                        "ice gem",
+                        "bomb core"
+                    ]
+                },
                 {
                     "first_item": "grenade",
                     "possible_second_items": [
                         "master sphere",
                         "lv. 3 key sphere",
-                        "lv. 4 key sphere",
-                        "pendulum"
+                        "lv. 4 key sphere"
                     ]
                 },
                 {
@@ -3957,6 +3988,7 @@
                         "stamina spring",
                         "soul spring",
                         "purifying salt",
+                        "three stars",
                         "musk",
                         "hypello potion",
                         "shining thorn"
@@ -4065,7 +4097,8 @@
                         "gold hourglass",
                         "candle of life",
                         "petrify grenade",
-                        "farplane shadow"
+                        "farplane shadow",
+                        "farplane wind"
                     ]
                 },
                 {
@@ -4297,12 +4330,6 @@
                         "lv. 1 key sphere",
                         "lv. 2 key sphere",
                         "clear sphere"
-                    ]
-                },
-                {
-                    "first_item": "pendulum",
-                    "possible_second_items": [
-                        "grenade"
                     ]
                 }
             ]
@@ -5339,7 +5366,7 @@
         },
         {
             "name": "heat blaster",
-            "unique_combinations": 48,
+            "unique_combinations": 49,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -5379,7 +5406,8 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "bomb fragment"
+                        "bomb fragment",
+                        "bomb core"
                     ]
                 },
                 {
@@ -5468,6 +5496,7 @@
                         "eye drops",
                         "echo screen",
                         "holy water",
+                        "remedy",
                         "power distiller",
                         "mana distiller",
                         "speed distiller",
@@ -5596,7 +5625,7 @@
         },
         {
             "name": "fire storm",
-            "unique_combinations": 43,
+            "unique_combinations": 33,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -5631,7 +5660,6 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "bomb core",
                         "fire gem"
                     ]
                 },
@@ -5697,7 +5725,6 @@
                 {
                     "first_item": "bomb core",
                     "possible_second_items": [
-                        "remedy",
                         "al bhed potion",
                         "healing water",
                         "tetra elemental",
@@ -5706,10 +5733,6 @@
                         "fire gem",
                         "frag grenade",
                         "three stars",
-                        "special sphere",
-                        "skill sphere",
-                        "wht magic sphere",
-                        "blk magic sphere",
                         "lv. 1 key sphere",
                         "clear sphere"
                     ]
@@ -5735,11 +5758,6 @@
                         "fire gem",
                         "grenade",
                         "frag grenade",
-                        "power sphere",
-                        "mana sphere",
-                        "speed sphere",
-                        "ability sphere",
-                        "attribute sphere",
                         "clear sphere"
                     ]
                 },
@@ -5758,60 +5776,6 @@
                 },
                 {
                     "first_item": "three stars",
-                    "possible_second_items": [
-                        "bomb core"
-                    ]
-                },
-                {
-                    "first_item": "power sphere",
-                    "possible_second_items": [
-                        "fire gem"
-                    ]
-                },
-                {
-                    "first_item": "mana sphere",
-                    "possible_second_items": [
-                        "fire gem"
-                    ]
-                },
-                {
-                    "first_item": "speed sphere",
-                    "possible_second_items": [
-                        "fire gem"
-                    ]
-                },
-                {
-                    "first_item": "ability sphere",
-                    "possible_second_items": [
-                        "fire gem"
-                    ]
-                },
-                {
-                    "first_item": "attribute sphere",
-                    "possible_second_items": [
-                        "fire gem"
-                    ]
-                },
-                {
-                    "first_item": "special sphere",
-                    "possible_second_items": [
-                        "bomb core"
-                    ]
-                },
-                {
-                    "first_item": "skill sphere",
-                    "possible_second_items": [
-                        "bomb core"
-                    ]
-                },
-                {
-                    "first_item": "wht magic sphere",
-                    "possible_second_items": [
-                        "bomb core"
-                    ]
-                },
-                {
-                    "first_item": "blk magic sphere",
                     "possible_second_items": [
                         "bomb core"
                     ]
@@ -6130,7 +6094,7 @@
         },
         {
             "name": "brimstone",
-            "unique_combinations": 35,
+            "unique_combinations": 44,
             "mix_combinations": [
                 {
                     "first_item": "bomb fragment",
@@ -6172,9 +6136,23 @@
                         "stamina spring",
                         "soul spring",
                         "purifying salt",
+                        "special sphere",
+                        "skill sphere",
+                        "wht magic sphere",
+                        "blk magic sphere",
                         "musk",
                         "hypello potion",
                         "shining thorn"
+                    ]
+                },
+                {
+                    "first_item": "fire gem",
+                    "possible_second_items": [
+                        "power sphere",
+                        "mana sphere",
+                        "speed sphere",
+                        "ability sphere",
+                        "attribute sphere"
                     ]
                 },
                 {
@@ -6283,6 +6261,60 @@
                     "first_item": "purifying salt",
                     "possible_second_items": [
                         "bomb fragment",
+                        "bomb core"
+                    ]
+                },
+                {
+                    "first_item": "power sphere",
+                    "possible_second_items": [
+                        "fire gem"
+                    ]
+                },
+                {
+                    "first_item": "mana sphere",
+                    "possible_second_items": [
+                        "fire gem"
+                    ]
+                },
+                {
+                    "first_item": "speed sphere",
+                    "possible_second_items": [
+                        "fire gem"
+                    ]
+                },
+                {
+                    "first_item": "ability sphere",
+                    "possible_second_items": [
+                        "fire gem"
+                    ]
+                },
+                {
+                    "first_item": "attribute sphere",
+                    "possible_second_items": [
+                        "fire gem"
+                    ]
+                },
+                {
+                    "first_item": "special sphere",
+                    "possible_second_items": [
+                        "bomb core"
+                    ]
+                },
+                {
+                    "first_item": "skill sphere",
+                    "possible_second_items": [
+                        "bomb core"
+                    ]
+                },
+                {
+                    "first_item": "wht magic sphere",
+                    "possible_second_items": [
+                        "bomb core"
+                    ]
+                },
+                {
+                    "first_item": "blk magic sphere",
+                    "possible_second_items": [
                         "bomb core"
                     ]
                 },
@@ -6493,7 +6525,7 @@
         },
         {
             "name": "thunderbolt",
-            "unique_combinations": 48,
+            "unique_combinations": 49,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -6533,7 +6565,8 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "electro marble"
+                        "electro marble",
+                        "lightning marble"
                     ]
                 },
                 {
@@ -6609,6 +6642,7 @@
                         "eye drops",
                         "echo screen",
                         "holy water",
+                        "remedy",
                         "power distiller",
                         "mana distiller",
                         "speed distiller",
@@ -6750,7 +6784,7 @@
         },
         {
             "name": "rolling thunder",
-            "unique_combinations": 43,
+            "unique_combinations": 42,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -6785,7 +6819,6 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "lightning marble",
                         "lightning gem"
                     ]
                 },
@@ -6851,7 +6884,6 @@
                 {
                     "first_item": "lightning marble",
                     "possible_second_items": [
-                        "remedy",
                         "al bhed potion",
                         "healing water",
                         "tetra elemental",
@@ -7652,7 +7684,7 @@
         },
         {
             "name": "waterfall",
-            "unique_combinations": 48,
+            "unique_combinations": 49,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -7692,7 +7724,8 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "fish scale"
+                        "fish scale",
+                        "dragon scale"
                     ]
                 },
                 {
@@ -7781,6 +7814,7 @@
                         "eye drops",
                         "echo screen",
                         "holy water",
+                        "remedy",
                         "power distiller",
                         "mana distiller",
                         "speed distiller",
@@ -7909,7 +7943,7 @@
         },
         {
             "name": "flash flood",
-            "unique_combinations": 46,
+            "unique_combinations": 45,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -7944,7 +7978,6 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "dragon scale",
                         "water gem"
                     ]
                 },
@@ -8010,7 +8043,6 @@
                 {
                     "first_item": "dragon scale",
                     "possible_second_items": [
-                        "remedy",
                         "al bhed potion",
                         "healing water",
                         "tetra elemental",
@@ -8447,7 +8479,7 @@
         },
         {
             "name": "aqua toxin",
-            "unique_combinations": 39,
+            "unique_combinations": 40,
             "mix_combinations": [
                 {
                     "first_item": "fish scale",
@@ -8479,6 +8511,7 @@
                     "first_item": "dragon scale",
                     "possible_second_items": [
                         "sleeping powder",
+                        "dream powder",
                         "silence grenade",
                         "smoke bomb",
                         "poison fang",
@@ -8508,7 +8541,8 @@
                 {
                     "first_item": "dream powder",
                     "possible_second_items": [
-                        "fish scale"
+                        "fish scale",
+                        "dragon scale"
                     ]
                 },
                 {
@@ -8646,12 +8680,11 @@
         },
         {
             "name": "dark rain",
-            "unique_combinations": 24,
+            "unique_combinations": 23,
             "mix_combinations": [
                 {
                     "first_item": "dragon scale",
                     "possible_second_items": [
-                        "dream powder",
                         "farplane shadow",
                         "farplane wind"
                     ]
@@ -8691,7 +8724,6 @@
                 {
                     "first_item": "dream powder",
                     "possible_second_items": [
-                        "dragon scale",
                         "water gem"
                     ]
                 },
@@ -8815,7 +8847,7 @@
         },
         {
             "name": "snow flurry",
-            "unique_combinations": 48,
+            "unique_combinations": 49,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -8855,7 +8887,8 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "antarctic wind"
+                        "antarctic wind",
+                        "arctic wind"
                     ]
                 },
                 {
@@ -8931,6 +8964,7 @@
                         "eye drops",
                         "echo screen",
                         "holy water",
+                        "remedy",
                         "power distiller",
                         "mana distiller",
                         "speed distiller",
@@ -9072,7 +9106,7 @@
         },
         {
             "name": "icefall",
-            "unique_combinations": 43,
+            "unique_combinations": 42,
             "mix_combinations": [
                 {
                     "first_item": "antidote",
@@ -9107,7 +9141,6 @@
                 {
                     "first_item": "remedy",
                     "possible_second_items": [
-                        "arctic wind",
                         "ice gem"
                     ]
                 },
@@ -9173,7 +9206,6 @@
                 {
                     "first_item": "arctic wind",
                     "possible_second_items": [
-                        "remedy",
                         "al bhed potion",
                         "healing water",
                         "tetra elemental",
@@ -9638,7 +9670,6 @@
                     "first_item": "arctic wind",
                     "possible_second_items": [
                         "sleeping powder",
-                        "silence grenade",
                         "smoke bomb",
                         "poison fang",
                         "silver hourglass",
@@ -9658,10 +9689,17 @@
                     ]
                 },
                 {
+                    "first_item": "ice gem",
+                    "possible_second_items": [
+                        "sleeping powder"
+                    ]
+                },
+                {
                     "first_item": "sleeping powder",
                     "possible_second_items": [
                         "antarctic wind",
-                        "arctic wind"
+                        "arctic wind",
+                        "ice gem"
                     ]
                 },
                 {
@@ -9673,8 +9711,7 @@
                 {
                     "first_item": "silence grenade",
                     "possible_second_items": [
-                        "antarctic wind",
-                        "arctic wind"
+                        "antarctic wind"
                     ]
                 },
                 {
@@ -9811,6 +9848,7 @@
                     "first_item": "arctic wind",
                     "possible_second_items": [
                         "dream powder",
+                        "silence grenade",
                         "farplane shadow",
                         "farplane wind"
                     ]
@@ -9818,7 +9856,6 @@
                 {
                     "first_item": "ice gem",
                     "possible_second_items": [
-                        "sleeping powder",
                         "dream powder",
                         "silence grenade",
                         "smoke bomb",
@@ -9842,12 +9879,6 @@
                     ]
                 },
                 {
-                    "first_item": "sleeping powder",
-                    "possible_second_items": [
-                        "ice gem"
-                    ]
-                },
-                {
                     "first_item": "dream powder",
                     "possible_second_items": [
                         "arctic wind",
@@ -9857,6 +9888,7 @@
                 {
                     "first_item": "silence grenade",
                     "possible_second_items": [
+                        "arctic wind",
                         "ice gem"
                     ]
                 },
@@ -10536,7 +10568,7 @@
         },
         {
             "name": "sunburst",
-            "unique_combinations": 73,
+            "unique_combinations": 67,
             "mix_combinations": [
                 {
                     "first_item": "ice gem",
@@ -10707,13 +10739,7 @@
                 {
                     "first_item": "master sphere",
                     "possible_second_items": [
-                        "dark matter",
-                        "amulet",
-                        "door to tomorrow",
-                        "wings to discovery",
-                        "gamblers spirit",
-                        "underdogs secret",
-                        "winning formula"
+                        "dark matter"
                     ]
                 },
                 {
@@ -10835,8 +10861,7 @@
                     "first_item": "amulet",
                     "possible_second_items": [
                         "supreme gem",
-                        "dark matter",
-                        "master sphere"
+                        "dark matter"
                     ]
                 },
                 {
@@ -10849,8 +10874,7 @@
                     "first_item": "door to tomorrow",
                     "possible_second_items": [
                         "supreme gem",
-                        "dark matter",
-                        "master sphere"
+                        "dark matter"
                     ]
                 },
                 {
@@ -10858,7 +10882,6 @@
                     "possible_second_items": [
                         "supreme gem",
                         "dark matter",
-                        "master sphere",
                         "gamblers spirit",
                         "underdogs secret",
                         "winning formula"
@@ -10869,7 +10892,6 @@
                     "possible_second_items": [
                         "supreme gem",
                         "dark matter",
-                        "master sphere",
                         "wings to discovery",
                         "underdogs secret",
                         "winning formula"
@@ -10880,7 +10902,6 @@
                     "possible_second_items": [
                         "supreme gem",
                         "dark matter",
-                        "master sphere",
                         "wings to discovery",
                         "gamblers spirit",
                         "underdogs secret",
@@ -10892,7 +10913,6 @@
                     "possible_second_items": [
                         "supreme gem",
                         "dark matter",
-                        "master sphere",
                         "wings to discovery",
                         "gamblers spirit",
                         "underdogs secret",
@@ -11520,7 +11540,7 @@
         },
         {
             "name": "ultra cure",
-            "unique_combinations": 96,
+            "unique_combinations": 97,
             "mix_combinations": [
                 {
                     "first_item": "power distiller",
@@ -11621,6 +11641,7 @@
                         "stamina spring",
                         "soul spring",
                         "purifying salt",
+                        "musk",
                         "hypello potion",
                         "shining thorn"
                     ]
@@ -11823,7 +11844,8 @@
                     "possible_second_items": [
                         "power distiller",
                         "mana distiller",
-                        "speed distiller"
+                        "speed distiller",
+                        "ability distiller"
                     ]
                 },
                 {
@@ -12140,7 +12162,7 @@
         },
         {
             "name": "final phoenix",
-            "unique_combinations": 88,
+            "unique_combinations": 87,
             "mix_combinations": [
                 {
                     "first_item": "potion",
@@ -12175,7 +12197,6 @@
                 {
                     "first_item": "phoenix down",
                     "possible_second_items": [
-                        "mega phoenix",
                         "shining gem",
                         "blessed gem",
                         "farplane shadow",
@@ -12221,7 +12242,6 @@
                         "x-potion",
                         "mega-potion",
                         "elixir",
-                        "phoenix down",
                         "mega phoenix",
                         "antidote",
                         "soft",
@@ -12974,12 +12994,14 @@
                 {
                     "first_item": "phoenix down",
                     "possible_second_items": [
-                        "elixir"
+                        "elixir",
+                        "mega phoenix"
                     ]
                 },
                 {
                     "first_item": "mega phoenix",
                     "possible_second_items": [
+                        "phoenix down",
                         "map",
                         "rename card"
                     ]
@@ -13235,7 +13257,6 @@
                         "stamina spring",
                         "soul spring",
                         "purifying salt",
-                        "three stars",
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
@@ -13667,12 +13688,6 @@
                     ]
                 },
                 {
-                    "first_item": "three stars",
-                    "possible_second_items": [
-                        "al bhed potion"
-                    ]
-                },
-                {
                     "first_item": "power sphere",
                     "possible_second_items": [
                         "elixir",
@@ -13822,7 +13837,7 @@
         },
         {
             "name": "super elixir",
-            "unique_combinations": 650,
+            "unique_combinations": 648,
             "mix_combinations": [
                 {
                     "first_item": "potion",
@@ -14031,7 +14046,6 @@
                         "skill sphere",
                         "wht magic sphere",
                         "blk magic sphere",
-                        "master sphere",
                         "lv. 1 key sphere",
                         "lv. 2 key sphere",
                         "lv. 3 key sphere",
@@ -14355,7 +14369,6 @@
                         "friend sphere",
                         "teleport sphere",
                         "warp sphere",
-                        "musk",
                         "pendulum",
                         "amulet",
                         "door to tomorrow",
@@ -15058,7 +15071,6 @@
                     "first_item": "master sphere",
                     "possible_second_items": [
                         "potion",
-                        "soft",
                         "healing spring",
                         "mana spring",
                         "stamina spring",
@@ -15497,8 +15509,7 @@
                 {
                     "first_item": "musk",
                     "possible_second_items": [
-                        "elixir",
-                        "ability distiller"
+                        "elixir"
                     ]
                 },
                 {
@@ -15636,7 +15647,7 @@
         },
         {
             "name": "final elixir",
-            "unique_combinations": 286,
+            "unique_combinations": 290,
             "mix_combinations": [
                 {
                     "first_item": "potion",
@@ -15882,7 +15893,8 @@
                     "first_item": "soft",
                     "possible_second_items": [
                         "dark matter",
-                        "three stars"
+                        "three stars",
+                        "master sphere"
                     ]
                 },
                 {
@@ -15961,6 +15973,7 @@
                     "first_item": "al bhed potion",
                     "possible_second_items": [
                         "dark matter",
+                        "three stars",
                         "master sphere",
                         "lv. 3 key sphere",
                         "lv. 4 key sphere"
@@ -15972,6 +15985,7 @@
                         "megalixir",
                         "farplane wind",
                         "dark matter",
+                        "three stars",
                         "master sphere",
                         "lv. 3 key sphere",
                         "lv. 4 key sphere",
@@ -15992,6 +16006,7 @@
                         "megalixir",
                         "farplane wind",
                         "dark matter",
+                        "three stars",
                         "master sphere",
                         "lv. 3 key sphere",
                         "lv. 4 key sphere",
@@ -16316,7 +16331,10 @@
                         "power distiller",
                         "mana distiller",
                         "speed distiller",
-                        "ability distiller"
+                        "ability distiller",
+                        "al bhed potion",
+                        "healing water",
+                        "tetra elemental"
                     ]
                 },
                 {
@@ -16372,6 +16390,7 @@
                         "mega-potion",
                         "mega phoenix",
                         "antidote",
+                        "soft",
                         "eye drops",
                         "echo screen",
                         "holy water",
@@ -18644,7 +18663,7 @@
         },
         {
             "name": "mega vitality",
-            "unique_combinations": 99,
+            "unique_combinations": 100,
             "mix_combinations": [
                 {
                     "first_item": "potion",
@@ -19062,6 +19081,7 @@
                         "soul spring",
                         "purifying salt",
                         "stamina tablet",
+                        "three stars",
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
@@ -19106,7 +19126,8 @@
                         "x-potion",
                         "mega-potion",
                         "elixir",
-                        "phoenix down"
+                        "phoenix down",
+                        "stamina tablet"
                     ]
                 },
                 {
@@ -19317,7 +19338,7 @@
         },
         {
             "name": "hyper vitality",
-            "unique_combinations": 99,
+            "unique_combinations": 96,
             "mix_combinations": [
                 {
                     "first_item": "potion",
@@ -19436,15 +19457,13 @@
                 {
                     "first_item": "healing water",
                     "possible_second_items": [
-                        "stamina tonic",
-                        "three stars"
+                        "stamina tonic"
                     ]
                 },
                 {
                     "first_item": "tetra elemental",
                     "possible_second_items": [
-                        "stamina tonic",
-                        "three stars"
+                        "stamina tonic"
                     ]
                 },
                 {
@@ -19732,7 +19751,6 @@
                         "stamina tablet",
                         "stamina tonic",
                         "mana tonic",
-                        "twin stars",
                         "three stars",
                         "power sphere",
                         "mana sphere",
@@ -19778,16 +19796,8 @@
                     ]
                 },
                 {
-                    "first_item": "twin stars",
-                    "possible_second_items": [
-                        "stamina tonic"
-                    ]
-                },
-                {
                     "first_item": "three stars",
                     "possible_second_items": [
-                        "healing water",
-                        "tetra elemental",
                         "stamina tonic"
                     ]
                 },
@@ -21334,8 +21344,7 @@
                     "possible_second_items": [
                         "mana tablet",
                         "mana tonic",
-                        "twin stars",
-                        "three stars"
+                        "twin stars"
                     ]
                 },
                 {
@@ -21444,7 +21453,8 @@
                 {
                     "first_item": "stamina tonic",
                     "possible_second_items": [
-                        "mana tablet"
+                        "mana tablet",
+                        "twin stars"
                     ]
                 },
                 {
@@ -21554,6 +21564,7 @@
                     "possible_second_items": [
                         "stamina tablet",
                         "mana tablet",
+                        "stamina tonic",
                         "mana tonic"
                     ]
                 },
@@ -21562,7 +21573,6 @@
                     "possible_second_items": [
                         "ether",
                         "turbo ether",
-                        "stamina tablet",
                         "mana tablet",
                         "mana tonic"
                     ]
@@ -23598,7 +23608,7 @@
         },
         {
             "name": "hero drink",
-            "unique_combinations": 94,
+            "unique_combinations": 92,
             "mix_combinations": [
                 {
                     "first_item": "potion",
@@ -23966,18 +23976,11 @@
                         "mana sphere",
                         "speed sphere",
                         "ability sphere",
-                        "fortune sphere",
                         "map",
                         "rename card",
                         "musk",
                         "hypello potion",
                         "shining thorn"
-                    ]
-                },
-                {
-                    "first_item": "magic sphere",
-                    "possible_second_items": [
-                        "luck sphere"
                     ]
                 },
                 {
@@ -24004,8 +24007,7 @@
                         "power sphere",
                         "mana sphere",
                         "speed sphere",
-                        "ability sphere",
-                        "magic sphere"
+                        "ability sphere"
                     ]
                 },
                 {
@@ -24066,7 +24068,7 @@
         },
         {
             "name": "miracle drink",
-            "unique_combinations": 231,
+            "unique_combinations": 233,
             "mix_combinations": [
                 {
                     "first_item": "ether",
@@ -24491,6 +24493,7 @@
                         "mana tonic",
                         "twin stars",
                         "three stars",
+                        "fortune sphere",
                         "attribute sphere",
                         "special sphere",
                         "skill sphere",
@@ -24642,6 +24645,7 @@
                     "first_item": "magic sphere",
                     "possible_second_items": [
                         "fortune sphere",
+                        "luck sphere",
                         "designer wallet"
                     ]
                 },
@@ -24745,6 +24749,7 @@
                         "mp sphere",
                         "strength sphere",
                         "defense sphere",
+                        "magic sphere",
                         "magic def sphere",
                         "agility sphere",
                         "evasion sphere",

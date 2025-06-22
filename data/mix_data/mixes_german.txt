@@ -1,77 +1,108 @@
-Deutsch	                Englisch
+Deutsch	                Englisch            Unique (Ich)            Unique (Piggyback)
 
-Handgranate	            Grenade
-Panzergranate	        Frag Grenade
-Hypergranate	        Pineapple
-Mörser	                Potato Masher
-Granatwerfer	        Cluster Bomb
-Sprengladung	        Tallboy
+Handgranate	            Grenade             6                       6
+Panzergranate	        Frag Grenade        10                      10
+Hypergranate	        Pineapple           64                      64
+Granatwerfer	        Potato Masher       102                     102
+Mörser	                Cluster Bomb        370                     370
+Sprengladung	        Tallboy             248                     248
+                                            800                     800
 
-Dicke Berta	            Blaster Mine
-Risikohaubitze	        Hazardous Shell
-Panikbombe	            Calamity Bomb
-Chaosgranate	        Chaos Grenade
+Dicke Berta	            Blaster Mine        108                     108
+Risikohaubitze	        Hazardous Shell     225                     225
+Panikbombe	            Calamity Bomb       208                     208
+Chaosgranate	        Chaos Grenade       363                     363
+                                            904                     904
 
-Heißes Eisen	        Heat Blaster
-Feuersturm	            Firestorm
-Flammenseele	        Burning Soul
-Höllenfeuer	            Brimstone
-Utgardlodern	        Abaddon Flame
 
-Gewitterfront	        Thunderbolt
-Donnerschlag	        Rolling Thunder
-Blitzeinschlag	        Lightning Bolt
-Elektroschock	        Electroshock
-Taifun	                Thunderblast
+Heißes Eisen	        Heat Blaster        49                      49
+Feuersturm	            Firestorm           33                      33
+Flammenseele	        Burning Soul        62                      62
+Höllenfeuer	            Brimstone           44                      44
+Utgardlodern	        Abaddon Flame       28                      28
+                                            216                     216
 
-Strömung	            Waterfall
-Wasserfall	            Flash Flood
-Flutwelle	            Tidal Wave
-Aquatoxin	            Aqua Toxin
-Dunkler Regen	        Dark Rain
 
-Kalter Schnee	        Snow Flurry
-Eisiger Wind	        Icefall
-Wintersturm	            Winter Storm
-Eis Kontamina	        Black Ice
-Kokytos	                Krysta
+Gewitterfront	        Thunderbolt         49                      49
+Donnerschlag	        Rolling Thunder     42                      42
+Blitzeinschlag	        Lightning Bolt      62                      62
+Elektroschock	        Electroshock        39                      39
+Taifun	                Thunderblast        24                      24
+                                            216                     216
 
-Lebensloch	            Nega Burst
-Wurmloch	            Black Hole
-Supernova	            Sunburst
 
-Ultra-Potion	        Ultra-Potion
-Allesheiler	            Panacea
-Ultraheiler	            Ultra Cure
-Mega Phönix	            Mega Phoenix
-Final Phönix	        Final Phoenix
-Elixier	                Elixir
-Endelixier	            Megalixir
-Superelixier            Super Elixir
-Final-Elixier	        Final Elixir
+Strömung	            Waterfall           49                      49
+Wasserfall	            Flash Flood         45                      45
+Flutwelle	            Tidal Wave          62                      62
+Aquatoxin	            Aqua Toxin          40                      40
+Dunkler Regen	        Dark Rain           23                      23
+                                            219                     219
 
-Exall	                Nulall
-Super-Exall	            Super Nulall
-Mega-Exall	            Hyper Nulall
-Ultra-Exall	            Ultra Nulall
-Gesamtabwehr	        Mighty Wall
-Impetus	                Mighty G
-Infusion	            Super Mighty G
-Unfallschutz	        Hyper Mighty G
 
-Vital	                Vitality
-Super-Vital	            Mega Vitality
-Mega-Vital	            Hyper Vitality
-Mental	                Mana
-Super-Mental	        Mega Mana
-Mega-Mental	            Hyper Mana
+Kalter Schnee	        Snow Flurry         49                      49
+Eisiger Wind	        Icefall             42                      43                  -1
+Wintersturm	            Winter Storm        62                      62
+Eis Kontamina	        Black Ice           39                      39
+Kokytos	                Krysta              24                      24
+                                            216                     217                         -1
 
-MP-Freiheit	            Freedom
-MP-Freiheit EX	        Freedom X
 
-Quartett 9	            Quartet of 9
-Quartett 99	            Trio of 9999
-Heldentrank	            Hero Drink
-Heerestrank	            Miracle Drink
-Anspornmittel	        Hot Spurs
-Exzentrequilla	        Eccentrick
+Lebensloch	            Nega Burst          69                      69
+Wurmloch	            Black Hole          9                       9
+Supernova	            Sunburst            67                      67
+                                            145                     145
+
+
+Ultra-Potion	        Ultra-Potion        60                      60
+Allesheiler	            Panacea             104                     104
+Ultraheiler	            Ultra Cure          97                      97
+Mega Phönix	            Mega Phoenix        41                      38                  +3
+Final Phönix	        Final Phoenix       87                      90                  -3
+                                            389                     389                         0       
+
+
+Elixier	                Elixir              16                      16
+Endelixier	            Megalixir           357                     357
+Superelixier            Super Elixir        648                     648
+Final-Elixier	        Final Elixir        290                     290
+                                            1311                    1311
+
+
+Exall	                Nulall              24                      24
+Super-Exall	            Mega Nulall         82                      82
+Mega-Exall	            Hyper Nulall        41                      41
+Ultra-Exall	            Ultra Nulall        15                      15
+Gesamtabwehr	        Mighty Wall         62                      62
+Impetus	                Mighty G            43                      43
+Infusion	            Super Mighty G      200                     200
+Unfallschutz	        Hyper Mighty G      35                      35
+                                            502                     502
+
+
+
+Vital	                Vitality            3                       3 
+Super-Vital	            Mega Vitality       100                     100
+Mega-Vital	            Hyper Vitality      96                      96
+                                            199                     199
+
+
+Mental	                Mana                25                      21                  +4
+Super-Mental	        Mega Mana           148                     152                 -4
+Mega-Mental	            Hyper Mana          198                     198
+                                            371                     371                         0
+
+
+MP-Freiheit	            Freedom             3                       3 
+MP-Freiheit EX	        Freedom X           155                     155
+                                            158                     158       
+
+
+Quartett 9	            Quartet of 9        170                     170
+Quartett 99	            Trio of 9999        53                      53
+Heldentrank	            Hero Drink          92                      92
+Heerestrank	            Miracle Drink       233                     233
+Anspornmittel	        Hot Spurs           48                      48
+Exzentrequilla	        Eccentrick          86                      86
+                                            682                     682       
+
+                                            6328                    6329

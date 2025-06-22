@@ -44,12 +44,16 @@ func TestCreateMixMap(t *testing.T) {
 				},
 				{
 					item1: "power sphere",
+					item2: "power sphere",
+				},
+				{
+					item1: "power sphere",
 					item2: "speed sphere",
 				},
 			},
 			expected: MixMap{
 				Name: "cool mix",
-				UniqueCombinations: 8,
+				UniqueCombinations: 9,
 				MixCombinations: map[string][]string{
 					"potion": {"potion", "hi-potion", "al bhed potion"},
 					"hi-potion": {"potion", "x-potion"},
@@ -59,7 +63,7 @@ func TestCreateMixMap(t *testing.T) {
 					"al bhed potion": {"potion", "al bhed potion"},
 					"bomb fragment": {"bomb core"},
 					"bomb core": {"bomb fragment"},
-					"power sphere": {"speed sphere"},
+					"power sphere": {"power sphere", "speed sphere"},
 					"speed sphere": {"power sphere"},
 				},
 			},

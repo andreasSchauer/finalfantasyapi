@@ -23,9 +23,12 @@ type MixItems struct {
 	PossibleSecondItems []string `json:"possible_second_items"`
 }
 
+
+
 func FormatMixCombinations() error {
 	combinationsFilePath := "./data/mix_data/mix_combinations_copy.txt"
 	jsonFilePath := "./data/mix_combinations_copy.json"
+	// itemResultsFilePath := "./data/mix_data/item_results_copy.txt"
 
 	file, err := os.Open(combinationsFilePath)
 	if err != nil {
@@ -38,10 +41,16 @@ func FormatMixCombinations() error {
 		return fmt.Errorf("couldn't read file: %v", err)
 	}
 
-	mixCombinations, mixMapSlice := processMixCombinations(data)
-	var bytes []byte
-	bytes = fmt.Appendf(bytes, "* %s", mixCombinations)
-	os.WriteFile(combinationsFilePath, bytes, 0666)
+	mixCombinations, mixMapSlice, _ := processMixCombinations(data)
+	var bytes_mix_combinations []byte
+	bytes_mix_combinations = fmt.Appendf(bytes_mix_combinations, "* %s", mixCombinations)
+	os.WriteFile(combinationsFilePath, bytes_mix_combinations, 0666)
+	
+	/*
+	var bytes_item_results []byte
+	bytes_item_results = fmt.Append(bytes_item_results, itemResults)
+	os.WriteFile(itemResultsFilePath, bytes_item_results, 0666)
+	*/
 
 	mixJsonData := getMixJsonData(mixMapSlice)
 	mixCombinationsData := MixCombinationsData{
@@ -58,10 +67,12 @@ func FormatMixCombinations() error {
 	return nil
 }
 
-func processMixCombinations(data []byte) (string, []MixMap) {
+func processMixCombinations(data []byte) (string, []MixMap, string) {
 	mixData := string(data)
 	mixes := strings.Split(mixData, "* ") // a slice of the individual mixes and their combinations
 	var sortedMixes []string
+	var itemResults []ItemResult
+	itemResultsPtr := &itemResults
 	var mixMapSlice []MixMap
 
 	for _, mix := range mixes {
@@ -76,14 +87,22 @@ func processMixCombinations(data []byte) (string, []MixMap) {
 		mixTable := getMixTable(mixName, combinations)
 		sortedMixes = append(sortedMixes, mixTable)
 
+		appendItemResults(itemResultsPtr, mixName, combinations)
+
 		mixMap := createMixMap(mixName, combinations)
 		mixMapSlice = append(mixMapSlice, mixMap)
 	}
 
 	mixCombinations := strings.Join(sortedMixes, "\n\n\n\n\n* ")
 
-	return mixCombinations, mixMapSlice
+	sortItemResults(itemResultsPtr)
+	formattedItemResults := formatItemResults(itemResultsPtr)
+
+	return mixCombinations, mixMapSlice, formattedItemResults
 }
+
+
+
 
 func getMixJsonData(mixMapSlice []MixMap) []Mix {
 	var mixes []Mix

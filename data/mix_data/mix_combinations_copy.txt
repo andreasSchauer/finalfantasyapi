@@ -98,14 +98,6 @@ ability sphere + rename card
 
 * potato masher
 
-arctic wind + lightning gem
-arctic wind + water gem
-ice gem + lightning marble
-ice gem + lightning gem
-ice gem + dragon scale
-ice gem + water gem
-bomb core + lightning gem
-bomb core + water gem
 fire gem + lightning marble
 fire gem + lightning gem
 fire gem + dragon scale
@@ -242,19 +234,14 @@ grenade + shining gem
 grenade + blessed gem
 frag grenade + shining gem
 frag grenade + blessed gem
-frag grenade + pendulum
 sleeping powder + shining gem
 sleeping powder + blessed gem
-sleeping powder + pendulum
 dream powder + shining gem
 dream powder + blessed gem
-dream powder + pendulum
 silence grenade + shining gem
 silence grenade + blessed gem
-silence grenade + pendulum
 smoke bomb + shining gem
 smoke bomb + blessed gem
-smoke bomb + pendulum
 shining gem + map
 shining gem + rename card
 blessed gem + map
@@ -781,6 +768,12 @@ master sphere + master sphere
 master sphere + lv. 4 key sphere
 master sphere + warp sphere
 master sphere + pendulum
+master sphere + amulet
+master sphere + door to tomorrow
+master sphere + wings to discovery
+master sphere + gamblers spirit
+master sphere + underdogs secret
+master sphere + winning formula
 lv. 1 key sphere + lv. 4 key sphere
 lv. 1 key sphere + warp sphere
 lv. 2 key sphere + lv. 4 key sphere
@@ -887,22 +880,28 @@ grenade + ability sphere
 grenade + musk
 grenade + hypello potion
 grenade + shining thorn
+grenade + pendulum
+frag grenade + pendulum
 sleeping powder + power sphere
 sleeping powder + mana sphere
 sleeping powder + speed sphere
 sleeping powder + ability sphere
+sleeping powder + pendulum
 dream powder + power sphere
 dream powder + mana sphere
 dream powder + speed sphere
 dream powder + ability sphere
+dream powder + pendulum
 silence grenade + power sphere
 silence grenade + mana sphere
 silence grenade + speed sphere
 silence grenade + ability sphere
+silence grenade + pendulum
 smoke bomb + power sphere
 smoke bomb + mana sphere
 smoke bomb + speed sphere
 smoke bomb + ability sphere
+smoke bomb + pendulum
 poison fang + power sphere
 poison fang + mana sphere
 poison fang + speed sphere
@@ -1164,7 +1163,6 @@ farplane shadow + speed sphere
 farplane shadow + ability sphere
 farplane shadow + map
 farplane shadow + rename card
-farplane wind + three stars
 farplane wind + power sphere
 farplane wind + mana sphere
 farplane wind + speed sphere
@@ -1183,10 +1181,17 @@ rename card + shining thorn
 
 * calamity bomb
 
+arctic wind + lightning gem
+arctic wind + water gem
+ice gem + lightning marble
+ice gem + lightning gem
+ice gem + dragon scale
+ice gem + water gem
+bomb core + lightning gem
+bomb core + water gem
 grenade + master sphere
 grenade + lv. 3 key sphere
 grenade + lv. 4 key sphere
-grenade + pendulum
 frag grenade + attribute sphere
 frag grenade + special sphere
 frag grenade + skill sphere
@@ -1356,6 +1361,7 @@ farplane wind + mana spring
 farplane wind + stamina spring
 farplane wind + soul spring
 farplane wind + purifying salt
+farplane wind + three stars
 farplane wind + musk
 farplane wind + hypello potion
 farplane wind + shining thorn
@@ -1769,6 +1775,7 @@ echo screen + bomb core
 holy water + bomb fragment
 holy water + bomb core
 remedy + bomb fragment
+remedy + bomb core
 power distiller + bomb fragment
 power distiller + bomb core
 mana distiller + bomb fragment
@@ -1817,7 +1824,6 @@ soft + fire gem
 eye drops + fire gem
 echo screen + fire gem
 holy water + fire gem
-remedy + bomb core
 remedy + fire gem
 power distiller + fire gem
 mana distiller + fire gem
@@ -1840,20 +1846,11 @@ bomb core + bomb core
 bomb core + fire gem
 bomb core + frag grenade
 bomb core + three stars
-bomb core + special sphere
-bomb core + skill sphere
-bomb core + wht magic sphere
-bomb core + blk magic sphere
 bomb core + lv. 1 key sphere
 bomb core + clear sphere
 fire gem + fire gem
 fire gem + grenade
 fire gem + frag grenade
-fire gem + power sphere
-fire gem + mana sphere
-fire gem + speed sphere
-fire gem + ability sphere
-fire gem + attribute sphere
 fire gem + clear sphere
 
 
@@ -1961,9 +1958,18 @@ bomb core + mana spring
 bomb core + stamina spring
 bomb core + soul spring
 bomb core + purifying salt
+bomb core + special sphere
+bomb core + skill sphere
+bomb core + wht magic sphere
+bomb core + blk magic sphere
 bomb core + musk
 bomb core + hypello potion
 bomb core + shining thorn
+fire gem + power sphere
+fire gem + mana sphere
+fire gem + speed sphere
+fire gem + ability sphere
+fire gem + attribute sphere
 
 
 
@@ -2015,6 +2021,7 @@ echo screen + lightning marble
 holy water + electro marble
 holy water + lightning marble
 remedy + electro marble
+remedy + lightning marble
 power distiller + electro marble
 power distiller + lightning marble
 mana distiller + electro marble
@@ -2063,7 +2070,6 @@ soft + lightning gem
 eye drops + lightning gem
 echo screen + lightning gem
 holy water + lightning gem
-remedy + lightning marble
 remedy + lightning gem
 power distiller + lightning gem
 mana distiller + lightning gem
@@ -2261,6 +2267,7 @@ echo screen + dragon scale
 holy water + fish scale
 holy water + dragon scale
 remedy + fish scale
+remedy + dragon scale
 power distiller + fish scale
 power distiller + dragon scale
 mana distiller + fish scale
@@ -2309,7 +2316,6 @@ soft + water gem
 eye drops + water gem
 echo screen + water gem
 holy water + water gem
-remedy + dragon scale
 remedy + water gem
 power distiller + water gem
 mana distiller + water gem
@@ -2446,6 +2452,7 @@ fish scale + musk
 fish scale + hypello potion
 fish scale + shining thorn
 dragon scale + sleeping powder
+dragon scale + dream powder
 dragon scale + silence grenade
 dragon scale + smoke bomb
 dragon scale + poison fang
@@ -2469,7 +2476,6 @@ dragon scale + shining thorn
 
 * dark rain
 
-dragon scale + dream powder
 dragon scale + farplane shadow
 dragon scale + farplane wind
 water gem + sleeping powder
@@ -2510,6 +2516,7 @@ echo screen + arctic wind
 holy water + antarctic wind
 holy water + arctic wind
 remedy + antarctic wind
+remedy + arctic wind
 power distiller + antarctic wind
 power distiller + arctic wind
 mana distiller + antarctic wind
@@ -2558,7 +2565,6 @@ soft + ice gem
 eye drops + ice gem
 echo screen + ice gem
 holy water + ice gem
-remedy + arctic wind
 remedy + ice gem
 power distiller + ice gem
 mana distiller + ice gem
@@ -2692,7 +2698,6 @@ antarctic wind + musk
 antarctic wind + hypello potion
 antarctic wind + shining thorn
 arctic wind + sleeping powder
-arctic wind + silence grenade
 arctic wind + smoke bomb
 arctic wind + poison fang
 arctic wind + silver hourglass
@@ -2709,6 +2714,7 @@ arctic wind + purifying salt
 arctic wind + musk
 arctic wind + hypello potion
 arctic wind + shining thorn
+ice gem + sleeping powder
 
 
 
@@ -2716,9 +2722,9 @@ arctic wind + shining thorn
 * krysta
 
 arctic wind + dream powder
+arctic wind + silence grenade
 arctic wind + farplane shadow
 arctic wind + farplane wind
-ice gem + sleeping powder
 ice gem + dream powder
 ice gem + silence grenade
 ice gem + smoke bomb
@@ -2894,12 +2900,6 @@ dark matter + gamblers spirit
 dark matter + underdogs secret
 dark matter + winning formula
 three stars + three stars
-master sphere + amulet
-master sphere + door to tomorrow
-master sphere + wings to discovery
-master sphere + gamblers spirit
-master sphere + underdogs secret
-master sphere + winning formula
 wings to discovery + gamblers spirit
 wings to discovery + underdogs secret
 wings to discovery + winning formula
@@ -3171,6 +3171,7 @@ ability distiller + mana spring
 ability distiller + stamina spring
 ability distiller + soul spring
 ability distiller + purifying salt
+ability distiller + musk
 ability distiller + hypello potion
 ability distiller + shining thorn
 al bhed potion + sleeping powder
@@ -3244,7 +3245,6 @@ hi-potion + mega phoenix
 x-potion + mega phoenix
 mega-potion + mega phoenix
 elixir + mega phoenix
-phoenix down + mega phoenix
 phoenix down + shining gem
 phoenix down + blessed gem
 phoenix down + farplane shadow
@@ -3475,6 +3475,7 @@ elixir + speed sphere
 elixir + ability sphere
 elixir + map
 elixir + rename card
+phoenix down + mega phoenix
 mega phoenix + map
 mega phoenix + rename card
 antidote + healing water
@@ -3665,7 +3666,6 @@ al bhed potion + mana spring
 al bhed potion + stamina spring
 al bhed potion + soul spring
 al bhed potion + purifying salt
-al bhed potion + three stars
 al bhed potion + power sphere
 al bhed potion + mana sphere
 al bhed potion + speed sphere
@@ -3856,7 +3856,6 @@ soft + special sphere
 soft + skill sphere
 soft + wht magic sphere
 soft + blk magic sphere
-soft + master sphere
 soft + lv. 1 key sphere
 soft + lv. 2 key sphere
 soft + lv. 3 key sphere
@@ -4131,7 +4130,6 @@ ability distiller + return sphere
 ability distiller + friend sphere
 ability distiller + teleport sphere
 ability distiller + warp sphere
-ability distiller + musk
 ability distiller + pendulum
 ability distiller + amulet
 ability distiller + door to tomorrow
@@ -4561,6 +4559,7 @@ antidote + three stars
 antidote + master sphere
 soft + dark matter
 soft + three stars
+soft + master sphere
 eye drops + dark matter
 eye drops + three stars
 eye drops + master sphere
@@ -4594,11 +4593,13 @@ ability distiller + master sphere
 ability distiller + lv. 3 key sphere
 ability distiller + lv. 4 key sphere
 al bhed potion + dark matter
+al bhed potion + three stars
 al bhed potion + master sphere
 al bhed potion + lv. 3 key sphere
 al bhed potion + lv. 4 key sphere
 healing water + farplane wind
 healing water + dark matter
+healing water + three stars
 healing water + master sphere
 healing water + lv. 3 key sphere
 healing water + lv. 4 key sphere
@@ -4613,6 +4614,7 @@ healing water + underdogs secret
 healing water + winning formula
 tetra elemental + farplane wind
 tetra elemental + dark matter
+tetra elemental + three stars
 tetra elemental + master sphere
 tetra elemental + lv. 3 key sphere
 tetra elemental + lv. 4 key sphere
@@ -5290,6 +5292,7 @@ stamina spring + stamina tablet
 soul spring + stamina tablet
 purifying salt + stamina tablet
 stamina tablet + stamina tablet
+stamina tablet + three stars
 stamina tablet + power sphere
 stamina tablet + mana sphere
 stamina tablet + speed sphere
@@ -5350,9 +5353,7 @@ speed distiller + stamina tonic
 ability distiller + stamina tonic
 al bhed potion + stamina tonic
 healing water + stamina tonic
-healing water + three stars
 tetra elemental + stamina tonic
-tetra elemental + three stars
 antarctic wind + stamina tonic
 arctic wind + stamina tonic
 ice gem + stamina tonic
@@ -5392,7 +5393,6 @@ purifying salt + stamina tonic
 stamina tablet + stamina tonic
 stamina tonic + stamina tonic
 stamina tonic + mana tonic
-stamina tonic + twin stars
 stamina tonic + three stars
 stamina tonic + power sphere
 stamina tonic + mana sphere
@@ -5739,7 +5739,6 @@ purifying salt + mana tonic
 stamina tablet + mana tablet
 stamina tablet + mana tonic
 stamina tablet + twin stars
-stamina tablet + three stars
 mana tablet + mana tablet
 mana tablet + stamina tonic
 mana tablet + mana tonic
@@ -5780,6 +5779,7 @@ mana tablet + hypello potion
 mana tablet + shining thorn
 mana tablet + pendulum
 mana tablet + designer wallet
+stamina tonic + twin stars
 mana tonic + mana tonic
 mana tonic + twin stars
 mana tonic + three stars
@@ -6316,13 +6316,11 @@ speed sphere + fortune sphere
 speed sphere + luck sphere
 ability sphere + fortune sphere
 ability sphere + luck sphere
-fortune sphere + fortune sphere
 fortune sphere + map
 fortune sphere + rename card
 fortune sphere + musk
 fortune sphere + hypello potion
 fortune sphere + shining thorn
-magic sphere + luck sphere
 
 
 
@@ -6453,6 +6451,7 @@ power sphere + designer wallet
 mana sphere + designer wallet
 speed sphere + designer wallet
 ability sphere + designer wallet
+fortune sphere + fortune sphere
 fortune sphere + attribute sphere
 fortune sphere + special sphere
 fortune sphere + skill sphere
@@ -6514,6 +6513,7 @@ strength sphere + luck sphere
 strength sphere + designer wallet
 defense sphere + luck sphere
 defense sphere + designer wallet
+magic sphere + luck sphere
 magic sphere + designer wallet
 magic def sphere + luck sphere
 magic def sphere + designer wallet

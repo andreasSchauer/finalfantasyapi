@@ -43,14 +43,8 @@ func (m MixMap) populateMixCombinations(itemA, itemB string) {
 		m.MixCombinations[itemA] = []string{}
 	}
 
-	itemNotInSlice := slices.Index(m.MixCombinations[itemA], itemB) == -1
-
-	// need to test, if I actually need the item condition, because I don't think so
-	if itemA != itemB && itemNotInSlice {
-		m.MixCombinations[itemA] = append(m.MixCombinations[itemA], itemB)
-	}
-
-	if itemA == itemB && itemNotInSlice {
+	// if item is not in slice yet
+	if slices.Index(m.MixCombinations[itemA], itemB) == -1 {
 		m.MixCombinations[itemA] = append(m.MixCombinations[itemA], itemB)
 	}
 }
