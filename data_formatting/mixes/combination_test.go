@@ -7,8 +7,8 @@ import (
 
 func TestGetCombinations(t *testing.T) {
 	tests := []struct {
-		combinationStrings 	[]string
-		expected     		[]Combination
+		combinationStrings []string
+		expected           []Combination
 	}{
 		{
 			combinationStrings: []string{
@@ -25,42 +25,42 @@ func TestGetCombinations(t *testing.T) {
 			},
 			expected: []Combination{
 				{
-					item1: "potion",
-					item2: "potion",
+					Item1: "potion",
+					Item2: "potion",
 				},
 				{
-					item1: "potion",
-					item2: "hi-potion",
+					Item1: "potion",
+					Item2: "hi-potion",
 				},
 				{
-					item1: "potion",
-					item2: "al bhed potion",
+					Item1: "potion",
+					Item2: "al bhed potion",
 				},
 				{
-					item1: "hi-potion",
-					item2: "x-potion",
+					Item1: "hi-potion",
+					Item2: "x-potion",
 				},
 				{
-					item1: "elixir",
-					item2: "phoenix down",
+					Item1: "elixir",
+					Item2: "phoenix down",
 				},
 				{
-					item1: "al bhed potion",
-					item2: "al bhed potion",
+					Item1: "al bhed potion",
+					Item2: "al bhed potion",
 				},
 				{
-					item1: "bomb fragment",
-					item2: "bomb core",
+					Item1: "bomb fragment",
+					Item2: "bomb core",
 				},
 				{
-					item1: "power sphere",
-					item2: "speed sphere",
+					Item1: "power sphere",
+					Item2: "speed sphere",
 				},
 			},
 		},
 		{
 			combinationStrings: []string{},
-			expected:     nil,
+			expected:           nil,
 		},
 	}
 

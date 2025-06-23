@@ -18,8 +18,8 @@ func appendItemResults(itemResultsPtr *[]ItemResult, mixName string, combination
 	for _, combination := range combinations {
 		itemResult := ItemResult{
 			Mixname: mixName,
-			FirstItem: combination.item1,
-			SecondItem: combination.item2,
+			FirstItem: combination.Item1,
+			SecondItem: combination.Item2,
 		}
 
 		*itemResultsPtr = append(*itemResultsPtr, itemResult)

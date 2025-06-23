@@ -1,29 +1,42 @@
 package dataFormattingMixes
 
-import(
+import (
 	"slices"
 	"sort"
 )
 
-
 type MixMap struct {
-	Name            	string
-	UniqueCombinations	int
-	MixCombinations 	map[string][]string
+	Name               string
+	UniqueCombinations int
+	MixCombinations    map[string][]string
 }
+
+
+type Mix struct {
+	Name               string     `json:"name"`
+	UniqueCombinations int        `json:"unique_combinations"`
+	MixCombinations    []MixItems `json:"mix_combinations"`
+}
+
+
+type MixItems struct {
+	FirstItem           string   `json:"first_item"`
+	PossibleSecondItems []string `json:"possible_second_items"`
+}
+
 
 
 
 func createMixMap(mixName string, combinations []Combination) MixMap {
 	mixMap := MixMap{
-		Name:            	mixName,
+		Name:               mixName,
 		UniqueCombinations: len(combinations),
-		MixCombinations: 	make(map[string][]string),
+		MixCombinations:    make(map[string][]string),
 	}
 
 	for _, combination := range combinations {
-		mixMap.populateMixCombinations(combination.item1, combination.item2)
-		mixMap.populateMixCombinations(combination.item2, combination.item1)
+		mixMap.populateMixCombinations(combination.Item1, combination.Item2)
+		mixMap.populateMixCombinations(combination.Item2, combination.Item1)
 	}
 
 	for _, secondItemSlice := range mixMap.MixCombinations {
@@ -34,8 +47,6 @@ func createMixMap(mixName string, combinations []Combination) MixMap {
 
 	return mixMap
 }
-
-
 
 func (m MixMap) populateMixCombinations(itemA, itemB string) {
 	_, ok := m.MixCombinations[itemA]
@@ -49,14 +60,12 @@ func (m MixMap) populateMixCombinations(itemA, itemB string) {
 	}
 }
 
-
-
 func (m MixMap) getJsonMixCombinations() []MixItems {
 	var mixCombinations []MixItems
 
 	for firstItem := range m.MixCombinations {
 		mixItems := MixItems{
-			FirstItem: firstItem,
+			FirstItem:           firstItem,
 			PossibleSecondItems: m.MixCombinations[firstItem],
 		}
 
@@ -69,3 +78,25 @@ func (m MixMap) getJsonMixCombinations() []MixItems {
 
 	return mixCombinations
 }
+
+
+
+/*
+func getMixJsonData(mixMapSlice []MixMap) []Mix {
+	var mixes []Mix
+
+	for _, mixMap := range mixMapSlice {
+		mixCombinations := mixMap.getJsonMixCombinations()
+
+		mix := Mix{
+			Name:               mixMap.Name,
+			UniqueCombinations: mixMap.UniqueCombinations,
+			MixCombinations:    mixCombinations,
+		}
+
+		mixes = append(mixes, mix)
+	}
+
+	return mixes
+}
+*/

@@ -1630,13 +1630,13 @@ remedy + antarctic wind = snow flurry
 remedy + arctic wind = icefall => snow flurry
 remedy + ice gem = icefall
 remedy + bomb fragment = heat blaster
-remedy + bomb core = fire storm => heat blaster
+remedy + bomb core = fire storm
 remedy + fire gem = fire storm
 remedy + electro marble = thunderbolt
-remedy + lightning marble = rolling thunder => thunderbolt
+remedy + lightning marble = rolling thunder
 remedy + lightning gem = rolling thunder
 remedy + fish scale = waterfall
-remedy + dragon scale = flash flood => waterfall
+remedy + dragon scale = flash flood
 remedy + water gem = flash flood
 remedy + grenade = blaster mine
 remedy + frag grenade = blaster mine
@@ -2251,7 +2251,7 @@ healing water + mana tablet = hyper mana
 healing water + twin stars = freedom x
 healing water + stamina tonic = hyper vitality
 healing water + mana tonic = hyper mana
-healing water + three stars = hyper vitality => final elixir
+healing water + three stars = hyper vitality
 healing water + power sphere = megalixir
 healing water + mana sphere = megalixir
 healing water + speed sphere = megalixir
@@ -2344,7 +2344,7 @@ tetra elemental + mana tablet = hyper mana
 tetra elemental + twin stars = freedom x
 tetra elemental + stamina tonic = hyper vitality
 tetra elemental + mana tonic = hyper mana
-tetra elemental + three stars = hyper vitality => final elixir
+tetra elemental + three stars = hyper vitality
 tetra elemental + power sphere = megalixir
 tetra elemental + mana sphere = megalixir
 tetra elemental + speed sphere = megalixir
@@ -2489,15 +2489,15 @@ arctic wind + bomb core = grenade
 arctic wind + fire gem = heat blaster
 arctic wind + electro marble = pineapple
 arctic wind + lightning marble = pineapple
-arctic wind + lightning gem = potato masher => calamity bomb
+arctic wind + lightning gem = potato masher
 arctic wind + fish scale = pineapple
 arctic wind + dragon scale = pineapple
-arctic wind + water gem = potato masher => calamity bomb
+arctic wind + water gem = potato masher
 arctic wind + grenade = snow flurry
 arctic wind + frag grenade = icefall
 arctic wind + sleeping powder = black ice
 arctic wind + dream powder = krysta
-arctic wind + silence grenade = black ice => krysta
+arctic wind + silence grenade = black ice
 arctic wind + smoke bomb = black ice
 arctic wind + shadow gem = nega burst
 arctic wind + shining gem = cluster bomb
@@ -2578,14 +2578,14 @@ ice gem + bomb fragment = snow flurry
 ice gem + bomb core = snow flurry
 ice gem + fire gem = grenade
 ice gem + electro marble = pineapple
-ice gem + lightning marble = potato masher => calamity bomb
-ice gem + lightning gem = potato masher => calamity bomb
+ice gem + lightning marble = potato masher
+ice gem + lightning gem = potato masher
 ice gem + fish scale = pineapple
-ice gem + dragon scale = potato masher => calamity bomb
-ice gem + water gem = potato masher => calamity bomb
+ice gem + dragon scale = potato masher
+ice gem + water gem = potato masher
 ice gem + grenade = icefall
 ice gem + frag grenade = icefall
-ice gem + sleeping powder = krysta => black ice
+ice gem + sleeping powder = krysta
 ice gem + dream powder = krysta
 ice gem + silence grenade = krysta
 ice gem + smoke bomb = krysta
@@ -2756,10 +2756,10 @@ bomb core + bomb core = fire storm
 bomb core + fire gem = fire storm
 bomb core + electro marble = pineapple
 bomb core + lightning marble = pineapple
-bomb core + lightning gem = potato masher => calamity bomb
+bomb core + lightning gem = potato masher
 bomb core + fish scale = pineapple
 bomb core + dragon scale = pineapple
-bomb core + water gem = potato masher => calamity bomb
+bomb core + water gem = potato masher
 bomb core + grenade = heat blaster
 bomb core + frag grenade = fire storm
 bomb core + sleeping powder = brimstone
@@ -2801,10 +2801,10 @@ bomb core + speed sphere = heat blaster
 bomb core + ability sphere = heat blaster
 bomb core + fortune sphere = miracle drink
 bomb core + attribute sphere = heat blaster
-bomb core + special sphere = fire storm => brimstone
-bomb core + skill sphere = fire storm => brimstone
-bomb core + wht magic sphere = fire storm => brimstone
-bomb core + blk magic sphere = fire storm => brimstone
+bomb core + special sphere = fire storm
+bomb core + skill sphere = fire storm
+bomb core + wht magic sphere = fire storm
+bomb core + blk magic sphere = fire storm
 bomb core + master sphere = burning soul
 bomb core + lv. 1 key sphere = fire storm
 bomb core + lv. 2 key sphere = burning soul
@@ -2882,12 +2882,12 @@ fire gem + twin stars = freedom x
 fire gem + stamina tonic = hyper vitality
 fire gem + mana tonic = hyper mana
 fire gem + three stars = hot spurs
-fire gem + power sphere = fire storm => brimstone
-fire gem + mana sphere = fire storm => brimstone
-fire gem + speed sphere = fire storm => brimstone
-fire gem + ability sphere = fire storm => brimstone
+fire gem + power sphere = fire storm
+fire gem + mana sphere = fire storm
+fire gem + speed sphere = fire storm
+fire gem + ability sphere = fire storm
 fire gem + fortune sphere = miracle drink
-fire gem + attribute sphere = fire storm => brimstone
+fire gem + attribute sphere = fire storm
 fire gem + special sphere = burning soul
 fire gem + skill sphere = burning soul
 fire gem + wht magic sphere = burning soul
@@ -3270,7 +3270,7 @@ dragon scale + water gem = flash flood
 dragon scale + grenade = waterfall
 dragon scale + frag grenade = flash flood
 dragon scale + sleeping powder = aqua toxin
-dragon scale + dream powder = dark rain => aqua toxin
+dragon scale + dream powder = dark rain
 dragon scale + silence grenade = aqua toxin
 dragon scale + smoke bomb = aqua toxin
 dragon scale + shadow gem = nega burst
@@ -3498,7 +3498,7 @@ grenade + rename card = hazardous shell
 grenade + musk = blaster mine
 grenade + hypello potion = blaster mine
 grenade + shining thorn = blaster mine
-grenade + pendulum = calamity bomb => blaster mine
+grenade + pendulum = cluster bomb
 grenade + amulet = tallboy
 grenade + door to tomorrow = tallboy
 grenade + wings to discovery = tallboy
@@ -3577,7 +3577,7 @@ frag grenade + rename card = hazardous shell
 frag grenade + musk = hazardous shell
 frag grenade + hypello potion = hazardous shell
 frag grenade + shining thorn = hazardous shell
-frag grenade + pendulum = cluster bomb => blaster mine
+frag grenade + pendulum = cluster bomb
 frag grenade + amulet = tallboy
 frag grenade + door to tomorrow = tallboy
 frag grenade + wings to discovery = tallboy
@@ -3655,7 +3655,7 @@ sleeping powder + rename card = hazardous shell
 sleeping powder + musk = hazardous shell
 sleeping powder + hypello potion = hazardous shell
 sleeping powder + shining thorn = hazardous shell
-sleeping powder + pendulum = cluster bomb => blaster mine
+sleeping powder + pendulum = cluster bomb
 sleeping powder + amulet = tallboy
 sleeping powder + door to tomorrow = tallboy
 sleeping powder + wings to discovery = tallboy
@@ -3732,7 +3732,7 @@ dream powder + rename card = hazardous shell
 dream powder + musk = hazardous shell
 dream powder + hypello potion = hazardous shell
 dream powder + shining thorn = hazardous shell
-dream powder + pendulum = cluster bomb => blaster mine
+dream powder + pendulum = cluster bomb
 dream powder + amulet = tallboy
 dream powder + door to tomorrow = tallboy
 dream powder + wings to discovery = tallboy
@@ -3808,7 +3808,7 @@ silence grenade + rename card = hazardous shell
 silence grenade + musk = hazardous shell
 silence grenade + hypello potion = hazardous shell
 silence grenade + shining thorn = hazardous shell
-silence grenade + pendulum = cluster bomb => blaster mine
+silence grenade + pendulum = cluster bomb
 silence grenade + amulet = tallboy
 silence grenade + door to tomorrow = tallboy
 silence grenade + wings to discovery = tallboy
@@ -3883,7 +3883,7 @@ smoke bomb + rename card = hazardous shell
 smoke bomb + musk = hazardous shell
 smoke bomb + hypello potion = hazardous shell
 smoke bomb + shining thorn = hazardous shell
-smoke bomb + pendulum = cluster bomb => blaster mine
+smoke bomb + pendulum = cluster bomb
 smoke bomb + amulet = tallboy
 smoke bomb + door to tomorrow = tallboy
 smoke bomb + wings to discovery = tallboy
@@ -5807,7 +5807,7 @@ ability sphere + winning formula = cluster bomb
 
 
 
-fortune sphere + fortune sphere = hero drink => miracle drink
+fortune sphere + fortune sphere = hero drink
 fortune sphere + attribute sphere = miracle drink
 fortune sphere + special sphere = miracle drink
 fortune sphere + skill sphere = miracle drink
@@ -6064,12 +6064,12 @@ master sphere + musk = chaos grenade
 master sphere + hypello potion = chaos grenade
 master sphere + shining thorn = chaos grenade
 master sphere + pendulum = tallboy
-master sphere + amulet = sunburst => tallboy
-master sphere + door to tomorrow = sunburst => tallboy
-master sphere + wings to discovery = sunburst => tallboy
-master sphere + gamblers spirit = sunburst => tallboy
-master sphere + underdogs secret = sunburst => tallboy
-master sphere + winning formula = sunburst => tallboy
+master sphere + amulet = sunburst
+master sphere + door to tomorrow = sunburst
+master sphere + wings to discovery = sunburst
+master sphere + gamblers spirit = sunburst
+master sphere + underdogs secret = sunburst
+master sphere + winning formula = sunburst
 
 
 

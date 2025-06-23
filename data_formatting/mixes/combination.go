@@ -5,10 +5,12 @@ import (
 	"strings"
 )
 
+
 type Combination struct {
-	item1 string
-	item2 string
+	Item1 string `json:"first_item"`
+	Item2 string `json:"second_item"`
 }
+
 
 func getCombinations(combinationStrings []string) []Combination {
 	var combinations []Combination
@@ -16,38 +18,42 @@ func getCombinations(combinationStrings []string) []Combination {
 		if comboString == "" {
 			continue
 		}
-		item1, item2 := splitCombinationString(comboString)
-		combination := Combination{
-			item1: item1,
-			item2: item2,
-		}
+		combination := createCombination(comboString)
 		combinations = append(combinations, combination)
 	}
 
 	return sortCombinations(combinations)
 }
 
-func splitCombinationString(combinationString string) (string, string) {
-	items := strings.Split(combinationString, " + ")
 
-	if slices.Index(itemNames, items[0]) <= slices.Index(itemNames, items[1]) {
-		return items[0], items[1]
+func createCombination(combinationString string) Combination {
+	items := strings.Split(combinationString, " + ")
+	combination := Combination{
+		Item1: items[0],
+		Item2: items[1],
 	}
 
-	return items[1], items[0]
+	if slices.Index(itemNames, items[0]) > slices.Index(itemNames, items[1]) {
+		combination.Item1 = items[1]
+		combination.Item2 = items[0]
+	}
+
+	return combination
 }
+
 
 func sortCombinations(combinations []Combination) []Combination {
 	slices.SortStableFunc(combinations, func(i, j Combination) int {
-		if i.item1 == j.item1 {
-			return compare(i.item2, j.item2)
+		if i.Item1 == j.Item1 {
+			return compare(i.Item2, j.Item2)
 		}
 
-		return compare(i.item1, j.item1)
+		return compare(i.Item1, j.Item1)
 	})
 
 	return combinations
 }
+
 
 func compare(a, b string) int {
 	if slices.Index(itemNames, a) < slices.Index(itemNames, b) {
