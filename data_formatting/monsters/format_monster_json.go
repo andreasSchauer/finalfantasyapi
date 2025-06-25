@@ -8,37 +8,29 @@ import (
 	"sort"
 )
 
-
-
 type Monster struct {
-	Name            string            `json:"monster_name"`
-	Location        []string          `json:"location"`
-	Species         string            `json:"species"`
-	IsReoccurring   bool              `json:"is_reoccurring"`
-	IsCatchable     bool              `json:"can_be_caught"`
-	IsBoss          bool              `json:"is_boss"`
-	IsZombie        bool              `json:"is_zombie"`
-	IsTough         bool              `json:"is_tough"`
-	IsHeavy         bool              `json:"is_heavy"`
-	IsArmored       bool              `json:"is_armored"`
-	IsUnderwater    bool              `json:"is_underwater"`
-	HasOverdrive    bool              `json:"has_overdrive"`
-	ImmuneToPhysDmg bool              `json:"immune_to_phys_dmg"`
-	ImmuneToMagDmg  bool              `json:"immune_to_mag_dmg"`
-	Allies          []string          `json:"allies"`
-	Ap              int               `json:"ap"`
-	ApOverkill      int               `json:"ap_overkill"`
-	OverkillDamage  *int              `json:"overkill_damage"`
-	Gil             int               `json:"gil"`
-	RonsoRage       []string          `json:"ronso_rage"`
-	Items           map[string][]Item `json:"items"`
-	Equipment       Equipment         `json:"equipment"`
-	Stats           Stats             `json:"stats"`
-	ElemResists     []ElemResist      `json:"elem_resists"`
-	StatusResists   StatusResists     `json:"status_resists"`
+	Name           	string          `json:"monster_name"`
+	Species        	string          `json:"species"`
+	IsReoccurring  	bool            `json:"is_reoccurring"`
+	IsCatchable    	bool            `json:"can_be_caught"`
+	IsBoss         	bool            `json:"is_boss"`
+	IsUnderwater   	bool            `json:"is_underwater"`
+	Properties     	[]string        `json:"properties"`
+	HasOverdrive   	bool            `json:"has_overdrive"`
+	Ap             	int             `json:"ap"`
+	ApOverkill     	int             `json:"ap_overkill"`
+	OverkillDamage 	*int            `json:"overkill_damage"`
+	Gil            	int             `json:"gil"`
+	RonsoRage      	[]string        `json:"ronso_rage"`
+	PoisonRate      *float64       	`json:"poison_rate"`
+	DoomCountdown   *int           	`json:"doom_countdown"`
+	ThreatenCounter int            	`json:"threaten_counter"`
+	Items          	Items           `json:"items"`
+	Equipment      	Equipment       `json:"equipment"`
+	Stats          	[]Stat          `json:"stats"`
+	ElemResists    	[]ElemResist    `json:"elem_resists"`
+	StatusResists  	StatusResists 	`json:"status_resists"`
 }
-
-
 
 type MonsterOld struct {
 	Location      []string         `json:"location"`
@@ -57,12 +49,11 @@ type MonsterOld struct {
 	StatusResists StatusResistsOld `json:"stat_resists"`
 }
 
-
-
 func FormatMonsterJson() error {
-	const filepath = "./data_old/monsters.json"
+	const srcPath = "./data_old/monsters.json"
+	const destPath = "./data/monsters_copy.json"
 
-	file, err := os.Open(filepath)
+	file, err := os.Open(srcPath)
 	if err != nil {
 		return fmt.Errorf("couldn't open file: %v", err)
 	}
@@ -83,25 +74,28 @@ func FormatMonsterJson() error {
 
 	for name, monData := range monstersOld {
 		stats, overkillDamage := monData.formatStats()
+		statusResistsData := monData.formatStatusResists()
+
 		mon := Monster{
-			Name: name,
-			Location: monData.Location,
-			Species: "",
-			IsReoccurring: monData.IsReoccurring,
-			IsCatchable: monData.IsCatchable,
-			IsBoss: monData.IsBoss,
-			IsZombie: monData.IsZombie,
-			Allies: monData.formatAllies(name),
-			Ap: monData.Ap[0],
-			ApOverkill: monData.Ap[1],
+			Name:           name,
+			Species:        "",
+			IsReoccurring:  monData.IsReoccurring,
+			IsCatchable:    monData.IsCatchable,
+			IsBoss:         monData.IsBoss,
+			Properties:     []string{},
+			Ap:             monData.Ap[0],
+			ApOverkill:     monData.Ap[1],
 			OverkillDamage: overkillDamage,
-			Gil: monData.Gil,
-			RonsoRage: monData.RonsoRage,
-			Items: monData.formatItems(),
-			Equipment: monData.formatEquipment(),
-			Stats: stats,
-			ElemResists: monData.formatElemResist(),
-			StatusResists: monData.formatStatusResists(),
+			Gil:            monData.Gil,
+			RonsoRage:      monData.RonsoRage,
+			PoisonRate: 	statusResistsData.PoisonRate,
+			DoomCountdown: 	statusResistsData.DoomCountdown,
+			ThreatenCounter: statusResistsData.ThreatenCounter,
+			Items:          monData.formatItems(),
+			Equipment:      monData.formatEquipment(),
+			Stats:          stats,
+			ElemResists:    monData.formatElemResist(),
+			StatusResists:  statusResistsData.StatusResists,
 		}
 
 		monstersNew = append(monstersNew, mon)
@@ -109,9 +103,7 @@ func FormatMonsterJson() error {
 
 	sort.SliceStable(monstersNew, func(i, j int) bool { return monstersNew[i].Name < monstersNew[j].Name })
 
-	monstersJson := struct{
-		MonsterData	[]Monster	`json:"monsters_data"`
-	}{
+	monstersJson := MonstersData{
 		MonsterData: monstersNew,
 	}
 
@@ -120,13 +112,11 @@ func FormatMonsterJson() error {
 		return fmt.Errorf("couldn't encode JSON: %v", err)
 	}
 
-	fmt.Println(string(json))
+	os.WriteFile(destPath, json, 0666)
 
 	return nil
 }
 
-
-
-
-
-
+type MonstersData struct {
+	MonsterData []Monster `json:"monsters_data"`
+}

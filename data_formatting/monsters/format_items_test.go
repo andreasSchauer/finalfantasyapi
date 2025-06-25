@@ -34,7 +34,7 @@ func TestGetItems(t *testing.T) {
 		},
 		{
 			itemData: nil,
-			expected: nil,
+			expected: []Item{},
 		},
 	}
 	

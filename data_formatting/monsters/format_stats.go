@@ -2,19 +2,10 @@ package dataFormattingMonsters
 
 
 
-type Stats struct {
-	HP         int `json:"hp"`
-	MP         int `json:"mp"`
-	Strength   int `json:"strength"`
-	Defense    int `json:"defense"`
-	Magic      int `json:"magic"`
-	MagDefense int `json:"mag_defense"`
-	Agility    int `json:"agility"`
-	Luck       int `json:"luck"`
-	Evasion    int `json:"evasion"`
-	Accuracy   int `json:"accuracy"`
+type Stat struct {
+	Name		string  `json:"name"`
+	Value		int		`json:"value"`
 }
-
 
 
 type StatsOld struct {
@@ -32,21 +23,51 @@ type StatsOld struct {
 
 
 
-func (mon *MonsterOld) formatStats() (Stats, *int) {
+func (mon *MonsterOld) formatStats() ([]Stat, *int) {
 	statsOld := mon.Stats
 	hp, overkillDamage := mon.splitHP()
 
-	return Stats{
-		HP:         hp,
-		MP:         statsOld.MP,
-		Strength:   statsOld.Strength,
-		Defense:    statsOld.Defence,
-		Magic:      statsOld.Magic,
-		MagDefense: statsOld.MagDefence,
-		Agility:    statsOld.Agility,
-		Luck:       statsOld.Luck,
-		Evasion:    statsOld.Evasion,
-		Accuracy:   statsOld.Accuracy,
+	return []Stat{
+		{
+			Name: 	"hp",
+			Value:	hp,
+		},
+		{
+			Name: "mp",
+			Value: statsOld.MP,
+		},
+		{
+			Name: "strength",
+			Value: statsOld.Strength,
+		},
+		{
+			Name: "defense",
+			Value: statsOld.Defence,
+		},
+		{
+			Name: "magic",
+			Value: statsOld.Magic,
+		},
+		{
+			Name: "magic defense",
+			Value: statsOld.MagDefence,
+		},
+		{
+			Name: "agility",
+			Value: statsOld.Agility,
+		},
+		{
+			Name: "luck",
+			Value: statsOld.Luck,
+		},
+		{
+			Name: "evasion",
+			Value: statsOld.Evasion,
+		},
+		{
+			Name: "accuracy",
+			Value: statsOld.Accuracy,
+		},
 	}, overkillDamage
 }
 

@@ -5,33 +5,37 @@ import "strconv"
 
 
 type Equipment struct {
-	DropRate             float64        `json:"drop_rate"`
-	MinSlotsAmount       int            `json:"min_slots_amount"`
-	MaxSlotsAmount       int            `json:"max_slots_amount"`
-	MinAttachedAbilities int            `json:"min_attached_abilities"`
-	MaxAttachedAbilities int            `json:"max_attached_abilities"`
-	WpnAbilities         []WpnAbility   `json:"wpn_abilities"`
-	ArmorAbilities       []ArmorAbility `json:"armor_abilities"`
+	DropRate            float64        		`json:"drop_rate"`
+	Power				int					`json:"power"`
+	CriticalPlus		int					`json:"critical_plus"`
+	AbilitySlots		AbilitySlots		`json:"ability_slots"`
+	AttachedAbilities 	AttachedAbilities	`json:"attached_abilities"`
+	WpnAbilities        []AutoAbility   	`json:"wpn_abilities"`
+	ArmorAbilities      []AutoAbility 		`json:"armor_abilities"`
 }
 
 
-type WpnAbility struct {
-	Ability    string     `json:"ability"`
-	Characters Characters `json:"characters"`
+type AutoAbility struct {
+	Ability		string	 `json:"ability"`
+	Characters 	[]string `json:"characters"`
+	Chance		float64	 `json:"chance"`
 }
 
 
-type Characters struct {
-	KimahriAndAuron   bool `json:"kimahri_and_auron"`
-	YunaAndLulu       bool `json:"yuna_and_lulu"`
-	ExceptYunaAndLulu bool `json:"except_yuna_and_lulu"`
+type AbilitySlots struct {
+	MinAmount		int		`json:"min_amount"`
+	MaxAmount		int		`json:"max_amount"`
+	MinSlotsChance	float64	`json:"min_slots_chance"`
+	MaxSlotsChance	float64	`json:"max_slots_chance"`
 }
 
 
-type ArmorAbility struct {
-	Ability string `json:"ability"`
+type AttachedAbilities struct {
+	MinAmount 			int     `json:"min_amount"`
+	MaxAmount 			int     `json:"max_amount"`
+	MinAbilitiesChance	float64	`json:"min_abilities_chance"`
+	MaxAbilitiesChance	float64	`json:"max_abilities_chance"`
 }
-
 
 
 type EquipmentOld struct {
@@ -59,53 +63,66 @@ type ArmorAbilityOld struct {
 
 func (mon *MonsterOld) formatEquipment() Equipment {
 	minSlots, maxSlots := mon.getMinMaxSlots()
+	abilitySlots := AbilitySlots{
+		MinAmount: minSlots,
+		MaxAmount: maxSlots,
+	}
+
 	minAttached, maxAttached := mon.getMinMaxAttachedAbilities()
+	attachedAbilities := AttachedAbilities{
+		MinAmount: minAttached,
+		MaxAmount: maxAttached,
+	}
+
 
 	return Equipment{
-		DropRate:             mon.Equipment.DropRate,
-		MinSlotsAmount:       minSlots,
-		MaxSlotsAmount:       maxSlots,
-		MinAttachedAbilities: minAttached,
-		MaxAttachedAbilities: maxAttached,
-		WpnAbilities:         mon.getWpnAbilities(),
-		ArmorAbilities:       mon.getArmrAbilities(),
+		DropRate:           mon.Equipment.DropRate,
+		AbilitySlots: 		abilitySlots,
+		AttachedAbilities: 	attachedAbilities,
+		WpnAbilities:       mon.getWpnAbilities(),
+		ArmorAbilities:     mon.getArmrAbilities(),
 	}
 }
 
-func (mon *MonsterOld) getArmrAbilities() []ArmorAbility {
-	var armrAbilities []ArmorAbility
+
+func (mon *MonsterOld) getArmrAbilities() []AutoAbility {
+	var armrAbilities []AutoAbility
 
 	for _, armrAbilityOld := range mon.Equipment.ArmorAbilities {
-		armrAbilities = append(armrAbilities, ArmorAbility(armrAbilityOld))
+		armrAbilities = append(armrAbilities, AutoAbility{
+			Ability: armrAbilityOld.Ability,
+			Characters: getCharacters(""),
+		})
 	}
 
 	return armrAbilities
 }
 
-func (mon *MonsterOld) getWpnAbilities() []WpnAbility {
-	var wpnAbilities []WpnAbility
+func (mon *MonsterOld) getWpnAbilities() []AutoAbility {
+	var wpnAbilities []AutoAbility
 
 	for _, wpnAbilityOld := range mon.Equipment.WpnAbilities {
-		wpnAbility := WpnAbility{
+		wpnAbilities = append(wpnAbilities, AutoAbility{
 			Ability:    wpnAbilityOld.Ability,
 			Characters: getCharacters(wpnAbilityOld.Characters),
-		}
-		wpnAbilities = append(wpnAbilities, wpnAbility)
+		})
 	}
 
 	return wpnAbilities
 }
 
-func getCharacters(charString string) Characters {
-	characters := Characters{}
+func getCharacters(charString string) []string {
+	var characters []string
 
 	switch charString {
 	case "Kimahri and Auron":
-		characters.KimahriAndAuron = true
+		characters = append(characters, []string{"kimahri", "auron"}...)
 	case "Yuna and Lulu":
-		characters.YunaAndLulu = true
+		characters = append(characters, []string{"yuna", "lulu"}...)
 	case "except Yuna and Lulu":
-		characters.ExceptYunaAndLulu = true
+		characters = append(characters, []string{"tidus", "wakka", "kimahri", "auron", "rikku"}...)
+	default:
+		characters = append(characters, "all")
 	}
 
 	return characters

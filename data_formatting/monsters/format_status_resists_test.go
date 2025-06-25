@@ -63,7 +63,7 @@ func TestGetDemiResistance(t *testing.T) {
 		},
 		{
 			input: float64(0),
-			expected: 100,
+			expected: 254,
 		},
 	}
 	

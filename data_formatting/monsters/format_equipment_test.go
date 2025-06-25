@@ -64,7 +64,7 @@ func TestGetMinMaxFuncs(t *testing.T) {
 func TestGetWpnAbilities(t *testing.T) {
 	tests := []struct {
 		input    []WpnAbilityOld
-		expected []WpnAbility
+		expected []AutoAbility
 	}{
 		{
 			input: []WpnAbilityOld{
@@ -88,31 +88,26 @@ func TestGetWpnAbilities(t *testing.T) {
 					Ability: "test-ability-5",
 				},
 			},
-			expected: []WpnAbility{
+			expected: []AutoAbility{
 				{
 					Ability: "test-ability",
-					Characters: Characters{
-						KimahriAndAuron: true,
-					},
+					Characters: []string{"kimahri", "auron"},
 				},
 				{
 					Ability: "test-ability-2",
-					Characters: Characters{
-						YunaAndLulu: true,
-					},
+					Characters: []string{"yuna", "lulu"},
 				},
 				{
 					Ability: "test-ability-3",
-					Characters: Characters{},
+					Characters: []string{"all"},
 				},
 				{
 					Ability: "test-ability-4",
-					Characters: Characters{
-						ExceptYunaAndLulu: true,
-					},
+					Characters: []string{"tidus", "wakka", "kimahri", "auron", "rikku"},
 				},
 				{
 					Ability: "test-ability-5",
+					Characters: []string{"all"},
 				},
 			},
 		},

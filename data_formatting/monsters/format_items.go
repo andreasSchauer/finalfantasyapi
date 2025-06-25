@@ -8,24 +8,34 @@ type Item struct {
 }
 
 
-
-func (mon *MonsterOld) formatItems() map[string][]Item {
-	itemMap := make(map[string][]Item)
-	keys := []string{"steal_common", "steal_rare", "drop_common", "drop_rare", "bribe"}
-
-	for _, key := range keys {
-		itemMap[key] = mon.getItems(key)
-	}
-
-	return itemMap
+type Items struct {
+	StealCommon		[]Item		`json:"steal_common"`
+	StealRare		[]Item		`json:"steal_rare"`
+	DropCommon		[]Item		`json:"drop_common"`
+	DropRare		[]Item		`json:"drop_rare"`
+	Bribe			[]Item		`json:"bribe"`
+	StealGil		int			`json:"steal_gil"`
 }
+
+
+
+func (mon *MonsterOld) formatItems() Items {
+	return Items{
+		StealCommon: mon.getItems("steal_common"),
+		StealRare: mon.getItems("steal_rare"),
+		DropCommon: mon.getItems("drop_common"),
+		DropRare: mon.getItems("drop_rare"),
+		Bribe: mon.getItems("bribe"),
+	}
+}
+
 
 
 func (mon *MonsterOld) getItems(key string) []Item {
 	itemData := mon.Items[key]
 
 	if itemData == nil {
-		return nil
+		return []Item{}
 	}
 
 	var items []Item

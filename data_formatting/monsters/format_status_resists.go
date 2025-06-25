@@ -1,22 +1,23 @@
 package dataFormattingMonsters
 
-
-
-type StatusResists struct {
-	Resistances    []StatusResist `json:"resistances"`
-	PoisonRate     *float64       `json:"poison_rate"`
-	DoomCountdown  *int           `json:"doom_countdown"`
-	ZanmatoLevel   int            `json:"zanmato_level"`
-	IsImmuneToLife bool           `json:"is_immune_to_life"`
+type StatusResistsData struct {
+	StatusResists   StatusResists
+	PoisonRate      *float64       `json:"poison_rate"`
+	DoomCountdown   *int           `json:"doom_countdown"`
+	ThreatenCounter int            `json:"threaten_counter"`
+	ZanmatoLevel    int            `json:"zanmato_level"`
 }
 
+type StatusResists struct {
+	NegResists      []StatusResist `json:"neg_resists"`
+	PosResists      []StatusResist `json:"pos_resists"`
+	MiscResists     []StatusResist `json:"misc_resists"`
+}
 
 type StatusResist struct {
 	Status     string `json:"status"`
 	Resistance int    `json:"resistance"`
 }
-
-
 
 type StatusResistsOld struct {
 	Silence      int   `json:"silence"`
@@ -50,24 +51,24 @@ type StatusResistsOld struct {
 	ZanmatoLevel int   `json:"zanmato_level"`
 }
 
-
-
-
-func (mon *MonsterOld) formatStatusResists() StatusResists {
+func (mon *MonsterOld) formatStatusResists() StatusResistsData {
 	poisonResist, poisonRate := mon.splitPoison()
 	doomResist, doomCountdown := mon.splitDoom()
-	resistances := mon.getStatusResistances(poisonResist, doomResist)
-	resistances_formatted := formatResistances(resistances)
-	
-	return StatusResists{
-		PoisonRate: poisonRate,
+	negResists := mon.getNegativeStatusResistances(poisonResist, doomResist)
+	posResists := mon.getPositiveStatusResistances()
+	miscResists := mon.getMiscStatusResistances()
+
+	return StatusResistsData{
+		PoisonRate:    poisonRate,
 		DoomCountdown: doomCountdown,
-		ZanmatoLevel: mon.StatusResists.ZanmatoLevel,
-		IsImmuneToLife: mon.isImmuneToLife(),
-		Resistances: resistances_formatted,
+		ZanmatoLevel:  mon.StatusResists.ZanmatoLevel,
+		StatusResists: StatusResists{
+			NegResists:    formatResistances(negResists),
+			PosResists:    formatResistances(posResists),
+			MiscResists:   formatResistances(miscResists),
+		},
 	}
 }
-
 
 func formatResistances(resistances []StatusResist) []StatusResist {
 	var resistances_formatted []StatusResist
@@ -82,130 +83,178 @@ func formatResistances(resistances []StatusResist) []StatusResist {
 	return resistances_formatted
 }
 
-
-func (mon *MonsterOld) getStatusResistances(poisonResist, doomResist int) []StatusResist {
+func (mon *MonsterOld) getNegativeStatusResistances(poisonResist, doomResist int) []StatusResist {
 	return []StatusResist{
 		{
-			Status: "Silence",
-			Resistance: mon.StatusResists.Silence,
+			Status:     "berserk",
+			Resistance: mon.StatusResists.Berserk,
 		},
 		{
-			Status: "Sleep",
-			Resistance: mon.StatusResists.Sleep,
+			Status:     "confuse",
+			Resistance: 0,
 		},
 		{
-			Status: "Dark",
+			Status:     "dark",
 			Resistance: mon.StatusResists.Dark,
 		},
 		{
-			Status: "Poison",
-			Resistance: poisonResist,
-		},
-		{
-			Status: "Petrify",
-			Resistance: mon.StatusResists.Petrify,
-		},
-		{
-			Status: "Slow",
-			Resistance: mon.StatusResists.Slow,
-		},
-		{
-			Status: "Zombie",
-			Resistance: mon.StatusResists.Zombie,
-		},
-		{
-			Status: "Power Break",
-			Resistance: mon.StatusResists.PowerBreak,
-		},
-		{
-			Status: "Magic Break",
-			Resistance: mon.StatusResists.MagicBreak,
-		},
-		{
-			Status: "Armor Break",
-			Resistance: mon.StatusResists.ArmorBreak,
-		},
-		{
-			Status: "Mental Break",
-			Resistance: mon.StatusResists.MentalBreak,
-		},
-		{
-			Status: "Threaten",
-			Resistance: mon.StatusResists.Threaten,
-		},
-		{
-			Status: "Death",
+			Status:     "death",
 			Resistance: mon.StatusResists.Death,
 		},
 		{
-			Status: "Provoke",
-			Resistance: mon.StatusResists.Provoke,
-		},
-		{
-			Status: "Doom",
-			Resistance: doomResist,
-		},
-		{
-			Status: "Nul Spells",
-			Resistance: mon.StatusResists.NulSpells,
-		},
-		{
-			Status: "Shell",
-			Resistance: mon.StatusResists.Shell,
-		},
-		{
-			Status: "Protect",
-			Resistance: mon.StatusResists.Protect,
-		},
-		{
-			Status: "Reflect",
-			Resistance: mon.StatusResists.Reflect,
-		},
-		{
-			Status: "Haste",
-			Resistance: mon.StatusResists.Haste,
-		},
-		{
-			Status: "Regen",
-			Resistance: mon.StatusResists.Regen,
-		},
-		{
-			Status: "Distiller",
-			Resistance: mon.StatusResists.Distiller,
-		},
-		{
-			Status: "Sensor",
-			Resistance: mon.StatusResists.Sensor,
-		},
-		{
-			Status: "Scan",
-			Resistance: mon.StatusResists.Scan,
-		},
-		{
-			Status: "Demi",
-			Resistance: mon.getDemiResistance(),
-		},
-		{
-			Status: "Delay",
+			Status:     "delay",
 			Resistance: mon.StatusResists.Delay,
 		},
 		{
-			Status: "Eject",
+			Status:     "doom",
+			Resistance: doomResist,
+		},
+		{
+			Status:     "eject",
 			Resistance: mon.StatusResists.Eject,
 		},
 		{
-			Status: "Berserk",
-			Resistance: mon.StatusResists.Berserk,
+			Status:     "petrify",
+			Resistance: mon.StatusResists.Petrify,
+		},
+		{
+			Status:     "poison",
+			Resistance: poisonResist,
+		},
+		{
+			Status:     "provoke",
+			Resistance: mon.StatusResists.Provoke,
+		},
+		{
+			Status:     "silence",
+			Resistance: mon.StatusResists.Silence,
+		},
+		{
+			Status:     "sleep",
+			Resistance: mon.StatusResists.Sleep,
+		},
+		{
+			Status:     "slow",
+			Resistance: mon.StatusResists.Slow,
+		},
+		{
+			Status:     "threaten",
+			Resistance: mon.StatusResists.Threaten,
+		},
+		{
+			Status:     "zombie",
+			Resistance: mon.StatusResists.Zombie,
+		},
+		{
+			Status:     "power break",
+			Resistance: mon.StatusResists.PowerBreak,
+		},
+		{
+			Status:     "magic break",
+			Resistance: mon.StatusResists.MagicBreak,
+		},
+		{
+			Status:     "armor break",
+			Resistance: mon.StatusResists.ArmorBreak,
+		},
+		{
+			Status:     "mental break",
+			Resistance: mon.StatusResists.MentalBreak,
 		},
 	}
 }
 
+func (mon *MonsterOld) getPositiveStatusResistances() []StatusResist {
+	return []StatusResist{
+		{
+			Status:     "haste",
+			Resistance: mon.StatusResists.Haste,
+		},
+		{
+			Status:     "nul spells",
+			Resistance: mon.StatusResists.NulSpells,
+		},
+		{
+			Status:     "protect",
+			Resistance: mon.StatusResists.Protect,
+		},
+		{
+			Status:     "reflect",
+			Resistance: mon.StatusResists.Reflect,
+		},
+		{
+			Status:     "regen",
+			Resistance: mon.StatusResists.Regen,
+		},
+		{
+			Status:     "shell",
+			Resistance: mon.StatusResists.Shell,
+		},
+	}
+}
+
+func (mon *MonsterOld) getMiscStatusResistances() []StatusResist {
+	return []StatusResist{
+		{
+			Status:     "boost",
+			Resistance: 0,
+		},
+		{
+			Status:     "bribe",
+			Resistance: 0,
+		},
+		{
+			Status:     "defend",
+			Resistance: 0,
+		},
+		{
+			Status:     "distillers",
+			Resistance: mon.StatusResists.Distiller,
+		},
+		{
+			Status:     "guard",
+			Resistance: 0,
+		},
+		{
+			Status:     "life",
+			Resistance: mon.StatusResists.Life,
+		},
+		{
+			Status:     "scan",
+			Resistance: mon.StatusResists.Scan,
+		},
+		{
+			Status:     "sensor",
+			Resistance: mon.StatusResists.Sensor,
+		},
+		{
+			Status:     "sentinel",
+			Resistance: 0,
+		},
+		{
+			Status:     "shield",
+			Resistance: 0,
+		},
+		{
+			Status:     "curse",
+			Resistance: 0,
+		},
+		{
+			Status:     "percentage damage",
+			Resistance: mon.getDemiResistance(),
+		},
+		{
+			Status:     "slice",
+			Resistance: 0,
+		},
+	}
+}
 
 func (mon *MonsterOld) getDemiResistance() int {
 	if val, ok := mon.ElemResists["gravity"].(float64); ok {
-		switch(val) {
+		switch val {
 		case 0:
-			return 100
+			return 254
 		case 1:
 			return 0
 		}
@@ -214,11 +263,9 @@ func (mon *MonsterOld) getDemiResistance() int {
 	return 0
 }
 
-
 func (mon *MonsterOld) isImmuneToLife() bool {
 	return mon.StatusResists.Life == 100
 }
-
 
 func (mon *MonsterOld) splitPoison() (int, *float64) {
 	poisonData := mon.StatusResists.Poison
@@ -232,7 +279,6 @@ func (mon *MonsterOld) splitPoison() (int, *float64) {
 
 	return poisonResist, poisonRate
 }
-
 
 func (mon *MonsterOld) splitDoom() (int, *int) {
 	doomData := mon.StatusResists.Doom
