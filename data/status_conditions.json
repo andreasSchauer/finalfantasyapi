@@ -99,12 +99,7 @@
             "name": "confusion",
             "effect": "Causes the unit to use 'attack' uncontrollably, targeting themselves or their allies.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "curse",
@@ -161,34 +156,19 @@
             "name": "delay",
             "effect": "Adds to the unit's ticks to their next turn, delaying it.",
             "related_stats": ["agility"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "doom",
             "effect": "Gives the unit a turn counter and the unit is KO'd when it hits 0, ignoring immunity.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "eject",
             "effect": "Removes the unit from battle, making their slot irreplacable, and flagging them as 'dead'.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "ko",
@@ -216,34 +196,19 @@
             "name": "poison",
             "effect": "Deals damage proportional to the unit's max HP every time they take a turn. The rate is 25% for characters and varies for enemies.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "provoke",
             "effect": "Forces the afflicted enemy to use one ability. If that ability is single-target, it will always target the provoking character. Removed instantly when the provoking character is switched out.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "silence",
             "effect": "The inflicted unit can not use magical abilities. Overdrives are not affected.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "sleep",
@@ -253,12 +218,23 @@
                 "removed_status_conditions": [],
                 "nullified_status_conditions": [],
                 "stat_changes": [],
-                "other_changes": []
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 1.5
+                    },
+                    {
+                        "name": "magical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 1.5
+                    }
+                ]
             }
         },
         {
             "name": "slow",
-            "effect": "Doubles the unit's ticks until their next turn, causing the unit to take twice the normal amount of time to get turns. Overwrites Haste.",
+            "effect": "Doubles the unit's ticks until their next turn, causing the unit to take twice the normal amount of time to get turns. Overwrites, but also removed by Haste.",
             "related_stats": ["agility"],
             "meta": {
                 "removed_status_conditions": ["haste"],
@@ -282,12 +258,7 @@
             "name": "zombie",
             "effect": "Restorative items and magic damage the unit. Grants immunity to instant death effects, as long as they don't ignore immunity. Items and magic that inflict Life will reduce the unit's HP to 0, if it is not immune to Life.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "power distiller",
@@ -348,16 +319,11 @@
             "name": "auto-life",
             "effect": "Instantly revives a character that is KO'd with 25% of their max HP.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "haste",
-            "effect": "Halves the unit's ticks until their next turn, causing the unit to take half the normal amount of time to get turns. Overwrites Slow.",
+            "effect": "Halves the unit's ticks until their next turn, causing the unit to take half the normal amount of time to get turns. Overwrites, but also removed by Slow.",
             "related_stats": ["agility"],
             "meta": {
                 "removed_status_conditions": ["slow"],
@@ -370,56 +336,31 @@
             "name": "hp critical",
             "effect": "The character or Aeon alters their stance. Inflicted when their HP is below 50% (yellow). Activates SOS-Auto-Abilities.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "nulblaze",
             "effect": "Grants immunity to the next fire-elemental attack targeting the unit.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "nulshock",
             "effect": "Grants immunity to the next lightning-elemental attack targeting the unit.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "nultide",
             "effect": "Grants immunity to the next water-elemental attack targeting the unit.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "nulfrost",
             "effect": "Grants immunity to the next ice-elemental attack targeting the unit.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "protect",
@@ -442,23 +383,13 @@
             "name": "reflect",
             "effect": "Bounces most single-target spells back towards the user.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "regen",
             "effect": "Restores a small amount of HP at the start of a turn from any unit in battle. The amount of HP restored is between 100 and a tenth of the unit's maximum HP.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "shell",
@@ -481,23 +412,13 @@
             "name": "sensor",
             "effect": "Shows enemy's HP, elemental resistances, active statuses, and a brief description.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "scan",
             "effect": "Shows enemy's HP, elemental resistances, status immunities and a verbose description.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "defend",
@@ -520,12 +441,7 @@
             "name": "guard",
             "effect": "Causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "sentinel",
@@ -612,23 +528,13 @@
             "name": "tough",
             "effect": "Prevents enemy from getting knocked back due to being hit by Delay attack or Delay Buster.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "heavy",
             "effect": "Prevents enemy from getting lifted off the ground by Energy Rain and Tornado.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         },
         {
             "name": "armored",
@@ -667,12 +573,7 @@
             "name": "capture",
             "effect": "Attacks and skills capture a monster with the killing blow, if it can be captured and less than 10 of that monster have been captured.",
             "related_stats": [],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "meta": null
         }
     ]
 }
