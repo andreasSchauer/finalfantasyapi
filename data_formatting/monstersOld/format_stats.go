@@ -1,12 +1,9 @@
-package dataFormattingMonsters
-
-
+package dataFormattingMonstersOld
 
 type Stat struct {
-	Name		string  `json:"name"`
-	Value		int		`json:"value"`
+	Name  string `json:"name"`
+	Value int    `json:"value"`
 }
-
 
 type StatsOld struct {
 	HP         []any `json:"hp"`
@@ -21,51 +18,49 @@ type StatsOld struct {
 	Accuracy   int   `json:"accuracy"`
 }
 
-
-
 func (mon *MonsterOld) formatStats() ([]Stat, *int) {
 	statsOld := mon.Stats
 	hp, overkillDamage := mon.splitHP()
 
 	return []Stat{
 		{
-			Name: 	"hp",
-			Value:	hp,
+			Name:  "hp",
+			Value: hp,
 		},
 		{
-			Name: "mp",
+			Name:  "mp",
 			Value: statsOld.MP,
 		},
 		{
-			Name: "strength",
+			Name:  "strength",
 			Value: statsOld.Strength,
 		},
 		{
-			Name: "defense",
+			Name:  "defense",
 			Value: statsOld.Defence,
 		},
 		{
-			Name: "magic",
+			Name:  "magic",
 			Value: statsOld.Magic,
 		},
 		{
-			Name: "magic defense",
+			Name:  "magic defense",
 			Value: statsOld.MagDefence,
 		},
 		{
-			Name: "agility",
+			Name:  "agility",
 			Value: statsOld.Agility,
 		},
 		{
-			Name: "luck",
+			Name:  "luck",
 			Value: statsOld.Luck,
 		},
 		{
-			Name: "evasion",
+			Name:  "evasion",
 			Value: statsOld.Evasion,
 		},
 		{
-			Name: "accuracy",
+			Name:  "accuracy",
 			Value: statsOld.Accuracy,
 		},
 	}, overkillDamage

@@ -1,4 +1,4 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 import (
 	"reflect"
@@ -7,37 +7,37 @@ import (
 
 func TestSplitHP(t *testing.T) {
 	tests := []struct {
-		input 				[]any
-		expectedHP 			int
-		expectedOverkill	*int
+		input            []any
+		expectedHP       int
+		expectedOverkill *int
 	}{
 		{
-			input: []any{float64(1500), float64(2250)},
-			expectedHP: 1500,
+			input:            []any{float64(1500), float64(2250)},
+			expectedHP:       1500,
 			expectedOverkill: intpointer(2250),
 		},
 		{
-			input: []any{float64(1500), float64(1500)},
-			expectedHP: 1500,
+			input:            []any{float64(1500), float64(1500)},
+			expectedHP:       1500,
 			expectedOverkill: intpointer(1500),
 		},
 		{
-			input: []any{float64(0), float64(0)},
-			expectedHP: 0,
+			input:            []any{float64(0), float64(0)},
+			expectedHP:       0,
 			expectedOverkill: intpointer(0),
 		},
 		{
-			input: []any{float64(1500), "-"},
-			expectedHP: 1500,
+			input:            []any{float64(1500), "-"},
+			expectedHP:       1500,
 			expectedOverkill: nil,
 		},
 		{
-			input: []any{float64(1500), ""},
-			expectedHP: 1500,
+			input:            []any{float64(1500), ""},
+			expectedHP:       1500,
 			expectedOverkill: nil,
 		},
 	}
-	
+
 	for i, tc := range tests {
 
 		mon := MonsterOld{
@@ -55,7 +55,6 @@ func TestSplitHP(t *testing.T) {
 		}
 	}
 }
-
 
 func intpointer(i int) *int {
 	return &i

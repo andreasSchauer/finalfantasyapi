@@ -1,4 +1,4 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 import (
 	"encoding/json"
@@ -12,32 +12,31 @@ type MonstersData struct {
 	MonsterData []Monster `json:"monsters_data"`
 }
 
-
 type Monster struct {
-	Name           	string          `json:"name"`
-	Species        	string          `json:"species"`
-	IsReoccurring  	bool            `json:"is_reoccurring"`
-	IsCatchable    	bool            `json:"can_be_captured"`
-	IsBoss         	bool            `json:"is_boss"`
-	HasOverdrive   	bool            `json:"has_overdrive"`
-	IsUnderwater   	bool            `json:"is_underwater"`
-	Properties     	[]string        `json:"properties"`
-	Ap             	int             `json:"ap"`
-	ApOverkill     	int             `json:"ap_overkill"`
-	OverkillDamage 	*int            `json:"overkill_damage"`
-	Gil            	int             `json:"gil"`
-	StealGil		int				`json:"steal_gil"`
-	RonsoRage      	[]string        `json:"ronso_rage"`
-	PoisonRate      *float64       	`json:"poison_rate"`
-	DoomCountdown   *int           	`json:"doom_countdown"`
-	ThreatenCounter int            	`json:"threaten_counter"`
-	ZanmatoLevel	int				`json:"zanmato_level"`
-	Stats          	[]Stat          `json:"stats"`
-	Items          	*Items          `json:"items"`
-	Equipment      	*Equipment      `json:"equipment"`
-	ElemResists    	[]ElemResist    `json:"elem_resists"`
-	StatusResists  	StatusResists 	`json:"status_resists"`
-	AlteredStates	[]string		`json:"altered_states"`
+	Name            string        `json:"name"`
+	Species         string        `json:"species"`
+	IsReoccurring   bool          `json:"is_reoccurring"`
+	IsCatchable     bool          `json:"can_be_captured"`
+	IsBoss          bool          `json:"is_boss"`
+	HasOverdrive    bool          `json:"has_overdrive"`
+	IsUnderwater    bool          `json:"is_underwater"`
+	Properties      []string      `json:"properties"`
+	Ap              int           `json:"ap"`
+	ApOverkill      int           `json:"ap_overkill"`
+	OverkillDamage  *int          `json:"overkill_damage"`
+	Gil             int           `json:"gil"`
+	StealGil        int           `json:"steal_gil"`
+	RonsoRage       []string      `json:"ronso_rage"`
+	PoisonRate      *float64      `json:"poison_rate"`
+	DoomCountdown   *int          `json:"doom_countdown"`
+	ThreatenCounter *int          `json:"threaten_counter"`
+	ZanmatoLevel    int           `json:"zanmato_level"`
+	Stats           []Stat        `json:"stats"`
+	Items           *Items        `json:"items"`
+	Equipment       *Equipment    `json:"equipment"`
+	ElemResists     []ElemResist  `json:"elem_resists"`
+	StatusResists   StatusResists `json:"status_resists"`
+	AlteredStates   []string      `json:"altered_states"`
 }
 
 type MonsterOld struct {
@@ -57,7 +56,7 @@ type MonsterOld struct {
 	StatusResists StatusResistsOld `json:"stat_resists"`
 }
 
-func FormatMonsterJson() error {
+func FormatOldMonsterJson() error {
 	const srcPath = "./data_old/monsters.json"
 	const destPath = "./data/monsters_copy.json"
 
@@ -85,27 +84,27 @@ func FormatMonsterJson() error {
 		statusResistsData := monData.formatStatusResists()
 
 		mon := Monster{
-			Name:           name,
-			Species:        "",
-			IsReoccurring:  monData.IsReoccurring,
-			IsCatchable:    monData.IsCatchable,
-			IsBoss:         monData.IsBoss,
-			Properties:     []string{},
-			Ap:             monData.Ap[0],
-			ApOverkill:     monData.Ap[1],
-			OverkillDamage: overkillDamage,
-			Gil:            monData.Gil,
-			RonsoRage:      monData.getRonsoRage(),
-			PoisonRate: 	statusResistsData.PoisonRate,
-			DoomCountdown: 	statusResistsData.DoomCountdown,
+			Name:            name,
+			Species:         "",
+			IsReoccurring:   monData.IsReoccurring,
+			IsCatchable:     monData.IsCatchable,
+			IsBoss:          monData.IsBoss,
+			Properties:      []string{},
+			Ap:              monData.Ap[0],
+			ApOverkill:      monData.Ap[1],
+			OverkillDamage:  overkillDamage,
+			Gil:             monData.Gil,
+			RonsoRage:       monData.getRonsoRage(),
+			PoisonRate:      statusResistsData.PoisonRate,
+			DoomCountdown:   statusResistsData.DoomCountdown,
 			ThreatenCounter: statusResistsData.ThreatenCounter,
-			ZanmatoLevel: 	statusResistsData.ZanmatoLevel,
-			Items:          monData.formatItems(),
-			Equipment:      monData.formatEquipment(),
-			Stats:          stats,
-			ElemResists:    monData.formatElemResist(),
-			StatusResists:  statusResistsData.StatusResists,
-			AlteredStates: 	[]string{},
+			ZanmatoLevel:    statusResistsData.ZanmatoLevel,
+			Items:           monData.formatItems(),
+			Equipment:       monData.formatEquipment(),
+			Stats:           stats,
+			ElemResists:     monData.formatElemResist(),
+			StatusResists:   statusResistsData.StatusResists,
+			AlteredStates:   []string{},
 		}
 
 		monstersNew = append(monstersNew, mon)
@@ -127,7 +126,6 @@ func FormatMonsterJson() error {
 	return nil
 }
 
-
 func (mon *MonsterOld) getRonsoRage() []string {
 	ronsoRage := mon.RonsoRage
 	if len(ronsoRage) == 0 {
@@ -136,4 +134,3 @@ func (mon *MonsterOld) getRonsoRage() []string {
 
 	return ronsoRage
 }
-

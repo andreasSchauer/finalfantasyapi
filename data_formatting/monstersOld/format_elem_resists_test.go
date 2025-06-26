@@ -1,4 +1,4 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 import (
 	"reflect"
@@ -9,74 +9,74 @@ import (
 func TestFormatElemResists(t *testing.T) {
 	tests := []struct {
 		elemResists map[string]any
-		expected 	[]ElemResist
+		expected    []ElemResist
 	}{
 		{
 			elemResists: map[string]any{
-				"fire": 		float64(1.5),
-				"lightning": 	float64(1),
-				"water": 		float64(0.5),
-				"ice": 			float64(0),
-				"holy": 		float64(-1),
-				"gravity": 		float64(1),
+				"fire":      float64(1.5),
+				"lightning": float64(1),
+				"water":     float64(0.5),
+				"ice":       float64(0),
+				"holy":      float64(-1),
+				"gravity":   float64(1),
 			},
-			expected:		[]ElemResist{
+			expected: []ElemResist{
 				{
-					Element: "fire",
+					Element:  "fire",
 					Affinity: "weak",
 				},
 				{
-					Element: "lightning",
+					Element:  "lightning",
 					Affinity: "neutral",
 				},
 				{
-					Element: "water",
+					Element:  "water",
 					Affinity: "halved",
 				},
 				{
-					Element: "ice",
+					Element:  "ice",
 					Affinity: "immune",
 				},
 				{
-					Element: "holy",
+					Element:  "holy",
 					Affinity: "absorb",
 				},
 			},
 		},
 		{
 			elemResists: map[string]any{
-				"fire": 		"varies",
-				"lightning": 	"",
-				"water": 		nil,
-				"ice": 			"paul",
-				"holy": 		float64(2),
-				"gravity": 		float64(1),
+				"fire":      "varies",
+				"lightning": "",
+				"water":     nil,
+				"ice":       "paul",
+				"holy":      float64(2),
+				"gravity":   float64(1),
 			},
-			expected:		[]ElemResist{
+			expected: []ElemResist{
 				{
-					Element: "fire",
+					Element:  "fire",
 					Affinity: "varies",
 				},
 				{
-					Element: "lightning",
+					Element:  "lightning",
 					Affinity: "",
 				},
 				{
-					Element: "water",
+					Element:  "water",
 					Affinity: "",
 				},
 				{
-					Element: "ice",
+					Element:  "ice",
 					Affinity: "",
 				},
 				{
-					Element: "holy",
+					Element:  "holy",
 					Affinity: "",
 				},
 			},
 		},
 	}
-	
+
 	for i, tc := range tests {
 		mon := MonsterOld{
 			ElemResists: tc.elemResists,

@@ -1,17 +1,17 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 type StatusResistsData struct {
 	StatusResists   StatusResists
-	PoisonRate      *float64       `json:"poison_rate"`
-	DoomCountdown   *int           `json:"doom_countdown"`
-	ThreatenCounter int            `json:"threaten_counter"`
-	ZanmatoLevel    int            `json:"zanmato_level"`
+	PoisonRate      *float64 `json:"poison_rate"`
+	DoomCountdown   *int     `json:"doom_countdown"`
+	ThreatenCounter *int     `json:"threaten_counter"`
+	ZanmatoLevel    int      `json:"zanmato_level"`
 }
 
 type StatusResists struct {
-	NegResists      []StatusResist `json:"neg_resists"`
-	PosResists      []StatusResist `json:"pos_resists"`
-	MiscResists     []StatusResist `json:"misc_resists"`
+	NegResists  []StatusResist `json:"neg_resists"`
+	PosResists  []StatusResist `json:"pos_resists"`
+	MiscResists []StatusResist `json:"misc_resists"`
 }
 
 type StatusResist struct {
@@ -63,9 +63,9 @@ func (mon *MonsterOld) formatStatusResists() StatusResistsData {
 		DoomCountdown: doomCountdown,
 		ZanmatoLevel:  mon.StatusResists.ZanmatoLevel,
 		StatusResists: StatusResists{
-			NegResists:    formatResistances(negResists),
-			PosResists:    formatResistances(posResists),
-			MiscResists:   formatResistances(miscResists),
+			NegResists:  formatResistances(negResists),
+			PosResists:  formatResistances(posResists),
+			MiscResists: formatResistances(miscResists),
 		},
 	}
 }
@@ -250,7 +250,6 @@ func (mon *MonsterOld) getMiscResists() []StatusResist {
 	})
 }
 
-
 func filterStatusResists(statusResists []StatusResist) []StatusResist {
 	statusResistsFiltered := []StatusResist{}
 
@@ -276,8 +275,6 @@ func (mon *MonsterOld) getDemiResistance() int {
 	return 0
 }
 
-
-
 func (mon *MonsterOld) splitPoison() (int, *float64) {
 	poisonData := mon.StatusResists.Poison
 	poisonResist := int(poisonData[0].(float64))
@@ -290,7 +287,6 @@ func (mon *MonsterOld) splitPoison() (int, *float64) {
 
 	return poisonResist, poisonRate
 }
-
 
 func (mon *MonsterOld) splitDoom() (int, *int) {
 	doomData := mon.StatusResists.Doom

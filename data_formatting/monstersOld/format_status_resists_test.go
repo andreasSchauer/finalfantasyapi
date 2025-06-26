@@ -1,42 +1,41 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 import (
 	"reflect"
 	"testing"
 )
 
-
 func TestFormatResistances(t *testing.T) {
 	tests := []struct {
-		input		[]StatusResist
-		expected	[]StatusResist
+		input    []StatusResist
+		expected []StatusResist
 	}{
 		{
 			input: []StatusResist{
 				{
-					Status: "Silence",
+					Status:     "Silence",
 					Resistance: 100,
 				},
 				{
-					Status: "Dark",
+					Status:     "Dark",
 					Resistance: 0,
 				},
 				{
-					Status: "Sleep",
+					Status:     "Sleep",
 					Resistance: 101,
 				},
 			},
 			expected: []StatusResist{
 				{
-					Status: "Silence",
+					Status:     "Silence",
 					Resistance: 254,
 				},
 				{
-					Status: "Dark",
+					Status:     "Dark",
 					Resistance: 0,
 				},
 				{
-					Status: "Sleep",
+					Status:     "Sleep",
 					Resistance: 101,
 				},
 			},
@@ -54,19 +53,19 @@ func TestFormatResistances(t *testing.T) {
 
 func TestGetDemiResistance(t *testing.T) {
 	tests := []struct {
-		input 		float64
-		expected 	int
+		input    float64
+		expected int
 	}{
 		{
-			input: float64(1),
+			input:    float64(1),
 			expected: 0,
 		},
 		{
-			input: float64(0),
+			input:    float64(0),
 			expected: 254,
 		},
 	}
-	
+
 	for i, tc := range tests {
 		elemResists := make(map[string]any)
 		elemResists["gravity"] = tc.input
@@ -83,34 +82,33 @@ func TestGetDemiResistance(t *testing.T) {
 
 func TestSplitDoom(t *testing.T) {
 	tests := []struct {
-		input 				[]int
-		expectedResistance 	int
-		expectedCountdown	*int
+		input              []int
+		expectedResistance int
+		expectedCountdown  *int
 	}{
 		{
-			input: []int{0, 5},
+			input:              []int{0, 5},
 			expectedResistance: 0,
-			expectedCountdown: intpointer(5),
+			expectedCountdown:  intpointer(5),
 		},
 		{
-			input: []int{50, 5},
+			input:              []int{50, 5},
 			expectedResistance: 50,
-			expectedCountdown: intpointer(5),
+			expectedCountdown:  intpointer(5),
 		},
 		{
-			input: []int{100, 5},
+			input:              []int{100, 5},
 			expectedResistance: 100,
-			expectedCountdown: nil,
+			expectedCountdown:  nil,
 		},
 		{
-			input: []int{100, 0},
+			input:              []int{100, 0},
 			expectedResistance: 100,
-			expectedCountdown: nil,
+			expectedCountdown:  nil,
 		},
 	}
-	
-	for i, tc := range tests {
 
+	for i, tc := range tests {
 		mon := MonsterOld{
 			StatusResists: StatusResistsOld{
 				Doom: tc.input,
@@ -127,37 +125,35 @@ func TestSplitDoom(t *testing.T) {
 	}
 }
 
-
 func TestSplitPoison(t *testing.T) {
 	tests := []struct {
-		input 				[]any
-		expectedResistance 	int
-		expectedRate		*float64
+		input              []any
+		expectedResistance int
+		expectedRate       *float64
 	}{
 		{
-			input: []any{float64(0), 0.5},
+			input:              []any{float64(0), 0.5},
 			expectedResistance: 0,
-			expectedRate: floatpointer(0.5),
+			expectedRate:       floatpointer(0.5),
 		},
 		{
-			input: []any{float64(0), float64(25)},
+			input:              []any{float64(0), float64(25)},
 			expectedResistance: 0,
-			expectedRate: floatpointer(25),
+			expectedRate:       floatpointer(25),
 		},
 		{
-			input: []any{float64(100), float64(0)},
+			input:              []any{float64(100), float64(0)},
 			expectedResistance: 100,
-			expectedRate: nil,
+			expectedRate:       nil,
 		},
 		{
-			input: []any{float64(100), float64(25)},
+			input:              []any{float64(100), float64(25)},
 			expectedResistance: 100,
-			expectedRate: nil,
+			expectedRate:       nil,
 		},
 	}
-	
-	for i, tc := range tests {
 
+	for i, tc := range tests {
 		mon := MonsterOld{
 			StatusResists: StatusResistsOld{
 				Poison: tc.input,

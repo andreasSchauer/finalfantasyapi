@@ -1,42 +1,36 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 import "strconv"
 
-
-
 type Equipment struct {
-	DropRate            float64        		`json:"drop_rate"`
-	Power				int					`json:"power"`
-	CriticalPlus		int					`json:"critical_plus"`
-	AbilitySlots		AbilitySlots		`json:"ability_slots"`
-	AttachedAbilities 	AttachedAbilities	`json:"attached_abilities"`
-	WpnAbilities        []AutoAbility   	`json:"wpn_abilities"`
-	ArmorAbilities      []AutoAbility 		`json:"armor_abilities"`
+	DropRate          float64           `json:"drop_rate"`
+	Power             int               `json:"power"`
+	CriticalPlus      int               `json:"critical_plus"`
+	AbilitySlots      AbilitySlots      `json:"ability_slots"`
+	AttachedAbilities AttachedAbilities `json:"attached_abilities"`
+	WpnAbilities      []AutoAbility     `json:"wpn_abilities"`
+	ArmorAbilities    []AutoAbility     `json:"armor_abilities"`
 }
-
 
 type AutoAbility struct {
-	Ability		string	 `json:"ability"`
-	Characters 	[]string `json:"characters"`
-	Chance		float64	 `json:"chance"`
+	Ability    string   `json:"ability"`
+	Characters []string `json:"characters"`
+	Chance     float64  `json:"chance"`
 }
-
 
 type AbilitySlots struct {
-	MinAmount		int		`json:"min_amount"`
-	MaxAmount		int		`json:"max_amount"`
-	MinSlotsChance	float64	`json:"min_slots_chance"`
-	MaxSlotsChance	float64	`json:"max_slots_chance"`
+	MinAmount      int     `json:"min_amount"`
+	MaxAmount      int     `json:"max_amount"`
+	MinSlotsChance float64 `json:"min_slots_chance"`
+	MaxSlotsChance float64 `json:"max_slots_chance"`
 }
-
 
 type AttachedAbilities struct {
-	MinAmount 			int     `json:"min_amount"`
-	MaxAmount 			int     `json:"max_amount"`
-	MinAbilitiesChance	float64	`json:"min_abilities_chance"`
-	MaxAbilitiesChance	float64	`json:"max_abilities_chance"`
+	MinAmount          int     `json:"min_amount"`
+	MaxAmount          int     `json:"max_amount"`
+	MinAbilitiesChance float64 `json:"min_abilities_chance"`
+	MaxAbilitiesChance float64 `json:"max_abilities_chance"`
 }
-
 
 type EquipmentOld struct {
 	DropRate          float64           `json:"drop_rate"`
@@ -46,24 +40,20 @@ type EquipmentOld struct {
 	ArmorAbilities    []ArmorAbilityOld `json:"armor_abilities"`
 }
 
-
 type WpnAbilityOld struct {
 	Ability    string `json:"ability"`
 	Characters string `json:"characters,omitempty"`
 }
 
-
 type ArmorAbilityOld struct {
 	Ability string `json:"ability"`
 }
-
-
 
 func (mon *MonsterOld) formatEquipment() *Equipment {
 	if mon.Equipment.DropRate == 0 {
 		return nil
 	}
-	
+
 	minSlots, maxSlots := mon.getMinMaxSlots()
 	abilitySlots := AbilitySlots{
 		MinAmount: minSlots,
@@ -77,23 +67,22 @@ func (mon *MonsterOld) formatEquipment() *Equipment {
 	}
 
 	return &Equipment{
-		DropRate:           mon.Equipment.DropRate,
-		Power: 				16,
-		CriticalPlus: 		3,
-		AbilitySlots: 		abilitySlots,
-		AttachedAbilities: 	attachedAbilities,
-		WpnAbilities:       mon.getWpnAbilities(),
-		ArmorAbilities:     mon.getArmrAbilities(),
+		DropRate:          mon.Equipment.DropRate,
+		Power:             16,
+		CriticalPlus:      3,
+		AbilitySlots:      abilitySlots,
+		AttachedAbilities: attachedAbilities,
+		WpnAbilities:      mon.getWpnAbilities(),
+		ArmorAbilities:    mon.getArmrAbilities(),
 	}
 }
-
 
 func (mon *MonsterOld) getArmrAbilities() []AutoAbility {
 	var armrAbilities []AutoAbility
 
 	for _, armrAbilityOld := range mon.Equipment.ArmorAbilities {
 		armrAbilities = append(armrAbilities, AutoAbility{
-			Ability: armrAbilityOld.Ability,
+			Ability:    armrAbilityOld.Ability,
 			Characters: getCharacters(""),
 		})
 	}

@@ -1,4 +1,4 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 import (
 	"reflect"
@@ -69,19 +69,19 @@ func TestGetWpnAbilities(t *testing.T) {
 		{
 			input: []WpnAbilityOld{
 				{
-					Ability: "test-ability",
+					Ability:    "test-ability",
 					Characters: "Kimahri and Auron",
 				},
 				{
-					Ability: "test-ability-2",
+					Ability:    "test-ability-2",
 					Characters: "Yuna and Lulu",
 				},
 				{
-					Ability: "test-ability-3",
+					Ability:    "test-ability-3",
 					Characters: "Wakka and Auron",
 				},
 				{
-					Ability: "test-ability-4",
+					Ability:    "test-ability-4",
 					Characters: "except Yuna and Lulu",
 				},
 				{
@@ -90,29 +90,29 @@ func TestGetWpnAbilities(t *testing.T) {
 			},
 			expected: []AutoAbility{
 				{
-					Ability: "test-ability",
+					Ability:    "test-ability",
 					Characters: []string{"kimahri", "auron"},
 				},
 				{
-					Ability: "test-ability-2",
+					Ability:    "test-ability-2",
 					Characters: []string{"yuna", "lulu"},
 				},
 				{
-					Ability: "test-ability-3",
+					Ability:    "test-ability-3",
 					Characters: []string{"all"},
 				},
 				{
-					Ability: "test-ability-4",
+					Ability:    "test-ability-4",
 					Characters: []string{"tidus", "wakka", "kimahri", "auron", "rikku"},
 				},
 				{
-					Ability: "test-ability-5",
+					Ability:    "test-ability-5",
 					Characters: []string{"all"},
 				},
 			},
 		},
 		{
-			input: nil,
+			input:    nil,
 			expected: nil,
 		},
 	}

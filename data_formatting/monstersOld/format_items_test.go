@@ -1,4 +1,4 @@
-package dataFormattingMonsters
+package dataFormattingMonstersOld
 
 import (
 	"reflect"
@@ -7,14 +7,14 @@ import (
 
 func TestGetItems(t *testing.T) {
 	tests := []struct {
-		itemData 	[]any
-		expected 	[]Item
+		itemData []any
+		expected []Item
 	}{
 		{
 			itemData: []any{"cool item name", float64(2)},
 			expected: []Item{
 				{
-					Item: "cool item name",
+					Item:   "cool item name",
 					Amount: 2,
 				},
 			},
@@ -23,11 +23,11 @@ func TestGetItems(t *testing.T) {
 			itemData: []any{[]any{"cool item name", float64(2)}, []any{"even cooler item", float64(5)}},
 			expected: []Item{
 				{
-					Item: "cool item name",
+					Item:   "cool item name",
 					Amount: 2,
 				},
 				{
-					Item: "even cooler item",
+					Item:   "even cooler item",
 					Amount: 5,
 				},
 			},
@@ -37,7 +37,7 @@ func TestGetItems(t *testing.T) {
 			expected: []Item{},
 		},
 	}
-	
+
 	for i, tc := range tests {
 		key := "drop_normal"
 		items := make(map[string][]any)
