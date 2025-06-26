@@ -1,5 +1,7 @@
 package dataFormattingMonsters
 
+import "reflect"
+
 
 
 type Item struct {
@@ -14,19 +16,30 @@ type Items struct {
 	DropCommon		[]Item		`json:"drop_common"`
 	DropRare		[]Item		`json:"drop_rare"`
 	Bribe			[]Item		`json:"bribe"`
-	StealGil		int			`json:"steal_gil"`
 }
 
 
 
-func (mon *MonsterOld) formatItems() Items {
-	return Items{
+func (mon *MonsterOld) formatItems() *Items {
+	items := Items{
 		StealCommon: mon.getItems("steal_common"),
 		StealRare: mon.getItems("steal_rare"),
 		DropCommon: mon.getItems("drop_common"),
 		DropRare: mon.getItems("drop_rare"),
 		Bribe: mon.getItems("bribe"),
 	}
+
+	if reflect.DeepEqual(items, Items{
+		StealCommon: []Item{},
+		StealRare: []Item{},
+		DropCommon: []Item{},
+		DropRare: []Item{},
+		Bribe: []Item{},
+	}) {
+		return nil
+	}
+
+	return &items
 }
 
 

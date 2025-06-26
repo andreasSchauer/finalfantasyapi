@@ -54,9 +54,9 @@ type StatusResistsOld struct {
 func (mon *MonsterOld) formatStatusResists() StatusResistsData {
 	poisonResist, poisonRate := mon.splitPoison()
 	doomResist, doomCountdown := mon.splitDoom()
-	negResists := mon.getNegativeStatusResistances(poisonResist, doomResist)
-	posResists := mon.getPositiveStatusResistances()
-	miscResists := mon.getMiscStatusResistances()
+	negResists := mon.getNegResists(poisonResist, doomResist)
+	posResists := mon.getPosResists()
+	miscResists := mon.getMiscResists()
 
 	return StatusResistsData{
 		PoisonRate:    poisonRate,
@@ -71,7 +71,7 @@ func (mon *MonsterOld) formatStatusResists() StatusResistsData {
 }
 
 func formatResistances(resistances []StatusResist) []StatusResist {
-	var resistances_formatted []StatusResist
+	resistances_formatted := []StatusResist{}
 
 	for i := range resistances {
 		resistances_formatted = append(resistances_formatted, resistances[i])
@@ -83,8 +83,8 @@ func formatResistances(resistances []StatusResist) []StatusResist {
 	return resistances_formatted
 }
 
-func (mon *MonsterOld) getNegativeStatusResistances(poisonResist, doomResist int) []StatusResist {
-	return []StatusResist{
+func (mon *MonsterOld) getNegResists(poisonResist, doomResist int) []StatusResist {
+	return filterStatusResists([]StatusResist{
 		{
 			Status:     "berserk",
 			Resistance: mon.StatusResists.Berserk,
@@ -161,11 +161,11 @@ func (mon *MonsterOld) getNegativeStatusResistances(poisonResist, doomResist int
 			Status:     "mental break",
 			Resistance: mon.StatusResists.MentalBreak,
 		},
-	}
+	})
 }
 
-func (mon *MonsterOld) getPositiveStatusResistances() []StatusResist {
-	return []StatusResist{
+func (mon *MonsterOld) getPosResists() []StatusResist {
+	return filterStatusResists([]StatusResist{
 		{
 			Status:     "haste",
 			Resistance: mon.StatusResists.Haste,
@@ -190,11 +190,11 @@ func (mon *MonsterOld) getPositiveStatusResistances() []StatusResist {
 			Status:     "shell",
 			Resistance: mon.StatusResists.Shell,
 		},
-	}
+	})
 }
 
-func (mon *MonsterOld) getMiscStatusResistances() []StatusResist {
-	return []StatusResist{
+func (mon *MonsterOld) getMiscResists() []StatusResist {
+	return filterStatusResists([]StatusResist{
 		{
 			Status:     "boost",
 			Resistance: 0,
@@ -247,7 +247,20 @@ func (mon *MonsterOld) getMiscStatusResistances() []StatusResist {
 			Status:     "slice",
 			Resistance: 0,
 		},
+	})
+}
+
+
+func filterStatusResists(statusResists []StatusResist) []StatusResist {
+	statusResistsFiltered := []StatusResist{}
+
+	for _, status := range statusResists {
+		if status.Resistance > 0 {
+			statusResistsFiltered = append(statusResistsFiltered, status)
+		}
 	}
+
+	return statusResistsFiltered
 }
 
 func (mon *MonsterOld) getDemiResistance() int {
@@ -263,9 +276,7 @@ func (mon *MonsterOld) getDemiResistance() int {
 	return 0
 }
 
-func (mon *MonsterOld) isImmuneToLife() bool {
-	return mon.StatusResists.Life == 100
-}
+
 
 func (mon *MonsterOld) splitPoison() (int, *float64) {
 	poisonData := mon.StatusResists.Poison
@@ -279,6 +290,7 @@ func (mon *MonsterOld) splitPoison() (int, *float64) {
 
 	return poisonResist, poisonRate
 }
+
 
 func (mon *MonsterOld) splitDoom() (int, *int) {
 	doomData := mon.StatusResists.Doom

@@ -59,9 +59,11 @@ type ArmorAbilityOld struct {
 
 
 
-
-
-func (mon *MonsterOld) formatEquipment() Equipment {
+func (mon *MonsterOld) formatEquipment() *Equipment {
+	if mon.Equipment.DropRate == 0 {
+		return nil
+	}
+	
 	minSlots, maxSlots := mon.getMinMaxSlots()
 	abilitySlots := AbilitySlots{
 		MinAmount: minSlots,
@@ -74,9 +76,10 @@ func (mon *MonsterOld) formatEquipment() Equipment {
 		MaxAmount: maxAttached,
 	}
 
-
-	return Equipment{
+	return &Equipment{
 		DropRate:           mon.Equipment.DropRate,
+		Power: 				16,
+		CriticalPlus: 		3,
 		AbilitySlots: 		abilitySlots,
 		AttachedAbilities: 	attachedAbilities,
 		WpnAbilities:       mon.getWpnAbilities(),

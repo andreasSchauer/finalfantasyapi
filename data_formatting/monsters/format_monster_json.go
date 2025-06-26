@@ -8,26 +8,32 @@ import (
 	"sort"
 )
 
+type MonstersData struct {
+	MonsterData []Monster `json:"monsters_data"`
+}
+
+
 type Monster struct {
-	Name           	string          `json:"monster_name"`
+	Name           	string          `json:"name"`
 	Species        	string          `json:"species"`
 	IsReoccurring  	bool            `json:"is_reoccurring"`
-	IsCatchable    	bool            `json:"can_be_caught"`
+	IsCatchable    	bool            `json:"can_be_captured"`
 	IsBoss         	bool            `json:"is_boss"`
+	HasOverdrive   	bool            `json:"has_overdrive"`
 	IsUnderwater   	bool            `json:"is_underwater"`
 	Properties     	[]string        `json:"properties"`
-	HasOverdrive   	bool            `json:"has_overdrive"`
 	Ap             	int             `json:"ap"`
 	ApOverkill     	int             `json:"ap_overkill"`
 	OverkillDamage 	*int            `json:"overkill_damage"`
 	Gil            	int             `json:"gil"`
+	StealGil		int				`json:"steal_gil"`
 	RonsoRage      	[]string        `json:"ronso_rage"`
 	PoisonRate      *float64       	`json:"poison_rate"`
 	DoomCountdown   *int           	`json:"doom_countdown"`
 	ThreatenCounter int            	`json:"threaten_counter"`
-	Items          	Items           `json:"items"`
-	Equipment      	Equipment       `json:"equipment"`
 	Stats          	[]Stat          `json:"stats"`
+	Items          	*Items           `json:"items"`
+	Equipment      	*Equipment       `json:"equipment"`
 	ElemResists    	[]ElemResist    `json:"elem_resists"`
 	StatusResists  	StatusResists 	`json:"status_resists"`
 }
@@ -87,7 +93,7 @@ func FormatMonsterJson() error {
 			ApOverkill:     monData.Ap[1],
 			OverkillDamage: overkillDamage,
 			Gil:            monData.Gil,
-			RonsoRage:      monData.RonsoRage,
+			RonsoRage:      monData.getRonsoRage(),
 			PoisonRate: 	statusResistsData.PoisonRate,
 			DoomCountdown: 	statusResistsData.DoomCountdown,
 			ThreatenCounter: statusResistsData.ThreatenCounter,
@@ -117,6 +123,13 @@ func FormatMonsterJson() error {
 	return nil
 }
 
-type MonstersData struct {
-	MonsterData []Monster `json:"monsters_data"`
+
+func (mon *MonsterOld) getRonsoRage() []string {
+	ronsoRage := mon.RonsoRage
+	if len(ronsoRage) == 0 {
+		return []string{}
+	}
+
+	return ronsoRage
 }
+
