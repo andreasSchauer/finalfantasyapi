@@ -31,11 +31,13 @@ type Monster struct {
 	PoisonRate      *float64       	`json:"poison_rate"`
 	DoomCountdown   *int           	`json:"doom_countdown"`
 	ThreatenCounter int            	`json:"threaten_counter"`
+	ZanmatoLevel	int				`json:"zanmato_level"`
 	Stats          	[]Stat          `json:"stats"`
-	Items          	*Items           `json:"items"`
-	Equipment      	*Equipment       `json:"equipment"`
+	Items          	*Items          `json:"items"`
+	Equipment      	*Equipment      `json:"equipment"`
 	ElemResists    	[]ElemResist    `json:"elem_resists"`
 	StatusResists  	StatusResists 	`json:"status_resists"`
+	AlteredStates	[]string		`json:"altered_states"`
 }
 
 type MonsterOld struct {
@@ -97,11 +99,13 @@ func FormatMonsterJson() error {
 			PoisonRate: 	statusResistsData.PoisonRate,
 			DoomCountdown: 	statusResistsData.DoomCountdown,
 			ThreatenCounter: statusResistsData.ThreatenCounter,
+			ZanmatoLevel: 	statusResistsData.ZanmatoLevel,
 			Items:          monData.formatItems(),
 			Equipment:      monData.formatEquipment(),
 			Stats:          stats,
 			ElemResists:    monData.formatElemResist(),
 			StatusResists:  statusResistsData.StatusResists,
+			AlteredStates: 	[]string{},
 		}
 
 		monstersNew = append(monstersNew, mon)

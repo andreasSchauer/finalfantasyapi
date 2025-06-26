@@ -18,6 +18,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -246,7 +247,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "abyss worm",
@@ -266,6 +268,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -494,7 +497,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "achelous",
@@ -514,6 +518,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -691,7 +696,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "adamantoise",
@@ -711,6 +717,7 @@
             "poison_rate": 0.05,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 3,
             "stats": [
                 {
                     "name": "hp",
@@ -918,7 +925,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "aerouge",
@@ -938,6 +946,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -1115,7 +1124,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ahriman",
@@ -1135,6 +1145,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -1338,7 +1349,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "alcyone",
@@ -1358,6 +1370,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -1536,7 +1549,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "anacondaur",
@@ -1558,6 +1572,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -1741,7 +1756,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "anima 1",
@@ -1761,6 +1777,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 3,
             "stats": [
                 {
                     "name": "hp",
@@ -1996,7 +2013,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "anima 2",
@@ -2016,6 +2034,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -2160,7 +2179,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "aqua flan",
@@ -2180,6 +2200,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -2343,7 +2364,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bahamut",
@@ -2363,6 +2385,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -2503,7 +2526,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bandersnatch",
@@ -2523,6 +2547,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -2714,7 +2739,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "barbatos",
@@ -2734,6 +2760,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 2,
             "stats": [
                 {
                     "name": "hp",
@@ -2935,7 +2962,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bashura",
@@ -2955,6 +2983,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -3157,7 +3186,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "basilisk",
@@ -3179,6 +3209,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -3365,7 +3396,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bat eye",
@@ -3385,6 +3417,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -3599,7 +3632,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "behemoth",
@@ -3621,6 +3655,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 2,
             "stats": [
                 {
                     "name": "hp",
@@ -3857,7 +3892,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "behemoth king",
@@ -3879,6 +3915,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 2,
             "stats": [
                 {
                     "name": "hp",
@@ -4104,7 +4141,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "biran ronso",
@@ -4129,6 +4167,7 @@
             "poison_rate": null,
             "doom_countdown": 20,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -4308,7 +4347,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bite bug",
@@ -4328,6 +4368,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -4538,7 +4579,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "black element",
@@ -4558,6 +4600,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -4795,7 +4838,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "blue element",
@@ -4815,6 +4859,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -4997,7 +5042,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bomb 1",
@@ -5019,6 +5065,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -5190,7 +5237,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bomb 2",
@@ -5212,6 +5260,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -5383,7 +5432,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bomb king",
@@ -5403,6 +5453,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -5631,7 +5682,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "braskas final aeon 1",
@@ -5651,6 +5703,7 @@
             "poison_rate": 0.01,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -5791,7 +5844,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "braskas final aeon 2",
@@ -5811,6 +5865,7 @@
             "poison_rate": 0.01,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -5951,7 +6006,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "buer",
@@ -5971,6 +6027,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -6181,7 +6238,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "bunyip",
@@ -6201,6 +6259,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -6392,7 +6451,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "cactuar",
@@ -6412,6 +6472,7 @@
             "poison_rate": null,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 2,
             "stats": [
                 {
                     "name": "hp",
@@ -6622,7 +6683,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "cactuar king",
@@ -6642,6 +6704,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -6870,7 +6933,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "catastrophe",
@@ -6890,6 +6954,7 @@
             "poison_rate": null,
             "doom_countdown": 255,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -7174,7 +7239,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "catoblepas",
@@ -7194,6 +7260,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -7478,7 +7545,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "cave iguion",
@@ -7498,6 +7566,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -7720,7 +7789,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "chimera 1",
@@ -7742,6 +7812,7 @@
             "poison_rate": 0.1,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -7912,7 +7983,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "chimera 2",
@@ -7934,6 +8006,7 @@
             "poison_rate": null,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -8108,7 +8181,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "chimera brain",
@@ -8130,6 +8204,7 @@
             "poison_rate": 0.1,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -8312,7 +8387,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "chimerageist",
@@ -8332,6 +8408,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -8560,7 +8637,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "chocobo eater",
@@ -8580,6 +8658,7 @@
             "poison_rate": 0.05,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -8835,7 +8914,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "cindy",
@@ -8855,6 +8935,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -8995,7 +9076,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "coeurl",
@@ -9015,6 +9097,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -9231,7 +9314,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "coeurlregina",
@@ -9251,6 +9335,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -9500,7 +9585,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "condor",
@@ -9520,6 +9606,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -9690,7 +9777,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "crawler",
@@ -9710,6 +9798,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -9958,7 +10047,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark anima",
@@ -9978,6 +10068,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -10217,7 +10308,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark bahamut",
@@ -10237,6 +10329,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -10476,7 +10569,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark cindy",
@@ -10496,6 +10590,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -10735,7 +10830,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark element",
@@ -10755,6 +10851,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -10979,7 +11076,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark flan",
@@ -11001,6 +11099,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -11202,7 +11301,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark ifrit",
@@ -11222,6 +11322,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -11447,7 +11548,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark ixion 1",
@@ -11467,6 +11569,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 6,
             "stats": [
                 {
                     "name": "hp",
@@ -11692,7 +11795,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark ixion 2",
@@ -11712,6 +11816,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 6,
             "stats": [
                 {
                     "name": "hp",
@@ -11937,7 +12042,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark mindy",
@@ -11957,6 +12063,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -12196,7 +12303,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark sandy",
@@ -12216,6 +12324,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -12455,7 +12564,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark shiva",
@@ -12475,6 +12585,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -12700,7 +12811,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark valefor",
@@ -12720,6 +12832,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -12973,7 +13086,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dark yojimbo",
@@ -12993,6 +13107,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -13232,7 +13347,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "defender",
@@ -13252,6 +13368,7 @@
             "poison_rate": null,
             "doom_countdown": 10,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -13461,7 +13578,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "defender x",
@@ -13481,6 +13599,7 @@
             "poison_rate": null,
             "doom_countdown": 10,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -13707,7 +13826,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "defender z",
@@ -13727,6 +13847,7 @@
             "poison_rate": null,
             "doom_countdown": 10,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -13944,7 +14065,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "demonolith",
@@ -13966,6 +14088,7 @@
             "poison_rate": null,
             "doom_countdown": 10,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -14167,7 +14290,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dingo",
@@ -14187,6 +14311,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -14385,7 +14510,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dinonix",
@@ -14405,6 +14531,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -14596,7 +14723,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "don tonberry",
@@ -14616,6 +14744,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -14900,7 +15029,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dual horn 1",
@@ -14922,6 +15052,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -15084,7 +15215,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "dual horn 2",
@@ -15106,6 +15238,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -15275,7 +15408,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "earth eater",
@@ -15295,6 +15429,7 @@
             "poison_rate": null,
             "doom_countdown": 255,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -15495,7 +15630,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "epaaj",
@@ -15515,6 +15651,7 @@
             "poison_rate": null,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -15698,7 +15835,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "espada",
@@ -15718,6 +15856,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -15930,7 +16069,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "evil eye 1",
@@ -15950,6 +16090,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -16160,7 +16301,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "evil eye 2",
@@ -16180,6 +16322,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -16390,7 +16533,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "evrae",
@@ -16410,6 +16554,7 @@
             "poison_rate": null,
             "doom_countdown": 30,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -16606,7 +16751,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "evrae altana",
@@ -16626,6 +16772,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -16915,7 +17062,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "exoray",
@@ -16935,6 +17083,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -17124,7 +17273,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "extractor",
@@ -17144,6 +17294,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -17365,7 +17516,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "fafnir",
@@ -17385,6 +17537,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -17620,7 +17773,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "fallen monk 1",
@@ -17640,6 +17794,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 15,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -17841,7 +17996,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "fallen monk 2",
@@ -17861,6 +18017,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 15,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -18062,7 +18219,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "fenrir",
@@ -18082,6 +18240,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -18366,7 +18525,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "flame flan",
@@ -18386,6 +18546,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -18556,7 +18717,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "floating death",
@@ -18576,6 +18738,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -18793,7 +18956,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "floating eye",
@@ -18813,6 +18977,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -19023,7 +19188,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "funguar",
@@ -19043,6 +19209,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -19222,7 +19389,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "gandarewa",
@@ -19242,6 +19410,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -19412,7 +19581,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "garm",
@@ -19432,6 +19602,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -19630,7 +19801,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "garuda 1",
@@ -19650,6 +19822,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -19818,7 +19991,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "garuda 2",
@@ -19838,6 +20012,7 @@
             "poison_rate": 0.1,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -20000,7 +20175,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "garuda 3",
@@ -20020,6 +20196,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -20199,7 +20376,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "gemini 1",
@@ -20219,6 +20397,7 @@
             "poison_rate": 0.2,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -20426,7 +20605,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "gemini 2",
@@ -20446,6 +20626,7 @@
             "poison_rate": 0.2,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -20653,7 +20834,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "geosgaeno",
@@ -20673,6 +20855,7 @@
             "poison_rate": 0.1,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -20877,7 +21060,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ghost",
@@ -20899,6 +21083,7 @@
             "poison_rate": null,
             "doom_countdown": 7,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -21119,7 +21304,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "gold element",
@@ -21139,6 +21325,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -21321,7 +21508,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "grat",
@@ -21343,6 +21531,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -21556,7 +21745,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "great malboro",
@@ -21578,6 +21768,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 2,
             "stats": [
                 {
                     "name": "hp",
@@ -21837,7 +22028,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "greater sphere",
@@ -21857,6 +22049,7 @@
             "poison_rate": null,
             "doom_countdown": 255,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -22057,7 +22250,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "grenade",
@@ -22079,6 +22273,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -22273,7 +22468,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "grendel",
@@ -22295,6 +22491,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -22485,7 +22682,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "grothia",
@@ -22505,6 +22703,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -22645,7 +22844,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "guado guardian 1",
@@ -22665,6 +22865,7 @@
             "poison_rate": 0.25,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -22881,7 +23082,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "guado guardian 2",
@@ -22901,6 +23103,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -23124,7 +23327,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "guado guardian 3",
@@ -23144,6 +23348,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -23364,7 +23569,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "halma",
@@ -23384,6 +23590,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -23575,7 +23782,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "hornet",
@@ -23595,6 +23803,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -23819,7 +24028,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ice flan",
@@ -23839,6 +24049,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -24009,7 +24220,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ifrit 1",
@@ -24029,6 +24241,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -24169,7 +24382,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ifrit 2",
@@ -24189,6 +24403,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -24329,7 +24544,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "iguion",
@@ -24349,6 +24565,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -24540,7 +24757,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "imp",
@@ -24560,6 +24778,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -24730,7 +24949,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ipiria",
@@ -24750,6 +24970,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -24941,7 +25162,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "iron giant",
@@ -24961,6 +25183,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -25166,7 +25389,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ironclad",
@@ -25186,6 +25410,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -25414,7 +25639,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ixion 1",
@@ -25434,6 +25660,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -25574,7 +25801,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ixion 2",
@@ -25594,6 +25822,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -25734,7 +25963,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "jormungand",
@@ -25754,6 +25984,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -26034,7 +26265,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "juggernaut",
@@ -26054,6 +26286,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -26282,7 +26515,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "jumbo flan",
@@ -26302,6 +26536,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -26512,7 +26747,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "killer bee",
@@ -26532,6 +26768,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -26723,7 +26960,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "kimahri",
@@ -26743,6 +26981,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -26880,7 +27119,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "klikk",
@@ -26900,6 +27140,7 @@
             "poison_rate": null,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -27005,7 +27246,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "kottos",
@@ -27025,6 +27267,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -27253,7 +27496,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "kusariqqu",
@@ -27273,6 +27517,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -27464,7 +27709,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "lamashtu",
@@ -27484,6 +27730,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -27675,7 +27922,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "land worm",
@@ -27695,6 +27943,7 @@
             "poison_rate": 0.02,
             "doom_countdown": 10,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -27920,7 +28169,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "larva",
@@ -27940,6 +28190,7 @@
             "poison_rate": null,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -28100,7 +28351,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "lord ochu",
@@ -28120,6 +28372,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -28330,7 +28583,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "machea",
@@ -28350,6 +28604,7 @@
             "poison_rate": null,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -28540,7 +28795,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "maelspike",
@@ -28560,6 +28816,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -28733,7 +28990,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mafdet",
@@ -28753,6 +29011,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -28944,7 +29203,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "magic urn",
@@ -28964,6 +29224,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -29104,7 +29365,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "malboro",
@@ -29126,6 +29388,7 @@
             "poison_rate": null,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 2,
             "stats": [
                 {
                     "name": "hp",
@@ -29369,7 +29632,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "malboro menace",
@@ -29389,6 +29653,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -29673,7 +29938,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mandragora",
@@ -29693,6 +29959,7 @@
             "poison_rate": 0.05,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -29931,7 +30198,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "master coeurl",
@@ -29951,6 +30219,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -30173,7 +30442,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "master tonberry",
@@ -30193,6 +30463,7 @@
             "poison_rate": null,
             "doom_countdown": 25,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -30415,7 +30686,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "maze larva",
@@ -30435,6 +30707,7 @@
             "poison_rate": null,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -30610,7 +30883,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mech defender",
@@ -30630,6 +30904,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -30865,7 +31140,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mech guard",
@@ -30885,6 +31161,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -31099,7 +31376,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mech gunner",
@@ -31119,6 +31397,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -31354,7 +31633,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mech hunter",
@@ -31374,6 +31654,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -31609,7 +31890,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mech leader",
@@ -31629,6 +31911,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -31843,7 +32126,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mech scouter 1",
@@ -31863,6 +32147,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -32077,7 +32362,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mech scouter 2",
@@ -32097,6 +32383,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -32311,7 +32598,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "melusine",
@@ -32331,6 +32619,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -32522,7 +32811,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mi'ihen fang",
@@ -32542,6 +32832,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -32740,7 +33031,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mimic blue",
@@ -32760,6 +33052,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -32891,7 +33184,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mimic green",
@@ -32911,6 +33205,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -33042,7 +33337,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mimic red",
@@ -33062,6 +33358,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -33193,7 +33490,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mimic yellow",
@@ -33213,6 +33511,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -33344,7 +33643,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mindy",
@@ -33364,6 +33664,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -33504,7 +33805,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mortibody",
@@ -33524,6 +33826,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -33660,7 +33963,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mortiorchis",
@@ -33680,6 +33984,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -33824,7 +34129,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mortiphasm",
@@ -33844,6 +34150,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -33983,7 +34290,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "murussu",
@@ -34003,6 +34311,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -34194,7 +34503,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "mushussu",
@@ -34214,6 +34524,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -34413,7 +34724,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "nebiros",
@@ -34433,6 +34745,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -34617,7 +34930,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "nega elemental",
@@ -34637,6 +34951,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -34879,7 +35194,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "negator",
@@ -34899,6 +35215,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -35103,7 +35420,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "nemesis",
@@ -35125,6 +35443,7 @@
             "poison_rate": null,
             "doom_countdown": 255,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -35325,7 +35644,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "neslug",
@@ -35345,6 +35665,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -35567,7 +35888,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "nidhogg",
@@ -35587,6 +35909,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -35771,7 +36094,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "oblitzerator",
@@ -35791,6 +36115,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -35964,7 +36289,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ochu",
@@ -35984,6 +36310,7 @@
             "poison_rate": null,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -36213,7 +36540,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "octopus",
@@ -36233,6 +36561,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -36411,7 +36740,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ogre",
@@ -36431,6 +36761,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -36633,7 +36964,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "omega weapon",
@@ -36655,6 +36987,7 @@
             "poison_rate": null,
             "doom_countdown": 222,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -36855,7 +37188,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "one-eye",
@@ -36875,6 +37209,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -37081,7 +37416,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ornitholestes",
@@ -37101,6 +37437,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -37315,7 +37652,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "penance",
@@ -37335,6 +37673,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 6,
             "stats": [
                 {
                     "name": "hp",
@@ -37539,7 +37878,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "penance arms",
@@ -37559,6 +37899,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 6,
             "stats": [
                 {
                     "name": "hp",
@@ -37725,7 +38066,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "phlegyas",
@@ -37745,6 +38087,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -37911,7 +38254,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "piranha 1",
@@ -37931,6 +38275,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -38049,7 +38394,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "piranha 2",
@@ -38069,6 +38415,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -38187,7 +38534,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "piranha 3",
@@ -38207,6 +38555,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -38325,7 +38674,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "pterya",
@@ -38345,6 +38695,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -38485,7 +38836,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "pteryx",
@@ -38505,6 +38857,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -38733,7 +39086,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "puroboros",
@@ -38755,6 +39109,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -38941,7 +39296,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "qactuar",
@@ -38961,6 +39317,7 @@
             "poison_rate": 0.01,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 2,
             "stats": [
                 {
                     "name": "hp",
@@ -39186,7 +39543,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ragora",
@@ -39208,6 +39566,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -39394,7 +39753,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "raldo",
@@ -39414,6 +39774,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -39605,7 +39966,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "raptor",
@@ -39625,6 +39987,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -39816,7 +40179,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "red element",
@@ -39836,6 +40200,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -40018,7 +40383,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "remora",
@@ -40038,6 +40404,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -40204,7 +40571,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sahagin 1",
@@ -40224,6 +40592,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -40303,7 +40672,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sahagin 2",
@@ -40323,6 +40693,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -40505,7 +40876,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sahagin 3",
@@ -40525,6 +40897,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -40707,7 +41080,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sahagin chief",
@@ -40727,6 +41101,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -40826,7 +41201,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sanctuary keeper",
@@ -40846,6 +41222,7 @@
             "poison_rate": 0.05,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -41042,7 +41419,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sand wolf",
@@ -41062,6 +41440,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -41268,7 +41647,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sand worm",
@@ -41288,6 +41668,7 @@
             "poison_rate": 0.1,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -41494,7 +41875,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sandragora",
@@ -41516,6 +41898,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -41745,7 +42128,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sandy",
@@ -41765,6 +42149,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -41905,7 +42290,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "seymour 1",
@@ -41925,6 +42311,7 @@
             "poison_rate": 0.1,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -42110,7 +42497,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "seymour 2",
@@ -42130,6 +42518,7 @@
             "poison_rate": 0.1,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -42325,7 +42714,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "seymour flux",
@@ -42345,6 +42735,7 @@
             "poison_rate": 0.02,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -42557,7 +42948,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "seymour natus",
@@ -42577,6 +42969,7 @@
             "poison_rate": 0.04,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -42802,7 +43195,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "seymour omnis",
@@ -42822,6 +43216,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -43040,7 +43435,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "shinryu",
@@ -43060,6 +43456,7 @@
             "poison_rate": null,
             "doom_countdown": 255,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -43260,7 +43657,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "shiva 1",
@@ -43280,6 +43678,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -43420,7 +43819,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "shiva 2",
@@ -43440,6 +43840,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -43580,7 +43981,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "shred",
@@ -43600,6 +44002,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -43784,7 +44187,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "simurgh",
@@ -43804,6 +44208,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -43974,7 +44379,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sin core",
@@ -43994,6 +44400,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -44198,7 +44605,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sin fin",
@@ -44218,6 +44626,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -44416,7 +44825,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sin head",
@@ -44436,6 +44846,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -44661,7 +45072,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sin left fin",
@@ -44681,6 +45093,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -44885,7 +45298,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sin right fin",
@@ -44905,6 +45319,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -45109,7 +45524,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinscale 1",
@@ -45129,6 +45545,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -45208,7 +45625,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinscale 2",
@@ -45228,6 +45646,7 @@
             "poison_rate": 0.25,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -45323,7 +45742,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinscale 3",
@@ -45343,6 +45763,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -45442,7 +45863,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn ammes",
@@ -45462,6 +45884,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -45570,7 +45993,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn echuilles",
@@ -45590,6 +46014,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -45743,7 +46168,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn genais",
@@ -45763,6 +46189,7 @@
             "poison_rate": null,
             "doom_countdown": 30,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -45959,7 +46386,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn geneaux 1",
@@ -45979,6 +46407,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -46145,7 +46574,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn geneaux 2",
@@ -46165,6 +46595,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -46341,7 +46772,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn geneaux tentacles",
@@ -46361,6 +46793,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -46492,7 +46925,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn gui 1",
@@ -46512,6 +46946,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -46701,7 +47136,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn gui 2",
@@ -46721,6 +47157,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -46920,7 +47357,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn gui arms",
@@ -46940,6 +47378,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -47175,7 +47614,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn gui head 1",
@@ -47195,6 +47635,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -47434,7 +47875,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sinspawn gui head 2",
@@ -47454,6 +47896,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -47693,7 +48136,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "skoll",
@@ -47713,6 +48157,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -47904,7 +48349,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "sleep sprout",
@@ -47924,6 +48370,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -48204,7 +48651,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "snow flan",
@@ -48224,6 +48672,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -48394,7 +48843,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "snow wolf",
@@ -48414,6 +48864,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -48612,7 +49063,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "spathi",
@@ -48632,6 +49084,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -48772,7 +49225,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "spectral keeper",
@@ -48792,6 +49246,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -49034,7 +49489,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "spherimorph",
@@ -49054,6 +49510,7 @@
             "poison_rate": 0.05,
             "doom_countdown": 20,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -49284,7 +49741,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "spirit",
@@ -49306,6 +49764,7 @@
             "poison_rate": null,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -49500,7 +49959,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "splasher 1",
@@ -49520,6 +49980,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -49706,7 +50167,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "splasher 2",
@@ -49726,6 +50188,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -49912,7 +50375,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "splasher 3",
@@ -49932,6 +50396,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -50118,7 +50583,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "stratoavis",
@@ -50138,6 +50604,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -50353,7 +50820,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "swamp mafdet",
@@ -50373,6 +50841,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -50564,7 +51033,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "tanket",
@@ -50584,6 +51054,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -50812,7 +51283,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "th'uban",
@@ -50832,6 +51304,7 @@
             "poison_rate": null,
             "doom_countdown": 255,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -51053,7 +51526,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "thorn",
@@ -51073,6 +51547,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -51294,7 +51769,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "thunder flan",
@@ -51314,6 +51790,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -51484,7 +51961,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "tonberry",
@@ -51504,6 +51982,7 @@
             "poison_rate": null,
             "doom_countdown": 25,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -51719,7 +52198,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "treasure chest 1",
@@ -51739,6 +52219,7 @@
             "poison_rate": 25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -51842,7 +52323,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "treasure chest 2",
@@ -51862,6 +52344,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -52029,7 +52512,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "treasure chest 3",
@@ -52049,6 +52533,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -52208,7 +52693,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "treasure chest 4",
@@ -52228,6 +52714,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -52387,7 +52874,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "tros",
@@ -52407,6 +52895,7 @@
             "poison_rate": 0,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -52545,7 +53034,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ultima buster",
@@ -52565,6 +53055,7 @@
             "poison_rate": null,
             "doom_countdown": 255,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -52779,7 +53270,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ultima buster arms",
@@ -52799,6 +53291,7 @@
             "poison_rate": null,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -52939,7 +53432,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ultima buster head",
@@ -52959,6 +53453,7 @@
             "poison_rate": null,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -53099,7 +53594,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ultima weapon",
@@ -53119,6 +53615,7 @@
             "poison_rate": null,
             "doom_countdown": 99,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -53324,7 +53821,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "valaha",
@@ -53346,6 +53844,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -53532,7 +54031,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "valefor",
@@ -53552,6 +54052,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -53692,7 +54193,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "varuna",
@@ -53712,6 +54214,7 @@
             "poison_rate": null,
             "doom_countdown": 7,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -53922,7 +54425,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "vidatu",
@@ -53942,6 +54446,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -54156,7 +54661,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "vorban",
@@ -54176,6 +54682,7 @@
             "poison_rate": null,
             "doom_countdown": 200,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -54404,7 +54911,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "vouivre 1",
@@ -54424,6 +54932,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -54559,7 +55068,8 @@
                 "neg_resists": [],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "vouivre 2",
@@ -54579,6 +55089,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -54770,7 +55281,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "warrior monk 1",
@@ -54790,6 +55302,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -54979,7 +55492,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "warrior monk 2",
@@ -54999,6 +55513,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -55188,7 +55703,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "wasp",
@@ -55208,6 +55724,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -55399,7 +55916,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "water flan",
@@ -55419,6 +55937,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -55589,7 +56108,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "wendigo",
@@ -55609,6 +56129,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -55791,7 +56312,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "white element",
@@ -55811,6 +56333,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -55993,7 +56516,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "worker",
@@ -56013,6 +56537,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -56249,7 +56774,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "wraith",
@@ -56271,6 +56797,7 @@
             "poison_rate": null,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -56492,7 +57019,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "xiphos",
@@ -56512,6 +57040,7 @@
             "poison_rate": null,
             "doom_countdown": 2,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -56691,7 +57220,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yat-97",
@@ -56711,6 +57241,7 @@
             "poison_rate": null,
             "doom_countdown": 15,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -56940,7 +57471,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yat-99",
@@ -56960,6 +57492,7 @@
             "poison_rate": null,
             "doom_countdown": 15,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -57200,7 +57733,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yellow element",
@@ -57220,6 +57754,7 @@
             "poison_rate": null,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -57395,7 +57930,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yenke ronso",
@@ -57420,6 +57956,7 @@
             "poison_rate": null,
             "doom_countdown": 20,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -57599,7 +58136,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ykt-11",
@@ -57621,6 +58159,7 @@
             "poison_rate": null,
             "doom_countdown": 15,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -57850,7 +58389,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "ykt-63",
@@ -57872,6 +58412,7 @@
             "poison_rate": null,
             "doom_countdown": 15,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -58108,7 +58649,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yojimbo 1",
@@ -58128,6 +58670,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -58268,7 +58811,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yojimbo 2",
@@ -58288,6 +58832,7 @@
             "poison_rate": null,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -58428,7 +58973,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yowie",
@@ -58448,6 +58994,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -58632,7 +59179,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yu pagoda",
@@ -58652,6 +59200,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 5,
             "stats": [
                 {
                     "name": "hp",
@@ -58787,7 +59336,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yu yevon",
@@ -58807,6 +59357,7 @@
             "poison_rate": 0.1,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -58906,7 +59457,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "yunalesca",
@@ -58926,6 +59478,7 @@
             "poison_rate": null,
             "doom_countdown": null,
             "threaten_counter": 0,
+            "zanmato_level": 4,
             "stats": [
                 {
                     "name": "hp",
@@ -59138,7 +59691,8 @@
                         "resistance": 254
                     }
                 ]
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "zaurus",
@@ -59158,6 +59712,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 1,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -59349,7 +59904,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "zu 1",
@@ -59369,6 +59925,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 3,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -59571,7 +60128,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         },
         {
             "name": "zu 2",
@@ -59591,6 +60149,7 @@
             "poison_rate": 0.25,
             "doom_countdown": 5,
             "threaten_counter": 0,
+            "zanmato_level": 1,
             "stats": [
                 {
                     "name": "hp",
@@ -59798,7 +60357,8 @@
                 ],
                 "pos_resists": [],
                 "misc_resists": []
-            }
+            },
+            "altered_states": []
         }
     ]
 }
