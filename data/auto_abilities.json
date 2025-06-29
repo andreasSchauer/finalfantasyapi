@@ -59,7 +59,7 @@
         {
             "name": "first strike",
             "description": "Act first at beginning of battle.",
-            "effect": "Guarantees the first turn during battle, even in an ambush.",
+            "effect": "Guarantees the first turn during battle, even in an ambush. Monsters with this auto-ability get their turn before the player characters.",
             "type": "weapon",
             "category": "other",
             "related_stats": ["agility"],
