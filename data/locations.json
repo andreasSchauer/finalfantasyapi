@@ -5765,6 +5765,26 @@
                                 },
                                 {
                                     "location_area": {
+                                        "location": "airship",
+                                        "sub_location": "airship",
+                                        "area": "bridge",
+                                        "section": null
+                                    },
+                                    "connection_type": "story-warp",
+                                    "story_only": true
+                                },
+                                {
+                                    "location_area": {
+                                        "location": "airship",
+                                        "sub_location": "airship",
+                                        "area": "corridor",
+                                        "section": "bridge entrance"
+                                    },
+                                    "connection_type": "story-warp",
+                                    "story_only": true
+                                },
+                                {
+                                    "location_area": {
                                         "location": "sin",
                                         "sub_location": "sin",
                                         "area": "near airship",
@@ -6800,6 +6820,16 @@
                                     },
                                     "connection_type": "both-directions",
                                     "story_only": false
+                                },
+                                {
+                                    "location_area": {
+                                        "location": "zanarkand ruins",
+                                        "sub_location": "dome",
+                                        "area": "dome",
+                                        "section": null
+                                    },
+                                    "connection_type": "story-warp",
+                                    "story_only": true
                                 }
                             ]
                         },
@@ -6830,16 +6860,6 @@
                                     },
                                     "connection_type": "both-directions",
                                     "story_only": false
-                                },
-                                {
-                                    "location_area": {
-                                        "location": "zanarkand ruins",
-                                        "sub_location": "dome",
-                                        "area": "dome",
-                                        "section": null
-                                    },
-                                    "connection_type": "story-warp",
-                                    "story_only": true
                                 }
                             ]
                         },
