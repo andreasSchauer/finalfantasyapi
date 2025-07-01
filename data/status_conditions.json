@@ -1,85 +1,12 @@
 {
     "status_conditions_data": [
         {
-            "name": "power break",
-            "effect": "Reduces the unit's physical damage dealt by 50%.",
-            "related_stats": ["strength"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": [
-                    {
-                        "name": "physical-damage-dealt",
-                        "calculation_type": "multiply",
-                        "value": 0.5
-                    }
-                ]
-            }
-        },
-        {
-            "name": "magic break",
-            "effect": "Reduces the unit's magical damage dealt by 50%.",
-            "related_stats": ["magic"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": [
-                    {
-                        "name": "magical-damage-dealt",
-                        "calculation_type": "multiply",
-                        "value": 0.5
-                    }
-                ]
-            }
-        },
-        {
-            "name": "armor break",
-            "effect": "Reduces the unit's Defense to 0 and nullifies 'armored'.",
-            "related_stats": ["defense"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [
-                    {
-                        "name": "armored",
-                        "nullified_on": "bearer"
-                    }
-                ],
-                "stat_changes": [
-                    {
-                        "name": "defense",
-                        "calculation_type": "set-value",
-                        "value": 0.0
-                    }
-                ],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "mental break",
-            "effect": "Reduces the unit's Magic Defense to 0.",
-            "related_stats": ["magic defense"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [
-                    {
-                        "name": "magic defense",
-                        "calculation_type": "set-value",
-                        "value": 0.0
-                    }
-                ],
-                "other_changes": []
-            }
-        },
-        {
             "name": "berserk",
             "effect": "Causes the unit to use 'attack' uncontrollably and boosts damage by 50%. Can be removed by 'Threaten'.",
             "related_stats": ["strength"],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
@@ -107,13 +34,13 @@
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
                         "name": "overdrive-charge",
                         "calculation_type": "multiply",
-                        "value": 0.0
+                        "value": 0
                     }
                 ]
             }
@@ -124,13 +51,13 @@
             "related_stats": ["accuracy"],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
                         "name": "accuracy-percentage",
                         "calculation_type": "set-value",
-                        "value": 10.0
+                        "value": 10
                     }
                 ]
             }
@@ -141,13 +68,13 @@
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
                         "name": "current-hp",
                         "calculation_type": "set-value",
-                        "value": 0.0
+                        "value": 0
                     }
                 ]
             }
@@ -176,7 +103,7 @@
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "berserk", "confusion", "curse", "darkness", "doom", "poison", "silence", "sleep", "slow", "zombie", "auto-life", "haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost", "guard", "sentinel", "shield", "boost"],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": []
             }
@@ -187,7 +114,7 @@
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "berserk", "confusion", "curse", "darkness", "doom", "poison", "silence", "sleep", "slow", "zombie", "auto-life", "haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost", "guard", "sentinel", "shield", "boost"],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": []
             }
@@ -216,7 +143,7 @@
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
@@ -238,7 +165,7 @@
             "related_stats": ["agility"],
             "meta": {
                 "removed_status_conditions": ["haste"],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": []
             }
@@ -249,7 +176,7 @@
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["berserk"],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": []
             }
@@ -261,65 +188,77 @@
             "meta": null
         },
         {
-            "name": "power distiller",
-            "effect": "Causes an enemy to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
-            "related_stats": ["hp", "strength", "defense"],
+            "name": "power break",
+            "effect": "Reduces the unit's physical damage dealt by 50%.",
+            "related_stats": ["strength"],
             "meta": {
-                "removed_status_conditions": ["mana distiller", "speed distiller", "ability distiller"],
-                "nullified_status_conditions": [],
+                "removed_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-dealt",
+                        "calculation_type": "multiply",
+                        "value": 0.5
+                    }
+                ]
+            }
+        },
+        {
+            "name": "magic break",
+            "effect": "Reduces the unit's magical damage dealt by 50%.",
+            "related_stats": ["magic"],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-dealt",
+                        "calculation_type": "multiply",
+                        "value": 0.5
+                    }
+                ]
+            }
+        },
+        {
+            "name": "armor break",
+            "effect": "Reduces the unit's Defense to 0 and nullifies 'armored'.",
+            "related_stats": ["defense"],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [
+                    {
+                        "name": "armored",
+                        "nullified_on": "bearer"
+                    }
+                ],
+                "stat_changes": [
+                    {
+                        "name": "defense",
+                        "calculation_type": "set-value",
+                        "value": 0
+                    }
+                ],
                 "other_changes": []
             }
         },
         {
-            "name": "mana distiller",
-            "effect": "Causes an enemy to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
-            "related_stats": ["mp", "magic", "magic defense"],
+            "name": "mental break",
+            "effect": "Reduces the unit's Magic Defense to 0.",
+            "related_stats": ["magic defense"],
             "meta": {
-                "removed_status_conditions": ["power distiller", "speed distiller", "ability distiller"],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
+                "removed_status_conditions": [],
+                "nullified_properties": [],
+                "stat_changes": [
+                    {
+                        "name": "magic defense",
+                        "calculation_type": "set-value",
+                        "value": 0
+                    }
+                ],
                 "other_changes": []
             }
-        },
-        {
-            "name": "speed distiller",
-            "effect": "Causes an enemy to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
-            "related_stats": ["agility", "evasion", "accuracy"],
-            "meta": {
-                "removed_status_conditions": ["power distiller", "mana distiller", "ability distiller"],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "ability distiller",
-            "effect": "Causes an enemy to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
-            "related_stats": [],
-            "meta": {
-                "removed_status_conditions": ["power distiller", "mana distiller", "speed distiller"],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "life",
-            "effect": "Revives a character that is flagged as 'dead'.",
-            "related_stats": [],
-            "meta": {
-                "removed_status_conditions": ["ko"],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "auto-life",
-            "effect": "Instantly revives a character that is KO'd with 25% of their max HP.",
-            "related_stats": [],
-            "meta": null
         },
         {
             "name": "haste",
@@ -327,16 +266,10 @@
             "related_stats": ["agility"],
             "meta": {
                 "removed_status_conditions": ["slow"],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": []
             }
-        },
-        {
-            "name": "hp critical",
-            "effect": "The character or Aeon alters their stance. Inflicted when their HP is below 50% (yellow). Activates SOS-Auto-Abilities.",
-            "related_stats": [],
-            "meta": null
         },
         {
             "name": "nulblaze",
@@ -368,7 +301,7 @@
             "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
@@ -397,7 +330,7 @@
             "related_stats": ["magic defense"],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
@@ -409,16 +342,42 @@
             }
         },
         {
-            "name": "sensor",
-            "effect": "Shows enemy's HP, elemental resistances, active statuses, and a brief description.",
+            "name": "auto-life",
+            "effect": "Instantly revives a character that is KO'd with 25% of their max HP.",
             "related_stats": [],
             "meta": null
         },
         {
-            "name": "scan",
-            "effect": "Shows enemy's HP, elemental resistances, status immunities and a verbose description.",
-            "related_stats": [],
-            "meta": null
+            "name": "boost",
+            "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
+            "related_stats": ["defense", "magic defense"],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 1.5
+                    },
+                    {
+                        "name": "magical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 1.5
+                    },
+                    {
+                        "name": "special-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 1.5
+                    },
+                    {
+                        "name": "overdrive-charge",
+                        "calculation_type": "multiply",
+                        "value": 1.5
+                    }
+                ]
+            }
         },
         {
             "name": "defend",
@@ -426,7 +385,7 @@
             "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
@@ -438,8 +397,81 @@
             }
         },
         {
+            "name": "power distiller",
+            "effect": "Causes an enemy to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": ["hp", "strength", "defense"],
+            "meta": {
+                "removed_status_conditions": ["mana distiller", "speed distiller", "ability distiller"],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "mana distiller",
+            "effect": "Causes an enemy to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": ["mp", "magic", "magic defense"],
+            "meta": {
+                "removed_status_conditions": ["power distiller", "speed distiller", "ability distiller"],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "speed distiller",
+            "effect": "Causes an enemy to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": ["agility", "evasion", "accuracy"],
+            "meta": {
+                "removed_status_conditions": ["power distiller", "mana distiller", "ability distiller"],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "ability distiller",
+            "effect": "Causes an enemy to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "related_stats": [],
+            "meta": {
+                "removed_status_conditions": ["power distiller", "mana distiller", "speed distiller"],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
             "name": "guard",
             "effect": "Causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn.",
+            "related_stats": [],
+            "meta": null
+        },
+        {
+            "name": "hp critical",
+            "effect": "The character or Aeon alters their stance. Inflicted when their HP is below 50% (yellow). Activates SOS-Auto-Abilities.",
+            "related_stats": [],
+            "meta": null
+        },
+        {
+            "name": "life",
+            "effect": "Revives a character that is flagged as 'dead'.",
+            "related_stats": [],
+            "meta": {
+                "removed_status_conditions": ["ko"],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "scan",
+            "effect": "Shows enemy's HP, elemental resistances, status immunities and a verbose description.",
+            "related_stats": [],
+            "meta": null
+        },
+        {
+            "name": "sensor",
+            "effect": "Shows enemy's HP, elemental resistances, active statuses, and a brief description.",
             "related_stats": [],
             "meta": null
         },
@@ -449,7 +481,7 @@
             "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
@@ -466,7 +498,7 @@
             "related_stats": ["defense", "magic defense"],
             "meta": {
                 "removed_status_conditions": [],
-                "nullified_status_conditions": [],
+                "nullified_properties": [],
                 "stat_changes": [],
                 "other_changes": [
                     {
@@ -487,93 +519,10 @@
                     {
                         "name": "overdrive-charge",
                         "calculation_type": "multiply",
-                        "value": 0.0
+                        "value": 0
                     }
                 ]
             }
-        },
-        {
-            "name": "boost",
-            "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
-            "related_stats": ["defense", "magic defense"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": [
-                    {
-                        "name": "physical-damage-taken",
-                        "calculation_type": "multiply",
-                        "value": 1.5
-                    },
-                    {
-                        "name": "magical-damage-taken",
-                        "calculation_type": "multiply",
-                        "value": 1.5
-                    },
-                    {
-                        "name": "special-damage-taken",
-                        "calculation_type": "multiply",
-                        "value": 1.5
-                    },
-                    {
-                        "name": "overdrive-charge",
-                        "calculation_type": "multiply",
-                        "value": 1.5
-                    }
-                ]
-            }
-        },
-        {
-            "name": "tough",
-            "effect": "Prevents enemy from getting knocked back due to being hit by Delay attack or Delay Buster.",
-            "related_stats": [],
-            "meta": null
-        },
-        {
-            "name": "heavy",
-            "effect": "Prevents enemy from getting lifted off the ground by Energy Rain and Tornado.",
-            "related_stats": [],
-            "meta": null
-        },
-        {
-            "name": "armored",
-            "effect": "Damage taken from physical attacks is reduced to a third.",
-            "related_stats": ["defense"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": [
-                    {
-                        "name": "physical-damage-taken",
-                        "calculation_type": "multiply",
-                        "value": 0.33
-                    }
-                ]
-            }
-        },
-        {
-            "name": "piercing",
-            "effect": "Attacks and skills ignore enemy's Armored status.",
-            "related_stats": ["defense"],
-            "meta": {
-                "removed_status_conditions": [],
-                "nullified_status_conditions": [
-                    {
-                        "name": "armored",
-                        "nullified_on": "target"
-                    }
-                ],
-                "stat_changes": [],
-                "other_changes": []
-            }
-        },
-        {
-            "name": "capture",
-            "effect": "Attacks and skills capture a monster with the killing blow, if it can be captured and less than 10 of that monster have been captured.",
-            "related_stats": [],
-            "meta": null
         }
     ]
 }

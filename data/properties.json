@@ -1,0 +1,55 @@
+{
+    "properties_data": [
+        {
+            "name": "armored",
+            "effect": "Damage taken from physical attacks is reduced to a third.",
+            "related_stats": ["defense"],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0.33
+                    }
+                ]
+            }
+        },
+        {
+            "name": "tough",
+            "effect": "Prevents enemy from getting pushed back by Delay attack or Delay Buster.",
+            "related_stats": [],
+            "meta": null
+        },
+        {
+            "name": "heavy",
+            "effect": "Prevents enemy from getting lifted off the ground by Energy Rain and Tornado.",
+            "related_stats": [],
+            "meta": null
+        },
+        {
+            "name": "piercing",
+            "effect": "Attacks and skills ignore enemy's Armored status.",
+            "related_stats": ["defense"],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [
+                    {
+                        "name": "armored",
+                        "nullified_on": "target"
+                    }
+                ],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "capture",
+            "effect": "Attacks and skills capture a monster with the killing blow, if it can be captured and less than 10 of that monster have been captured.",
+            "related_stats": [],
+            "meta": null
+        }
+    ]
+}
