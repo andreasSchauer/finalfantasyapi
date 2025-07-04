@@ -1,0 +1,4633 @@
+{
+    "monster_formations_data": [
+        {
+            "location": {
+                "location": "zanarkand",
+                "sub_location": "zanarkand",
+                "area": "overpass",
+                "section": "post sin attack"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinscale",
+                            "version": "a",
+                            "amount": 3
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinscale",
+                            "version": "a",
+                            "amount": 5
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "If you attack the ones at the back, they will respawn. Fight is ended when the ones at the front are defeated."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinscale",
+                            "version": "a",
+                            "amount": 5
+                        },
+                        {
+                            "monster_name": "sinspawn ammes",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinscale",
+                            "version": "a",
+                            "amount": 7
+                        },
+                        {
+                            "monster_name": "tanker",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "The sinscales will constantly respawn. The tanker becomes a target on either Auron's second turn, or Tidus' fourth turn."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "baaj temple",
+                "sub_location": "ruins",
+                "area": "underwater hall",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sahagin",
+                            "version": "a",
+                            "amount": 3
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "The battle ends after two are defeated."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "geosgaeno",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "The battle ends after three turns."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "geosgaeno",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "baaj temple",
+                "sub_location": "ruins",
+                "area": "hall",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "klikk",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "Rikku joins after Klikk has lost half of its HP."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "underwater ruins",
+                "sub_location": "salvage ship",
+                "area": "surface",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x1",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "piranha x2",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x3",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "underwater ruins",
+                "sub_location": "salvage ship",
+                "area": "underwater",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x1",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "piranha x2",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x3",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "underwater ruins",
+                "sub_location": "underwater ruins",
+                "area": "underwater ruins",
+                "section": "inside"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x3",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "tros",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "besaid",
+                "sub_location": "besaid",
+                "area": "valley",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x1",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "piranha x2",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x1",
+                            "version": null,
+                            "amount": 3
+                        },
+                        {
+                            "monster_name": "piranha x2",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "piranha x1",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "piranha x2",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "piranha x3",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "besaid",
+                "sub_location": "besaid",
+                "area": "village slope",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "tutorial",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "condor",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "tutorial",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "water flan",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "tutorial",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dark valefor",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "After obtaining the Airship."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "besaid",
+                "sub_location": "besaid",
+                "area": "ancient road",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "kimahri",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "besaid",
+                "sub_location": "besaid",
+                "area": "waterfall way",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "garuda",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "tutorial",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "Summmoning tutorial."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "garuda",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "tutorial",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "Dark Attack tutorial."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "besaid",
+                "sub_location": "besaid",
+                "area": "waterfall way",
+                "section": "besaid falls"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dingo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "condor",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "water flan",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "ss liki",
+                "sub_location": "ss liki",
+                "area": "deck",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sin fin",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "sinscale",
+                            "version": "b",
+                            "amount": 3
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "The sinscales will respawn, if you defeat all three of them."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "ss liki",
+                "sub_location": "ss liki",
+                "area": "underwater",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinspawn echuilles",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "sinscale",
+                            "version": "c",
+                            "amount": 4
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "The sinscales will respawn after some time."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "kilika",
+                "sub_location": "kilika woods",
+                "area": "kilika woods",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ragora",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "tutorial",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "You can only escape after Kimahri used Lancet on his first turn."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dinonix",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "killer bee",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dinonix",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "yellow element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "killer bee",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "yellow element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dinonix",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "killer bee",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "yellow element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ragora",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "killer bee",
+                            "version": null,
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "ragora",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ragora",
+                            "version": "b",
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "lord ochu",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "kilika",
+                "sub_location": "kilika",
+                "area": "pilgrimage road",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinspawn geneaux",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "tentacle",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "luca",
+                "sub_location": "stadium",
+                "area": "blitzball field",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sahagin chief",
+                            "version": null,
+                            "amount": 17
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "vouivre",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "garuda",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "luca",
+                "sub_location": "luca",
+                "area": "number 2 dock",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "worker",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "luca",
+                "sub_location": "luca",
+                "area": "number 3 dock",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "worker",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "luca",
+                "sub_location": "luca",
+                "area": "number 4 dock",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "worker",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "First fight."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "worker",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "Second fight."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "worker",
+                            "version": null,
+                            "amount": 6
+                        }
+                    ],
+                    "category": "story-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Third fight."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "worker",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "oblitzerator",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "crane",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "south end",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raldo",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "tutorial",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ifrit",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Ledges."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Ledges."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Ledges."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "south",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 3
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Ledges."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 3
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Ledges."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "central",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 3
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Ledges."
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 3
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": "Ledges."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "agency front",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "chocobo eater",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": "The fight can end prematurely if you push it off the cliff or vice versa."
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "newroad south",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 3
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "newroad north",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "mi'ihen fang",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "white element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raldo",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 3
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "oldroad north",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ipiria",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ipiria",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mi'ihen highroad",
+                "sub_location": "highroad",
+                "area": "oldroad south",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ipiria",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ipiria",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mushroom rock road",
+                "sub_location": "mushroom rock",
+                "area": "mushroom rock",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ipiria",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "floating eye",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "bomb",
+                            "version": "a",
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dual horn",
+                            "version": "a",
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ipiria",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "thunder flan",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "vouivre",
+                            "version": "b",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "dark cindy",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dark sandy",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "dark mindy",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mushroom rock road",
+                "sub_location": "mushroom rock",
+                "area": "valley",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "lamashtu",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "lamashtu",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "garuda",
+                            "version": "c",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mushroom rock road",
+                "sub_location": "mushroom rock",
+                "area": "precipice",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "garuda",
+                            "version": "c",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 2
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": "c",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mushroom rock road",
+                "sub_location": "mushroom rock",
+                "area": "ridge",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinspawn gui",
+                            "version": "a",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "sinspawn gui head",
+                            "version": "a",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "sinspawn gui arm",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "sinspawn gui",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "sinspawn gui head",
+                            "version": "b",
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "sinspawn gui arm",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "boss-fight",
+                    "is_forced_ambush": false,
+                    "can_escape": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mushroom rock road",
+                "sub_location": "mushroom rock",
+                "area": "aftermath",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "ragora",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 2
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "lamashtu",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "lamashtu",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mushroom rock road",
+                "sub_location": "mushroom rock",
+                "area": "valley",
+                "section": "mushroom rock"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "raptor",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "lamashtu",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "funguar",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "lamashtu",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "red element",
+                            "version": null,
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "gandarewa",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                },
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "garuda",
+                            "version": "c",
+                            "amount": 1
+                        }
+                    ],
+                    "category": "random-encounter",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "djose",
+                "sub_location": "djose highroad",
+                "area": "djose highroad",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "moonflow",
+                "sub_location": "moonflow",
+                "area": "south bank road",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "moonflow",
+                "sub_location": "moonflow",
+                "area": "south wharf",
+                "section": "shoopuf"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "moonflow",
+                "sub_location": "moonflow",
+                "area": "north bank",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "moonflow",
+                "sub_location": "moonflow",
+                "area": "north bank road",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "thunder plains",
+                "sub_location": "thunder plains",
+                "area": "south",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "thunder plains",
+                "sub_location": "thunder plains",
+                "area": "north",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "macalania woods",
+                "area": "south",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "macalania woods",
+                "area": "central",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "macalania woods",
+                "area": "north",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "macalania woods",
+                "area": "spring",
+                "section": "spherimorph"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "lake macalania",
+                "area": "agency front",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "lake macalania",
+                "area": "lake macalania",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "lake macalania",
+                "area": "crevasse",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "macalania",
+                "area": "road",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "macalania",
+                "sub_location": "macalania",
+                "area": "antechamber",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "oasis",
+                "area": "oasis",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "sanubia desert",
+                "area": "east",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "sanubia desert",
+                "area": "central",
+                "section": "main"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "sanubia desert",
+                "area": "west",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "sanubia desert",
+                "area": "central",
+                "section": "sanubia sands"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "home",
+                "area": "entrance",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "home",
+                "area": "main corridor",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "home",
+                "area": "living quarters",
+                "section": "southern"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bikanel",
+                "sub_location": "home",
+                "area": "living quarters",
+                "section": "northern"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "airship",
+                "sub_location": "airship",
+                "area": "corridor",
+                "section": "bridge entrance"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "airship",
+                "sub_location": "airship",
+                "area": "corridor",
+                "section": "to northern compartment"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "airship",
+                "sub_location": "airship",
+                "area": "corridor",
+                "section": "bridge entrance to cabin"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "airship",
+                "sub_location": "airship",
+                "area": "corridor",
+                "section": "to cabin"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "airship",
+                "sub_location": "airship",
+                "area": "corridor",
+                "section": "to southern compartment"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "airship",
+                "sub_location": "airship",
+                "area": "deck",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bevelle",
+                "sub_location": "bevelle",
+                "area": "tower of light",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bevelle",
+                "sub_location": "bevelle",
+                "area": "via purifico",
+                "section": "yuna"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bevelle",
+                "sub_location": "bevelle",
+                "area": "via purifico",
+                "section": "tidus"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "bevelle",
+                "sub_location": "highbridge",
+                "area": "highbridge",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "calm lands",
+                "sub_location": "calm lands",
+                "area": "south",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "calm lands",
+                "sub_location": "calm lands",
+                "area": "central",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "calm lands",
+                "sub_location": "calm lands",
+                "area": "north",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "calm lands",
+                "sub_location": "calm lands",
+                "area": "near bridge",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "calm lands",
+                "sub_location": "calm lands",
+                "area": "gorge bottom",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "remiem temple",
+                "sub_location": "remiem temple",
+                "area": "great hall",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "cavern of the stolen fayth",
+                "sub_location": "cavern of the stolen fayth",
+                "area": "cavern of the stolen fayth",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mount gagazet",
+                "sub_location": "gagazet",
+                "area": "mountain gate",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mount gagazet",
+                "sub_location": "gagazet",
+                "area": "mountain trail",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mount gagazet",
+                "sub_location": "gagazet",
+                "area": "prominence",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mount gagazet",
+                "sub_location": "gagazet",
+                "area": "mountain cave",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mount gagazet",
+                "sub_location": "gagazet",
+                "area": "submerged passage",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "mount gagazet",
+                "sub_location": "gagazet",
+                "area": "summit region",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "zanarkand ruins",
+                "sub_location": "zanarkand ruins",
+                "area": "overpass",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "zanarkand ruins",
+                "sub_location": "dome",
+                "area": "interior",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "zanarkand ruins",
+                "sub_location": "dome",
+                "area": "trials",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "zanarkand ruins",
+                "sub_location": "dome",
+                "area": "the beyond",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "sin",
+                "sub_location": "sin",
+                "area": "sea of sorrow",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "sin",
+                "sub_location": "sin",
+                "area": "garden of pain",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "sin",
+                "sub_location": "sin",
+                "area": "city of dying dreams",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "sin",
+                "sub_location": "sin",
+                "area": "the nucleus",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "sin",
+                "sub_location": "sin",
+                "area": "dream's end",
+                "section": "platform"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "sin",
+                "sub_location": "sin",
+                "area": "dream's end",
+                "section": "sword"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "omega ruins",
+                "sub_location": "omega ruins",
+                "area": "omega ruins",
+                "section": "bottom"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "omega ruins",
+                "sub_location": "omega ruins",
+                "area": "omega ruins",
+                "section": "top"
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "location": {
+                "location": "calm lands",
+                "sub_location": "calm lands",
+                "area": "arena",
+                "section": null
+            },
+            "notes": null,
+            "formations": [
+                {
+                    "monsters": [
+                        {
+                            "monster_name": "",
+                            "version": null,
+                            "amount": 1
+                        }
+                    ],
+                    "category": "",
+                    "is_forced_ambush": false,
+                    "can_escape": true,
+                    "notes": null
+                }
+            ]
+        }
+    ]
+}

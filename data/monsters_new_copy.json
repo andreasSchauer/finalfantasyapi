@@ -3,6 +3,7 @@
         {
             "name": "sinscale",
             "version": "a",
+            "specification": "Dream Zanarkand",
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -52,6 +53,7 @@
         {
             "name": "sinspawn ammes",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -101,6 +103,7 @@
         {
             "name": "tanker",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -150,6 +153,7 @@
         {
             "name": "sahagin",
             "version": "a",
+            "specification": "Baaj Temple",
             "notes": null,
             "species": "sahagin",
             "is_story_based": true,
@@ -204,6 +208,7 @@
         {
             "name": "geosgaeno",
             "version": "a",
+            "specification": "First fight at the beginning of the game",
             "notes": null,
             "species": "geo",
             "is_story_based": true,
@@ -296,6 +301,7 @@
         {
             "name": "klikk",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "blade",
             "is_story_based": true,
@@ -368,6 +374,7 @@
         {
             "name": "piranha x1",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "piranha",
             "is_story_based": true,
@@ -461,6 +468,7 @@
         {
             "name": "piranha x2",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "piranha",
             "is_story_based": true,
@@ -558,6 +566,7 @@
         {
             "name": "piranha x3",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "piranha",
             "is_story_based": true,
@@ -655,6 +664,7 @@
         {
             "name": "tros",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "cephalopod",
             "is_story_based": true,
@@ -748,6 +758,7 @@
         {
             "name": "condor",
             "version": "a",
+            "specification": "Tutorial",
             "notes": null,
             "species": "bird",
             "is_story_based": true,
@@ -899,6 +910,7 @@
         {
             "name": "dingo",
             "version": "a",
+            "specification": "Tutorial",
             "notes": null,
             "species": "lupine",
             "is_story_based": true,
@@ -1070,6 +1082,7 @@
         {
             "name": "water flan",
             "version": "a",
+            "specification": "Tutorial",
             "notes": null,
             "species": "flan",
             "is_story_based": true,
@@ -1225,6 +1238,7 @@
         {
             "name": "kimahri",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -1338,6 +1352,7 @@
         {
             "name": "garuda",
             "version": "a",
+            "specification": "Tutorial",
             "notes": null,
             "species": "roc",
             "is_story_based": true,
@@ -1470,6 +1485,7 @@
         {
             "name": "condor",
             "version": "b",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "bird",
             "is_story_based": false,
@@ -1624,6 +1640,7 @@
         {
             "name": "dingo",
             "version": "b",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -1798,6 +1815,7 @@
         {
             "name": "water flan",
             "version": "b",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "flan",
             "is_story_based": false,
@@ -1964,6 +1982,7 @@
         {
             "name": "sin fin",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sin",
             "is_story_based": true,
@@ -2102,6 +2121,7 @@
         {
             "name": "sinscale",
             "version": "b",
+            "specification": "Sin Fin fight",
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -2174,6 +2194,7 @@
         {
             "name": "sinspawn echuilles",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -2293,6 +2314,7 @@
         {
             "name": "sinscale",
             "version": "c",
+            "specification": "Sinspawn Echuilles Fight",
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -2365,6 +2387,7 @@
         {
             "name": "ragora",
             "version": "a",
+            "specification": "Tutorial",
             "notes": null,
             "species": "plant",
             "is_story_based": true,
@@ -2517,6 +2540,7 @@
         {
             "name": "dinonix",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -2685,6 +2709,7 @@
         {
             "name": "killer bee",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wasp",
             "is_story_based": false,
@@ -2854,6 +2879,7 @@
         {
             "name": "ragora",
             "version": "b",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "plant",
             "is_story_based": false,
@@ -3013,6 +3039,7 @@
         {
             "name": "yellow element",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -3166,6 +3193,7 @@
         {
             "name": "lord ochu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ochu",
             "is_story_based": true,
@@ -3341,6 +3369,7 @@
         {
             "name": "sinspawn geneaux",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -3483,6 +3512,7 @@
         {
             "name": "tentacle",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -3562,6 +3592,7 @@
         {
             "name": "worker",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": true,
@@ -3724,6 +3755,7 @@
         {
             "name": "oblitzerator",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": true,
@@ -3901,6 +3933,7 @@
         {
             "name": "crane",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -3971,6 +4004,7 @@
         {
             "name": "sahagin chief",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sahagin",
             "is_story_based": true,
@@ -4048,6 +4082,7 @@
         {
             "name": "vouivre",
             "version": "a",
+            "specification": "Luca",
             "notes": null,
             "species": "drake",
             "is_story_based": true,
@@ -4176,6 +4211,7 @@
         {
             "name": "garuda",
             "version": "b",
+            "specification": "Luca",
             "notes": null,
             "species": "roc",
             "is_story_based": true,
@@ -4318,6 +4354,7 @@
         {
             "name": "raldo",
             "version": "a",
+            "specification": "Tutorial",
             "notes": null,
             "species": "helm",
             "is_story_based": true,
@@ -4471,6 +4508,7 @@
         {
             "name": "bomb",
             "version": "a",
+            "specification": "Mi'ihen Highroad",
             "notes": null,
             "species": "bomb",
             "is_story_based": false,
@@ -4620,6 +4658,7 @@
         {
             "name": "dual horn",
             "version": "a",
+            "specification": "Mi'ihen Highroad",
             "notes": null,
             "species": "ruminant",
             "is_story_based": false,
@@ -4761,6 +4800,7 @@
         {
             "name": "floating eye",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "evil eye",
             "is_story_based": false,
@@ -4940,6 +4980,7 @@
         {
             "name": "ipiria",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -5108,6 +5149,7 @@
         {
             "name": "mi'ihen fang",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -5286,6 +5328,7 @@
         {
             "name": "raldo",
             "version": "b",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "helm",
             "is_story_based": false,
@@ -5455,6 +5498,7 @@
         {
             "name": "vouivre",
             "version": "b",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "drake",
             "is_story_based": false,
@@ -5623,6 +5667,7 @@
         {
             "name": "white element",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -5781,6 +5826,7 @@
         {
             "name": "ifrit",
             "version": "a",
+            "specification": "Mi'ihen Highroad",
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -5835,6 +5881,7 @@
         {
             "name": "chocobo eater",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "eater",
             "is_story_based": true,
@@ -6030,6 +6077,7 @@
         {
             "name": "funguar",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "fungus",
             "is_story_based": false,
@@ -6201,6 +6249,7 @@
         {
             "name": "gandarewa",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "imp",
             "is_story_based": false,
@@ -6355,6 +6404,7 @@
         {
             "name": "garuda",
             "version": "c",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "roc",
             "is_story_based": false,
@@ -6496,6 +6546,7 @@
         {
             "name": "lamashtu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "drake",
             "is_story_based": false,
@@ -6665,6 +6716,7 @@
         {
             "name": "raptor",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -6837,6 +6889,7 @@
         {
             "name": "red element",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -6995,6 +7048,7 @@
         {
             "name": "thunder flan",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "flan",
             "is_story_based": false,
@@ -7161,6 +7215,7 @@
         {
             "name": "sinspawn gui",
             "version": "a",
+            "specification": "First fight",
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -7245,6 +7300,7 @@
         {
             "name": "sinspawn gui",
             "version": "b",
+            "specification": "Second Fight",
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -7382,6 +7438,7 @@
         {
             "name": "sinspawn gui head",
             "version": "a",
+            "specification": "First fight",
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -7529,6 +7586,7 @@
         {
             "name": "sinspawn gui head",
             "version": "b",
+            "specification": "Second Fight",
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -7674,8 +7732,9 @@
             "altered_states": []
         },
         {
-            "name": "sinspawn gui arms",
+            "name": "sinspawn gui arm",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -7823,6 +7882,7 @@
         {
             "name": "basilisk",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "basilisk",
             "is_story_based": false,
@@ -7986,6 +8046,7 @@
         {
             "name": "bite bug",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wasp",
             "is_story_based": false,
@@ -8159,6 +8220,7 @@
         {
             "name": "bunyip",
             "version": "a",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "helm",
             "is_story_based": false,
@@ -8336,6 +8398,7 @@
         {
             "name": "garm",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -8518,6 +8581,7 @@
         {
             "name": "simurgh",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "bird",
             "is_story_based": false,
@@ -8676,6 +8740,7 @@
         {
             "name": "snow flan",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "flan",
             "is_story_based": false,
@@ -8846,6 +8911,7 @@
         {
             "name": "bunyip",
             "version": "b",
+            "specification": "Tutorial",
             "notes": null,
             "species": "helm",
             "is_story_based": true,
@@ -9007,6 +9073,7 @@
         {
             "name": "ochu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ochu",
             "is_story_based": false,
@@ -9199,6 +9266,7 @@
         {
             "name": "treasure chest",
             "version": "a",
+            "specification": "Tutorial",
             "notes": null,
             "species": "chest",
             "is_story_based": true,
@@ -9282,6 +9350,7 @@
         {
             "name": "treasure chest",
             "version": "b",
+            "specification": "Moonflow",
             "notes": null,
             "species": "chest",
             "is_story_based": false,
@@ -9362,6 +9431,7 @@
         {
             "name": "ixion",
             "version": "a",
+            "specification": "Moonflow",
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -9416,6 +9486,7 @@
         {
             "name": "extractor",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": true,
@@ -9636,6 +9707,7 @@
         {
             "name": "aerouge",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "imp",
             "is_story_based": false,
@@ -9799,6 +9871,7 @@
         {
             "name": "buer",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "evil eye",
             "is_story_based": false,
@@ -9982,6 +10055,7 @@
         {
             "name": "gold element",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -10144,6 +10218,7 @@
         {
             "name": "iron giant",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "iron giant",
             "is_story_based": false,
@@ -10309,6 +10384,7 @@
         {
             "name": "kusariqqu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "drake",
             "is_story_based": false,
@@ -10482,6 +10558,7 @@
         {
             "name": "larva",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "larva",
             "is_story_based": false,
@@ -10660,6 +10737,7 @@
         {
             "name": "melusine",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -10836,6 +10914,7 @@
         {
             "name": "qactuar",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "cactuar",
             "is_story_based": false,
@@ -10996,6 +11075,7 @@
         {
             "name": "blue element",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -11172,6 +11252,7 @@
         {
             "name": "chimera",
             "version": "a",
+            "specification": "Macalania",
             "notes": null,
             "species": "chimera",
             "is_story_based": false,
@@ -11340,6 +11421,7 @@
         {
             "name": "iguion",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -11535,6 +11617,7 @@
         {
             "name": "murussu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "helm",
             "is_story_based": false,
@@ -11726,6 +11809,7 @@
         {
             "name": "xiphos",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "blade",
             "is_story_based": false,
@@ -11889,6 +11973,7 @@
         {
             "name": "wasp",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wasp",
             "is_story_based": false,
@@ -12076,6 +12161,7 @@
         {
             "name": "spherimorph",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "gel",
             "is_story_based": true,
@@ -12364,6 +12450,7 @@
         {
             "name": "evil eye",
             "version": "a",
+            "specification": "Macalania",
             "notes": null,
             "species": "evil eye",
             "is_story_based": false,
@@ -12547,6 +12634,7 @@
         {
             "name": "ice flan",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "flan",
             "is_story_based": false,
@@ -12717,6 +12805,7 @@
         {
             "name": "mafdet",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "helm",
             "is_story_based": false,
@@ -12894,6 +12983,7 @@
         {
             "name": "snow wolf",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -13072,6 +13162,7 @@
         {
             "name": "crawler",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": true,
@@ -13255,6 +13346,7 @@
         {
             "name": "negator",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": true,
@@ -13414,6 +13506,7 @@
         {
             "name": "seymour",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -13559,6 +13652,7 @@
         {
             "name": "guado guardian",
             "version": "a",
+            "specification": "Seymour Fight",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -13724,6 +13818,7 @@
         {
             "name": "anima",
             "version": "a",
+            "specification": "Seymour Fight",
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -13871,6 +13966,7 @@
         {
             "name": "guado guardian",
             "version": "b",
+            "specification": "Macalania Pursuit",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -14037,6 +14133,7 @@
         {
             "name": "wendigo",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ogre",
             "is_story_based": true,
@@ -14178,6 +14275,7 @@
         {
             "name": "guado guardian",
             "version": "c",
+            "specification": "Wendigo Fight",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -14344,6 +14442,7 @@
         {
             "name": "zu",
             "version": "a",
+            "specification": "First encounter",
             "notes": null,
             "species": "roc",
             "is_story_based": true,
@@ -14496,6 +14595,7 @@
         {
             "name": "alcyone",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "bird",
             "is_story_based": false,
@@ -14660,6 +14760,7 @@
         {
             "name": "cactuar",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "cactuar",
             "is_story_based": false,
@@ -14797,6 +14898,7 @@
         {
             "name": "mech guard",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": false,
@@ -14971,6 +15073,7 @@
         {
             "name": "mech gunner",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": false,
@@ -15156,6 +15259,7 @@
         {
             "name": "mushussu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "drake",
             "is_story_based": false,
@@ -15339,6 +15443,7 @@
         {
             "name": "sand wolf",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -15527,6 +15632,7 @@
         {
             "name": "sand worm",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "worm",
             "is_story_based": false,
@@ -15729,6 +15835,7 @@
         {
             "name": "zu",
             "version": "b",
+            "specification": "Regular encounter",
             "notes": null,
             "species": "roc",
             "is_story_based": false,
@@ -15879,11 +15986,39 @@
                     }
                 ]
             },
-            "altered_states": []
+            "altered_states": [
+                {
+                    "condition": "When on the ground.",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": null,
+                    "elem_resists": null,
+                    "status_resists": {
+                        "immunities": ["death", "petrification", "provoke", "sleep", "threaten", "zombie", "bribe"],
+                        "resistances": [
+                            {
+                                "status": "darkness",
+                                "resistance": 95
+                            },
+                            {
+                                "status": "poison",
+                                "resistance": 25
+                            },
+                            {
+                                "status": "silence",
+                                "resistance": 20
+                            }
+                        ]
+                    },
+                    "added_statusses": null
+                }
+            ]
         },
         {
             "name": "sandragora",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "plant",
             "is_story_based": true,
@@ -16066,6 +16201,7 @@
         {
             "name": "treasure chest",
             "version": "c",
+            "specification": "Bikanel",
             "notes": null,
             "species": "chest",
             "is_story_based": false,
@@ -16140,6 +16276,7 @@
         {
             "name": "bomb",
             "version": "b",
+            "specification": "Home",
             "notes": null,
             "species": "bomb",
             "is_story_based": true,
@@ -16289,6 +16426,7 @@
         {
             "name": "chimera",
             "version": "b",
+            "specification": "Home",
             "notes": null,
             "species": "chimera",
             "is_story_based": true,
@@ -16443,6 +16581,7 @@
         {
             "name": "dual horn",
             "version": "b",
+            "specification": "Home",
             "notes": null,
             "species": "ruminant",
             "is_story_based": true,
@@ -16589,6 +16728,7 @@
         {
             "name": "evil eye",
             "version": "b",
+            "specification": "Home",
             "notes": null,
             "species": "evil eye",
             "is_story_based": true,
@@ -16772,6 +16912,7 @@
         {
             "name": "guado guardian",
             "version": "d",
+            "specification": "Home",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -16949,6 +17090,7 @@
         {
             "name": "evrae",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wyrm",
             "is_story_based": true,
@@ -17109,6 +17251,7 @@
         {
             "name": "cid",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -17158,6 +17301,7 @@
         {
             "name": "warrior monk",
             "version": "a",
+            "specification": "Gun",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -17316,6 +17460,7 @@
         {
             "name": "warrior monk",
             "version": "b",
+            "specification": "Flamethrower",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -17474,6 +17619,7 @@
         {
             "name": "ykt-63",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mech",
             "is_story_based": true,
@@ -17644,6 +17790,7 @@
         {
             "name": "yat-99",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mech",
             "is_story_based": true,
@@ -17820,6 +17967,7 @@
         {
             "name": "aqua flan",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "flan",
             "is_story_based": true,
@@ -17977,6 +18125,7 @@
         {
             "name": "bat eye",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "evil eye",
             "is_story_based": true,
@@ -18155,6 +18304,7 @@
         {
             "name": "cave iguion",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": true,
@@ -18331,6 +18481,7 @@
         {
             "name": "maze larva",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "larva",
             "is_story_based": true,
@@ -18527,6 +18678,7 @@
         {
             "name": "sahagin",
             "version": "b",
+            "specification": "Via Purifico Yuna",
             "notes": null,
             "species": "sahagin",
             "is_story_based": true,
@@ -18690,6 +18842,7 @@
         {
             "name": "swamp mafdet",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "helm",
             "is_story_based": true,
@@ -18867,6 +19020,7 @@
         {
             "name": "isaaru",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -18916,6 +19070,7 @@
         {
             "name": "grothia",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -18970,6 +19125,7 @@
         {
             "name": "pterya",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -19019,6 +19175,7 @@
         {
             "name": "spathi",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -19068,6 +19225,7 @@
         {
             "name": "octopus",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "cephalopod",
             "is_story_based": true,
@@ -19210,6 +19368,7 @@
         {
             "name": "phlegyas",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "haizhe",
             "is_story_based": true,
@@ -19372,6 +19531,7 @@
         {
             "name": "remora",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "dinofish",
             "is_story_based": true,
@@ -19518,6 +19678,7 @@
         {
             "name": "sahagin",
             "version": "c",
+            "specification": "Via Purifico Tidus",
             "notes": null,
             "species": "sahagin",
             "is_story_based": true,
@@ -19689,6 +19850,7 @@
         {
             "name": "evrae altana",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wyrm",
             "is_story_based": true,
@@ -19826,6 +19988,7 @@
         {
             "name": "gate lock",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -19875,6 +20038,7 @@
         {
             "name": "seymour natus",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -20014,6 +20178,7 @@
         {
             "name": "mortibody",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -20105,6 +20270,7 @@
         {
             "name": "anacondaur",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "basilisk",
             "is_story_based": false,
@@ -20263,6 +20429,7 @@
         {
             "name": "chimera brain",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "chimera",
             "is_story_based": false,
@@ -20464,6 +20631,7 @@
         {
             "name": "coeurl",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "coeurl",
             "is_story_based": false,
@@ -20649,6 +20817,7 @@
         {
             "name": "flame flan",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "flan",
             "is_story_based": false,
@@ -20819,6 +20988,7 @@
         {
             "name": "malboro",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "malboro",
             "is_story_based": false,
@@ -21003,6 +21173,7 @@
         {
             "name": "mech scouter",
             "version": "a",
+            "specification": "Normal",
             "notes": null,
             "species": "machina",
             "is_story_based": false,
@@ -21177,6 +21348,7 @@
         {
             "name": "mech scouter",
             "version": "b",
+            "specification": "Burning",
             "notes": null,
             "species": "machina",
             "is_story_based": false,
@@ -21351,6 +21523,7 @@
         {
             "name": "nebiros",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wasp",
             "is_story_based": false,
@@ -21514,6 +21687,7 @@
         {
             "name": "ogre",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ogre",
             "is_story_based": false,
@@ -21685,6 +21859,7 @@
         {
             "name": "shred",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "helm",
             "is_story_based": false,
@@ -21865,6 +22040,7 @@
         {
             "name": "skoll",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -22042,6 +22218,7 @@
         {
             "name": "shiva",
             "version": "a",
+            "specification": "Calm Lands",
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -22096,6 +22273,7 @@
         {
             "name": "defender x",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "defender",
             "is_story_based": true,
@@ -22248,6 +22426,7 @@
         {
             "name": "dark element",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -22410,6 +22589,7 @@
         {
             "name": "defender",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "defender",
             "is_story_based": false,
@@ -22560,6 +22740,7 @@
         {
             "name": "epaaj",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "blade",
             "is_story_based": false,
@@ -22709,6 +22890,7 @@
         {
             "name": "ghost",
             "version": null,
+            "specification": null,
             "notes": "Fire, thunder, water, and ice affinities are different in every battle. Each can either be 'immune', 'halved', or 'weak'.",
             "species": "phantom",
             "is_story_based": false,
@@ -22881,6 +23063,7 @@
         {
             "name": "imp",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "imp",
             "is_story_based": false,
@@ -23027,6 +23210,7 @@
         {
             "name": "magic urn middle eye",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": false,
@@ -23112,6 +23296,7 @@
         {
             "name": "magic urn outer eyes",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": false,
@@ -23201,6 +23386,7 @@
         {
             "name": "mech hunter",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": false,
@@ -23390,6 +23576,7 @@
         {
             "name": "nidhogg",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "drake",
             "is_story_based": false,
@@ -23558,6 +23745,7 @@
         {
             "name": "thorn",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "fungus",
             "is_story_based": false,
@@ -23743,6 +23931,7 @@
         {
             "name": "tonberry",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "tonberry",
             "is_story_based": false,
@@ -23879,6 +24068,7 @@
         {
             "name": "valaha",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ruminant",
             "is_story_based": false,
@@ -24037,6 +24227,7 @@
         {
             "name": "yowie",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -24212,6 +24403,7 @@
         {
             "name": "lady ginnem",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -24261,6 +24453,7 @@
         {
             "name": "yojimbo",
             "version": "a",
+            "specification": "Cavern of the Stolen Fayth",
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -24310,6 +24503,7 @@
         {
             "name": "koma inu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -24372,6 +24566,7 @@
         {
             "name": "biran ronso",
             "version": null,
+            "specification": null,
             "notes": "HP, Strength, Magic, and Agility depend on Kimahri's HP, Strength, Magic, Agility. Listed are the minimum possible stats based on Kimahri's base stats.",
             "species": "humanoid",
             "is_story_based": true,
@@ -24511,6 +24706,7 @@
         {
             "name": "yenke ronso",
             "version": null,
+            "specification": null,
             "notes": "HP, Strength, Magic, and Agility depend on Kimahri's HP, Strength, Magic, Agility. Listed are the minimum possible stats based on Kimahri's base stats.",
             "species": "humanoid",
             "is_story_based": true,
@@ -24651,6 +24847,7 @@
         {
             "name": "achelous",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "haizhe",
             "is_story_based": false,
@@ -24810,6 +25007,7 @@
         {
             "name": "ahriman",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "evil eye",
             "is_story_based": false,
@@ -24975,6 +25173,7 @@
         {
             "name": "bandersnatch",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -25144,6 +25343,7 @@
         {
             "name": "bashura",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ogre",
             "is_story_based": false,
@@ -25315,6 +25515,7 @@
         {
             "name": "behemoth",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "behemoth",
             "is_story_based": false,
@@ -25483,6 +25684,7 @@
         {
             "name": "dark flan",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "flan",
             "is_story_based": false,
@@ -25654,6 +25856,7 @@
         {
             "name": "grat",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "plant",
             "is_story_based": false,
@@ -25830,6 +26033,7 @@
         {
             "name": "grenade",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "bomb",
             "is_story_based": false,
@@ -25996,6 +26200,7 @@
         {
             "name": "grendel",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ruminant",
             "is_story_based": false,
@@ -26166,6 +26371,7 @@
         {
             "name": "maelspike",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "dinofish",
             "is_story_based": false,
@@ -26316,6 +26522,7 @@
         {
             "name": "mandragora",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ochu",
             "is_story_based": false,
@@ -26512,6 +26719,7 @@
         {
             "name": "mech defender",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": false,
@@ -26701,6 +26909,7 @@
         {
             "name": "mech leader",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "machina",
             "is_story_based": false,
@@ -26875,6 +27084,7 @@
         {
             "name": "splasher x1",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "piranha",
             "is_story_based": false,
@@ -27030,6 +27240,7 @@
         {
             "name": "splasher x2",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "piranha",
             "is_story_based": false,
@@ -27185,6 +27396,7 @@
         {
             "name": "splasher x3",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "piranha",
             "is_story_based": false,
@@ -27340,6 +27552,7 @@
         {
             "name": "seymour flux",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -27472,6 +27685,7 @@
         {
             "name": "mortiorchis",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -27558,6 +27772,7 @@
         {
             "name": "sanctuary keeper",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sacred beast",
             "is_story_based": true,
@@ -27719,6 +27934,7 @@
         {
             "name": "fallen monk",
             "version": "a",
+            "specification": "Gun",
             "notes": null,
             "species": "humanoid",
             "is_story_based": false,
@@ -27873,6 +28089,7 @@
         {
             "name": "fallen monk",
             "version": "b",
+            "specification": "Flamethrower",
             "notes": null,
             "species": "humanoid",
             "is_story_based": false,
@@ -28027,6 +28244,7 @@
         {
             "name": "defender z",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "defender",
             "is_story_based": false,
@@ -28177,6 +28395,7 @@
         {
             "name": "yat-97",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mech",
             "is_story_based": false,
@@ -28347,6 +28566,7 @@
         {
             "name": "ykt-11",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mech",
             "is_story_based": false,
@@ -28511,6 +28731,7 @@
         {
             "name": "spectral keeper",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "spirit beast",
             "is_story_based": true,
@@ -28664,6 +28885,7 @@
         {
             "name": "circle",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -28713,6 +28935,7 @@
         {
             "name": "yunalesca",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -28866,6 +29089,7 @@
         {
             "name": "left fin",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sin",
             "is_story_based": true,
@@ -28996,6 +29220,7 @@
         {
             "name": "right fin",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sin",
             "is_story_based": true,
@@ -29126,6 +29351,7 @@
         {
             "name": "sinspawn genais",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": true,
@@ -29276,6 +29502,7 @@
         {
             "name": "sin core",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sin",
             "is_story_based": true,
@@ -29406,6 +29633,7 @@
         {
             "name": "overdrive sin",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sin",
             "is_story_based": true,
@@ -29565,6 +29793,7 @@
         {
             "name": "adamantoise",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "adamantoise",
             "is_story_based": false,
@@ -29727,6 +29956,7 @@
         {
             "name": "barbatos",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "armor",
             "is_story_based": false,
@@ -29861,6 +30091,7 @@
         {
             "name": "behemoth king",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "behemoth",
             "is_story_based": false,
@@ -30015,6 +30246,7 @@
         {
             "name": "demonolith",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "doomstone",
             "is_story_based": false,
@@ -30194,6 +30426,7 @@
         {
             "name": "exoray",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "fungus",
             "is_story_based": false,
@@ -30361,6 +30594,7 @@
         {
             "name": "gemini",
             "version": "a",
+            "specification": "Sword",
             "notes": null,
             "species": "iron giant",
             "is_story_based": false,
@@ -30527,6 +30761,7 @@
         {
             "name": "gemini",
             "version": "b",
+            "specification": "Club",
             "notes": null,
             "species": "iron giant",
             "is_story_based": false,
@@ -30693,6 +30928,7 @@
         {
             "name": "great malboro",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "malboro",
             "is_story_based": false,
@@ -30890,6 +31126,7 @@
         {
             "name": "land worm",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "worm",
             "is_story_based": true,
@@ -31088,6 +31325,7 @@
         {
             "name": "wraith",
             "version": null,
+            "specification": null,
             "notes": "Fire, thunder, water, and ice affinities are different in every battle. Each can either be 'absorb', 'immune', 'halved', or 'weak'.",
             "species": "phantom",
             "is_story_based": false,
@@ -31254,6 +31492,7 @@
         {
             "name": "seymour omnis",
             "version": null,
+            "specification": null,
             "notes": "Element Affinities are dependant on how many element symbols he is connected to. 0 = 'Neutral', 1 = 'Halved', 2 = 'Immune', 3 = 'Absorb', 4 = 'Absorb' + 'Weak' to opposing element.",
             "species": "humanoid",
             "is_story_based": true,
@@ -31429,6 +31668,7 @@
         {
             "name": "mortiphasm",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -31478,6 +31718,7 @@
         {
             "name": "braskas final aeon",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -31571,6 +31812,7 @@
         {
             "name": "yu pagoda",
             "version": "a",
+            "specification": "Braska's Final Aeon fight",
             "notes": "Max HP is set depending on how much damage it receives in total before it dies. The default is 5000.",
             "species": "unspecified",
             "is_story_based": true,
@@ -31625,6 +31867,7 @@
         {
             "name": "yu pagoda",
             "version": "b",
+            "specification": "Possessed Aeons and Yu Yevon Fights",
             "notes": "Max HP is set depending on how much damage it receives in total before it dies. The default is 5000.",
             "species": "unspecified",
             "is_story_based": true,
@@ -31692,6 +31935,7 @@
         {
             "name": "valefor possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Valefor's stats. MP and Luck are set to 1. Listed are Valefor's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -31741,6 +31985,7 @@
         {
             "name": "ifrit possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Ifrit's stats. MP and Luck are set to 1. Listed are Ifrit's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -31795,6 +32040,7 @@
         {
             "name": "ixion possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Ixion's stats. MP and Luck are set to 1. Listed are Ixion's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -31849,6 +32095,7 @@
         {
             "name": "shiva possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Shiva's stats. MP and Luck are set to 1. Listed are Shiva's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -31903,6 +32150,7 @@
         {
             "name": "bahamut possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Bahamut's stats. MP and Luck are set to 1. Listed are Bahamut's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -31952,6 +32200,7 @@
         {
             "name": "anima possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Anima's stats. MP and Luck are set to 1. Listed are Anima's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -32001,6 +32250,7 @@
         {
             "name": "yojimbo possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Yojimbo's stats. MP and Luck are set to 1. Listed are Yojimbo's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -32050,6 +32300,7 @@
         {
             "name": "cindy possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Cindy's stats. MP and Luck are set to 1. Listed are Cindy's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -32099,6 +32350,7 @@
         {
             "name": "sandy possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Sandy's stats. MP and Luck are set to 1. Listed are Sandy's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -32148,6 +32400,7 @@
         {
             "name": "mindy possessed",
             "version": null,
+            "specification": null,
             "notes": "Every stat besides MP and Luck is dependent on your own Mindy's stats. MP and Luck are set to 1. Listed are Mindy's base stats.",
             "species": "aeon",
             "is_story_based": true,
@@ -32197,6 +32450,7 @@
         {
             "name": "yu yevon",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -32246,6 +32500,7 @@
         {
             "name": "geosgaeno",
             "version": "b",
+            "specification": "Second Fight",
             "notes": null,
             "species": "geo",
             "is_story_based": true,
@@ -32386,6 +32641,7 @@
         {
             "name": "belgemine",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -32448,6 +32704,7 @@
         {
             "name": "valefor",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32497,6 +32754,7 @@
         {
             "name": "ifrit",
             "version": "b",
+            "specification": "Remiem Temple",
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32551,6 +32809,7 @@
         {
             "name": "ixion",
             "version": "b",
+            "specification": "Remiem Temple",
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32600,6 +32859,7 @@
         {
             "name": "shiva",
             "version": "b",
+            "specification": "Remiem Temple",
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32654,6 +32914,7 @@
         {
             "name": "bahamut",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32703,6 +32964,7 @@
         {
             "name": "anima",
             "version": "b",
+            "specification": "Remiem Temple",
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32752,6 +33014,7 @@
         {
             "name": "yojimbo",
             "version": "b",
+            "specification": "Remiem Temple",
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32801,6 +33064,7 @@
         {
             "name": "cindy",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32850,6 +33114,7 @@
         {
             "name": "sandy",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32899,6 +33164,7 @@
         {
             "name": "mindy",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": false,
@@ -32948,6 +33214,7 @@
         {
             "name": "black element",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -33128,6 +33395,7 @@
         {
             "name": "floating death",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "evil eye",
             "is_story_based": false,
@@ -33307,6 +33575,7 @@
         {
             "name": "halma",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "helm",
             "is_story_based": false,
@@ -33492,6 +33761,7 @@
         {
             "name": "machea",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "blade",
             "is_story_based": false,
@@ -33646,6 +33916,7 @@
         {
             "name": "master coeurl",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "coeurl",
             "is_story_based": false,
@@ -33838,6 +34109,7 @@
         {
             "name": "master tonberry",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "tonberry",
             "is_story_based": false,
@@ -34000,6 +34272,7 @@
         {
             "name": "puroboros",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "bomb",
             "is_story_based": false,
@@ -34154,6 +34427,7 @@
         {
             "name": "spirit",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "larva",
             "is_story_based": false,
@@ -34311,6 +34585,7 @@
         {
             "name": "varuna",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "spellspinner",
             "is_story_based": false,
@@ -34484,6 +34759,7 @@
         {
             "name": "zaurus",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -34647,6 +34923,7 @@
         {
             "name": "mimic basilisk",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mimic",
             "is_story_based": false,
@@ -34717,6 +34994,7 @@
         {
             "name": "mimic dual horn",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mimic",
             "is_story_based": false,
@@ -34766,6 +35044,7 @@
         {
             "name": "mimic mech",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mimic",
             "is_story_based": false,
@@ -34815,6 +35094,7 @@
         {
             "name": "mimic garuda",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "mimic",
             "is_story_based": false,
@@ -34864,7 +35144,8 @@
         {
             "name": "treasure chest",
             "version": "d",
-            "notes": null,
+            "specification": "Omega Ruins",
+            "notes": "Some treasure chests are mimics.",
             "species": "chest",
             "is_story_based": false,
             "can_be_captured": false,
@@ -34938,6 +35219,7 @@
         {
             "name": "ultima weapon",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "weapon",
             "is_story_based": true,
@@ -35064,6 +35346,7 @@
         {
             "name": "omega weapon",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "weapon",
             "is_story_based": true,
@@ -35199,6 +35482,7 @@
         {
             "name": "stratoavis",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "roc",
             "is_story_based": false,
@@ -35372,6 +35656,7 @@
         {
             "name": "malboro menace",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "malboro",
             "is_story_based": false,
@@ -35569,6 +35854,7 @@
         {
             "name": "kottos",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ogre",
             "is_story_based": false,
@@ -35717,6 +36003,7 @@
         {
             "name": "coeurlregina",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "coeurl",
             "is_story_based": false,
@@ -35875,6 +36162,7 @@
         {
             "name": "jormungand",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "basilisk",
             "is_story_based": false,
@@ -36080,6 +36368,7 @@
         {
             "name": "cactuar king",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "cactuar",
             "is_story_based": false,
@@ -36249,6 +36538,7 @@
         {
             "name": "espada",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "blade",
             "is_story_based": false,
@@ -36406,6 +36696,7 @@
         {
             "name": "abyss worm",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "worm",
             "is_story_based": false,
@@ -36577,6 +36868,7 @@
         {
             "name": "chimerageist",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "chimera",
             "is_story_based": false,
@@ -36749,6 +37041,7 @@
         {
             "name": "don tonberry",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "tonberry",
             "is_story_based": false,
@@ -36937,6 +37230,7 @@
         {
             "name": "catoblepas",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "behemoth",
             "is_story_based": false,
@@ -37142,6 +37436,7 @@
         {
             "name": "abaddon",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "spellspinner",
             "is_story_based": false,
@@ -37290,6 +37585,7 @@
         {
             "name": "vorban",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "armor",
             "is_story_based": false,
@@ -37438,6 +37734,7 @@
         {
             "name": "fenrir",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "lupine",
             "is_story_based": false,
@@ -37652,6 +37949,7 @@
         {
             "name": "ornitholestes",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "reptile",
             "is_story_based": false,
@@ -37794,6 +38092,7 @@
         {
             "name": "pteryx",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "bird",
             "is_story_based": false,
@@ -37963,6 +38262,7 @@
         {
             "name": "hornet",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wasp",
             "is_story_based": false,
@@ -38136,6 +38436,7 @@
         {
             "name": "vidatu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "imp",
             "is_story_based": false,
@@ -38282,6 +38583,7 @@
         {
             "name": "one-eye",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "evil eye",
             "is_story_based": false,
@@ -38432,6 +38734,7 @@
         {
             "name": "jumbo flan",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "flan",
             "is_story_based": false,
@@ -38582,6 +38885,7 @@
         {
             "name": "nega elemental",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "elemental",
             "is_story_based": false,
@@ -38751,6 +39055,7 @@
         {
             "name": "tanket",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "helm",
             "is_story_based": false,
@@ -38908,6 +39213,7 @@
         {
             "name": "fafnir",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "drake",
             "is_story_based": false,
@@ -39085,6 +39391,7 @@
         {
             "name": "sleep sprout",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "fungus",
             "is_story_based": false,
@@ -39278,6 +39585,7 @@
         {
             "name": "bomb king",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "bomb",
             "is_story_based": false,
@@ -39435,6 +39743,7 @@
         {
             "name": "juggernaut",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "ruminant",
             "is_story_based": false,
@@ -39609,6 +39918,7 @@
         {
             "name": "ironclad",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "iron giant",
             "is_story_based": false,
@@ -39787,6 +40097,7 @@
         {
             "name": "earth eater",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "eater",
             "is_story_based": false,
@@ -39912,6 +40223,7 @@
         {
             "name": "greater sphere",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "gel",
             "is_story_based": false,
@@ -40176,6 +40488,7 @@
         {
             "name": "catastrophe",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": false,
@@ -40364,6 +40677,7 @@
         {
             "name": "th'uban",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sacred beast",
             "is_story_based": false,
@@ -40502,6 +40816,7 @@
         {
             "name": "neslug",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "hermit",
             "is_story_based": false,
@@ -40663,6 +40978,7 @@
         {
             "name": "ultima buster",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": false,
@@ -40809,6 +41125,7 @@
         {
             "name": "ultima buster head",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": false,
@@ -40858,6 +41175,7 @@
         {
             "name": "ultima buster arms",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "sinspawn",
             "is_story_based": false,
@@ -40907,6 +41225,7 @@
         {
             "name": "shinryu",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "wyrm",
             "is_story_based": false,
@@ -41025,6 +41344,7 @@
         {
             "name": "nemesis",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "weapon",
             "is_story_based": false,
@@ -41160,6 +41480,7 @@
         {
             "name": "dark valefor",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -41330,6 +41651,7 @@
         {
             "name": "dark ifrit",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -41476,6 +41798,7 @@
         {
             "name": "dark ixion",
             "version": "a",
+            "specification": "First fight",
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -41622,6 +41945,7 @@
         {
             "name": "dark ixion",
             "version": "b",
+            "specification": "Second Fight",
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -41768,6 +42092,7 @@
         {
             "name": "dark shiva",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -41914,6 +42239,7 @@
         {
             "name": "dark bahamut",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -42053,6 +42379,7 @@
         {
             "name": "dark yojimbo",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -42192,6 +42519,7 @@
         {
             "name": "dark anima",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -42348,6 +42676,7 @@
         {
             "name": "dark cindy",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -42487,6 +42816,7 @@
         {
             "name": "dark sandy",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -42626,6 +42956,7 @@
         {
             "name": "dark mindy",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "aeon",
             "is_story_based": true,
@@ -42765,6 +43096,7 @@
         {
             "name": "penance",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,
@@ -42891,6 +43223,7 @@
         {
             "name": "penance arms",
             "version": null,
+            "specification": null,
             "notes": null,
             "species": "unspecified",
             "is_story_based": true,

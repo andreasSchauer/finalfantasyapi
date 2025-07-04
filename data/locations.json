@@ -2945,7 +2945,7 @@
                     "areas": [
                         {
                             "area": "mushroom rock",
-                            "section": "main",
+                            "section": null,
                             "can_revisit": true,
                             "has_save_sphere": false,
                             "airship_drop_off": false,
@@ -2996,7 +2996,7 @@
                                         "location": "mushroom rock road",
                                         "sub_location": "mushroom rock",
                                         "area": "mushroom rock",
-                                        "section": "main"
+                                        "section": null
                                     },
                                     "connection_type": "both-directions",
                                     "story_only": false
@@ -3136,7 +3136,7 @@
                                         "location": "mushroom rock road",
                                         "sub_location": "mushroom rock",
                                         "area": "mushroom rock",
-                                        "section": "main"
+                                        "section": null
                                     },
                                     "connection_type": "both-directions",
                                     "story_only": false
