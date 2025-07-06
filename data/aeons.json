@@ -12,20 +12,21 @@
             "is_optional": false,
             "celestial_weapon": "nirvana",
             "num_battles_to_regenerate": 8,
+            "physical_attack_range": "far",
             "phys_atk_dmg_constant": 14,
             "phys_atk_acc_modifier": 2.5,
-            "base_stats": {
-                "hp": 725,
-                "mp": 24,
-                "strength": 18,
-                "defense": 23,
-                "magic": 21,
-                "magic_defense": 23,
-                "agility": 10,
-                "luck": 17,
-                "evasion": 19,
-                "accuracy": 11
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 725 },
+                { "name": "mp",             "value": 24 },
+                { "name": "strength",       "value": 18 },
+                { "name": "defense",        "value": 23 },
+                { "name": "magic",          "value": 21 },
+                { "name": "magic defense",  "value": 23 },
+                { "name": "agility",        "value": 10 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 19 },
+                { "name": "accuracy",       "value": 11 }
+            ]
         },
         {
             "id": 2,
@@ -39,20 +40,21 @@
             "is_optional": false,
             "celestial_weapon": "world champion",
             "num_battles_to_regenerate": 12,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 857,
-                "mp": 23,
-                "strength": 19,
-                "defense": 29,
-                "magic": 21,
-                "magic_defense": 21,
-                "agility": 9,
-                "luck": 17,
-                "evasion": 10,
-                "accuracy": 11
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 857 },
+                { "name": "mp",             "value": 23 },
+                { "name": "strength",       "value": 19 },
+                { "name": "defense",        "value": 29 },
+                { "name": "magic",          "value": 21 },
+                { "name": "magic defense",  "value": 21 },
+                { "name": "agility",        "value": 9 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 10 },
+                { "name": "accuracy",       "value": 11 }
+            ]
         },
         {
             "id": 3,
@@ -66,20 +68,21 @@
             "is_optional": false,
             "celestial_weapon": "spirit lance",
             "num_battles_to_regenerate": 20,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 891,
-                "mp": 25,
-                "strength": 20,
-                "defense": 26,
-                "magic": 20,
-                "magic_defense": 29,
-                "agility": 8,
-                "luck": 17,
-                "evasion": 11,
-                "accuracy": 12
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 891 },
+                { "name": "mp",             "value": 25 },
+                { "name": "strength",       "value": 20 },
+                { "name": "defense",        "value": 26 },
+                { "name": "magic",          "value": 20 },
+                { "name": "magic defense",  "value": 29 },
+                { "name": "agility",        "value": 8 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 11 },
+                { "name": "accuracy",       "value": 12 }
+            ]
         },
         {
             "id": 4,
@@ -93,20 +96,21 @@
             "is_optional": false,
             "celestial_weapon": "onion knight",
             "num_battles_to_regenerate": 20,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 14,
             "phys_atk_acc_modifier": 2.5,
-            "base_stats": {
-                "hp": 820,
-                "mp": 26,
-                "strength": 19,
-                "defense": 17,
-                "magic": 23,
-                "magic_defense": 24,
-                "agility": 14,
-                "luck": 17,
-                "evasion": 32,
-                "accuracy": 11
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 820 },
+                { "name": "mp",             "value": 26 },
+                { "name": "strength",       "value": 19 },
+                { "name": "defense",        "value": 17 },
+                { "name": "magic",          "value": 23 },
+                { "name": "magic defense",  "value": 24 },
+                { "name": "agility",        "value": 14 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 32 },
+                { "name": "accuracy",       "value": 11 }
+            ]
         },
         {
             "id": 5,
@@ -120,20 +124,21 @@
             "is_optional": false,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 24,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 1210,
-                "mp": 35,
-                "strength": 23,
-                "defense": 27,
-                "magic": 18,
-                "magic_defense": 28,
-                "agility": 10,
-                "luck": 17,
-                "evasion": 20,
-                "accuracy": 11
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 1210 },
+                { "name": "mp",             "value": 35 },
+                { "name": "strength",       "value": 23 },
+                { "name": "defense",        "value": 27 },
+                { "name": "magic",          "value": 18 },
+                { "name": "magic defense",  "value": 28 },
+                { "name": "agility",        "value": 10 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 20 },
+                { "name": "accuracy",       "value": 11 }
+            ]
         },
         {
             "id": 6,
@@ -147,20 +152,21 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 24,
+            "physical_attack_range": "far",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 1410,
-                "mp": 45,
-                "strength": 33,
-                "defense": 26,
-                "magic": 22,
-                "magic_defense": 23,
-                "agility": 9,
-                "luck": 17,
-                "evasion": 20,
-                "accuracy": 11
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 1410 },
+                { "name": "mp",             "value": 45 },
+                { "name": "strength",       "value": 33 },
+                { "name": "defense",        "value": 26 },
+                { "name": "magic",          "value": 22 },
+                { "name": "magic defense",  "value": 23 },
+                { "name": "agility",        "value": 9 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 20 },
+                { "name": "accuracy",       "value": 11 }
+            ]
         },
         {
             "id": 7,
@@ -174,20 +180,21 @@
             "is_optional": true,
             "celestial_weapon": "masamune",
             "num_battles_to_regenerate": 24,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 1030,
-                "mp": 0,
-                "strength": 29,
-                "defense": 25,
-                "magic": 16,
-                "magic_defense": 23,
-                "agility": 9,
-                "luck": 17,
-                "evasion": 59,
-                "accuracy": 19
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 1030 },
+                { "name": "mp",             "value": 0 },
+                { "name": "strength",       "value": 29 },
+                { "name": "defense",        "value": 25 },
+                { "name": "magic",          "value": 16 },
+                { "name": "magic defense",  "value": 23 },
+                { "name": "agility",        "value": 9 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 59 },
+                { "name": "accuracy",       "value": 19 }
+            ]
         },
         {
             "id": 8,
@@ -201,20 +208,21 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 2190,
-                "mp": 46,
-                "strength": 28,
-                "defense": 32,
-                "magic": 21,
-                "magic_defense": 28,
-                "agility": 10,
-                "luck": 17,
-                "evasion": 20,
-                "accuracy": 11
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 2190 },
+                { "name": "mp",             "value": 46 },
+                { "name": "strength",       "value": 28 },
+                { "name": "defense",        "value": 32 },
+                { "name": "magic",          "value": 21 },
+                { "name": "magic defense",  "value": 28 },
+                { "name": "agility",        "value": 10 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 20 },
+                { "name": "accuracy",       "value": 11 }
+            ]
         },
         {
             "id": 9,
@@ -228,20 +236,21 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 1790,
-                "mp": 35,
-                "strength": 42,
-                "defense": 26,
-                "magic": 24,
-                "magic_defense": 28,
-                "agility": 10,
-                "luck": 17,
-                "evasion": 17,
-                "accuracy": 13
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 1790 },
+                { "name": "mp",             "value": 35 },
+                { "name": "strength",       "value": 42 },
+                { "name": "defense",        "value": 26 },
+                { "name": "magic",          "value": 24 },
+                { "name": "magic defense",  "value": 28 },
+                { "name": "agility",        "value": 10 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 17 },
+                { "name": "accuracy",       "value": 13 }
+            ]
         },
         {
             "id": 10,
@@ -255,20 +264,21 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
+            "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
             "phys_atk_acc_modifier": 1.0,
-            "base_stats": {
-                "hp": 1237,
-                "mp": 58,
-                "strength": 23,
-                "defense": 24,
-                "magic": 28,
-                "magic_defense": 28,
-                "agility": 12,
-                "luck": 17,
-                "evasion": 23,
-                "accuracy": 12
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 1237 },
+                { "name": "mp",             "value": 58 },
+                { "name": "strength",       "value": 23 },
+                { "name": "defense",        "value": 24 },
+                { "name": "magic",          "value": 28 },
+                { "name": "magic defense",  "value": 28 },
+                { "name": "agility",        "value": 12 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 23 },
+                { "name": "accuracy",       "value": 12 }
+            ]
         }
     ]
 }

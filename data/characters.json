@@ -9,18 +9,18 @@
             "physical_attack_range": "close",
             "overdrive_command": "swordplay",
             "can_fight_underwater": true,
-            "base_stats": {
-                "hp": 520,
-                "mp": 12,
-                "strength": 15,
-                "defense": 10,
-                "magic": 5,
-                "magic_defense": 5,
-                "agility": 10,
-                "luck": 18,
-                "evasion": 10,
-                "accuracy": 10
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 520 },
+                { "name": "mp",             "value": 12 },
+                { "name": "strength",       "value": 15 },
+                { "name": "defense",        "value": 10 },
+                { "name": "magic",          "value": 5 },
+                { "name": "magic defense",  "value": 5 },
+                { "name": "agility",        "value": 10 },
+                { "name": "luck",           "value": 18 },
+                { "name": "evasion",        "value": 10 },
+                { "name": "accuracy",       "value": 10 }
+            ]
         },
         {
             "id": 2,
@@ -31,18 +31,18 @@
             "physical_attack_range": "close",
             "overdrive_command": "grand summon",
             "can_fight_underwater": false,
-            "base_stats": {
-                "hp": 475,
-                "mp": 84,
-                "strength": 5,
-                "defense": 5,
-                "magic": 20,
-                "magic_defense": 20,
-                "agility": 10,
-                "luck": 17,
-                "evasion": 30,
-                "accuracy": 3
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 475 },
+                { "name": "mp",             "value": 84 },
+                { "name": "strength",       "value": 5 },
+                { "name": "defense",        "value": 5 },
+                { "name": "magic",          "value": 20 },
+                { "name": "magic defense",  "value": 20 },
+                { "name": "agility",        "value": 10 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 30 },
+                { "name": "accuracy",       "value": 3 }
+            ]
         },
         {
             "id": 3,
@@ -53,18 +53,18 @@
             "physical_attack_range": "far",
             "overdrive_command": "slots",
             "can_fight_underwater": true,
-            "base_stats": {
-                "hp": 618,
-                "mp": 10,
-                "strength": 14,
-                "defense": 10,
-                "magic": 10,
-                "magic_defense": 5,
-                "agility": 7,
-                "luck": 19,
-                "evasion": 5,
-                "accuracy": 25
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 618 },
+                { "name": "mp",             "value": 10 },
+                { "name": "strength",       "value": 14 },
+                { "name": "defense",        "value": 10 },
+                { "name": "magic",          "value": 10 },
+                { "name": "magic defense",  "value": 5 },
+                { "name": "agility",        "value": 7 },
+                { "name": "luck",           "value": 19 },
+                { "name": "evasion",        "value": 5 },
+                { "name": "accuracy",       "value": 25 }
+            ]
         },
         {
             "id": 4,
@@ -75,18 +75,18 @@
             "physical_attack_range": "close",
             "overdrive_command": "fury",
             "can_fight_underwater": false,
-            "base_stats": {
-                "hp": 380,
-                "mp": 92,
-                "strength": 5,
-                "defense": 8,
-                "magic": 20,
-                "magic_defense": 30,
-                "agility": 5,
-                "luck": 17,
-                "evasion": 40,
-                "accuracy": 3
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 380 },
+                { "name": "mp",             "value": 92 },
+                { "name": "strength",       "value": 5 },
+                { "name": "defense",        "value": 8 },
+                { "name": "magic",          "value": 20 },
+                { "name": "magic defense",  "value": 30 },
+                { "name": "agility",        "value": 5 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 40 },
+                { "name": "accuracy",       "value": 3 }
+            ]
         },
         {
             "id": 5,
@@ -97,18 +97,18 @@
             "physical_attack_range": "close",
             "overdrive_command": "ronso rage",
             "can_fight_underwater": false,
-            "base_stats": {
-                "hp": 644,
-                "mp": 78,
-                "strength": 16,
-                "defense": 15,
-                "magic": 17,
-                "magic_defense": 5,
-                "agility": 6,
-                "luck": 18,
-                "evasion": 5,
-                "accuracy": 5
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 644 },
+                { "name": "mp",             "value": 78 },
+                { "name": "strength",       "value": 16 },
+                { "name": "defense",        "value": 15 },
+                { "name": "magic",          "value": 17 },
+                { "name": "magic defense",  "value": 5 },
+                { "name": "agility",        "value": 6 },
+                { "name": "luck",           "value": 18 },
+                { "name": "evasion",        "value": 5 },
+                { "name": "accuracy",       "value": 5 }
+            ]
         },
         {
             "id": 6,
@@ -119,18 +119,18 @@
             "physical_attack_range": "close",
             "overdrive_command": "bushido",
             "can_fight_underwater": false,
-            "base_stats": {
-                "hp": 1030,
-                "mp": 33,
-                "strength": 20,
-                "defense": 15,
-                "magic": 5,
-                "magic_defense": 5,
-                "agility": 5,
-                "luck": 17,
-                "evasion": 5,
-                "accuracy": 3
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 1030 },
+                { "name": "mp",             "value": 33 },
+                { "name": "strength",       "value": 20 },
+                { "name": "defense",        "value": 15 },
+                { "name": "magic",          "value": 5 },
+                { "name": "magic defense",  "value": 5 },
+                { "name": "agility",        "value": 5 },
+                { "name": "luck",           "value": 17 },
+                { "name": "evasion",        "value": 5 },
+                { "name": "accuracy",       "value": 3 }
+            ]
         },
         {
             "id": 7,
@@ -141,18 +141,18 @@
             "physical_attack_range": "close",
             "overdrive_command": "mix",
             "can_fight_underwater": true,
-            "base_stats": {
-                "hp": 360,
-                "mp": 85,
-                "strength": 10,
-                "defense": 8,
-                "magic": 10,
-                "magic_defense": 8,
-                "agility": 16,
-                "luck": 18,
-                "evasion": 5,
-                "accuracy": 5
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 360 },
+                { "name": "mp",             "value": 85 },
+                { "name": "strength",       "value": 10 },
+                { "name": "defense",        "value": 8 },
+                { "name": "magic",          "value": 10 },
+                { "name": "magic defense",  "value": 8 },
+                { "name": "agility",        "value": 16 },
+                { "name": "luck",           "value": 18 },
+                { "name": "evasion",        "value": 5 },
+                { "name": "accuracy",       "value": 5 }
+            ]
         },
         {
             "id": 8,
@@ -163,18 +163,18 @@
             "physical_attack_range": "close",
             "overdrive_command": "requiem",
             "can_fight_underwater": false,
-            "base_stats": {
-                "hp": 1200,
-                "mp": 999,
-                "strength": 20,
-                "defense": 25,
-                "magic": 35,
-                "magic_defense": 100,
-                "agility": 20,
-                "luck": 18,
-                "evasion": 10,
-                "accuracy": 10
-            }
+            "base_stats": [
+                { "name": "hp",             "value": 1200 },
+                { "name": "mp",             "value": 999 },
+                { "name": "strength",       "value": 20 },
+                { "name": "defense",        "value": 25 },
+                { "name": "magic",          "value": 35 },
+                { "name": "magic defense",  "value": 100 },
+                { "name": "agility",        "value": 20 },
+                { "name": "luck",           "value": 18 },
+                { "name": "evasion",        "value": 10 },
+                { "name": "accuracy",       "value": 10 }
+            ]
         }
     ]
 }

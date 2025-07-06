@@ -765,9 +765,9 @@
         {
             "location_area": {
                 "location": "ss liki",
-                "sub_location": "ss likiss liki",
+                "sub_location": "ss liki",
                 "area": "deck",
-                "section": "upstairs"
+                "section": null
             },
             "treasures": [
                 {
@@ -1159,7 +1159,7 @@
                 "location": "ss winno",
                 "sub_location": "ss winno",
                 "area": "deck",
-                "section": "upstairs"
+                "section": null
             },
             "treasures": [
                 {
@@ -4193,7 +4193,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "home",
                 "section": null
@@ -4231,7 +4231,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "main corridor",
                 "section": null
@@ -4311,7 +4311,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "living quarters",
                 "section": "southern"
@@ -4383,7 +4383,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "living quarters",
                 "section": "northern"
@@ -4421,7 +4421,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "environment controls",
                 "section": null
@@ -4443,7 +4443,7 @@
                 "location": "airship",
                 "sub_location": "airship",
                 "area": "cabin",
-                "section": "lower level"
+                "section": "main"
             },
             "treasures": [
                 {

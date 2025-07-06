@@ -139,24 +139,19 @@
         },
         {
             "name": "sleep",
-            "effect": "Forces the unit to skip their turns. Increases physical and magical damage against the unit by 50%. Removed instantly when the unit is hit by a physical attack.",
-            "related_stats": [],
+            "effect": "Forces the unit to skip their turns. The unit can't evade physical attacks while sleeping. Removed instantly when the unit is hit by a physical attack.",
+            "related_stats": ["evasion"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_properties": [],
-                "stat_changes": [],
-                "other_changes": [
+                "stat_changes": [
                     {
-                        "name": "physical-damage-taken",
-                        "calculation_type": "multiply",
-                        "value": 1.5
-                    },
-                    {
-                        "name": "magical-damage-taken",
-                        "calculation_type": "multiply",
-                        "value": 1.5
+                        "name": "evasion",
+                        "calculation_type": "set-value",
+                        "value": 0
                     }
-                ]
+                ],
+                "other_changes": []
             }
         },
         {

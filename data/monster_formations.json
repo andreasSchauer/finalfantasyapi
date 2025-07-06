@@ -709,7 +709,7 @@
                 "location": "ss liki",
                 "sub_location": "ss liki",
                 "area": "deck",
-                "section": "main"
+                "section": null
             },
             "notes": null,
             "formations": [
@@ -5453,7 +5453,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "entrance",
                 "section": null
@@ -5482,7 +5482,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "main corridor",
                 "section": null
@@ -5583,7 +5583,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "main corridor",
                 "section": null
@@ -5612,7 +5612,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "living quarters",
                 "section": "southern"
@@ -5641,7 +5641,7 @@
         },
         {
             "location_area": {
-                "location": "bikanel",
+                "location": "home",
                 "sub_location": "home",
                 "area": "living quarters",
                 "section": "northern"
@@ -8044,7 +8044,7 @@
                         {
                             "monster_name": "magic urn outer eyes",
                             "version": null,
-                            "amount": 5
+                            "amount": 4
                         }
                     ],
                     "category": "random-encounter",
@@ -8189,7 +8189,7 @@
                         {
                             "monster_name": "magic urn outer eyes",
                             "version": null,
-                            "amount": 5
+                            "amount": 4
                         }
                     ],
                     "category": "random-encounter",
