@@ -13966,7 +13966,7 @@
         {
             "name": "guado guardian",
             "version": "b",
-            "specification": "Macalania Pursuit",
+            "specification": "Macalania Pursuit and Wendigo Fight",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -14267,173 +14267,6 @@
                     {
                         "status": "sleep",
                         "resistance": 20
-                    }
-                ]
-            },
-            "altered_states": []
-        },
-        {
-            "name": "guado guardian",
-            "version": "c",
-            "specification": "Wendigo Fight",
-            "notes": null,
-            "species": "humanoid",
-            "is_story_based": true,
-            "can_be_captured": false,
-            "area_conquest_location": null,
-            "is_boss": true,
-            "has_overdrive": false,
-            "is_underwater": false,
-            "is_zombie": false,
-            "position": "close",
-            "properties": [],
-            "auto_abilities": [],
-            "ap": 290,
-            "ap_overkill": 580,
-            "overkill_damage": 1432,
-            "gil": 480,
-            "steal_gil": 200,
-            "ronso_rage": [],
-            "doom_countdown": 5,
-            "poison_rate": 0.25,
-            "threaten_chance": null,
-            "zanmato_level": 1,
-            "monster_arena_price": null,
-            "sensor_text": "Heals himself with Auto-Potion, so stop him from using items.",
-            "scan_text": "Try to stop him from healing himself with Auto-Potion. He sometimes casts Berserk on other enemies, making them stronger.",
-            "stats": [
-                { "name": "hp",             "value": 1200 },
-                { "name": "mp",             "value": 330 },
-                { "name": "strength",       "value": 1 },
-                { "name": "defense",        "value": 1 },
-                { "name": "magic",          "value": 14 },
-                { "name": "magic defense",  "value": 1 },
-                { "name": "agility",        "value": 20 },
-                { "name": "luck",           "value": 15 },
-                { "name": "evasion",        "value": 0 },
-                { "name": "accuracy",       "value": 1 }
-            ],
-            "items": {
-                "drop_chance": 255,
-                "drop_condition": null,
-                "other_items": null,
-                "steal_common": {
-                    "item": "hi-potion",
-                    "amount": 1
-                },
-                "steal_rare": {
-                    "item": "x-potion",
-                    "amount": 1
-                },
-                "drop_common": {
-                    "item": "ability sphere",
-                    "amount": 1
-                },
-                "drop_rare": {
-                    "item": "ability sphere",
-                    "amount": 1
-                },
-                "secondary_drop_common": null,
-                "secondary_drop_rare": null,
-                "bribe": null
-            },
-            "equipment": {
-                "drop_chance": 12,
-                "power": 16,
-                "critical_plus": 3,
-                "ability_slots": {
-                    "min_amount": 1,
-                    "max_amount": 3,
-                    "chances": [
-                        {
-                            "amount": 2,
-                            "chance": 0.1
-                        },
-                        {
-                            "amount": 3,
-                            "chance": 0.5
-                        },
-                        {
-                            "amount": 4,
-                            "chance": 0.4
-                        }
-                    ]
-                },
-                "attached_abilities": {
-                    "min_amount": 1,
-                    "max_amount": 3,
-                    "ability_rolls": [
-                        {
-                            "amount": 2,
-                            "chance": 1
-                        }
-                    ]
-                },
-                "wpn_abilities": [
-                    {
-                        "ability": "piercing",
-                        "characters": ["kimahri", "auron"],
-                        "probability": 255
-                    },
-                    {
-                        "ability": "strength +5%",
-                        "characters": ["tidus", "wakka", "kimahri", "auron", "rikku"],
-                        "probability": 2
-                    },
-                    {
-                        "ability": "strength +3%",
-                        "characters": ["tidus", "wakka", "kimahri", "auron", "rikku"],
-                        "probability": 2
-                    },
-                    {
-                        "ability": "magic +5%",
-                        "characters": ["yuna", "lulu"],
-                        "probability": 2
-                    },
-                    {
-                        "ability": "magic +3%",
-                        "characters": ["yuna", "lulu"],
-                        "probability": 2
-                    },
-                    {
-                        "ability": "sensor",
-                        "characters": [],
-                        "probability": 3
-                    }
-                ],
-                "armor_abilities": [
-                    {
-                        "ability": "hp +5%",
-                        "characters": [],
-                        "probability": 3
-                    },
-                    {
-                        "ability": "mp +5%",
-                        "characters": [],
-                        "probability": 2
-                    },
-                    {
-                        "ability": "magic def +3%",
-                        "characters": [],
-                        "probability": 2
-                    }
-                ]
-            },
-            "elem_resists": [],
-            "status_resists": {
-                "immunities": ["silence", "sleep", "slow", "threaten", "magic break"],
-                "resistances": [
-                    {
-                        "status": "death",
-                        "resistance": 25
-                    },
-                    {
-                        "status": "petrification",
-                        "resistance": 25
-                    },
-                    {
-                        "status": "poison",
-                        "resistance": 25
                     }
                 ]
             },
@@ -16911,7 +16744,7 @@
         },
         {
             "name": "guado guardian",
-            "version": "d",
+            "version": "c",
             "specification": "Home",
             "notes": null,
             "species": "humanoid",
@@ -41173,7 +41006,7 @@
             "altered_states": []
         },
         {
-            "name": "ultima buster arms",
+            "name": "ultima buster arm",
             "version": null,
             "specification": null,
             "notes": null,
@@ -42517,6 +42350,56 @@
             "altered_states": []
         },
         {
+            "name": "dark koma inu",
+            "version": null,
+            "specification": null,
+            "notes": null,
+            "species": "aeon",
+            "is_story_based": true,
+            "can_be_captured": false,
+            "area_conquest_location": null,
+            "is_boss": true,
+            "has_overdrive": false,
+            "is_underwater": false,
+            "is_zombie": false,
+            "position": "close",
+            "properties": [],
+            "auto_abilities": [],
+            "ap": 0,
+            "ap_overkill": 0,
+            "overkill_damage": 300,
+            "gil": 0,
+            "steal_gil": null,
+            "ronso_rage": [],
+            "doom_countdown": 3,
+            "poison_rate": 0.25,
+            "threaten_chance": null,
+            "zanmato_level": 1,
+            "monster_arena_price": null,
+            "sensor_text": null,
+            "scan_text": null,
+            "stats": [
+                { "name": "hp",             "value": 100 },
+                { "name": "mp",             "value": 1 },
+                { "name": "strength",       "value": 10 },
+                { "name": "defense",        "value": 1 },
+                { "name": "magic",          "value": 1 },
+                { "name": "magic defense",  "value": 1 },
+                { "name": "agility",        "value": 1 },
+                { "name": "luck",           "value": 1 },
+                { "name": "evasion",        "value": 0 },
+                { "name": "accuracy",       "value": 30 }
+            ],
+            "items": null,
+            "equipment": null,
+            "elem_resists": [],
+            "status_resists": {
+                "immunities": ["threaten", "bribe", "scan", "sensor", "slice"],
+                "resistances": []
+            },
+            "altered_states": []
+        },
+        {
             "name": "dark anima",
             "version": null,
             "specification": null,
@@ -43221,7 +43104,7 @@
             ]
         },
         {
-            "name": "penance arms",
+            "name": "penance arm",
             "version": null,
             "specification": null,
             "notes": null,

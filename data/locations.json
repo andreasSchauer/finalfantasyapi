@@ -5624,7 +5624,7 @@
                             "area": "cabin",
                             "section": "main",
                             "can_revisit": true,
-                            "has_save_sphere": false,
+                            "has_save_sphere": true,
                             "airship_drop_off": false,
                             "has_compilation_sphere": false,
                             "connected_areas": [
@@ -5654,7 +5654,7 @@
                             "area": "cabin",
                             "section": "lift lower",
                             "can_revisit": true,
-                            "has_save_sphere": true,
+                            "has_save_sphere": false,
                             "airship_drop_off": false,
                             "has_compilation_sphere": false,
                             "connected_areas": [
@@ -5684,7 +5684,7 @@
                             "area": "cabin",
                             "section": "lift upper",
                             "can_revisit": true,
-                            "has_save_sphere": true,
+                            "has_save_sphere": false,
                             "airship_drop_off": false,
                             "has_compilation_sphere": false,
                             "connected_areas": [
@@ -6725,7 +6725,7 @@
                                         "location": "zanarkand ruins",
                                         "sub_location": "dome",
                                         "area": "dome",
-                                        "section": null
+                                        "section": "outside"
                                     },
                                     "connection_type": "warp",
                                     "story_only": false
@@ -6755,7 +6755,7 @@
                                         "location": "zanarkand ruins",
                                         "sub_location": "dome",
                                         "area": "dome",
-                                        "section": null
+                                        "section": "outside"
                                     },
                                     "connection_type": "both-directions",
                                     "story_only": false
@@ -6770,7 +6770,7 @@
                     "areas": [
                         {
                             "area": "dome",
-                            "section": null,
+                            "section": "outside",
                             "can_revisit": true,
                             "has_save_sphere": true,
                             "airship_drop_off": false,
@@ -6781,16 +6781,6 @@
                                         "location": "zanarkand ruins",
                                         "sub_location": "zanarkand ruins",
                                         "area": "overpass",
-                                        "section": null
-                                    },
-                                    "connection_type": "both-directions",
-                                    "story_only": false
-                                },
-                                {
-                                    "location_area": {
-                                        "location": "zanarkand ruins",
-                                        "sub_location": "dome",
-                                        "area": "interior",
                                         "section": null
                                     },
                                     "connection_type": "both-directions",
@@ -6829,6 +6819,36 @@
                             ]
                         },
                         {
+                            "area": "dome",
+                            "section": "entrance",
+                            "can_revisit": true,
+                            "has_save_sphere": false,
+                            "airship_drop_off": false,
+                            "has_compilation_sphere": false,
+                            "connected_areas": [
+                                {
+                                    "location_area": {
+                                        "location": "zanarkand ruins",
+                                        "sub_location": "dome",
+                                        "area": "dome",
+                                        "section": "outside"
+                                    },
+                                    "connection_type": "both-directions",
+                                    "story_only": false
+                                },
+                                {
+                                    "location_area": {
+                                        "location": "zanarkand ruins",
+                                        "sub_location": "dome",
+                                        "area": "interior",
+                                        "section": null
+                                    },
+                                    "connection_type": "both-directions",
+                                    "story_only": false
+                                }
+                            ]
+                        },
+                        {
                             "area": "interior",
                             "section": null,
                             "can_revisit": true,
@@ -6841,7 +6861,7 @@
                                         "location": "zanarkand ruins",
                                         "sub_location": "dome",
                                         "area": "dome",
-                                        "section": null
+                                        "section": "outside"
                                     },
                                     "connection_type": "both-directions",
                                     "story_only": false
@@ -6891,7 +6911,7 @@
                                         "location": "zanarkand ruins",
                                         "sub_location": "dome",
                                         "area": "dome",
-                                        "section": null
+                                        "section": "outside"
                                     },
                                     "connection_type": "warp",
                                     "story_only": true
@@ -6901,7 +6921,7 @@
                                         "location": "zanarkand ruins",
                                         "sub_location": "dome",
                                         "area": "dome",
-                                        "section": null
+                                        "section": "outside"
                                     },
                                     "connection_type": "warp",
                                     "story_only": false
