@@ -1,0 +1,2202 @@
+--- src/main/resources/ffx_ps2/ffx/master/new_uspc/battle/kernel/monmagic1.bin ---
+
+
+
+4000 (Offset 0014) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Shatter=10%, anim=1/0000/0000 } 
+
+
+4001 (Offset 0070) - [Command 2]          
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0000/0000 } 
+
+
+4002 (Offset 00CC) - [Command 3]          
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0000/0000 } 
+
+
+4003 (Offset 0128) - Seed Cannon          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=85% [02h], Darkable, anim=9/00B2/00B2 } 
+
+
+4004 (Offset 0184) - Seed Burst           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=9, 1 Enemy/5, Rank=3, Hit%=130% [02h], Darkable, Inflict { Confuse (100%) }, anim=10/00B3/00B3 } 
+
+
+4005 (Offset 01E0) - Swallow              
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Eject }, anim=9/00B7/00B7 } 
+
+
+4006 (Offset 023C) - Regurgitate          
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Delay (Strong), anim=16/00B8/00B8 } 
+
+
+4007 (Offset 0298) - Readying Quake       
+{  Special, 1 Ally/5, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+
+
+4008 (Offset 02F4) - Earthquake           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=28, Team (Forced)/5, Rank=3, Hit%=Always [00h], Delay (Weak), anim=3/00B9/00B9 } 
+
+
+4009 (Offset 0350) - Self-Destruct        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=30, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Removes Caster, anim=9/00C6/00C6 } 
+
+
+400A (Offset 03AC) - [Gaze]               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=12, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (10%) }, anim=9/00B0/00B0 } 
+
+
+400B (Offset 0408) - [Ultrasonics]        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=18, Team (Forced)/5, Rank=3, Topmenu=Right, Hit%=Always [00h], anim=10/00B1/00B1 } 
+
+
+400C (Offset 0464) - Sonic Boom           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, Team (Forced)/5, Rank=3, Hit%=130% [02h], Darkable, anim=3/00B6/00B6 } 
+
+
+400D (Offset 04C0) - [Poison Dart]        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=100% [02h], Darkable, Can crit (+% from gear), Inflict { Poison (40%) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+400E (Offset 051C) - [Command]            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=35, 1 Enemy/5, Rank=3, Hit%=85% [02h], Darkable, Can crit (+% from gear), Shatter=90%, anim=5/0000/0000 } 
+
+
+400F (Offset 0578) - Berserk              
+{  Magical, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Inflict { Berserk (120%) }, anim=3/014E/00C4 } 
+
+
+4010 (Offset 05D4) - Auto-Potion          
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=20, 1 Ally/5, Rank=3, Hit%=Always [00h], anim=2/006E/006E } 
+
+
+4011 (Offset 0630) - [Rifle]              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), anim=10/00BB/00BB } 
+
+
+4012 (Offset 068C) - [Rifle]              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=140% [02h], Darkable, Can crit (+% from gear), Inflict { Zombie (80%) }, anim=10/00BB/00BB } 
+
+
+4013 (Offset 06E8) - [Flamethrower]       
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=22, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=9/0139/0139 } 
+
+
+4014 (Offset 0744) - Thrust Kick          
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Eject }, anim=3/0138/0138 } 
+
+
+4015 (Offset 07A0) - [Water Spurt]        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=22, 1 Enemy/5, Rank=3, Hit%=100% [02h], Darkable, Element=Water, anim=9/00B4/00B4 } 
+
+
+4016 (Offset 07FC) - Sonic Boom           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=13, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/0045/0045 } 
+
+
+4017 (Offset 0858) - [Command]            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=30, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0000/0000 } 
+
+
+4018 (Offset 08B4) - [Preparation]        
+{  Special, 1-hit, 1 Ally/5, Rank=3, Hit%=Always [00h], anim=3/0000/0000 } 
+
+
+4019 (Offset 0910) - [Landing]            
+{  Special, 1-hit, 1 Ally/5/Dead, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+401A (Offset 096C) - [Crawl]              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=10, 1 Enemy/5, Rank=3, Hit%=70% [02h], Darkable, Shatter=100%, anim=8/0000/0000 } 
+
+
+401B (Offset 09C8) - [Breath]             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=18, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=9/00AB/00AB } 
+
+
+401C (Offset 0A24) - [Breath]             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=18, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Ice, anim=10/00AC/00AC } 
+
+
+401D (Offset 0A80) - [Breath]             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=18, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=11/00AD/00AD } 
+
+
+401E (Offset 0ADC) - [Breath]             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=19, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=10/00AE/00AE } 
+
+
+401F (Offset 0B38) - [Single]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, anim=3/012C/012C } 
+
+
+4020 (Offset 0B94) - [All]                
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=4/012D/012D } 
+
+
+4021 (Offset 0BF0) - Sonic Wave           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=14, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=12/00BD/00BD } 
+
+
+4022 (Offset 0C4C) - Core Energy          
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=44, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=11/0119/0119 } 
+
+
+4023 (Offset 0CA8) - Shimmering Rain      
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=30, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=10/011A/011A } 
+
+
+4024 (Offset 0D04) - Gore                 
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=25, 1 Enemy/5, Rank=3, Hit%=150% [02h], Darkable, Can crit (+% from gear), anim=6/0000/0000 } 
+
+
+4025 (Offset 0D60) - Breath               
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (80%) }, anim=3/0048/0048 } 
+
+
+4026 (Offset 0DBC) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=110% [02h], Darkable, Can crit (+% from gear), Shatter=10%, anim=1/0000/0000 } 
+
+
+4027 (Offset 0E18) - Reaper               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=13, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+4028 (Offset 0E74) - Leaping Swing        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=25, 1 Enemy/5, Rank=3, Hit%=95% [02h], Darkable, Can crit (+% from gear), anim=3/0110/0110 } 
+
+
+4029 (Offset 0ED0) - Electrocute          
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=32, 1 Enemy/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=9/00CF/00CF } 
+
+
+402A (Offset 0F2C) - Earthquake           
+{ Physical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=22, Team (Forced)/5, Rank=3, Piercing, Hit%=Always [00h], Delay (Weak), anim=9/012A/012A } 
+
+
+402B (Offset 0F88) - Ochu Dance           
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (20%); Silence (80%, 3 turns); Darkness (80%, 3 turns); Slow (20%, 5 turns) }, anim=10/012B/012B } 
+
+
+402C (Offset 0FE4) - Pollen               
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Sleep (80%, 2 turns) }, anim=9/0179/0179 } 
+
+
+402D (Offset 1040) - Pollen               
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Sleep (80%, 3 turns); Darkness (80%, 3 turns) }, anim=9/0179/0179 } 
+
+
+402E (Offset 109C) - Pollen               
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (80%); Silence (80%, 3 turns); Darkness (80%, 3 turns) }, anim=9/0179/0179 } 
+
+
+402F (Offset 10F8) - Maelstrom            
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=32, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/00BE/00BE } 
+
+
+4030 (Offset 1154) - Rush                 
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Ally/5, Rank=3, Hit%=85% [02h], Darkable, anim=5/0000/0000 } 
+
+
+4031 (Offset 11B0) - 1000 Needles         
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=9/0164/0164 } 
+
+
+4032 (Offset 120C) - 10000 Needles        
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=200, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/0165/0165 } 
+
+
+4033 (Offset 1268) - Run Away             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+4034 (Offset 12C4) - Blast Punch          
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=8, 1 Enemy/5, Rank=3, Hit%=Always [00h], Delay (Weak), anim=10/00BA/00BA } 
+
+
+4035 (Offset 1320) - Haymaker             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=30, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Shatter=35%, anim=8/0000/0000 } 
+
+
+4036 (Offset 137C) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Poison (80%) }, anim=1/0000/0000 } 
+
+
+4037 (Offset 13D8) - [Open]               
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+4038 (Offset 1434) - Stone Gaze           
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (50%) }, anim=10/0112/0112 } 
+
+
+4039 (Offset 1490) - Sonic Tail           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=17, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/0114/0114 } 
+
+
+403A (Offset 14EC) - Emblem of Fate       
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=34, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/0118/0118 } 
+
+
+403B (Offset 1548) - [Counterattack]      
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=18/0000/0000 } 
+
+
+403C (Offset 15A4) - Psych Up             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+403D (Offset 1600) - Energy Ray           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=26, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/0096/0096 } 
+
+
+403E (Offset 165C) - [Burn]               
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+403F (Offset 16B8) - [Grow2]              
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+4040 (Offset 1714) - [Grow3]              
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+4041 (Offset 1770) - [Grow4]              
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+
+
+4042 (Offset 17CC) - Self-Destruct        
+{ Physical HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=12, 1 Enemy/5/Dead, Rank=3, Piercing, Hit%=Always [00h], Element=Fire, Removes Caster, anim=10/0137/0137 } 
+
+
+4043 (Offset 1828) - [RUSH]               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Element=Fire, anim=1/0000/0000 } 
+
+
+4044 (Offset 1884) - Pharaoh
+'s Curse      {  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Inflict { Poison (130%); Silence (150%, Endless); Darkness (150%, Endless); Curse }, anim=3/0152/016D } 
+
+
+4045 (Offset 18E0) - Charging             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=18/0000/0000 } 
+
+
+4046 (Offset 193C) - Flame Ball           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=19, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=10/00BF/00BF } 
+
+
+4047 (Offset 1998) - Flame Ball           
+{  Magical HP Damage, Formula=MAG (ignore MDF) [04h], 1-hit, Power=19, Team (Forced)/5, Rank=3, Piercing, Hit%=Always [00h], Element=Fire, anim=10/00BF/00BF } 
+
+
+4048 (Offset 19F4) - Self-Destruct        
+{ Physical HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Element=Fire, Removes Caster, anim=10/0137/0137 } 
+
+
+4049 (Offset 1A50) - Self-Destruct        
+{ Physical HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=50, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Element=Fire, Removes Caster, anim=10/0137/0137 } 
+
+
+404A (Offset 1AAC) - Self-Destruct        
+{ Physical HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Element=Fire, Removes Caster, anim=10/0137/0137 } 
+
+
+404B (Offset 1B08) - Death                
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Inflict { Death (Infinite%) }, anim=9/0062/0062 } 
+
+
+404C (Offset 1B64) - Doom                 
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Inflict { Doom }, anim=10/00BC/00BC } 
+
+
+404D (Offset 1BC0) - Aqua Breath          
+{  Magical HP Damage, Formula=MAG (ignore MDF) [04h], 1-hit, Power=17, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Water, anim=9/0180/0180 } 
+
+
+404E (Offset 1C1C) - Megiddo Flame        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=35, 1 Enemy/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=10/017E/017E } 
+
+
+404F (Offset 1C78) - Silence              
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Inflict { Silence (150%, 3 turns) }, anim=3/0153/016E } 
+
+
+4050 (Offset 1CD4) - Blades               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=180% [02h], Darkable, anim=9/00C8/00C8 } 
+
+
+4051 (Offset 1D30) - Poison Mist          
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=12, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (130%); Confuse (50%) }, anim=9/0166/0166 } 
+
+
+4052 (Offset 1D8C) - [GNAW]               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/00C7/00C7 } 
+
+
+4053 (Offset 1DE8) - Bad Breath           
+{  Special, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (150%); Confuse (80%); Berserk (30%); Silence (100%, 3 turns); Darkness (100%, 3 turns); Slow (130%, 3 turns) }, anim=10/00C1/00C1 } 
+
+
+4054 (Offset 1E44) - [Gastric Juice]      
+{ Physical HP Damage, Formula=STR (ignore DEF) [02h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=130% [02h], Darkable, anim=11/00C2/00C2 } 
+
+
+4055 (Offset 1EA0) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=110% [02h], Darkable, Can crit (+% from gear), Inflict { Poison (80%) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+4056 (Offset 1EFC) - [Munch]              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0169/0169 } 
+
+
+4057 (Offset 1F58) - [Full-Auto]          
+{  Magical HP Damage, Formula=STR (ignore DEF) [02h], 1-hit, Power=10, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=12/00C3/00C3 } 
+
+
+4058 (Offset 1FB4) - Double Reaper        
+{ Physical HP Damage, Formula=STR (ignore DEF) [02h], 1-hit, Power=32, Team (Forced)/5, Rank=3, Hit%=Always [00h], Delay (Weak), anim=3/0111/0111 } 
+
+
+4059 (Offset 2010) - [RUSH]               
+{ Physical HP Damage, Formula=Current/16 [05h], 1-hit, Power=4, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), anim=1/0000/0000 } 
+
+
+405A (Offset 206C) - White Wind           
+{  Special HP Restore, Formula=Current/16 [05h], 1-hit, Power=8, Team (Forced)/5, Rank=3, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Provoke; Threaten; Sleep (Always, 0 turns); Silence (Always, 0 turns); Darkness (Always, 0 turns); Slow (Always, 0 turns) }, anim=3/01A2/01A2 } 
+
+
+405B (Offset 20C8) - Mighty Guard         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Shell (Always, Endless); Protect (Always, Endless); NulAll (Always, 1 block) }, anim=3/023B/023B } 
+
+
+405C (Offset 2124) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, 1 Enemy/5, Rank=3, Hit%=60% [02h], Darkable, Can crit (+% from gear), anim=1/0000/0000 } 
+
+
+405D (Offset 2180) - Sonic Wings          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, 1 Enemy/5, Rank=3, Hit%=Always [00h], Delay (Weak), anim=3/0095/0095 } 
+
+
+405E (Offset 21DC) - Hellfire             
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=70, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=3/0133/0133 } 
+
+
+405F (Offset 2238) - Mega Flare           
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=44, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/00AA/00AA } 
+
+
+4060 (Offset 2294) - Karma                
+{  Special HP Damage, Formula=Fixed xKills [16h], 1-hit, Power=10, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=9/010F/010F } 
+
+
+4061 (Offset 22F0) - Voodoo               
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=200, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/0113/0113 } 
+
+
+4062 (Offset 234C) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Shatter=10%, anim=1/0000/0000 } 
+
+
+4063 (Offset 23A8) - [Cancel Counter]     
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=19/0000/0000 } 
+
+
+4064 (Offset 2404) - Aerospark            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=22, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, anim=3/0047/0047 } 
+
+
+4065 (Offset 2460) - Thor
+'s Hammer        {  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=3/009B/009B } 
+
+
+4066 (Offset 24BC) - Heave                
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=28, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), anim=10/00C9/00C9 } 
+
+
+4067 (Offset 2518) - Nova                 
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=60, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/011B/011B } 
+
+
+4068 (Offset 2574) - Earthquake           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=12, Team (Forced)/5, Rank=3, Hit%=Always [00h], Delay (Strong), anim=10/0116/0116 } 
+
+
+4069 (Offset 25D0) - Meteor               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=45, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/00CB/00CB } 
+
+
+406A (Offset 262C) - Tail                 
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=23, Team (Forced)/5, Rank=3, Hit%=160% [02h], Darkable, anim=11/00CA/00CA } 
+
+
+406B (Offset 2688) - Breath               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=34, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=9/0115/0115 } 
+
+
+406C (Offset 26E4) - Body Splash          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=13, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/0167/0167 } 
+
+
+406D (Offset 2740) - Mortar               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=28, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=10/0168/0168 } 
+
+
+406E (Offset 279C) - Mana Focus           
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+406F (Offset 27F8) - Earthquake           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Team (Forced)/5, Rank=3, Piercing, Hit%=0% [02h], anim=9/012A/012A } 
+
+
+4070 (Offset 2854) - Blaster              
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (180%) }, anim=9/0212/0212 } 
+
+
+4071 (Offset 28B0) - Blaster              
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Death (Always) }, anim=10/0213/0213 } 
+
+
+4072 (Offset 290C) - [Claw]               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Zombie (120%); Curse }, Shatter=30%, anim=1/0000/0000 } 
+
+
+4073 (Offset 2968) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0117/0117 } 
+
+
+4074 (Offset 29C4) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/00A1/00A1 } 
+
+
+4075 (Offset 2A20) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/00A0/00A0 } 
+
+
+4076 (Offset 2A7C) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/00A7/00A7 } 
+
+
+4077 (Offset 2AD8) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0144/0144 } 
+
+
+4078 (Offset 2B34) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/01B4/01B4 } 
+
+
+4079 (Offset 2B90) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/012E/012E } 
+
+
+407A (Offset 2BEC) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0205/0205 } 
+
+
+407B (Offset 2C48) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0204/0204 } 
+
+
+407C (Offset 2CA4) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0206/0206 } 
+
+
+407D (Offset 2D00) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=9/01B5/01B5 } 
+
+
+407E (Offset 2D5C) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=9/01B6/01B6 } 
+
+
+407F (Offset 2DB8) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Shatter=10%, anim=1/0000/0000 } 
+
+
+4080 (Offset 2E14) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=50%, anim=20/0000/0000 } 
+
+
+4081 (Offset 2E70) - [Waddle]             
+{  Special, 1-hit, 1 Ally/5, Rank=3, Hit%=Always [00h], anim=18/0000/0000 } 
+
+
+4082 (Offset 2ECC) - Kozuka               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01AF/01AF } 
+
+
+4083 (Offset 2F28) - Wakizashi            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=28, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01B0/01B0 } 
+
+
+4084 (Offset 2F84) - Wakizashi            
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=24, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01B1/01B1 } 
+
+
+4085 (Offset 2FE0) - Zanmato              
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=200, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/01B2/01B2 } 
+
+
+4086 (Offset 303C) - Daigoro              
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=18/0000/0000 } 
+
+
+4087 (Offset 3098) - Wrong
+!               {  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=30, Team (Forced)/5, Rank=3, Hit%=Always [00h], Removes Caster, anim=9/020A/020A } 
+
+
+4088 (Offset 30F4) - Bingo
+!               {  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/0209/0209 } 
+
+
+4089 (Offset 3150) - Meteor Strike        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=28, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], anim=3/0131/0131 } 
+
+
+408A (Offset 31AC) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0077/0077 } 
+
+
+408B (Offset 3208) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0239/0239 } 
+
+
+408C (Offset 3264) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0238/0238 } 
+
+
+408D (Offset 32C0) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/024A/024A } 
+
+
+408E (Offset 331C) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/023A/023A } 
+
+
+408F (Offset 3378) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/024B/024B } 
+
+
+4090 (Offset 33D4) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/024C/024C } 
+
+
+4091 (Offset 3430) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0215/0215 } 
+
+
+4092 (Offset 348C) - [Summon]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/024D/024D } 
+
+
+4093 (Offset 34E8) - Earthquake           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Team (Forced)/5, Rank=3, Piercing, Hit%=0% [02h], anim=3/00B9/00B9 } 
+
+
+4094 (Offset 3544) - [Reaction]           
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=18/0000/0000 } 
+
+
+4095 (Offset 35A0) - Heavenly Strike      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=30, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Threaten (100%) }, anim=3/00A3/00A3 } 
+
+
+4096 (Offset 35FC) - Diamond Dust         
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Ice, anim=3/00A5/00A5 } 
+
+
+4097 (Offset 3658) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Darkness (10%, 3 turns) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+4098 (Offset 36B4) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Darkness (30%, 3 turns) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+4099 (Offset 3710) - [Gaze]               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=12, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (30%) }, anim=9/00B0/00B0 } 
+
+
+409A (Offset 376C) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Slow (10%, 3 turns) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+409B (Offset 37C8) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Slow (30%, 3 turns) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+409C (Offset 3824) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Berserk (10%) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+409D (Offset 3880) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Berserk (30%) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+409E (Offset 38DC) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Sleep (10%, 3 turns); Silence (10%, 3 turns) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+409F (Offset 3938) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Sleep (30%, 3 turns); Silence (30%, 3 turns) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+40A0 (Offset 3994) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Petrify (10%); Silence (10%, 3 turns) }, anim=1/0000/0000 } 
+
+
+40A1 (Offset 39F0) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Petrify (30%); Silence (30%, 3 turns) }, anim=1/0000/0000 } 
+
+
+40A2 (Offset 3A4C) - [Mimic1]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0100/0100 } 
+
+
+40A3 (Offset 3AA8) - [Mimic2]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/007C/007C } 
+
+
+40A4 (Offset 3B04) - [Mimic3]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/007D/007D } 
+
+
+40A5 (Offset 3B60) - [Mimic4]             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/007E/007E } 
+
+
+40A6 (Offset 3BBC) - Energy Blast         
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/0097/025C } 
+
+
+40A7 (Offset 3C18) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Poison (100%) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+40A8 (Offset 3C74) - [GNAW]               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Poison (100%) }, anim=10/00C7/00C7 } 
+
+
+40A9 (Offset 3CD0) - Stone Gaze           
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (100%) }, anim=10/0112/0112 } 
+
+
+40AA (Offset 3D2C) - Charging             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=18/0000/0000 } 
+
+
+40AB (Offset 3D88) - Charging             
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=18/0000/0000 } 
+
+
+40AC (Offset 3DE4) - Heavenly Strike      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=30, 1 Enemy/5, Rank=3, Hit%=Always [00h], Delay (Weak), anim=3/00A3/00A3 } 
+
+
+40AD (Offset 3E40) - Impulse              
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=25, Team (Forced)/5, Rank=3, Piercing, Hit%=Always [00h], Delay (Weak), anim=3/00A9/00A9 } 
+
+
+40AE (Offset 3E9C) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=95% [02h], Can crit (+% from gear), anim=1/0000/0000 } 
+
+
+40AF (Offset 3EF8) - Pain                 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Death (100%) }, anim=3/0099/0099 } 
+
+
+40B0 (Offset 3F54) - Oblivion             
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=6, Team (Forced)/5, Rank=3, Hit%=Always [00h], Delay (Weak), anim=3/009A/009A } 
+
+
+40B1 (Offset 3FB0) - Daigoro              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Shatter=10%, anim=1/0000/0000 } 
+
+
+40B2 (Offset 400C) - Paean of the Heavens 
+{ Physical HP Damage, Formula=Max/16 [08h], 1-hit, Power=15, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Darkness (Infinite%, 30 turns) }, Delay (Strong), Shatter=100%, anim=9/0045/0045 } 
+
+
+40B3 (Offset 4068) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Shatter=100%, anim=1/0000/0000 } 
+
+
+40B4 (Offset 40C4) - Putrid Breath        
+{ Physical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=22, BDL, Team (Forced)/5, Rank=6, Hit%=Always [00h], Inflict { Poison (Infinite%); Confuse (Infinite%); Silence (Infinite%, 8 turns); Darkness (Infinite%, 8 turns); Slow (Infinite%, Endless) }, Shatter=100%, anim=10/00C1/00C1 } 
+
+
+40B5 (Offset 4120) - Mega Gastric Juice   
+{  Special HP Damage, Formula=STR (ignore DEF) [02h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=240% [02h], Inflict { All Breaks (Infinite%) }, Shatter=100%, anim=11/00C2/00C2 } 
+
+
+40B6 (Offset 417C) - Chow Time            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=50, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=3/0169/0169 } 
+
+
+40B7 (Offset 41D8) - Gastric Juice Blast  
+{ Physical HP Damage, Formula=STR (ignore DEF) [02h], 1-hit, Power=16, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (50%) }, Shatter=100%, anim=12/00C3/00C3 } 
+
+
+40B8 (Offset 4234) - Chaos                
+{  Special, Formula=MAG vs MDF [03h], 1-hit, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (Infinite%); Curse; Doom }, anim=3/0151/016C } 
+
+
+40B9 (Offset 4290) - Hyper Blaster        
+{  Special, 1-hit, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Death (Always) }, anim=10/0213/0213 } 
+
+
+40BA (Offset 42EC) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=150% [02h], Darkable, Can crit (+% from gear), Shatter=100%, anim=1/0000/0000 } 
+
+
+40BB (Offset 4348) - Cold Stare           
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=20, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (Infinite%) }, anim=10/0112/0112 } 
+
+
+40BC (Offset 43A4) - 10000 Needles        
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=200, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=9/0164/0164 } 
+
+
+40BD (Offset 4400) - Hades Claws          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=2, Hit%=180% [02h], Darkable, Can crit, Inflict { Death (Infinite%); Poison (Infinite%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40BE (Offset 445C) - Blade Shower         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=60, BDL, 1 Enemy/5, Rank=4, Hit%=Always [00h], Can crit, Shatter=100%, anim=9/00C8/00C8 } 
+
+
+40BF (Offset 44B8) - Shining              
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 8-hit, Power=9, Team (Forced, Random)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=11/013B/013B } 
+
+
+40C0 (Offset 4514) - Fangs of Ruin        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+30%), Shatter=100%, anim=1/0000/0000 } 
+
+
+40C1 (Offset 4570) - Fangs of Chaos       
+{ Physical HP Damage, Formula=Current/16 [05h], 1-hit, Power=15, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+10%), Inflict { Confuse (Infinite%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40C2 (Offset 45CC) - Fangs of Hell        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=200% [02h], Can crit, Inflict { Death (Always) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40C3 (Offset 4628) - Black Stare          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=60, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Curse }, Shatter=100%, anim=9/00B0/00B0 } 
+
+
+40C4 (Offset 4684) - Shockwave            
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=30, BDL, Team (Forced)/5, Rank=3, Topmenu=Right, Hit%=Always [00h], Inflict { Confuse (Infinite%); Sleep (Infinite%, 10 turns); Silence (Infinite%, 10 turns); Darkness (Infinite%, 10 turns); Slow (Infinite%, Endless) }, anim=10/00B1/00B1 } 
+
+
+40C5 (Offset 46E0) - Drain Touch          
+{ Physical HP Absorb, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Darkable, Shatter=100%, anim=1/0000/0000 } 
+
+
+40C6 (Offset 473C) - Poison Touch         
+{ Physical HP Damage, Formula=Current/16 [05h], 1-hit, Power=12, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Darkable, Inflict { Poison (Infinite%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40C7 (Offset 4798) - Attack               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=5, Hit%=Always [00h], Can crit (+20%), Inflict { Berserk (Infinite%) }, Delay (Strong), Shatter=100%, anim=1/0000/0000 } 
+
+
+40C8 (Offset 47F4) - Rush Attack          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=1, Hit%=Always [00h], Can crit (+20%), Inflict { Berserk (Infinite%) }, Delay (Strong), Shatter=100%, anim=1/0000/0000 } 
+
+
+40C9 (Offset 4850) - [Nothing]            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+10%), Shatter=100%, anim=1/0000/0000 } 
+
+
+40CA (Offset 48AC) - [Nothing]            
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=22, BDL, Team (Forced)/5, Rank=1, Hit%=Always [00h], Element=Fire, anim=9/00AE/00AE } 
+
+
+40CB (Offset 4908) - [Nothing]            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Death (100%); Sleep (80%, 3 turns); Silence (80%, 3 turns); Darkness (80%, 3 turns) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40CC (Offset 4964) - Bewitching Stab      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Confuse (Infinite%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40CD (Offset 49C0) - Venomous Stab        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Poison (Infinite%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40CE (Offset 4A1C) - Attack               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+20%), Shatter=100%, anim=1/0000/0000 } 
+
+
+40CF (Offset 4A78) - Crush Spike          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+20%), Inflict { Death (Infinite%) }, Shatter=100%, anim=6/0000/0000 } 
+
+
+40D0 (Offset 4AD4) - Salvo                
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=80, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=10/00BF/00BF } 
+
+
+40D1 (Offset 4B30) - Beak                 
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit, Delay (Strong), Shatter=100%, anim=1/0000/0000 } 
+
+
+40D2 (Offset 4B8C) - Beak of Woe          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, BDL, 1 Enemy/5, Rank=2, Hit%=Always [00h], Can crit, Inflict { Curse }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40D3 (Offset 4BE8) - Reppageki            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=200% [02h], Can crit, Shatter=100%, anim=1/0000/0000 } 
+
+
+40D4 (Offset 4C44) - Bushinzan            
+{ Physical HP/MP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Can crit, Shatter=100%, anim=5/0000/0000 } 
+
+
+40D5 (Offset 4CA0) - Shinryudan           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=25, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit, Shatter=100%, anim=3/0110/0110 } 
+
+
+40D6 (Offset 4CFC) - Goodnight            
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=20, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (Infinite%); Berserk (Infinite%); Power Break (Infinite%); Armor Break (Infinite%); Sleep (Infinite%, 99 turns) }, anim=9/0179/0179 } 
+
+
+40D7 (Offset 4D58) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit, Shatter=100%, anim=1/0000/0000 } 
+
+
+40D8 (Offset 4DB4) - Ethereal Cannon      
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=255, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=11/0119/0119 } 
+
+
+40D9 (Offset 4E10) - Ultra Spark          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (Infinite%); Power Break (Infinite%); Slow (Infinite%, Endless); Curse }, Shatter=100%, anim=10/011A/011A } 
+
+
+40DA (Offset 4E6C) - Razzia               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=21, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0200/0200 } 
+
+
+40DB (Offset 4EC8) - Camisade             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=21, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0201/0201 } 
+
+
+40DC (Offset 4F24) - Passado              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 15-hit, Power=2, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0202/0202 } 
+
+
+40DD (Offset 4F80) - Delta Attack         
+{  Special HP Damage, Formula=STR vs DEF [01h], 6-hit, Power=10, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), anim=3/0203/0203 } 
+
+
+40DE (Offset 4FDC) - Mighty Guard         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Shell (Always, 6 turns); Protect (Always, 6 turns); NulAll (Always, 1 block) }, anim=3/023C/023C } 
+
+
+40DF (Offset 5038) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Inflict { Darkness (30%, 3 turns) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40E0 (Offset 5094) - [Breath]             
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=22, Team (Forced)/5, Rank=1, Hit%=Always [00h], Element=Ice, anim=10/00AC/00AC } 
+
+
+40E1 (Offset 50F0) - [Breath]             
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=22, Team (Forced)/5, Rank=1, Hit%=Always [00h], Element=Thunder, anim=11/00AD/00AD } 
+
+
+40E2 (Offset 514C) - Space-Time Vorpal    
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=9/0114/0114 } 
+
+
+40E3 (Offset 51A8) - Triple Attack        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=1, Hit%=Always [00h], Can crit (+10%), Shatter=100%, anim=1/0000/0000 } 
+
+
+40E4 (Offset 5204) - [Attack3]            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=1, Hit%=Always [00h], Can crit (+10%), Shatter=100%, anim=1/0000/0000 } 
+
+
+40E5 (Offset 5260) - [Die]                
+{  Special, 1-hit, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0204/0204 } 
+
+
+40E6 (Offset 52BC) - Hellfire             
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=70, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=3/0233/0264 } 
+
+
+40E7 (Offset 5318) - Thor
+'s Hammer        {  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=3/00A4/0265 } 
+
+
+40E8 (Offset 5374) - [Attack]             
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=200, 1 Enemy/5, Rank=3, Hit%=0% [02h], Darkable, Shatter=10%, anim=1/0000/0000 } 
+
+
+40E9 (Offset 53D0) - Self-Destruct        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=50, Team (Forced)/5, Rank=3, Hit%=Always [00h], Removes Caster, anim=9/020A/020A } 
+
+
+40EA (Offset 542C) - Voodoo               
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=255, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/0113/0113 } 
+
+
+40EB (Offset 5488) - Regurgitate          
+{ Physical HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=200, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Delay (Strong), anim=16/00B8/00B8 } 
+
+
+40EC (Offset 54E4) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=160% [02h], Darkable, Can crit (+% from gear), Shatter=10%, anim=1/0000/0000 } 
+
+
+40ED (Offset 5540) - Slowga               
+{  Magical CTB Damage, Formula=Ticks/16 [0Dh], 1-hit, Power=16, Team (Forced)/5, Rank=3, Piercing, Hit%=Always [00h], Silenceable, Inflict { Slow (Infinite%, Endless) }, anim=3/000E/000E } 
+
+
+40EE (Offset 559C) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Slow (Infinite%, Endless) }, Shatter=10%, anim=1/0000/0000 } 
+
+
+40EF (Offset 55F8) - Pop Fly              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=36, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Delay (Strong), Shatter=100%, anim=10/00C9/00C9 } 
+
+
+40F0 (Offset 5654) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Shatter=100%, anim=1/0000/0000 } 
+
+
+40F1 (Offset 56B0) - Emblem of the Cosmos 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=34, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=9/0118/0118 } 
+
+
+40F2 (Offset 570C) - 99999 Needles        
+{  Special HP Damage, Formula=Fixed x9999 [17h], 1-hit, Power=51, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=10/0165/0165 } 
+
+
+40F3 (Offset 5768) - Ultima               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=70, BDL, All Enemies/5/Ranged, Rank=3, Piercing, Hit%=Always [00h], Silenceable, Copycattable, Shatter=100%, anim=3H/006A/006A } 
+
+
+40F4 (Offset 57C4) - Armageddon           
+{  Special HP Damage, Formula=STR (ignore DEF) [02h], 1-hit, Power=36, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=3/011B/011B } 
+
+
+40F5 (Offset 5820) - Megaton Punch        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Death (100%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+40F6 (Offset 587C) - Eraser               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (Always) }, Shatter=100%, anim=9/0109/0109 } 
+
+
+40F7 (Offset 58D8) - Toxic Cloud          
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=43, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (Infinite%); Confuse (Infinite%); Curse }, Shatter=100%, anim=10/00F5/00F5 } 
+
+
+40F8 (Offset 5934) - Toxic Spray          
+{ Physical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=52, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%) }, Shatter=100%, anim=11/00F6/00F6 } 
+
+
+40F9 (Offset 5990) - Hundred Thorns       
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Can crit (+30%), Shatter=100%, anim=12/00F7/00F7 } 
+
+
+40FA (Offset 59EC) - Rainbow              
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (25%); Sleep (50%, 3 turns); Silence (50%, 3 turns); Darkness (50%, 3 turns); Curse }, Shatter=100%, anim=10/0181/0181 } 
+
+
+40FB (Offset 5A48) - Convergence          
+{  Magical HP Damage, Formula=MAG (ignore MDF) [04h], 1-hit, Power=63, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=9/013A/013A } 
+
+
+40FC (Offset 5AA4) - Condemn              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=12, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Can crit (+25%), Remove { Shell; Protect; Reflect; Regen; Haste; NulAll; Auto-Life }, Delay (Strong), Shatter=100%, anim=6/0000/0000 } 
+
+
+40FD (Offset 5B00) - Hydraulic Press      
+{ Physical HP Damage, Formula=Max/16 [08h], 1-hit, Power=15, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=5/0000/0000 } 
+
+
+40FE (Offset 5B5C) - Contamination        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=75, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Zombie (Always); Poison (Always); Confuse (Infinite%); All Breaks (Infinite%); Slow (Infinite%, Endless) }, Shatter=100%, anim=4/0127/0000 } 
+
+
+40FF (Offset 5BB8) - Karma                
+{  Special HP Damage, Formula=Fixed xKills [16h], 1-hit, Power=100, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=9/010F/010F } 
+
+
+4100 (Offset 5C14) - Razzia               
+{ Physical HP Damage, Formula=MAG (ignore MDF) [04h], 1-hit, Power=100, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Auto-Life }, Shatter=100%, anim=3/0200/0200 } 
+
+
+4101 (Offset 5C70) - Camisade             
+{ Physical HP/MP Damage, Formula=MAG (ignore MDF) [04h], 1-hit, Power=100, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=3/0201/0201 } 
+
+
+4102 (Offset 5CCC) - Passado              
+{  Special HP Damage, Formula=STR vs DEF [01h], 15-hit, Power=4, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+15%), Inflict { Death (Infinite%) }, Shatter=100%, anim=3/0202/0202 } 
+
+
+4103 (Offset 5D28) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Poison (Infinite%) }, Shatter=50%, anim=1/0000/0000 } 
+
+
+4104 (Offset 5D84) - Calamity             
+{  Special, Formula=MAG vs MDF [03h], 1-hit, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Poison (Infinite%); All Breaks (Infinite%); Silence (Infinite%, Endless); Darkness (Infinite%, Endless); Curse }, anim=3/0152/016D } 
+
+
+4105 (Offset 5DE0) - Mega-Graviton        
+{  Magical HP Damage, Formula=Max/16 [08h], 1-hit, Power=7, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Sleep (Infinite%, 99 turns); Silence (Infinite%, 99 turns); Darkness (Infinite%, 99 turns); Slow (Infinite%, Endless); Doom }, anim=3/0066/0067 } 
+
+
+4106 (Offset 5E3C) - Delta Attack         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 6-hit, Power=80, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Remove { Auto-Life }, anim=3/0203/0203 } 
+
+
+4107 (Offset 5E98) - Kozuka               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%); Slow (Infinite%, Endless) }, anim=3/01AF/01AF } 
+
+
+4108 (Offset 5EF4) - Wakizashi            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=3/01B0/01B0 } 
+
+
+4109 (Offset 5F50) - Wakizashi            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=28, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=3/01B0/01B0 } 
+
+
+410A (Offset 5FAC) - Zanmato              
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=250, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Remove { Auto-Life }, Shatter=100%, anim=3/01B2/01B2 } 
+
+
+410B (Offset 6008) - Daigoro              
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (Infinite%); Poison (Infinite%) }, anim=1/0000/0000 } 
+
+
+410C (Offset 6064) - Hellfire             
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/0133/0133 } 
+
+
+410D (Offset 60C0) - Hellfire             
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/0233/0264 } 
+
+
+410E (Offset 611C) - Meteor Strike        
+{  Magical HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=2, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Delay (Strong), anim=3/0131/0131 } 
+
+
+410F (Offset 6178) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+25%), Shatter=100%, anim=1/0000/0000 } 
+
+
+4110 (Offset 61D4) - Aerospark            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=40, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll; Auto-Life }, Shatter=100%, anim=3/0047/0047 } 
+
+
+4111 (Offset 6230) - Thor
+'s Hammer        {  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%) }, anim=3/009B/009B } 
+
+
+4112 (Offset 628C) - Thor
+'s Hammer        {  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%) }, anim=3/00A4/0265 } 
+
+
+4113 (Offset 62E8) - Thundaja             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=200, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Delay (Strong), anim=3/005E/005F } 
+
+
+4114 (Offset 6344) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=254% [02h], Darkable, Can crit (+% from gear), Inflict { Armor Break (Infinite%); Mental Break (Infinite%); Sleep (Infinite%, 99 turns) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+4115 (Offset 63A0) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=254% [02h], Darkable, Can crit (+% from gear), Inflict { Confuse (Infinite%); Armor Break (Infinite%); Mental Break (Infinite%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+4116 (Offset 63FC) - Aerospark            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=40, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll; Auto-Life }, Shatter=100%, anim=3/0047/0047 } 
+
+
+4117 (Offset 6458) - Heavenly Strike      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, BDL, 1 Enemy/5, Rank=2, Hit%=Always [00h], Inflict { Death (Infinite%); Confuse (Infinite%); Berserk (Infinite%) }, Shatter=100%, anim=3/00A3/00A3 } 
+
+
+4118 (Offset 64B4) - Diamond Dust         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/00A5/00A5 } 
+
+
+4119 (Offset 6510) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=1, Hit%=Always [00h], Can crit (+25%), Remove { Shell; Protect; Reflect; Regen; Haste; NulAll; Auto-Life }, anim=1/0000/0000 } 
+
+
+411A (Offset 656C) - Mega Flare           
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=2, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, Delay (Strong), anim=3/00AA/00AA } 
+
+
+411B (Offset 65C8) - Impulse              
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (Infinite%); All Breaks (Infinite%); Slow (Always, Endless) }, Delay (Strong), anim=3/00A9/00A9 } 
+
+
+411C (Offset 6624) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Zombie (Infinite%); Petrify (Infinite%); Poison (Infinite%); Curse }, Shatter=100%, anim=1/0000/0000 } 
+
+
+411D (Offset 6680) - Pain                 
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Death (Always) }, anim=3/0099/0099 } 
+
+
+411E (Offset 66DC) - Oblivion             
+{  Special HP/MP Damage, Formula=MAG (ignore MDF) [04h], 16-hit, Power=2, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, Delay (Strong), anim=3/009A/009A } 
+
+
+411F (Offset 6738) - Immolation           
+{ Physical HP/MP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Armor Break (Infinite%); Mental Break (Infinite%) }, Shatter=100%, anim=9/02C0/02C0 } 
+
+
+4120 (Offset 6794) - Obliteration         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Slow (Infinite%, Endless) }, Shatter=100%, anim=17/02C1/02C1 } 
+
+
+4121 (Offset 67F0) - Judgment Day         
+{  Special HP/MP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=240, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=17/02C2/02C2 } 
+
+
+4122 (Offset 684C) - [Separation]         
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=17/02C3/02C3 } 
+
+
+4123 (Offset 68A8) - [Appearance]         
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/02C5/02C5 } 
+
+
+4124 (Offset 6904) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=17/02C4/02C4 } 
+
+
+4125 (Offset 6960) - Regeneration         
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+4126 (Offset 69BC) - [Atrophy]            
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+4127 (Offset 6A18) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=36, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Petrify (Infinite%) }, Shatter=100%, anim=1/0000/0000 } 
+
+
+4128 (Offset 6A74) - Energy Blast         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=4, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=100%, anim=3/0097/025C } 
+
+
+4129 (Offset 6AD0) - Tera-Graviton        
+{  Magical HP Damage, Formula=Max/16 [08h], 1-hit, Power=12, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Sleep (Infinite%, 99 turns); Silence (Infinite%, 99 turns); Darkness (Infinite%, 99 turns); Slow (Infinite%, Endless); Doom }, anim=3/0066/0067 } 
+
+
+412A (Offset 6B2C) - Mighty Guard         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=3, Hit%=Always [00h], Inflict { Shell (Infinite%, Endless); Protect (Infinite%, Endless); Regen (Infinite%, Endless) }, anim=3/023C/0000 } 
+
+
+412B (Offset 6B88) - [Extra 44]           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=36, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Remove { Shell; Protect; Reflect; Regen; Haste; NulAll; Auto-Life }, Shatter=100%, anim=1/0000/0000 } 
+
+
+
+
+
+--- src/main/resources/ffx_ps2/ffx/master/new_uspc/battle/kernel/monmagic2.bin ---
+
+
+
+6000 (Offset 0014) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, anim=1/0000/0000 } 
+
+
+6001 (Offset 0070) - [Special 1]          
+{  Special, Menu, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+6002 (Offset 00CC) - [Special 2]          
+{  Special, Menu, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+6003 (Offset 0128) - [Appear]             
+{ Physical, Formula=STR vs DEF [01h], 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/00F4/00F4 } 
+
+
+6004 (Offset 0184) - Sigh                 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=10/00F5/00F5 } 
+
+
+6005 (Offset 01E0) - Venom                
+{ Physical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Poison (100%) }, anim=11/00F6/00F6 } 
+
+
+6006 (Offset 023C) - Staccato             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Can crit, anim=12/00F7/00F7 } 
+
+
+6007 (Offset 0298) - [Transform]          
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/00F8/00F8 } 
+
+
+6008 (Offset 02F4) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], Darkable, Can crit (+% from gear), anim=3/00F9/00F9 } 
+
+
+6009 (Offset 0350) - Tentacles absorb magic
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01E5/01E5 } 
+
+
+600A (Offset 03AC) - Spines               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=40, 1 Ally/5, Rank=3, Hit%=Always [00h], Shatter=10%, anim=9/0104/0104 } 
+
+
+600B (Offset 0408) - Blender              
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=10, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Water, anim=9/010A/010A } 
+
+
+600C (Offset 0464) - Blitzball Rush       
+{  Special HP Damage, Formula=STR vs DEF [01h], 10-hit, Power=4, Team (Forced, Random)/5, Rank=3, Hit%=Always [00h], anim=9/011C/011C } 
+
+
+600D (Offset 04C0) - Doze Ball            
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=7, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Sleep (Infinite%, 1 turn) }, anim=10/011D/011D } 
+
+
+600E (Offset 051C) - Blind Ball           
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=10, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Darkness (Infinite%, 1 turn) }, anim=10/011E/011E } 
+
+
+600F (Offset 0578) - Mute Ball            
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=7, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Silence (Infinite%, 1 turn) }, anim=10/011F/011F } 
+
+
+6010 (Offset 05D4) - [Thwack]             
+{ Physical HP Damage, Formula=Current/16 [05h], 1-hit, Power=3, Team (Forced)/5, Rank=3, Hit%=Always [00h], Shatter=10%, anim=3/00FA/00FA } 
+
+
+6011 (Offset 0630) - [Thwack]             
+{  Special, 1-hit, Power=10, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/00FB/00FB } 
+
+
+6012 (Offset 068C) - [Crane]              
+{ Physical HP Damage, Formula=Current/16 [05h], 1-hit, Power=15, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0120/0120 } 
+
+
+6013 (Offset 06E8) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/013E/013E } 
+
+
+6014 (Offset 0744) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/010B/010B } 
+
+
+6015 (Offset 07A0) - [Crane activated.]   
+{  Special, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+6016 (Offset 07FC) - Tentacles            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=10%, anim=5/0000/0000 } 
+
+
+6017 (Offset 0858) - [Shove]              
+{  Special, Formula=MAG vs MDF [03h], 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Power Break; Darkness }, anim=5/0000/0000 } 
+
+
+6018 (Offset 08B4) - [Gets up.]           
+{  Special, Formula=MAG vs MDF [03h], 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Power Break; Darkness }, anim=6/0000/0000 } 
+
+
+6019 (Offset 0910) - [Charging]           
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+601A (Offset 096C) - You
+'re next!         {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+
+
+601B (Offset 09C8) - Fist of Fury         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, 1 Enemy/5, Rank=3, Hit%=Always [00h], Shatter=10%, anim=1/0000/0000 } 
+
+
+601C (Offset 0A24) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/00FC/00FC } 
+
+
+601D (Offset 0A80) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/00FD/00FD } 
+
+
+601E (Offset 0ADC) - Sonic Boom           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=12, 1 Enemy/5, Rank=3, Hit%=130% [02h], Darkable, anim=3/00B6/00B6 } 
+
+
+601F (Offset 0B38) - Bash                 
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=48, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=6/00F3/00F3 } 
+
+
+6020 (Offset 0B94) - [Flank]              
+{  Special, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+6021 (Offset 0BF0) - Mana Beam            
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/010E/010E } 
+
+
+6022 (Offset 0C4C) - Gatling Gun          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 8-hit, Power=4, Team (Forced, Random)/5, Rank=3, Hit%=100% [02h], anim=16/010D/010D } 
+
+
+6023 (Offset 0CA8) - [Bit]                
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+6024 (Offset 0D04) - Aqua Shooter         
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Element=Water, anim=10/0121/0121 } 
+
+
+6025 (Offset 0D60) - Depth Charges        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Darkness (50%, 3 turns) }, anim=11/0122/0122 } 
+
+
+6026 (Offset 0DBC) - [Rise]               
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+6027 (Offset 0E18) - [Dive]               
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+6028 (Offset 0E74) - [Countdown]          
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+6029 (Offset 0ED0) - Drawn to Sin.        
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+602A (Offset 0F2C) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0232/0232 } 
+
+
+602B (Offset 0F88) - [Move]               
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+602C (Offset 0FE4) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0145/0000 } 
+
+
+602D (Offset 1040) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0126/0126 } 
+
+
+602E (Offset 109C) - [Swallow]            
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=9/0106/0106 } 
+
+
+602F (Offset 10F8) - [Regurgitate]        
+{  Special HP Damage, Formula=Fixed x User MaxHP / 10 [10h], 1-hit, Power=10, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/0107/0107 } 
+
+
+6030 (Offset 1154) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0101/0101 } 
+
+
+6031 (Offset 11B0) - Venom                
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=24, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Poison (100%); Slow (100%, 0 turns) }, anim=9/0127/0000 } 
+
+
+6032 (Offset 120C) - Stone Punch          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=100% [02h], Darkable, Inflict { Petrify (50%) }, anim=1/0000/0000 } 
+
+
+6033 (Offset 1268) - KO Punch             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=100% [02h], Darkable, Inflict { Death (50%); Curse }, anim=1/0000/0000 } 
+
+
+6034 (Offset 12C4) - Poison Claw          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), Inflict { Poison (100%) }, anim=1/0000/0000 } 
+
+
+6035 (Offset 1320) - Lord Ochu falls asleep. 
+{  Magical, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Sleep (Always, 3 turns); Regen (Always, 2 turns) }, anim=17/014F/016A } 
+
+
+6036 (Offset 137C) - Elemental Shift      
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0156/0156 } 
+
+
+6037 (Offset 13D8) - [Half HP]            
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=8, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=1/0000/0000 } 
+
+
+6038 (Offset 1434) - [One HP]             
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=15, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=1/0000/0000 } 
+
+
+6039 (Offset 1490) - Fire                 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Fire, anim=3/014A/014A } 
+
+
+603A (Offset 14EC) - Blizzard             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Ice, anim=3/004A/004A } 
+
+
+603B (Offset 1548) - Thunder              
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Thunder, anim=3/014C/014C } 
+
+
+603C (Offset 15A4) - Water                
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Water, anim=3/014D/014D } 
+
+
+603D (Offset 1600) - [Assault]            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], Removes Caster, anim=1/0000/0000 } 
+
+
+603E (Offset 165C) - Hi-Potion            
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=2/006E/006E } 
+
+
+603F (Offset 16B8) - Press                
+{ Physical HP Damage, Formula=Current/16 [05h], 1-hit, Power=8, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+6040 (Offset 1714) - Remedy               
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Petrify; Poison; Confuse; Berserk; Sleep; Silence; Darkness; Slow }, anim=2/0078/0079 } 
+
+
+6041 (Offset 1770) - Shremedy             
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (50%) }, anim=2/0151/016C } 
+
+
+6042 (Offset 17CC) - Photon Wings         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (25%); Sleep (50%, 3 turns); Silence (50%, 3 turns); Darkness (50%, 3 turns); Curse }, anim=10/0181/0181 } 
+
+
+6043 (Offset 1828) - Mana Breath          
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=48, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=9/013A/013A } 
+
+
+6044 (Offset 1884) - Tail Sweep           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=12, Team (Forced)/5, Rank=3, Hit%=100% [02h], Darkable, Remove { Haste }, Delay (Strong), anim=6/0000/0000 } 
+
+
+6045 (Offset 18E0) - Berserk Tail         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Berserk (50%) }, anim=5/0000/0000 } 
+
+
+6046 (Offset 193C) - [Counter-Attack]     
+{  Special, 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Death }, anim=5/0000/0000 } 
+
+
+6047 (Offset 1998) - [Attack All]         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, Team (Forced)/5, Rank=3, Hit%=126% [02h], Shatter=120%, anim=1/0000/0000 } 
+
+
+6048 (Offset 19F4) - [Attack]             
+{  Special HP Damage, Formula=Max/16 [08h], 1-hit, Power=16, BDL, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], Inflict { Death (Always) }, anim=10/015A/015A } 
+
+
+6049 (Offset 1A50) - [Attack]             
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/015A/015A } 
+
+
+604A (Offset 1AAC) - Earthquake           
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=8, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=9/012A/012A } 
+
+
+604B (Offset 1B08) - Photon Spray         
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 8-hit, Power=4, Team (Forced, Random)/5, Rank=3, Hit%=Always [00h], anim=11/013B/013B } 
+
+
+604C (Offset 1B64) - Stone Gaze           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (50%); Sleep (50%, 0 turns) }, anim=9/0128/0128 } 
+
+
+604D (Offset 1BC0) - Glyph Mine           
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Doom }, anim=6/0000/0000 } 
+
+
+604E (Offset 1C1C) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Enemy/5, Rank=3, Hit%=100% [02h], Darkable, Can crit (+% from gear), anim=8/0000/0000 } 
+
+
+604F (Offset 1C78) - Break                
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Inflict { Petrify (Infinite%) }, anim=3/017A/017A } 
+
+
+6050 (Offset 1CD4) - Banish               
+{  Special, Formula=MAG vs MDF [03h], 1-hit, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Eject }, anim=3/017B/017B } 
+
+
+6051 (Offset 1D30) - Seymour dismisses Anima
+! {  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0136/0136 } 
+
+
+6052 (Offset 1D8C) - Pain                 
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, 1 Enemy/5, Rank=3, Overdrive (100p), Hit%=Always [00h], anim=3/0099/0099 } 
+
+
+6053 (Offset 1DE8) - [Command 93]         
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0022/0022 } 
+
+
+6054 (Offset 1E44) - [Command 94]         
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+6055 (Offset 1EA0) - [Command 95]         
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+6056 (Offset 1EFC) - [Command 96]         
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+
+
+6057 (Offset 1F58) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Sleep (100%, 2 turns) }, anim=1/0000/0000 } 
+
+
+6058 (Offset 1FB4) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Silence (100%, 3 turns) }, anim=1/0000/0000 } 
+
+
+6059 (Offset 2010) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Darkness (100%, 3 turns) }, anim=1/0000/0000 } 
+
+
+605A (Offset 206C) - Nautilus Charge      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=48, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/00F3/00F3 } 
+
+
+605B (Offset 20C8) - Swooping Scythe      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, Team (Forced)/5/Ranged, Rank=3, Hit%=100% [02h], Shatter=50%, anim=5/0000/0000 } 
+
+
+605C (Offset 2124) - Drain Touch          
+{ Physical HP Absorb, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, anim=1/0000/0000 } 
+
+
+605D (Offset 2180) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=100% [02h], Can crit (+15%), Delay (Weak), anim=5/0000/0000 } 
+
+
+605E (Offset 21DC) - Desperado            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=10, Team (Forced)/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, anim=9/017C/017C } 
+
+
+605F (Offset 2238) - [Reflect]            
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Reflect (Always, 100 turns) }, anim=3/0082/0082 } 
+
+
+6060 (Offset 2294) - [Test]               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0000/0000 } 
+
+
+6061 (Offset 22F0) - Poison Breath        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (100%) }, anim=10/0105/0105 } 
+
+
+6062 (Offset 234C) - Stone Gaze           
+{  Magical CTB Damage, Formula=MAG vs MDF [03h], 1-hit, Power=10, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (100%); Slow (Always, 100 turns) }, anim=9/0109/0109 } 
+
+
+6063 (Offset 23A8) - Photon Spray         
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 8-hit, Power=3, Team (Forced, Random)/5, Rank=3, Hit%=Always [00h], anim=11/0108/0108 } 
+
+
+6064 (Offset 2404) - [Inhale]             
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+
+
+6065 (Offset 2460) - Out of breath range. 
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/0103/0103 } 
+
+
+6066 (Offset 24BC) - [Critical Strike]    
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=90% [02h], Darkable, Can crit (+% from gear), anim=1/0000/0000 } 
+
+
+6067 (Offset 2518) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0157/0157 } 
+
+
+6068 (Offset 2574) - Magic re-enabled.    
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Remove { Silence }, anim=3/00EB/00EB } 
+
+
+6069 (Offset 25D0) - [Regurgitate]        
+{  Special HP Damage, Formula=Fixed x User MaxHP / 10 [10h], 1-hit, Power=4, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=10/0107/0107 } 
+
+
+606A (Offset 262C) - [Regurgitate]        
+{  Special, Formula=Fixed x User MaxHP / 10 [10h], BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=10/0107/0107 } 
+
+
+606B (Offset 2688) - Photon Spray         
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 8-hit, Power=4, Team (Forced, Random)/5, Rank=3, Hit%=Always [00h], anim=11/0159/0159 } 
+
+
+606C (Offset 26E4) - [Warp]               
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+606D (Offset 2740) - Absorb               
+{  Special HP Absorb, Formula=Max/16 [08h], 1-hit, Power=8, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0084/0084 } 
+
+
+606E (Offset 279C) - Silence              
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Inflict { Silence (100%, 3 turns) }, anim=3/0153/016E } 
+
+
+606F (Offset 27F8) - [Turn]               
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (100%) }, anim=7/0000/0000 } 
+
+
+6070 (Offset 2854) - Blind                
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Inflict { Darkness (100%, 3 turns) }, anim=3/0150/016B } 
+
+
+6071 (Offset 28B0) - Sleep                
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Inflict { Sleep (100%, 3 turns) }, anim=3/014F/016A } 
+
+
+6072 (Offset 290C) - Confuse              
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Inflict { Confuse (100%) }, anim=3/0151/016C } 
+
+
+6073 (Offset 2968) - Guided Missiles      
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 12-hit, Power=4, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], anim=3/0163/0163 } 
+
+
+6074 (Offset 29C4) - Cross Cleave         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=52, Team (Forced)/5, Rank=3, Hit%=Always [00h], Delay (Strong), anim=9/013D/013D } 
+
+
+6075 (Offset 2A20) - Total Annihilation   
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 5-hit, Power=44, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=10/0183/0183 } 
+
+
+6076 (Offset 2A7C) - Shattering Claw      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5/Dead, Rank=3, Hit%=100% [02h], Shatter=90%, anim=5/0000/0000 } 
+
+
+6077 (Offset 2AD8) - Biora                
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=12, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Poison (100%) }, anim=3/0064/0065 } 
+
+
+6078 (Offset 2B34) - Lance of Atrophy     
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], Inflict { Zombie (100%) }, Shatter=30%, anim=1/0000/0000 } 
+
+
+6079 (Offset 2B90) - Flare                
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=80, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Silenceable, Reflectable, anim=3/0068/0069 } 
+
+
+607A (Offset 2BEC) - Osmose               
+{  Magical MP Absorb, Formula=Max/16 [08h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], anim=3/0086/0087 } 
+
+
+607B (Offset 2C48) - Curse                
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Poison (100%); Sleep (100%, 3 turns); Silence (100%, 3 turns); Darkness (100%, 3 turns); Curse }, anim=3/0152/016D } 
+
+
+607C (Offset 2CA4) - [Dispelling Slap]    
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=0, Hit%=Always [00h], Can crit (+10%), Remove { Shell; Protect; Haste }, anim=1/0000/0000 } 
+
+
+607D (Offset 2D00) - [Command 135]        
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=1/0000/0000 } 
+
+
+607E (Offset 2D5C) - [Metamorphosis]      
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=9/015C/015C } 
+
+
+607F (Offset 2DB8) - [Metamorphosis]      
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=10/015E/015E } 
+
+
+6080 (Offset 2E14) - Hellbiter            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Zombie (100%) }, anim=4/015D/015D } 
+
+
+6081 (Offset 2E70) - Mind Blast           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (50%) }, anim=4/0160/0160 } 
+
+
+6082 (Offset 2ECC) - Mega Death           
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Death (100%) }, anim=4/015F/015F } 
+
+
+6083 (Offset 2F28) - Gravija              
+{  Magical HP Damage, Formula=Current/16 [05h], 1-hit, Power=12, Team (Forced)/5, Rank=0, Hit%=Always [00h], anim=3/01DB/01DB } 
+
+
+6084 (Offset 2F84) - Jecht Beam           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=8, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+10%), Inflict { Petrify (100%) }, anim=4/01E2/01E2 } 
+
+
+6085 (Offset 2FE0) - Triumphant Grasp     
+{  Special HP Damage, Formula=STR vs DEF [01h], 2-hit, Power=12, Never BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+10%), Inflict { Zombie (100%) }, anim=12/023D/023D } 
+
+
+6086 (Offset 303C) - Ultimate Jecht Shot  
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=22, Never BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=26/0241/0241 } 
+
+
+6087 (Offset 3098) - Jecht Bomber         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, Never BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01DE/01DE } 
+
+
+6088 (Offset 30F4) - [Draws sword.]       
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=25/0249/0249 } 
+
+
+6089 (Offset 3150) - [Blade Blitz]        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Never BDL, Team (Forced)/5, Rank=3, Hit%=150% [02h], Darkable, Delay (Weak), anim=1/0000/0000 } 
+
+
+608A (Offset 31AC) - Jecht Beam           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=8, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+10%), Inflict { Petrify (100%) }, anim=2/01E2/01E2 } 
+
+
+608B (Offset 3208) - Power Wave           
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=30, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Zombie; Poison; All Breaks; Silence; Darkness; Slow }, anim=9/0242/0242 } 
+
+
+608C (Offset 3264) - [Command 150]        
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+608D (Offset 32C0) - Slowga               
+{  Magical CTB Damage, Formula=Ticks/16 [0Dh], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Reflectable, Inflict { Slow (Infinite%, Endless) }, anim=3/000E/000E } 
+
+
+608E (Offset 331C) - [Sin draws back.]    
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+
+
+608F (Offset 3378) - [Sin draws closer.]  
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+6090 (Offset 33D4) - Gravija              
+{  Magical HP Damage, Formula=Current/16 [05h], 1-hit, Power=12, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/01D5/01D5 } 
+
+
+6091 (Offset 3430) - Negation             
+{  Magical, 1-hit, Team (Forced)/5, Rank=3, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Provoke; Threaten; All Breaks; Sleep; Silence; Darkness; Shell; Protect; Reflect; Regen; Slow; Haste; NulAll }, anim=3/01D6/01D6 } 
+
+
+6092 (Offset 348C) - [Ram]                
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=28, Team (Forced)/5, Rank=3, Hit%=Always [00h], Delay (Strong), anim=7/0000/0000 } 
+
+
+6093 (Offset 34E8) - [Smack]              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], anim=1/0000/0000 } 
+
+
+6094 (Offset 3544) - Gravija              
+{  Magical HP Damage, Formula=Current/16 [05h], 1-hit, Power=12, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/01DB/01DB } 
+
+
+6095 (Offset 35A0) - [Command 159]        
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=1/0000/0000 } 
+
+
+6096 (Offset 35FC) - Sigh                 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=24, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Darkness (100%, 3 turns) }, anim=10/00F5/00F5 } 
+
+
+6097 (Offset 3658) - Venom                
+{ Physical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=32, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), Inflict { Poison (100%) }, anim=11/00F6/00F6 } 
+
+
+6098 (Offset 36B4) - Thrashing            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, Team (Forced)/5, Rank=3, Hit%=Always [00h], Can crit, anim=12/0293/0293 } 
+
+
+6099 (Offset 3710) - [Exits shell.]       
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0294/0294 } 
+
+
+609A (Offset 376C) - [Enters shell.]      
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01D8/01D8 } 
+
+
+609B (Offset 37C8) - Magic absorbed.      
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0250/0250 } 
+
+
+609C (Offset 3824) - Giga-Graviton        
+{  Magical HP Damage, Formula=Max/16 [08h], 1-hit, Power=16, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Death (Always) }, anim=13/01D9/01D9 } 
+
+
+609D (Offset 3880) - [Gaze]               
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Zombie (30%) }, anim=3/01DA/01DA } 
+
+
+609E (Offset 38DC) - [Gaze]               
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Petrify (30%) }, anim=3/01DA/01DA } 
+
+
+609F (Offset 3938) - [Gaze]               
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=20, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (30%) }, anim=3/01DA/01DA } 
+
+
+60A0 (Offset 3994) - [Gaze]               
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=50, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01DA/01DA } 
+
+
+60A1 (Offset 39F0) - White Wind           
+{  Special HP Restore, Formula=MAG vs MDF [03h], 1-hit, Power=80, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/00AF/00AF } 
+
+
+60A2 (Offset 3A4C) - Fire Breath          
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=3/0216/0216 } 
+
+
+60A3 (Offset 3AA8) - Aqua Breath          
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Element=Water, anim=3/0217/0217 } 
+
+
+60A4 (Offset 3B04) - Mighty Guard         
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Shell (Always, Auto); Protect (Always, Auto) }, anim=3/023B/023B } 
+
+
+60A5 (Offset 3B60) - Bulldoze             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit, anim=10/0162/0162 } 
+
+
+60A6 (Offset 3BBC) - Gravija              
+{  Special, 1-hit, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], anim=3/01D5/01D5 } 
+
+
+60A7 (Offset 3C18) - Negation             
+{  Magical, 1-hit, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Provoke; Threaten; All Breaks; Sleep; Silence; Darkness; Shell; Protect; Reflect; Regen; Slow; Haste; NulAll }, anim=3/01D6/01D6 } 
+
+
+60A8 (Offset 3C74) - Core gathers energy. 
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+60A9 (Offset 3CD0) - Mortibsorption       
+{  Special HP Absorb, Formula=Fixed x User MaxHP / 10 [10h], 1-hit, Power=10, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0084/0084 } 
+
+
+60AA (Offset 3D2C) - Assault              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, 1 Enemy/5, Rank=3, Hit%=120% [02h], anim=1/0000/0000 } 
+
+
+60AB (Offset 3D88) - Multi-Fira           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Fire, anim=3/0052/0052 } 
+
+
+60AC (Offset 3DE4) - [Command 182]        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Fire, anim=3/0052/0052 } 
+
+
+60AD (Offset 3E40) - Multi-Blizzara       
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Ice, anim=3/0054/0054 } 
+
+
+60AE (Offset 3E9C) - [Command 184]        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Ice, anim=3/0054/0054 } 
+
+
+60AF (Offset 3EF8) - Multi-Thundara       
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Thunder, anim=3/0056/0056 } 
+
+
+60B0 (Offset 3F54) - [Command 186]        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Thunder, anim=3/0056/0056 } 
+
+
+60B1 (Offset 3FB0) - Multi-Watera         
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Water, anim=3/0058/0058 } 
+
+
+60B2 (Offset 400C) - [Command 188]        
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=36, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Reflectable, Element=Water, anim=3/0058/0058 } 
+
+
+60B3 (Offset 4068) - [The crane responds.] 
+{  Special, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+60B4 (Offset 40C4) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0158/0158 } 
+
+
+60B5 (Offset 4120) - [Summon Anima]       
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=17/0215/0215 } 
+
+
+60B6 (Offset 417C) - Gravija              
+{  Magical HP Damage, Formula=Current/16 [05h], 1-hit, Power=12, BDL, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], anim=3/0227/0227 } 
+
+
+60B7 (Offset 41D8) - Negation             
+{  Magical, 1-hit, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], Remove { Zombie; Poison; Confuse; Berserk; Provoke; Threaten; Sleep; Silence; Darkness; Shell; Protect; Reflect; Regen; Slow; Haste; NulAll }, anim=3/022A/022A } 
+
+
+60B8 (Offset 4234) - Gravija              
+{  Special, 1-hit, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], anim=3/0227/0227 } 
+
+
+60B9 (Offset 4290) - Negation             
+{  Magical, 1-hit, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], Remove { Zombie; Poison; Confuse; Berserk; Provoke; Threaten; Sleep; Silence; Darkness; Shell; Protect; Reflect; Regen; Slow; Haste; NulAll }, anim=3/022A/022A } 
+
+
+60BA (Offset 42EC) - Core gathers energy. 
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+60BB (Offset 4348) - Negation             
+{  Magical, 1-hit, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], Remove { Zombie; Poison; Confuse; Berserk; Provoke; Threaten; Sleep; Silence; Darkness; Shell; Protect; Reflect; Regen; Slow; Haste; NulAll }, anim=3/024E/024E } 
+
+
+60BC (Offset 43A4) - Sin remains motionless. 
+{  Special, 1 Enemy/5/Ranged, Rank=3, Hit%=Always [00h], anim=20/0000/0000 } 
+
+
+60BD (Offset 4400) - Core is inactive.    
+{  Special, 1 Enemy/5/Ranged/Dead, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+
+
+60BE (Offset 445C) - Megaton              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (Infinite%) }, Shatter=100%, anim=10/020D/020D } 
+
+
+60BF (Offset 44B8) - Slime                
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=60, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Poison (Infinite%); Armor Break (Always); Mental Break (Always); Silence (Infinite%, 0 turns); Slow (Infinite%, 0 turns); Curse }, Delay (Strong), Shatter=100%, anim=3/020E/020E } 
+
+
+60C0 (Offset 4514) - [Broken shell.]      
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0210/0210 } 
+
+
+60C1 (Offset 4570) - [Hides in shell.]    
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+60C2 (Offset 45CC) - [Emerges from shell.] 
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=6/0000/0000 } 
+
+
+60C3 (Offset 4628) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0211/0211 } 
+
+
+60C4 (Offset 4684) - Core gathers energy. 
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=5/0000/0000 } 
+
+
+60C5 (Offset 46E0) - Negation             
+{  Magical, 1-hit, Team (Forced)/5/Ranged, Rank=3, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Provoke; Threaten; All Breaks; Sleep; Silence; Darkness; Shell; Protect; Reflect; Regen; Slow; Haste; NulAll }, anim=3/024E/024E } 
+
+
+60C6 (Offset 473C) - [Left-Arm Strike]    
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Darkable, Can crit (+% from gear), Delay (Weak), Shatter=100%, anim=7/0000/0000 } 
+
+
+60C7 (Offset 4798) - [Left-Arm Strike 2]  
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Darkable, Can crit (+% from gear), Delay (Weak), Shatter=100%, anim=8/0000/0000 } 
+
+
+60C8 (Offset 47F4) - Jecht Bomber         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/01DE/01DE } 
+
+
+60C9 (Offset 4850) - Triumphant Grasp     
+{  Special HP Damage, Formula=STR vs DEF [01h], 2-hit, Power=14, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Can crit (+% from gear), anim=13/023D/023D } 
+
+
+60CA (Offset 48AC) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/026E/026E } 
+
+
+60CB (Offset 4908) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/026F/026F } 
+
+
+60CC (Offset 4964) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0270/0270 } 
+
+
+60CD (Offset 49C0) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0271/0271 } 
+
+
+60CE (Offset 4A1C) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0272/0272 } 
+
+
+60CF (Offset 4A78) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0273/0273 } 
+
+
+60D0 (Offset 4AD4) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0274/0274 } 
+
+
+60D1 (Offset 4B30) - Hellbiter            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Zombie (100%) }, anim=3/024F/024F } 
+
+
+60D2 (Offset 4B8C) - Power Wave           
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=30, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Zombie; Poison; Reflect }, anim=9/0289/0289 } 
+
+
+60D3 (Offset 4BE8) - Sonic Wings          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy!!/5/Ranged, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), Delay (Weak), anim=3/0095/0095 } 
+
+
+60D4 (Offset 4C44) - Energy Blast         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=48, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], anim=3/0097/0097 } 
+
+
+60D5 (Offset 4CA0) - Energy Ray           
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=55, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], anim=3/0096/025B } 
+
+
+60D6 (Offset 4CFC) - Meteor Strike        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=17, 1 Enemy!!/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0131/0131 } 
+
+
+60D7 (Offset 4D58) - Hellfire             
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=58, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], Element=Fire, anim=3/0133/0133 } 
+
+
+60D8 (Offset 4DB4) - Aerospark            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy!!/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, anim=3/0047/0255 } 
+
+
+60D9 (Offset 4E10) - Thor
+'s Hammer        {  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=60, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], Element=Thunder, anim=3/009B/0261 } 
+
+
+60DA (Offset 4E6C) - Heavenly Strike      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=17, 1 Enemy!!/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), Delay (Strong), anim=3/00A3/00A3 } 
+
+
+60DB (Offset 4EC8) - Diamond Dust         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=60, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], Element=Ice, anim=3/00A5/00A5 } 
+
+
+60DC (Offset 4F24) - Impulse              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/00A9/00A9 } 
+
+
+60DD (Offset 4F80) - Mega Flare           
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=65, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], anim=3/00AA/00AA } 
+
+
+60DE (Offset 4FDC) - Pain                 
+{  Magical HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=28, 1 Enemy!!/5, Rank=3, Piercing, Hit%=Always [00h], Inflict { Death (100%) }, anim=3/0099/0099 } 
+
+
+60DF (Offset 5038) - Oblivion             
+{  Special HP Damage, Formula=STR vs DEF [01h], 16-hit, Power=4, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], anim=3/009A/0000 } 
+
+
+60E0 (Offset 5094) - Kozuka               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/01AF/01AF } 
+
+
+60E1 (Offset 50F0) - Wakizashi            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/01B0/01B0 } 
+
+
+60E2 (Offset 514C) - Zanmato              
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=200, All Enemies/5, Rank=3, Piercing, Hit%=Always [00h], anim=3/01B2/01B2 } 
+
+
+60E3 (Offset 51A8) - Camisade             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=21, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0201/0000 } 
+
+
+60E4 (Offset 5204) - Razzia               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=21, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0200/0000 } 
+
+
+60E5 (Offset 5260) - Passado              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 15-hit, Power=2, 1 Enemy/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0202/0202 } 
+
+
+60E6 (Offset 52BC) - Delta Attack         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 6-hit, Power=10, All Enemies/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), anim=3/0203/0000 } 
+
+
+60E7 (Offset 5318) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0276/0276 } 
+
+
+60E8 (Offset 5374) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0277/0277 } 
+
+
+60E9 (Offset 53D0) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0279/0279 } 
+
+
+60EA (Offset 542C) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/0278/0278 } 
+
+
+60EB (Offset 5488) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/027A/027A } 
+
+
+60EC (Offset 54E4) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/027B/027B } 
+
+
+60ED (Offset 5540) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/027C/027C } 
+
+
+60EE (Offset 559C) - Possessed by Yu Yevon
+! {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=3/027D/027D } 
+
+
+60EF (Offset 55F8) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0275/0275 } 
+
+
+60F0 (Offset 5654) - Ultima               
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=64, Team (Forced)/5, Rank=3, Hit%=Always [00h], anim=3/006A/006B } 
+
+
+60F1 (Offset 56B0) - Wings start to flicker. 
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
+
+
+60F2 (Offset 570C) - [Death]              
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=22/0285/0285 } 
+
+
+60F3 (Offset 5768) - Dispel All           
+{ Unusable,  Magical, Formula=MAG vs MDF [03h], 1-hit, Team (Forced)/5/Ranged, Rank=3, Piercing, Hit%=Always [00h], Silenceable, Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, anim=3/0297/0297 } 
+
+
+60F4 (Offset 57C4) - [Command 254]        
+{  Special, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], anim=3/0246/0246 } 
+
+
+60F5 (Offset 5820) - Full-Life            
+{  Magical HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, 1 Enemy/5/Dead, Rank=3, Hit%=Always [00h], Reflectable, Remove { Death }, anim=3/0074/0075 } 
+
+
+60F6 (Offset 587C) - Mind Blast           
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=16, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { Confuse (50%); Curse }, anim=4/0160/0160 } 
+
+
+
+
+

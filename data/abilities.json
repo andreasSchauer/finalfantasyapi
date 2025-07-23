@@ -11,6 +11,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "sleeping powder",
@@ -21,22 +22,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "sleep",
@@ -61,6 +57,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "silence grenade",
@@ -71,22 +68,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "silence",
@@ -111,6 +103,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "smoke bomb",
@@ -121,22 +114,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "darkness",
@@ -161,6 +149,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "sleeping powder",
@@ -171,22 +160,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "sleep",
@@ -211,6 +195,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "silence grenade",
@@ -221,22 +206,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "silence",
@@ -261,6 +241,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "smoke bomb",
@@ -271,22 +252,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "darkness",
@@ -311,6 +287,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "holy water",
@@ -321,22 +298,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "zombie",
@@ -361,6 +333,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "skill sphere",
@@ -371,22 +344,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "sleep",
@@ -421,6 +389,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "silver hourglass",
@@ -431,17 +400,16 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": null,
@@ -451,10 +419,6 @@
                             "damage_constant": 24
                         }
                     ],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -473,6 +437,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "gold hourglass",
@@ -483,17 +448,16 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": null,
@@ -503,10 +467,6 @@
                             "damage_constant": 48
                         }
                     ],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -525,6 +485,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["hp", "strength", "defense"],
             "aeon_learn_item": {
                 "name": "power sphere",
@@ -535,22 +496,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "power distiller",
@@ -575,6 +531,7 @@
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["mp", "magic", "magic defense"],
             "aeon_learn_item": {
                 "name": "mana sphere",
@@ -585,22 +542,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "mana distiller",
@@ -625,6 +577,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["agility", "evasion", "accuracy"],
             "aeon_learn_item": {
                 "name": "speed sphere",
@@ -635,22 +588,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "speed distiller",
@@ -675,6 +623,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "ability sphere",
@@ -685,22 +634,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "ability distiller",
@@ -725,6 +669,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "stamina spring",
@@ -735,22 +680,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "power break",
@@ -775,6 +715,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "mana spring",
@@ -785,22 +726,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "magic break",
@@ -825,6 +761,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "lv. 2 key sphere",
@@ -835,22 +772,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "armor break",
@@ -875,6 +807,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "shining thorn",
@@ -885,22 +818,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "mental break",
@@ -925,6 +853,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "dark matter",
@@ -935,22 +864,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "power break",
@@ -990,6 +914,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 10,
@@ -997,22 +922,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1031,6 +951,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 30,
@@ -1038,22 +959,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1072,6 +988,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 36,
@@ -1079,22 +996,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1113,6 +1025,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -1120,13 +1033,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
+                    "based_on_phys_attack": false,
                     "range": "close",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1145,6 +1062,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -1162,6 +1080,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -1169,13 +1088,17 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1194,6 +1117,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "healing water",
@@ -1204,22 +1128,33 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "healing",
-                            "damage_constant": 8
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "healing",
+                                "damage_constant": 8
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1238,6 +1173,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["strength", "defense"],
             "aeon_learn_item": {
                 "name": "power sphere",
@@ -1248,13 +1184,17 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [
@@ -1285,6 +1225,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["accuracy"],
             "aeon_learn_item": {
                 "name": "speed sphere",
@@ -1295,13 +1236,17 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1326,6 +1271,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["magic", "magic defense"],
             "aeon_learn_item": {
                 "name": "mana sphere",
@@ -1336,13 +1282,17 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [
@@ -1373,6 +1323,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["evasion"],
             "aeon_learn_item": {
                 "name": "speed sphere",
@@ -1383,13 +1334,17 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1414,6 +1369,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["luck", "accuracy"],
             "aeon_learn_item": {
                 "name": "fortune sphere",
@@ -1424,13 +1380,17 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1460,6 +1420,7 @@
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": ["luck", "evasion"],
             "aeon_learn_item": {
                 "name": "fortune sphere",
@@ -1470,13 +1431,17 @@
             "meta": [
                 {
                     "target": "all-enemies",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1506,6 +1471,7 @@
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "soul spring",
@@ -1516,30 +1482,41 @@
             "meta": [
                 {
                     "target": "single-enemy",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 6
-                        },
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "mp",
-                            "damage_type": null,
-                            "damage_formula": "magic-based",
-                            "damage_constant": 6
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 6
+                            },
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "mp",
+                                "damage_type": null,
+                                "damage_formula": "magic-based",
+                                "damage_constant": 6
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1558,6 +1535,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -1565,13 +1543,17 @@
             "meta": [
                 {
                     "target": "self",
+                    "based_on_phys_attack": false,
                     "range": null,
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "guard",
@@ -1596,6 +1578,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -1603,13 +1586,17 @@
             "meta": [
                 {
                     "target": "self",
+                    "based_on_phys_attack": false,
                     "range": null,
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "sentinel",
@@ -1634,6 +1621,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -1641,22 +1629,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-gil",
-                            "damage_constant": 1
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": "center",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-gil",
+                                "damage_constant": 1
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1675,6 +1674,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 12,
@@ -1682,13 +1682,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "close",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "threaten",
@@ -1713,6 +1717,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 4,
@@ -1720,13 +1725,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "close",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "provoke",
@@ -1751,6 +1760,7 @@
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 8,
@@ -1758,22 +1768,33 @@
             "meta": [
                 {
                     "target": "single-character",
-                    "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "transfer",
-                            "target_stat": "overdrive",
-                            "damage_type": null,
-                            "damage_formula": null,
-                            "damage_constant": null
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "transfer",
+                                "target_stat": "overdrive",
+                                "damage_type": null,
+                                "damage_formula": null,
+                                "damage_constant": null
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1792,6 +1813,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 28,
@@ -1799,13 +1821,17 @@
             "meta": [
                 {
                     "target": "self",
+                    "based_on_phys_attack": false,
                     "range": null,
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1824,6 +1850,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 20,
@@ -1831,13 +1858,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "close",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1856,6 +1887,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 70,
@@ -1873,6 +1905,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "three stars",
@@ -1893,6 +1926,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -1900,13 +1934,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "close",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1925,6 +1963,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": true,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "hi-potion",
@@ -1935,22 +1974,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "healing",
-                            "damage_constant": 24
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "healing",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1969,6 +2019,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": true,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "x-potion",
@@ -1979,22 +2030,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "healing",
-                            "damage_constant": 40
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "healing",
+                                "damage_constant": 40
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2013,6 +2075,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": true,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "mega-potion",
@@ -2023,22 +2086,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "healing",
-                            "damage_constant": 80
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "healing",
+                                "damage_constant": 80
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2057,6 +2131,7 @@
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "ability sphere",
@@ -2067,17 +2142,21 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "scan",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2098,6 +2177,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "bomb fragment",
@@ -2108,17 +2188,21 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "nulblaze",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2139,6 +2223,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "electro marble",
@@ -2149,17 +2234,21 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "nulshock",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2180,6 +2269,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "fish scale",
@@ -2190,17 +2280,21 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "nultide",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2221,6 +2315,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "antarctic wind",
@@ -2231,17 +2326,21 @@
             "meta": [
                 {
                     "target": "all-characters",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "nulfrost",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2262,6 +2361,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 5,
@@ -2269,13 +2369,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["berserk", "confusion", "darkness", "petrification", "poison", "silence", "sleep", "slow", "zombie"],
                     "stat_changes": [],
@@ -2294,6 +2398,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "elixir",
@@ -2304,22 +2409,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": "Only KO'd characters and zombies.",
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 8
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": "Only KO'd characters and zombies.",
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 8
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "life",
@@ -2344,6 +2460,7 @@
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "megalixir",
@@ -2354,22 +2471,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": "Only KO'd characters and zombies.",
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": "Only KO'd characters and zombies.",
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "life",
@@ -2394,6 +2522,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "chocobo feather",
@@ -2404,8 +2533,16 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": "Moment of infliction.",
@@ -2415,10 +2552,6 @@
                             "damage_constant": 8
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "haste",
@@ -2443,6 +2576,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "chocobo wing",
@@ -2453,8 +2587,16 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": "Moment of infliction.",
@@ -2464,10 +2606,6 @@
                             "damage_constant": 8
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "haste",
@@ -2492,6 +2630,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "silver hourglass",
@@ -2502,8 +2641,16 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": "Moment of infliction.",
@@ -2513,10 +2660,6 @@
                             "damage_constant": 16
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "slow",
@@ -2541,6 +2684,7 @@
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "gold hourglass",
@@ -2550,9 +2694,17 @@
             "rank": 4,
             "meta": [
                 {
-                    "target": "",
+                    "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": "Moment of infliction.",
@@ -2562,10 +2714,6 @@
                             "damage_constant": 16
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "slow",
@@ -2590,6 +2738,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "lunar curtain",
@@ -2600,17 +2749,21 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "shell",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2631,6 +2784,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "light curtain",
@@ -2641,17 +2795,21 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "protect",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2672,6 +2830,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "star curtain",
@@ -2682,17 +2841,21 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "reflect",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": null
                         }
                     ],
@@ -2713,6 +2876,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "purifying salt",
@@ -2723,13 +2887,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "curse", "haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost"],
                     "stat_changes": [],
@@ -2748,6 +2916,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "healing spring",
@@ -2758,18 +2927,22 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "regen",
                             "probability": 100,
-                            "turns_amount": null
+                            "turns_amount": 10
                         }
                     ],
                     "removed_status_conditions": [],
@@ -2789,6 +2962,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "blessed gem",
@@ -2799,22 +2973,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 100
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 100
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "holy"
+                    },
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "holy",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2833,6 +3018,7 @@
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 97,
@@ -2840,13 +3026,17 @@
             "meta": [
                 {
                     "target": "single-character",
-                    "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "auto-life",
@@ -2871,6 +3061,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "bomb fragment",
@@ -2881,22 +3072,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "fire"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "fire",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2915,6 +3117,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "electro marble",
@@ -2925,22 +3128,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "lightning"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "lightning",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2959,6 +3173,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "fish scale",
@@ -2969,22 +3184,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "water"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "water",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3003,6 +3229,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "antarctic wind",
@@ -3013,22 +3240,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "ice"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "ice",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3047,6 +3285,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "bomb core",
@@ -3057,22 +3296,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 24
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "fire"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "fire",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3091,6 +3341,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "lightning marble",
@@ -3101,22 +3352,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 24
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "lightning"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "lightning",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3135,6 +3397,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "dragon scale",
@@ -3145,22 +3408,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 24
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                        "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "water"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "water",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3179,6 +3453,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "arctic wind",
@@ -3189,22 +3464,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 24
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "ice"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "ice",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3223,6 +3509,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "fire gem",
@@ -3233,22 +3520,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 42
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "fire"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "fire",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3267,6 +3565,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "lightning gem",
@@ -3277,22 +3576,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 42
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "lightning"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "lightning",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3311,6 +3621,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "water gem",
@@ -3321,22 +3632,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 42
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "water"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "water",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3355,6 +3677,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "ice gem",
@@ -3365,22 +3688,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 42
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "ice"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": "ice",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3399,6 +3733,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "poison fang",
@@ -3409,13 +3744,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "poison",
@@ -3440,6 +3779,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "shadow gem",
@@ -3450,22 +3790,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "percentage-current",
-                            "damage_constant": 4
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "percentage-current",
+                                "damage_constant": 4
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3484,6 +3835,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "farplane shadow",
@@ -3494,13 +3846,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "death",
@@ -3525,6 +3881,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "stamina spring",
@@ -3535,22 +3892,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3569,6 +3937,7 @@
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "mana spring",
@@ -3579,22 +3948,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "mp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 10
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "mp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 10
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3613,6 +3993,7 @@
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "shining gem",
@@ -3623,22 +4004,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 60
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 60
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3657,6 +4049,7 @@
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": {
                 "name": "supreme gem",
@@ -3667,22 +4060,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "infinite",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "magic-based",
-                            "damage_constant": 70
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 70
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3701,6 +4105,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -3708,30 +4113,41 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 8
-                        }
-                    ],
-                    "delay": [
-                        {
-                            "condition": null,
-                            "ctb_attack_type": "attack",
-                            "delay_type": "tick-speed-based",
-                            "intensity": "weak",
-                            "damage_constant": 24
-                        }
-                    ],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 8
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [
+                {
+                    "condition": null,
+                    "ctb_attack_type": "attack",
+                    "delay_type": "tick-speed-based",
+                        "intensity": "weak",
+                        "damage_constant": 24
+                    }
+                ],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3750,6 +4166,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -3757,22 +4174,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 17
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 17
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3791,6 +4219,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -3798,22 +4227,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost"],
                     "stat_changes": [],
@@ -3832,6 +4272,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -3839,22 +4280,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 17
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 17
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "threaten",
@@ -3879,6 +4331,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -3886,22 +4339,33 @@
             "meta": [
                 {
                     "target": "all-enemies",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.5,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3920,6 +4384,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -3927,26 +4392,37 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "magical",
-                            "damage_formula": "special-magic-mag-based",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "special-magic",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "death",
-                            "probability": 100,
+                            "probability": 80,
                             "turns_amount": null
                         }
                     ],
@@ -3967,6 +4443,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -3974,22 +4451,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 10
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "close",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 10
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4008,6 +4496,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4015,22 +4504,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 13
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 13
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4049,6 +4549,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4056,22 +4557,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 18
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 18
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4090,6 +4602,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4097,22 +4610,33 @@
             "meta": [
                 {
                     "target": "all-enemies",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 18
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "very-far",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 18
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4131,6 +4655,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4138,16 +4663,21 @@
             "meta": [
                 {
                     "target": "all-enemies",
-                    "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "based_on_phys_attack": false,
+                    "range": "center",
+                    "damage": null,
+                    "shatter_rate": 1,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "death",
+                            "probability": 255,
                             "turns_amount": null
                         }
                     ],
@@ -4168,6 +4698,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4175,22 +4706,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 21
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "close",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 21
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4209,6 +4751,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4216,23 +4759,92 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
+                    "based_on_phys_attack": false,
+                    "range": "close",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 21
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "nulall",
+            "version": null,
+            "description": null,
+            "effect": "Grants NulBlaze, NulShock, NulTide, and NulFrost to party.",
+            "category": "other",
+            "learned_by": ["sandy"],
+            "default_ability_of": ["sandy"],
+            "standard_grid_pos": null,
+            "expert_grid_pos": null,
+            "can_use_outside_battle": false,
+            "can_copycat": false,
+            "related_stats": [],
+            "aeon_learn_item": null,
+            "mp_cost": 4,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "all-characters",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
                         {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 21
+                            "name": "nulblaze",
+                            "probability": 254,
+                            "turns_amount": null
+                        },
+                        {
+                            "name": "nulshock",
+                            "probability": 254,
+                            "turns_amount": null
+                        },
+                        {
+                            "name": "nultide",
+                            "probability": 254,
+                            "turns_amount": null
+                        },
+                        {
+                            "name": "nulfrost",
+                            "probability": 254,
+                            "turns_amount": null
                         }
                     ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
-                    "hit_amount": 1,
-                    "element": null,
-                    "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
@@ -4250,6 +4862,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4257,22 +4870,33 @@
             "meta": [
                 {
                     "target": "single-enemy",
-                    "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 2
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": false,
+                    "range": "close",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 2
+                            }
+                        ],
+                        "can_critical": "crit+weapon%",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": null
+                    },
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 15,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4291,6 +4915,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4298,13 +4923,17 @@
             "meta": [
                 {
                     "target": "self",
+                    "based_on_phys_attack": false,
                     "range": null,
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4323,6 +4952,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4330,22 +4960,17 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -4364,6 +4989,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4371,29 +4997,18 @@
             "meta": [
                 {
                     "target": "single-target",
-                    "range": "phys-attack",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "physical",
-                            "damage_formula": "strength-based",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "auto-ability-needed",
+                    "based_on_phys_attack": true,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": 0.3,
+                    "accuracy": {
+                        "acc_source": "accuracy",
+                        "acc_modifier": 1
+                    },
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
-                    "element": null,
-                    "inflicted_status_conditions": [
-                        {
-                            "name": "",
-                            "probability": 0,
-                            "turns_amount": 0
-                        }
-                    ],
+                    "delay": [],
+                    "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
@@ -4411,6 +5026,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4418,13 +5034,17 @@
             "meta": [
                 {
                     "target": "self",
+                    "based_on_phys_attack": false,
                     "range": null,
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "defend",
@@ -4449,6 +5069,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4466,6 +5087,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4483,6 +5105,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4500,6 +5123,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": true,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4517,6 +5141,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4524,17 +5149,21 @@
             "meta": [
                 {
                     "target": "self",
+                    "based_on_phys_attack": false,
                     "range": null,
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "shield",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": 1
                         }
                     ],
@@ -4555,6 +5184,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
@@ -4562,17 +5192,21 @@
             "meta": [
                 {
                     "target": "self",
+                    "based_on_phys_attack": false,
                     "range": null,
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "boost",
-                            "probability": 100,
+                            "probability": 254,
                             "turns_amount": 1
                         }
                     ],
@@ -4593,6 +5227,7 @@
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
+            "can_copycat": false,
             "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,

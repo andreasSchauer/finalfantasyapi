@@ -1,0 +1,637 @@
+--- src/main/resources/ffx_ps2/ffx/master/new_uspc/battle/kernel/command.bin ---
+
+
+
+3000 (Offset 0014) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, Usable by anyone, Toplevel, Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Shatter=30%, anim=1/0000/0000 } Attack an enemy with equipped weapon.
+
+
+3001 (Offset 0074) - [Item]               
+{  Special, Menu, Rank=2, Usable by anyone, Toplevel, Opens Submenu, Submenu="Items", Hit%=Always [00h], Copycattable, anim=2/0000/0000 } Use an item.
+
+
+3002 (Offset 00D4) - [Switch]             
+{  Special, Menu, Rank=3, Usable by anyone, Toplevel, Opens Submenu, Submenu="Switch Character", Hit%=Always [00h], anim=0/0000/0000 } Switch party members in and out of battle.
+
+
+3003 (Offset 0134) - [Escape]             
+{  Special, Self (Forced), Rank=1, Usable by anyone, Toplevel, Topmenu=Right, Submenu="Escape", Hit%=Always [00h], Copycattable, anim=0/0000/0000 } Run away from battle.
+
+
+3004 (Offset 0194) - [Weapon]             
+{  Special, Menu, Rank=1, Usable by anyone, Toplevel, Topmenu=Right, Opens Submenu, Submenu="Weapon Change", Hit%=Always [00h], anim=0/0000/0000 } Change equipped weapon.
+
+
+3005 (Offset 01F4) - [Armor]              
+{  Special, Menu, Rank=1, Usable by anyone, Toplevel, Topmenu=Right, Opens Submenu, Submenu="Armor Change", Hit%=Always [00h], anim=0/0000/0000 } Change equipped armor.
+
+
+3006 (Offset 0254) - Delay Attack         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=6, 8 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Delay (Weak), Shatter=30%, anim=23/009D/009E } Delays action of an enemy.
+
+
+3007 (Offset 02B4) - Delay Buster         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=8, 18 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Delay (Strong), Shatter=30%, anim=23/0049/0076 } Greatly delays action of an enemy.
+
+
+3008 (Offset 0314) - Sleep Attack         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 5 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Sleep (100%, 3 turns) }, Shatter=30%, anim=23/0016/0017 } Puts an enemy to sleep for 3 turns.
+
+
+3009 (Offset 0374) - Silence Attack       
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 5 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Silence (100%, 3 turns) }, Shatter=30%, anim=23/0018/0019 } Silences an enemy for 3 turns.
+
+
+300A (Offset 03D4) - Dark Attack          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 5 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Darkness (100%, 3 turns) }, Shatter=30%, anim=23/001A/001B } Inflicts darkness on an enemy for 3 turns.
+
+
+300B (Offset 0434) - Zombie Attack        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 10 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Zombie (100%) }, Shatter=30%, anim=23/001E/001F } Inflicts an enemy with zombie status.
+
+
+300C (Offset 0494) - Sleep Buster         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 10 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Sleep (Infinite%, 1 turn) }, Shatter=30%, anim=23/0022/0023 } Almost always puts an enemy to sleep for 1 turn.
+
+
+300D (Offset 04F4) - Silence Buster       
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 10 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Silence (Infinite%, 1 turn) }, Shatter=30%, anim=23/0024/0025 } Almost always silences an enemy for 1 turn.
+
+
+300E (Offset 0554) - Dark Buster          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 10 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Darkness (Infinite%, 1 turn) }, Shatter=30%, anim=23/0026/0027 } Almost always inflicts darkness on an enemy for 1 turn.
+
+
+300F (Offset 05B4) - Triple Foul          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 24 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Sleep (100%, 3 turns); Silence (100%, 3 turns); Darkness (100%, 3 turns) }, Shatter=30%, anim=23/001C/001D } Sleep, silence, and darkness on an enemy for 3 turns.
+
+
+3010 (Offset 0614) - Power Break          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=4, 8 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Power Break (100%) }, Shatter=30%, anim=24/0015/0146 } Lowers an enemy's Strength.
+
+
+3011 (Offset 0674) - Magic Break          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=4, 8 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Magic Break (100%) }, Shatter=30%, anim=24/013F/0147 } Lowers an enemy's Magic.
+
+
+3012 (Offset 06D4) - Armor Break          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=4, 12 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Armor Break (100%) }, Shatter=30%, anim=24/0140/0148 } Lowers an enemy's Defense and nullifies armored.
+
+
+3013 (Offset 0734) - Mental Break         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=4, 12 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Mental Break (100%) }, Shatter=30%, anim=24/0141/0149 } Lowers an enemy's Magic Defense.
+
+
+3014 (Offset 0794) - Mug                  
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy!!/5, Rank=3, 10 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Steal Item, Shatter=30%, anim=15/0000/0000 } Attack and steal at the same time.
+
+
+3015 (Offset 07F4) - Quick Hit            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=2, 36 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Shatter=30%, anim=30/0000/0000 } Strike quickly with reduced recovery time.
+
+
+3016 (Offset 0854) - Steal                
+{  Special, 1 Enemy!!/5, Rank=3, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Steal Item, anim=14/0000/0000 } Steal items from enemy.
+
+
+3017 (Offset 08B4) - Use                  
+{  Special, Menu, Rank=2, Usable by anyone, Opens Submenu, Submenu="Special", Subsubmenu=Use, Hit%=Always [00h], Copycattable, anim=2/0000/0000 } Use special items.
+
+
+3018 (Offset 0914) - Flee                 
+{  Special, All Allies!!/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, anim=0/0000/0000 } Aid party's escape from battle.
+
+
+3019 (Offset 0974) - Pray                 
+{  Special HP Restore, Formula=Healing [07h], 1-hit, Power=8, All Allies!!/Ranged, Rank=3, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, anim=3L/006C/006C } Restores some HP to all allies.
+
+
+301A (Offset 09D4) - Cheer                
+{  Special, 1-hit, All Allies!!/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Cheer x1, anim=3L/0003/0003 } Raises party's Strength and Defense.
+
+
+301B (Offset 0A34) - Aim                  
+{  Special, 1-hit, All Allies!!/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Aim x1, anim=3L/0006/0006 } Raises party's Accuracy.
+
+
+301C (Offset 0A94) - Focus                
+{  Special, 1-hit, All Allies!!/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Focus x1, anim=3L/0004/0004 } Raises party's Magic and Magic Defense.
+
+
+301D (Offset 0AF4) - Reflex               
+{  Special, 1-hit, All Allies!!/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Reflex x1, anim=3L/0005/0005 } Raises party's Evasion.
+
+
+301E (Offset 0B54) - Luck                 
+{  Special, 1-hit, All Allies!!/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Luck x1, anim=3L/0007/0007 } Raises party's Luck.
+
+
+301F (Offset 0BB4) - Jinx                 
+{  Special, 1-hit, All Enemies!!/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Jinx x1, anim=3L/0008/0008 } Lowers all enemies' Luck.
+
+
+3020 (Offset 0C14) - Lancet               
+{  Special HP/MP Absorb, Formula=MAG vs MDF [03h], 1-hit, Power=6, 1 Enemy!!/5/Ranged, Rank=2, Usable by anyone, Submenu="Special", Piercing, Hit%=Always [00h], Copycattable, anim=4L/0009/0009 } Absorb HP & MP from an enemy.
+
+
+3021 (Offset 0C74) - [Defend]             
+{  Special, 1-hit, Self (Forced)/Ranged, Rank=2, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Inflict { Defend }, anim=0L/0000/0000 } Reduces damage from physical attacks.
+
+
+3022 (Offset 0CD4) - Guard                
+{  Special, 1-hit, Self (Forced)/Ranged, Rank=3, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Inflict { Guard }, anim=0L/0000/0000 } Take damage for an ally.
+
+
+3023 (Offset 0D34) - Sentinel             
+{  Special, 1-hit, Self (Forced)/Ranged, Rank=3, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Inflict { Sentinel }, anim=0L/0000/0000 } Guard allies while in defensive stance.
+
+
+3024 (Offset 0D94) - Spare Change         
+{  Special HP Damage, Formula=Fixed x Gil chosen / 10 [15h], 1-hit, Power=1, Never BDL, Menu/Ranged, Rank=3, Usable by anyone, Opens Submenu, Submenu="Special", Subsubmenu=Gil (Bribe/SC), Piercing, Hit%=Always [00h], Copycattable, Shatter=100%, anim=2L/0012/0013 } Attack by throwing gil.
+
+
+3025 (Offset 0DF4) - Threaten             
+{  Special, 1-hit, 1 Enemy!!/5, Rank=3, 12 MP, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Inflict { Threaten (100%) }, anim=16/0034/0040 } Immobilize an enemy with fear.
+
+
+3026 (Offset 0E54) - Provoke              
+{  Special, Formula=STR vs DEF [01h], 1-hit, 1 Enemy!!/5, Rank=3, 4 MP, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Inflict { Provoke (100%) }, anim=16/0035/0041 } Draw an enemy's attacks towards you.
+
+
+3027 (Offset 0EB4) - Entrust              
+{  Special, 1-hit, 1 Ally!!/5/Ranged, Rank=3, 8 MP, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, anim=4L/0036/0036 } Contribute your Overdrive charge to an ally's gauge.
+
+
+3028 (Offset 0F14) - Copycat              
+{  Special, 1-hit, Self (Forced)/Ranged, Rank=3, 28 MP, Usable by anyone, Submenu="Special", Hit%=Always [00h], anim=0/0000/0000 } Mimic an ally's previous action.
+
+
+3029 (Offset 0F74) - Doublecast           
+{  Special, Menu/Ranged, Rank=3, Usable by anyone, Opens Submenu, Submenu="Special", Subsubmenu=Black Magic, Hit%=Always [00h], Copycattable, anim=3/0000/0000 } Cast two black magic spells in a row.
+
+
+302A (Offset 0FD4) - Bribe                
+{  Special, 1-hit, Menu, Rank=3, Usable by anyone, Opens Submenu, Submenu="Special", Subsubmenu=Gil (Bribe/SC), Piercing, Hit%=Always [00h], Copycattable, anim=16/0037/0043 } Pay enemies gil to go away.
+
+
+302B (Offset 1034) - Cure                 
+{  Magical HP Restore, Formula=Healing [07h], 1-hit, Power=24, 1 Ally/5/Ranged, Rank=3, 4 MP, Usable outside combat, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, anim=3L/006C/006C } Restores some HP.
+
+
+302C (Offset 1094) - Cura                 
+{  Magical HP Restore, Formula=Healing [07h], 1-hit, Power=40, 1 Ally/5/Ranged, Rank=3, 10 MP, Usable outside combat, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, anim=3/006E/006E } Restores a lot of HP.
+
+
+302D (Offset 10F4) - Curaga               
+{  Magical HP Restore, Formula=Healing [07h], 1-hit, Power=80, 1 Ally/5/Ranged, Rank=3, 20 MP, Usable outside combat, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, anim=3H/0070/0070 } Restores a massive amount of HP.
+
+
+302E (Offset 1154) - NulFrost             
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, All Allies/5/Ranged, Rank=2, 2 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { NulFrost (Infinite%, 1 block) }, anim=3L/0088/0089 } Nullifies one ice attack on party.
+
+
+302F (Offset 11B4) - NulBlaze             
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, All Allies/5/Ranged, Rank=2, 2 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { NulBlaze (Infinite%, 1 block) }, anim=3L/008A/008B } Nullifies one fire attack on party.
+
+
+3030 (Offset 1214) - NulShock             
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, All Allies/5/Ranged, Rank=2, 2 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { NulShock (Infinite%, 1 block) }, anim=3L/008C/008D } Nullifies one lightning attack on party.
+
+
+3031 (Offset 1274) - NulTide              
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, All Allies/5/Ranged, Rank=2, 2 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { NulTide (Infinite%, 1 block) }, anim=3L/008E/008F } Nullifies one water attack on party.
+
+
+3032 (Offset 12D4) - Scan                 
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5/Ranged, Rank=3, 1 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Scan }, anim=3L/0014/0014 } View an enemy's data.
+
+
+3033 (Offset 1334) - Esuna                
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Ally/5/Ranged, Rank=3, 5 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Remove { Petrify; Poison; Confuse; Berserk; Sleep; Silence; Darkness; Slow }, anim=3L/0078/0079 } Cures a character's status ailments.
+
+
+3034 (Offset 1394) - Life                 
+{  Magical HP Restore, Formula=Max/16 [08h], 1-hit, Power=8, 1 Ally/5/Ranged/Dead, Rank=3, 18 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Remove { Death }, anim=3/0072/0073 } Revives a KO'd character.
+
+
+3035 (Offset 13F4) - Full-Life            
+{  Magical HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, 1 Ally/5/Ranged/Dead, Rank=3, 60 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Remove { Death }, anim=3H/0074/0075 } Revives a KO'd character and fully restores HP.
+
+
+3036 (Offset 1454) - Haste                
+{  Magical CTB Restore, Formula=Ticks/16 [0Dh], 1-hit, Power=8, 1 Ally/5/Ranged, Rank=4, 8 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Haste (Infinite%, Endless) }, anim=3/000A/000A } Speeds up one character.
+
+
+3037 (Offset 14B4) - Hastega              
+{  Magical CTB Restore, Formula=Ticks/16 [0Dh], 1-hit, Power=8, All Allies/5/Ranged, Rank=6, 30 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Haste (Infinite%, Endless) }, anim=3/000A/000A } Speeds up party.
+
+
+3038 (Offset 1514) - Slow                 
+{  Magical CTB Damage, Formula=Ticks/16 [0Dh], 1-hit, Power=16, 1 Enemy/5/Ranged, Rank=3, 12 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Slow (100%, Endless) }, anim=3/000E/000E } Slows an enemy down.
+
+
+3039 (Offset 1574) - Slowga               
+{  Magical CTB Damage, Formula=Ticks/16 [0Dh], 1-hit, Power=16, All Enemies/5/Ranged, Rank=4, 20 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Slow (100%, Endless) }, anim=3/000E/000E } Slows all enemies down.
+
+
+303A (Offset 15D4) - Shell                
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Ally/5/Ranged, Rank=3, 10 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Shell (Infinite%, Endless) }, anim=3/007E/007F } Raises a character's Magic Defense.
+
+
+303B (Offset 1634) - Protect              
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Ally/5/Ranged, Rank=3, 12 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Protect (Infinite%, Endless) }, anim=3/0080/0080 } Raises a character's Defense.
+
+
+303C (Offset 1694) - Reflect              
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Ally/5/Ranged, Rank=3, 14 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Reflect (Infinite%, Endless) }, anim=3/0082/0083 } Target reflects spells towards enemy.
+
+
+303D (Offset 16F4) - Dispel               
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5/Ranged, Rank=3, 12 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Copycattable, Remove { All Breaks; Shell; Protect; Reflect; Regen; Haste; NulAll; Curse }, anim=3/007C/007D } Negates all spell effects on an enemy.
+
+
+303E (Offset 1754) - Regen                
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Ally/5/Ranged, Rank=3, 40 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Regen (100%, 10 turns) }, anim=3/007A/007B } Target gradually recovers HP for a time.
+
+
+303F (Offset 17B4) - Holy                 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=100, 1 Enemy/5/Ranged, Rank=4, 85 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Holy, Shatter=100%, anim=3H/0092/0092 } Deals holy damage to an enemy.
+
+
+3040 (Offset 1814) - Auto-Life            
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Ally!!/5/Ranged, Rank=3, 97 MP, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Silenceable, Copycattable, Inflict { Auto-Life }, anim=3H/0090/0090 } Target is automatically revived once when KO'd.
+
+
+3041 (Offset 1874) - Blizzard             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=12, 1 Enemy/5/Ranged, Rank=3, 4 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Ice, Shatter=10%, anim=3L/004A/004A } Deals ice damage to an enemy.
+
+
+3042 (Offset 18D4) - Fire                 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=12, 1 Enemy/5/Ranged, Rank=3, 4 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Fire, Shatter=10%, anim=3L/004C/004D } Deals fire damage to an enemy.
+
+
+3043 (Offset 1934) - Thunder              
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=12, 1 Enemy/5/Ranged, Rank=3, 4 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Thunder, Shatter=10%, anim=3L/004E/004F } Deals lightning damage to an enemy.
+
+
+3044 (Offset 1994) - Water                
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=12, 1 Enemy/5/Ranged, Rank=3, 4 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Water, Shatter=10%, anim=3L/0050/0051 } Deals water damage to an enemy.
+
+
+3045 (Offset 19F4) - Fira                 
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=24, 1 Enemy/5/Ranged, Rank=3, 8 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Fire, Shatter=10%, anim=3/0052/0053 } Deals fire damage to an enemy.
+
+
+3046 (Offset 1A54) - Blizzara             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=24, 1 Enemy/5/Ranged, Rank=3, 8 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Ice, Shatter=10%, anim=3/0054/0055 } Deals ice damage to an enemy.
+
+
+3047 (Offset 1AB4) - Thundara             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=24, 1 Enemy/5/Ranged, Rank=3, 8 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Thunder, Shatter=10%, anim=3/0056/0057 } Deals lightning damage to an enemy.
+
+
+3048 (Offset 1B14) - Watera               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=24, 1 Enemy/5/Ranged, Rank=3, 8 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Water, Shatter=10%, anim=3/0058/0059 } Deals water damage to an enemy.
+
+
+3049 (Offset 1B74) - Firaga               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=42, 1 Enemy/5/Ranged, Rank=3, 16 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Fire, Shatter=10%, anim=3H/005A/005B } Deals fire damage to an enemy.
+
+
+304A (Offset 1BD4) - Blizzaga             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=42, 1 Enemy/5/Ranged, Rank=3, 16 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Ice, Shatter=10%, anim=3H/005C/005D } Deals ice damage to an enemy.
+
+
+304B (Offset 1C34) - Thundaga             
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=42, 1 Enemy/5/Ranged, Rank=3, 16 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Thunder, Shatter=10%, anim=3H/005E/005F } Deals lightning damage to an enemy.
+
+
+304C (Offset 1C94) - Waterga              
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=42, 1 Enemy/5/Ranged, Rank=3, 16 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Element=Water, Shatter=10%, anim=3H/0060/0061 } Deals water damage to an enemy.
+
+
+304D (Offset 1CF4) - Bio                  
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5/Ranged, Rank=3, 10 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Poison (Infinite%) }, anim=3H/0064/0065 } Poisons an enemy.
+
+
+304E (Offset 1D54) - Demi                 
+{  Magical HP Damage, Formula=Current/16 [05h], 1-hit, Power=4, All Enemies/5/Ranged, Rank=3, 32 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Copycattable, Shatter=10%, anim=3H/0066/0067 } Reduces HP of all enemies by 1/4.
+
+
+304F (Offset 1DB4) - Death                
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5/Ranged, Rank=3, 20 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Inflict { Death (80%) }, anim=3H/0062/0062 } Can instantly KO an enemy.
+
+
+3050 (Offset 1E14) - Drain                
+{  Magical HP Absorb, Formula=MAG vs MDF [03h], 1-hit, Power=20, 1 Enemy/5/Ranged, Rank=2, 12 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Shatter=10%, anim=3/0084/0085 } Absorb HP from an enemy.
+
+
+3051 (Offset 1E74) - Osmose               
+{  Magical MP Absorb, Formula=MAG vs MDF [03h], 1-hit, Power=10, 1 Enemy/5/Ranged, Rank=2, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Shatter=10%, anim=3/0086/0087 } Absorb MP from an enemy.
+
+
+3052 (Offset 1ED4) - Flare                
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=60, 1 Enemy/5/Ranged, Rank=5, 54 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Reflectable, Copycattable, Shatter=10%, anim=3H/0068/0069 } Deals non-elemental damage to an enemy.
+
+
+3053 (Offset 1F34) - Ultima               
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=70, All Enemies/5/Ranged, Rank=6, 90 MP, Usable by anyone, Submenu="Black Magic", Piercing, Hit%=Always [00h], Silenceable, Copycattable, Shatter=10%, anim=3H/006A/006A } Deals non-elemental damage to all enemies.
+
+
+3054 (Offset 1F94) - Shield               
+{  Special, 1-hit, Self (Forced)/Ranged, Rank=3, Usable by anyone, Toplevel, Topmenu=Right, Hit%=Always [00h], Inflict { Shield }, anim=0/0000/0000 } Take less damage, but Overdrive gauge won't charge.
+
+
+3055 (Offset 1FF4) - Boost                
+{  Special, 1-hit, Self (Forced)/Ranged, Rank=3, Usable by anyone, Toplevel, Topmenu=Right, Hit%=Always [00h], Inflict { Boost }, anim=0/0000/0000 } Take more damage, but charge Overdrive gauge faster.
+
+
+3056 (Offset 2054) - Dismiss              
+{  Special, Team (Forced)/Ranged, Rank=0, Usable by anyone, Toplevel, Topmenu=Right, Hit%=Always [00h], anim=0/0000/0000 } Send aeon away.
+
+
+3057 (Offset 20B4) - Dismiss              
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Yojimbo, Toplevel, Hit%=Always [00h], anim=0/0000/0000 } Send aeon away.
+
+
+3058 (Offset 2114) - Pilfer Gil           
+{  Special, 1 Enemy!!/5, Rank=3, 20 MP, Usable by anyone, Submenu="Special", Hit%=Always [00h], Copycattable, Steal Gil, anim=14/0000/0000 } Steal gil from enemy.
+
+
+3059 (Offset 2174) - Full Break           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=5, 99 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { All Breaks (100%) }, Shatter=100%, anim=24/02BB/02BB } Inflicts Power, Magic, Armor, and Mental Break.
+
+
+305A (Offset 21D4) - Extract Power        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 1 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Distill Power }, Shatter=30%, anim=24/02BC/02BC } Makes one enemy drop Power Spheres.
+
+
+305B (Offset 2234) - Extract Mana         
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 1 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Distill Mana }, Shatter=30%, anim=24/02BD/02BD } Makes one enemy drop Mana Spheres.
+
+
+305C (Offset 2294) - Extract Speed        
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 1 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Distill Speed }, Shatter=30%, anim=24/02BE/02BE } Makes one enemy drop Speed Spheres.
+
+
+305D (Offset 22F4) - Extract Ability      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy/5, Rank=3, 1 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Inflict { Distill Ability }, Shatter=30%, anim=24/02BF/02BF } Makes one enemy drop Ability Spheres.
+
+
+305E (Offset 2354) - Nab Gil              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, Uses Weapon Properties, 1 Enemy!!/5, Rank=3, 30 MP, Usable by anyone, Submenu="Skill", Hit%=ACC [03h] (uses Table), Darkable, Copycattable, Can crit (+% from gear), Steal Gil, Shatter=30%, anim=15/0000/0000 } Attack and steal gil at the same time.
+
+
+305F (Offset 23B4) - [Quick Pockets]      
+{  Special, Menu, Rank=1, 70 MP, Usable by anyone, Opens Submenu, Submenu="Special", Subsubmenu=Items, Hit%=Always [00h], Copycattable, anim=2/0000/0000 } Swiftly use items.
+
+
+
+
+
+30CB (Offset 4C34) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, 1 Enemy/5/Ranged, Rank=3, Usable by Valefor, Toplevel, Piercing, Hit%=ACC*2.5 [05h] (uses Table), Can crit (+% from gear), Shatter=30%, anim=1/0000/0000 } Attack an enemy.
+
+
+30CC (Offset 4C94) - Sonic Wings          
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=8, 1 Enemy!!/5/Ranged, Rank=2, Usable by Valefor, Toplevel, Piercing, Hit%=Always [00h], Can crit (+% from gear), Delay (Weak), Shatter=30%, anim=9/0095/0095 } Damages an enemy and delays its turn.
+
+
+30CF (Offset 4DB4) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Usable by Ifrit, Toplevel, Piercing, Hit%=ACC*1.5 [06h] (uses Table), Can crit (+% from gear), Shatter=30%, anim=1/0000/0000 } Attack an enemy.
+
+
+30D0 (Offset 4E14) - Meteor Strike        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=17, 1 Enemy!!/5/Ranged, Rank=4, Usable by Ifrit, Toplevel, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=30%, anim=3/0131/0131 } Damages an enemy.
+
+
+30D2 (Offset 4ED4) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Usable by Ixion, Toplevel, Piercing, Hit%=ACC*1.5 [06h] (uses Table), Can crit (+% from gear), Shatter=30%, anim=1/0000/0000 } Attack an enemy.
+
+
+30D3 (Offset 4F34) - Aerospark            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy!!/5/Ranged, Rank=4, Usable by Ixion, Toplevel, Piercing, Hit%=Always [00h], Can crit (+% from gear), Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, Shatter=30%, anim=3/0047/0047 } Damages an enemy and negates all spell effects.
+
+
+30D5 (Offset 4FF4) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, 1 Enemy/5, Rank=3, Usable by Shiva, Toplevel, Piercing, Hit%=ACC*2.5 [05h] (uses Table), Can crit (+% from gear), Shatter=30%, anim=1/0000/0000 } Attack an enemy.
+
+
+30D6 (Offset 5054) - Heavenly Strike      
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=17, 1 Enemy!!/5/Ranged, Rank=4, Usable by Shiva, Toplevel, Piercing, Hit%=Always [00h], Can crit (+% from gear), Inflict { Threaten (100%) }, Shatter=30%, anim=3/00A3/00A3 } Damages an enemy and delays its movement.
+
+
+30D8 (Offset 5114) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Usable by Bahamut, Toplevel, Piercing, Hit%=ACC*1.5 [06h] (uses Table), Can crit (+% from gear), Shatter=30%, anim=1/0000/0000 } Attack an enemy.
+
+
+30D9 (Offset 5174) - Impulse              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, All Enemies!!/5/Ranged, Rank=6, Usable by Bahamut, Toplevel, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=50%, anim=3/00A9/00A9 } Damages all enemies.
+
+
+30DB (Offset 5234) - [Attack]             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5/Ranged, Rank=3, Usable by Anima, Toplevel, Piercing, Hit%=ACC*1.5 [06h] (uses Table), Can crit (+% from gear), Shatter=30%, anim=1/0000/0000 } Attack an enemy.
+
+
+30DC (Offset 5294) - Pain                 
+{  Magical HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=20, 1 Enemy!!/5/Ranged, Rank=6, Usable by Anima, Toplevel, Piercing, Hit%=Always [00h], Inflict { Death (100%) }, Shatter=30%, anim=3/0099/0099 } Deals damage and Death to an enemy.
+
+
+30DE (Offset 5354) - Daigoro              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=10, 1 Enemy/5, Rank=3, Usable by Yojimbo, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=100%, anim=1/0000/0000 } 
+
+
+30DF (Offset 53B4) - Kozuka               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=13, 1 Enemy/5/Ranged, Rank=3, Usable by Yojimbo, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=100%, anim=3/01AF/01AF } 
+
+
+30E0 (Offset 5414) - Wakizashi            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=18, 1 Enemy/5/Ranged, Rank=3, Usable by Yojimbo, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=100%, anim=3/01B0/01B0 } 
+
+
+30E1 (Offset 5474) - Wakizashi            
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=18, All Enemies/5/Ranged, Rank=3, Usable by Yojimbo, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=100%, anim=3/01B0/01B0 } 
+
+
+30E2 (Offset 54D4) - Zanmato              
+{  Special, Formula=STR vs DEF [01h], 1-hit, All Enemies/5/Ranged, Rank=3, Usable by Yojimbo, Piercing, Hit%=Always [00h], Inflict { Death (Always) }, Shatter=100%, anim=3/01B2/0262 } 
+
+
+30E4 (Offset 5594) - Attack               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, 1 Enemy/5, Rank=3, Usable by Cindy, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=20%, anim=1/0000/0000 } 
+
+
+30E5 (Offset 55F4) - Camisade             
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=21, 1 Enemy/5, Rank=5, Usable by Cindy, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=30%, anim=3/0201/0201 } 
+
+
+30E6 (Offset 5654) - Attack               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, 1 Enemy/5, Rank=3, Usable by Sandy, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=20%, anim=1/0000/0000 } 
+
+
+30E7 (Offset 56B4) - Razzia               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=21, 1 Enemy/5, Rank=5, Usable by Sandy, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=30%, anim=3/0200/0200 } 
+
+
+30E8 (Offset 5714) - Attack               
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=14, 1 Enemy/5/Ranged, Rank=3, Usable by Mindy, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=20%, anim=1/0000/0000 } 
+
+
+30E9 (Offset 5774) - Passado              
+{ Physical HP Damage, Formula=STR vs DEF [01h], 15-hit, Power=2, 1 Enemy/5, Rank=5, Usable by Mindy, Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=30%, anim=3/0202/0202 } 
+
+
+30FF (Offset 5FB4) - [Magus Sisters]      
+{ Unusable,  Special, Menu, Rank=0, Usable by anyone, Hit%=Always [00h], anim=0/0000/0000 } Summon the Magus Sisters.
+
+
+3100 (Offset 6014) - [Summon Aeon]        
+{ Unusable,  Special, Menu/Ranged, Rank=0, Usable by anyone, Toplevel, Hit%=Always [00h], anim=17/0000/0000 } Summon aeon.
+
+
+3101 (Offset 6074) - Pincer Attack        
+{  Special, 1 Enemy!!, Rank=0, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=18/0000/0000 } Attack enemy from both sides.
+
+
+3102 (Offset 60D4) - Use crane            
+{  Special, 1 Enemy!!, Rank=0, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=18/0000/0000 } Activate crane.
+
+
+3103 (Offset 6134) - Move                 
+{  Special, 1 Enemy!!, Rank=0, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=5/0000/0000 } Move to an empty spot.
+
+
+3104 (Offset 6194) - Stand by             
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=1, Self (Forced), Rank=3, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=0/0000/0000 } Wait while recovering HP.
+
+
+3105 (Offset 61F4) - Talk                 
+{  Special, 1 Enemy!!/5/Ranged, Rank=3, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=5/0000/0000 } Talk to enemy.
+
+
+3106 (Offset 6254) - Move in              
+{  Special, 1 Enemy!!/5/Ranged, Rank=3, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=5/0000/0000 } Ask Cid to close in on the enemy.
+
+
+3107 (Offset 62B4) - Pull back            
+{  Special, 1 Enemy!!/5, Rank=3, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=5/0000/0000 } Ask Cid to move away from the enemy.
+
+
+3108 (Offset 6314) - Cancel               
+{  Special, 1 Enemy!!/5/Ranged, Rank=3, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=5/0000/0000 } Cancel movement.
+
+
+3109 (Offset 6374) - [Struggle]           
+{ Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=17, Uses Weapon Properties, 1 Enemy!!/5, Rank=3, Usable by anyone, Toplevel, Topmenu=Left, Piercing, Hit%=Always [00h], Darkable, Can crit (+% from gear), anim=1/0000/0000 } Attack enemy from inside.
+
+
+3113 (Offset 6734) - [Skill]              
+{  Special, Menu, Rank=0, Usable by anyone, Toplevel, Submenu="Skill", Hit%=Always [00h], anim=4/0000/0000 } Use Skills.
+
+
+3114 (Offset 6794) - [Special]            
+{  Special, Menu, Rank=0, Usable by anyone, Toplevel, Submenu="Special", Hit%=Always [00h], anim=4/0000/0000 } Use Special Abilities.
+
+
+3115 (Offset 67F4) - [Blk Magic]          
+{  Special, Menu, Rank=0, Usable by anyone, Toplevel, Submenu="Black Magic", Hit%=Always [00h], anim=3/0000/0000 } Cast black magic spells.
+
+
+3116 (Offset 6854) - [Wht Magic]          
+{  Special, Menu, Rank=0, Usable by anyone, Toplevel, Submenu="White Magic", Hit%=Always [00h], anim=3/0000/0000 } Cast white magic spells.
+
+
+3117 (Offset 68B4) - [Summon]             
+{  Special, Menu, Rank=0, Usable by Yuna, Toplevel, Opens Submenu, Submenu="Summon", Hit%=Always [00h], anim=0/0000/0000 } Summon an aeon.
+
+
+3118 (Offset 6914) - [Grand Summon]       
+{  Special, Menu, Rank=5, Usable by Yuna, Toplevel, Topmenu=Left, Opens Submenu, Submenu="Summon", Overdrive (100p), OD-User=Yuna, OD-Choice=1, Hit%=Always [00h], anim=0/0000/0000 } Summon an aeon in Overdrive!
+
+
+3119 (Offset 6974) - [Swordplay]          
+{  Special, Menu, Rank=0, Usable by Tidus, Toplevel, Topmenu=Left, Opens Submenu, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=1, Hit%=Always [00h], anim=0/0000/0000 } Press button at the right time for extra damage!
+
+
+311A (Offset 69D4) - [Ronso Rage]         
+{  Special, Menu, Rank=0, Usable by Kimahri, Toplevel, Topmenu=Left, Opens Submenu, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=1, Hit%=Always [00h], anim=0/0000/0000 } Use fiends' skills against them!
+
+
+311B (Offset 6A34) - [Bushido]            
+{  Special, Menu, Rank=0, Usable by Auron, Toplevel, Topmenu=Left, Opens Submenu, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=1, Hit%=Always [00h], anim=0/0000/0000 } Enter commands for a lethal sword attack!
+
+
+311C (Offset 6A94) - [Slots]              
+{  Special, 1-hit, Team (Forced), Rank=5, Usable by Wakka, Toplevel, Topmenu=Left, Opens Submenu, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=1, Hit%=Always [00h], anim=0/0000/0000 } Get the right combination for the ultimate shot!
+
+
+311D (Offset 6AF4) - [Fury]               
+{  Special, Menu, Rank=0, Usable by Lulu, Toplevel, Topmenu=Left, Opens Submenu, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=1, Hit%=Always [00h], anim=0/0000/0000 } Unleash a barrage of spells on the enemy!
+
+
+311E (Offset 6B54) - [Mix]                
+{  Special, Team (Forced), Rank=5, Usable by Rikku, Toplevel, Topmenu=Left, Opens Submenu, Submenu="Mix", Overdrive (100p), OD-User=Rikku, OD-Choice=1, Piercing, Hit%=Always [00h], anim=0/0000/0000 } Combine items for various effects!
+
+
+311F (Offset 6BB4) - Auto-Life            
+{  Magical HP Restore, Formula=Max/16 [08h], 1-hit, Power=4, 1 Ally/5/Ranged/Dead, Rank=0, Usable by anyone, Submenu="White Magic", Piercing, Hit%=Always [00h], Remove { Death }, anim=17/0072/0072 } 
+
+
+3120 (Offset 6C14) - Death                
+{  Magical, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5/Ranged, Rank=0, Usable by anyone, Piercing, Hit%=Always [00h], Inflict { Death (Always) }, anim=17H/01AD/01AD } 
+
+
+3121 (Offset 6C74) - [Gil]                
+{ Unusable,  Special, 1 Enemy!!/5/Ranged, Rank=0, Usable by anyone, Submenu="Gil (Bribe/SC)", Hit%=Always [00h], anim=0/0000/0000 } 
+
+
+3122 (Offset 6CD4) - [Gil]                
+{ Unusable,  Special, Self (Forced)/Ranged, Rank=0, Usable by anyone, Submenu="Gil (Pay Yoji)", Hit%=Always [00h], anim=0/0000/0000 } 
+
+
+3123 (Offset 6D34) - [Pay]                
+{  Special, Menu/Ranged, Rank=0, Usable by Yojimbo, Toplevel, Opens Submenu, Submenu="Gil (Pay Yoji)", Hit%=Always [00h], anim=0/0000/0000 } Pay {MCR:s00l3E} for his services.
+
+
+3124 (Offset 6D94) - [Do as you will.]    
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Let the Sisters do as they please.
+
+
+3125 (Offset 6DF4) - [One more time.]     
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Ask the Sisters to repeat their previous action.
+
+
+3126 (Offset 6E54) - [Fight!]             
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Ask the Sisters to physically attack.
+
+
+3127 (Offset 6EB4) - [Go, go!]            
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Ask the Sisters to use offensive magic and skills.
+
+
+3128 (Offset 6F14) - [Help each other!]   
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Ask the Sisters to use healing magic on each other.
+
+
+3129 (Offset 6F74) - [Combine powers!]    
+{  Special, Team (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Ask the Sisters for their combined attack.
+
+
+312A (Offset 6FD4) - [Defense!]
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Ask the Sisters to use defensive and support magic.
+
+
+312B (Offset 7034) - [Are you all right?]
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } Ask the Sisters to absorb HP and MP from the enemy.
+
+
+312C (Offset 7094) - Taking a break...    
+{  Special, Self (Forced)/Ranged, Rank=0, Usable by Cindy, Hit%=Always [00h], anim=0/0000/0000 } 
+
+
+312D (Offset 70F4) - NulAll               
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!/Ranged, Rank=3, 4 MP, Usable by Cindy, Piercing, Hit%=Always [00h], Inflict { NulAll (Infinite%, 1 block) }, anim=3/0192/0192 } 
+
+
+312F (Offset 71B4) - Open lock            
+{  Special HP Damage, Formula=Fixed x50 [06h], 1-hit, Power=1, 1 Enemy!!/5/Ranged, Rank=3, Usable by anyone, Toplevel, Topmenu=Left, Trigger-Command, Hit%=Always [00h], anim=1/0000/0000 } Open gate lock.

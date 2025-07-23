@@ -7,6 +7,7 @@
             "effect": "Attacks one target with a physical attack.",
             "used_by": ["characters", "seymour"],
             "rank": 3,
+            "can_copycat": true,
             "possible_abilities": []
         },
         {
@@ -16,6 +17,7 @@
             "effect": "Attacks one target with a physical attack.",
             "used_by": ["aeons", "magus sisters"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -25,6 +27,7 @@
             "effect": "Halves all physical damage taken by the user until their next turn.",
             "used_by": ["characters", "seymour"],
             "rank": 2,
+            "can_copycat": true,
             "possible_abilities": []
         },
         {
@@ -34,6 +37,7 @@
             "effect": "Summon an aeon.",
             "used_by": ["yuna"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -43,6 +47,7 @@
             "effect": "Use Skills.",
             "used_by": ["characters", "aeons"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -52,6 +57,7 @@
             "effect": "Use Special Abilities.",
             "used_by": ["characters", "aeons"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -61,6 +67,7 @@
             "effect": "Cast white magic spells.",
             "used_by": ["characters", "seymour", "aeons"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -70,6 +77,7 @@
             "effect": "Cast black magic spells.",
             "used_by": ["characters", "seymour", "aeons"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -79,6 +87,7 @@
             "effect": "Use an item.",
             "used_by": ["characters", "seymour"],
             "rank": 2,
+            "can_copycat": true,
             "possible_abilities": []
         },
         {
@@ -88,6 +97,7 @@
             "effect": "Switch the user out with another available character. Doesn't cost a turn.",
             "used_by": ["characters"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -97,6 +107,7 @@
             "effect": "Changes the user's Weapon.",
             "used_by": ["characters"],
             "rank": 1,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -106,6 +117,7 @@
             "effect": "Changes the user's Armor.",
             "used_by": ["characters"],
             "rank": 1,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -115,6 +127,7 @@
             "effect": "The user attempts to escape from battle. Has a 75% success rate. If successful, only the user of the ability is removed from battle.",
             "used_by": ["characters"],
             "rank": 1,
+            "can_copycat": true,
             "possible_abilities": []
         },
         {
@@ -124,6 +137,7 @@
             "effect": "Pay Gil to Yojimbo in order for him to execute one of his abilities. 0 Gil to dismiss.",
             "used_by": ["yojimbo"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "yojimbo",
@@ -138,6 +152,7 @@
             "effect": "Ask the Magus Sisters to use a wide range of actions. Cindy may use Life-spells, Black Magic, attack. Sandy may use her physical or special attack, or cast reflect on Cindy. Mindy will use her physical or special attack. If Cindy has Reflect, Mindy will use Black Magic on her.",
             "used_by": ["magus sisters"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -160,6 +175,7 @@
             "effect": "Ask the Magus Sisters to repeat their last move. They might use their physical or special attack instead.",
             "used_by": ["magus sisters"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -182,6 +198,7 @@
             "effect": "Ask the Magus Sisters to attack. They will either use their physical, or their special attack.",
             "used_by": ["magus sisters"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -204,6 +221,7 @@
             "effect": "Ask Cindy to use black magic. She sometimes uses Pray first.",
             "used_by": ["cindy"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -218,6 +236,7 @@
             "effect": "Ask Cindy to cure or revive her sisters, or to cast Auto-Life.",
             "used_by": ["cindy"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -232,6 +251,7 @@
             "effect": "Ask Sandy to use Haste, Protect, and Shell, or to cure her sisters.",
             "used_by": ["sandy"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "sandy",
@@ -246,6 +266,7 @@
             "effect": "Ask Mindy to absorb HP and MP, if hers are low.",
             "used_by": ["mindy"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "mindy",
@@ -260,6 +281,7 @@
             "effect": "The Magus Sisters will use Delta-Attack, if all their Overdrive Gauges are full.",
             "used_by": ["magus sisters"],
             "rank": null,
+            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -282,6 +304,7 @@
             "effect": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn.",
             "used_by": ["aeons"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -291,6 +314,7 @@
             "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
             "used_by": ["aeons"],
             "rank": 3,
+            "can_copycat": false,
             "possible_abilities": []
         },
         {
@@ -300,6 +324,7 @@
             "effect": "Remove all your Aeons from the field and return to your active party. In the case of the Magus Sisters, any KO'd Sisters will be revived with 1 HP.",
             "used_by": ["aeons", "yojimbo", "magus sisters"],
             "rank": 0,
+            "can_copycat": false,
             "possible_abilities": []
         }
     ]

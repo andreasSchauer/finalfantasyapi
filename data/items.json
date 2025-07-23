@@ -15,22 +15,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-no-variance",
-                            "damage_constant": 4
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 4
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -53,22 +64,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-no-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -91,22 +113,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -129,22 +162,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-no-variance",
-                            "damage_constant": 40
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 40
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -167,22 +211,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "mp",
-                            "damage_type": null,
-                            "damage_formula": "special-no-variance",
-                            "damage_constant": 2
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "mp",
+                                "damage_type": null,
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 2
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -205,22 +260,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "mp",
-                            "damage_type": null,
-                            "damage_formula": "special-no-variance",
-                            "damage_constant": 10
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "mp",
+                                "damage_type": null,
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 10
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -243,30 +309,41 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        },
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "mp",
-                            "damage_type": null,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 16
+                            },
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "mp",
+                                "damage_type": null,
                             "damage_formula": "percentage-max",
                             "damage_constant": 16
                         }
                     ],
-                    "delay": [],
-                    "can_critical": false,
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": true,
                     "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
+                    "element": null
+                },
+                "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                "shatter_rate": null,
+                "affected_by": [],    
+                "hit_amount": 1,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -289,30 +366,41 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        },
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "mp",
-                            "damage_type": null,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 16
+                            },
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "mp",
+                                "damage_type": null,
                             "damage_formula": "percentage-max",
                             "damage_constant": 16
                         }
                     ],
-                    "delay": [],
-                    "can_critical": false,
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": true,
                     "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
+                    "element": null
+                },
+                "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                "shatter_rate": null,
+                "affected_by": [],    
+                "hit_amount": 1,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -335,22 +423,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": "Only KO'd characters and zombies.",
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 8
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": "Only KO'd characters and zombies.",
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 8
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "life",
@@ -379,22 +478,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": "Only KO'd characters and zombies.",
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": "Only KO'd characters and zombies.",
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "life",
@@ -423,13 +533,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["poison"],
                     "stat_changes": [],
@@ -452,13 +566,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["petrification"],
                     "stat_changes": [],
@@ -481,13 +599,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["darkness"],
                     "stat_changes": [],
@@ -510,13 +632,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["silence"],
                     "stat_changes": [],
@@ -539,13 +665,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["zombie", "curse"],
                     "stat_changes": [],
@@ -568,13 +698,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["berserk", "confusion", "darkness", "petrification", "poison", "silence", "sleep", "slow", "zombie"],
                     "stat_changes": [],
@@ -597,13 +731,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "power distiller",
@@ -632,13 +770,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "mana distiller",
@@ -667,13 +809,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "speed distiller",
@@ -702,13 +848,17 @@
             "meta": [
                 {
                     "target": "single-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "ability distiller",
@@ -737,22 +887,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-no-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["poison", "silence", "petrification"],
                     "stat_changes": [],
@@ -775,22 +936,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -813,22 +985,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "heal",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-max",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-max",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "nulblaze",
@@ -872,22 +1055,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "ice"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "ice",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -910,22 +1104,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "ice"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.5,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "ice",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -948,22 +1153,33 @@
             "meta": [
                 {
                     "target": "random-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "ice"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.7,
+                    "affected_by": [],
                     "hit_amount": 5,
-                    "element": "ice",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -986,22 +1202,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "fire"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "fire",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1024,22 +1251,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "fire"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.5,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "fire",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1062,22 +1300,33 @@
             "meta": [
                 {
                     "target": "random-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "fire"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.7,
+                    "affected_by": [],
                     "hit_amount": 5,
-                    "element": "fire",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1100,22 +1349,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "lightning" 
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "lightning",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1138,22 +1398,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "lightning" 
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.5,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "lightning",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1176,22 +1447,33 @@
             "meta": [
                 {
                     "target": "random-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "lightning" 
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.7,
+                    "affected_by": [],
                     "hit_amount": 5,
-                    "element": "lightning",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1214,22 +1496,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "water"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "water",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1252,22 +1545,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "water"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.5,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "water",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1290,22 +1594,33 @@
             "meta": [
                 {
                     "target": "random-enemy",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 12
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "water"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.7,
+                    "affected_by": [],
                     "hit_amount": 5,
-                    "element": "water",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1328,22 +1643,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 7
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 7
+                            }
+                        ],
+                        "can_critical": "formula",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.5,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1366,22 +1692,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 16
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": true,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "formula",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.5,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "armor break",
@@ -1410,22 +1747,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 15
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 15
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "sleep",
@@ -1454,22 +1802,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "sleep",
@@ -1498,22 +1857,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 15
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 15
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "silence",
@@ -1542,22 +1912,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 15
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 15
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.3,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "darkness",
@@ -1586,22 +1967,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "percentage-current",
-                            "damage_constant": 8
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "percentage-current",
+                                "damage_constant": 8
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.5,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1624,22 +2016,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 120
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 120
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 1,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1662,22 +2065,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 160
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 160
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "holy"
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 1,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": "holy",
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1700,22 +2114,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 200
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 200
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 1,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -1738,22 +2163,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 40
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 40
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.6,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "poison",
@@ -1782,8 +2218,16 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": "Moment of Infliction.",
@@ -1793,10 +2237,6 @@
                             "damage_constant": 8
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "slow",
@@ -1825,17 +2265,25 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 20
-                        }
-                    ],
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
                     "delay": [
                         {
                             "condition": null,
@@ -1845,10 +2293,13 @@
                             "damage_constant": 24
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.7,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "slow",
@@ -1877,13 +2328,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "doom",
@@ -1912,13 +2367,17 @@
             "meta": [
                 {
                     "target": "all-enemies",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "petrification",
@@ -1947,13 +2406,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "death",
@@ -1982,13 +2445,17 @@
             "meta": [
                 {
                     "target": "all-enemies",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "death",
@@ -2017,22 +2484,33 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 255
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "always",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 255
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "always",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 1,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2055,8 +2533,16 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": "Moment of Infliction.",
@@ -2066,10 +2552,6 @@
                             "damage_constant": 8
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "haste",
@@ -2098,8 +2580,16 @@
             "meta": [
                 {
                     "target": "target-party",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
+                    "hit_amount": 1,
                     "delay": [
                         {
                             "condition": "Moment of Infliction.",
@@ -2109,10 +2599,6 @@
                             "damage_constant": 8
                         }
                     ],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
                     "inflicted_status_conditions": [
                         {
                             "name": "haste",
@@ -2141,13 +2627,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "shell",
@@ -2176,13 +2666,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "protect",
@@ -2211,13 +2705,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "reflect",
@@ -2246,13 +2744,17 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [
                         {
                             "name": "regen",
@@ -2281,22 +2783,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "mp",
-                            "damage_type": null,
-                            "damage_formula": "special-variance",
-                            "damage_constant": 20
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "mp",
+                                "damage_type": null,
+                                "damage_formula": "special-variance",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.1,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2319,22 +2832,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 8
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 8
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.1,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2357,30 +2881,41 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 30
-                        },
-                        {
-                            "condition": null,
-                            "attack_type": "absorb",
-                            "target_stat": "mp",
-                            "damage_type": null,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 30
+                            },
+                            {
+                                "condition": null,
+                                "attack_type": "absorb",
+                                "target_stat": "mp",
+                                "damage_type": null,
                             "damage_formula": "special-variance",
                             "damage_constant": 30
                         }
                     ],
-                    "delay": [],
-                    "can_critical": false,
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": true,
                     "break_dmg_lmt": "never",
-                    "hit_amount": 1,
-                    "element": null,
+                    "element": null
+                },
+                "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                "shatter_rate": 0.1,
+                "affected_by": [],    
+                "hit_amount": 1,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2403,22 +2938,33 @@
             "meta": [
                 {
                     "target": "single-target",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "special",
-                            "damage_formula": "special-variance",
-                            "damage_constant": 22
-                        }
-                    ],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-variance",
+                                "damage_constant": 22
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": 0.1,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "curse", "slow", "haste", "protect", "shell", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost"],
                     "stat_changes": [],
@@ -2441,13 +2987,17 @@
             "meta": [
                 {
                     "target": "single-character",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [
@@ -2476,13 +3026,17 @@
             "meta": [
                 {
                     "target": "single-character",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [
@@ -2511,13 +3065,17 @@
             "meta": [
                 {
                     "target": "all-characters",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [
@@ -2546,13 +3104,17 @@
             "meta": [
                 {
                     "target": "all-characters",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [
@@ -2581,13 +3143,17 @@
             "meta": [
                 {
                     "target": "single-character",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2616,13 +3182,17 @@
             "meta": [
                 {
                     "target": "all-characters",
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": 1,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2651,13 +3221,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2680,13 +3254,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2709,13 +3287,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2738,13 +3320,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2767,13 +3353,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2796,13 +3386,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2825,13 +3419,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2854,13 +3452,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2883,13 +3485,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2912,13 +3518,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2941,13 +3551,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2970,13 +3584,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -2999,13 +3617,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3028,13 +3650,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3057,13 +3683,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3086,13 +3716,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3115,13 +3749,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3144,13 +3782,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3173,13 +3815,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3202,13 +3848,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3231,13 +3881,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3260,13 +3914,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3289,13 +3947,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3318,13 +3980,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3347,13 +4013,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3376,13 +4046,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3405,13 +4079,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3434,13 +4112,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3463,13 +4145,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3492,13 +4178,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3521,13 +4211,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3550,13 +4244,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3579,13 +4277,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3608,13 +4310,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3637,13 +4343,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3666,13 +4376,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3695,13 +4409,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3724,13 +4442,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3753,13 +4475,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3782,13 +4508,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3811,13 +4541,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3840,13 +4574,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],
@@ -3869,13 +4607,17 @@
             "meta": [
                 {
                     "target": null,
+                    "based_on_phys_attack": false,
                     "range": "far",
-                    "damage": [],
-                    "delay": [],
-                    "can_critical": false,
-                    "break_dmg_lmt": "never",
+                    "damage": null,
+                    "accuracy": {
+                        "acc_source": "always",
+                        "acc_modifier": null
+                    },
+                    "shatter_rate": null,
+                    "affected_by": [],
                     "hit_amount": null,
-                    "element": null,
+                    "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
                     "stat_changes": [],

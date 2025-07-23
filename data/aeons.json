@@ -12,7 +12,7 @@
             "is_optional": false,
             "celestial_weapon": "nirvana",
             "num_battles_to_regenerate": 8,
-            "physical_attack_range": "far",
+            "physical_attack_range": "very-far",
             "phys_atk_dmg_constant": 14,
             "phys_atk_acc_modifier": 2.5,
             "base_stats": [
@@ -42,7 +42,7 @@
             "num_battles_to_regenerate": 12,
             "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.0,
+            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 857 },
                 { "name": "mp",             "value": 23 },
@@ -70,7 +70,7 @@
             "num_battles_to_regenerate": 20,
             "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.0,
+            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 891 },
                 { "name": "mp",             "value": 25 },
@@ -126,7 +126,7 @@
             "num_battles_to_regenerate": 24,
             "physical_attack_range": "close",
             "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.0,
+            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 1210 },
                 { "name": "mp",             "value": 35 },
@@ -152,9 +152,9 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 24,
-            "physical_attack_range": "far",
+            "physical_attack_range": "very-far",
             "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.0,
+            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 1410 },
                 { "name": "mp",             "value": 45 },
@@ -180,9 +180,9 @@
             "is_optional": true,
             "celestial_weapon": "masamune",
             "num_battles_to_regenerate": 24,
-            "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.0,
+            "physical_attack_range": null,
+            "phys_atk_dmg_constant": null,
+            "phys_atk_acc_modifier": null,
             "base_stats": [
                 { "name": "hp",             "value": 1030 },
                 { "name": "mp",             "value": 0 },
@@ -209,7 +209,7 @@
             "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
             "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 16,
+            "phys_atk_dmg_constant": 14,
             "phys_atk_acc_modifier": 1.0,
             "base_stats": [
                 { "name": "hp",             "value": 2190 },
@@ -237,7 +237,7 @@
             "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
             "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 16,
+            "phys_atk_dmg_constant": 14,
             "phys_atk_acc_modifier": 1.0,
             "base_stats": [
                 { "name": "hp",             "value": 1790 },
@@ -264,8 +264,8 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
-            "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 16,
+            "physical_attack_range": "far",
+            "phys_atk_dmg_constant": 14,
             "phys_atk_acc_modifier": 1.0,
             "base_stats": [
                 { "name": "hp",             "value": 1237 },

@@ -1,0 +1,450 @@
+--- src/main/resources/ffx_ps2/ffx/master/new_uspc/battle/kernel/item.bin ---
+
+
+
+2000 (Offset 0014) - Potion               
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=4, Never BDL, 1 Ally/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/006C/006C } Restores 200 HP of one character.
+
+
+2001 (Offset 0074) - Hi-Potion            
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=20, Never BDL, 1 Ally/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/006E/006E } Restores 1000 HP of one character.
+
+
+2002 (Offset 00D4) - X-Potion             
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, 1 Ally/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/0070/0070 } Fully restores HP of one character.
+
+
+2003 (Offset 0134) - Mega-Potion          
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=40, Never BDL, All Allies/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/0070/0070 } Restores 2000 HP of each party member.
+
+
+2004 (Offset 0194) - Ether                
+{  Special MP Restore, Formula=Fixed x50 [06h], 1-hit, Power=2, Never BDL, 1 Ally/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/00D9/00D9 } Restores 100 MP of one character.
+
+
+2005 (Offset 01F4) - Turbo Ether          
+{  Special MP Restore, Formula=Fixed x50 [06h], 1-hit, Power=10, Never BDL, 1 Ally/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/00DB/00DB } Restores 500 MP of one character.
+
+
+2006 (Offset 0254) - Phoenix Down         
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=8, Never BDL, 1 Ally/5/Dead, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Death }, anim=2/0072/0073 } Revives one character from KO.
+
+
+2007 (Offset 02B4) - Mega Phoenix         
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, All Allies/5/Dead, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Death }, anim=2/0074/0075 } Revives party from KO.
+
+
+2008 (Offset 0314) - Elixir               
+{  Special HP/MP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, 1 Ally/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/00DD/00DD } Fully restores one character's HP & MP.
+
+
+2009 (Offset 0374) - Megalixir            
+{  Special HP/MP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, All Allies/5, Rank=2, Usable outside combat, Usable by anyone, Piercing, Hit%=Always [00h], anim=2/00DD/00DD } Fully restores HP & MP of party.
+
+
+200A (Offset 03D4) - Antidote             
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Poison }, anim=2/00E5/00E5 } Cures poison.
+
+
+200B (Offset 0434) - Soft                 
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Petrify }, anim=2/00E7/00E7 } Cures petrification.
+
+
+200C (Offset 0494) - Eye Drops            
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Darkness }, anim=2/00E9/00E9 } Cures darkness.
+
+
+200D (Offset 04F4) - Echo Screen          
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Silence }, anim=2/00EB/00EC } Cures silence.
+
+
+200E (Offset 0554) - Holy Water           
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Zombie; Curse }, anim=2/00ED/00EE } Cures zombie and curse.
+
+
+200F (Offset 05B4) - Remedy               
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Sleep; Silence; Darkness; Slow }, anim=2/0078/0079 } Cures all status abnormalities.
+
+
+2010 (Offset 0614) - Power Distiller      
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Enemy!!/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Inflict { Distill Power }, anim=2/0028/0028 } Makes one enemy drop Power Spheres.
+
+
+2011 (Offset 0674) - Mana Distiller       
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Enemy!!/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Inflict { Distill Mana }, anim=2/0020/0020 } Makes one enemy drop Mana Spheres.
+
+
+2012 (Offset 06D4) - Speed Distiller      
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Enemy!!/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Inflict { Distill Speed }, anim=2/002E/002E } Makes one enemy drop Speed Spheres.
+
+
+2013 (Offset 0734) - Ability Distiller    
+{  Special, Formula=Fixed x50 [06h], 1-hit, Never BDL, 1 Enemy!!/5, Rank=2, Usable by anyone, Piercing, Hit%=Always [00h], Inflict { Distill Ability }, anim=2/0032/0032 } Makes one enemy drop Ability Spheres.
+
+
+2014 (Offset 0794) - Al Bhed Potion       
+{  Special HP Restore, Formula=Fixed x50 [06h], 1-hit, Power=20, Never BDL, All Allies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Remove { Petrify; Poison; Silence }, anim=2/0070/0070 } Cures poison, silence, petrification. Gives 1000 HP to all.
+
+
+2015 (Offset 07F4) - Healing Water        
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, All Allies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], anim=2/0070/0070 } Fully restores HP of party.
+
+
+2016 (Offset 0854) - Tetra Elemental      
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { NulAll (Infinite%, 1 block) }, anim=2/0192/0192 } Fully restores HP and casts NulAll on party.
+
+
+2017 (Offset 08B4) - Antarctic Wind       
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=12, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Ice, Shatter=30%, anim=2/0054/0055 } Deals ice damage to an enemy.
+
+
+2018 (Offset 0914) - Arctic Wind          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Ice, Shatter=50%, anim=2/005C/005D } Deals ice damage to an enemy.
+
+
+2019 (Offset 0974) - Ice Gem              
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=12, Never BDL, Random Enemies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Ice, Shatter=70%, anim=2/02A8/02A9 } Deals ice damage to all enemies.
+
+
+201A (Offset 09D4) - Bomb Fragment        
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=12, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Fire, NullBuff x1, Shatter=30%, anim=2/0052/0053 } Deals fire damage to an enemy.
+
+
+201B (Offset 0A34) - Bomb Core            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Fire, NullBuff x1, Shatter=50%, anim=2/005A/005B } Deals fire damage to an enemy.
+
+
+201C (Offset 0A94) - Fire Gem             
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=12, Never BDL, Random Enemies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Fire, NullBuff x1, Shatter=70%, anim=2/02A6/02A7 } Deals fire damage to all enemies.
+
+
+201D (Offset 0AF4) - Electro Marble       
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=12, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Thunder, NullBuff x1, Shatter=30%, anim=2/0056/0057 } Deals lightning damage to an enemy.
+
+
+201E (Offset 0B54) - Lightning Marble     
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Thunder, NullBuff x1, Shatter=50%, anim=2/005E/005F } Deals lightning damage to an enemy.
+
+
+201F (Offset 0BB4) - Lightning Gem        
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=12, Never BDL, Random Enemies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Thunder, NullBuff x1, Shatter=70%, anim=2/02AA/02AB } Deals lightning damage to all enemies.
+
+
+2020 (Offset 0C14) - Fish Scale           
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=12, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Water, Shatter=30%, anim=2/0058/0059 } Deals water damage to an enemy.
+
+
+2021 (Offset 0C74) - Dragon Scale         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Water, Shatter=50%, anim=2/0060/0061 } Deals water damage to an enemy.
+
+
+2022 (Offset 0CD4) - Water Gem            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=12, Never BDL, Random Enemies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Water, Shatter=70%, anim=2/02AC/02AD } Deals water damage to all enemies.
+
+
+2023 (Offset 0D34) - Grenade              
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=7, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=2/00F1/00F2 } Damages all enemies.
+
+
+2024 (Offset 0D94) - Frag Grenade         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=16, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Can crit, Inflict { Armor Break (Infinite%) }, Shatter=50%, anim=2/00F1/00F2 } Inflicts damage and nullifies armored on all enemies.
+
+
+2025 (Offset 0DF4) - Sleeping Powder      
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=15, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Sleep (Infinite%, 5 turns) }, Shatter=30%, anim=2/028A/028B } Inflicts damage and sleep on all enemies.
+
+
+2026 (Offset 0E54) - Dream Powder         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Sleep (Infinite%, 8 turns) }, Shatter=30%, anim=2/028A/028B } Inflicts damage and sleep on all enemies.
+
+
+2027 (Offset 0EB4) - Silence Grenade      
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=15, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Silence (Infinite%, 8 turns) }, Shatter=30%, anim=2/028C/028E } Inflicts damage and silence on all enemies.
+
+
+2028 (Offset 0F14) - Smoke Bomb           
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=15, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Darkness (Infinite%, 8 turns) }, Shatter=30%, anim=2/028D/028F } Inflicts damage and darkness on all enemies.
+
+
+2029 (Offset 0F74) - Shadow Gem           
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=8, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Shatter=50%, anim=2/0066/0067 } Reduces HP of all enemies by half.
+
+
+202A (Offset 0FD4) - Shining Gem          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=120, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Shatter=100%, anim=2/0068/0069 } Damages an enemy.
+
+
+202B (Offset 1034) - Blessed Gem          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=160, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Element=Holy, Shatter=100%, anim=2/0092/0092 } Damages an enemy.
+
+
+202C (Offset 1094) - Supreme Gem          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=200, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Shatter=100%, anim=2/006A/006A } Damages all enemies.
+
+
+202D (Offset 10F4) - Poison Fang          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=40, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Poison (Infinite%) }, Shatter=60%, anim=2/0064/0065 } Inflicts damage and poison on an enemy.
+
+
+202E (Offset 1154) - Silver Hourglass     
+{  Special CTB Damage, Formula=Ticks/16 [0Dh], 1-hit, Power=8, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Slow (Infinite%, Endless) }, anim=2/000E/000E } Delays next turn of all enemies.
+
+
+202F (Offset 11B4) - Gold Hourglass       
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Never BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Slow (Infinite%, Endless) }, Delay (Weak), Shatter=70%, anim=2/000E/000E } Damages all enemies and delays their next turn.
+
+
+2030 (Offset 1214) - Candle of Life       
+{  Special, 1-hit, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Doom }, anim=2/02B2/02B2 } Casts Doom on an enemy.
+
+
+2031 (Offset 1274) - Petrify Grenade      
+{  Special, 1-hit, Never BDL, All Enemies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Petrify (Infinite%) }, anim=2/0290/0291 } Petrifies all enemies.
+
+
+2032 (Offset 12D4) - Farplane Shadow      
+{  Special, 1-hit, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Death (100%) }, anim=2/0062/0062 } Inflicts death on an enemy.
+
+
+2033 (Offset 1334) - Farplane Wind        
+{  Special, 4-hit, Never BDL, Random Enemies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Death (100%) }, anim=2/02AE/02AE } Inflicts death on all enemies.
+
+
+2034 (Offset 1394) - [Designer Wallet]    
+{ Unusable,  Special, Menu, Rank=0, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+2035 (Offset 13F4) - Dark Matter          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=255, BDL, All Enemies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Shatter=10%, anim=2/01A8/01A8 } Deals major damage to all enemies.
+
+
+2036 (Offset 1454) - Chocobo Feather      
+{  Special CTB Restore, Formula=Ticks/16 [0Dh], 1-hit, Power=8, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Haste (Infinite%, Endless) }, anim=2/000A/000A } Casts Haste on one character.
+
+
+2037 (Offset 14B4) - Chocobo Wing         
+{  Special CTB Restore, Formula=Ticks/16 [0Dh], 1-hit, Power=8, Never BDL, All Allies/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Haste (Infinite%, Endless) }, anim=2/000A/000A } Casts Haste on party.
+
+
+2038 (Offset 1514) - Lunar Curtain        
+{  Special, Formula=MAG vs MDF [03h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Shell (Infinite%, Endless) }, anim=2/007E/007F } Casts Shell on one character.
+
+
+2039 (Offset 1574) - Light Curtain        
+{  Special, Formula=MAG vs MDF [03h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Protect (Infinite%, Endless) }, anim=2/0080/0080 } Casts Protect on one character.
+
+
+203A (Offset 15D4) - Star Curtain         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Reflect (Infinite%, Endless) }, anim=2/0082/0083 } Casts Reflect on one character.
+
+
+203B (Offset 1634) - Healing Spring       
+{  Special, Formula=MAG vs MDF [03h], 1-hit, Never BDL, 1 Ally/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Inflict { Regen (Infinite%, 10 turns) }, anim=2/007A/007B } Casts Regen on one character.
+
+
+203C (Offset 1694) - Mana Spring          
+{  Special MP Absorb, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=20, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Shatter=10%, anim=2/0086/0087 } Absorbs MP from an enemy.
+
+
+203D (Offset 16F4) - Stamina Spring       
+{  Special HP Absorb, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=8, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Shatter=10%, anim=2/0084/0085 } Absorbs HP from an enemy.
+
+
+203E (Offset 1754) - Soul Spring          
+{  Special HP/MP Absorb, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=30, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Shatter=10%, anim=2/0009/0009 } Absorbs HP & MP from an enemy.
+
+
+203F (Offset 17B4) - Purifying Salt       
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=22, Never BDL, 1 Enemy/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, Shatter=10%, anim=2/007C/007D } Damages an enemy and dispels its magic effects.
+
+
+2040 (Offset 1814) - Stamina Tablet       
+{  Special, 1-hit, Never BDL, 1 Ally!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Special Buff: Double HP, anim=2/01AA/01AA } Doubles max HP of one character.
+
+
+2041 (Offset 1874) - Mana Tablet          
+{  Special, 1-hit, Never BDL, 1 Ally!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Special Buff: Double MP, anim=2/01AB/01AB } Doubles max MP of one character.
+
+
+2042 (Offset 18D4) - Twin Stars           
+{  Special, 1-hit, Never BDL, 1 Ally!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Special Buff: Spellspring, anim=2/0194/0194 } Reduces MP cost of one character to 0.
+
+
+2043 (Offset 1934) - Stamina Tonic        
+{  Special, 1-hit, Never BDL, All Allies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Special Buff: Double HP, anim=2/01AA/01AA } Doubles max HP of party.
+
+
+2044 (Offset 1994) - Mana Tonic           
+{  Special, 1-hit, Never BDL, All Allies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Special Buff: Double MP, anim=2/01AB/01AB } Doubles max MP of party.
+
+
+2045 (Offset 19F4) - Three Stars          
+{  Special, 1-hit, Never BDL, All Allies!!/5, Rank=2, Usable by anyone, In "Use" Menu, Piercing, Hit%=Always [00h], Special Buff: Spellspring, anim=2/0194/0194 } Reduces party's MP cost to 0.
+
+
+2046 (Offset 1A54) - [Power Sphere]       
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes on Sphere Grid.
+
+
+2047 (Offset 1AB4) - [Mana Sphere]        
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes on Sphere Grid.
+
+
+2048 (Offset 1B14) - [Speed Sphere]       
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes on Sphere Grid.
+
+
+2049 (Offset 1B74) - [Ability Sphere]     
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes on Sphere Grid.
+
+
+204A (Offset 1BD4) - [Fortune Sphere]     
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes on Sphere Grid.
+
+
+204B (Offset 1C34) - [Attribute Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes used by allies on Sphere Grid.
+
+
+204C (Offset 1C94) - [Special Sphere]     
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes used by allies on Sphere Grid.
+
+
+204D (Offset 1CF4) - [Skill Sphere]       
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes used by allies on Sphere Grid.
+
+
+204E (Offset 1D54) - [Wht Magic Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes used by allies on Sphere Grid.
+
+
+204F (Offset 1DB4) - [Blk Magic Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates nodes used by allies on Sphere Grid.
+
+
+2050 (Offset 1E14) - [Master Sphere]      
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Activates any node on Sphere Grid.
+
+
+2051 (Offset 1E74) - [Lv. 1 Key Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Opens Locks on Sphere Grid.
+
+
+2052 (Offset 1ED4) - [Lv. 2 Key Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Opens Locks on Sphere Grid.
+
+
+2053 (Offset 1F34) - [Lv. 3 Key Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Opens Locks on Sphere Grid.
+
+
+2054 (Offset 1F94) - [Lv. 4 Key Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Opens Locks on Sphere Grid.
+
+
+2055 (Offset 1FF4) - [HP Sphere]          
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+2056 (Offset 2054) - [MP Sphere]          
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+2057 (Offset 20B4) - [Strength Sphere]    
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+2058 (Offset 2114) - [Defense Sphere]     
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+2059 (Offset 2174) - [Magic Sphere]       
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+205A (Offset 21D4) - [Magic Def Sphere]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+205B (Offset 2234) - [Agility Sphere]     
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+205C (Offset 2294) - [Evasion Sphere]     
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+205D (Offset 22F4) - [Accuracy Sphere]    
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+205E (Offset 2354) - [Luck Sphere]        
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Fills empty nodes on Sphere Grid.
+
+
+205F (Offset 23B4) - [Clear Sphere]       
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Clears nodes from Sphere Grid.
+
+
+2060 (Offset 2414) - [Return Sphere]      
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Changes current location on Sphere Grid.
+
+
+2061 (Offset 2474) - [Friend Sphere]      
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Changes current location on Sphere Grid.
+
+
+2062 (Offset 24D4) - [Teleport Sphere]    
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Changes current location on Sphere Grid.
+
+
+2063 (Offset 2534) - [Warp Sphere]        
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Changes current location on Sphere Grid.
+
+
+2064 (Offset 2594) - [Map]                
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable outside combat, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Displays world map.
+
+
+2065 (Offset 25F4) - [Rename Card]        
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable outside combat, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } Renames aeon.
+
+
+2066 (Offset 2654) - [Musk]               
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+2067 (Offset 26B4) - [Hypello Potion]     
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+2068 (Offset 2714) - [Shining Thorn]      
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+2069 (Offset 2774) - [Pendulum]           
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+206A (Offset 27D4) - [Amulet]             
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+206B (Offset 2834) - [Door to Tomorrow]   
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+206C (Offset 2894) - [Wings to Discovery] 
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+206D (Offset 28F4) - [Gambler
+'s Spirit]   { Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+206E (Offset 2954) - [Underdog
+'s Secret]  { Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...
+
+
+206F (Offset 29B4) - [Winning Formula]    
+{ Unusable,  Special, 1-hit, Menu, Rank=2, Usable by anyone, Hit%=Always [00h], anim=2/0000/0000 } There seems to be some use for this...

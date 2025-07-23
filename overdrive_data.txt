@@ -1,0 +1,576 @@
+3060 (Offset 2414) - Spiral Cut (Success)       
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, 1 Enemy!!/5, Rank=3, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0186/01BF } Damages an enemy.
+
+
+30EB (Offset 5834) - Spiral Cut (Fail)                   
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Enemy!!/5, Rank=3, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0186/01BF } Damages an enemy.
+
+
+3061 (Offset 2474) - Slice & Dice (Success)
+{  Special HP Damage, Formula=STR vs DEF [01h], 6-hit, Power=6, Random Enemies!!, Rank=4, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=3, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0187/01C0 } Damages all enemies.
+
+
+30EC (Offset 5894) - Slice & Dice (Fail)                    
+{  Special HP Damage, Formula=STR vs DEF [01h], 3-hit, Power=8, Random Enemies!!/5, Rank=4, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=3, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0187/01C0 } Damages all enemies.
+
+
+3062 (Offset 24D4) - Energy Rain (Success)         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=26, All Enemies!!, Rank=5, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=4, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0188/01C1 } Damages all enemies.
+
+
+30ED (Offset 58F4) - Energy Rain (Fail)                   
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=20, All Enemies!!/5, Rank=5, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=4, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0188/01C1 } Damages all enemies.
+
+
+3063 (Offset 2534) - Blitz Ace (First Hits)          
+{  Special HP Damage, Formula=STR vs DEF [01h], 8-hit, Power=4, 1 Enemy!!/5, Rank=7, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=5, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0189/01C2 } Damages an enemy.
+
+
+3112 (Offset 66D4) - Blitz Ace (Blitzball Hit)                  
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Enemy!!/5, Rank=6, Usable by Tidus, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Tidus, OD-Choice=5, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/0189/01C2 } Damages an enemy.
+
+
+3065 (Offset 25F4) - Dragon Fang (Success)        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=17, All Enemies!!, Rank=5, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=3, Piercing, Hit%=Always [00h], Can crit, Delay (Weak), Shatter=100%, anim=4/018B/0000 } Damages all enemies.
+
+
+310F (Offset 65B4) - Dragon Fang (Immune)                 
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=19, All Enemies!!/5, Rank=5, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=3, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018B/0000 } Damages all enemies.
+
+
+310B (Offset 6434) - Dragon Fang (Failure)                   
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, All Enemies!!/5, Rank=5, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=3, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018B/0000 } Damages all enemies.
+
+
+3064 (Offset 2594) - Shooting Star (Success)     
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Enemy!!/5, Rank=5, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Inflict { Eject }, Shatter=100%, anim=4/018A/0000 } Damages an enemy.
+
+
+310E (Offset 6554) - Shooting Star (Immune)                  
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=27, 1 Enemy!!/5, Rank=5, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018A/0000 } Damages an enemy.
+
+
+310A (Offset 63D4) - Shooting Star (Failure)                  
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=24, 1 Enemy!!/5, Rank=5, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018A/0000 } Damages an enemy.
+
+
+3066 (Offset 2654) - Banishing Blade (Success)   
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=28, 1 Enemy!!/5, Rank=6, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=4, Piercing, Hit%=Always [00h], Can crit, Inflict { All Breaks (Infinite%) }, Shatter=100%, anim=4/018C/0000 } Damages an enemy.
+
+
+3110 (Offset 6614) - Banishing Blade (Immune)                 
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=30, 1 Enemy!!/5, Rank=6, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=4, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018C/0000 } Damages an enemy.
+
+
+310C (Offset 6494) - Banishing Blade (Failure)                  
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=28, 1 Enemy!!/5, Rank=6, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=4, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018C/0000 } Damages an enemy.
+
+
+3067 (Offset 26B4) - Tornado (First Hit)             
+{  Special HP Damage, Formula=STR vs DEF [01h], 2-hit, Power=15, All Enemies!!, Rank=7, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=5, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018D/0000 } Damages all enemies.
+
+
+3111 (Offset 6674) - Tornado (Second Hit)                  
+{  Special HP Damage, Formula=STR vs DEF [01h], 2-hit, Power=20, All Enemies!!/5, Rank=6, Usable by Auron, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Auron, OD-Choice=5, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/018D/0000 } Damages all enemies.
+
+
+3068 (Offset 2714) - Jump                 
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, 1 Enemy!!/5, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=4/01FC/0000 } Damages an enemy.
+
+
+3069 (Offset 2774) - Fire Breath          
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=24, All Enemies!!/Ranged, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Element=Fire, Shatter=50%, anim=4/019F/0000 } Deals fire damage to all enemies.
+
+
+306A (Offset 27D4) - Seed Cannon          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=33, 1 Enemy!!/5, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=4/01A4/0000 } Damages an enemy.
+
+
+306B (Offset 2834) - Self-Destruct        
+{  Special HP Damage, Formula=Fixed x User MaxHP / 10 [10h], 1-hit, Power=30, 1 Enemy!!/5, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Removes Caster, Shatter=50%, anim=4/01A3/0000 } Sacrifice life to heavily damage an enemy.
+
+
+306C (Offset 2894) - Thrust Kick          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=33, 1 Enemy!!/5, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=4/01FE/0000 } Deals damage and ejects enemy from battle.
+
+
+306D (Offset 28F4) - Stone Breath         
+{  Special, Formula=STR vs DEF [01h], 1-hit, All Enemies!!, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Inflict { Petrify (Infinite%) }, anim=4/01A1/0000 } Petrifies all enemies.
+
+
+306E (Offset 2954) - Aqua Breath          
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=26, All Enemies!!, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Element=Water, Shatter=50%, anim=4/01A5/0000 } Deals water damage to all enemies.
+
+
+306F (Offset 29B4) - Doom                 
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy!!/5/Ranged, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Doom }, anim=3/00BC/0000 } Counts down to an enemy's doom.
+
+
+3070 (Offset 2A14) - White Wind           
+{  Special HP Restore, Formula=Healing [07h], 1-hit, Power=40, All Allies!!, Rank=3, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], anim=3/01A2/0000 } Restores party's HP.
+
+
+3071 (Offset 2A74) - Bad Breath           
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Enemies!!, Rank=4, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Poison (100%); Sleep (100%, 10 turns); Silence (100%, 10 turns); Darkness (100%, 10 turns) }, anim=4/01A0/0000 } Inflicts status ailments on all enemies.
+
+
+3072 (Offset 2AD4) - Mighty Guard         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=4, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Shell (Infinite%, Endless); Protect (Infinite%, Endless); NulAll (Infinite%, 1 block) }, anim=3/023C/0000 } Cast defensive spells on party.
+
+
+3073 (Offset 2B34) - Nova                 
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=70, All Enemies!!, Rank=7, Usable by Kimahri, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Kimahri, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=100%, anim=3/01A6/0000 } Damages all enemies.
+
+
+3074 (Offset 2B94) - Element Reels        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=48, All Enemies!!, Rank=4, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=2, Piercing, Hit%=Always [00h], Shatter=50%, anim=4/0235/0284 } Spins elemental damage slots.
+
+
+30EF (Offset 59B4) - [Fire Shot]          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, Shatter=100%, anim=4/021F/0000 } Wakka personal skill 1
+
+
+30F0 (Offset 5A14) - [Fire Shot]          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=3, Piercing, Hit%=Always [00h], Element=Fire, Shatter=100%, anim=4/021F/0000 } Wakka personal skill 2
+
+
+30F1 (Offset 5A74) - [Ice Shot]           
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=4, Piercing, Hit%=Always [00h], Element=Ice, Shatter=100%, anim=4/0220/0000 } Wakka personal skill 3
+
+
+30F2 (Offset 5AD4) - [Ice Shot]           
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=5, Piercing, Hit%=Always [00h], Element=Ice, Shatter=100%, anim=4/0220/0000 } Wakka personal skill 4
+
+
+30F3 (Offset 5B34) - [Water Shot]         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, Shatter=100%, anim=4/0221/0000 } Wakka personal skill 5
+
+
+30F4 (Offset 5B94) - [Water Shot]         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=3, Piercing, Hit%=Always [00h], Element=Water, Shatter=100%, anim=4/0221/0000 } Wakka personal skill 6
+
+
+30F5 (Offset 5BF4) - [Thunder Shot]       
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=4, Piercing, Hit%=Always [00h], Element=Thunder, Shatter=100%, anim=4/0222/0000 } Wakka personal skill 7
+
+
+30F6 (Offset 5C54) - [Thunder Shot]       
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=5, Piercing, Hit%=Always [00h], Element=Thunder, Shatter=100%, anim=4/0222/0000 } Wakka personal skill 8
+
+
+3075 (Offset 2BF4) - Attack Reels         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=48, All Enemies!!, Rank=4, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=3, Piercing, Hit%=Always [00h], Shatter=50%, anim=4/0235/0284 } Spins multiple attack slots.
+
+
+312E (Offset 7154) - [Attack Reels]       
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=10, 1 random Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=5, Piercing, Hit%=Always [00h], Shatter=50%, anim=4/022B/022B } Wakka personal skill 16
+
+
+3076 (Offset 2C54) - Status Reels         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=48, All Enemies!!, Rank=4, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=4, Piercing, Hit%=Always [00h], Shatter=50%, anim=4/0235/0284 } Spins status ailment slots.
+
+
+30F7 (Offset 5CB4) - [Havoc Shot]         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Poison (Infinite%); Sleep (Infinite%, 3 turns); Silence (Infinite%, 3 turns); Darkness (Infinite%, 3 turns) }, Shatter=100%, anim=4/022C/0000 } Wakka personal skill 9
+
+
+30F8 (Offset 5D14) - [Havoc Shot]         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=3, Piercing, Hit%=Always [00h], Inflict { Poison (Infinite%); Sleep (Infinite%, 3 turns); Silence (Infinite%, 3 turns); Darkness (Infinite%, 3 turns) }, Shatter=100%, anim=4/022C/0000 } Wakka personal skill 10
+
+
+30F9 (Offset 5D74) - [Time Shot]          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=4, Piercing, Hit%=Always [00h], Inflict { Petrify (100%); Slow (100%, 0 turns) }, Delay (Weak), Shatter=100%, anim=4/022D/0000 } Wakka personal skill 11
+
+
+30FA (Offset 5DD4) - [Time Shot]          
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=5, Piercing, Hit%=Always [00h], Inflict { Petrify (100%); Slow (100%, 0 turns) }, Delay (Weak), Shatter=100%, anim=4/022D/0000 } Wakka personal skill 12
+
+
+30FB (Offset 5E34) - [Break Shot]         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { All Breaks (100%) }, Shatter=100%, anim=4/022E/0000 } Wakka personal skill 13
+
+
+30FC (Offset 5E94) - [Break Shot]         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=34, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=3, Piercing, Hit%=Always [00h], Inflict { All Breaks (100%) }, Shatter=100%, anim=4/022E/0000 } Wakka personal skill 14
+
+
+3077 (Offset 2CB4) - Aurochs Reels        
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=48, All Enemies!!, Rank=4, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=5, Piercing, Hit%=Always [00h], Shatter=50%, anim=4/0235/0284 } Spins Aurochs custom slots.
+
+
+30FD (Offset 5EF4) - [Aurochs Shot]       
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=72, All Enemies!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=4, Piercing, Hit%=Always [00h], Shatter=100%, anim=4/022F/0000 } Wakka personal skill 15
+
+
+30FE (Offset 5F54) - [Power Shot]         
+{  Special HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=32, 1 Enemy!!/5, Rank=3, Usable by Wakka, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Wakka, OD-Choice=5, Piercing, Hit%=Always [00h], Shatter=100%, anim=4/01BE/0000 } Wakka personal skill 16
+
+
+3078 (Offset 2D14) - Blizzard Fury        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=5, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, Shatter=10%, anim=3/01EE/0000 } Cast multiple ice spells.
+
+
+3079 (Offset 2D74) - Fire Fury            
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=5, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, Shatter=10%, anim=3/01ED/0000 } Cast multiple fire spells.
+
+
+307A (Offset 2DD4) - Thunder Fury         
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=5, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, Shatter=10%, anim=3/01EF/0000 } Cast multiple lightning spells.
+
+
+307B (Offset 2E34) - Water Fury           
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=5, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, Shatter=10%, anim=3/01F4/0000 } Cast multiple water spells.
+
+
+307C (Offset 2E94) - Fira Fury            
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=10, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, Shatter=10%, anim=3/019B/0000 } Cast multiple fire spells.
+
+
+307D (Offset 2EF4) - Blizzara Fury        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=10, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, Shatter=10%, anim=3/019D/0000 } Cast multiple ice spells.
+
+
+307E (Offset 2F54) - Thundara Fury        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=10, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, Shatter=10%, anim=3/019C/0000 } Cast multiple lightning spells.
+
+
+307F (Offset 2FB4) - Watera Fury          
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=10, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, Shatter=10%, anim=3/019E/0000 } Cast multiple water spells.
+
+
+3080 (Offset 3014) - Firaga Fury          
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=18, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, Shatter=10%, anim=3H/01A9/0000 } Cast multiple fire spells.
+
+
+3081 (Offset 3074) - Blizzaga Fury        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=18, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, Shatter=10%, anim=3H/01B8/0000 } Cast multiple ice spells.
+
+
+3082 (Offset 30D4) - Thundaga Fury        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=18, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, Shatter=10%, anim=3H/01B7/0000 } Cast multiple lightning spells.
+
+
+3083 (Offset 3134) - Waterga Fury         
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=18, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, Shatter=10%, anim=3H/01B9/0000 } Cast multiple water spells.
+
+
+3084 (Offset 3194) - Bio Fury             
+{  Special, Formula=MAG vs MDF [03h], 16-hit, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Poison (80%) }, anim=3H/01EC/0000 } Cast multiple poison spells.
+
+
+3085 (Offset 31F4) - Demi Fury            
+{  Special HP Damage, Formula=Current/16 [05h], 16-hit, Power=2, All Enemies!!/Ranged, Rank=6, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Shatter=10%, anim=3H/01BA/0000 } Cast multiple spells that each reduce HP by 1/8.
+
+
+3086 (Offset 3254) - Death Fury           
+{  Special, Formula=MAG vs MDF [03h], 16-hit, Random Enemies!!/Ranged, Rank=5, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Death (80%) }, anim=3H/01BB/0000 } Cast multiple Death spells.
+
+
+3087 (Offset 32B4) - Drain Fury           
+{  Special HP Absorb, Formula=MAG vs MDF [03h], 16-hit, Power=9, Random Enemies!!/Ranged, Rank=4, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Shatter=10%, anim=3/015B/0000 } Cast multiple spells that absorb HP.
+
+
+3088 (Offset 3314) - Osmose Fury          
+{  Special MP Absorb, Formula=MAG vs MDF [03h], 16-hit, Power=4, Random Enemies!!/Ranged, Rank=4, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Shatter=10%, anim=3/01EB/0000 } Cast multiple spells that absorb MP.
+
+
+3089 (Offset 3374) - Flare Fury           
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=22, Random Enemies!!/Ranged, Rank=7, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Shatter=10%, anim=3H/01BC/0000 } Cast multiple non-elemental damage spells.
+
+
+308A (Offset 33D4) - Ultima Fury          
+{  Special HP Damage, Formula=MAG vs MDF [03h], 16-hit, Power=26, All Enemies!!/Ranged, Rank=10, Usable by Lulu, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Lulu, OD-Choice=2, Piercing, Hit%=Always [00h], Shatter=10%, anim=3H/01BD/0000 } Cast multiple non-elemental damage spells.
+
+
+308B (Offset 3434) - Grenade              
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=7, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=28/00F1/00F2 } Damages all enemies.
+
+
+308C (Offset 3494) - Frag Grenade         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=16, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Inflict { Armor Break (Infinite%) }, Shatter=50%, anim=28/00F1/00F2 } Damage and Armor Break to all enemies.
+
+
+308D (Offset 34F4) - Pineapple            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=27, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=28/00F1/00F2 } Damages all enemies.
+
+
+308E (Offset 3554) - Potato Masher        
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=54, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=28/00F1/00F2 } Damages all enemies.
+
+
+308F (Offset 35B4) - Cluster Bomb         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=100, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=28/00F1/00F2 } Damages all enemies.
+
+
+3090 (Offset 3614) - Tallboy              
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=180, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Shatter=50%, anim=28/00F1/00F2 } Damages all enemies.
+
+
+3091 (Offset 3674) - Blaster Mine         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=22, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Inflict { Sleep (150%, 3 turns); Silence (150%, 3 turns); Darkness (150%, 3 turns) }, Shatter=50%, anim=28/00F1/00F2 } Damage and status ailments to all enemies.
+
+
+3092 (Offset 36D4) - Hazardous Shell      
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=45, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Inflict { Poison (150%); Sleep (Infinite%, 4 turns); Silence (Infinite%, 4 turns); Darkness (Infinite%, 4 turns) }, Shatter=50%, anim=28/00F1/00F2 } Damage and status ailments to all enemies.
+
+
+3093 (Offset 3734) - Calamity Bomb        
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=72, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Inflict { Poison (Infinite%); All Breaks (50%); Sleep (Infinite%, 5 turns); Silence (Infinite%, 5 turns); Darkness (Infinite%, 5 turns) }, Shatter=50%, anim=28/00F1/00F2 } Damage and status ailments to all enemies.
+
+
+3094 (Offset 3794) - Chaos Grenade        
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 1-hit, Power=146, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Can crit, Inflict { Poison (Infinite%); All Breaks (150%); Sleep (Infinite%, 8 turns); Silence (Infinite%, 8 turns); Darkness (Infinite%, 8 turns); Slow (Infinite%, Endless) }, Shatter=50%, anim=28/00F1/00F2 } Damage and status ailments to all enemies.
+
+
+3095 (Offset 37F4) - Heat Blaster         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, anim=28/02A2/02A2 } Deals fire damage to all enemies.
+
+
+3096 (Offset 3854) - Firestorm            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 6-hit, Power=14, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, anim=28/02A6/02A7 } Deals fire damage to all enemies.
+
+
+3097 (Offset 38B4) - Burning Soul         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 9-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, anim=28/02A6/02A7 } Deals fire damage to all enemies.
+
+
+3098 (Offset 3914) - Brimstone            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, Inflict { Poison (150%); Sleep (150%, 3 turns); Silence (150%, 3 turns); Darkness (150%, 3 turns) }, anim=28/02A2/02A2 } Fire damage and status ailments to all enemies.
+
+
+3099 (Offset 3974) - Abaddon Flame        
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Fire, Inflict { Poison (Infinite%); All Breaks (50%); Sleep (Infinite%, 3 turns); Silence (Infinite%, 3 turns); Darkness (Infinite%, 3 turns) }, anim=28/02A6/02A7 } Fire damage and status ailments to all enemies.
+
+
+309A (Offset 39D4) - Snow Flurry          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, anim=28/02A3/026B } Deals ice damage to all enemies.
+
+
+309B (Offset 3A34) - Icefall              
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 6-hit, Power=14, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, anim=28/02A8/02A9 } Deals ice damage to all enemies.
+
+
+309C (Offset 3A94) - Winter Storm         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 9-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, anim=28/02A8/02A9 } Deals ice damage to all enemies.
+
+
+309D (Offset 3AF4) - Black Ice            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, Inflict { Poison (150%); Sleep (150%, 3 turns); Silence (150%, 3 turns); Darkness (150%, 3 turns) }, anim=28/02A3/026B } Ice damage and status ailments to all enemies.
+
+
+309E (Offset 3B54) - Krysta               
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Ice, Inflict { Poison (Infinite%); All Breaks (50%); Sleep (Infinite%, 3 turns); Silence (Infinite%, 3 turns); Darkness (Infinite%, 3 turns) }, anim=28/02A8/02A9 } Ice damage and status ailments to all enemies.
+
+
+309F (Offset 3BB4) - Thunderbolt          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, anim=28/02A4/02A4 } Deals lightning damage to all enemies.
+
+
+30A0 (Offset 3C14) - Rolling Thunder      
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 6-hit, Power=14, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, anim=28/02AA/02AB } Deals lightning damage to all enemies.
+
+
+30A1 (Offset 3C74) - Lightning Bolt       
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 9-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, anim=28/02AA/02AB } Deals lightning damage to all enemies.
+
+
+30A2 (Offset 3CD4) - Electroshock         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, Inflict { Poison (150%); Sleep (150%, 3 turns); Silence (150%, 3 turns); Darkness (150%, 3 turns) }, anim=28/02A4/02A4 } Lightning damage and status ailments to all enemies.
+
+
+30A3 (Offset 3D34) - Thunderblast         
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Thunder, Inflict { Poison (Infinite%); All Breaks (50%); Sleep (Infinite%, 3 turns); Silence (Infinite%, 3 turns); Darkness (Infinite%, 3 turns) }, anim=28/02AA/02AB } Lightning damage and status ailments to all enemies.
+
+
+30A4 (Offset 3D94) - Waterfall            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 5-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, anim=28/02A5/02A5 } Deals water damage to all enemies.
+
+
+30A5 (Offset 3DF4) - Flash Flood          
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 6-hit, Power=14, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, anim=28/02AC/02AD } Deals water damage to all enemies.
+
+
+30A6 (Offset 3E54) - Tidal Wave           
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 9-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, anim=28/02AC/02AD } Deals water damage to all enemies.
+
+
+30A7 (Offset 3EB4) - Aqua Toxin           
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=8, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, Inflict { Poison (150%); Sleep (150%, 3 turns); Silence (150%, 3 turns); Darkness (150%, 3 turns) }, anim=28/02A5/02A5 } Water damage and status ailments to all enemies.
+
+
+30A8 (Offset 3F14) - Dark Rain            
+{  Special HP Damage, Formula=Fixed x42.5~57.5 [09h], 3-hit, Power=18, Random Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Element=Water, Inflict { Poison (Infinite%); All Breaks (50%); Sleep (Infinite%, 3 turns); Silence (Infinite%, 3 turns); Darkness (Infinite%, 3 turns) }, anim=28/02AC/02AD } Water damage and status ailments to all enemies.
+
+
+30A9 (Offset 3F74) - Nega Burst           
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=12, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], anim=28/0066/0067 } Reduces HP of all enemies by 3/4.
+
+
+30AA (Offset 3FD4) - Black Hole           
+{  Special HP Damage, Formula=Current/16 [05h], 1-hit, Power=15, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], anim=28/0066/0067 } Reduces HP of all enemies by 15/16.
+
+
+30AB (Offset 4034) - Sunburst             
+{  Special HP Damage, Formula=Fixed x9999 [17h], 1-hit, Power=2, BDL, All Enemies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], anim=28/01A8/01A8 } Deals damage to all enemies.
+
+
+30AC (Offset 4094) - Ultra Potion         
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], anim=28/0070/0070 } Restores HP of party.
+
+
+30AD (Offset 40F4) - Panacea              
+{  Special, Formula=STR vs DEF [01h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Sleep; Silence; Darkness; Slow; Curse }, anim=28/018F/01CB } Cures party of all status ailments.
+
+
+30AE (Offset 4154) - Ultra Cure           
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=8, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Sleep; Silence; Darkness; Slow; Curse }, anim=28/018F/01CB } Restores HP and cures all status ailments of party.
+
+
+30AF (Offset 41B4) - Mega Phoenix         
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, All Allies!!/Dead, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Remove { Death }, anim=28/0074/0075 } Revives party from KO status.
+
+
+30B0 (Offset 4214) - Final Phoenix        
+{  Special HP Restore, Formula=Max/16 [08h], 1-hit, Power=16, All Allies!!/Dead, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Remove { Death }, anim=28/0074/0075 } Revives party from KO status and fully restores HP.
+
+
+30B1 (Offset 4274) - Elixir               
+{  Special HP/MP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, 1 Ally!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], anim=28/00DD/00DD } Fully restores HP & MP of one character.
+
+
+30B2 (Offset 42D4) - Megalixir            
+{  Special HP/MP Restore, Formula=Max/16 [08h], 1-hit, Power=16, Never BDL, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], anim=28/00DD/00DD } Fully restores HP & MP of party.
+
+
+30B3 (Offset 4334) - Super Elixir         
+{  Special HP/MP Restore, Formula=Max/16 [08h], 1-hit, Power=16, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Remove { Zombie; Petrify; Poison; Confuse; Berserk; Sleep; Silence; Darkness; Slow; Curse }, anim=28/00DD/00DD } Full HP & MP to party and cures all status ailments.
+
+
+30B4 (Offset 4394) - Final Elixir         
+{  Special HP/MP Restore, Formula=Max/16 [08h], 1-hit, Power=16, BDL, All Allies!!/Dead, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Remove { Death; Zombie; Petrify; Poison; Confuse; Berserk; Sleep; Silence; Darkness; Slow; Curse }, anim=28/00DD/00DD } Restores party to full health.
+
+
+30B5 (Offset 43F4) - NulAll               
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Ally!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { NulAll (Infinite%, 1 block) }, anim=28/0192/0192 } Defends a character from all elements.
+
+
+30B6 (Offset 4454) - Mega NulAll          
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { NulAll (Infinite%, 1 block) }, anim=28/0192/0192 } Defends party from all elements.
+
+
+30B7 (Offset 44B4) - Hyper NulAll         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { NulAll (Infinite%, 1 block) }, Cheer/Focus x5, anim=28/0192/0192 } Defends party from all elements. Adds Cheer & Focus.
+
+
+30B8 (Offset 4514) - Ultra NulAll         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { NulAll (Infinite%, 1 block) }, Cheer/Focus/Aim/Reflex x5, anim=28/0192/0192 } Defends party from all elements and raises attributes.
+
+
+30B9 (Offset 4574) - Mighty Wall          
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Shell (Infinite%, Endless); Protect (Infinite%, Endless) }, anim=28/023C/023C } Casts Shell and Protect on party.
+
+
+30BA (Offset 45D4) - Mighty G             
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Shell (Infinite%, Endless); Protect (Infinite%, Endless); Haste (Infinite%, Endless) }, anim=28/023C/023C } Casts Shell, Protect, and Haste on party.
+
+
+30BB (Offset 4634) - Super Mighty G       
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Shell (Infinite%, Endless); Protect (Infinite%, Endless); Regen (Infinite%, 20 turns); Haste (Infinite%, Endless) }, anim=28/023C/023C } Casts Mighty G and Regen on party.
+
+
+30BC (Offset 4694) - Hyper Mighty G       
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Inflict { Shell (Infinite%, Endless); Protect (Infinite%, Endless); Regen (Infinite%, 20 turns); Haste (Infinite%, Endless); Auto-Life }, anim=28/023C/023C } Casts Mighty G, Regen, and Auto-Life on party.
+
+
+30BD (Offset 46F4) - Vitality             
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Ally!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Double HP, anim=28/01AA/01AA } Doubles max HP of one character.
+
+
+30BE (Offset 4754) - Mega Vitality        
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Double HP, anim=28/01AA/01AA } Doubles max HP of party.
+
+
+30BF (Offset 47B4) - Hyper Vitality       
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Cheer x5, Special Buff: Double HP, anim=28/01AA/01AA } Doubles max HP and bestows Cheer on party.
+
+
+30C0 (Offset 4814) - Mana                 
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Ally!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Double MP, anim=28/01AB/01AB } Doubles max MP of one character.
+
+
+30C1 (Offset 4874) - Mega Mana            
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Double MP, anim=28/01AB/01AB } Doubles max MP of party.
+
+
+30C2 (Offset 48D4) - Hyper Mana           
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Focus x5, Special Buff: Double MP, anim=28/01AB/01AB } Doubles max MP and bestows Focus on party.
+
+
+30C3 (Offset 4934) - Freedom              
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Ally!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Spellspring, anim=28/0194/0194 } Reduces MP cost of one character's abilities to 0.
+
+
+30C4 (Offset 4994) - Freedom X            
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Spellspring, anim=28/0194/0194 } Reduces MP cost of party's abilities to 0.
+
+
+30C5 (Offset 49F4) - Quartet of 9         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Ally!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Quartet of 9, anim=28/0195/0195 } Augments one character's attacks to 9999 damage.
+
+
+30C6 (Offset 4A54) - Trio of 9999         
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Quartet of 9, anim=28/0195/0195 } Augments party's attacks to 9999 damage.
+
+
+30C7 (Offset 4AB4) - Hero Drink           
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Ally!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Always Crit, anim=28/01AC/01AC } Allows character's attacks to deal critical damage.
+
+
+30C8 (Offset 4B14) - Miracle Drink        
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!/5, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Always Crit, anim=28/01AC/01AC } Allows party's attacks to deal critical damage.
+
+
+30C9 (Offset 4B74) - Hot Spurs            
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Overdrive x1.5, anim=28/0190/0190 } Accelerates party's Overdrive gauges.
+
+
+30CA (Offset 4BD4) - Eccentrick           
+{  Special, Formula=MAG vs MDF [03h], 1-hit, All Allies!!, Rank=6, Usable by Rikku, Topmenu=Left, Submenu="Overdrive", Overdrive (100p), OD-User=Rikku, OD-Choice=2, Piercing, Hit%=Always [00h], Special Buff: Overdrive x2, anim=28/0191/0191 } Hyper-accelerates party's Overdrive gauges.
+
+
+30CD (Offset 4CF4) - Energy Blast         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=75, All Enemies!!/5, Rank=9, Usable by Valefor, Toplevel, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Shatter=100%, anim=3/0097/025C } Deals non-elemental damage to all enemies.
+
+
+30CE (Offset 4D54) - Energy Ray           
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=55, All Enemies!!/5, Rank=8, Usable by Valefor, Toplevel, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Shatter=100%, anim=3/0096/025B } Deals non-elemental damage to all enemies.
+
+
+30D1 (Offset 4E74) - Hellfire             
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=58, All Enemies!!/5/Ranged, Rank=8, Usable by Ifrit, Toplevel, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Element=Fire, Shatter=100%, anim=3/0133/025D } Deals fire damage to all enemies.
+
+
+30D4 (Offset 4F94) - Thor's Hammer        
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=60, All Enemies!!/5/Ranged, Rank=8, Usable by Ixion, Toplevel, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Element=Thunder, Shatter=100%, anim=3/009B/0261 } Deals lightning damage to all enemies.
+
+
+30D7 (Offset 50B4) - Diamond Dust         
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=60, All Enemies!!/5/Ranged, Rank=8, Usable by Shiva, Toplevel, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Element=Ice, Shatter=100%, anim=3/00A5/025E } Deals ice damage to all enemies.
+
+
+30DA (Offset 51D4) - Mega Flare           
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=72, All Enemies!!/5/Ranged, Rank=8, Usable by Bahamut, Toplevel, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Shatter=100%, anim=3/00AA/025F } Deals non-elemental damage to all enemies.
+
+
+30DD (Offset 52F4) - Oblivion             
+{  Special HP Damage, Formula=STR vs DEF [01h], 16-hit, Power=4, All Enemies!!/5, Rank=8, Usable by Anima, Toplevel, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Shatter=100%, anim=3/009A/0260 } Deals non-elemental damage to all enemies.
+
+
+30EA (Offset 57D4) - Delta Attack         
+{  Special HP Damage, Formula=STR vs DEF [01h], 6-hit, Power=10, All Enemies!!/5/Ranged, Rank=5, Usable by Cindy, Topmenu=Left, Overdrive (20p), Piercing, Hit%=Always [00h], Can crit (+% from gear), Shatter=50%, anim=29/0203/0263 } The Magus Sisters' combined attack.
+
+
+30E3 (Offset 5534) - Requiem              
+{  Magical HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, All Enemies!!/5/Ranged, Rank=4, Usable by Seymour, Toplevel, Topmenu=Left, Subsubmenu=Overdrive, Overdrive (100p), Hit%=Always [00h], Can crit (+% from gear), Shatter=30%, anim=3/0182/0000 } Damages all enemies.
+
+

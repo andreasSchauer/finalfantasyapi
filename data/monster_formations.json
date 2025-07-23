@@ -6225,7 +6225,7 @@
                     ],
                     "category": "random-encounter",
                     "is_forced_ambush": false,
-                    "can_escape": true,
+                    "can_escape": false,
                     "notes": null
                 }
             ]
@@ -9527,7 +9527,7 @@
                             "amount": 1
                         },
                         {
-                            "monster_name": "mimic mech",
+                            "monster_name": "mimic machina",
                             "version": null,
                             "amount": 1
                         }

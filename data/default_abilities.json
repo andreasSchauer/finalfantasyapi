@@ -197,12 +197,12 @@
             "category": "aeon",
             "skills": [],
             "special": [],
-            "white_magic": ["cure", "cura", "curaga", "haste", "protect", "shell", "reflect", "nulall"],
+            "white_magic": ["cure", "cura", "curaga", "haste", "protect", "shell", "reflect"],
             "black_magic": [],
             "overdrives": ["delta attack"],
             "aeon_abilities": ["razzia"],
             "commands": ["do as you will.", "one more time.", "fight!", "defense!"],
-            "other": ["attack", "dismiss", "taking a break..."]
+            "other": ["attack", "dismiss", "taking a break...", "nulall"]
         },
         {
             "name": "mindy",
