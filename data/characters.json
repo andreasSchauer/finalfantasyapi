@@ -5,8 +5,8 @@
             "name": "tidus",
             "weapon_type": "sword",
             "armor_type": "shield",
+            "physical_attack_range": 1,
             "clstl_wpn_formula": "hp-high",
-            "physical_attack_range": "close",
             "overdrive_command": "swordplay",
             "can_fight_underwater": true,
             "base_stats": [
@@ -27,8 +27,8 @@
             "name": "yuna",
             "weapon_type": "staff",
             "armor_type": "ring",
+            "physical_attack_range": 1,
             "clstl_wpn_formula": "mp-high",
-            "physical_attack_range": "close",
             "overdrive_command": "grand summon",
             "can_fight_underwater": false,
             "base_stats": [
@@ -49,8 +49,8 @@
             "name": "wakka",
             "weapon_type": "blitzball",
             "armor_type": "armguard",
+            "physical_attack_range": 4,
             "clstl_wpn_formula": "hp-high",
-            "physical_attack_range": "far",
             "overdrive_command": "slots",
             "can_fight_underwater": true,
             "base_stats": [
@@ -71,8 +71,8 @@
             "name": "lulu",
             "weapon_type": "doll",
             "armor_type": "bangle",
+            "physical_attack_range": 1,
             "clstl_wpn_formula": "mp-high",
-            "physical_attack_range": "close",
             "overdrive_command": "fury",
             "can_fight_underwater": false,
             "base_stats": [
@@ -93,8 +93,8 @@
             "name": "kimahri",
             "weapon_type": "spear",
             "armor_type": "armlet",
+            "physical_attack_range": 1,
             "clstl_wpn_formula": "hp-high",
-            "physical_attack_range": "close",
             "overdrive_command": "ronso rage",
             "can_fight_underwater": false,
             "base_stats": [
@@ -115,8 +115,8 @@
             "name": "auron",
             "weapon_type": "blade",
             "armor_type": "bracer",
+            "physical_attack_range": 1,
             "clstl_wpn_formula": "hp-low",
-            "physical_attack_range": "close",
             "overdrive_command": "bushido",
             "can_fight_underwater": false,
             "base_stats": [
@@ -137,8 +137,8 @@
             "name": "rikku",
             "weapon_type": "claw",
             "armor_type": "targe",
+            "physical_attack_range": 1,
             "clstl_wpn_formula": "hp-high",
-            "physical_attack_range": "close",
             "overdrive_command": "mix",
             "can_fight_underwater": true,
             "base_stats": [
@@ -159,8 +159,8 @@
             "name": "seymour",
             "weapon_type": "seymour staff",
             "armor_type": "seymour armor",
+            "physical_attack_range": 1,
             "clstl_wpn_formula": null,
-            "physical_attack_range": "close",
             "overdrive_command": "requiem",
             "can_fight_underwater": false,
             "base_stats": [

@@ -50,6 +50,67 @@
             "effect": "Attacks and skills capture a monster with the killing blow, if it can be captured and less than 10 of that monster have been captured.",
             "related_stats": [],
             "meta": null
+        },
+        {
+            "name": "nul-physical",
+            "effect": "The bearer is immune to physical damage.",
+            "related_stats": [],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "nul-magical",
+            "effect": "The bearer is immune to magical damage.",
+            "related_stats": [],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "magical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "name": "invincible",
+            "effect": "The bearer can't be damaged.",
+            "related_stats": [],
+            "meta": {
+                "removed_status_conditions": [],
+                "nullified_properties": [],
+                "stat_changes": [],
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    },
+                    {
+                        "name": "magical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    },
+                    {
+                        "name": "special-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    }
+                ]
+            }
         }
     ]
 }

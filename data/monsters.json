@@ -49,8 +49,26 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                },
+                {
+                    "name": "spines",
+                    "version": null
+                },
+                {
+                    "name": "wings start to flicker",
+                    "version": null
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ]
         },
         {
             "name": "sinspawn ammes",
@@ -101,8 +119,18 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "demi",
+                    "version": null
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "does nothing",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "tanker",
@@ -153,7 +181,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "does nothing",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -210,8 +243,18 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ]
         },
         {
             "name": "geosgaeno",
@@ -305,7 +348,16 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "half hp",
+                    "version": null
+                },
+                {
+                    "name": "one hp",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -380,7 +432,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -476,8 +533,18 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "piranha x2",
@@ -576,8 +643,18 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "gnaw",
+                    "version": "a"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "piranha x3",
@@ -676,8 +753,18 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "gnaw",
+                    "version": "a"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "tros",
@@ -772,7 +859,28 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                },
+                {
+                    "name": "tentacles",
+                    "version": null
+                },
+                {
+                    "name": "nautilus charge",
+                    "version": null
+                },
+                {
+                    "name": "flank",
+                    "version": null
+                },
+                {
+                    "name": "bash",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -926,8 +1034,22 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                },
+                {
+                    "name": "attack",
+                    "version": "c"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "dingo",
@@ -1100,8 +1222,22 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                },
+                {
+                    "name": "attack",
+                    "version": "d"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "water flan",
@@ -1258,7 +1394,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "water",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -1374,8 +1515,22 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                },
+                {
+                    "name": "jump",
+                    "version": null
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ]
         },
         {
             "name": "garuda",
@@ -1509,8 +1664,22 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                },
+                {
+                    "name": "sonic boom",
+                    "version": "a"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "condor",
@@ -1666,7 +1835,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -1843,8 +2017,22 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                },
+                {
+                    "name": "attack",
+                    "version": "d"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "water flan",
@@ -2012,7 +2200,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "water",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -2153,7 +2346,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "move",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -2228,8 +2426,26 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                },
+                {
+                    "name": "spines",
+                    "version": null
+                },
+                {
+                    "name": "wings start to flicker",
+                    "version": null
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ]
         },
         {
             "name": "sinspawn echuilles",
@@ -2350,7 +2566,16 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "drain touch",
+                    "version": "a"
+                },
+                {
+                    "name": "blender",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -2425,7 +2650,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "assault",
+                    "version": "a"
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -2580,7 +2810,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "seed cannon",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -2751,8 +2986,22 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                },
+                {
+                    "name": "attack",
+                    "version": "e"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "b"
+                }
+            ]
         },
         {
             "name": "killer bee",
@@ -2923,7 +3172,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "poison dart",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -3085,7 +3339,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "seed cannon",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -3241,7 +3500,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "thunder",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -3419,7 +3683,28 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "poison claw",
+                    "version": null
+                },
+                {
+                    "name": "water",
+                    "version": null
+                },
+                {
+                    "name": "earthquake",
+                    "version": "a"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "b"
+                },
+                {
+                    "name": "lord ochu falls asleep",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -3564,7 +3849,32 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "sigh",
+                    "version": "a"
+                },
+                {
+                    "name": "venom",
+                    "version": "a"
+                },
+                {
+                    "name": "staccato",
+                    "version": null
+                },
+                {
+                    "name": "water",
+                    "version": null
+                },
+                {
+                    "name": "tentacles absorb magic",
+                    "version": null
+                },
+                {
+                    "name": "transform",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -3646,7 +3956,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -3811,7 +4126,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -3991,7 +4311,24 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "blitzball rush",
+                    "version": null
+                },
+                {
+                    "name": "blind ball",
+                    "version": null
+                },
+                {
+                    "name": "mute ball",
+                    "version": null
+                },
+                {
+                    "name": "doze ball",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -4064,7 +4401,16 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "the crane responds",
+                    "version": null
+                },
+                {
+                    "name": "crane activated",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -4144,7 +4490,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -4275,7 +4626,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -4420,8 +4776,22 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
-            "forced_attacks": []
+            "abilities": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                },
+                {
+                    "name": "sonic boom",
+                    "version": "b"
+                }
+            ],
+            "forced_attacks": [
+                {
+                    "name": "attack",
+                    "version": "a"
+                }
+            ]
         },
         {
             "name": "raldo",
@@ -4576,7 +4946,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -4728,7 +5103,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -4872,7 +5252,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -5054,7 +5439,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -5225,7 +5615,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -5406,7 +5801,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -5578,7 +5978,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -5749,7 +6154,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -5910,7 +6320,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -5967,7 +6382,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -6165,7 +6585,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -6339,7 +6764,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -6496,7 +6926,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -6640,7 +7075,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -6812,7 +7252,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -6987,7 +7432,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -7148,7 +7598,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -7317,7 +7772,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -7404,7 +7864,12 @@
                     ]
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -7544,7 +8009,12 @@
                     ]
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -7694,7 +8164,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -7844,7 +8319,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -7994,7 +8474,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -8160,7 +8645,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -8336,7 +8826,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -8516,7 +9011,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -8701,7 +9201,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -8862,7 +9367,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -9035,7 +9545,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -9199,7 +9714,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -9394,7 +9914,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -9481,7 +10006,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -9570,7 +10100,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -9627,7 +10162,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -9850,7 +10390,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -10016,7 +10561,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -10202,7 +10752,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -10367,7 +10922,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -10535,7 +11095,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -10711,7 +11276,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -10892,7 +11462,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -11071,7 +11646,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -11234,7 +11814,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -11413,7 +11998,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -11584,7 +12174,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -11782,7 +12377,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -11976,7 +12576,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -12142,7 +12747,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -12332,7 +12942,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -12623,7 +13238,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -12809,7 +13429,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -12982,7 +13607,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -13162,7 +13792,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -13343,7 +13978,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -13529,7 +14169,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -13691,7 +14336,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -13839,7 +14489,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -14007,7 +14662,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -14157,7 +14817,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -14326,7 +14991,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -14470,7 +15140,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -14625,7 +15300,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -14792,7 +15472,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -14932,7 +15617,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -15109,7 +15799,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -15297,7 +15992,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -15483,7 +16183,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -15674,7 +16379,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -15879,7 +16589,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -16064,7 +16779,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -16249,7 +16969,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -16330,7 +17055,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -16482,7 +17212,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -16639,7 +17374,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -16788,7 +17528,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -16974,7 +17719,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -17154,7 +17904,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -17317,7 +18072,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -17369,7 +18129,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -17530,7 +18295,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -17691,7 +18461,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -17864,7 +18639,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -18043,7 +18823,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -18203,7 +18988,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -18384,7 +19174,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -18563,7 +19358,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -18762,7 +19562,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -18928,7 +19733,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19108,7 +19918,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19160,7 +19975,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19217,7 +20037,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19269,7 +20094,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19321,7 +20151,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19466,7 +20301,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19631,7 +20471,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19780,7 +20625,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -19954,7 +20804,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -20094,7 +20949,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -20146,7 +21006,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -20288,7 +21153,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -20382,7 +21252,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -20543,7 +21418,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -20747,7 +21627,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -20935,7 +21820,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -21108,7 +21998,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -21295,7 +22190,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -21472,7 +22372,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -21649,7 +22554,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -21815,7 +22725,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -21989,7 +22904,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -22172,7 +23092,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -22352,7 +23277,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -22409,7 +23339,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -22564,7 +23499,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -22729,7 +23669,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -22882,7 +23827,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -23034,7 +23984,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -23209,7 +24164,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -23358,7 +24318,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -23452,7 +24417,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -23554,7 +24524,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -23746,7 +24721,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -23917,7 +24897,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24105,7 +25090,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24244,7 +25234,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24405,7 +25400,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24583,7 +25583,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24635,7 +25640,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24687,7 +25697,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24752,7 +25767,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -24894,7 +25914,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -25037,7 +26062,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -25199,7 +26229,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -25367,7 +26402,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -25539,7 +26579,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -25713,7 +26758,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -25884,7 +26934,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -26058,7 +27113,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -26237,7 +27297,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -26406,7 +27471,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -26579,7 +27649,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -26732,7 +27807,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -26931,7 +28011,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -27123,7 +28208,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -27300,7 +28390,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -27458,7 +28553,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -27616,7 +28716,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -27774,7 +28879,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -27909,7 +29019,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -27998,7 +29113,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -28162,7 +29282,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -28319,7 +29444,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -28476,7 +29606,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -28629,7 +29764,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -28802,7 +29942,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -28969,7 +30114,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -29125,7 +30275,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -29177,7 +30332,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -29333,7 +30493,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -29466,7 +30631,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -29599,7 +30769,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -29752,7 +30927,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -29885,7 +31065,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -30047,7 +31232,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -30212,7 +31402,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -30349,7 +31544,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -30506,7 +31706,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -30688,7 +31893,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -30858,7 +32068,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -31027,7 +32242,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -31196,7 +32416,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -31396,7 +32621,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -31597,7 +32827,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -31766,7 +33001,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -31944,7 +33184,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -31996,7 +33241,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32092,7 +33342,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32149,7 +33404,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32219,7 +33479,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32271,7 +33536,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32328,7 +33598,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32385,7 +33660,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32442,7 +33722,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32494,7 +33779,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32546,7 +33836,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32598,7 +33893,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32650,7 +33950,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32702,7 +34007,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32754,7 +34064,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32806,7 +34121,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -32949,7 +34269,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33014,7 +34339,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33066,7 +34396,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33123,7 +34458,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33175,7 +34515,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33232,7 +34577,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33284,7 +34634,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33336,7 +34691,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33388,7 +34748,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33440,7 +34805,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33492,7 +34862,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33544,7 +34919,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33727,7 +35107,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -33909,7 +35294,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -34097,7 +35487,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -34254,7 +35649,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -34449,7 +35849,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -34614,7 +36019,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -34771,7 +36181,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -34931,7 +36346,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35107,7 +36527,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35273,7 +36698,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35346,7 +36776,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35398,7 +36833,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35450,7 +36890,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },     
         {
@@ -35502,7 +36947,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35583,7 +37033,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35712,7 +37167,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -35850,7 +37310,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -36026,7 +37491,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -36226,7 +37696,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -36377,7 +37852,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -36538,7 +38018,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -36746,7 +38231,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -36918,7 +38408,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -37078,7 +38573,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -37252,7 +38752,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -37427,7 +38932,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -37618,7 +39128,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -37826,7 +39341,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -37977,7 +39497,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -38128,7 +39653,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -38345,7 +39875,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -38490,7 +40025,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -38662,7 +40202,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -38838,7 +40383,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -38987,7 +40537,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -39140,7 +40695,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -39293,7 +40853,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -39465,7 +41030,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -39625,7 +41195,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -39805,7 +41380,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -40001,7 +41581,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -40161,7 +41746,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -40338,7 +41928,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -40519,7 +42114,12 @@
                 ]
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -40647,7 +42247,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -40914,7 +42519,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41105,7 +42715,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41246,7 +42861,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41410,7 +43030,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41559,7 +43184,12 @@
                     ]
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41611,7 +43241,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41663,7 +43298,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41784,7 +43424,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -41922,7 +43567,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -42095,7 +43745,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -42244,7 +43899,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -42393,7 +44053,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -42542,7 +44207,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -42691,7 +44361,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -42833,7 +44508,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -42975,7 +44655,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -43027,7 +44712,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -43186,7 +44876,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -43328,7 +45023,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -43470,7 +45170,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -43612,7 +45317,12 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -43741,7 +45451,12 @@
                     ]
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         },
         {
@@ -43829,7 +45544,12 @@
                     "added_statusses": null
                 }
             ],
-            "abilities": [],
+            "abilities": [
+                {
+                    "name": "",
+                    "version": null
+                }
+            ],
             "forced_attacks": []
         } 
     ]

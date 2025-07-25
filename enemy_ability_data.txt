@@ -406,8 +406,8 @@
 { Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=22, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, anim=3/0047/0047 } 
 
 
-4065 (Offset 2460) - Thor
-'s Hammer        {  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=3/009B/009B } 
+4065 (Offset 2460) - Thor's Hammer        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=3/009B/009B } 
 
 
 4066 (Offset 24BC) - Heave                
@@ -926,8 +926,8 @@
 {  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=70, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Fire, anim=3/0233/0264 } 
 
 
-40E7 (Offset 5318) - Thor
-'s Hammer        {  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=3/00A4/0265 } 
+40E7 (Offset 5318) - Thor's Hammer        
+{  Special HP Damage, Formula=MAG vs MDF [03h], 1-hit, Power=40, Team (Forced)/5, Rank=3, Hit%=Always [00h], Element=Thunder, anim=3/00A4/0265 } 
 
 
 40E8 (Offset 5374) - [Attack]             
@@ -1094,12 +1094,12 @@
 { Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=40, BDL, 1 Enemy/5, Rank=3, Hit%=Always [00h], Remove { Shell; Protect; Reflect; Regen; Haste; NulAll; Auto-Life }, Shatter=100%, anim=3/0047/0047 } 
 
 
-4111 (Offset 6230) - Thor
-'s Hammer        {  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%) }, anim=3/009B/009B } 
+4111 (Offset 6230) - Thor's Hammer        
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%) }, anim=3/009B/009B } 
 
 
-4112 (Offset 628C) - Thor
-'s Hammer        {  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%) }, anim=3/00A4/0265 } 
+4112 (Offset 628C) - Thor's Hammer        
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=3, BDL, Team (Forced)/5, Rank=3, Hit%=Always [00h], Inflict { All Breaks (Infinite%) }, anim=3/00A4/0265 } 
 
 
 4113 (Offset 62E8) - Thundaja             
@@ -2077,8 +2077,8 @@
 { Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy!!/5, Rank=3, Piercing, Hit%=Always [00h], Can crit (+% from gear), Remove { Shell; Protect; Reflect; Regen; Haste; NulAll }, anim=3/0047/0255 } 
 
 
-60D9 (Offset 4E10) - Thor
-'s Hammer        {  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=60, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], Element=Thunder, anim=3/009B/0261 } 
+60D9 (Offset 4E10) - Thor's Hammer        
+{  Special HP Damage, Formula=Special MAG (ignore MDF) [0Fh], 1-hit, Power=60, All Enemies!!/5, Rank=3, Piercing, Hit%=Always [00h], Element=Thunder, anim=3/009B/0261 } 
 
 
 60DA (Offset 4E6C) - Heavenly Strike      

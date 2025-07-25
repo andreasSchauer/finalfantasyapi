@@ -12,9 +12,6 @@
             "is_optional": false,
             "celestial_weapon": "nirvana",
             "num_battles_to_regenerate": 8,
-            "physical_attack_range": "very-far",
-            "phys_atk_dmg_constant": 14,
-            "phys_atk_acc_modifier": 2.5,
             "base_stats": [
                 { "name": "hp",             "value": 725 },
                 { "name": "mp",             "value": 24 },
@@ -26,7 +23,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 19 },
                 { "name": "accuracy",       "value": 11 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": true
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 14,
+                "range": 4,
+                "shatter_rate": 0.3,
+                "accuracy": {
+                    "acc_source": "accuracy",
+                    "acc_modifier": 2.5
+                }
+            }
         },
         {
             "id": 2,
@@ -40,9 +86,6 @@
             "is_optional": false,
             "celestial_weapon": "world champion",
             "num_battles_to_regenerate": 12,
-            "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 857 },
                 { "name": "mp",             "value": 23 },
@@ -54,7 +97,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 10 },
                 { "name": "accuracy",       "value": 11 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": true
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "fire eater",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 16,
+                "range": 1,
+                "shatter_rate": 0.3,
+                "accuracy": {
+                    "acc_source": "accuracy",
+                    "acc_modifier": 1.5
+                }
+            }
         },
         {
             "id": 3,
@@ -68,9 +160,6 @@
             "is_optional": false,
             "celestial_weapon": "spirit lance",
             "num_battles_to_regenerate": 20,
-            "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 891 },
                 { "name": "mp",             "value": 25 },
@@ -82,7 +171,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 11 },
                 { "name": "accuracy",       "value": 12 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": true
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "lightning eater",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 16,
+                "range": 1,
+                "shatter_rate": 0.3,
+                "accuracy": {
+                    "acc_source": "accuracy",
+                    "acc_modifier": 1.5
+                }
+            }
         },
         {
             "id": 4,
@@ -96,9 +234,6 @@
             "is_optional": false,
             "celestial_weapon": "onion knight",
             "num_battles_to_regenerate": 20,
-            "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 14,
-            "phys_atk_acc_modifier": 2.5,
             "base_stats": [
                 { "name": "hp",             "value": 820 },
                 { "name": "mp",             "value": 26 },
@@ -110,7 +245,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 32 },
                 { "name": "accuracy",       "value": 11 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": true
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "ice eater",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 14,
+                "range": 1,
+                "shatter_rate": 0.3,
+                "accuracy": {
+                    "acc_source": "accuracy",
+                    "acc_modifier": 2.5
+                }
+            }
         },
         {
             "id": 5,
@@ -124,9 +308,6 @@
             "is_optional": false,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 24,
-            "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 1210 },
                 { "name": "mp",             "value": 35 },
@@ -138,7 +319,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 20 },
                 { "name": "accuracy",       "value": 11 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 16,
+                "range": 1,
+                "shatter_rate": 0.3,
+                "accuracy": {
+                    "acc_source": "accuracy",
+                    "acc_modifier": 1.5
+                }
+            }
         },
         {
             "id": 6,
@@ -152,9 +382,6 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 24,
-            "physical_attack_range": "very-far",
-            "phys_atk_dmg_constant": 16,
-            "phys_atk_acc_modifier": 1.5,
             "base_stats": [
                 { "name": "hp",             "value": 1410 },
                 { "name": "mp",             "value": 45 },
@@ -166,7 +393,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 20 },
                 { "name": "accuracy",       "value": 11 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 16,
+                "range": 4,
+                "shatter_rate": 0.3,
+                "accuracy": {
+                    "acc_source": "accuracy",
+                    "acc_modifier": 1.5
+                }
+            }
         },
         {
             "id": 7,
@@ -180,9 +456,6 @@
             "is_optional": true,
             "celestial_weapon": "masamune",
             "num_battles_to_regenerate": 24,
-            "physical_attack_range": null,
-            "phys_atk_dmg_constant": null,
-            "phys_atk_acc_modifier": null,
             "base_stats": [
                 { "name": "hp",             "value": 1030 },
                 { "name": "mp",             "value": 0 },
@@ -194,7 +467,48 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 59 },
                 { "name": "accuracy",       "value": 19 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": true
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": null
         },
         {
             "id": 8,
@@ -208,9 +522,6 @@
             "is_optional": true,
             "celestial_weapon": null,
             "num_battles_to_regenerate": 30,
-            "physical_attack_range": "close",
-            "phys_atk_dmg_constant": 14,
-            "phys_atk_acc_modifier": 1.0,
             "base_stats": [
                 { "name": "hp",             "value": 2190 },
                 { "name": "mp",             "value": 46 },
@@ -222,7 +533,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 20 },
                 { "name": "accuracy",       "value": 11 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 14,
+                "range": 1,
+                "shatter_rate": 0.2,
+                "accuracy": {
+                    "acc_source": "always",
+                    "acc_modifier": null
+                }
+            }
         },
         {
             "id": 9,
@@ -250,7 +610,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 17 },
                 { "name": "accuracy",       "value": 13 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 14,
+                "range": 1,
+                "shatter_rate": 0.2,
+                "accuracy": {
+                    "acc_source": "always",
+                    "acc_modifier": null
+                }
+            }
         },
         {
             "id": 10,
@@ -278,7 +687,56 @@
                 { "name": "luck",           "value": 17 },
                 { "name": "evasion",        "value": 23 },
                 { "name": "accuracy",       "value": 12 }
-            ]
+            ],
+            "weapon": {
+                "auto_abilities": [
+                    {
+                        "ability": "-",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "piercing",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break damage limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "armor": {
+                "auto_abilities": [
+                    {
+                        "ability": "sensor",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break hp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "break mp limit",
+                        "celestial_wpn": false
+                    },
+                    {
+                        "ability": "empty",
+                        "celestial_wpn": false
+                    }
+                ]
+            },
+            "physical_attack": {
+                "damage_constant": 14,
+                "range": 1,
+                "shatter_rate": 0.2,
+                "accuracy": {
+                    "acc_source": "always",
+                    "acc_modifier": null
+                }
+            }
         }
     ]
 }

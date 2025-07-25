@@ -1,0 +1,2523 @@
+{
+    "trigger_commands_data": [
+        {
+            "name": "stand by",
+            "version": null,
+            "game_description": "Wait while recovering HP.",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+                {
+                    "users": ["characters"],
+                    "formation": {
+                        "monsters": [
+                            {
+                                "monster_name": "tros",
+                                "version": null,
+                                "amount": 1
+                            }
+                        ],
+                        "category": "boss-fight",
+                        "is_forced_ambush": false,
+                        "can_escape": false,
+                        "notes": null
+                    }
+                }
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                                "condition": null,
+                                "attack_type": "heal",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 1
+                            }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "pincer attack",
+            "version": null,
+            "game_description": "Attack enemy from both sides.",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+                {
+                    "users": ["characters"],
+                    "formation": {
+                        "monsters": [
+                            {
+                                "monster_name": "tros",
+                                "version": null,
+                                "amount": 1
+                            }
+                        ],
+                        "category": "boss-fight",
+                        "is_forced_ambush": false,
+                        "can_escape": false,
+                        "notes": null
+                    }
+                }
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": null,
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "use crane",
+            "version": null,
+            "game_description": "Activate crane.",
+            "notes": "Available once the crane has been activated.",
+            "rank": 3,
+            "available_formations": [
+                {
+                    "users": ["tidus"],
+                    "formation": {
+                        "monsters": [
+                            {
+                                "monster_name": "oblitzerator",
+                                "version": null,
+                                "amount": 1
+                            },
+                            {
+                                "monster_name": "crane",
+                                "version": null,
+                                "amount": 1
+                            }
+                        ],
+                        "category": "boss-fight",
+                        "is_forced_ambush": false,
+                        "can_escape": false,
+                        "notes": null
+                    }
+                }
+            ],
+            "meta": {
+                "target": "single-enemy",
+                "based_on_phys_attack": false,
+                "range": 3,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "physical",
+                            "damage_formula": "percentage-current",
+                            "damage_constant": 15
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        },
+        {
+            "name": "",
+            "version": null,
+            "game_description": "",
+            "notes": null,
+            "rank": 3,
+            "available_formations": [
+
+            ],
+            "meta": {
+                "target": "self",
+                "based_on_phys_attack": false,
+                "range": 1,
+                "damage": {
+                    "damage_calc": [
+                        {
+                            "condition": null,
+                            "attack_type": "attack",
+                            "target_stat": "hp",
+                            "damage_type": "",
+                            "damage_formula": "",
+                            "damage_constant": 0
+                        }
+                    ],
+                    "can_critical": "never",
+                    "critical_plus_val": null,
+                    "is_piercing": false,
+                    "break_dmg_lmt": "never",
+                    "element": null
+                },
+                "shatter_rate": 0,
+                "accuracy": {
+                    "acc_source": "rate",
+                    "hit_chance": 255,
+                    "acc_modifier": null
+                },
+                "affected_by": [],
+                "hit_amount": 1,
+                "delay": [],
+                "inflicted_status_conditions": [],
+                "removed_status_conditions": [],
+                "copied_status_conditions": [],
+                "stat_changes": [],
+                "other_changes": []
+            }
+        }
+        
+    ]
+}
