@@ -52,21 +52,21 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "spines",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "wings start to flicker",
-                    "version": null
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "a"
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -122,13 +122,15 @@
             "abilities": [
                 {
                     "name": "demi",
-                    "version": null
-                }
-            ],
-            "forced_attacks": [
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
                 {
                     "name": "does nothing",
-                    "version": null
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
             ]
         },
@@ -181,13 +183,7 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [
-                {
-                    "name": "does nothing",
-                    "version": null
-                }
-            ],
-            "forced_attacks": []
+            "abilities": []
         },
         {
             "name": "sahagin",
@@ -246,13 +242,9 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
             ]
         },
@@ -351,14 +343,17 @@
             "abilities": [
                 {
                     "name": "half hp",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "one hp",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "klikk",
@@ -435,10 +430,11 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "piranha x1",
@@ -536,13 +532,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "b"
-                }
-            ],
-            "forced_attacks": [
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
                 {
-                    "name": "attack",
-                    "version": "b"
+                    "name": "gnaw",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -645,14 +643,16 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "gnaw",
-                    "version": "a"
-                }
-            ],
-            "forced_attacks": [
-                {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "gnaw",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -755,14 +755,16 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "gnaw",
-                    "version": "a"
-                }
-            ],
-            "forced_attacks": [
-                {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "gnaw",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -862,26 +864,35 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "tentacles",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "nautilus charge",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "flank",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "bash",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "condor",
@@ -1037,17 +1048,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "attack",
-                    "version": "c"
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "b"
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -1225,17 +1234,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "attack",
-                    "version": "d"
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "b"
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -1397,10 +1404,11 @@
             "abilities": [
                 {
                     "name": "water",
-                    "version": null
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "kimahri",
@@ -1518,17 +1526,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "jump",
-                    "version": null
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "a"
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -1667,17 +1673,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "sonic boom",
-                    "version": "a"
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "b"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -1838,10 +1842,11 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dingo",
@@ -2020,17 +2025,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "attack",
-                    "version": "d"
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "b"
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -2203,10 +2206,11 @@
             "abilities": [
                 {
                     "name": "water",
-                    "version": null
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sin fin",
@@ -2349,10 +2353,11 @@
             "abilities": [
                 {
                     "name": "move",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinscale",
@@ -2429,21 +2434,21 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "spines",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "wings start to flicker",
-                    "version": null
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "a"
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -2569,14 +2574,17 @@
             "abilities": [
                 {
                     "name": "drain touch",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "blender",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinscale",
@@ -2653,10 +2661,11 @@
             "abilities": [
                 {
                     "name": "assault",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ragora",
@@ -2813,10 +2822,11 @@
             "abilities": [
                 {
                     "name": "seed cannon",
-                    "version": null
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dinonix",
@@ -2989,17 +2999,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "attack",
-                    "version": "e"
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "b"
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -3175,10 +3183,11 @@
             "abilities": [
                 {
                     "name": "poison dart",
-                    "version": null
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ragora",
@@ -3342,10 +3351,11 @@
             "abilities": [
                 {
                     "name": "seed cannon",
-                    "version": null
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yellow element",
@@ -3503,10 +3513,11 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": null
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "lord ochu",
@@ -3686,26 +3697,35 @@
             "abilities": [
                 {
                     "name": "poison claw",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "water",
-                    "version": null
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "earthquake",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "earthquake",
-                    "version": "b"
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "lord ochu falls asleep",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinspawn geneaux",
@@ -3852,30 +3872,41 @@
             "abilities": [
                 {
                     "name": "sigh",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "venom",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "staccato",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "water",
-                    "version": null
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "tentacles absorb magic",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "transform",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "tentacle",
@@ -3959,10 +3990,11 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "worker",
@@ -4129,10 +4161,11 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "oblitzerator",
@@ -4314,22 +4347,29 @@
             "abilities": [
                 {
                     "name": "blitzball rush",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "blind ball",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "mute ball",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "doze ball",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "crane",
@@ -4404,14 +4444,17 @@
             "abilities": [
                 {
                     "name": "the crane responds",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 },
                 {
                     "name": "crane activated",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sahagin chief",
@@ -4493,10 +4536,11 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "vouivre",
@@ -4629,10 +4673,11 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "garuda",
@@ -4779,17 +4824,15 @@
             "abilities": [
                 {
                     "name": "attack",
-                    "version": "a"
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 },
                 {
                     "name": "sonic boom",
-                    "version": "b"
-                }
-            ],
-            "forced_attacks": [
-                {
-                    "name": "attack",
-                    "version": "a"
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
                 }
             ]
         },
@@ -4948,11 +4991,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "f",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bomb",
@@ -5105,11 +5155,36 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "rush",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "fire",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "self destruct",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "grow2",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "grow3",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dual horn",
@@ -5254,11 +5329,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "gore",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "floating eye",
@@ -5441,11 +5523,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ipiria",
@@ -5617,11 +5700,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mi'ihen fang",
@@ -5803,11 +5893,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "raldo",
@@ -5980,11 +6077,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "vouivre",
@@ -6156,11 +6260,24 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "breath",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "white element",
@@ -6322,11 +6439,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "blizzard",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ifrit",
@@ -6384,11 +6502,24 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "h",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "meteor strike",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "chocobo eater",
@@ -6587,11 +6718,54 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "fist of fury",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "blizzard",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thwack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thwack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "you're next!",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "shove",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "gets up",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "funguar",
@@ -6766,11 +6940,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "fire",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "pollen",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "gandarewa",
@@ -6928,11 +7109,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thunder",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "garuda",
@@ -7077,11 +7259,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "sonic boom",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "lamashtu",
@@ -7254,11 +7443,24 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "breath",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "raptor",
@@ -7434,11 +7636,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "red element",
@@ -7600,11 +7809,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "fire",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "thunder flan",
@@ -7774,11 +7984,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thunder",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinspawn gui",
@@ -7866,11 +8077,18 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "demi",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinspawn gui",
@@ -8011,11 +8229,18 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "demi",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinspawn gui head",
@@ -8166,11 +8391,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thunder",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "venom",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinspawn gui head",
@@ -8321,11 +8553,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thunder",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "venom",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinspawn gui arm",
@@ -8474,13 +8713,7 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [
-                {
-                    "name": "",
-                    "version": null
-                }
-            ],
-            "forced_attacks": []
+            "abilities": []
         },
         {
             "name": "basilisk",
@@ -8647,11 +8880,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "stone gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bite bug",
@@ -8828,11 +9068,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "poison dart",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bunyip",
@@ -9013,11 +9254,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "garm",
@@ -9203,11 +9451,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "simurgh",
@@ -9369,11 +9624,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "i",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "snow flan",
@@ -9547,11 +9809,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "blizzard",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bunyip",
@@ -9716,11 +9979,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ochu",
@@ -9916,11 +10180,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "j",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "ochu dance",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "treasure chest",
@@ -10008,11 +10279,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "open",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "treasure chest",
@@ -10102,11 +10374,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "open",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ixion",
@@ -10164,11 +10437,30 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "aerospark",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thor's hammer",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "haste",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "extractor",
@@ -10392,11 +10684,30 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "aqua shooter",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "depth charges",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "rise",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "dive",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "aerouge",
@@ -10563,11 +10874,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "buer",
@@ -10754,11 +11066,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "gold element",
@@ -10924,11 +11237,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thunder",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "iron giant",
@@ -11097,11 +11417,24 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "k",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "leaping swing",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "reaper",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "kusariqqu",
@@ -11278,11 +11611,24 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "breath",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "larva",
@@ -11464,11 +11810,18 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "fire",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "melusine",
@@ -11648,11 +12001,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "qactuar",
@@ -11816,11 +12176,24 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "1000 needles",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "run away",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "blue element",
@@ -12000,11 +12373,12 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "watera",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "chimera",
@@ -12176,11 +12550,30 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "rush",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "megiddo flame",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "aqua breath",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "iguion",
@@ -12379,11 +12772,24 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "m",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "murussu",
@@ -12578,11 +12984,18 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "xiphos",
@@ -12749,11 +13162,12 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "wasp",
@@ -12944,11 +13358,12 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "poison dart",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "spherimorph",
@@ -13240,11 +13655,72 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "fire",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "fire",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thunder",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thunder",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "water",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "water",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "ice",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "ice",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "press",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "elemental shift",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "evil eye",
@@ -13431,11 +13907,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "gaze",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ice flan",
@@ -13609,11 +14092,12 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mafdet",
@@ -13794,11 +14278,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "snow wolf",
@@ -13980,11 +14471,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "crawler",
@@ -14171,11 +14669,36 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "gatling gun",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "assault",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "mana beam",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "countdown",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "bit",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "negator",
@@ -14339,10 +14862,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "seymour",
@@ -14491,11 +15015,90 @@
             ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "fira",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "watera",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "multi-fira",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "multi-thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "multi-watera",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "multi-blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "firaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "thundaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "waterga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "shell",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "summon anima",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "guado guardian",
@@ -14664,11 +15267,48 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thunder",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "blizzard",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "protect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "shremedy",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "remedy",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "hi-potion",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "auto-potion",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "anima",
@@ -14819,11 +15459,48 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "pain",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "oblivion",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "boost",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "seymour dismisses anima",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "n",
+                    "is_forced": false,
+                    "is_unused": true
+                },
+                {
+                    "name": "attack",
+                    "version": "o",
+                    "is_forced": false,
+                    "is_unused": true
+                },
+                {
+                    "name": "attack",
+                    "version": "p",
+                    "is_forced": false,
+                    "is_unused": true
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "guado guardian",
@@ -14993,11 +15670,54 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "auto-potion",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "berserk",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "summon",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "protect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "shell",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "eye drops",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "wendigo",
@@ -15142,11 +15862,42 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "h",
+                    "is_forced": true,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "attack",
+                    "version": "q",
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "counterattack",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
+                },
+                {
+                    "name": "cancel counter",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "zu",
@@ -15303,10 +16054,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "alcyone",
@@ -15475,10 +16227,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "cactuar",
@@ -15620,10 +16373,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mech guard",
@@ -15802,10 +16556,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mech gunner",
@@ -15995,10 +16750,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mushussu",
@@ -16186,10 +16942,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sand wolf",
@@ -16382,10 +17139,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sand worm",
@@ -16592,10 +17350,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "zu",
@@ -16782,10 +17541,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sandragora",
@@ -16972,10 +17732,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "treasure chest",
@@ -17058,10 +17819,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bomb",
@@ -17215,10 +17977,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "chimera",
@@ -17377,10 +18140,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dual horn",
@@ -17531,10 +18295,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "evil eye",
@@ -17722,10 +18487,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "guado guardian",
@@ -17907,10 +18673,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "evrae",
@@ -18075,10 +18842,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "cid",
@@ -18132,10 +18900,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "warrior monk",
@@ -18298,10 +19067,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "warrior monk",
@@ -18464,10 +19234,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ykt-63",
@@ -18642,10 +19413,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yat-99",
@@ -18826,10 +19598,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "aqua flan",
@@ -18991,10 +19764,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bat eye",
@@ -19177,10 +19951,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "cave iguion",
@@ -19361,10 +20136,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "maze larva",
@@ -19565,10 +20341,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sahagin",
@@ -19736,10 +20513,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "swamp mafdet",
@@ -19921,10 +20699,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "isaaru",
@@ -19978,10 +20757,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "grothia",
@@ -20040,10 +20820,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "pterya",
@@ -20097,10 +20878,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "spathi",
@@ -20154,10 +20936,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "octopus",
@@ -20304,10 +21087,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "phlegyas",
@@ -20474,10 +21258,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "remora",
@@ -20628,10 +21413,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sahagin",
@@ -20807,10 +21593,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "evrae altana",
@@ -20952,10 +21739,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "gate lock",
@@ -21009,10 +21797,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "seymour natus",
@@ -21156,10 +21945,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mortibody",
@@ -21255,10 +22045,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "anacondaur",
@@ -21421,10 +22212,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "chimera brain",
@@ -21630,10 +22422,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "coeurl",
@@ -21823,10 +22616,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "flame flan",
@@ -22001,10 +22795,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "malboro",
@@ -22193,10 +22988,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mech scouter",
@@ -22375,10 +23171,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mech scouter",
@@ -22557,10 +23354,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "nebiros",
@@ -22728,10 +23526,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ogre",
@@ -22907,10 +23706,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "shred",
@@ -23095,10 +23895,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "skoll",
@@ -23280,10 +24081,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "shiva",
@@ -23342,10 +24144,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "defender x",
@@ -23502,10 +24305,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark element",
@@ -23672,10 +24476,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "defender",
@@ -23830,10 +24635,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "epaaj",
@@ -23987,10 +24793,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ghost",
@@ -24167,10 +24974,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "imp",
@@ -24321,10 +25129,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "magic urn middle eye",
@@ -24420,10 +25229,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "magic urn outer eyes",
@@ -24527,10 +25337,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mech hunter",
@@ -24724,10 +25535,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "nidhogg",
@@ -24900,10 +25712,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "thorn",
@@ -25093,10 +25906,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "tonberry",
@@ -25237,10 +26051,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "valaha",
@@ -25403,10 +26218,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yowie",
@@ -25586,10 +26402,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "lady ginnem",
@@ -25643,10 +26460,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yojimbo",
@@ -25700,10 +26518,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "koma inu",
@@ -25770,10 +26589,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "biran ronso",
@@ -25917,10 +26737,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yenke ronso",
@@ -26065,10 +26886,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "achelous",
@@ -26232,10 +27054,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ahriman",
@@ -26405,10 +27228,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bandersnatch",
@@ -26582,10 +27406,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bashura",
@@ -26761,10 +27586,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "behemoth",
@@ -26937,10 +27763,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark flan",
@@ -27116,10 +27943,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "grat",
@@ -27300,10 +28128,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "grenade",
@@ -27474,10 +28303,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "grendel",
@@ -27652,10 +28482,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "maelspike",
@@ -27810,10 +28641,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mandragora",
@@ -28014,10 +28846,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mech defender",
@@ -28211,10 +29044,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mech leader",
@@ -28393,10 +29227,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "splasher x1",
@@ -28556,10 +29391,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "splasher x2",
@@ -28719,10 +29555,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "splasher x3",
@@ -28882,10 +29719,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "seymour flux",
@@ -29022,10 +29860,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mortiorchis",
@@ -29116,10 +29955,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sanctuary keeper",
@@ -29285,10 +30125,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "fallen monk",
@@ -29447,10 +30288,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "fallen monk",
@@ -29609,10 +30451,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "defender z",
@@ -29767,10 +30610,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yat-97",
@@ -29945,10 +30789,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ykt-11",
@@ -30117,10 +30962,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "spectral keeper",
@@ -30278,10 +31124,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "circle",
@@ -30335,10 +31182,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yunalesca",
@@ -30496,10 +31344,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "left fin",
@@ -30634,10 +31483,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "right fin",
@@ -30772,10 +31622,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sinspawn genais",
@@ -30930,10 +31781,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sin core",
@@ -31068,10 +31920,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "overdrive sin",
@@ -31235,10 +32088,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "adamantoise",
@@ -31405,10 +32259,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "barbatos",
@@ -31547,10 +32402,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "behemoth king",
@@ -31709,10 +32565,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "demonolith",
@@ -31896,10 +32753,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "exoray",
@@ -32071,10 +32929,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "gemini",
@@ -32245,10 +33104,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "gemini",
@@ -32419,10 +33279,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "great malboro",
@@ -32624,10 +33485,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "land worm",
@@ -32830,10 +33692,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "wraith",
@@ -33004,10 +33867,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "seymour omnis",
@@ -33187,10 +34051,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mortiphasm",
@@ -33244,10 +34109,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "braskas final aeon",
@@ -33345,10 +34211,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yu pagoda",
@@ -33407,10 +34274,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yu pagoda",
@@ -33482,10 +34350,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "valefor possessed",
@@ -33539,10 +34408,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ifrit possessed",
@@ -33601,10 +34471,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ixion possessed",
@@ -33663,10 +34534,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "shiva possessed",
@@ -33725,10 +34597,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bahamut possessed",
@@ -33782,10 +34655,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "anima possessed",
@@ -33839,10 +34713,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yojimbo possessed",
@@ -33896,10 +34771,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "cindy possessed",
@@ -33953,10 +34829,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sandy possessed",
@@ -34010,10 +34887,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mindy possessed",
@@ -34067,10 +34945,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yu yevon",
@@ -34124,10 +35003,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "geosgaeno",
@@ -34272,10 +35152,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "belgemine",
@@ -34342,10 +35223,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "valefor",
@@ -34399,10 +35281,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ifrit",
@@ -34461,10 +35344,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ixion",
@@ -34518,10 +35402,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "shiva",
@@ -34580,10 +35465,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bahamut",
@@ -34637,10 +35523,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "anima",
@@ -34694,10 +35581,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "yojimbo",
@@ -34751,10 +35639,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "cindy",
@@ -34808,10 +35697,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sandy",
@@ -34865,10 +35755,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mindy",
@@ -34922,10 +35813,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "black element",
@@ -35110,10 +36002,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "floating death",
@@ -35297,10 +36190,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "halma",
@@ -35490,10 +36384,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "machea",
@@ -35652,10 +36547,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "master coeurl",
@@ -35852,10 +36748,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "master tonberry",
@@ -36022,10 +36919,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "puroboros",
@@ -36184,10 +37082,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "spirit",
@@ -36349,10 +37248,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "varuna",
@@ -36530,10 +37430,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "zaurus",
@@ -36701,10 +37602,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mimic basilisk",
@@ -36779,10 +37681,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mimic ruminant",
@@ -36836,10 +37739,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "mimic machina",
@@ -36893,10 +37797,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },     
         {
             "name": "mimic roc",
@@ -36950,10 +37855,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "treasure chest",
@@ -37036,10 +37942,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ultima weapon",
@@ -37170,10 +38077,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "omega weapon",
@@ -37313,10 +38221,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "stratoavis",
@@ -37494,10 +38403,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "malboro menace",
@@ -37699,10 +38609,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "kottos",
@@ -37855,10 +38766,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "coeurlregina",
@@ -38021,10 +38933,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "jormungand",
@@ -38234,10 +39147,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "cactuar king",
@@ -38411,10 +39325,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "espada",
@@ -38576,10 +39491,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "abyss worm",
@@ -38755,10 +39671,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "chimerageist",
@@ -38935,10 +39852,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "don tonberry",
@@ -39131,10 +40049,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "catoblepas",
@@ -39344,10 +40263,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "abaddon",
@@ -39500,10 +40420,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "vorban",
@@ -39656,10 +40577,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "fenrir",
@@ -39878,10 +40800,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ornitholestes",
@@ -40028,10 +40951,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "pteryx",
@@ -40205,10 +41129,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "hornet",
@@ -40386,10 +41311,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "vidatu",
@@ -40540,10 +41466,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "one-eye",
@@ -40698,10 +41625,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "jumbo flan",
@@ -40856,10 +41784,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "nega elemental",
@@ -41033,10 +41962,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "tanket",
@@ -41198,10 +42128,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "fafnir",
@@ -41383,10 +42314,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "sleep sprout",
@@ -41584,10 +42516,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "bomb king",
@@ -41749,10 +42682,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "juggernaut",
@@ -41931,10 +42865,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ironclad",
@@ -42117,10 +43052,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "earth eater",
@@ -42250,10 +43186,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "greater sphere",
@@ -42522,10 +43459,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "catastrophe",
@@ -42718,10 +43656,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "th'uban",
@@ -42864,10 +43803,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "neslug",
@@ -43033,10 +43973,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ultima buster",
@@ -43187,10 +44128,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ultima buster head",
@@ -43244,10 +44186,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "ultima buster arm",
@@ -43301,10 +44244,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "shinryu",
@@ -43427,10 +44371,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "nemesis",
@@ -43570,10 +44515,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark valefor",
@@ -43748,10 +44694,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark ifrit",
@@ -43902,10 +44849,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark ixion",
@@ -44056,10 +45004,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark ixion",
@@ -44210,10 +45159,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark shiva",
@@ -44364,10 +45314,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark bahamut",
@@ -44511,10 +45462,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark yojimbo",
@@ -44658,10 +45610,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark koma inu",
@@ -44715,10 +45668,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark anima",
@@ -44879,10 +45833,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark cindy",
@@ -45026,10 +45981,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark sandy",
@@ -45173,10 +46129,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "dark mindy",
@@ -45320,10 +46277,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "penance",
@@ -45454,10 +46412,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         },
         {
             "name": "penance arm",
@@ -45547,10 +46506,11 @@
             "abilities": [
                 {
                     "name": "",
-                    "version": null
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false
                 }
-            ],
-            "forced_attacks": []
+            ]
         } 
     ]
 }

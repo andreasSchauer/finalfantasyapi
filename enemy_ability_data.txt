@@ -274,8 +274,8 @@
 { Physical HP Damage, Formula=STR vs DEF [01h], 1-hit, Power=16, 1 Enemy/5, Rank=3, Hit%=120% [02h], Darkable, Can crit (+% from gear), Element=Fire, anim=1/0000/0000 } 
 
 
-4044 (Offset 1884) - Pharaoh
-'s Curse      {  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Inflict { Poison (130%); Silence (150%, Endless); Darkness (150%, Endless); Curse }, anim=3/0152/016D } 
+4044 (Offset 1884) - Pharaoh's Curse      
+{  Special, Formula=MAG vs MDF [03h], 1-hit, 1 Enemy/5, Rank=3, Hit%=Always [00h], Silenceable, Inflict { Poison (130%); Silence (150%, Endless); Darkness (150%, Endless); Curse }, anim=3/0152/016D } 
 
 
 4045 (Offset 18E0) - Charging             
@@ -1313,8 +1313,8 @@
 {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=7/0000/0000 } 
 
 
-601A (Offset 096C) - You
-'re next!         {  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
+601A (Offset 096C) - You're next!         
+{  Special, 1 Enemy/5, Rank=3, Hit%=Always [00h], anim=8/0000/0000 } 
 
 
 601B (Offset 09C8) - Fist of Fury         

@@ -16,7 +16,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -61,7 +61,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -106,7 +106,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -157,7 +157,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -213,7 +213,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -262,6 +262,1572 @@
             ]
         },
         {
+            "name": "attack",
+            "version": "f",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 90,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "berserk",
+                            "probability": 10,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "g",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 90,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "slow",
+                            "probability": 10,
+                            "turns_amount": 3
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "h",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 20
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "i",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 120,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "darkness",
+                            "probability": 30,
+                            "turns_amount": 3
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "j",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 120,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "poison",
+                            "probability": 80,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "k",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 110,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "l",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 120,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "m",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "yes",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 120,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["darkness"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "silence",
+                            "probability": 30,
+                            "turns_amount": 3
+                        },
+                        {
+                            "name": "petrification",
+                            "probability": 30,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "n",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "sleep",
+                            "probability": 100,
+                            "turns_amount": 2
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "o",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "silence",
+                            "probability": 100,
+                            "turns_amount": 2
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "p",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 16
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "darkness",
+                            "probability": 100,
+                            "turns_amount": 2
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "attack",
+            "version": "q",
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 1,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.5,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+
+
+
+
+        {
+            "name": "haste",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 4,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [
+                        {
+                            "condition": "Moment of infliction.",
+                            "ctb_attack_type": "heal",
+                            "delay_type": "ctb-based",
+                            "intensity": "weak",
+                            "damage_constant": 8
+                        }
+                    ],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "haste",
+                            "probability": 254,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "shell",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "shell",
+                            "probability": 254,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "protect",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "protect",
+                            "probability": 254,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "fire",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "fire"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "thunder",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "lightning"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "water",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "water"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "blizzard",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": "ice"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "fira",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "fire"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "thundara",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "lightning"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "watera",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "water"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "blizzara",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "ice"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "firaga",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "fire"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "thundaga",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "lightning"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "waterga",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "water"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "blizzaga",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 42
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "auto-ability-needed",
+                        "element": "ice"
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "demi",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "target-party",
+                    "based_on_phys_attack": false,
+                    "range": 4,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "percentage-current",
+                                "damage_constant": 4
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0.1,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence"],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+
+
+
+        {
+            "name": "eye drops",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": false,
+            "rank": 2,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["darkness"],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+
+
+
+
+        {
+            "name": "meteor strike",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 28
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "aerospark",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 22
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": ["haste", "nulblaze", "nulshock", "nultide", "nulfrost", "protect", "reflect", "regen", "shell"],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "thor's hammer",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "target-party",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 40
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": "lightning"
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "pain",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "magical",
+                                "damage_formula": "special-magic",
+                                "damage_constant": 28
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "death",
+                            "probability": 100,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "oblivion",
+            "version": "a",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "target-party",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 4
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": true,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 16,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+
+
+
+
+        {
             "name": "spines",
             "version": null,
             "notes": null,
@@ -269,7 +1835,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -336,51 +1902,6 @@
             ]
         },
         {
-            "name": "demi",
-            "version": null,
-            "notes": null,
-            "appears_in_help_bar": true,
-            "rank": 3,
-            "meta": [
-                {
-                    "target": "all-enemies",
-                    "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "magical",
-                                "damage_formula": "percentage-current",
-                                "damage_constant": 4
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": true,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
-                    "shatter_rate": 0.1,
-                    "accuracy": {
-                        "acc_source": "rate",
-                        "hit_chance": 255,
-                        "acc_modifier": null
-                    },
-                    "affected_by": ["silence"],
-                    "hit_amount": 1,
-                    "delay": [],
-                    "inflicted_status_conditions": [],
-                    "removed_status_conditions": [],
-                    "copied_status_conditions": [],
-                    "stat_changes": [],
-                    "other_changes": []
-                }
-            ]
-        },
-        {
             "name": "half hp",
             "version": null,
             "notes": null,
@@ -388,7 +1909,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -433,7 +1954,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -478,7 +1999,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -523,7 +2044,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -568,7 +2089,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "all-enemies",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -642,7 +2163,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -680,51 +2201,6 @@
             ]
         },
         {
-            "name": "water",
-            "version": null,
-            "notes": null,
-            "appears_in_help_bar": true,
-            "rank": 3,
-            "meta": [
-                {
-                    "target": "single-enemy",
-                    "based_on_phys_attack": false,
-                    "range": 4,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "magical",
-                                "damage_formula": "magic-based",
-                                "damage_constant": 12
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": true,
-                        "break_dmg_lmt": "never",
-                        "element": "water"
-                    },
-                    "shatter_rate": 0.1,
-                    "accuracy": {
-                        "acc_source": "rate",
-                        "hit_chance": 255,
-                        "acc_modifier": null
-                    },
-                    "affected_by": ["silence", "reflect"],
-                    "hit_amount": 1,
-                    "delay": [],
-                    "inflicted_status_conditions": [],
-                    "removed_status_conditions": [],
-                    "copied_status_conditions": [],
-                    "stat_changes": [],
-                    "other_changes": []
-                }
-            ]
-        },
-        {
             "name": "jump",
             "version": null,
             "notes": null,
@@ -732,7 +2208,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -777,7 +2253,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "all-enemies",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -822,7 +2298,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "all-enemies",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -896,7 +2372,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -941,7 +2417,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "all-enemies",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -986,7 +2462,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1050,13 +2526,58 @@
             ]
         },
         {
+            "name": "assault",
+            "version": "b",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 32
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 120,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
             "name": "seed cannon",
             "version": null,
             "notes": null,
             "appears_in_help_bar": true,
             "rank": 3,
             "meta": {
-                "target": "single-enemy",
+                "target": "single-target",
                 "based_on_phys_attack": false,
                 "range": 3,
                 "damage": {
@@ -1100,7 +2621,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1144,51 +2665,6 @@
             ]
         },
         {
-            "name": "thunder",
-            "version": null,
-            "notes": null,
-            "appears_in_help_bar": true,
-            "rank": 3,
-            "meta": [
-                {
-                    "target": "single-enemy",
-                    "based_on_phys_attack": false,
-                    "range": 4,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "magical",
-                                "damage_formula": "magic-based",
-                                "damage_constant": 12
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": true,
-                        "break_dmg_lmt": "never",
-                        "element": "thunder"
-                    },
-                    "shatter_rate": 0.1,
-                    "accuracy": {
-                        "acc_source": "rate",
-                        "hit_chance": 255,
-                        "acc_modifier": null
-                    },
-                    "affected_by": ["silence", "reflect"],
-                    "hit_amount": 1,
-                    "delay": [],
-                    "inflicted_status_conditions": [],
-                    "removed_status_conditions": [],
-                    "copied_status_conditions": [],
-                    "stat_changes": [],
-                    "other_changes": []
-                }
-            ]
-        },
-        {
             "name": "poison claw",
             "version": null,
             "notes": null,
@@ -1196,7 +2672,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1247,7 +2723,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "all-enemies",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1292,7 +2768,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1377,7 +2853,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "all-enemies",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1422,7 +2898,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1466,6 +2942,62 @@
             ]
         },
         {
+            "name": "venom",
+            "version": "b",
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": {
+                        "damage_calc": [
+                            {
+                                "condition": null,
+                                "attack_type": "attack",
+                                "target_stat": "hp",
+                                "damage_type": "special",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 24
+                            }
+                        ],
+                        "can_critical": "never",
+                        "critical_plus_val": null,
+                        "is_piercing": false,
+                        "break_dmg_lmt": "never",
+                        "element": null
+                    },
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "poison",
+                            "probability": 100,
+                            "turns_amount": 254
+                        },
+                        {
+                            "name": "slow",
+                            "probability": 100,
+                            "turns_amount": 0
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
             "name": "staccato",
             "version": null,
             "notes": null,
@@ -1473,7 +3005,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "all-enemies",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1551,7 +3083,28 @@
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
-            "meta": []
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
         },
         {
             "name": "blitzball rush",
@@ -1606,7 +3159,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1657,7 +3210,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1708,7 +3261,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": {
@@ -1757,7 +3310,28 @@
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
-            "meta": []
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
         },
         {
             "name": "crane activated",
@@ -1765,40 +3339,16 @@
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
-            "meta": []
-        },
-        {
-            "name": "",
-            "version": null,
-            "notes": null,
-            "appears_in_help_bar": false,
-            "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -1813,40 +3363,40 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "rush",
+            "version": "a",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "never",
+                        "can_critical": "yes",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "fire"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 120,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -1858,28 +3408,28 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "rush",
+            "version": "b",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "percentage-current",
+                                "damage_constant": 4
                             }
                         ],
-                        "can_critical": "never",
+                        "can_critical": "yes",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
@@ -1888,10 +3438,10 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 120,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -1903,37 +3453,37 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "self destruct",
+            "version": "a",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 12
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
-                        "is_piercing": false,
+                        "is_piercing": true,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "fire"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -1948,37 +3498,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "grow2",
             "version": null,
-            "notes": null,
+            "notes": "Bomb grows to size 2.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -1993,37 +3527,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "grow3",
             "version": null,
-            "notes": null,
+            "notes": "Bomb grows to size 3.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2038,40 +3556,40 @@
             ]
         },
         {
-            "name": "",
+            "name": "gore",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 25
                             }
                         ],
-                        "can_critical": "never",
+                        "can_critical": "yes",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
                         "element": null
                     },
-                    "shatter_rate": 0,
+                    "shatter_rate": 0.1,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 150,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -2083,25 +3601,25 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "gaze",
+            "version": "a",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
                             }
                         ],
                         "can_critical": "never",
@@ -2113,13 +3631,19 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
-                    "inflicted_status_conditions": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "confusion",
+                            "probability": 10,
+                            "turns_amount": 254
+                        }
+                    ],
                     "removed_status_conditions": [],
                     "copied_status_conditions": [],
                     "stat_changes": [],
@@ -2128,25 +3652,25 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "gaze",
+            "version": "a",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 12
                             }
                         ],
                         "can_critical": "never",
@@ -2158,13 +3682,19 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
-                    "inflicted_status_conditions": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "confusion",
+                            "probability": 30,
+                            "turns_amount": 254
+                        }
+                    ],
                     "removed_status_conditions": [],
                     "copied_status_conditions": [],
                     "stat_changes": [],
@@ -2173,37 +3703,37 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "breath",
+            "version": "a",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 18
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "fire"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2218,37 +3748,37 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "breath",
+            "version": "b",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 18
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "ice"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2263,37 +3793,37 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "breath",
+            "version": "c",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 18
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "lightning"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2308,25 +3838,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "fist of fury",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 32
                             }
                         ],
                         "can_critical": "never",
@@ -2335,10 +3865,10 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
-                    "shatter_rate": 0,
+                    "shatter_rate": 0.1,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2353,25 +3883,25 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "thwack",
+            "version": "a",
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "percentage-current",
+                                "damage_constant": 3
                             }
                         ],
                         "can_critical": "never",
@@ -2380,10 +3910,10 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
-                    "shatter_rate": 0,
+                    "shatter_rate": 0.1,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2398,37 +3928,21 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
-            "notes": null,
+            "name": "thwack",
+            "version": "b",
+            "notes": "Chocobo Eater pushes characters off the cliff.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2443,37 +3957,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "you're next!",
             "version": null,
-            "notes": null,
-            "appears_in_help_bar": false,
+            "notes": "Charge round for Fist of Fury.",
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2488,37 +3986,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "shove",
             "version": null,
-            "notes": null,
+            "notes": "Chocobo Eater is pushed along the ground.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2533,37 +4015,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "gets up",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": "Chocobo Eater gets up after lying on its back.",
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2578,43 +4044,33 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "pollen",
+            "version": "a",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
-                    "inflicted_status_conditions": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "sleep",
+                            "probability": 80,
+                            "turns_amount": 2
+                        }
+                    ],
                     "removed_status_conditions": [],
                     "copied_status_conditions": [],
                     "stat_changes": [],
@@ -2623,43 +4079,33 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "stone gaze",
+            "version": "a",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
-                    "inflicted_status_conditions": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "petrification",
+                            "probability": 50,
+                            "turns_amount": 254
+                        }
+                    ],
                     "removed_status_conditions": [],
                     "copied_status_conditions": [],
                     "stat_changes": [],
@@ -2668,43 +4114,48 @@
             ]
         },
         {
-            "name": "",
+            "name": "ochu dance",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
-                    "inflicted_status_conditions": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "darkness",
+                            "probability": 80,
+                            "turns_amount": 3
+                        },
+                        {
+                            "name": "silence",
+                            "probability": 80,
+                            "turns_amount": 3
+                        },
+                        {
+                            "name": "confusion",
+                            "probability": 20,
+                            "turns_amount": 254
+                        },
+                        {
+                            "name": "slow",
+                            "probability": 20,
+                            "turns_amount": 5
+                        }
+                    ],
                     "removed_status_conditions": [],
                     "copied_status_conditions": [],
                     "stat_changes": [],
@@ -2713,37 +4164,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "open",
             "version": null,
             "notes": null,
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2758,37 +4193,37 @@
             ]
         },
         {
-            "name": "",
+            "name": "aqua shooter",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "never",
+                        "can_critical": "yes",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "water"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2803,24 +4238,24 @@
             ]
         },
         {
-            "name": "",
+            "name": "depth charges",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
+                                "damage_type": "special",
+                                "damage_formula": "strength-based",
                                 "damage_constant": 16
                             }
                         ],
@@ -2833,13 +4268,19 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
-                    "inflicted_status_conditions": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "darkness",
+                            "probability": 50,
+                            "turns_amount": 3
+                        }
+                    ],
                     "removed_status_conditions": [],
                     "copied_status_conditions": [],
                     "stat_changes": [],
@@ -2848,37 +4289,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "rise",
             "version": null,
-            "notes": null,
+            "notes": "Extractor readies Depth Charges.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2893,37 +4318,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "dive",
             "version": null,
-            "notes": null,
+            "notes": "Extractor disables Depth Charges.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -2938,28 +4347,28 @@
             ]
         },
         {
-            "name": "",
+            "name": "leaping swing",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 25
                             }
                         ],
-                        "can_critical": "never",
+                        "can_critical": "yes",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
@@ -2968,10 +4377,10 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 95,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["darkness"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -2983,25 +4392,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "reaper",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 13
                             }
                         ],
                         "can_critical": "never",
@@ -3013,7 +4422,7 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3028,25 +4437,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "1000 needles",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 20
                             }
                         ],
                         "can_critical": "never",
@@ -3058,7 +4467,7 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3073,37 +4482,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "run away",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3118,37 +4511,37 @@
             ]
         },
         {
-            "name": "",
+            "name": "megiddo flame",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 35
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "fire"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3163,37 +4556,37 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "aqua breath",
+            "version": "a",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based-ign-mdf",
+                                "damage_constant": 17
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "water"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3208,24 +4601,24 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "fire",
+            "version": "b",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
                                 "damage_constant": 16
                             }
                         ],
@@ -3233,15 +4626,15 @@
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "fire"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -3253,24 +4646,24 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "thunder",
+            "version": "b",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
                                 "damage_constant": 16
                             }
                         ],
@@ -3278,15 +4671,15 @@
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "lightning"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -3298,24 +4691,24 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "water",
+            "version": "b",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
                                 "damage_constant": 16
                             }
                         ],
@@ -3323,15 +4716,15 @@
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "water"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -3343,24 +4736,24 @@
             ]
         },
         {
-            "name": "",
-            "version": null,
+            "name": "ice",
+            "version": "b",
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
                                 "damage_constant": 16
                             }
                         ],
@@ -3368,15 +4761,15 @@
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "ice"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
+                    "affected_by": ["silence", "reflect"],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
@@ -3388,25 +4781,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "press",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "percentage-current",
+                                "damage_constant": 8
                             }
                         ],
                         "can_critical": "never",
@@ -3418,7 +4811,7 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3433,37 +4826,21 @@
             ]
         },
         {
-            "name": "",
+            "name": "elemental shift",
             "version": null,
-            "notes": null,
-            "appears_in_help_bar": false,
+            "notes": "Spherimorph changes its elemental affinities.",
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3478,25 +4855,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "gatling gun",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "random-enemy",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "physical",
+                                "damage_formula": "strength-based",
+                                "damage_constant": 4
                             }
                         ],
                         "can_critical": "never",
@@ -3508,11 +4885,11 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 100,
                         "acc_modifier": null
                     },
                     "affected_by": [],
-                    "hit_amount": 1,
+                    "hit_amount": 8,
                     "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
@@ -3523,25 +4900,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "mana beam",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "target-party",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 36
                             }
                         ],
                         "can_critical": "never",
@@ -3553,7 +4930,7 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3568,37 +4945,50 @@
             ]
         },
         {
-            "name": "",
+            "name": "countdown",
             "version": null,
-            "notes": null,
+            "notes": "Counts down to Mana Beam.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
                     },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "bit",
+            "version": null,
+            "notes": "Releases Negator.",
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3613,41 +5003,41 @@
             ]
         },
         {
-            "name": "",
+            "name": "multi-fira",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "n-targets",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 36
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "fire"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
-                    "hit_amount": 1,
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 2,
                     "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
@@ -3658,41 +5048,41 @@
             ]
         },
         {
-            "name": "",
+            "name": "multi-thundara",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "n-targets",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 36
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "lightning"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
-                    "hit_amount": 1,
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 2,
                     "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
@@ -3703,41 +5093,41 @@
             ]
         },
         {
-            "name": "",
+            "name": "multi-watera",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "n-targets",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 36
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "water"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "affected_by": [],
-                    "hit_amount": 1,
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 2,
                     "delay": [],
                     "inflicted_status_conditions": [],
                     "removed_status_conditions": [],
@@ -3748,37 +5138,66 @@
             ]
         },
         {
-            "name": "",
+            "name": "multi-blizzara",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "n-targets",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
                                 "attack_type": "attack",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "magical",
+                                "damage_formula": "magic-based",
+                                "damage_constant": 36
                             }
                         ],
                         "can_critical": "never",
                         "critical_plus_val": null,
                         "is_piercing": false,
                         "break_dmg_lmt": "never",
-                        "element": null
+                        "element": "ice"
                     },
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": ["silence", "reflect"],
+                    "hit_amount": 2,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "summon anima",
+            "version": null,
+            "notes": "Seymour summons Anima.",
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3793,44 +5212,63 @@
             ]
         },
         {
-            "name": "",
+            "name": "shremedy",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
                     },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "confusion",
+                            "probability": 50,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "remedy",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
                     "inflicted_status_conditions": [],
-                    "removed_status_conditions": [],
+                    "removed_status_conditions": ["berserk", "confuse", "darkness", "petrification", "poison", "silence", "sleep", "slow"],
                     "copied_status_conditions": [],
                     "stat_changes": [],
                     "other_changes": []
@@ -3838,25 +5276,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "hi-potion",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
-                                "attack_type": "attack",
+                                "attack_type": "heal",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 20
                             }
                         ],
                         "can_critical": "never",
@@ -3868,7 +5306,7 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3883,25 +5321,25 @@
             ]
         },
         {
-            "name": "",
+            "name": "auto-potion",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
-                    "range": 1,
+                    "range": 3,
                     "damage": {
                         "damage_calc": [
                             {
                                 "condition": null,
-                                "attack_type": "attack",
+                                "attack_type": "heal",
                                 "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
+                                "damage_type": "special",
+                                "damage_formula": "special-no-variance",
+                                "damage_constant": 20
                             }
                         ],
                         "can_critical": "never",
@@ -3913,7 +5351,7 @@
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3928,37 +5366,66 @@
             ]
         },
         {
-            "name": "",
+            "name": "boost",
             "version": null,
             "notes": null,
-            "appears_in_help_bar": false,
+            "appears_in_help_bar": true,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
                     "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
                     },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": [
+                        {
+                            "name": "physical-damage-taken",
+                            "calculation_type": "multiply",
+                            "value": 1.5
+                        },
+                        {
+                            "name": "magical-damage-taken",
+                            "calculation_type": "multiply",
+                            "value": 1.5
+                        },
+                        {
+                            "name": "special-damage-taken",
+                            "calculation_type": "multiply",
+                            "value": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "seymour dismisses anima",
+            "version": null,
+            "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -3973,37 +5440,114 @@
             ]
         },
         {
-            "name": "",
+            "name": "berserk",
             "version": null,
             "notes": null,
+            "appears_in_help_bar": true,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "single-target",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "berserk",
+                            "probability": 120,
+                            "turns_amount": 254
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "summon",
+            "version": "a",
+            "notes": "Guado Guardian summons allies.",
             "appears_in_help_bar": false,
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "self",
                     "based_on_phys_attack": false,
                     "range": 1,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "counterattack",
+            "version": null,
+            "notes": "Ogre raises hands.",
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
+                    "shatter_rate": 0,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
                     },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
+        },
+        {
+            "name": "cancel counter",
+            "version": null,
+            "notes": "Ogre lowers hands.",
+            "appears_in_help_bar": false,
+            "rank": 3,
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": 3,
+                    "damage": null,
                     "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
-                        "hit_chance": 0,
+                        "hit_chance": 255,
                         "acc_modifier": null
                     },
                     "affected_by": [],
@@ -4025,7 +5569,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4070,7 +5614,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4115,7 +5659,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4160,7 +5704,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4205,7 +5749,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4250,7 +5794,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4295,7 +5839,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4340,7 +5884,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4385,7 +5929,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4430,7 +5974,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4475,7 +6019,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4520,7 +6064,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4565,7 +6109,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4610,7 +6154,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4655,7 +6199,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4700,7 +6244,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4745,7 +6289,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4790,7 +6334,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4835,7 +6379,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4880,7 +6424,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4925,7 +6469,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -4970,7 +6514,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5015,7 +6559,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5060,7 +6604,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5105,7 +6649,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5150,7 +6694,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5195,7 +6739,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5240,7 +6784,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5285,7 +6829,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5330,7 +6874,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5375,7 +6919,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5420,7 +6964,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5465,7 +7009,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5510,7 +7054,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5555,7 +7099,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5600,7 +7144,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5645,7 +7189,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5690,7 +7234,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5735,7 +7279,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5780,7 +7324,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5825,7 +7369,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5870,7 +7414,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5915,7 +7459,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -5960,7 +7504,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -6005,7 +7549,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -6050,7 +7594,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -6095,7 +7639,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -6140,7 +7684,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
@@ -6185,7 +7729,7 @@
             "rank": 3,
             "meta": [
                 {
-                    "target": "single-enemy",
+                    "target": "single-target",
                     "based_on_phys_attack": false,
                     "range": 1,
                     "damage": {
