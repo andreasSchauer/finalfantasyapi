@@ -20,7 +20,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -33,7 +34,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "If you attack the ones at the back, they will respawn. Fight is ended when the ones at the front are defeated."
+                    "notes": "If you attack the ones at the back, they will respawn. Fight is ended when the ones at the front are defeated.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -51,7 +53,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -69,7 +72,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "The sinscales will constantly respawn. The tanker becomes a target on either Auron's second turn, or Tidus' fourth turn."
+                    "notes": "The sinscales will constantly respawn. The tanker becomes a target on either Auron's second turn, or Tidus' fourth turn.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -93,7 +97,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "The battle ends after two are defeated."
+                    "notes": "The battle ends after two are defeated.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -106,7 +111,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "The battle ends after three turns."
+                    "notes": "The battle ends after three turns.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -119,7 +125,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After acquiring the Airship."
+                    "notes": "After acquiring the Airship.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -143,7 +150,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "Rikku joins after Klikk has lost half of its HP."
+                    "notes": "Rikku joins after Klikk has lost half of its HP.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -172,7 +180,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -185,7 +194,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -214,7 +224,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -227,7 +238,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -251,7 +263,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -264,7 +277,19 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": [
+                        {
+                            "name": "stand by",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        },
+                        {
+                            "name": "pincer attack",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        }
+                    ]
                 }
             ]
         },
@@ -293,7 +318,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -311,7 +337,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -334,7 +361,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -358,7 +386,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -371,7 +400,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -384,7 +414,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -402,7 +433,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -420,7 +452,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -438,7 +471,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -451,7 +485,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After obtaining the Airship."
+                    "notes": "After obtaining the Airship.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -475,7 +510,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -499,7 +535,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "Summmoning tutorial."
+                    "notes": "Summmoning tutorial.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -512,7 +549,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "Dark Attack tutorial."
+                    "notes": "Dark Attack tutorial.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -535,7 +573,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -553,7 +592,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -571,7 +611,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -589,7 +630,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -612,7 +654,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -641,7 +684,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -659,7 +703,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -677,7 +722,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -700,7 +746,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -729,7 +776,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "The sinscales will respawn, if you defeat all three of them."
+                    "notes": "The sinscales will respawn, if you defeat all three of them.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -758,7 +806,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "The sinscales will respawn after some time."
+                    "notes": "The sinscales will respawn after some time.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -782,7 +831,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "You can only escape after Kimahri used Lancet on his first turn."
+                    "notes": "You can only escape after Kimahri used Lancet on his first turn.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -800,7 +850,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -818,7 +869,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -836,7 +888,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -859,7 +912,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -872,7 +926,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -890,7 +945,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -903,7 +959,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -916,7 +973,8 @@
                     "category": "static-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -945,7 +1003,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -969,7 +1028,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -982,7 +1042,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -995,7 +1056,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1019,7 +1081,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator."
+                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1043,7 +1106,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator."
+                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1067,7 +1131,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "First fight."
+                    "notes": "First fight.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1080,7 +1145,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "Second fight."
+                    "notes": "Second fight.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1093,7 +1159,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Third fight."
+                    "notes": "Third fight.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1106,7 +1173,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator."
+                    "notes": "After defeating the forced Workers in Dock 4 and before defeating Oblitzerator.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1124,7 +1192,14 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": [
+                        {
+                            "name": "use crane",
+                            "version": null,
+                            "users": ["tidus"]
+                        }
+                    ]
                 }
             ]
         },
@@ -1148,7 +1223,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1171,7 +1247,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1194,7 +1271,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1217,7 +1295,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1240,7 +1319,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1253,7 +1333,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1266,7 +1347,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1279,7 +1361,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Ledges."
+                    "notes": "Ledges.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1292,7 +1375,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Ledges."
+                    "notes": "Ledges.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1310,7 +1394,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Ledges."
+                    "notes": "Ledges.",
+                    "trigger_commands": []
                 },
 
                 {
@@ -1324,7 +1409,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1358,7 +1444,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1381,7 +1468,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1404,7 +1492,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1427,7 +1516,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1445,7 +1535,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1463,7 +1554,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1476,7 +1568,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1494,7 +1587,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1507,7 +1601,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Ledges."
+                    "notes": "Ledges.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1520,7 +1615,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Ledges."
+                    "notes": "Ledges.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1554,7 +1650,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1577,7 +1674,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1600,7 +1698,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1623,7 +1722,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1641,7 +1741,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1659,7 +1760,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1672,7 +1774,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1690,7 +1793,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1703,7 +1807,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Ledges."
+                    "notes": "Ledges.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1716,7 +1821,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Ledges."
+                    "notes": "Ledges.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1740,7 +1846,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "The fight can end prematurely if you push it off the cliff or vice versa."
+                    "notes": "The fight can end prematurely if you push it off the cliff or vice versa.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1774,7 +1881,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1797,7 +1905,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1820,7 +1929,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1843,7 +1953,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1861,7 +1972,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1879,7 +1991,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1892,7 +2005,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1910,7 +2024,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -1944,7 +2059,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1967,7 +2083,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -1990,7 +2107,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2013,7 +2131,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2031,7 +2150,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2049,7 +2169,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2062,7 +2183,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2080,7 +2202,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -2109,7 +2232,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2132,7 +2256,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2155,7 +2280,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2173,7 +2299,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2191,7 +2318,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2209,7 +2337,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2227,7 +2356,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2250,7 +2380,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -2279,7 +2410,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2302,7 +2434,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2325,7 +2458,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2343,7 +2477,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2361,7 +2496,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2379,7 +2515,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2397,7 +2534,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2420,7 +2558,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -2449,7 +2588,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2472,7 +2612,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2495,7 +2636,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2513,7 +2655,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2531,7 +2674,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2554,7 +2698,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2577,7 +2722,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -2611,7 +2757,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2634,7 +2781,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2657,7 +2805,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2680,7 +2829,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2703,7 +2853,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2716,7 +2867,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -2745,7 +2897,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2768,7 +2921,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2791,7 +2945,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2804,7 +2959,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2822,7 +2978,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -2856,7 +3013,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2879,7 +3037,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -2913,7 +3072,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2931,7 +3091,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2954,7 +3115,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -2977,7 +3139,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3000,7 +3163,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3023,7 +3187,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3057,7 +3222,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3080,7 +3246,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3103,7 +3270,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3126,7 +3294,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3149,7 +3318,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3162,7 +3332,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3196,7 +3367,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3214,7 +3386,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3232,7 +3405,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3245,7 +3419,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3274,7 +3449,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3292,7 +3468,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3310,7 +3487,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3323,7 +3501,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3346,7 +3525,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3364,7 +3544,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3387,7 +3568,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3416,7 +3598,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3439,7 +3622,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3462,7 +3646,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3475,7 +3660,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3493,7 +3679,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3511,7 +3698,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3524,7 +3712,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3548,7 +3737,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3577,7 +3767,8 @@
                     "category": "tutorial",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3611,7 +3802,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3629,7 +3821,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3647,7 +3840,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3670,7 +3864,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3693,7 +3888,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3727,7 +3923,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3750,7 +3947,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3773,7 +3971,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3791,7 +3990,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3809,7 +4009,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3822,7 +4023,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After praying at one Qactuar stone."
+                    "notes": "After praying at one Qactuar stone.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3835,7 +4037,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After praying at two Qactuar stones."
+                    "notes": "After praying at two Qactuar stones.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3848,7 +4051,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After praying at three Qactuar stones."
+                    "notes": "After praying at three Qactuar stones.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -3872,7 +4076,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3890,7 +4095,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3913,7 +4119,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3926,7 +4133,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3949,7 +4157,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3962,7 +4171,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After praying at one Qactuar stone."
+                    "notes": "After praying at one Qactuar stone.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3975,7 +4185,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After praying at two Qactuar stones."
+                    "notes": "After praying at two Qactuar stones.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -3988,7 +4199,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After praying at three Qactuar stones."
+                    "notes": "After praying at three Qactuar stones.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4001,7 +4213,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After defeating Seymour Natus."
+                    "notes": "After defeating Seymour Natus.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4014,7 +4227,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After defeating Seymour Natus."
+                    "notes": "After defeating Seymour Natus.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4048,7 +4262,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4071,7 +4286,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4089,7 +4305,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4102,7 +4319,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4120,7 +4338,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4133,7 +4352,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4167,7 +4387,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4190,7 +4411,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4208,7 +4430,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4221,7 +4444,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4239,7 +4463,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4252,7 +4477,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4286,7 +4512,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4309,7 +4536,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4327,7 +4555,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4340,7 +4569,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4358,7 +4588,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4371,7 +4602,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4395,7 +4627,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4424,7 +4657,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4447,7 +4681,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4470,7 +4705,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4499,7 +4735,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4517,7 +4754,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4551,7 +4789,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4574,7 +4813,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4592,7 +4832,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4626,7 +4867,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After watching Jyscal's sphere, before defeating Seymour."
+                    "notes": "After watching Jyscal's sphere, before defeating Seymour.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4649,7 +4891,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After watching Jyscal's sphere, before defeating Seymour."
+                    "notes": "After watching Jyscal's sphere, before defeating Seymour.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4667,7 +4910,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "After watching Jyscal's sphere, before defeating Seymour."
+                    "notes": "After watching Jyscal's sphere, before defeating Seymour.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4690,7 +4934,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "During escapes after defeating Seymour and Dark Shiva."
+                    "notes": "During escapes after defeating Seymour and Dark Shiva.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4708,7 +4953,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "During escapes after defeating Seymour and Dark Shiva."
+                    "notes": "During escapes after defeating Seymour and Dark Shiva.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4731,7 +4977,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "During escapes after defeating Seymour and Dark Shiva."
+                    "notes": "During escapes after defeating Seymour and Dark Shiva.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4744,7 +4991,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After defeating Seymour Natus."
+                    "notes": "After defeating Seymour Natus.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4778,7 +5026,19 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": [
+                        {
+                            "name": "talk",
+                            "version": "a",
+                            "users": ["tidus"]
+                        },
+                        {
+                            "name": "talk",
+                            "version": "b",
+                            "users": ["yuna", "wakka"]
+                        }
+                    ]
                 }
             ]
         },
@@ -4802,7 +5062,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4831,7 +5092,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4854,7 +5116,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4867,7 +5130,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4880,7 +5144,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4893,7 +5158,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4906,7 +5172,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4919,7 +5186,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -4948,7 +5216,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4971,7 +5240,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4984,7 +5254,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -4997,7 +5268,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5010,7 +5282,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5023,7 +5296,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5052,7 +5326,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5070,7 +5345,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5088,7 +5364,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5101,7 +5378,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5114,7 +5392,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5148,7 +5427,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5166,7 +5446,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5179,7 +5460,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5197,7 +5479,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5210,7 +5493,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5223,7 +5507,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5236,7 +5521,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5249,7 +5535,8 @@
                     "category": "static-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5262,7 +5549,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After acquiring the Airship."
+                    "notes": "After acquiring the Airship.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5286,7 +5574,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5299,7 +5588,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5312,7 +5602,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5325,7 +5616,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5343,7 +5635,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5356,7 +5649,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5385,7 +5679,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5403,7 +5698,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5421,7 +5717,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5434,7 +5731,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5447,7 +5745,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5476,7 +5775,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5505,7 +5805,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5523,7 +5824,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5541,7 +5843,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5559,7 +5862,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5577,7 +5881,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5606,7 +5911,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5635,7 +5941,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5664,7 +5971,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5688,7 +5996,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5701,7 +6010,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5714,7 +6024,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5738,7 +6049,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5751,7 +6063,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5764,7 +6077,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5788,7 +6102,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5801,7 +6116,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5814,7 +6130,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5838,7 +6155,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5851,7 +6169,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5864,7 +6183,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5888,7 +6208,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5901,7 +6222,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5914,7 +6236,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -5943,7 +6266,24 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": [
+                        {
+                            "name": "move in",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        },
+                        {
+                            "name": "pull back",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        },
+                        {
+                            "name": "cancel",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        }
+                    ]
                 },
                 {
                     "monsters": [
@@ -5961,7 +6301,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5979,7 +6320,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -5997,7 +6339,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6010,7 +6353,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6028,7 +6372,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6057,7 +6402,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6075,7 +6421,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6093,7 +6440,8 @@
                     "category": "story-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6117,7 +6465,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6135,7 +6484,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6153,7 +6503,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6171,7 +6522,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6184,7 +6536,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6202,7 +6555,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6226,7 +6580,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6265,7 +6620,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6294,7 +6650,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6307,7 +6664,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6325,7 +6683,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6338,7 +6697,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6356,7 +6716,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6374,7 +6735,14 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": [
+                        {
+                            "name": "open lock",
+                            "version": null,
+                            "users": ["tidus", "wakka", "rikku"]
+                        }
+                    ]
                 }
             ]
         },
@@ -6403,7 +6771,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6421,7 +6790,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6439,7 +6809,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6457,7 +6828,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6491,7 +6863,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6514,7 +6887,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6537,7 +6911,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6571,7 +6946,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6594,7 +6970,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6617,7 +6994,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6635,7 +7013,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6648,7 +7027,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6661,7 +7041,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6674,7 +7055,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6692,7 +7074,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6705,7 +7088,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6739,7 +7123,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6762,7 +7147,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6785,7 +7171,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6803,7 +7190,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6816,7 +7204,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6829,7 +7218,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6842,7 +7232,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6860,7 +7251,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -6894,7 +7286,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6917,7 +7310,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6940,7 +7334,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6958,7 +7353,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6971,7 +7367,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6984,7 +7381,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -6997,7 +7395,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7015,7 +7414,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7028,7 +7428,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7062,7 +7463,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7085,7 +7487,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7108,7 +7511,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7126,7 +7530,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7139,7 +7544,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7152,7 +7558,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7165,7 +7572,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7183,7 +7591,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7196,7 +7605,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7230,7 +7640,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7253,7 +7664,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7276,7 +7688,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7294,7 +7707,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7307,7 +7721,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7320,7 +7735,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7338,7 +7754,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7351,7 +7768,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7385,7 +7803,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7408,7 +7827,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7431,7 +7851,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7449,7 +7870,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7462,7 +7884,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7475,7 +7898,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7488,7 +7912,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7506,7 +7931,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7519,7 +7945,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7553,7 +7980,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7576,7 +8004,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7599,7 +8028,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7617,7 +8047,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7630,7 +8061,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7643,7 +8075,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7661,7 +8094,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7674,7 +8108,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7698,7 +8133,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7727,7 +8163,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7745,7 +8182,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7758,7 +8196,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7787,7 +8226,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7805,7 +8245,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7823,7 +8264,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7841,7 +8283,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7859,7 +8302,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7877,7 +8321,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7895,7 +8340,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7923,7 +8369,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -7957,7 +8404,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7975,7 +8423,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -7988,7 +8437,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8001,7 +8451,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8019,7 +8470,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8032,25 +8484,27 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
                         {
-                            "monster_name": "magic urn middle eye",
-                            "version": null,
+                            "monster_name": "magic urn",
+                            "version": "a",
                             "amount": 1
                         },
                         {
-                            "monster_name": "magic urn outer eyes",
-                            "version": null,
+                            "monster_name": "magic urn",
+                            "version": "b",
                             "amount": 4
                         }
                     ],
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8073,7 +8527,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8091,7 +8546,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": true,
                     "can_escape": false,
-                    "notes": "After defeating Yojimbo and returning. First Fight."
+                    "notes": "After defeating Yojimbo and returning. First Fight.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8109,7 +8565,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After defeating Yojimbo and returning. Second to Fifth Fights."
+                    "notes": "After defeating Yojimbo and returning. Second to Fifth Fights.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8133,7 +8590,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8146,7 +8604,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8164,7 +8623,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8177,25 +8637,27 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
                         {
-                            "monster_name": "magic urn middle eye",
-                            "version": null,
+                            "monster_name": "magic urn",
+                            "version": "a",
                             "amount": 1
                         },
                         {
-                            "monster_name": "magic urn outer eyes",
-                            "version": null,
+                            "monster_name": "magic urn",
+                            "version": "b",
                             "amount": 4
                         }
                     ],
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8208,7 +8670,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8221,7 +8684,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8250,7 +8714,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8263,7 +8728,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After acquiring the Airship and passing the first mountain cave trial a second time."
+                    "notes": "After acquiring the Airship and passing the first mountain cave trial a second time.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8297,7 +8763,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8315,7 +8782,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8333,7 +8801,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8351,7 +8820,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8369,7 +8839,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8398,7 +8869,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8432,7 +8904,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8450,7 +8923,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8463,7 +8937,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8476,7 +8951,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8494,7 +8970,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8507,7 +8984,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8520,7 +8998,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8549,7 +9028,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8567,7 +9047,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8590,7 +9071,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8613,7 +9095,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8637,7 +9120,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8661,7 +9145,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8674,7 +9159,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8692,7 +9178,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8710,7 +9197,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8723,7 +9211,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8752,7 +9241,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8770,7 +9260,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8788,7 +9279,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8806,7 +9298,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8824,7 +9317,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8837,7 +9331,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8866,7 +9361,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8890,7 +9386,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8903,7 +9400,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": "After defeating Yunalesca and returning."
+                    "notes": "After defeating Yunalesca and returning.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -8927,7 +9425,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8945,7 +9444,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8958,7 +9458,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8976,7 +9477,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -8989,7 +9491,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9018,7 +9521,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9047,7 +9551,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9060,7 +9565,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9078,7 +9584,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9091,7 +9598,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9104,7 +9612,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9117,7 +9626,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9130,7 +9640,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9143,7 +9654,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9167,7 +9679,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9180,7 +9693,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9193,7 +9707,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9206,7 +9721,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9219,7 +9735,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": true,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9232,7 +9749,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9245,7 +9763,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9258,7 +9777,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": "Triggered when a spike crystal is touched."
+                    "notes": "Triggered when a spike crystal is touched.",
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9287,7 +9807,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9316,7 +9837,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9334,7 +9856,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9352,7 +9875,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9370,7 +9894,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9388,7 +9913,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9406,7 +9932,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9424,7 +9951,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9452,7 +9980,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9470,7 +9999,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9499,7 +10029,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9517,7 +10048,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9535,7 +10067,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9553,7 +10086,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9571,7 +10105,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9589,7 +10124,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9607,7 +10143,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9625,7 +10162,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9643,7 +10181,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9656,7 +10195,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9669,7 +10209,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9682,7 +10223,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9695,7 +10237,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9708,7 +10251,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9721,7 +10265,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9734,7 +10279,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9747,7 +10293,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": true,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9760,7 +10307,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9773,7 +10321,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9797,7 +10346,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9810,7 +10360,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9823,7 +10374,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9836,7 +10388,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9849,7 +10402,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": true,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9862,7 +10416,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9880,7 +10435,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9898,7 +10454,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9911,7 +10468,8 @@
                     "category": "boss-fight",
                     "is_forced_ambush": false,
                     "can_escape": false,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -9936,7 +10494,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9949,7 +10508,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9962,7 +10522,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9975,7 +10536,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -9988,7 +10550,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": true,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10001,7 +10564,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10019,7 +10583,8 @@
                     "category": "random-encounter",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         },
@@ -10043,7 +10608,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10056,7 +10622,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": true,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10069,7 +10636,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10082,7 +10650,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10095,7 +10664,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10108,7 +10678,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10121,7 +10692,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10134,7 +10706,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10147,7 +10720,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10160,7 +10734,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10173,7 +10748,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10186,7 +10762,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10199,7 +10776,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10212,7 +10790,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10225,7 +10804,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10238,7 +10818,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10251,7 +10832,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10264,7 +10846,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10277,7 +10860,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10290,7 +10874,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10303,7 +10888,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10316,7 +10902,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10329,7 +10916,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10342,7 +10930,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10355,7 +10944,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10368,7 +10958,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10381,7 +10972,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10394,7 +10986,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10407,7 +11000,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10420,7 +11014,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10433,7 +11028,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10446,7 +11042,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10469,7 +11066,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10482,7 +11080,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 },
                 {
                     "monsters": [
@@ -10495,7 +11094,8 @@
                     "category": "on-demand-fight",
                     "is_forced_ambush": false,
                     "can_escape": true,
-                    "notes": null
+                    "notes": null,
+                    "trigger_commands": []
                 }
             ]
         }

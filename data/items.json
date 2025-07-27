@@ -34,12 +34,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -85,12 +85,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -136,12 +136,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -187,12 +187,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -238,12 +238,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -289,12 +289,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -348,12 +348,12 @@
                     "break_dmg_lmt": "never",
                     "element": null
                 },
+                "shatter_rate": 0,
                 "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                "shatter_rate": null,
                 "affected_by": [],    
                 "hit_amount": 1,
                     "delay": [],
@@ -407,12 +407,12 @@
                     "break_dmg_lmt": "never",
                     "element": null
                 },
+                "shatter_rate": 0,
                 "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                "shatter_rate": null,
                 "affected_by": [],    
                 "hit_amount": 1,
                     "delay": [],
@@ -458,12 +458,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -515,12 +515,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -556,12 +556,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -591,12 +591,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -626,12 +626,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -661,12 +661,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -696,12 +696,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -731,12 +731,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -766,12 +766,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -807,12 +807,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -848,12 +848,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -889,12 +889,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -946,12 +946,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -997,12 +997,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1048,12 +1048,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1120,12 +1120,12 @@
                         "break_dmg_lmt": "never",
                         "element": "ice"
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1171,12 +1171,12 @@
                         "break_dmg_lmt": "never",
                         "element": "ice"
                     },
+                    "shatter_rate": 0.5,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.5,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1222,12 +1222,12 @@
                         "break_dmg_lmt": "never",
                         "element": "ice"
                     },
+                    "shatter_rate": 0.7,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.7,
                     "affected_by": [],
                     "hit_amount": 5,
                     "delay": [],
@@ -1273,12 +1273,12 @@
                         "break_dmg_lmt": "never",
                         "element": "fire"
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1324,12 +1324,12 @@
                         "break_dmg_lmt": "never",
                         "element": "fire"
                     },
+                    "shatter_rate": 0.5,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.5,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1375,12 +1375,12 @@
                         "break_dmg_lmt": "never",
                         "element": "fire"
                     },
+                    "shatter_rate": 0.7,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.7,
                     "affected_by": [],
                     "hit_amount": 5,
                     "delay": [],
@@ -1426,12 +1426,12 @@
                         "break_dmg_lmt": "never",
                         "element": "lightning" 
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1477,12 +1477,12 @@
                         "break_dmg_lmt": "never",
                         "element": "lightning" 
                     },
+                    "shatter_rate": 0.5,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.5,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1528,12 +1528,12 @@
                         "break_dmg_lmt": "never",
                         "element": "lightning" 
                     },
+                    "shatter_rate": 0.7,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.7,
                     "affected_by": [],
                     "hit_amount": 5,
                     "delay": [],
@@ -1579,12 +1579,12 @@
                         "break_dmg_lmt": "never",
                         "element": "water"
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1630,12 +1630,12 @@
                         "break_dmg_lmt": "never",
                         "element": "water"
                     },
+                    "shatter_rate": 0.5,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.5,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1681,12 +1681,12 @@
                         "break_dmg_lmt": "never",
                         "element": "water"
                     },
+                    "shatter_rate": 0.7,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.7,
                     "affected_by": [],
                     "hit_amount": 5,
                     "delay": [],
@@ -1732,12 +1732,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.5,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.5,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1783,12 +1783,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.5,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.5,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1840,12 +1840,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1897,12 +1897,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -1954,12 +1954,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2011,12 +2011,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.3,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.3,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2068,12 +2068,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.5,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.5,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2119,12 +2119,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 1,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 1,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2170,12 +2170,12 @@
                         "break_dmg_lmt": "never",
                         "element": "holy"
                     },
+                    "shatter_rate": 1,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 1,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2221,12 +2221,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 1,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 1,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2272,12 +2272,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.6,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.6,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2313,12 +2313,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [
@@ -2387,12 +2387,12 @@
                             "damage_constant": 24
                         }
                     ],
+                    "shatter_rate": 0.7,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.7,
                     "affected_by": [],
                     "hit_amount": 1,
                     "inflicted_status_conditions": [
@@ -2427,12 +2427,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2468,12 +2468,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2509,12 +2509,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2550,12 +2550,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2607,12 +2607,12 @@
                         "break_dmg_lmt": "always",
                         "element": null
                     },
+                    "shatter_rate": 1,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 1,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2642,12 +2642,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [
@@ -2691,12 +2691,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [
@@ -2740,12 +2740,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2781,12 +2781,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2822,12 +2822,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2863,12 +2863,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2920,12 +2920,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.1,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.1,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -2971,12 +2971,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.1,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.1,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3030,12 +3030,12 @@
                     "break_dmg_lmt": "never",
                     "element": null
                 },
+                "shatter_rate": 0.1,
                 "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                "shatter_rate": 0.1,
                 "affected_by": [],    
                 "hit_amount": 1,
                     "delay": [],
@@ -3081,12 +3081,12 @@
                         "break_dmg_lmt": "never",
                         "element": null
                     },
+                    "shatter_rate": 0.1,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": 0.1,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3116,12 +3116,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3157,12 +3157,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3198,12 +3198,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3239,12 +3239,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3280,12 +3280,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3321,12 +3321,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
@@ -3362,12 +3362,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3397,12 +3397,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3432,12 +3432,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3467,12 +3467,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3502,12 +3502,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3537,12 +3537,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3572,12 +3572,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3607,12 +3607,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3642,12 +3642,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3677,12 +3677,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3712,12 +3712,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3747,12 +3747,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3782,12 +3782,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3817,12 +3817,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3852,12 +3852,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3887,12 +3887,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3922,12 +3922,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3957,12 +3957,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -3992,12 +3992,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4027,12 +4027,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4062,12 +4062,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4097,12 +4097,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4132,12 +4132,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4167,12 +4167,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4202,12 +4202,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4237,12 +4237,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4272,12 +4272,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4307,12 +4307,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4342,12 +4342,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4377,12 +4377,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4412,12 +4412,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4447,12 +4447,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4482,12 +4482,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4517,12 +4517,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4552,12 +4552,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4587,12 +4587,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4622,12 +4622,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4657,12 +4657,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4692,12 +4692,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4727,12 +4727,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4762,12 +4762,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4797,12 +4797,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],
@@ -4832,12 +4832,12 @@
                     "based_on_phys_attack": false,
                     "range": 3,
                     "damage": null,
+                    "shatter_rate": 0,
                     "accuracy": {
                         "acc_source": "rate",
                         "hit_chance": 255,
                         "acc_modifier": null
                     },
-                    "shatter_rate": null,
                     "affected_by": [],
                     "hit_amount": null,
                     "delay": [],

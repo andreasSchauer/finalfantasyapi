@@ -3,7 +3,7 @@
         {
             "name": "berserk",
             "effect": "Causes the unit to use 'attack' uncontrollably and boosts damage by 50%. Can be removed by 'Threaten'.",
-            "related_stats": ["strength"],
+            "related_stats": ["strength", "magic"],
             "meta": {
                 "removed_status_conditions": [],
                 "nullified_properties": [],
@@ -110,13 +110,29 @@
         },
         {
             "name": "petrification",
-            "effect": "The unit is unable to act and flagged as 'dead'. Petrified units can shatter, ejecting them from battle. Enemies always shatter instantly, as well as characters when they're underwater. Characters on land shatter when they're hit by physical attacks.",
+            "effect": "The unit is unable to act and flagged as 'dead'. Petrified units can shatter, ejecting them from battle. Enemies always shatter instantly, as well as characters when they're underwater. Characters on land might shatter when they're hit by attacks (based on the attack's shatter rate).",
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "berserk", "confusion", "curse", "darkness", "doom", "poison", "silence", "sleep", "slow", "zombie", "auto-life", "haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost", "guard", "sentinel", "shield", "boost"],
                 "nullified_properties": [],
                 "stat_changes": [],
-                "other_changes": []
+                "other_changes": [
+                    {
+                        "name": "physical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    },
+                    {
+                        "name": "magical-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    },
+                    {
+                        "name": "special-damage-taken",
+                        "calculation_type": "multiply",
+                        "value": 0
+                    }
+                ]
             }
         },
         {
@@ -127,7 +143,7 @@
         },
         {
             "name": "provoke",
-            "effect": "Forces the afflicted enemy to use one ability. If that ability is single-target, it will always target the provoking character. Removed instantly when the provoking character is switched out.",
+            "effect": "Forces the afflicted enemy to use one, or sometimes a few certain abilities. If an ability used this way is single-target, it will always target the provoking character. Removed instantly when the provoking character is switched out, KO, or petrifieq.",
             "related_stats": [],
             "meta": null
         },
@@ -167,7 +183,7 @@
         },
         {
             "name": "threaten",
-            "effect": "Causes the afflicted enemy to be frozen in time and thus unable to evade or act until the user's next turn. CTB altering actions like Haste, Slow, or Delay will fail on the user until their turn.",
+            "effect": "Causes the afflicted enemy to be frozen in time and thus unable to evade or act until the user's next turn. CTB altering actions like Haste, Slow, or Delay will fail on the user until their next turn.",
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["berserk"],

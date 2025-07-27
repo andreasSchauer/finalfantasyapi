@@ -54,19 +54,22 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "spines",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "wings start to flicker",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -124,13 +127,15 @@
                     "name": "demi",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "does nothing",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -244,7 +249,8 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -345,13 +351,15 @@
                     "name": "half hp",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "one hp",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": true
+                    "is_unused": true,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -432,7 +440,8 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -534,13 +543,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "gnaw",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -646,13 +657,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "gnaw",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -758,13 +771,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "gnaw",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -866,31 +881,36 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "tentacles",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "nautilus charge",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "flank",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "bash",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -1050,13 +1070,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "c",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -1236,13 +1258,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "d",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -1404,9 +1428,10 @@
             "abilities": [
                 {
                     "name": "water",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -1528,13 +1553,15 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "jump",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -1675,13 +1702,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "sonic boom",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -1844,7 +1873,8 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -2027,13 +2057,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "d",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -2206,9 +2238,10 @@
             "abilities": [
                 {
                     "name": "water",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -2355,7 +2388,8 @@
                     "name": "move",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -2436,19 +2470,22 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "spines",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "wings start to flicker",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -2576,13 +2613,15 @@
                     "name": "drain touch",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "blender",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -2663,7 +2702,8 @@
                     "name": "assault",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -2824,7 +2864,8 @@
                     "name": "seed cannon",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -3001,13 +3042,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "e",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -3185,7 +3228,8 @@
                     "name": "poison dart",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -3353,7 +3397,8 @@
                     "name": "seed cannon",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -3513,9 +3558,10 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -3699,31 +3745,36 @@
                     "name": "poison claw",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "water",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "earthquake",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "earthquake",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "lord ochu falls asleep",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -3874,37 +3925,43 @@
                     "name": "sigh",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "venom",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "staccato",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "water",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "tentacles absorb magic",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "transform",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -3992,7 +4049,8 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -4163,7 +4221,8 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -4349,25 +4408,29 @@
                     "name": "blitzball rush",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "blind ball",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "mute ball",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "doze ball",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -4446,13 +4509,15 @@
                     "name": "the crane responds",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "crane activated",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -4538,7 +4603,8 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -4675,7 +4741,8 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -4826,13 +4893,15 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "sonic boom",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -4994,13 +5063,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "f",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -5158,31 +5229,36 @@
                     "name": "rush",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "fire",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "self destruct",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "grow2",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "grow3",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -5332,13 +5408,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "gore",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -5526,7 +5604,8 @@
                     "name": "gaze",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -5703,13 +5782,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "e",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -5896,13 +5977,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "d",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -6080,13 +6163,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -6263,19 +6348,22 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "breath",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -6440,9 +6528,10 @@
             "abilities": [
                 {
                     "name": "blizzard",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -6505,19 +6594,22 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "h",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "meteor strike",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -6721,49 +6813,57 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "fist of fury",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "blizzard",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "thwack",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "thwack",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "you're next!",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "shove",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "gets up",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -6941,15 +7041,17 @@
             "abilities": [
                 {
                     "name": "fire",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "pollen",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -7110,9 +7212,10 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -7262,13 +7365,15 @@
                     "name": "attack",
                     "version": "c",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "sonic boom",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -7446,19 +7551,22 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "breath",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -7639,13 +7747,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "e",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -7810,9 +7920,10 @@
             "abilities": [
                 {
                     "name": "fire",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -7985,9 +8096,10 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -8080,13 +8192,15 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "demi",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -8232,13 +8346,15 @@
                     "name": "attack",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "demi",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -8392,15 +8508,17 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "venom",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -8554,15 +8672,17 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "venom",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -8883,13 +9003,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "stone gaze",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -9071,7 +9193,8 @@
                     "name": "poison dart",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -9257,13 +9380,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -9454,13 +9579,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "d",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -9627,13 +9754,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "i",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -9810,9 +9939,10 @@
             "abilities": [
                 {
                     "name": "blizzard",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -9982,7 +10112,8 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -10183,13 +10314,15 @@
                     "name": "attack",
                     "version": "j",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "ochu dance",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -10282,7 +10415,8 @@
                     "name": "open",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -10377,7 +10511,8 @@
                     "name": "open",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -10440,25 +10575,29 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "aerospark",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "thor's hammer",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "haste",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -10687,25 +10826,29 @@
                     "name": "aqua shooter",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "depth charges",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "rise",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "dive",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -10877,7 +11020,8 @@
                     "name": "thundara",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -11069,7 +11213,8 @@
                     "name": "gaze",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -11238,15 +11383,17 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "thundara",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -11420,19 +11567,22 @@
                     "name": "attack",
                     "version": "k",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "leaping swing",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "reaper",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -11614,19 +11764,22 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "breath",
                     "version": "c",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -11813,13 +11966,15 @@
                     "name": "thundara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "fire",
-                    "version": "a",
+                    "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -12004,13 +12159,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "e",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -12179,19 +12336,22 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "1000 needles",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "run away",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -12376,7 +12536,8 @@
                     "name": "watera",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -12553,25 +12714,29 @@
                     "name": "rush",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "thundara",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "megiddo flame",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "aqua breath",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -12775,19 +12940,22 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "m",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -12987,13 +13155,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -13165,7 +13335,8 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -13361,7 +13532,8 @@
                     "name": "poison dart",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -13658,67 +13830,78 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "fire",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "fire",
-                    "version": "b",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "thunder",
-                    "version": "b",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "water",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "water",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
-                    "name": "ice",
-                    "version": "a",
+                    "name": "blizzard",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
-                    "name": "ice",
-                    "version": "b",
+                    "name": "blizzard",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "press",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "elemental shift",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -13910,13 +14093,15 @@
                     "name": "gaze",
                     "version": "a",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "gaze",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -14095,7 +14280,8 @@
                     "name": "blizzara",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -14281,13 +14467,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -14474,13 +14662,15 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "d",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -14672,31 +14862,36 @@
                     "name": "gatling gun",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "assault",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "mana beam",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "countdown",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "bit",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -14864,7 +15059,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -15018,85 +15214,99 @@
                     "name": "fira",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "thundara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "watera",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "blizzara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "multi-fira",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "multi-thundara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "multi-watera",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "multi-blizzara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "firaga",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "thundaga",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "waterga",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "blizzaga",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "shell",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "summon anima",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -15268,45 +15478,52 @@
             "abilities": [
                 {
                     "name": "thunder",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "blizzard",
-                    "version": "a",
+                    "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "protect",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "shremedy",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "remedy",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "hi-potion",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "auto-potion",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -15462,43 +15679,50 @@
                     "name": "pain",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "oblivion",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "boost",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "seymour dismisses anima",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "n",
                     "is_forced": false,
-                    "is_unused": true
+                    "is_unused": true,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "o",
                     "is_forced": false,
-                    "is_unused": true
+                    "is_unused": true,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "p",
                     "is_forced": false,
-                    "is_unused": true
+                    "is_unused": true,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -15673,49 +15897,57 @@
                     "name": "thundara",
                     "version": null,
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "blizzara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "auto-potion",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "berserk",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "summon",
                     "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "protect",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "shell",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 },
                 {
                     "name": "eye drops",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "item"
                 }
             ]
         },
@@ -15865,37 +16097,43 @@
                     "name": "attack",
                     "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "h",
                     "is_forced": true,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "attack",
                     "version": "q",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "counterattack",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 },
                 {
                     "name": "cancel counter",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -16053,10 +16291,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "r",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "crawl",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic boom",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "charging",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "landing",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -16226,10 +16493,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "i",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -16372,10 +16647,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "10000 needles",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "run away",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -16555,10 +16845,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -16749,10 +17047,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -16941,10 +17247,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "s",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "breath",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -17138,10 +17466,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "d",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -17349,10 +17685,46 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "swallow",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regurgitate",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "readying quake",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -17540,10 +17912,39 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "r",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "crawl",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic boom",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "charging",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "landing",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -17731,10 +18132,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "seed burst",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -17818,10 +18220,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "open",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -17976,10 +18379,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "rush",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "fire",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "self destruct",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "grow2",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "grow3",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -18139,10 +18571,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "rush",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thundara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundaga",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "megiddo flame",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "aqua breath",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -18294,10 +18755,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gore",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -18486,10 +18955,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gaze",
+                    "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -18672,10 +19149,46 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "fire",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "fira",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "nulfrost",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "reflect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "confuse",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "silence",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -18841,10 +19354,67 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "swooping scythe",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "photon spray",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "poison breath",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "stone gaze",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "haste",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "inhale",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "out of breath range",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "critical strike",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -18899,10 +19469,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "guided missiles",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -19066,10 +19637,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "rifle",
+                    "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -19233,10 +19805,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "flamethrower",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -19412,10 +19985,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thrust kick",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -19597,10 +20178,18 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "single",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "all",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -19763,10 +20352,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "watera",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -19950,10 +20540,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
-                    "is_forced": false,
-                    "is_unused": false
+                    "name": "gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -20135,10 +20726,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "does nothing",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -20340,10 +20946,18 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "watera",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "fire",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -20512,10 +21126,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "water spurt",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -20698,10 +21320,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "does nothing",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -20756,10 +21393,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "summon",
+                    "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -20819,10 +21471,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "fira",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "hellfire",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -20877,10 +21551,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "t",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic wings",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "energy ray",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -20935,10 +21631,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "mega flare",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "countdown",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -21086,10 +21790,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "h",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "u",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -21257,10 +21976,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "charging",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic wave",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -21412,10 +22146,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "rush",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "maelstrom",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -21592,10 +22341,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
-                    "is_forced": false,
-                    "is_unused": false
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -21738,10 +22488,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "stone gaze",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "photon spray",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -21799,7 +22564,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -21944,10 +22710,60 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "multi-fira",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "multi-thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "multi-watera",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "multi-blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "flare",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "protect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "break",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "banish",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -22044,10 +22860,67 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "shattering claw",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "fire",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thunder",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "water",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blizzard",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "cura",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "mortibsorption",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "desperado",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "magic re-enabled",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -22211,10 +23084,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "stone gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "stone gaze",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic tail",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -22421,10 +23323,39 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thundara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundaga",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "megiddo flame",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "aqua breath",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -22615,10 +23546,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "blizzara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "drain",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "silence",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blaster",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -22794,10 +23754,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "firaga",
                     "version": null,
-                    "is_forced": false,
-                    "is_unused": false
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -22987,10 +23948,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "gastric juice",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "bad breath",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -23170,10 +24139,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -23353,10 +24330,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -23525,10 +24510,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "poison dart",
                     "version": null,
-                    "is_forced": false,
-                    "is_unused": false
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -23705,10 +24691,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "h",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "q",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "counterattack",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "cancel counter",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -23894,10 +24909,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "s",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -24080,10 +25110,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "v",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -24143,10 +25188,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blizzara",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "heavenly strike",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -24304,10 +25364,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "w",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "haymaker",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blast punch",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "slowga",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mighty guard",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -24475,10 +25564,67 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "fira",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "watera",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "drain",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "osmose",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "bio",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "reflect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "does nothing",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -24634,10 +25780,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "haymaker",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -24792,10 +25946,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "x",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blades",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -24973,10 +26135,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "fira",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "watera",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "doom",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -25128,17 +26319,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "thundaga",
                     "version": null,
-                    "is_forced": false,
-                    "is_unused": false
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
         {
-            "name": "magic urn middle eye",
-            "version": null,
-            "specification": null,
+            "name": "magic urn",
+            "version": "a",
+            "specification": "Middle eye",
             "notes": null,
             "species": "unspecified",
             "is_story_based": false,
@@ -25228,17 +26420,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "bingo",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "wrong",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "self destruct",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
         {
-            "name": "magic urn outer eyes",
-            "version": null,
-            "specification": null,
+            "name": "magic urn",
+            "version": "b",
+            "specification": "Outer eyes",
             "notes": null,
             "species": "unspecified",
             "is_story_based": false,
@@ -25339,7 +26546,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -25534,10 +26742,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -25711,10 +26927,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "s",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "breath",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -25902,13 +27133,34 @@
                     }
                 ]
             },
-            "altered_states": [],
+            "altered_states": [
+                {
+                    "condition": "There's a 33% chance for Thorn to start the battle with an agility stat of 7.",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "agility", "value": 7 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                }
+            ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "fira",
                     "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "pollen",
+                    "version": "b",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26050,10 +27302,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "h",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "karma",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "voodoo",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "waddle",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26217,10 +27491,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gore",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "charging",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "flame ball",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26401,10 +27697,25 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "m",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26459,10 +27770,11 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "summon",
+                    "version": "g",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26517,10 +27829,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "daigoro",
+                    "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "kozuka",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "wakizashi",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "zanmato",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26588,10 +27922,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "daigoro",
+                    "version": "a",
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "kozuka",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "wakizashi",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "zanmato",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26739,7 +28095,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -26888,7 +28245,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -27056,7 +28414,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -27230,7 +28589,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -27408,7 +28768,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -27588,7 +28949,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -27765,7 +29127,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -27945,7 +29308,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -28130,7 +29494,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -28305,7 +29670,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -28484,7 +29850,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -28643,7 +30010,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -28848,7 +30216,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -29046,7 +30415,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -29229,7 +30599,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -29393,7 +30764,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -29557,7 +30929,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -29721,7 +31094,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -29862,7 +31236,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -29957,7 +31332,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -30127,7 +31503,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -30290,7 +31667,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -30453,7 +31831,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -30612,7 +31991,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -30791,7 +32171,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -30964,7 +32345,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -31126,7 +32508,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -31184,7 +32567,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -31346,7 +32730,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -31485,7 +32870,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -31624,7 +33010,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -31783,7 +33170,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -31922,7 +33310,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -32090,7 +33479,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -32261,7 +33651,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -32404,7 +33795,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -32567,7 +33959,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -32755,7 +34148,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -32931,7 +34325,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -33106,7 +34501,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -33281,7 +34677,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -33487,7 +34884,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -33694,7 +35092,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -33869,7 +35268,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34053,7 +35453,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34111,7 +35512,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34213,7 +35615,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34276,7 +35679,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34352,7 +35756,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34410,7 +35815,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34473,7 +35879,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34536,7 +35943,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34599,7 +36007,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34657,7 +36066,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34715,7 +36125,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34773,7 +36184,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34831,7 +36243,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34889,7 +36302,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -34947,7 +36361,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35005,7 +36420,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35154,7 +36570,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35225,7 +36642,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35283,7 +36701,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35346,7 +36765,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35404,7 +36824,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35467,7 +36888,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35525,7 +36947,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35583,7 +37006,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35641,7 +37065,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35699,7 +37124,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35757,7 +37183,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -35815,7 +37242,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -36004,7 +37432,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -36192,7 +37621,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -36386,7 +37816,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -36549,7 +37980,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -36750,7 +38182,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -36921,7 +38354,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37084,7 +38518,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37250,7 +38685,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37432,7 +38868,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37604,7 +39041,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37683,7 +39121,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37741,7 +39180,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37799,7 +39239,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },     
@@ -37857,7 +39298,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -37944,7 +39386,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -38079,7 +39522,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -38223,7 +39667,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -38405,7 +39850,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -38611,7 +40057,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -38768,7 +40215,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -38935,7 +40383,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -39149,7 +40598,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -39327,7 +40777,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -39493,7 +40944,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -39673,7 +41125,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -39854,7 +41307,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -40051,7 +41505,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -40265,7 +41720,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -40422,7 +41878,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -40579,7 +42036,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -40802,7 +42260,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -40953,7 +42412,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -41131,7 +42591,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -41313,7 +42774,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -41468,7 +42930,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -41627,7 +43090,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -41786,7 +43250,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -41964,7 +43429,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -42130,7 +43596,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -42316,7 +43783,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -42518,7 +43986,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -42684,7 +44153,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -42867,7 +44337,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -43054,7 +44525,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -43188,7 +44660,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -43461,7 +44934,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -43658,7 +45132,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -43805,7 +45280,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -43975,7 +45451,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -44130,7 +45607,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -44188,7 +45666,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -44246,7 +45725,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -44373,7 +45853,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -44517,7 +45998,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -44696,7 +46178,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -44851,7 +46334,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45006,7 +46490,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45161,7 +46646,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45316,7 +46802,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45464,7 +46951,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45612,7 +47100,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45670,7 +47159,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45835,7 +47325,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -45983,7 +47474,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -46131,7 +47623,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -46279,7 +47772,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -46414,7 +47908,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         },
@@ -46508,7 +48003,8 @@
                     "name": "",
                     "version": null,
                     "is_forced": false,
-                    "is_unused": false
+                    "is_unused": false,
+                    "category": "enemy-ability"
                 }
             ]
         } 
