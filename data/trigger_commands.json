@@ -313,33 +313,17 @@
             }
         },
         {
-            "name": "",
+            "name": "move",
             "version": null,
-            "game_description": "",
+            "game_description": "Move to an empty spot.",
             "notes": null,
             "rank": 3,
             "related_stats": [],
             "meta": {
-                "target": "self",
+                "target": "single-enemy",
                 "based_on_phys_attack": false,
                 "range": 1,
-                "damage": {
-                    "damage_calc": [
-                        {
-                            "condition": null,
-                            "attack_type": "attack",
-                            "target_stat": "hp",
-                            "damage_type": "",
-                            "damage_formula": "",
-                            "damage_constant": 0
-                        }
-                    ],
-                    "can_critical": "never",
-                    "critical_plus_val": null,
-                    "is_piercing": false,
-                    "break_dmg_lmt": "never",
-                    "element": null
-                },
+                "damage": null,
                 "shatter_rate": 0,
                 "accuracy": {
                     "acc_source": "rate",

@@ -19480,7 +19480,7 @@
         {
             "name": "warrior monk",
             "version": "a",
-            "specification": "Gun",
+            "specification": "Rifle",
             "notes": null,
             "species": "humanoid",
             "is_story_based": true,
@@ -28092,10 +28092,38 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "bulldoze",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thunder",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzard",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "mighty guard",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-overdrive"
+                },
+                {
+                    "name": "mighty guard",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": true,
                     "category": "enemy-ability"
                 }
             ]
@@ -28242,11 +28270,39 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "bulldoze",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "fire breath",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "aqua breath",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "white wind",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "haste",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -28411,7 +28467,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "charging",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic wave",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -28586,7 +28663,21 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "gaze",
+                    "version": "a",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gaze",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "ultrasonics",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -28765,8 +28856,22 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "v",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -28943,10 +29048,158 @@
                     }
                 ]
             },
-            "altered_states": [],
+            "altered_states": [
+                {
+                    "condition": "After using Psych Up for the first time (over 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 36 },
+                        { "name": "defense", "value": 10 },
+                        { "name": "magic defense", "value": 10 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "After using Psych Up for the second time (over 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 38 },
+                        { "name": "defense", "value": 15 },
+                        { "name": "magic defense", "value": 15 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "After using Psych Up for the third time (over 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 40 },
+                        { "name": "defense", "value": 20 },
+                        { "name": "magic defense", "value": 20 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "After using Psych Up for the fourth time (over 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 42 },
+                        { "name": "defense", "value": 25 },
+                        { "name": "magic defense", "value": 25 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "After using Psych Up for the first time (below 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 36 },
+                        { "name": "defense", "value": 3 },
+                        { "name": "magic defense", "value": 3 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "After using Psych Up for the second time (below 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 38 },
+                        { "name": "defense", "value": 6 },
+                        { "name": "magic defense", "value": 6 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "After using Psych Up for the third time (below 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 40 },
+                        { "name": "defense", "value": 9 },
+                        { "name": "magic defense", "value": 9 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "After using Psych Up for the fourth time (below 50% HP).",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "strength", "value": 42 },
+                        { "name": "defense", "value": 12 },
+                        { "name": "magic defense", "value": 12 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                }
+            ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "h",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "q",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "counterattack",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "cancel counter",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "psych up",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -29124,11 +29377,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "heave",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -29305,8 +29579,43 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "drain",
                     "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "osmose",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "demi",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "bio",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "flare",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "white wind",
+                    "version": "b",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -29491,9 +29800,16 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "seed cannon",
                     "version": null,
                     "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "seed burst",
+                    "version": null,
+                    "is_forced": true,
                     "is_unused": false,
                     "category": "enemy-ability"
                 }
@@ -29667,7 +29983,35 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "rush",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "fira",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "self destruct",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "grow2",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "grow3",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -29847,9 +30191,30 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gore",
                     "version": null,
                     "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "charging",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "flame ball",
+                    "version": "b",
+                    "is_forced": true,
                     "is_unused": false,
                     "category": "enemy-ability"
                 }
@@ -30007,7 +30372,21 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "rush",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "maelstrom",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -30213,7 +30592,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "ochu dance",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -30412,8 +30812,15 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -30596,7 +31003,21 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "electrocute",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -30761,8 +31182,29 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "y",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gnaw",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "self destruct",
+                    "version": "d",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -30926,8 +31368,29 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "y",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gnaw",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "self destruct",
+                    "version": "d",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -31091,8 +31554,29 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "y",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gnaw",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "self destruct",
+                    "version": "d",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -31233,11 +31717,46 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "lance of atrophy",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "dispel",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "full-life",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "banish",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "protect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "reflect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -31329,10 +31848,59 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "cross cleave",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "total annihilation",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "full-life",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "slowga",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mortibsorption",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "osmose",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "biora",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "magic re-enabled",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
                     "category": "enemy-ability"
                 }
             ]
@@ -31500,18 +32068,81 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "tail sweep",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "mana breath",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "photon wings",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "curaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "haste",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "protect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "reflect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "regen",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "esuna",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
         {
             "name": "fallen monk",
             "version": "a",
-            "specification": "Gun",
+            "specification": "Rifle",
             "notes": null,
             "species": "humanoid",
             "is_story_based": false,
@@ -31664,8 +32295,8 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "rifle",
+                    "version": "b",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -31828,7 +32459,7 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "flamethrower",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -31988,7 +32619,21 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "haymaker",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blast punch",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -32168,7 +32813,14 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "single",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "all",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -32342,7 +32994,14 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thrust kick",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -32505,7 +33164,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "z",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack all",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "berserk tail",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "glyph mine",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -32564,8 +33244,15 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "aa",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "ab",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -32727,11 +33414,109 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "dispelling slap",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "hellbiter",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mind blast",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mind blast",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "absorb",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "osmose",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mega death",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blind",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "silence",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sleep",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "metamorphosis",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "metamorphosis",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "cura",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "curaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "regen",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },

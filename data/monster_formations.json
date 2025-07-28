@@ -6829,7 +6829,18 @@
                     "is_forced_ambush": false,
                     "can_escape": false,
                     "notes": null,
-                    "trigger_commands": []
+                    "trigger_commands": [
+                        {
+                            "name": "talk",
+                            "version": "a",
+                            "users": ["tidus", "auron"]
+                        },
+                        {
+                            "name": "talk",
+                            "version": "b",
+                            "users": ["yuna"]
+                        }
+                    ]
                 }
             ]
         },
@@ -8870,7 +8881,18 @@
                     "is_forced_ambush": false,
                     "can_escape": false,
                     "notes": null,
-                    "trigger_commands": []
+                    "trigger_commands": [
+                        {
+                            "name": "talk",
+                            "version": "a",
+                            "users": ["kimahri"]
+                        },
+                        {
+                            "name": "talk",
+                            "version": "b",
+                            "users": ["yuna"]
+                        }
+                    ]
                 }
             ]
         },
@@ -9362,7 +9384,13 @@
                     "is_forced_ambush": false,
                     "can_escape": false,
                     "notes": null,
-                    "trigger_commands": []
+                    "trigger_commands": [
+                        {
+                            "name": "move",
+                            "version": null,
+                            "users": ["characters"]
+                        }
+                    ]
                 }
             ]
         },
