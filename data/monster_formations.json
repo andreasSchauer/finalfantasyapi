@@ -126,7 +126,13 @@
                     "is_forced_ambush": false,
                     "can_escape": false,
                     "notes": "After acquiring the Airship.",
-                    "trigger_commands": []
+                    "trigger_commands": [
+                        {
+                            "name": "struggle",
+                            "version": null,
+                            "users": ["tidus", "wakka", "rikku"]
+                        }
+                    ]
                 }
             ]
         },
@@ -6302,7 +6308,23 @@
                     "is_forced_ambush": false,
                     "can_escape": false,
                     "notes": null,
-                    "trigger_commands": []
+                    "trigger_commands": [
+                        {
+                            "name": "move in",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        },
+                        {
+                            "name": "pull back",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        },
+                        {
+                            "name": "cancel",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        }
+                    ]
                 },
                 {
                     "monsters": [
@@ -6321,7 +6343,23 @@
                     "is_forced_ambush": false,
                     "can_escape": false,
                     "notes": null,
-                    "trigger_commands": []
+                    "trigger_commands": [
+                        {
+                            "name": "move in",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        },
+                        {
+                            "name": "pull back",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        },
+                        {
+                            "name": "cancel",
+                            "version": null,
+                            "users": ["tidus", "rikku"]
+                        }
+                    ]
                 },
                 {
                     "monsters": [

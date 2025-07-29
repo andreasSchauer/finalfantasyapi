@@ -341,15 +341,15 @@
             }
         },
         {
-            "name": "",
+            "name": "struggle",
             "version": null,
-            "game_description": "",
+            "game_description": "Attack enemy from inside.",
             "notes": null,
             "rank": 3,
             "related_stats": [],
             "meta": {
-                "target": "self",
-                "based_on_phys_attack": false,
+                "target": "single-enemy",
+                "based_on_phys_attack": true,
                 "range": 1,
                 "damage": {
                     "damage_calc": [
@@ -357,15 +357,15 @@
                             "condition": null,
                             "attack_type": "attack",
                             "target_stat": "hp",
-                            "damage_type": "",
-                            "damage_formula": "",
-                            "damage_constant": 0
+                            "damage_type": "physical",
+                            "damage_formula": "strength-based",
+                            "damage_constant": 16
                         }
                     ],
-                    "can_critical": "never",
+                    "can_critical": "crit+weapon%",
                     "critical_plus_val": null,
-                    "is_piercing": false,
-                    "break_dmg_lmt": "never",
+                    "is_piercing": true,
+                    "break_dmg_lmt": "auto-ability-needed",
                     "element": null
                 },
                 "shatter_rate": 0,
@@ -374,7 +374,7 @@
                     "hit_chance": 255,
                     "acc_modifier": null
                 },
-                "affected_by": [],
+                "affected_by": ["darkness"],
                 "hit_amount": 1,
                 "delay": [],
                 "inflicted_status_conditions": [],

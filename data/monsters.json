@@ -17707,14 +17707,14 @@
                 },
                 {
                     "name": "swallow",
-                    "version": null,
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
                 },
                 {
                     "name": "regurgitate",
-                    "version": null,
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -33652,10 +33652,73 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "smack",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "ram",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gravija",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gravija",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "negation",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "negation",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "core gathers energy",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sin remains motionless",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sin draws back",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sin draws closer",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
                     "category": "enemy-ability"
                 }
             ]
@@ -33792,10 +33855,73 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "smack",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "ram",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gravija",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gravija",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "negation",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "negation",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "core gathers energy",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sin remains motionless",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sin draws back",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sin draws closer",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": true,
                     "category": "enemy-ability"
                 }
             ]
@@ -33952,11 +34078,60 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "thrashing",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "venom",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sigh",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "magic absorbed",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "enters shell",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "exits shell",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "waterga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "cura",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -34092,7 +34267,56 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "fire",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thunder",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "water",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blizzard",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gravija",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "negation",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "core gathers energy",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "core is inactive",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -34261,7 +34485,42 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "gaze",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gaze",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gaze",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "gaze",
+                    "version": "f",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "giga graviton",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "drawn to sin",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -34433,9 +34692,23 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "breath",
+                    "version": "e",
+                    "is_forced": true,
                     "is_unused": false,
                     "category": "enemy-ability"
                 }
@@ -34577,7 +34850,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "body splash",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mortar",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -34741,11 +35035,67 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "heave",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "tail",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "meteor",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mighty guard",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "flare",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -34930,7 +35280,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "h",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "claw",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "breath",
+                    "version": "f",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "pharaohs curse",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -35107,11 +35478,18 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "pollen",
+                    "version": "c",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "firaga",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -35283,7 +35661,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "k",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "leaping swing",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "reaper",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "double reaper",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -35459,7 +35858,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "k",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "leaping swing",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "reaper",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "double reaper",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -35666,7 +36086,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "gastric juice",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "munch",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "full auto",
+                    "version": null,
+                    "is_forced": true,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "bad breath",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -35874,7 +36315,42 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "earthquake",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "swallow",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regurgitate",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "readying quake",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36050,11 +36526,46 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "doom",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "death",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "firaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "waterga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -36235,11 +36746,74 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "dispel",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "ultima",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "fira",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "watera",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "firaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "waterga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -36292,15 +36866,7 @@
                 "resistances": []
             },
             "altered_states": [],
-            "abilities": [
-                {
-                    "name": "",
-                    "version": null,
-                    "is_forced": false,
-                    "is_unused": false,
-                    "category": "enemy-ability"
-                }
-            ]
+            "abilities": []
         },
         {
             "name": "braskas final aeon",
@@ -36397,7 +36963,63 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "left arm strike",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blade blitz",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "jecht beam",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "triumphant grasp",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "triumphant grasp",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "jecht bomber",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "jecht bomber",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "ultimate jecht shot",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "draws sword",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36461,8 +37083,36 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "curse",
                     "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "power wave",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "power wave",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "osmose",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regeneration",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -36538,8 +37188,36 @@
             ],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "curse",
                     "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "power wave",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "power wave",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "osmose",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regeneration",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -36597,7 +37275,35 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic wings",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "energy ray",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "energy blast",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36661,7 +37367,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "meteor strike",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "hellfire",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36725,7 +37452,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "aerospark",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thor's hammer",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36789,7 +37537,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "heavenly strike",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "diamond dust",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36848,7 +37617,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "impulse",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mega flare",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36907,7 +37697,21 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "pain",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "oblivion",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -36966,7 +37770,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "kozuka",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "wakizashi",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "zanmato",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -37025,10 +37850,45 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "camisade",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "drain",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "curaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "delta attack",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "camisade",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": true,
                     "category": "enemy-ability"
                 }
             ]
@@ -37084,10 +37944,38 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "razzia",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "reflect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "haste",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "razzia",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": true,
                     "category": "enemy-ability"
                 }
             ]
@@ -37143,7 +38031,21 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "passado",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "flare",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "possessed by yu yevon",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -37202,11 +38104,32 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "osmose",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "gravija",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "curaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "ultima",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -37352,10 +38275,59 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "stone punch",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "ko punch",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "swallow",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regurgitate",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regurgitate",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regurgitate",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regurgitate",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": true,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "regurgitate",
+                    "version": "f",
+                    "is_forced": false,
+                    "is_unused": true,
                     "category": "enemy-ability"
                 }
             ]
@@ -37424,8 +38396,57 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "summon",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "d",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "e",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "f",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "g",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "summon",
+                    "version": "h",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -37483,8 +38504,29 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "sonic wings",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "energy ray",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "energy blast",
+                    "version": "b",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -37547,8 +38589,22 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "meteor strike",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "hellfire",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -37603,11 +38659,51 @@
                 "immunities": ["darkness", "death", "delay", "eject", "petrification", "poison", "provoke", "silence", "sleep", "slow", "threaten", "zombie", "power break", "magic break", "armor break", "mental break", "reflect", "bribe", "power distiller", "mana distiller", "speed distiller", "ability distiller", "scan", "sensor", "percentage damage", "slice"],
                 "resistances": []
             },
-            "altered_states": [],
+            "altered_states": [
+                {
+                    "condition": "While defending.",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "defense", "value": 255 },
+                        { "name": "magic defense", "value": 255 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                },
+                {
+                    "condition": "While evading.",
+                    "properties": null,
+                    "auto_abilities": null,
+                    "position": null,
+                    "stats": [
+                        { "name": "evasion", "value": 255 }
+                    ],
+                    "elem_resists": null,
+                    "status_resists": null,
+                    "added_statusses": null
+                }
+            ],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "aerospark",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "thor's hammer",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -37670,11 +38766,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "l",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "heavenly strike",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "diamond dust",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -37729,7 +38853,28 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "impulse",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mega flare",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "countdown",
                     "version": null,
                     "is_forced": false,
                     "is_unused": false,
@@ -37788,11 +38933,39 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "ac",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "pain",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "oblivion",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "dispel",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "demi",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -37847,8 +39020,29 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "daigoro",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "kozuka",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "wakizashi",
+                    "version": "a",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "zanmato",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -37906,11 +39100,95 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "camisade",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "delta attack",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "mighty guard",
+                    "version": "c",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "white wind",
+                    "version": "b",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "cura",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "shell",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "protect",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "regen",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "dispel",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "holy",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "demi",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "drain",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "osmose",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
@@ -37965,8 +39243,15 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "attack",
+                    "version": "l",
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "enemy-ability"
+                },
+                {
+                    "name": "razzia",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
@@ -38024,11 +39309,81 @@
             "altered_states": [],
             "abilities": [
                 {
-                    "name": "",
-                    "version": null,
+                    "name": "passado",
+                    "version": "a",
                     "is_forced": false,
                     "is_unused": false,
                     "category": "enemy-ability"
+                },
+                {
+                    "name": "fira",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "watera",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzara",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "firaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "thundaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "waterga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "flare",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
+                },
+                {
+                    "name": "ultima",
+                    "version": null,
+                    "is_forced": false,
+                    "is_unused": false,
+                    "category": "player-ability"
                 }
             ]
         },
