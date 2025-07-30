@@ -6402,9 +6402,14 @@
                             "amount": 1
                         },
                         {
-                            "monster_name": "penance arm",
+                            "monster_name": "penance left arm",
                             "version": null,
-                            "amount": 2
+                            "amount": 1
+                        },
+                        {
+                            "monster_name": "penance right arm",
+                            "version": null,
+                            "amount": 1
                         }
                     ],
                     "category": "boss-fight",
@@ -10106,8 +10111,8 @@
                             "amount": 1
                         },
                         {
-                            "monster_name": "mimic ruminant",
-                            "version": null,
+                            "monster_name": "mimic",
+                            "version": "a",
                             "amount": 1
                         }
                     ],
@@ -10125,8 +10130,8 @@
                             "amount": 1
                         },
                         {
-                            "monster_name": "mimic machina",
-                            "version": null,
+                            "monster_name": "mimic",
+                            "version": "b",
                             "amount": 1
                         }
                     ],
@@ -10144,8 +10149,8 @@
                             "amount": 1
                         },
                         {
-                            "monster_name": "mimic roc",
-                            "version": null,
+                            "monster_name": "mimic",
+                            "version": "c",
                             "amount": 1
                         }
                     ],
@@ -10163,8 +10168,8 @@
                             "amount": 1
                         },
                         {
-                            "monster_name": "mimic basilisk",
-                            "version": null,
+                            "monster_name": "mimic",
+                            "version": "d",
                             "amount": 1
                         }
                     ],
