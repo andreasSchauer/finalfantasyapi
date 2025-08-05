@@ -5,7 +5,8 @@
             "name": "hp",
             "description": "determines a unit's health",
             "min_val": 1,
-            "max_val": 99999,
+            "max_val": 9999,
+            "max_val_2": 99999,
             "sphere": "power sphere"
         },
         {
@@ -13,7 +14,8 @@
             "name": "mp",
             "description": "determines the amount of spells and skills a unit can cast/use",
             "min_val": 1,
-            "max_val": 9999,
+            "max_val": 999,
+            "max_val_2": 9999,
             "sphere": "mana sphere"
         },
         {
@@ -22,6 +24,7 @@
             "description": "determines the power of physical attacks",
             "min_val": 1,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "power sphere"
         },
         {
@@ -30,6 +33,7 @@
             "description": "determines the reduction of physical damage taken",
             "min_val": 1,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "power sphere"
         },
         {
@@ -38,6 +42,7 @@
             "description": "determines the power of magical attacks",
             "min_val": 1,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "mana sphere"
         },
         {
@@ -46,6 +51,7 @@
             "description": "determines the reduction of magical damage taken",
             "min_val": 1,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "mana sphere"
         },
         {
@@ -54,6 +60,7 @@
             "description": "determines how often a unit gets a turn",
             "min_val": 1,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "speed sphere"
         },
         {
@@ -62,6 +69,7 @@
             "description": "determines the chance of landing and evading a physical attack, as well as the chance of landing a critical hit",
             "min_val": 1,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "fortune sphere"
         },
         {
@@ -70,6 +78,7 @@
             "description": "determines the chance of evading a physical attack",
             "min_val": 0,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "speed sphere"
         },
         {
@@ -78,6 +87,7 @@
             "description": "determines the chance of landing a physical attack",
             "min_val": 1,
             "max_val": 255,
+            "max_val_2": null,
             "sphere": "speed sphere"
         }
     ]

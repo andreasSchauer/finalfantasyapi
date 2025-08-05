@@ -3,7 +3,6 @@
         {
             "name": "grenade",
             "category": "non-elemental",
-            "unique_combinations": 6,
             "best_combinations": [
                 { "first_item": "antarctic wind", "second_item": "bomb fragment" },
                 { "first_item": "electro marble", "second_item": "fish scale"  }
@@ -20,7 +19,6 @@
         {
             "name": "frag grenade",
             "category": "non-elemental",
-            "unique_combinations": 10,
             "best_combinations": [
                 { "first_item": "power sphere", "second_item": "power sphere"  }
             ],
@@ -40,7 +38,6 @@
         {
             "name": "pineapple",
             "category": "non-elemental",
-            "unique_combinations": 64,
             "best_combinations": [
                 { "first_item": "antarctic wind", "second_item": "electro marble" },
                 { "first_item": "bomb fragment", "second_item": "fish scale" },
@@ -116,7 +113,6 @@
         {
             "name": "potato masher",
             "category": "non-elemental",
-            "unique_combinations": 110,
             "best_combinations": [
                 { "first_item": "map", "second_item": "map"  }
             ],
@@ -236,7 +232,6 @@
         {
             "name": "cluster bomb",
             "category": "non-elemental",
-            "unique_combinations": 376,
             "best_combinations": [
                 { "first_item": "grenade", "second_item": "shining gem" },
                 { "first_item": "power sphere", "second_item": "return sphere"  }
@@ -623,7 +618,6 @@
         {
             "name": "tallboy",
             "category": "non-elemental",
-            "unique_combinations": 242,
             "best_combinations": [
                 { "first_item": "grenade", "second_item": "supreme gem"  }
             ],
@@ -875,7 +869,6 @@
         {
             "name": "blaster mine",
             "category": "non-elemental",
-            "unique_combinations": 102,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "grenade" },
                 { "first_item": "sleeping powder", "second_item": "power sphere"  }
@@ -988,7 +981,6 @@
         {
             "name": "hazardous shell",
             "category": "non-elemental",
-            "unique_combinations": 225,
             "best_combinations": [
                 { "first_item": "grenade", "second_item": "map" },
                 { "first_item": "sleeping powder", "second_item": "sleeping powder"  }
@@ -1224,7 +1216,6 @@
         {
             "name": "calamity bomb",
             "category": "non-elemental",
-            "unique_combinations": 200,
             "best_combinations": [
                 { "first_item": "sleeping powder", "second_item": "farplane shadow"  }
             ],
@@ -1434,7 +1425,6 @@
         {
             "name": "chaos grenade",
             "category": "non-elemental",
-            "unique_combinations": 363,
             "best_combinations": [
                 { "first_item": "grenade", "second_item": "return sphere"  }
             ],
@@ -1807,7 +1797,6 @@
         {
             "name": "heat blaster",
             "category": "fire-elemental",
-            "unique_combinations": 48,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "bomb fragment" },
                 { "first_item": "bomb fragment", "second_item": "power sphere"  }
@@ -1866,7 +1855,6 @@
         {
             "name": "firestorm",
             "category": "fire-elemental",
-            "unique_combinations": 43,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "fire gem" },
                 { "first_item": "al bhed potion", "second_item": "bomb core" },
@@ -1921,7 +1909,6 @@
         {
             "name": "burning soul",
             "category": "fire-elemental",
-            "unique_combinations": 62,
             "best_combinations": [
                 { "first_item": "bomb core", "second_item": "lv. 2 key sphere" },
                 { "first_item": "fire gem", "second_item": "lv. 1 key sphere"  }
@@ -1994,7 +1981,6 @@
         {
             "name": "brimstone",
             "category": "fire-elemental",
-            "unique_combinations": 35,
             "best_combinations": [
                 { "first_item": "bomb fragment", "second_item": "sleeping powder"  }
             ],
@@ -2039,7 +2025,6 @@
         {
             "name": "abaddon flame",
             "category": "fire-elemental",
-            "unique_combinations": 28,
             "best_combinations": [
                 { "first_item": "bomb fragment", "second_item": "chocobo feather" },
                 { "first_item": "bomb core", "second_item": "dream powder" },
@@ -2079,7 +2064,6 @@
         {
             "name": "thunderbolt",
             "category": "lightning-elemental",
-            "unique_combinations": 48,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "electro marble" },
                 { "first_item": "electro marble", "second_item": "power sphere"  }
@@ -2138,7 +2122,6 @@
         {
             "name": "rolling thunder",
             "category": "lightning-elemental",
-            "unique_combinations": 43,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "lightning gem" },
                 { "first_item": "al bhed potion", "second_item": "lightning marble" },
@@ -2193,7 +2176,6 @@
         {
             "name": "lightning bolt",
             "category": "lightning-elemental",
-            "unique_combinations": 62,
             "best_combinations": [
                 { "first_item": "lightning marble", "second_item": "lv. 2 key sphere" },
                 { "first_item": "lightning gem", "second_item": "lv. 1 key sphere"  }
@@ -2266,7 +2248,6 @@
         {
             "name": "electroshock",
             "category": "lightning-elemental",
-            "unique_combinations": 39,
             "best_combinations": [
                 { "first_item": "electro marble", "second_item": "sleeping powder"  }
             ],
@@ -2315,7 +2296,6 @@
         {
             "name": "thunderblast",
             "category": "lightning-elemental",
-            "unique_combinations": 24,
             "best_combinations": [
                 { "first_item": "lightning marble", "second_item": "dream powder" },
                 { "first_item": "lightning gem", "second_item": "hypello potion"  }
@@ -2350,7 +2330,6 @@
         {
             "name": "waterfall",
             "category": "water-elemental",
-            "unique_combinations": 48,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "fish scale" },
                 { "first_item": "fish scale", "second_item": "power sphere"  }
@@ -2409,7 +2388,6 @@
         {
             "name": "flash flood",
             "category": "water-elemental",
-            "unique_combinations": 46,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "water gem" },
                 { "first_item": "al bhed potion", "second_item": "dragon scale" },
@@ -2467,7 +2445,6 @@
         {
             "name": "tidal wave",
             "category": "water-elemental",
-            "unique_combinations": 62,
             "best_combinations": [
                 { "first_item": "dragon scale", "second_item": "lv. 2 key sphere" },
                 { "first_item": "water gem", "second_item": "lv. 1 key sphere"  }
@@ -2540,7 +2517,6 @@
         {
             "name": "aqua toxin",
             "category": "water-elemental",
-            "unique_combinations": 39,
             "best_combinations": [
                 { "first_item": "fish scale", "second_item": "sleeping powder"  }
             ],
@@ -2589,7 +2565,6 @@
         {
             "name": "dark rain",
             "category": "water-elemental",
-            "unique_combinations": 24,
             "best_combinations": [
                 { "first_item": "dragon scale", "second_item": "dream powder" },
                 { "first_item": "water gem", "second_item": "hypello potion"  }
@@ -2624,7 +2599,6 @@
         {
             "name": "snow flurry",
             "category": "ice-elemental",
-            "unique_combinations": 49,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "antarctic wind" },
                 { "first_item": "antarctic wind", "second_item": "power sphere"  }
@@ -2684,7 +2658,6 @@
         {
             "name": "icefall",
             "category": "ice-elemental",
-            "unique_combinations": 42,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "ice gem" },
                 { "first_item": "al bhed potion", "second_item": "arctic wind" },
@@ -2738,7 +2711,6 @@
         {
             "name": "winter storm",
             "category": "ice-elemental",
-            "unique_combinations": 62,
             "best_combinations": [
                 { "first_item": "arctic wind", "second_item": "lv. 2 key sphere" },
                 { "first_item": "ice gem", "second_item": "lv. 1 key sphere"  }
@@ -2811,7 +2783,6 @@
         {
             "name": "black ice",
             "category": "ice-elemental",
-            "unique_combinations": 39,
             "best_combinations": [
                 { "first_item": "antarctic wind", "second_item": "sleeping powder"  }
             ],
@@ -2860,7 +2831,6 @@
         {
             "name": "krysta",
             "category": "ice-elemental",
-            "unique_combinations": 24,
             "best_combinations": [
                 { "first_item": "arctic wind", "second_item": "dream powder" },
                 { "first_item": "ice gem", "second_item": "hypello potion"  }
@@ -2895,7 +2865,6 @@
         {
             "name": "nega burst",
             "category": "gravity-based",
-            "unique_combinations": 69,
             "best_combinations": [
                 { "first_item": "power distiller", "second_item": "shadow gem" },
                 { "first_item": "shadow gem", "second_item": "power sphere"  }
@@ -2975,7 +2944,6 @@
         {
             "name": "black hole",
             "category": "gravity-based",
-            "unique_combinations": 9,
             "best_combinations": [
                 { "first_item": "shadow gem", "second_item": "amulet" },
                 { "first_item": "shadow gem", "second_item": "gamblers spirit"  }
@@ -2995,7 +2963,6 @@
         {
             "name": "sunburst",
             "category": "non-elemental",
-            "unique_combinations": 73,
             "best_combinations": [
                 { "first_item": "shining gem", "second_item": "supreme gem"  }
             ],
@@ -3078,7 +3045,6 @@
         {
             "name": "ultra potion",
             "category": "recovery",
-            "unique_combinations": 60,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "potion"  }
             ],
@@ -3148,7 +3114,6 @@
         {
             "name": "panacea",
             "category": "recovery",
-            "unique_combinations": 104,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "antidote" },
                 { "first_item": "antidote", "second_item": "antidote"  }
@@ -3263,7 +3228,6 @@
         {
             "name": "ultra cure",
             "category": "recovery",
-            "unique_combinations": 97,
             "best_combinations": [
                 { "first_item": "power distiller", "second_item": "sleeping powder"  }
             ],
@@ -3370,7 +3334,6 @@
         {
             "name": "mega phoenix",
             "category": "recovery",
-            "unique_combinations": 41,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "phoenix down" },
                 { "first_item": "phoenix down", "second_item": "power sphere"  }
@@ -3422,7 +3385,6 @@
         {
             "name": "final phoenix",
             "category": "recovery",
-            "unique_combinations": 87,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "mega phoenix" },
                 { "first_item": "phoenix down", "second_item": "lv. 1 key sphere"  }
@@ -3520,7 +3482,6 @@
         {
             "name": "elixir",
             "category": "recovery",
-            "unique_combinations": 16,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "power sphere"  }
             ],
@@ -3546,7 +3507,6 @@
         {
             "name": "megalixir",
             "category": "recovery",
-            "unique_combinations": 357,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "sleeping powder" },
                 { "first_item": "holy water", "second_item": "power sphere" },
@@ -3915,7 +3875,6 @@
         {
             "name": "super elixir",
             "category": "recovery",
-            "unique_combinations": 648,
             "best_combinations": [
                 { "first_item": "antidote", "second_item": "lv. 1 key sphere" },
                 { "first_item": "remedy", "second_item": "sleeping powder"  }
@@ -4574,7 +4533,6 @@
         {
             "name": "final elixir",
             "category": "recovery",
-            "unique_combinations": 288,
             "best_combinations": [
                 { "first_item": "hi-potion", "second_item": "lv. 1 key sphere"  }
             ],
@@ -4872,7 +4830,6 @@
         {
             "name": "nulall",
             "category": "positive-status",
-            "unique_combinations": 24,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "antarctic wind"  }
             ],
@@ -4906,7 +4863,6 @@
         {
             "name": "mega nulall",
             "category": "positive-status",
-            "unique_combinations": 82,
             "best_combinations": [
                 { "first_item": "hi-potion", "second_item": "antarctic wind"  }
             ],
@@ -4998,7 +4954,6 @@
         {
             "name": "hyper nulall",
             "category": "positive-status",
-            "unique_combinations": 41,
             "best_combinations": [
                 { "first_item": "stamina spring", "second_item": "stamina spring" },
                 { "first_item": "hypello potion", "second_item": "hypello potion"  }
@@ -5050,7 +5005,6 @@
         {
             "name": "ultra nulall",
             "category": "positive-status",
-            "unique_combinations": 15,
             "best_combinations": [
                 { "first_item": "healing spring", "second_item": "healing spring"  }
             ],
@@ -5075,7 +5029,6 @@
         {
             "name": "mighty wall",
             "category": "positive-status",
-            "unique_combinations": 62,
             "best_combinations": [
                 { "first_item": "power distiller", "second_item": "power sphere"  }
             ],
@@ -5147,7 +5100,6 @@
         {
             "name": "mighty g",
             "category": "positive-status",
-            "unique_combinations": 43,
             "best_combinations": [
                 { "first_item": "power distiller", "second_item": "power distiller"  }
             ],
@@ -5200,7 +5152,6 @@
         {
             "name": "super mighty g",
             "category": "positive-status",
-            "unique_combinations": 200,
             "best_combinations": [
                 { "first_item": "grenade", "second_item": "healing spring"  }
             ],
@@ -5410,7 +5361,6 @@
         {
             "name": "hyper mighty g",
             "category": "positive-status",
-            "unique_combinations": 35,
             "best_combinations": [
                 { "first_item": "healing spring", "second_item": "amulet"  }
             ],
@@ -5455,7 +5405,6 @@
         {
             "name": "vitality",
             "category": "hp-mp",
-            "unique_combinations": 3,
             "best_combinations": [
                 { "first_item": "hi-potion", "second_item": "hi-potion"  }
             ],
@@ -5468,7 +5417,6 @@
         {
             "name": "mega vitality",
             "category": "hp-mp",
-            "unique_combinations": 100,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "stamina tablet" },
                 { "first_item": "stamina tablet", "second_item": "power sphere"  }
@@ -5579,7 +5527,6 @@
         {
             "name": "hyper vitality",
             "category": "hp-mp",
-            "unique_combinations": 98,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "stamina tonic" },
                 { "first_item": "stamina tonic", "second_item": "power sphere"  }
@@ -5688,7 +5635,6 @@
         {
             "name": "mana",
             "category": "hp-mp",
-            "unique_combinations": 25,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "ether" },
                 { "first_item": "ether", "second_item": "power sphere"  }
@@ -5724,7 +5670,6 @@
         {
             "name": "mega mana",
             "category": "hp-mp",
-            "unique_combinations": 148,
             "best_combinations": [
                 { "first_item": "ether", "second_item": "ether" },
                 { "first_item": "ether", "second_item": "map"  }
@@ -5883,7 +5828,6 @@
         {
             "name": "hyper mana",
             "category": "hp-mp",
-            "unique_combinations": 198,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "mana tablet" },
                 { "first_item": "mana tablet", "second_item": "power sphere"  }
@@ -6092,7 +6036,6 @@
         {
             "name": "freedom",
             "category": "hp-mp",
-            "unique_combinations": 3,
             "best_combinations": [
                 { "first_item": "ether", "second_item": "remedy"  }
             ],
@@ -6105,7 +6048,6 @@
         {
             "name": "freedom x",
             "category": "hp-mp",
-            "unique_combinations": 155,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "twin stars" },
                 { "first_item": "twin stars", "second_item": "power sphere"  }
@@ -6271,7 +6213,6 @@
         {
             "name": "quartet of 9",
             "category": "9999-damage",
-            "unique_combinations": 170,
             "best_combinations": [
                 { "first_item": "arctic wind", "second_item": "amulet"  }
             ],
@@ -6451,7 +6392,6 @@
         {
             "name": "trio of 9999",
             "category": "9999-damage",
-            "unique_combinations": 53,
             "best_combinations": [
                 { "first_item": "shining gem", "second_item": "amulet"  }
             ],
@@ -6514,7 +6454,6 @@
         {
             "name": "hero drink",
             "category": "critical-hits",
-            "unique_combinations": 93,
             "best_combinations": [
                 { "first_item": "potion", "second_item": "designer wallet"  }
             ],
@@ -6617,7 +6556,6 @@
         {
             "name": "miracle drink",
             "category": "critical-hits",
-            "unique_combinations": 232,
             "best_combinations": [
                 { "first_item": "power sphere", "second_item": "designer wallet"  }
             ],
@@ -6859,7 +6797,6 @@
         {
             "name": "hot spurs",
             "category": "overdrive-speed",
-            "unique_combinations": 48,
             "best_combinations": [
                 { "first_item": "ice gem", "second_item": "three stars" },
                 { "first_item": "shining gem", "second_item": "twin stars" },
@@ -6919,7 +6856,6 @@
         {
             "name": "eccentrick",
             "category": "overdrive-speed",
-            "unique_combinations": 86,
             "best_combinations": [
                 { "first_item": "mana tablet", "second_item": "amulet"  }
             ],

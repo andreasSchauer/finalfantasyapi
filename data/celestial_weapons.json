@@ -1,0 +1,60 @@
+{
+    "celestial_weapons_data": [
+        {
+            "name": "caladbolg",
+            "character": "tidus",
+            "crest": "sun crest",
+            "sigil": "sun sigil",
+            "aeon": null,
+            "formula": "hp-high"
+        },
+        {
+            "name": "nirvana",
+            "character": "yuna",
+            "crest": "moon crest",
+            "sigil": "moon sigil",
+            "aeon": "valefor",
+            "formula": "mp-high"
+        },
+        {
+            "name": "world champion",
+            "character": "wakka",
+            "crest": "jupiter crest",
+            "sigil": "jupiter sigil",
+            "aeon": "ifrit",
+            "formula": "hp-high"
+        },
+        {
+            "name": "onion knight",
+            "character": "lulu",
+            "crest": "venus crest",
+            "sigil": "venus sigil",
+            "aeon": "shiva",
+            "formula": "mp-high"
+        },
+        {
+            "name": "spirit lance",
+            "character": "kimahri",
+            "crest": "saturn crest",
+            "sigil": "saturn sigil",
+            "aeon": "ixion",
+            "formula": "hp-high"
+        },
+        {
+            "name": "masamune",
+            "character": "auron",
+            "crest": "mars crest",
+            "sigil": "mars sigil",
+            "aeon": "yojimbo",
+            "formula": "hp-low"
+        },
+        {
+            "name": "godhand",
+            "character": "rikku",
+            "crest": "mercury crest",
+            "sigil": "mercury sigil",
+            "aeon": null,
+            "formula": "hp-high"
+        }
+    ]
+}

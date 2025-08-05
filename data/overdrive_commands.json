@@ -1,9 +1,43 @@
 {
     "overdrive_commands_data": [
         {
-            "name": "swordplay",
-            "description": "Press button at the right time for extra damage!",
-            "user": "tidus"
+            "ability_data": {
+                "name": "swordplay",
+                "version": null,
+                "description": "Press button at the right time for extra damage!",
+                "effect": "",
+                "notes": "",
+                "rank": 0,
+                "appears_in_help_bar": false,
+                "related_stats": []
+            },
+            "user": "tidus",
+            "overdrive_abilities": [
+                {
+                    "ability_data": {
+                        "name": "spiral cut",
+                        "version": null,
+                        "description": "Damages an enemy.",
+                        "effect": "",
+                        "notes": "",
+                        "rank": 0,
+                        "appears_in_help_bar": true,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "",
+                    "countdown_in_sec": 3,
+                    "versions": [
+                        {
+                            "name": "spiral cut",
+                            "version": "a"
+                        },
+                        {
+                            "name": "spiral cut",
+                            "version": "b"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "grand summon",

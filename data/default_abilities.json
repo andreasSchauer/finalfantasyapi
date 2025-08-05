@@ -2,7 +2,6 @@
     "default_abilities_data": [
         {
             "name": "tidus",
-            "category": "character",
             "skills": [],
             "special": [],
             "white_magic": [],
@@ -14,7 +13,6 @@
         },
         {
             "name": "yuna",
-            "category": "character",
             "skills": [],
             "special": [],
             "white_magic": ["cure", "esuna"],
@@ -26,7 +24,6 @@
         },
         {
             "name": "wakka",
-            "category": "character",
             "skills": ["dark attack"],
             "special": [],
             "white_magic": [],
@@ -38,7 +35,6 @@
         },
         {
             "name": "lulu",
-            "category": "character",
             "skills": [],
             "special": [],
             "white_magic": [],
@@ -50,7 +46,6 @@
         },
         {
             "name": "kimahri",
-            "category": "character",
             "skills": [],
             "special": ["lancet"],
             "white_magic": [],
@@ -62,7 +57,6 @@
         },
         {
             "name": "auron",
-            "category": "character",
             "skills": ["power break"],
             "special": [],
             "white_magic": [],
@@ -74,7 +68,6 @@
         },
         {
             "name": "rikku",
-            "category": "character",
             "skills": [],
             "special": ["steal", "use"],
             "white_magic": [],
@@ -86,7 +79,6 @@
         },
         {
             "name": "seymour",
-            "category": "character",
             "skills": [],
             "special": [],
             "white_magic": ["cure", "cura", "scan", "nulblaze", "nulfrost", "nulshock", "nultide"],
@@ -98,7 +90,6 @@
         },
         {
             "name": "valefor",
-            "category": "aeon",
             "skills": [],
             "special": [],
             "white_magic": [],
@@ -110,7 +101,6 @@
         },
         {
             "name": "ifrit",
-            "category": "aeon",
             "skills": [],
             "special": [],
             "white_magic": ["nulblaze", "nulfrost"],
@@ -122,7 +112,6 @@
         },
         {
             "name": "ixion",
-            "category": "aeon",
             "skills": [],
             "special": [],
             "white_magic": ["nulshock", "nultide"],
@@ -134,7 +123,6 @@
         },
         {
             "name": "shiva",
-            "category": "aeon",
             "skills": [],
             "special": [],
             "white_magic": ["nulblaze", "nulfrost"],
@@ -146,7 +134,6 @@
         },
         {
             "name": "bahamut",
-            "category": "aeon",
             "skills": [],
             "special": [],
             "white_magic": [],
@@ -158,7 +145,6 @@
         },
         {
             "name": "anima",
-            "category": "aeon",
             "skills": ["sleep attack", "silence attack", "dark attack", "sleep buster", "silence buster", "dark buster", "zombie attack"],
             "special": [],
             "white_magic": [],
@@ -170,7 +156,6 @@
         },
         {
             "name": "yojimbo",
-            "category": "aeon",
             "skills": [],
             "special": [],
             "white_magic": [],
@@ -182,7 +167,6 @@
         },
         {
             "name": "cindy",
-            "category": "aeon",
             "skills": [],
             "special": ["pray"],
             "white_magic": ["cure", "cura", "curaga", "life", "full-life", "auto-life"],
@@ -194,7 +178,6 @@
         },
         {
             "name": "sandy",
-            "category": "aeon",
             "skills": [],
             "special": [],
             "white_magic": ["cure", "cura", "curaga", "haste", "protect", "shell", "reflect"],
@@ -206,7 +189,6 @@
         },
         {
             "name": "mindy",
-            "category": "aeon",
             "skills": [],
             "special": ["lancet", "doublecast"],
             "white_magic": [],

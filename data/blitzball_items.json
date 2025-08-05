@@ -1,0 +1,346 @@
+{
+    "blitzball_items_data": [
+        {
+            "category": "league",
+            "slot": "1st",
+            "items": [
+                {
+                    "item": {
+                        "name": "megalixir",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "three stars",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "fortune sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "underdogs secret",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "dark matter",
+                        "amount": 1
+                    },
+                    "chance": 0.1
+                },
+                {
+                    "item": {
+                        "name": "lv. 1 key sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.1
+                },
+                {
+                    "item": {
+                        "name": "return sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.1
+                },
+                {
+                    "item": {
+                        "name": "teleport sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.1
+                }
+            ]
+        },
+        {
+            "category": "league",
+            "slot": "2nd",
+            "items": [
+                {
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "elixir",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "mega phoenix",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 2
+                    },
+                    "chance": 0.05
+                },
+                {
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "chance": 0.05
+                },
+                {
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 2
+                    },
+                    "chance": 0.05
+                },
+                {
+                    "item": {
+                        "name": "remedy",
+                        "amount": 2
+                    },
+                    "chance": 0.05
+                }
+            ]
+        },
+        {
+            "category": "league",
+            "slot": "3rd",
+            "items": [
+                {
+                    "item": {
+                        "name": "power sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "mana sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "speed sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "ability sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.15
+                },
+                {
+                    "item": {
+                        "name": "antidote",
+                        "amount": 1
+                    },
+                    "chance": 0.05
+                },
+                {
+                    "item": {
+                        "name": "echo screen",
+                        "amount": 1
+                    },
+                    "chance": 0.05
+                },
+                {
+                    "item": {
+                        "name": "eye drops",
+                        "amount": 1
+                    },
+                    "chance": 0.05
+                }
+            ]
+        },
+        {
+            "category": "league",
+            "slot": "top-scorer",
+            "items": [
+                {
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "return sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "rename card",
+                        "amount": 1
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 1
+                    },
+                    "chance": 0.1
+                },
+                {
+                    "item": {
+                        "name": "mega-potion",
+                        "amount": 1
+                    },
+                    "chance": 0.05
+                },
+                {
+                    "item": {
+                        "name": "remedy",
+                        "amount": 2
+                    },
+                    "chance": 0.05
+                }
+            ]
+        },
+        {
+            "category": "tournament",
+            "slot": "1st",
+            "items": [
+                {
+                    "item": {
+                        "name": "x-potion",
+                        "amount": 1
+                    },
+                    "chance": 0.3
+                },
+                {
+                    "item": {
+                        "name": "elixir",
+                        "amount": 1
+                    },
+                    "chance": 0.3
+                },
+                {
+                    "item": {
+                        "name": "hi-potion",
+                        "amount": 1
+                    },
+                    "chance": 0.05
+                },
+                {
+                    "item": {
+                        "name": "remedy",
+                        "amount": 1
+                    },
+                    "chance": 0.05
+                }
+            ]
+        },
+        {
+            "category": "tournament",
+            "slot": "2nd",
+            "items": [
+                {
+                    "item": {
+                        "name": "antidote",
+                        "amount": 4
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "soft",
+                        "amount": 4
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "eye drops",
+                        "amount": 4
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "echo screen",
+                        "amount": 4
+                    },
+                    "chance": 0.2
+                }
+            ]
+        },
+        {
+            "category": "tournament",
+            "slot": "3rd",
+            "items": [
+                {
+                    "item": {
+                        "name": "potion",
+                        "amount": 2
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "phoenix down",
+                        "amount": 2
+                    },
+                    "chance": 0.2
+                }
+            ]
+        },
+        {
+            "category": "tournament",
+            "slot": "top-scorer",
+            "items": [
+                {
+                    "item": {
+                        "name": "ether",
+                        "amount": 1
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "return sphere",
+                        "amount": 1
+                    },
+                    "chance": 0.2
+                },
+                {
+                    "item": {
+                        "name": "rename card",
+                        "amount": 1
+                    },
+                    "chance": 0.2
+                }
+            ]
+        }
+    ]
+}

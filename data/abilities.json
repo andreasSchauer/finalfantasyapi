@@ -4,7 +4,7 @@
             "name": "sleep attack",
             "version": null,
             "description": "Puts an enemy to sleep for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts it with Sleep with a 100% base chance for three turns.",
+            "effect": "Deals physical damage to one target and inflicts Sleep with a 100% base chance for three turns.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
@@ -68,7 +68,7 @@
             "name": "silence attack",
             "version": null,
             "description": "Silences an enemy for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts it with Silence with a 100% base chance for three turns.",
+            "effect": "Deals physical damage to one target and inflicts Silence with a 100% base chance for three turns.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
@@ -132,7 +132,7 @@
             "name": "dark attack",
             "version": null,
             "description": "Inflicts darkness on an enemy for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts it with Darkness with a 100% base chance for three turns.",
+            "effect": "Deals physical damage to one target and inflicts Darkness with a 100% base chance for three turns.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["wakka", "anima"],
@@ -196,7 +196,7 @@
             "name": "sleep buster",
             "version": null,
             "description": "Almost always puts an enemy to sleep for 1 turn.",
-            "effect": "Deals physical damage to one target and always inflicts it with Sleep for one turn unless it is immune.",
+            "effect": "Deals physical damage to one target and always inflicts Sleep for one turn unless it is immune.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
@@ -260,7 +260,7 @@
             "name": "silence buster",
             "version": null,
             "description": "Almost always silences an enemy for 1 turn.",
-            "effect": "Deals physical damage to one target and always inflicts it with Silence for one turn unless it is immune.",
+            "effect": "Deals physical damage to one target and always inflicts Silence for one turn unless it is immune.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
@@ -324,7 +324,7 @@
             "name": "dark buster",
             "version": null,
             "description": "Almost always inflicts darkness on an enemy for 1 turn.",
-            "effect": "Deals physical damage to one target and always inflicts it with Darkness for one turn unless it is immune.",
+            "effect": "Deals physical damage to one target and always inflicts Darkness for one turn unless it is immune.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
@@ -388,7 +388,7 @@
             "name": "zombie attack",
             "version": null,
             "description": "Inflicts an enemy with zombie status.",
-            "effect": "Deals physical damage to one target and inflicts it with Zombie with a 100% base chance.",
+            "effect": "Deals physical damage to one target and inflicts Zombie with a 100% base chance.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
@@ -452,7 +452,7 @@
             "name": "triple foul",
             "version": null,
             "description": "Sleep, silence, and darkness on an enemy for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts it with Darkness, Silence, and Sleep with a 100% base chance each for three turns.",
+            "effect": "Deals physical damage to one target and inflicts Darkness, Silence, and Sleep with a 100% base chance each for three turns.",
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
@@ -1498,7 +1498,13 @@
                     "affected_by": [],
                     "hit_amount": 1,
                     "delay": [],
-                    "inflicted_status_conditions": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "eject",
+                            "probability": 254,
+                            "turns_amount": 1
+                        }
+                    ],
                     "removed_status_conditions": [],
                     "copied_status_conditions": [],
                     "stat_changes": [],
@@ -5775,7 +5781,34 @@
             "aeon_learn_item": null,
             "mp_cost": 0,
             "rank": 1,
-            "meta": []
+            "meta": [
+                {
+                    "target": "self",
+                    "based_on_phys_attack": false,
+                    "range": null,
+                    "damage": null,
+                    "shatter_rate": null,
+                    "accuracy": {
+                        "acc_source": "rate",
+                        "hit_chance": 255,
+                        "acc_modifier": null
+                    },
+                    "affected_by": [],
+                    "hit_amount": 1,
+                    "delay": [],
+                    "inflicted_status_conditions": [
+                        {
+                            "name": "eject",
+                            "probability": 75,
+                            "turns_amount": 1
+                        }
+                    ],
+                    "removed_status_conditions": [],
+                    "copied_status_conditions": [],
+                    "stat_changes": [],
+                    "other_changes": []
+                }
+            ]
         },
         {
             "name": "shield",

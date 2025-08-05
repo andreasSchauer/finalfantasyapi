@@ -99,7 +99,7 @@
         },
         {
             "name": "ko",
-            "effect": "The unit is unable to act and flagged as 'dead'. Inflicted by attacks that inflict instant KO, or if the unit's HP drop to 0, ingoring immunity.",
+            "effect": "The unit is unable to act and flagged as 'dead'. Inflicted by attacks that inflict death, or if the unit's HP drop to 0, ingoring immunity.",
             "related_stats": [],
             "meta": {
                 "removed_status_conditions": ["power break", "magic break", "armor break", "mental break", "berserk", "confusion", "curse", "darkness", "doom", "poison", "silence", "sleep", "slow", "zombie", "auto-life", "haste", "shell", "protect", "reflect", "regen", "nulblaze", "nulshock", "nultide", "nulfrost", "guard", "sentinel", "shield", "boost"],
@@ -234,7 +234,7 @@
         },
         {
             "name": "armor break",
-            "effect": "Reduces the unit's Defense to 0 and nullifies 'armored'.",
+            "effect": "Reduces the unit's Defense to 1 and nullifies 'armored'.",
             "related_stats": ["defense"],
             "meta": {
                 "removed_status_conditions": [],
@@ -248,7 +248,7 @@
                     {
                         "name": "defense",
                         "calculation_type": "set-value",
-                        "value": 0
+                        "value": 1
                     }
                 ],
                 "other_changes": []
@@ -256,7 +256,7 @@
         },
         {
             "name": "mental break",
-            "effect": "Reduces the unit's Magic Defense to 0.",
+            "effect": "Reduces the unit's Magic Defense to 1.",
             "related_stats": ["magic defense"],
             "meta": {
                 "removed_status_conditions": [],
@@ -265,7 +265,7 @@
                     {
                         "name": "magic defense",
                         "calculation_type": "set-value",
-                        "value": 0
+                        "value": 1
                     }
                 ],
                 "other_changes": []

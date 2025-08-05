@@ -6,7 +6,6 @@
             "weapon_type": "sword",
             "armor_type": "shield",
             "physical_attack_range": 1,
-            "clstl_wpn_formula": "hp-high",
             "overdrive_command": "swordplay",
             "can_fight_underwater": true,
             "base_stats": [
@@ -28,7 +27,6 @@
             "weapon_type": "staff",
             "armor_type": "ring",
             "physical_attack_range": 1,
-            "clstl_wpn_formula": "mp-high",
             "overdrive_command": "grand summon",
             "can_fight_underwater": false,
             "base_stats": [
@@ -50,7 +48,6 @@
             "weapon_type": "blitzball",
             "armor_type": "armguard",
             "physical_attack_range": 4,
-            "clstl_wpn_formula": "hp-high",
             "overdrive_command": "slots",
             "can_fight_underwater": true,
             "base_stats": [
@@ -72,7 +69,6 @@
             "weapon_type": "doll",
             "armor_type": "bangle",
             "physical_attack_range": 1,
-            "clstl_wpn_formula": "mp-high",
             "overdrive_command": "fury",
             "can_fight_underwater": false,
             "base_stats": [
@@ -94,7 +90,6 @@
             "weapon_type": "spear",
             "armor_type": "armlet",
             "physical_attack_range": 1,
-            "clstl_wpn_formula": "hp-high",
             "overdrive_command": "ronso rage",
             "can_fight_underwater": false,
             "base_stats": [
@@ -116,7 +111,6 @@
             "weapon_type": "blade",
             "armor_type": "bracer",
             "physical_attack_range": 1,
-            "clstl_wpn_formula": "hp-low",
             "overdrive_command": "bushido",
             "can_fight_underwater": false,
             "base_stats": [
@@ -138,7 +132,6 @@
             "weapon_type": "claw",
             "armor_type": "targe",
             "physical_attack_range": 1,
-            "clstl_wpn_formula": "hp-high",
             "overdrive_command": "mix",
             "can_fight_underwater": true,
             "base_stats": [
@@ -160,7 +153,6 @@
             "weapon_type": "seymour staff",
             "armor_type": "seymour armor",
             "physical_attack_range": 1,
-            "clstl_wpn_formula": null,
             "overdrive_command": "requiem",
             "can_fight_underwater": false,
             "base_stats": [
