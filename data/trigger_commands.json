@@ -10,7 +10,7 @@
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
-                "range": 1,
+                "range": null,
                 "damage": {
                     "damage_calc": [
                         {
@@ -54,9 +54,9 @@
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
-                "range": 1,
+                "range": null,
                 "damage": null,
-                "shatter_rate": 0,
+                "shatter_rate": null,
                 "accuracy": {
                     "acc_source": "rate",
                     "hit_chance": 255,
@@ -118,7 +118,7 @@
         },
         {
             "name": "talk",
-            "version": "a",
+            "version": 1,
             "game_description": "Talk to enemy.",
             "notes": null,
             "rank": 3,
@@ -126,9 +126,9 @@
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
-                "range": 1,
+                "range": null,
                 "damage": null,
-                "shatter_rate": 0,
+                "shatter_rate": null,
                 "accuracy": {
                     "acc_source": "rate",
                     "hit_chance": 255,
@@ -152,7 +152,7 @@
         },
         {
             "name": "talk",
-            "version": "b",
+            "version": 2,
             "game_description": "Talk to enemy.",
             "notes": null,
             "rank": 3,
@@ -160,9 +160,9 @@
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
-                "range": 1,
+                "range": null,
                 "damage": null,
-                "shatter_rate": 0,
+                "shatter_rate": null,
                 "accuracy": {
                     "acc_source": "rate",
                     "hit_chance": 255,
@@ -194,9 +194,9 @@
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
-                "range": 4,
+                "range": null,
                 "damage": null,
-                "shatter_rate": 0,
+                "shatter_rate": null,
                 "accuracy": {
                     "acc_source": "rate",
                     "hit_chance": 255,
@@ -222,9 +222,9 @@
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
-                "range": 1,
+                "range": null,
                 "damage": null,
-                "shatter_rate": 0,
+                "shatter_rate": null,
                 "accuracy": {
                     "acc_source": "rate",
                     "hit_chance": 255,
@@ -250,9 +250,9 @@
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
-                "range": 4,
+                "range": null,
                 "damage": null,
-                "shatter_rate": 0,
+                "shatter_rate": null,
                 "accuracy": {
                     "acc_source": "rate",
                     "hit_chance": 255,

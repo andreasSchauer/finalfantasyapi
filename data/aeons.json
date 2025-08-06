@@ -66,7 +66,7 @@
             "physical_attack": {
                 "damage_constant": 14,
                 "range": 4,
-                "shatter_rate": 0.3,
+                "shatter_rate": 30,
                 "accuracy": {
                     "acc_source": "accuracy",
                     "acc_modifier": 2.5
@@ -139,7 +139,7 @@
             "physical_attack": {
                 "damage_constant": 16,
                 "range": 1,
-                "shatter_rate": 0.3,
+                "shatter_rate": 30,
                 "accuracy": {
                     "acc_source": "accuracy",
                     "acc_modifier": 1.5
@@ -212,7 +212,7 @@
             "physical_attack": {
                 "damage_constant": 16,
                 "range": 1,
-                "shatter_rate": 0.3,
+                "shatter_rate": 30,
                 "accuracy": {
                     "acc_source": "accuracy",
                     "acc_modifier": 1.5
@@ -285,7 +285,7 @@
             "physical_attack": {
                 "damage_constant": 14,
                 "range": 1,
-                "shatter_rate": 0.3,
+                "shatter_rate": 30,
                 "accuracy": {
                     "acc_source": "accuracy",
                     "acc_modifier": 2.5
@@ -358,7 +358,7 @@
             "physical_attack": {
                 "damage_constant": 16,
                 "range": 1,
-                "shatter_rate": 0.3,
+                "shatter_rate": 30,
                 "accuracy": {
                     "acc_source": "accuracy",
                     "acc_modifier": 1.5
@@ -431,7 +431,7 @@
             "physical_attack": {
                 "damage_constant": 16,
                 "range": 4,
-                "shatter_rate": 0.3,
+                "shatter_rate": 30,
                 "accuracy": {
                     "acc_source": "accuracy",
                     "acc_modifier": 1.5
@@ -569,7 +569,7 @@
             "physical_attack": {
                 "damage_constant": 14,
                 "range": 1,
-                "shatter_rate": 0.2,
+                "shatter_rate": 20,
                 "accuracy": {
                     "acc_source": "always",
                     "acc_modifier": null
@@ -645,7 +645,7 @@
             "physical_attack": {
                 "damage_constant": 14,
                 "range": 1,
-                "shatter_rate": 0.2,
+                "shatter_rate": 20,
                 "accuracy": {
                     "acc_source": "always",
                     "acc_modifier": null
@@ -721,7 +721,7 @@
             "physical_attack": {
                 "damage_constant": 14,
                 "range": 1,
-                "shatter_rate": 0.2,
+                "shatter_rate": 20,
                 "accuracy": {
                     "acc_source": "always",
                     "acc_modifier": null

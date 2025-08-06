@@ -13,7 +13,7 @@
                     "monsters": [
                         {
                             "monster_name": "sinscale",
-                            "version": "a",
+                            "version": 1,
                             "amount": 3
                         }
                     ],
@@ -27,7 +27,7 @@
                     "monsters": [
                         {
                             "monster_name": "sinscale",
-                            "version": "a",
+                            "version": 1,
                             "amount": 5
                         }
                     ],
@@ -41,7 +41,7 @@
                     "monsters": [
                         {
                             "monster_name": "sinscale",
-                            "version": "a",
+                            "version": 1,
                             "amount": 5
                         },
                         {
@@ -60,7 +60,7 @@
                     "monsters": [
                         {
                             "monster_name": "sinscale",
-                            "version": "a",
+                            "version": 1,
                             "amount": 7
                         },
                         {
@@ -90,7 +90,7 @@
                     "monsters": [
                         {
                             "monster_name": "sahagin",
-                            "version": "a",
+                            "version": 1,
                             "amount": 3
                         }
                     ],
@@ -104,7 +104,7 @@
                     "monsters": [
                         {
                             "monster_name": "geosgaeno",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -118,7 +118,7 @@
                     "monsters": [
                         {
                             "monster_name": "geosgaeno",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -385,7 +385,7 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -399,7 +399,7 @@
                     "monsters": [
                         {
                             "monster_name": "condor",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -413,7 +413,7 @@
                     "monsters": [
                         {
                             "monster_name": "water flan",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -427,12 +427,12 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -446,12 +446,12 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -465,12 +465,12 @@
                     "monsters": [
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -534,7 +534,7 @@
                     "monsters": [
                         {
                             "monster_name": "garuda",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -548,7 +548,7 @@
                     "monsters": [
                         {
                             "monster_name": "garuda",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -562,17 +562,17 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -586,12 +586,12 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -605,12 +605,12 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -624,12 +624,12 @@
                     "monsters": [
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -643,17 +643,17 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -678,12 +678,12 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -697,12 +697,12 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -716,12 +716,12 @@
                     "monsters": [
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -735,17 +735,17 @@
                     "monsters": [
                         {
                             "monster_name": "dingo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "condor",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "water flan",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -775,7 +775,7 @@
                         },
                         {
                             "monster_name": "sinscale",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -805,7 +805,7 @@
                         },
                         {
                             "monster_name": "sinscale",
-                            "version": "c",
+                            "version": 3,
                             "amount": 4
                         }
                     ],
@@ -830,7 +830,7 @@
                     "monsters": [
                         {
                             "monster_name": "ragora",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -925,7 +925,7 @@
                     "monsters": [
                         {
                             "monster_name": "ragora",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -944,7 +944,7 @@
                         },
                         {
                             "monster_name": "ragora",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -958,7 +958,7 @@
                     "monsters": [
                         {
                             "monster_name": "ragora",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -1041,7 +1041,7 @@
                     "monsters": [
                         {
                             "monster_name": "vouivre",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1055,7 +1055,7 @@
                     "monsters": [
                         {
                             "monster_name": "garuda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1222,7 +1222,7 @@
                     "monsters": [
                         {
                             "monster_name": "raldo",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1270,7 +1270,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1294,7 +1294,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1318,7 +1318,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1332,7 +1332,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1346,7 +1346,7 @@
                     "monsters": [
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1393,7 +1393,7 @@
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1408,7 +1408,7 @@
                     "monsters": [
                         {
                             "monster_name": "ifrit",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1467,7 +1467,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1491,7 +1491,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1515,7 +1515,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1534,7 +1534,7 @@
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1553,7 +1553,7 @@
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1567,7 +1567,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 3
                         }
                     ],
@@ -1581,12 +1581,12 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1673,7 +1673,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1697,7 +1697,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1721,7 +1721,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1740,7 +1740,7 @@
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1759,7 +1759,7 @@
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1773,7 +1773,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 3
                         }
                     ],
@@ -1787,12 +1787,12 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -1904,7 +1904,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1928,7 +1928,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1952,7 +1952,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1966,12 +1966,12 @@
                     "monsters": [
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -1990,7 +1990,7 @@
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2004,7 +2004,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 3
                         }
                     ],
@@ -2018,12 +2018,12 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2082,7 +2082,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2106,7 +2106,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2130,7 +2130,7 @@
                         },
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2144,12 +2144,12 @@
                     "monsters": [
                         {
                             "monster_name": "raldo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2168,7 +2168,7 @@
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2182,7 +2182,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 3
                         }
                     ],
@@ -2196,12 +2196,12 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2226,12 +2226,12 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2255,7 +2255,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2279,7 +2279,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2298,7 +2298,7 @@
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -2317,7 +2317,7 @@
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2331,12 +2331,12 @@
                     "monsters": [
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -2355,7 +2355,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2379,7 +2379,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2404,12 +2404,12 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2433,7 +2433,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2457,7 +2457,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2476,7 +2476,7 @@
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -2495,7 +2495,7 @@
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2509,12 +2509,12 @@
                     "monsters": [
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -2533,7 +2533,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2557,7 +2557,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2582,12 +2582,12 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -2611,7 +2611,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2635,7 +2635,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2654,7 +2654,7 @@
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -2668,12 +2668,12 @@
                     "monsters": [
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -2697,7 +2697,7 @@
                         },
                         {
                             "monster_name": "vouivre",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -2866,7 +2866,7 @@
                     "monsters": [
                         {
                             "monster_name": "garuda",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -2958,7 +2958,7 @@
                     "monsters": [
                         {
                             "monster_name": "garuda",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -2972,7 +2972,7 @@
                     "monsters": [
                         {
                             "monster_name": "gandarewa",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
@@ -3002,12 +3002,12 @@
                     "monsters": [
                         {
                             "monster_name": "sinspawn gui",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "sinspawn gui head",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -3026,12 +3026,12 @@
                     "monsters": [
                         {
                             "monster_name": "sinspawn gui",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "sinspawn gui head",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
@@ -3331,7 +3331,7 @@
                     "monsters": [
                         {
                             "monster_name": "garuda",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -3519,7 +3519,7 @@
                         },
                         {
                             "monster_name": "bunyip",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -3567,7 +3567,7 @@
                         },
                         {
                             "monster_name": "bunyip",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -3621,7 +3621,7 @@
                         },
                         {
                             "monster_name": "bunyip",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -3640,7 +3640,7 @@
                         },
                         {
                             "monster_name": "bunyip",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -3711,7 +3711,7 @@
                     "monsters": [
                         {
                             "monster_name": "ixion",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -3761,12 +3761,12 @@
                     "monsters": [
                         {
                             "monster_name": "bunyip",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -3796,7 +3796,7 @@
                         },
                         {
                             "monster_name": "bunyip",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -3839,7 +3839,7 @@
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -3858,12 +3858,12 @@
                         },
                         {
                             "monster_name": "bunyip",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -3882,12 +3882,12 @@
                         },
                         {
                             "monster_name": "bunyip",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -4212,7 +4212,7 @@
                     "monsters": [
                         {
                             "monster_name": "dark ixion",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -4226,7 +4226,7 @@
                     "monsters": [
                         {
                             "monster_name": "dark ixion",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -4351,7 +4351,7 @@
                     "monsters": [
                         {
                             "monster_name": "chimera",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -4476,7 +4476,7 @@
                     "monsters": [
                         {
                             "monster_name": "chimera",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -4601,7 +4601,7 @@
                     "monsters": [
                         {
                             "monster_name": "chimera",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -4675,7 +4675,7 @@
                         },
                         {
                             "monster_name": "evil eye",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -4753,7 +4753,7 @@
                         },
                         {
                             "monster_name": "guado guardian",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -4783,7 +4783,7 @@
                         },
                         {
                             "monster_name": "evil eye",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -4826,7 +4826,7 @@
                     "monsters": [
                         {
                             "monster_name": "evil eye",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
@@ -4861,7 +4861,7 @@
                         },
                         {
                             "monster_name": "evil eye",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -4904,7 +4904,7 @@
                     "monsters": [
                         {
                             "monster_name": "evil eye",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
@@ -4923,7 +4923,7 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
@@ -4947,12 +4947,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "evil eye",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -4966,7 +4966,7 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
@@ -5020,12 +5020,12 @@
                         },
                         {
                             "monster_name": "anima",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "guado guardian",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -5036,12 +5036,12 @@
                     "trigger_commands": [
                         {
                             "name": "talk",
-                            "version": "a",
+                            "version": 1,
                             "users": ["tidus"]
                         },
                         {
                             "name": "talk",
-                            "version": "b",
+                            "version": 2,
                             "users": ["yuna", "wakka"]
                         }
                     ]
@@ -5061,7 +5061,7 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -5143,7 +5143,7 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -5267,7 +5267,7 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -5325,7 +5325,7 @@
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -5339,12 +5339,12 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -5358,12 +5358,12 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "c",
+                            "version": 3,
                             "amount": 2
                         }
                     ],
@@ -5492,7 +5492,7 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -5573,7 +5573,7 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -5629,7 +5629,7 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
@@ -5678,7 +5678,7 @@
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -5692,12 +5692,12 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -5711,12 +5711,12 @@
                     "monsters": [
                         {
                             "monster_name": "zu",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "c",
+                            "version": 3,
                             "amount": 2
                         }
                     ],
@@ -5769,12 +5769,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -5799,12 +5799,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -5818,12 +5818,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "bomb",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -5837,12 +5837,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -5856,12 +5856,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "chimera",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -5875,12 +5875,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "evil eye",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -5905,12 +5905,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "chimera",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -5935,12 +5935,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -5965,12 +5965,12 @@
                     "monsters": [
                         {
                             "monster_name": "guado guardian",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         },
                         {
                             "monster_name": "chimera",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -5995,7 +5995,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -6009,7 +6009,7 @@
                     "monsters": [
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6023,7 +6023,7 @@
                     "monsters": [
                         {
                             "monster_name": "evil eye",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6048,7 +6048,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -6062,7 +6062,7 @@
                     "monsters": [
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6076,7 +6076,7 @@
                     "monsters": [
                         {
                             "monster_name": "evil eye",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6101,7 +6101,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -6115,7 +6115,7 @@
                     "monsters": [
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6129,7 +6129,7 @@
                     "monsters": [
                         {
                             "monster_name": "evil eye",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6154,7 +6154,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -6168,7 +6168,7 @@
                     "monsters": [
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6182,7 +6182,7 @@
                     "monsters": [
                         {
                             "monster_name": "evil eye",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6207,7 +6207,7 @@
                     "monsters": [
                         {
                             "monster_name": "bomb",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -6221,7 +6221,7 @@
                     "monsters": [
                         {
                             "monster_name": "dual horn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6235,7 +6235,7 @@
                     "monsters": [
                         {
                             "monster_name": "evil eye",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6433,12 +6433,12 @@
                     "monsters": [
                         {
                             "monster_name": "warrior monk",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
                             "monster_name": "warrior monk",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -6452,7 +6452,7 @@
                     "monsters": [
                         {
                             "monster_name": "warrior monk",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         },
                         {
@@ -6471,7 +6471,7 @@
                     "monsters": [
                         {
                             "monster_name": "warrior monk",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
@@ -6501,7 +6501,7 @@
                     "monsters": [
                         {
                             "monster_name": "sahagin",
-                            "version": "b",
+                            "version": 2,
                             "amount": 3
                         }
                     ],
@@ -6520,7 +6520,7 @@
                         },
                         {
                             "monster_name": "sahagin",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -6539,7 +6539,7 @@
                         },
                         {
                             "monster_name": "sahagin",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -6681,7 +6681,7 @@
                     "monsters": [
                         {
                             "monster_name": "sahagin",
-                            "version": "c",
+                            "version": 3,
                             "amount": 2
                         },
                         {
@@ -6747,7 +6747,7 @@
                     "monsters": [
                         {
                             "monster_name": "sahagin",
-                            "version": "c",
+                            "version": 3,
                             "amount": 2
                         },
                         {
@@ -6802,7 +6802,7 @@
                     "monsters": [
                         {
                             "monster_name": "warrior monk",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         },
                         {
@@ -6875,12 +6875,12 @@
                     "trigger_commands": [
                         {
                             "name": "talk",
-                            "version": "a",
+                            "version": 1,
                             "users": ["tidus", "auron"]
                         },
                         {
                             "name": "talk",
-                            "version": "b",
+                            "version": 2,
                             "users": ["yuna"]
                         }
                     ]
@@ -6910,7 +6910,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -6934,7 +6934,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -6993,7 +6993,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7017,7 +7017,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7060,7 +7060,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -7170,7 +7170,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7194,7 +7194,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7237,7 +7237,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -7333,7 +7333,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7357,7 +7357,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7400,7 +7400,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -7510,7 +7510,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7534,7 +7534,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7577,7 +7577,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -7652,7 +7652,7 @@
                     "monsters": [
                         {
                             "monster_name": "shiva",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7687,7 +7687,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7711,7 +7711,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7754,7 +7754,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -7850,7 +7850,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7874,7 +7874,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -7917,7 +7917,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -8027,7 +8027,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -8051,7 +8051,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -8094,7 +8094,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -8210,7 +8210,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -8229,7 +8229,7 @@
                         },
                         {
                             "monster_name": "mech scouter",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -8292,7 +8292,7 @@
                         },
                         {
                             "monster_name": "ifrit",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -8311,7 +8311,7 @@
                         },
                         {
                             "monster_name": "ixion",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -8330,7 +8330,7 @@
                         },
                         {
                             "monster_name": "shiva",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -8368,7 +8368,7 @@
                         },
                         {
                             "monster_name": "anima",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -8387,7 +8387,7 @@
                         },
                         {
                             "monster_name": "yojimbo",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -8545,12 +8545,12 @@
                     "monsters": [
                         {
                             "monster_name": "magic urn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "magic urn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 4
                         }
                     ],
@@ -8569,7 +8569,7 @@
                         },
                         {
                             "monster_name": "yojimbo",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
@@ -8698,12 +8698,12 @@
                     "monsters": [
                         {
                             "monster_name": "magic urn",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "magic urn",
-                            "version": "b",
+                            "version": 2,
                             "amount": 4
                         }
                     ],
@@ -8927,12 +8927,12 @@
                     "trigger_commands": [
                         {
                             "name": "talk",
-                            "version": "a",
+                            "version": 1,
                             "users": ["kimahri"]
                         },
                         {
                             "name": "talk",
-                            "version": "b",
+                            "version": 2,
                             "users": ["yuna"]
                         }
                     ]
@@ -9294,12 +9294,12 @@
                     "monsters": [
                         {
                             "monster_name": "fallen monk",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
                             "monster_name": "fallen monk",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -9313,7 +9313,7 @@
                     "monsters": [
                         {
                             "monster_name": "fallen monk",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         },
                         {
@@ -9332,7 +9332,7 @@
                     "monsters": [
                         {
                             "monster_name": "fallen monk",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         },
                         {
@@ -9536,12 +9536,12 @@
                     "monsters": [
                         {
                             "monster_name": "gemini",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "gemini",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -9643,12 +9643,12 @@
                     "monsters": [
                         {
                             "monster_name": "gemini",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "gemini",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -9871,7 +9871,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "a",
+                            "version": 1,
                             "amount": 2
                         }
                     ],
@@ -9901,7 +9901,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -9920,7 +9920,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -9939,7 +9939,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -9958,7 +9958,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -9977,7 +9977,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -9996,7 +9996,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -10015,7 +10015,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -10044,7 +10044,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -10063,7 +10063,7 @@
                         },
                         {
                             "monster_name": "yu pagoda",
-                            "version": "b",
+                            "version": 2,
                             "amount": 2
                         }
                     ],
@@ -10093,7 +10093,7 @@
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "d",
+                            "version": 4,
                             "amount": 1
                         }
                     ],
@@ -10112,7 +10112,7 @@
                         },
                         {
                             "monster_name": "mimic",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         }
                     ],
@@ -10131,7 +10131,7 @@
                         },
                         {
                             "monster_name": "mimic",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -10150,7 +10150,7 @@
                         },
                         {
                             "monster_name": "mimic",
-                            "version": "c",
+                            "version": 3,
                             "amount": 1
                         }
                     ],
@@ -10169,7 +10169,7 @@
                         },
                         {
                             "monster_name": "mimic",
-                            "version": "d",
+                            "version": 4,
                             "amount": 1
                         }
                     ],
@@ -10499,7 +10499,7 @@
                         },
                         {
                             "monster_name": "treasure chest",
-                            "version": "d",
+                            "version": 4,
                             "amount": 1
                         }
                     ],
@@ -10513,12 +10513,12 @@
                     "monsters": [
                         {
                             "monster_name": "gemini",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "gemini",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],
@@ -10642,12 +10642,12 @@
                     "monsters": [
                         {
                             "monster_name": "gemini",
-                            "version": "a",
+                            "version": 1,
                             "amount": 1
                         },
                         {
                             "monster_name": "gemini",
-                            "version": "b",
+                            "version": 2,
                             "amount": 1
                         }
                     ],

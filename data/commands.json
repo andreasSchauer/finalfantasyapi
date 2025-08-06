@@ -2,7 +2,7 @@
     "commands_data": [
         {
             "name": "attack",
-            "version": "a",
+            "version": 1,
             "description": "Attack an enemy with equipped weapon.",
             "effect": "Attacks one target with a physical attack.",
             "used_by": ["characters", "seymour"],
@@ -12,7 +12,7 @@
         },
         {
             "name": "attack",
-            "version": "b",
+            "version": 2,
             "description": "Attack an enemy.",
             "effect": "Attacks one target with a physical attack.",
             "used_by": ["aeons", "magus sisters"],

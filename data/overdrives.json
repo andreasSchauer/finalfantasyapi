@@ -35,7 +35,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -77,7 +77,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -131,7 +131,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -173,7 +173,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -227,7 +227,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -269,7 +269,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -323,7 +323,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -359,7 +359,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -401,7 +401,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -509,7 +509,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -551,7 +551,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -593,7 +593,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -635,7 +635,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -677,7 +677,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -719,7 +719,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -761,7 +761,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -803,7 +803,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -845,7 +845,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -899,7 +899,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -941,7 +941,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -983,7 +983,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1025,7 +1025,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1067,7 +1067,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1109,7 +1109,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1163,7 +1163,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1176,22 +1176,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -1226,7 +1230,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1239,22 +1243,26 @@
                                 {
                                     "name": "power break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -1305,7 +1313,7 @@
                                     "damage_constant": 24
                                 }
                             ],
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1317,12 +1325,14 @@
                                 {
                                     "name": "petrification",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "slow",
                                     "probability": 100,
-                                    "turns_amount": 0
+                                    "duration_type": "turns",
+                                    "amount": 0
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -1357,7 +1367,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1370,22 +1380,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }  
                             ],
                             "removed_status_conditions": [],
@@ -1420,7 +1434,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1433,22 +1447,26 @@
                                 {
                                     "name": "power break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -1499,7 +1517,7 @@
                                     "damage_constant": 24
                                 }
                             ],
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1511,12 +1529,14 @@
                                 {
                                     "name": "petrification",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "slow",
                                     "probability": 100,
-                                    "turns_amount": 0
+                                    "duration_type": "turns",
+                                    "amount": 0
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -1551,7 +1571,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1605,7 +1625,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1647,7 +1667,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1689,7 +1709,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1731,7 +1751,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1773,7 +1793,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1815,7 +1835,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1857,7 +1877,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1899,7 +1919,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1941,7 +1961,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -1983,7 +2003,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2025,7 +2045,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2038,22 +2058,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }  
                             ],
                             "removed_status_conditions": [],
@@ -2088,7 +2112,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2101,22 +2125,26 @@
                                 {
                                     "name": "power break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -2167,7 +2195,7 @@
                                     "damage_constant": 24
                                 }
                             ],
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2179,12 +2207,14 @@
                                 {
                                     "name": "petrification",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "slow",
                                     "probability": 100,
-                                    "turns_amount": 0
+                                    "duration_type": "turns",
+                                    "amount": 0
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -2219,7 +2249,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2232,22 +2262,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }  
                             ],
                             "removed_status_conditions": [],
@@ -2282,7 +2316,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2295,22 +2329,26 @@
                                 {
                                     "name": "power break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -2361,7 +2399,7 @@
                                     "damage_constant": 24
                                 }
                             ],
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2373,12 +2411,14 @@
                                 {
                                     "name": "petrification",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "slow",
                                     "probability": 100,
-                                    "turns_amount": 0
+                                    "duration_type": "turns",
+                                    "amount": 0
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -2413,7 +2453,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2467,7 +2507,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2509,7 +2549,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2551,7 +2591,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2605,7 +2645,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2647,7 +2687,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2689,7 +2729,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2743,7 +2783,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2785,7 +2825,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2827,7 +2867,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2881,7 +2921,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2923,7 +2963,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -2965,7 +3005,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3019,7 +3059,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3061,7 +3101,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3103,7 +3143,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3157,7 +3197,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3199,7 +3239,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3241,7 +3281,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3295,7 +3335,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3337,7 +3377,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3379,7 +3419,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3433,7 +3473,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3475,7 +3515,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3517,7 +3557,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3571,7 +3611,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3613,7 +3653,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3655,7 +3695,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3709,7 +3749,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3751,7 +3791,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3793,7 +3833,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "lightning"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3847,7 +3887,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3889,7 +3929,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3931,7 +3971,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -3985,7 +4025,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4027,7 +4067,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4069,7 +4109,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "ice"
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4120,7 +4160,8 @@
                                 {
                                     "name": "poison",
                                     "probability": 80,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -4152,7 +4193,8 @@
                                 {
                                     "name": "poison",
                                     "probability": 80,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -4184,7 +4226,8 @@
                                 {
                                     "name": "poison",
                                     "probability": 80,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -4231,7 +4274,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4273,7 +4316,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4315,7 +4358,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4366,7 +4409,8 @@
                                 {
                                     "name": "death",
                                     "probability": 80,
-                                    "turns_amount": null
+                                    "duration_type": "instant",
+                                    "amount": null
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -4398,7 +4442,8 @@
                                 {
                                     "name": "death",
                                     "probability": 80,
-                                    "turns_amount": null
+                                    "duration_type": "instant",
+                                    "amount": null
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -4430,7 +4475,8 @@
                                 {
                                     "name": "death",
                                     "probability": 80,
-                                    "turns_amount": null
+                                    "duration_type": "instant",
+                                    "amount": null
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -4477,7 +4523,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4519,7 +4565,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4561,7 +4607,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4615,7 +4661,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4657,7 +4703,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4699,7 +4745,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4753,7 +4799,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4795,7 +4841,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4837,7 +4883,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4891,7 +4937,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.1,
+                            "shatter_rate": 10,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4945,7 +4991,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -4999,7 +5045,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5053,7 +5099,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5107,7 +5153,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5140,7 +5186,8 @@
                                 {
                                     "name": "eject",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5187,7 +5234,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5200,7 +5247,8 @@
                                 {
                                     "name": "eject",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5244,7 +5292,8 @@
                                 {
                                     "name": "petrification",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5291,7 +5340,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "water"
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5342,7 +5391,8 @@
                                 {
                                     "name": "doom",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5389,7 +5439,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5440,22 +5490,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 100,
-                                    "turns_amount": 10
+                                    "duration_type": "turns",
+                                    "amount": 10
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 100,
-                                    "turns_amount": 10
+                                    "duration_type": "turns",
+                                    "amount": 10
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 100,
-                                    "turns_amount": 10
+                                    "duration_type": "turns",
+                                    "amount": 10
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 100,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5486,7 +5540,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5499,32 +5553,38 @@
                                 {
                                     "name": "nulblaze",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulshock",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nultide",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulfrost",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "protect",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "shell",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5571,7 +5631,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5634,7 +5694,7 @@
                                     "damage_constant": 24
                                 }
                             ],
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5675,7 +5735,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5717,7 +5777,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5771,7 +5831,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5784,7 +5844,8 @@
                                 {
                                     "name": "eject",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5819,7 +5880,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5861,7 +5922,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5915,7 +5976,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -5928,22 +5989,26 @@
                                 {
                                     "name": "power break",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -5978,7 +6043,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6020,7 +6085,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6074,7 +6139,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6110,7 +6175,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6152,7 +6217,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6206,7 +6271,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6260,7 +6325,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6273,7 +6338,8 @@
                                 {
                                     "name": "armor break",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -6320,7 +6386,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6374,7 +6440,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6428,7 +6494,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6482,7 +6548,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6536,7 +6602,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6549,17 +6615,20 @@
                                 {
                                     "name": "sleep",
                                     "probability": 100,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 150,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 150,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -6606,7 +6675,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6619,22 +6688,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 150,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -6681,7 +6754,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6694,42 +6767,50 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 5
+                                    "duration_type": "",
+                                    "amount": 5
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 5
+                                    "duration_type": "",
+                                    "amount": 5
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 5
+                                    "duration_type": "",
+                                    "amount": 5
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "power break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -6776,7 +6857,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -6789,47 +6870,56 @@
                                 {
                                     "name": "sleep",
                                     "probability": 150,
-                                    "turns_amount": 8
+                                    "duration_type": "turns",
+                                    "amount": 8
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 150,
-                                    "turns_amount": 8
+                                    "duration_type": "turns",
+                                    "amount": 8
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 150,
-                                    "turns_amount": 8
+                                    "duration_type": "turns",
+                                    "amount": 8
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "power break",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "slow",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -7051,22 +7141,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 150,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -7126,42 +7220,50 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "power break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -7383,22 +7485,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 150,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -7458,42 +7564,50 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "power break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -7715,22 +7829,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 150,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -7790,42 +7908,50 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "power break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -8047,22 +8173,26 @@
                                 {
                                     "name": "sleep",
                                     "probability": 150,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 3
+                                    "duration_type": "turns",
+                                    "amount": 3
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 150,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -8122,42 +8252,50 @@
                                 {
                                     "name": "sleep",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "silence",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "darkness",
                                     "probability": 254,
-                                    "turns_amount": 4
+                                    "duration_type": "",
+                                    "amount": 4
                                 },
                                 {
                                     "name": "poison",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "power break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "magic break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "armor break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "mental break",
                                     "probability": 50,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -8366,7 +8504,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8404,7 +8542,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8458,7 +8596,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8512,7 +8650,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8525,7 +8663,8 @@
                                 {
                                     "name": "life",
                                     "probability": 254,
-                                    "turns_amount": null
+                                    "duration_type": "instant",
+                                    "amount": null
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -8572,7 +8711,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8585,7 +8724,8 @@
                                 {
                                     "name": "life",
                                     "probability": 254,
-                                    "turns_amount": null
+                                    "duration_type": "instant",
+                                    "amount": null
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -8702,7 +8842,7 @@
                             "break_dmg_lmt": "never",
                             "element": null
                         },
-                        "shatter_rate": null,
+                        "shatter_rate": 0,
                         "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8764,7 +8904,7 @@
                             "break_dmg_lmt": "auto-ability-needed",
                             "element": null
                         },
-                        "shatter_rate": null,
+                        "shatter_rate": 0,
                         "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8826,7 +8966,7 @@
                             "break_dmg_lmt": "always",
                             "element": null
                         },
-                        "shatter_rate": null,
+                        "shatter_rate": 0,
                         "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8839,7 +8979,8 @@
                                 {
                                     "name": "life",
                                     "probability": 254,
-                                    "turns_amount": null
+                                    "duration_type": "instant",
+                                    "amount": null
                                 }
                             ],
                             "removed_status_conditions": ["berserk", "confuse", "curse", "darkness", "petrification", "poison", "silence", "sleep", "slow", "zombie"],
@@ -8883,22 +9024,26 @@
                                 {
                                     "name": "nulblaze",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulshock",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nultide",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulfrost",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -8929,7 +9074,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -8942,22 +9087,26 @@
                                 {
                                     "name": "nulblaze",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulshock",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nultide",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulfrost",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -8988,7 +9137,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9001,22 +9150,26 @@
                                 {
                                     "name": "nulblaze",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulshock",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nultide",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulfrost",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -9025,12 +9178,12 @@
                                 {
                                     "name": "strength",
                                     "calculation_type": "added-value",
-                                    "value": 5.0
+                                    "value": 5
                                 },
                                 {
                                     "name": "magic",
                                     "calculation_type": "added-value",
-                                    "value": 5.0
+                                    "value": 5
                                 }
                             ],
                             "other_changes": [
@@ -9069,7 +9222,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9082,22 +9235,26 @@
                                 {
                                     "name": "nulblaze",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulshock",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nultide",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 },
                                 {
                                     "name": "nulfrost",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "blocks",
+                                    "amount": 1
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -9106,12 +9263,12 @@
                                 {
                                     "name": "strength",
                                     "calculation_type": "added-value",
-                                    "value": 5.0
+                                    "value": 5
                                 },
                                 {
                                     "name": "magic",
                                     "calculation_type": "added-value",
-                                    "value": 5.0
+                                    "value": 5
                                 }
                             ],
                             "other_changes": [
@@ -9128,12 +9285,12 @@
                                 {
                                     "name": "final-hit-rate",
                                     "calculation_type": "added-percentage",
-                                    "value": 50.0
+                                    "value": 50
                                 },
                                 {
                                     "name": "final-evasion-rate",
                                     "calculation_type": "added-percentage",
-                                    "value": 50.0
+                                    "value": 50
                                 }
                             ]
                         }
@@ -9160,7 +9317,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9173,12 +9330,14 @@
                                 {
                                     "name": "shell",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "protect",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -9230,17 +9389,20 @@
                                 {
                                     "name": "shell",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "protect",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "haste",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -9292,22 +9454,26 @@
                                 {
                                     "name": "shell",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "protect",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "haste",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "regen",
                                     "probability": 254,
-                                    "turns_amount": 20
+                                    "duration_type": "",
+                                    "amount": 20
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -9359,27 +9525,32 @@
                                 {
                                     "name": "shell",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "protect",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "haste",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 },
                                 {
                                     "name": "regen",
                                     "probability": 254,
-                                    "turns_amount": 20
+                                    "duration_type": "",
+                                    "amount": 20
                                 },
                                 {
                                     "name": "auto-life",
                                     "probability": 254,
-                                    "turns_amount": 254
+                                    "duration_type": "endless",
+                                    "amount": 254
                                 }
                             ],
                             "removed_status_conditions": [],
@@ -9426,7 +9597,7 @@
                                 {
                                     "name": "hp",
                                     "calculation_type": "multiply",
-                                    "value": 2.0
+                                    "value": 2
                                 }
                             ],
                             "other_changes": []
@@ -9454,7 +9625,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9470,7 +9641,7 @@
                                 {
                                     "name": "hp",
                                     "calculation_type": "multiply",
-                                    "value": 2.0
+                                    "value": 2
                                 }
                             ],
                             "other_changes": []
@@ -9498,7 +9669,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9514,12 +9685,12 @@
                                 {
                                     "name": "hp",
                                     "calculation_type": "multiply",
-                                    "value": 2.0
+                                    "value": 2
                                 },
                                 {
                                     "name": "strength",
                                     "calculation_type": "added-value",
-                                    "value": 5.0
+                                    "value": 5
                                 }
                             ],
                             "other_changes": [
@@ -9569,7 +9740,7 @@
                                 {
                                     "name": "mp",
                                     "calculation_type": "multiply",
-                                    "value": 2.0
+                                    "value": 2
                                 }
                             ],
                             "other_changes": []
@@ -9597,7 +9768,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9613,7 +9784,7 @@
                                 {
                                     "name": "mp",
                                     "calculation_type": "multiply",
-                                    "value": 2.0
+                                    "value": 2
                                 }
                             ],
                             "other_changes": []
@@ -9641,7 +9812,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9657,12 +9828,12 @@
                                 {
                                     "name": "mp",
                                     "calculation_type": "multiply",
-                                    "value": 2.0
+                                    "value": 2
                                 },
                                 {
                                     "name": "magic",
                                     "calculation_type": "added-value",
-                                    "value": 5.0
+                                    "value": 5
                                 }
                             ],
                             "other_changes": [
@@ -9713,7 +9884,7 @@
                                 {
                                     "name": "mp-cost",
                                     "calculation_type": "set-value",
-                                    "value": 0.0
+                                    "value": 0
                                 }
                             ]
                         }
@@ -9740,7 +9911,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9757,7 +9928,7 @@
                                 {
                                     "name": "mp-cost",
                                     "calculation_type": "set-value",
-                                    "value": 0.0
+                                    "value": 0
                                 }
                             ]
                         }
@@ -9801,17 +9972,17 @@
                                 {
                                     "name": "physical-damage-dealt",
                                     "calculation_type": "set-value",
-                                    "value": 9999.0
+                                    "value": 9999
                                 },
                                 {
                                     "name": "magical-damage-dealt",
                                     "calculation_type": "set-value",
-                                    "value": 9999.0
+                                    "value": 9999
                                 },
                                 {
                                     "name": "special-damage-dealt",
                                     "calculation_type": "set-value",
-                                    "value": 9999.0
+                                    "value": 9999
                                 }
                             ]
                         }
@@ -9838,7 +10009,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9855,17 +10026,17 @@
                                 {
                                     "name": "physical-damage-dealt",
                                     "calculation_type": "set-value",
-                                    "value": 9999.0
+                                    "value": 9999
                                 },
                                 {
                                     "name": "magical-damage-dealt",
                                     "calculation_type": "set-value",
-                                    "value": 9999.0
+                                    "value": 9999
                                 },
                                 {
                                     "name": "special-damage-dealt",
                                     "calculation_type": "set-value",
-                                    "value": 9999.0
+                                    "value": 9999
                                 }
                             ]
                         }
@@ -9909,7 +10080,7 @@
                                 {
                                     "name": "critical-hit-rate",
                                     "calculation_type": "set-value",
-                                    "value": 255.0
+                                    "value": 255
                                 }
                             ]
                         }
@@ -9936,7 +10107,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -9953,7 +10124,7 @@
                                 {
                                     "name": "critical-hit-rate",
                                     "calculation_type": "set-value",
-                                    "value": 255.0
+                                    "value": 255
                                 }
                             ]
                         }
@@ -9980,7 +10151,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10024,7 +10195,7 @@
                             "based_on_phys_attack": false,
                             "range": null,
                             "damage": null,
-                            "shatter_rate": null,
+                            "shatter_rate": 0,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10041,7 +10212,7 @@
                                 {
                                     "name": "overdrive-charge",
                                     "calculation_type": "multiply",
-                                    "value": 2.0
+                                    "value": 2
                                 }
                             ]
                         }
@@ -10084,7 +10255,7 @@
                                 "break_dmg_lmt": "never",
                                 "element": null
                             },
-                            "shatter_rate": 0.3,
+                            "shatter_rate": 30,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10138,7 +10309,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10192,7 +10363,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10246,7 +10417,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": "fire"
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10300,7 +10471,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10354,7 +10525,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10408,7 +10579,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10462,7 +10633,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 1,
+                            "shatter_rate": 100,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
@@ -10516,7 +10687,7 @@
                                 "break_dmg_lmt": "auto-ability-needed",
                                 "element": null
                             },
-                            "shatter_rate": 0.5,
+                            "shatter_rate": 50,
                             "accuracy": {
                                 "acc_source": "rate",
                                 "hit_chance": 255,
