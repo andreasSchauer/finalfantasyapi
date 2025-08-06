@@ -1,12 +1,18 @@
 {
     "trigger_commands_data": [
         {
-            "name": "stand by",
-            "version": null,
-            "game_description": "Wait while recovering HP.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
+            "ability_data": {
+                "name": "stand by",
+                "version": null,
+                "specification": null,
+                "description": "Wait while recovering HP.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
@@ -14,13 +20,13 @@
                 "damage": {
                     "damage_calc": [
                         {
-                                "condition": null,
-                                "attack_type": "heal",
-                                "target_stat": "hp",
-                                "damage_type": "special",
-                                "damage_formula": "special-no-variance",
-                                "damage_constant": 1
-                            }
+                            "condition": null,
+                            "attack_type": "heal",
+                            "target_stat": "hp",
+                            "damage_type": "special",
+                            "damage_formula": "special-no-variance",
+                            "damage_constant": 1
+                        }
                     ],
                     "can_critical": "never",
                     "critical_plus_val": null,
@@ -45,40 +51,33 @@
             }
         },
         {
-            "name": "pincer attack",
-            "version": null,
-            "game_description": "Attack enemy from both sides.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
-            "meta": {
-                "target": "self",
-                "based_on_phys_attack": false,
-                "range": null,
-                "damage": null,
-                "shatter_rate": null,
-                "accuracy": {
-                    "acc_source": "rate",
-                    "hit_chance": 255,
-                    "acc_modifier": null
-                },
-                "affected_by": [],
-                "hit_amount": 1,
-                "delay": [],
-                "inflicted_status_conditions": [],
-                "removed_status_conditions": [],
-                "copied_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "ability_data": {
+                "name": "pincer attack",
+                "version": null,
+                "specification": null,
+                "description": "Attack enemy from both sides.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "meta": null
         },
         {
-            "name": "use crane",
-            "version": null,
-            "game_description": "Activate crane.",
-            "notes": "Available once the crane has been activated.",
-            "rank": 3,
-            "related_stats": [],
+            "ability_data": {
+                "name": "use crane",
+                "version": null,
+                "specification": null,
+                "description": "Activate crane.",
+                "effect": null,
+                "notes": "Available once the crane has been activated.",
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []                
+            },
             "meta": {
                 "target": "single-enemy",
                 "based_on_phys_attack": false,
@@ -117,12 +116,18 @@
             }
         },
         {
-            "name": "talk",
-            "version": 1,
-            "game_description": "Talk to enemy.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": ["strength"],
+            "ability_data": {
+                "name": "talk",
+                "version": 1,
+                "specification": null,
+                "description": "Talk to enemy.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": ["strength"]
+            },
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
@@ -151,12 +156,18 @@
             }
         },
         {
-            "name": "talk",
-            "version": 2,
-            "game_description": "Talk to enemy.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": ["magic defense"],
+            "ability_data": {
+                "name": "talk",
+                "version": 2,
+                "specification": null,
+                "description": "Talk to enemy.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": ["magic defense"]
+            },
             "meta": {
                 "target": "self",
                 "based_on_phys_attack": false,
@@ -185,96 +196,63 @@
             }
         },
         {
-            "name": "move in",
-            "version": null,
-            "game_description": "Ask Cid to close in on the enemy.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
-            "meta": {
-                "target": "self",
-                "based_on_phys_attack": false,
-                "range": null,
-                "damage": null,
-                "shatter_rate": null,
-                "accuracy": {
-                    "acc_source": "rate",
-                    "hit_chance": 255,
-                    "acc_modifier": null
-                },
-                "affected_by": [],
-                "hit_amount": 1,
-                "delay": [],
-                "inflicted_status_conditions": [],
-                "removed_status_conditions": [],
-                "copied_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "ability_data": {
+                "name": "move in",
+                "version": null,
+                "specification": null,
+                "description": "Ask Cid to close in on the enemy.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "meta": null
         },
         {
-            "name": "pull back",
-            "version": null,
-            "game_description": "Ask Cid to move away from the enemy.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
-            "meta": {
-                "target": "self",
-                "based_on_phys_attack": false,
-                "range": null,
-                "damage": null,
-                "shatter_rate": null,
-                "accuracy": {
-                    "acc_source": "rate",
-                    "hit_chance": 255,
-                    "acc_modifier": null
-                },
-                "affected_by": [],
-                "hit_amount": 1,
-                "delay": [],
-                "inflicted_status_conditions": [],
-                "removed_status_conditions": [],
-                "copied_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "ability_data": {
+                "name": "pull back",
+                "version": null,
+                "specification": null,
+                "description": "Ask Cid to move away from the enemy.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "meta": null
         },
         {
-            "name": "cancel",
-            "version": null,
-            "game_description": "Cancel movement.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
-            "meta": {
-                "target": "self",
-                "based_on_phys_attack": false,
-                "range": null,
-                "damage": null,
-                "shatter_rate": null,
-                "accuracy": {
-                    "acc_source": "rate",
-                    "hit_chance": 255,
-                    "acc_modifier": null
-                },
-                "affected_by": [],
-                "hit_amount": 1,
-                "delay": [],
-                "inflicted_status_conditions": [],
-                "removed_status_conditions": [],
-                "copied_status_conditions": [],
-                "stat_changes": [],
-                "other_changes": []
-            }
+            "ability_data": {
+                "name": "cancel",
+                "version": null,
+                "specification": null,
+                "description": "Cancel movement.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "meta": null
         },
         {
-            "name": "open lock",
-            "version": null,
-            "game_description": "Open gate lock.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
+            "ability_data": {
+                "name": "open lock",
+                "version": null,
+                "specification": null,
+                "description": "Open gate lock.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "meta": {
                 "target": "single-enemy",
                 "based_on_phys_attack": false,
@@ -313,12 +291,18 @@
             }
         },
         {
-            "name": "move",
-            "version": null,
-            "game_description": "Move to an empty spot.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
+            "ability_data": {
+                "name": "move",
+                "version": null,
+                "specification": null,
+                "description": "Move to an empty spot.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "meta": {
                 "target": "single-enemy",
                 "based_on_phys_attack": false,
@@ -341,12 +325,18 @@
             }
         },
         {
-            "name": "struggle",
-            "version": null,
-            "game_description": "Attack enemy from inside.",
-            "notes": null,
-            "rank": 3,
-            "related_stats": [],
+            "ability_data": {
+                "name": "struggle",
+                "version": null,
+                "specification": null,
+                "description": "Attack enemy from inside.",
+                "effect": null,
+                "notes": null,
+                "rank": 3,
+                "appears_in_help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "meta": {
                 "target": "single-enemy",
                 "based_on_phys_attack": true,

@@ -1,24 +1,29 @@
 {
     "abilities_data": [
         {
-            "name": "sleep attack",
-            "version": null,
-            "description": "Puts an enemy to sleep for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts Sleep with a 100% base chance for three turns.",
+            "ability_data": {
+                "name": "sleep attack",
+                "version": null,
+                "specification": null,
+                "description": "Puts an enemy to sleep for 3 turns.",
+                "effect": "Deals physical damage to one target and inflicts Sleep with a 100% base chance for three turns.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "sleeping powder",
                 "amount": 3
             },
             "mp_cost": 5,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -66,24 +71,29 @@
             ]
         },
         {
-            "name": "silence attack",
-            "version": null,
-            "description": "Silences an enemy for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts Silence with a 100% base chance for three turns.",
+            "ability_data": {
+                "name": "silence attack",
+                "version": null,
+                "specification": null,
+                "description": "Silences an enemy for 3 turns.",
+                "effect": "Deals physical damage to one target and inflicts Silence with a 100% base chance for three turns.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "silence grenade",
                 "amount": 3
             },
             "mp_cost": 5,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -131,24 +141,29 @@
             ]
         },
         {
-            "name": "dark attack",
-            "version": null,
-            "description": "Inflicts darkness on an enemy for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts Darkness with a 100% base chance for three turns.",
+            "ability_data": {
+                "name": "dark attack",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts darkness on an enemy for 3 turns.",
+                "effect": "Deals physical damage to one target and inflicts Darkness with a 100% base chance for three turns.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["wakka", "anima"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "smoke bomb",
                 "amount": 6
             },
             "mp_cost": 5,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -196,24 +211,29 @@
             ]
         },
         {
-            "name": "sleep buster",
-            "version": null,
-            "description": "Almost always puts an enemy to sleep for 1 turn.",
-            "effect": "Deals physical damage to one target and always inflicts Sleep for one turn unless it is immune.",
+            "ability_data": {
+                "name": "sleep buster",
+                "version": null,
+                "specification": null,
+                "description": "Almost always puts an enemy to sleep for 1 turn.",
+                "effect": "Deals physical damage to one target and always inflicts Sleep for one turn unless it is immune.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "sleeping powder",
                 "amount": 10
             },
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -261,24 +281,29 @@
             ]
         },
         {
-            "name": "silence buster",
-            "version": null,
-            "description": "Almost always silences an enemy for 1 turn.",
-            "effect": "Deals physical damage to one target and always inflicts Silence for one turn unless it is immune.",
+            "ability_data": {
+                "name": "silence buster",
+                "version": null,
+                "specification": null,
+                "description": "Almost always silences an enemy for 1 turn.",
+                "effect": "Deals physical damage to one target and always inflicts Silence for one turn unless it is immune.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "silence grenade",
                 "amount": 10
             },
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -326,24 +351,29 @@
             ]
         },
         {
-            "name": "dark buster",
-            "version": null,
-            "description": "Almost always inflicts darkness on an enemy for 1 turn.",
-            "effect": "Deals physical damage to one target and always inflicts Darkness for one turn unless it is immune.",
+            "ability_data": {
+                "name": "dark buster",
+                "version": null,
+                "specification": null,
+                "description": "Almost always inflicts darkness on an enemy for 1 turn.",
+                "effect": "Deals physical damage to one target and always inflicts Darkness for one turn unless it is immune.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "smoke bomb",
                 "amount": 12
             },
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -391,24 +421,29 @@
             ]
         },
         {
-            "name": "zombie attack",
-            "version": null,
-            "description": "Inflicts an enemy with zombie status.",
-            "effect": "Deals physical damage to one target and inflicts Zombie with a 100% base chance.",
+            "ability_data": {
+                "name": "zombie attack",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts an enemy with zombie status.",
+                "effect": "Deals physical damage to one target and inflicts Zombie with a 100% base chance.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["anima"],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "holy water",
                 "amount": 99
             },
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -456,24 +491,29 @@
             ]
         },
         {
-            "name": "triple foul",
-            "version": null,
-            "description": "Sleep, silence, and darkness on an enemy for 3 turns.",
-            "effect": "Deals physical damage to one target and inflicts Darkness, Silence, and Sleep with a 100% base chance each for three turns.",
+            "ability_data": {
+                "name": "triple foul",
+                "version": null,
+                "specification": null,
+                "description": "Sleep, silence, and darkness on an enemy for 3 turns.",
+                "effect": "Deals physical damage to one target and inflicts Darkness, Silence, and Sleep with a 100% base chance each for three turns.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "skill sphere",
                 "amount": 4
             },
             "mp_cost": 24,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -533,24 +573,29 @@
             ]
         },
         {
-            "name": "delay attack",
-            "version": null,
-            "description": "Delays action of an enemy.",
-            "effect": "Deals physical damage to one target and causes weak Delay.",
+            "ability_data": {
+                "name": "delay attack",
+                "version": null,
+                "specification": null,
+                "description": "Delays action of an enemy.",
+                "effect": "Deals physical damage to one target and causes weak Delay.",
+                "notes": null,
+                "rank": 6,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "silver hourglass",
                 "amount": 20
             },
             "mp_cost": 8,
-            "rank": 6,
             "meta": [
                 {
                     "target": "single-target",
@@ -599,24 +644,29 @@
             ]
         },
         {
-            "name": "delay buster",
-            "version": null,
-            "description": "Greatly delays action of an enemy.",
-            "effect": "Deals physical damage to one target and causes strong Delay.",
+            "ability_data": {
+                "name": "delay buster",
+                "version": null,
+                "specification": null,
+                "description": "Greatly delays action of an enemy.",
+                "effect": "Deals physical damage to one target and causes strong Delay.",
+                "notes": null,
+                "rank": 8,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "gold hourglass",
                 "amount": 30
             },
             "mp_cost": 18,
-            "rank": 8,
             "meta": [
                 {
                     "target": "single-target",
@@ -665,24 +715,29 @@
             ]
         },
         {
-            "name": "extract power",
-            "version": null,
-            "description": "Makes one enemy drop Power Spheres.",
-            "effect": "Deals physical damage to one target. Causes an enemy to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "ability_data": {
+                "name": "extract power",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Power Spheres.",
+                "effect": "Deals physical damage to one target. Causes an enemy to drop Power Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp", "strength", "defense"]
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["hp", "strength", "defense"],
             "aeon_learn_item": {
                 "name": "power sphere",
                 "amount": 20
             },
             "mp_cost": 1,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -730,24 +785,29 @@
             ]
         },
         {
-            "name": "extract mana",
-            "version": null,
-            "description": "Makes one enemy drop Mana Spheres.",
-            "effect": "Deals physical damage to one target. Causes an enemy to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "ability_data": {
+                "name": "extract mana",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Mana Spheres.",
+                "effect": "Deals physical damage to one target. Causes an enemy to drop Mana Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["mp", "magic", "magic defense"]
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["mp", "magic", "magic defense"],
             "aeon_learn_item": {
                 "name": "mana sphere",
                 "amount": 20
             },
             "mp_cost": 1,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -795,24 +855,29 @@
             ]
         },
         {
-            "name": "extract speed",
-            "version": null,
-            "description": "Makes one enemy drop Speed Spheres.",
-            "effect": "Deals physical damage to one target. Causes an enemy to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "ability_data": {
+                "name": "extract speed",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Speed Spheres.",
+                "effect": "Deals physical damage to one target. Causes an enemy to drop Speed Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["agility", "evasion", "accuracy"]
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["agility", "evasion", "accuracy"],
             "aeon_learn_item": {
                 "name": "speed sphere",
                 "amount": 20
             },
             "mp_cost": 1,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -860,24 +925,29 @@
             ]
         },
         {
-            "name": "extract ability",
-            "version": null,
-            "description": "Makes one enemy drop Ability Spheres.",
-            "effect": "Deals physical damage to one target. Causes an enemy to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+            "ability_data": {
+                "name": "extract ability",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Ability Spheres.",
+                "effect": "Deals physical damage to one target. Causes an enemy to drop Ability Spheres. The number of dropped Spheres is equal to the number of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "ability sphere",
                 "amount": 20
             },
             "mp_cost": 1,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -925,24 +995,29 @@
             ]
         },
         {
-            "name": "power break",
-            "version": null,
-            "description": "Lowers an enemy's Strength.",
-            "effect": "Deals physical damage to one target and inflicts Power Break on it with a 100% base chance.",
+            "ability_data": {
+                "name": "power break",
+                "version": null,
+                "specification": null,
+                "description": "Lowers an enemy's Strength.",
+                "effect": "Deals physical damage to one target and inflicts Power Break on it with a 100% base chance.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": ["auron"],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "stamina spring",
                 "amount": 8
             },
             "mp_cost": 8,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-target",
@@ -990,24 +1065,29 @@
             ]
         },
         {
-            "name": "magic break",
-            "version": null,
-            "description": "Lowers an enemy's Magic.",
-            "effect": "Deals physical damage to one target and inflicts Magic Break on it with a 100% base chance.",
+            "ability_data": {
+                "name": "magic break",
+                "version": null,
+                "specification": null,
+                "description": "Lowers an enemy's Magic.",
+                "effect": "Deals physical damage to one target and inflicts Magic Break on it with a 100% base chance.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "mana spring",
                 "amount": 4
             },
             "mp_cost": 8,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-target",
@@ -1055,24 +1135,29 @@
             ]
         },
         {
-            "name": "armor break",
-            "version": null,
-            "description": "Lowers an enemy's Defense and nullifies armored.",
-            "effect": "Deals physical damage to one target and inflicts Armor Break on it with a 100% base chance.",
+            "ability_data": {
+                "name": "armor break",
+                "version": null,
+                "specification": null,
+                "description": "Lowers an enemy's Defense and nullifies armored.",
+                "effect": "Deals physical damage to one target and inflicts Armor Break on it with a 100% base chance.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "lv. 2 key sphere",
                 "amount": 2
             },
             "mp_cost": 12,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-target",
@@ -1120,24 +1205,29 @@
             ]
         },
         {
-            "name": "mental break",
-            "version": null,
-            "description": "Lowers an enemy's Magic Defense.",
-            "effect": "Deals physical damage to one target and inflicts Mental Break on it with a 100% base chance.",
+            "ability_data": {
+                "name": "mental break",
+                "version": null,
+                "specification": null,
+                "description": "Lowers an enemy's Magic Defense.",
+                "effect": "Deals physical damage to one target and inflicts Mental Break on it with a 100% base chance.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "shining thorn",
                 "amount": 4
             },
             "mp_cost": 12,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-target",
@@ -1185,24 +1275,29 @@
             ]
         },
         {
-            "name": "full break",
-            "version": null,
-            "description": "Inflicts Power, Magic, Armor, and Mental Break.",
-            "effect": "Deals physical damage to one target and inflicts Power Break, Magic Break, Armor Break, and Mental Break on it with a 100% base chance each.",
+            "ability_data": {
+                "name": "full break",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts Power, Magic, Armor, and Mental Break.",
+                "effect": "Deals physical damage to one target and inflicts Power Break, Magic Break, Armor Break, and Mental Break on it with a 100% base chance each.",
+                "notes": null,
+                "rank": 5,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "dark matter",
                 "amount": 2
             },
             "mp_cost": 99,
-            "rank": 5,
             "meta": [
                 {
                     "target": "single-target",
@@ -1268,21 +1363,26 @@
             ]
         },
         {
-            "name": "mug",
-            "version": null,
-            "description": "Steals items and damages one enemy.",
-            "effect": "Deals physical damage to one enemy and attempts to Steal from it. The chance of success is halved with each successful steal.",
+            "ability_data": {
+                "name": "mug",
+                "version": null,
+                "specification": null,
+                "description": "Steals items and damages one enemy.",
+                "effect": "Deals physical damage to one enemy and attempts to Steal from it. The chance of success is halved with each successful steal.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -1323,21 +1423,26 @@
             ]
         },
         {
-            "name": "nab gil",
-            "version": null,
-            "description": "Attack and steal gil at the same time.",
-            "effect": "Deals physical damage to one enemy and steals Gil from it. The chance of success is halved with each successful steal.",
+            "ability_data": {
+                "name": "nab gil",
+                "version": null,
+                "specification": null,
+                "description": "Attack and steal gil at the same time.",
+                "effect": "Deals physical damage to one enemy and steals Gil from it. The chance of success is halved with each successful steal.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 30,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -1378,21 +1483,26 @@
             ]
         },
         {
-            "name": "quick hit",
-            "version": null,
-            "description": "Strike quickly with reduced recovery time.",
-            "effect": "Deals physical damage to one target. Is faster than a normal Attack.",
+            "ability_data": {
+                "name": "quick hit",
+                "version": null,
+                "specification": null,
+                "description": "Strike quickly with reduced recovery time.",
+                "effect": "Deals physical damage to one target. Is faster than a normal Attack.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "skill",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 36,
-            "rank": 2,
             "meta": [
                 {
                     "target": "single-target",
@@ -1433,21 +1543,26 @@
             ]
         },
         {
-            "name": "steal",
-            "version": null,
-            "description": "Steal items from enemy.",
-            "effect": "Attempts to Steal an item from an enemy. The chance of success is halved with each successful steal.",
+            "ability_data": {
+                "name": "steal",
+                "version": null,
+                "specification": null,
+                "description": "Steal items from enemy.",
+                "effect": "Attempts to Steal an item from an enemy. The chance of success is halved with each successful steal.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": ["rikku"],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -1472,39 +1587,49 @@
             ]
         },
         {
-            "name": "use",
-            "version": null,
-            "description": "Use special items.",
-            "effect": "Allows you to use certain items.",
+            "ability_data": {
+                "name": "use",
+                "version": null,
+                "specification": null,
+                "description": "Use special items.",
+                "effect": "Allows you to use certain items.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": ["rikku"],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 2,
             "meta": []
         },
         {
-            "name": "flee",
-            "version": null,
-            "description": "Aid party's escape from battle.",
-            "effect": "Causes entire party to immediately Escape from battle without fail.",
+            "ability_data": {
+                "name": "flee",
+                "version": null,
+                "specification": null,
+                "description": "Aid party's escape from battle.",
+                "effect": "Causes entire party to immediately Escape from battle without fail.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -1536,24 +1661,29 @@
             ]
         },
         {
-            "name": "pray",
-            "version": null,
-            "description": "Restores some HP to all allies.",
-            "effect": "Restores a very small amount of HP of party. Deals damage to Zombies.",
+            "ability_data": {
+                "name": "pray",
+                "version": null,
+                "specification": null,
+                "description": "Restores some HP to all allies.",
+                "effect": "Restores a very small amount of HP of party. Deals damage to Zombies.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters", "aeons", "cindy"],
             "default_ability_of": ["cindy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "healing water",
                 "amount": 5
             },
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "all-characters",
@@ -1594,24 +1724,29 @@
             ]
         },
         {
-            "name": "cheer",
-            "version": null,
-            "description": "Raises party's Strength and Defense.",
-            "effect": "Raises the party's Strength by 1 and reduces their buff-factor, a factor used in the defensive formula, for strength-based attacks by 1/15 for the duration of the battle (removed if KO'd). Can be stacked up to five times (stacks additively). Effect goes away when KO'd.",
+            "ability_data": {
+                "name": "cheer",
+                "version": null,
+                "specification": null,
+                "description": "Raises party's Strength and Defense.",
+                "effect": "Raises the party's Strength by 1 and reduces their buff-factor, a factor used in the defensive formula, for strength-based attacks by 1/15 for the duration of the battle (removed if KO'd). Can be stacked up to five times (stacks additively). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["strength", "defense"]
+            },
             "category": "special",
             "learned_by": [],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["strength", "defense"],
             "aeon_learn_item": {
                 "name": "power sphere",
                 "amount": 5
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -1648,24 +1783,29 @@
             ]
         },
         {
-            "name": "aim",
-            "version": null,
-            "description": "Raises party's Accuracy.",
-            "effect": "Adds 10% to the party's final hit rate for the duration of the battle (removed if KO'd). Can be stacked up to five times and also stacks with the Luck Ability (stacks additively in all cases). Effect goes away when KO'd.",
+            "ability_data": {
+                "name": "aim",
+                "version": null,
+                "specification": null,
+                "description": "Raises party's Accuracy.",
+                "effect": "Adds 10% to the party's final hit rate for the duration of the battle (removed if KO'd). Can be stacked up to five times and also stacks with the Luck Ability (stacks additively in all cases). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["accuracy"]
+            },
             "category": "special",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["accuracy"],
             "aeon_learn_item": {
                 "name": "speed sphere",
                 "amount": 5
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -1696,24 +1836,29 @@
             ]
         },
         {
-            "name": "focus",
-            "version": null,
-            "description": "Raises party's Magic and Magic Defense.",
-            "effect": "Raises the party's Magic by 1 and reduces their buff-factor, a factor used in the defensive formula, for magic-based attacks by 1/15 for the duration of the battle (removed if KO'd). Can be stacked up to five times (stacks additively). Effect goes away when KO'd.",
+            "ability_data": {
+                "name": "focus",
+                "version": null,
+                "specification": null,
+                "description": "Raises party's Magic and Magic Defense.",
+                "effect": "Raises the party's Magic by 1 and reduces their buff-factor, a factor used in the defensive formula, for magic-based attacks by 1/15 for the duration of the battle (removed if KO'd). Can be stacked up to five times (stacks additively). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["magic", "magic defense"]
+            },
             "category": "special",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["magic", "magic defense"],
             "aeon_learn_item": {
                 "name": "mana sphere",
                 "amount": 5
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -1750,24 +1895,29 @@
             ]
         },
         {
-            "name": "reflex",
-            "version": null,
-            "description": "Raises party's Evasion.",
-            "effect": "Adds 10% to the party's final evasion rate for the duration of the battle (removed if KO'd). Can be stacked up to five times (stacks additively). Effect goes away when KO'd.",
+            "ability_data": {
+                "name": "reflex",
+                "version": null,
+                "specification": null,
+                "description": "Raises party's Evasion.",
+                "effect": "Adds 10% to the party's final evasion rate for the duration of the battle (removed if KO'd). Can be stacked up to five times (stacks additively). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["evasion"]
+            },
             "category": "special",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["evasion"],
             "aeon_learn_item": {
                 "name": "speed sphere",
                 "amount": 10
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -1798,24 +1948,29 @@
             ]
         },
         {
-            "name": "luck",
-            "version": null,
-            "description": "Raises party's Luck.",
-            "effect": "Adds 1% to the party's final hit rate and critical hit rate for the duration of the battle (removed if KO'd). Can be stacked up to five times and also stacks with the Aim Ability (stacks additively in all cases). Effect goes away when KO'd.",
+            "ability_data": {
+                "name": "luck",
+                "version": null,
+                "specification": null,
+                "description": "Raises party's Luck.",
+                "effect": "Adds 1% to the party's final hit rate and critical hit rate for the duration of the battle (removed if KO'd). Can be stacked up to five times and also stacks with the Aim Ability (stacks additively in all cases). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["luck", "accuracy"]
+            },
             "category": "special",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["luck", "accuracy"],
             "aeon_learn_item": {
                 "name": "fortune sphere",
                 "amount": 2
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -1851,24 +2006,29 @@
             ]
         },
         {
-            "name": "jinx",
-            "version": null,
-            "description": "Lowers all enemies' Luck.",
-            "effect": "Subtracts 1% from all enemy's final evasion rate and critical hit defense rate for the duration of the battle. Can be stacked up to five times (stacks additively).",
+            "ability_data": {
+                "name": "jinx",
+                "version": null,
+                "specification": null,
+                "description": "Lowers all enemies' Luck.",
+                "effect": "Subtracts 1% from all enemy's final evasion rate and critical hit defense rate for the duration of the battle. Can be stacked up to five times (stacks additively).",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["luck", "evasion"]
+            },
             "category": "special",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": ["luck", "evasion"],
             "aeon_learn_item": {
                 "name": "fortune sphere",
                 "amount": 2
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-enemies",
@@ -1904,24 +2064,29 @@
             ]
         },
         {
-            "name": "lancet",
-            "version": null,
-            "description": "Absorb HP & MP from an enemy.",
-            "effect": "Absorbs a small amount of HP and MP from one enemy and gives it to the user (effect is reversed if the enemy is a Zombie). If used by Kimahri, he will also learn an enemy's Ronso Rage, and if he does so, gets a full Overdrive Gauge.",
+            "ability_data": {
+                "name": "lancet",
+                "version": null,
+                "specification": null,
+                "description": "Absorb HP & MP from an enemy.",
+                "effect": "Absorbs a small amount of HP and MP from one enemy and gives it to the user (effect is reversed if the enemy is a Zombie). If used by Kimahri, he will also learn an enemy's Ronso Rage, and if he does so, gets a full Overdrive Gauge.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters", "aeons", "mindy"],
             "default_ability_of": ["kimahri", "mindy"],
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "soul spring",
                 "amount": 20
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -1970,21 +2135,26 @@
             ]
         },
         {
-            "name": "guard",
-            "version": null,
-            "description": "Take damage for an ally.",
-            "effect": "Causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn.",
+            "ability_data": {
+                "name": "guard",
+                "version": null,
+                "specification": null,
+                "description": "Take damage for an ally.",
+                "effect": "Causes the user to intercept all single-target physical attacks directed towards the party until the user's next turn.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "self",
@@ -2016,21 +2186,26 @@
             ]
         },
         {
-            "name": "sentinel",
-            "version": null,
-            "description": "Guard allies while in defensive stance.",
-            "effect": "Causes the user to enter Defend status and intercept all single-target physical attacks directed towards the party until the user's next turn.",
+            "ability_data": {
+                "name": "sentinel",
+                "version": null,
+                "specification": null,
+                "description": "Guard allies while in defensive stance.",
+                "effect": "Causes the user to enter Defend status and intercept all single-target physical attacks directed towards the party until the user's next turn.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "self",
@@ -2062,21 +2237,26 @@
             ]
         },
         {
-            "name": "spare change",
-            "version": null,
-            "description": "Attack by throwing gil.",
-            "effect": "Allows you to choose an amount of Gil to throw at an enemy. Every 10 Gil thrown will increase the damage dealt by 1 point.",
+            "ability_data": {
+                "name": "spare change",
+                "version": null,
+                "specification": null,
+                "description": "Attack by throwing gil.",
+                "effect": "Allows you to choose an amount of Gil to throw at an enemy. Every 10 Gil thrown will increase the damage dealt by 1 point.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -2117,21 +2297,26 @@
             ]
         },
         {
-            "name": "threaten",
-            "version": null,
-            "description": "Immobilize an enemy with fear.",
-            "effect": "Inflicts Threaten status on one enemy, preventing it from acting until the user's next turn. CTB altering actions like Haste, Slow, or Delay will fail on the user until their turn.",
+            "ability_data": {
+                "name": "threaten",
+                "version": null,
+                "specification": null,
+                "description": "Immobilize an enemy with fear.",
+                "effect": "Inflicts Threaten status on one enemy, preventing it from acting until the user's next turn. CTB altering actions like Haste, Slow, or Delay will fail on the user until their turn.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 12,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -2163,21 +2348,26 @@
             ]
         },
         {
-            "name": "provoke",
-            "version": null,
-            "description": "Draw an enemy's attacks towards you.",
-            "effect": "Inflicts Provoke status on one enemy, forcing it to use a specific move to attack the user.",
+            "ability_data": {
+                "name": "provoke",
+                "version": null,
+                "specification": null,
+                "description": "Draw an enemy's attacks towards you.",
+                "effect": "Inflicts Provoke status on one enemy, forcing it to use a specific move to attack the user.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 4,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -2209,21 +2399,26 @@
             ]
         },
         {
-            "name": "entrust",
-            "version": null,
-            "description": "Contribute your Overdrive charge to an ally's gauge.",
-            "effect": "Transfers user's entire Overdrive gauge to another character.",
+            "ability_data": {
+                "name": "entrust",
+                "version": null,
+                "specification": null,
+                "description": "Contribute your Overdrive charge to an ally's gauge.",
+                "effect": "Transfers user's entire Overdrive gauge to another character.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "auron",
             "expert_grid_pos": "auron",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 8,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-character",
@@ -2264,21 +2459,26 @@
             ]
         },
         {
-            "name": "copycat",
-            "version": null,
-            "description": "Mimic an ally's previous action.",
-            "effect": "Causes the character to mimic the previous action of another character, if it can be mimicked.",
+            "ability_data": {
+                "name": "copycat",
+                "version": null,
+                "specification": null,
+                "description": "Mimic an ally's previous action.",
+                "effect": "Causes the character to mimic the previous action of another character, if it can be mimicked.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 28,
-            "rank": 3,
             "meta": [
                 {
                     "target": "self",
@@ -2303,21 +2503,26 @@
             ]
         },
         {
-            "name": "pilfer gil",
-            "version": null,
-            "description": "Steal gil from an enemy.",
-            "effect": "Attempts to Steal Gil from an enemy. The chance of success is halved with each successful steal.",
+            "ability_data": {
+                "name": "pilfer gil",
+                "version": null,
+                "specification": null,
+                "description": "Steal gil from an enemy.",
+                "effect": "Attempts to Steal Gil from an enemy. The chance of success is halved with each successful steal.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 20,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -2342,60 +2547,75 @@
             ]
         },
         {
-            "name": "quick pockets",
-            "version": null,
-            "description": "Swiftly use items.",
-            "effect": "Use an item. Is faster than the Item command.",
+            "ability_data": {
+                "name": "quick pockets",
+                "version": null,
+                "specification": null,
+                "description": "Swiftly use items.",
+                "effect": "Use an item. Is faster than the Item command.",
+                "notes": null,
+                "rank": 1,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 70,
-            "rank": 1,
             "meta": []
         },
         {
-            "name": "doublecast",
-            "version": null,
-            "description": "Cast two black magic spells in a row.",
-            "effect": "Allows the user to cast two Blk Magic spells during the same turn.",
+            "ability_data": {
+                "name": "doublecast",
+                "version": null,
+                "specification": null,
+                "description": "Cast two black magic spells in a row.",
+                "effect": "Allows the user to cast two Blk Magic spells during the same turn.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters", "aeons", "mindy"],
             "default_ability_of": ["mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "three stars",
                 "amount": 5
             },
             "mp_cost": 0,
-            "rank": 3,
             "meta": []
         },
         {
-            "name": "bribe",
-            "version": null,
-            "description": "Pay enemies gil to go away.",
-            "effect": "Attempts to pay an enemy to get it to leave the battle. Bribed enemies are considered defeated, and will give Items based upon their Bribe information and the amount of money given. The required amount is a multiple of the enemy's HP. HPx10 = 25% success rate, HPx15 = 50%, HPx20 = 75%, HPx25 = 100%. If the attempt is unsuccessful, the spent amount is still stored for the enemy type, and every additional attempt will add to that total until the bribe succeeds.",
+            "ability_data": {
+                "name": "bribe",
+                "version": null,
+                "specification": null,
+                "description": "Pay enemies gil to go away.",
+                "effect": "Attempts to pay an enemy to get it to leave the battle. Bribed enemies are considered defeated, and will give Items based upon their Bribe information and the amount of money given. The required amount is a multiple of the enemy's HP. HPx10 = 25% success rate, HPx15 = 50%, HPx20 = 75%, HPx25 = 100%. If the attempt is unsuccessful, the spent amount is still stored for the enemy type, and every additional attempt will add to that total until the bribe succeeds.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "special",
             "learned_by": ["characters"],
             "default_ability_of": [],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -2420,24 +2640,29 @@
             ]
         },
         {
-            "name": "cure",
-            "version": null,
-            "description": "Restores some HP.",
-            "effect": "Restores a small amount of HP to one target. Damages Zombies.",
+            "ability_data": {
+                "name": "cure",
+                "version": null,
+                "specification": null,
+                "description": "Restores some HP.",
+                "effect": "Restores a small amount of HP to one target. Damages Zombies.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "seymour", "aeons", "cindy", "sandy"],
             "default_ability_of": ["yuna", "seymour", "cindy", "sandy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": true,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "hi-potion",
                 "amount": 99
             },
             "mp_cost": 4,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -2478,24 +2703,29 @@
             ]
         },
         {
-            "name": "cura",
-            "version": null,
-            "description": "Restores a lot of HP.",
-            "effect": "Restores a moderate amount of HP to one target. Damages Zombies.",
+            "ability_data": {
+                "name": "cura",
+                "version": null,
+                "specification": null,
+                "description": "Restores a lot of HP.",
+                "effect": "Restores a moderate amount of HP to one target. Damages Zombies.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "seymour", "aeons", "cindy", "sandy"],
             "default_ability_of": ["seymour", "cindy", "sandy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": true,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "x-potion",
                 "amount": 30
             },
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -2536,24 +2766,29 @@
             ]
         },
         {
-            "name": "curaga",
-            "version": null,
-            "description": "Restores a massive amount of HP.",
-            "effect": "Restores a large amount of HP to one target. Damages Zombies.",
+            "ability_data": {
+                "name": "curaga",
+                "version": null,
+                "specification": null,
+                "description": "Restores a massive amount of HP.",
+                "effect": "Restores a large amount of HP to one target. Damages Zombies.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons", "cindy", "sandy"],
             "default_ability_of": [],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": true,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "mega-potion",
                 "amount": 60
             },
             "mp_cost": 20,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -2594,24 +2829,29 @@
             ]
         },
         {
-            "name": "scan",
-            "version": null,
-            "description": "View an enemy's data.",
-            "effect": "Shows detailed information about a target, including HP, elemental weaknesses, current statuses, and a detailed description. After scanning, information for the Scanned enemy will be shown as if you had a Sensor Weapon equipped.",
+            "ability_data": {
+                "name": "scan",
+                "version": null,
+                "specification": null,
+                "description": "View an enemy's data.",
+                "effect": "Shows detailed information about a target, including HP, elemental weaknesses, current statuses, and a detailed description. After scanning, information for the Scanned enemy will be shown as if you had a Sensor Weapon equipped.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["seymour"],
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "kimahri",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "ability sphere",
                 "amount": 10
             },
             "mp_cost": 1,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -2643,24 +2883,29 @@
             ]
         },
         {
-            "name": "nulblaze",
-            "version": null,
-            "description": "Nullifies one fire attack on party.",
-            "effect": "Grants NulBlaze to party.",
+            "ability_data": {
+                "name": "nulblaze",
+                "version": null,
+                "specification": null,
+                "description": "Nullifies one fire attack on party.",
+                "effect": "Grants NulBlaze to party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["seymour", "ifrit", "shiva"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "bomb fragment",
                 "amount": 2
             },
             "mp_cost": 2,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -2692,24 +2937,29 @@
             ]
         },
         {
-            "name": "nulshock",
-            "version": null,
-            "description": "Nullifies one lightning attack on party.",
-            "effect": "Grants NulShock to party.",
+            "ability_data": {
+                "name": "nulshock",
+                "version": null,
+                "specification": null,
+                "description": "Nullifies one lightning attack on party.",
+                "effect": "Grants NulShock to party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["seymour", "ixion"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "electro marble",
                 "amount": 2
             },
             "mp_cost": 2,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -2741,24 +2991,29 @@
             ]
         },
         {
-            "name": "nultide",
-            "version": null,
-            "description": "Nullifies one water attack on party.",
-            "effect": "Grants NulTide to party.",
+            "ability_data": {
+                "name": "nultide",
+                "version": null,
+                "specification": null,
+                "description": "Nullifies one water attack on party.",
+                "effect": "Grants NulTide to party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["seymour", "ixion"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "fish scale",
                 "amount": 2
             },
             "mp_cost": 2,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -2790,24 +3045,29 @@
             ]
         },
         {
-            "name": "nulfrost",
-            "version": null,
-            "description": "Nullifies one ice attack on party.",
-            "effect": "Grants NulFrost to party.",
+            "ability_data": {
+                "name": "nulfrost",
+                "version": null,
+                "specification": null,
+                "description": "Nullifies one ice attack on party.",
+                "effect": "Grants NulFrost to party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["seymour", "ifrit", "shiva"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "antarctic wind",
                 "amount": 2
             },
             "mp_cost": 2,
-            "rank": 2,
             "meta": [
                 {
                     "target": "all-characters",
@@ -2839,21 +3099,26 @@
             ]
         },
         {
-            "name": "esuna",
-            "version": null,
-            "description": "Cures a character's status ailments.",
-            "effect": "Cures all status ailments of one target, except KO, Doom, Curse, and the Breaks.",
+            "ability_data": {
+                "name": "esuna",
+                "version": null,
+                "specification": null,
+                "description": "Cures a character's status ailments.",
+                "effect": "Cures all status ailments of one target, except KO, Doom, Curse, and the Breaks.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters"],
             "default_ability_of": ["yuna"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 5,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -2878,24 +3143,29 @@
             ]
         },
         {
-            "name": "life",
-            "version": null,
-            "description": "Revives a KO'd character.",
-            "effect": "Revives a KO'd character with half of their max HP. Can kill Zombies. Deals 50% of a Zombie's max HP as damage if it is immune to Life (maximum damage = damage limit).",
+            "ability_data": {
+                "name": "life",
+                "version": null,
+                "specification": null,
+                "description": "Revives a KO'd character.",
+                "effect": "Revives a KO'd character with half of their max HP. Can kill Zombies. Deals 50% of a Zombie's max HP as damage if it is immune to Life (maximum damage = damage limit).",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons", "cindy"],
             "default_ability_of": ["cindy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "elixir",
                 "amount": 8
             },
             "mp_cost": 18,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -2931,7 +3201,7 @@
                         {
                             "name": "life",
                             "probability": 254,
-                            "duration_type": "endless",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -2943,24 +3213,29 @@
             ]
         },
         {
-            "name": "full-life",
-            "version": null,
-            "description": "Revives a KO'd character and fully restores HP.",
-            "effect": "Revives a KO'd character with half of their max HP. Can kill Zombies. Deals 100% of a Zombie's max HP as damage if it is immune to Life (maximum damage = damage limit).",
+            "ability_data": {
+                "name": "full-life",
+                "version": null,
+                "specification": null,
+                "description": "Revives a KO'd character and fully restores HP.",
+                "effect": "Revives a KO'd character with half of their max HP. Can kill Zombies. Deals 100% of a Zombie's max HP as damage if it is immune to Life (maximum damage = damage limit).",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons", "cindy"],
             "default_ability_of": ["cindy"],
             "standard_grid_pos": "rikku",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "megalixir",
                 "amount": 1
             },
             "mp_cost": 60,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -2996,7 +3271,7 @@
                         {
                             "name": "life",
                             "probability": 254,
-                            "duration_type": "endless",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -3008,24 +3283,29 @@
             ]
         },
         {
-            "name": "haste",
-            "version": null,
-            "description": "Speeds up one character.",
-            "effect": "Grants Haste status to one target.",
+            "ability_data": {
+                "name": "haste",
+                "version": null,
+                "specification": null,
+                "description": "Speeds up one character.",
+                "effect": "Grants Haste status to one target.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons", "sandy"],
             "default_ability_of": ["sandy"],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "chocobo feather",
                 "amount": 10
             },
             "mp_cost": 8,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-target",
@@ -3065,24 +3345,29 @@
             ]
         },
         {
-            "name": "hastega",
-            "version": null,
-            "description": "Speeds up party.",
-            "effect": "Grants Haste status to party.",
+            "ability_data": {
+                "name": "hastega",
+                "version": null,
+                "specification": null,
+                "description": "Speeds up party.",
+                "effect": "Grants Haste status to party.",
+                "notes": null,
+                "rank": 6,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "chocobo wing",
                 "amount": 16
             },
             "mp_cost": 30,
-            "rank": 6,
             "meta": [
                 {
                     "target": "target-party",
@@ -3122,24 +3407,29 @@
             ]
         },
         {
-            "name": "slow",
-            "version": null,
-            "description": "Slows an enemy down.",
-            "effect": "Inflicts Slow status on one target.",
+            "ability_data": {
+                "name": "slow",
+                "version": null,
+                "specification": null,
+                "description": "Slows an enemy down.",
+                "effect": "Inflicts Slow status on one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "silver hourglass",
                 "amount": 4
             },
             "mp_cost": 12,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3179,24 +3469,29 @@
             ]
         },
         {
-            "name": "slowga",
-            "version": null,
-            "description": "Slows all enemies down.",
-            "effect": "Inflicts Slow status on target party.",
+            "ability_data": {
+                "name": "slowga",
+                "version": null,
+                "specification": null,
+                "description": "Slows all enemies down.",
+                "effect": "Inflicts Slow status on target party.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "tidus",
             "expert_grid_pos": "tidus",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "gold hourglass",
                 "amount": 8
             },
             "mp_cost": 20,
-            "rank": 4,
             "meta": [
                 {
                     "target": "target-party",
@@ -3236,24 +3531,29 @@
             ]
         },
         {
-            "name": "shell",
-            "version": null,
-            "description": "Raises a character's Magic Defense.",
-            "effect": "Grants Shell status to one target.",
+            "ability_data": {
+                "name": "shell",
+                "version": null,
+                "specification": null,
+                "description": "Raises a character's Magic Defense.",
+                "effect": "Grants Shell status to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons", "sandy"],
             "default_ability_of": ["sandy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "lunar curtain",
                 "amount": 4
             },
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3285,24 +3585,29 @@
             ]
         },
         {
-            "name": "protect",
-            "version": null,
-            "description": "Raises a character's Defense.",
-            "effect": "Grants Protect status to one target.",
+            "ability_data": {
+                "name": "protect",
+                "version": null,
+                "specification": null,
+                "description": "Raises a character's Defense.",
+                "effect": "Grants Protect status to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons", "sandy"],
             "default_ability_of": ["sandy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "light curtain",
                 "amount": 6
             },
             "mp_cost": 12,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3334,24 +3639,29 @@
             ]
         },
         {
-            "name": "reflect",
-            "version": null,
-            "description": "Target reflects spells towards enemy.",
-            "effect": "Grants Reflect status to one target.",
+            "ability_data": {
+                "name": "reflect",
+                "version": null,
+                "specification": null,
+                "description": "Target reflects spells towards enemy.",
+                "effect": "Grants Reflect status to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons", "sandy"],
             "default_ability_of": ["sandy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "star curtain",
                 "amount": 3
             },
             "mp_cost": 14,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3383,24 +3693,29 @@
             ]
         },
         {
-            "name": "dispel",
-            "version": null,
-            "description": "Negates all spell effects on an enemy.",
-            "effect": "Removes all positive status effects except Auto-Life from one target. Also removes the Breaks and Curse.",
+            "ability_data": {
+                "name": "dispel",
+                "version": null,
+                "specification": null,
+                "description": "Negates all spell effects on an enemy.",
+                "effect": "Removes all positive status effects except Auto-Life from one target. Also removes the Breaks and Curse.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "purifying salt",
                 "amount": 3
             },
             "mp_cost": 12,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3425,24 +3740,29 @@
             ]
         },
         {
-            "name": "regen",
-            "version": null,
-            "description": "Target gradually recovers HP for a time.",
-            "effect": "Grants Regen status to one target.",
+            "ability_data": {
+                "name": "regen",
+                "version": null,
+                "specification": null,
+                "description": "Target gradually recovers HP for a time.",
+                "effect": "Grants Regen status to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "healing spring",
                 "amount": 50
             },
             "mp_cost": 40,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3474,24 +3794,29 @@
             ]
         },
         {
-            "name": "holy",
-            "version": null,
-            "description": "Deals holy damage to an enemy.",
-            "effect": "Deals heavy holy elemental magic damage to one target.",
+            "ability_data": {
+                "name": "holy",
+                "version": null,
+                "specification": null,
+                "description": "Deals holy damage to an enemy.",
+                "effect": "Deals heavy holy elemental magic damage to one target.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "yuna",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "blessed gem",
                 "amount": 60
             },
             "mp_cost": 85,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-target",
@@ -3532,21 +3857,26 @@
             ]
         },
         {
-            "name": "auto-life",
-            "version": null,
-            "description": "Target is automatically revived once when KO'd.",
-            "effect": "Grants Auto-Life status to one target.",
+            "ability_data": {
+                "name": "auto-life",
+                "version": 1,
+                "specification": "The spell being cast.",
+                "description": "Target is automatically revived once when KO'd.",
+                "effect": "Grants Auto-Life status to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "white-magic",
             "learned_by": ["characters", "cindy"],
             "default_ability_of": ["cindy"],
             "standard_grid_pos": "yuna",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 97,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-character",
@@ -3578,21 +3908,26 @@
             ]
         },
         {
-            "name": "auto-life-revival",
-            "version": null,
-            "description": null,
-            "effect": "Revives a KO'd character with a quarter of their max HP.",
+            "ability_data": {
+                "name": "auto-life",
+                "version": 2,
+                "specification": "Revival of a KO'd character.",
+                "description": null,
+                "effect": "Revives a KO'd character with a quarter of their max HP.",
+                "notes": null,
+                "rank": null,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": [],
             "default_ability_of": [],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": null,
-            "rank": null,
             "meta": [
                 {
                     "target": "single-target",
@@ -3628,7 +3963,7 @@
                         {
                             "name": "life",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -3640,24 +3975,29 @@
             ]
         },
         {
-            "name": "fire",
-            "version": null,
-            "description": "Deals fire damage to an enemy.",
-            "effect": "Deals light fire-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "fire",
+                "version": null,
+                "specification": null,
+                "description": "Deals fire damage to an enemy.",
+                "effect": "Deals light fire-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["lulu", "seymour", "valefor", "ifrit", "bahamut", "anima"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "bomb fragment",
                 "amount": 1
             },
             "mp_cost": 4,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3698,24 +4038,29 @@
             ]
         },
         {
-            "name": "thunder",
-            "version": null,
-            "description": "Deals lightning damage to an enemy.",
-            "effect": "Deals light lightning-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "thunder",
+                "version": null,
+                "specification": null,
+                "description": "Deals lightning damage to an enemy.",
+                "effect": "Deals light lightning-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["lulu", "seymour", "valefor", "ixion", "bahamut", "anima"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "electro marble",
                 "amount": 1
             },
             "mp_cost": 4,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3756,24 +4101,29 @@
             ]
         },
         {
-            "name": "water",
-            "version": null,
-            "description": "Deals water damage to an enemy.",
-            "effect": "Deals light water-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "water",
+                "version": null,
+                "specification": null,
+                "description": "Deals water damage to an enemy.",
+                "effect": "Deals light water-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["lulu", "seymour", "valefor", "bahamut", "anima"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "fish scale",
                 "amount": 1
             },
             "mp_cost": 4,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3814,24 +4164,29 @@
             ]
         },
         {
-            "name": "blizzard",
-            "version": null,
-            "description": "Deals ice damage to an enemy.",
-            "effect": "Deals light ice-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "blizzard",
+                "version": null,
+                "specification": null,
+                "description": "Deals ice damage to an enemy.",
+                "effect": "Deals light ice-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "seymour", "aeons"],
             "default_ability_of": ["lulu", "seymour", "valefor", "shiva", "bahamut", "anima"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "antarctic wind",
                 "amount": 1
             },
             "mp_cost": 4,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3872,24 +4227,29 @@
             ]
         },
         {
-            "name": "fira",
-            "version": null,
-            "description": "Deals fire damage to an enemy.",
-            "effect": "Deals moderate fire-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "fira",
+                "version": null,
+                "specification": null,
+                "description": "Deals fire damage to an enemy.",
+                "effect": "Deals moderate fire-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "seymour", "aeons", "mindy"],
             "default_ability_of": ["seymour", "bahamut", "anima", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "bomb core",
                 "amount": 2
             },
             "mp_cost": 8,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3930,24 +4290,29 @@
             ]
         },
         {
-            "name": "thundara",
-            "version": null,
-            "description": "Deals lightning damage to an enemy.",
-            "effect": "Deals moderate lightning-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "thundara",
+                "version": null,
+                "specification": null,
+                "description": "Deals lightning damage to an enemy.",
+                "effect": "Deals moderate lightning-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "seymour", "aeons", "mindy"],
             "default_ability_of": ["seymour", "ixion", "bahamut", "anima", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "lightning marble",
                 "amount": 2
             },
             "mp_cost": 8,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -3988,24 +4353,29 @@
             ]
         },
         {
-            "name": "watera",
-            "version": null,
-            "description": "Deals water damage to an enemy.",
-            "effect": "Deals moderate water-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "watera",
+                "version": null,
+                "specification": null,
+                "description": "Deals water damage to an enemy.",
+                "effect": "Deals moderate water-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "mindy"],
             "default_ability_of": [],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "dragon scale",
                 "amount": 2
             },
             "mp_cost": 8,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4046,24 +4416,29 @@
             ]
         },
         {
-            "name": "blizzara",
-            "version": null,
-            "description": "Deals ice damage to an enemy.",
-            "effect": "Deals moderate ice-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "blizzara",
+                "version": null,
+                "specification": null,
+                "description": "Deals ice damage to an enemy.",
+                "effect": "Deals moderate ice-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "seymour", "aeons", "mindy"],
             "default_ability_of": ["seymour", "shiva", "bahamut", "anima", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "arctic wind",
                 "amount": 2
             },
             "mp_cost": 8,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4104,24 +4479,29 @@
             ]
         },
         {
-            "name": "firaga",
-            "version": null,
-            "description": "Deals fire damage to an enemy.",
-            "effect": "Deals heavy fire-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "firaga",
+                "version": null,
+                "specification": null,
+                "description": "Deals fire damage to an enemy.",
+                "effect": "Deals heavy fire-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy", "mindy"],
             "default_ability_of": ["bahamut", "anima", "cindy", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "fire gem",
                 "amount": 4
             },
             "mp_cost": 16,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4162,24 +4542,29 @@
             ]
         },
         {
-            "name": "thundaga",
-            "version": null,
-            "description": "Deals lightning damage to an enemy.",
-            "effect": "Deals heavy lightning-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "thundaga",
+                "version": null,
+                "specification": null,
+                "description": "Deals lightning damage to an enemy.",
+                "effect": "Deals heavy lightning-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy", "mindy"],
             "default_ability_of": ["bahamut", "anima", "cindy", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "lightning gem",
                 "amount": 4
             },
             "mp_cost": 16,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4220,24 +4605,29 @@
             ]
         },
         {
-            "name": "waterga",
-            "version": null,
-            "description": "Deals water damage to an enemy.",
-            "effect": "Deals heavy water-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "waterga",
+                "version": null,
+                "specification": null,
+                "description": "Deals water damage to an enemy.",
+                "effect": "Deals heavy water-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy", "mindy"],
             "default_ability_of": ["bahamut", "anima", "cindy", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "water gem",
                 "amount": 4
             },
             "mp_cost": 16,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4278,24 +4668,29 @@
             ]
         },
         {
-            "name": "blizzaga",
-            "version": null,
-            "description": "Deals ice damage to an enemy.",
-            "effect": "Deals heavy ice-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "blizzaga",
+                "version": null,
+                "specification": null,
+                "description": "Deals ice damage to an enemy.",
+                "effect": "Deals heavy ice-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy", "mindy"],
             "default_ability_of": ["bahamut", "anima", "cindy", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "ice gem",
                 "amount": 4
             },
             "mp_cost": 16,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4336,24 +4731,29 @@
             ]
         },
         {
-            "name": "bio",
-            "version": null,
-            "description": "Poisons an enemy.",
-            "effect": "Inflicts Poison on one target. Always succeeds, unless the target is immune.",
+            "ability_data": {
+                "name": "bio",
+                "version": null,
+                "specification": null,
+                "description": "Poisons an enemy.",
+                "effect": "Inflicts Poison on one target. Always succeeds, unless the target is immune.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "mindy"],
             "default_ability_of": ["anima", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "poison fang",
                 "amount": 8
             },
             "mp_cost": 10,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4385,24 +4785,29 @@
             ]
         },
         {
-            "name": "demi",
-            "version": null,
-            "description": "Reduces HP of all enemies by 1/4.",
-            "effect": "Reduces target party's HP to 75% of their current HP.",
+            "ability_data": {
+                "name": "demi",
+                "version": null,
+                "specification": null,
+                "description": "Reduces HP of all enemies by 1/4.",
+                "effect": "Reduces target party's HP to 75% of their current HP.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons"],
             "default_ability_of": [],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "shadow gem",
                 "amount": 8
             },
             "mp_cost": 32,
-            "rank": 3,
             "meta": [
                 {
                     "target": "target-party",
@@ -4443,24 +4848,29 @@
             ]
         },
         {
-            "name": "death",
-            "version": null,
-            "description": "Can instantly KO an enemy.",
-            "effect": "Inflicts Instant KO on one enemy with 100% base accuracy. Fails against Zombies.",
+            "ability_data": {
+                "name": "death",
+                "version": null,
+                "specification": null,
+                "description": "Can instantly KO an enemy.",
+                "effect": "Inflicts Instant KO on one enemy with 100% base accuracy. Fails against Zombies.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "mindy"],
             "default_ability_of": ["anima", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "farplane shadow",
                 "amount": 30
             },
             "mp_cost": 20,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -4479,8 +4889,8 @@
                     "inflicted_status_conditions": [
                         {
                             "name": "death",
-                            "probability": 100,
-                            "duration_type": "",
+                            "probability": 80,
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -4492,24 +4902,29 @@
             ]
         },
         {
-            "name": "drain",
-            "version": null,
-            "description": "Absorb HP from an enemy.",
-            "effect": "Absorbs HP from one target and heals the caster's HP for the amount of damage dealt. Effect is reversed against Zombies.",
+            "ability_data": {
+                "name": "drain",
+                "version": null,
+                "specification": null,
+                "description": "Absorb HP from an enemy.",
+                "effect": "Absorbs HP from one target and heals the caster's HP for the amount of damage dealt. Effect is reversed against Zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy", "mindy"],
             "default_ability_of": ["cindy", "mindy"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "stamina spring",
                 "amount": 60
             },
             "mp_cost": 12,
-            "rank": 2,
             "meta": [
                 {
                     "target": "single-target",
@@ -4550,24 +4965,29 @@
             ]
         },
         {
-            "name": "osmose",
-            "version": null,
-            "description": "Absorb MP from an enemy.",
-            "effect": "Absorbs MP from one target and heals the caster's MP for the amount of damage dealt. Effect is reversed against Zombies.",
+            "ability_data": {
+                "name": "osmose",
+                "version": null,
+                "specification": null,
+                "description": "Absorb MP from an enemy.",
+                "effect": "Absorbs MP from one target and heals the caster's MP for the amount of damage dealt. Effect is reversed against Zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy", "mindy"],
             "default_ability_of": ["cindy", "mindy"],
             "standard_grid_pos": "wakka",
             "expert_grid_pos": "wakka",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "mana spring",
                 "amount": 10
             },
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "single-target",
@@ -4608,24 +5028,29 @@
             ]
         },
         {
-            "name": "flare",
-            "version": null,
-            "description": "Deals non-elemental damage to an enemy.",
-            "effect": "Deals heavy non-elemental magic damage to one target.",
+            "ability_data": {
+                "name": "flare",
+                "version": null,
+                "specification": null,
+                "description": "Deals non-elemental damage to an enemy.",
+                "effect": "Deals heavy non-elemental magic damage to one target.",
+                "notes": null,
+                "rank": 5,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy", "mindy"],
             "default_ability_of": ["cindy", "mindy"],
             "standard_grid_pos": "lulu",
             "expert_grid_pos": "rikku",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "shining gem",
                 "amount": 60
             },
             "mp_cost": 54,
-            "rank": 5,
             "meta": [
                 {
                     "target": "single-target",
@@ -4666,24 +5091,29 @@
             ]
         },
         {
-            "name": "ultima",
-            "version": null,
-            "description": "Deals non-elemental damage to an enemy.",
-            "effect": "Deals heavy non-elemental magic damage to target party.",
+            "ability_data": {
+                "name": "ultima",
+                "version": null,
+                "specification": null,
+                "description": "Deals non-elemental damage to an enemy.",
+                "effect": "Deals heavy non-elemental magic damage to target party.",
+                "notes": null,
+                "rank": 6,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "black-magic",
             "learned_by": ["characters", "aeons", "cindy"],
             "default_ability_of": ["cindy"],
             "standard_grid_pos": "kimahri",
             "expert_grid_pos": "lulu",
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": {
                 "name": "supreme gem",
                 "amount": 99
             },
             "mp_cost": 90,
-            "rank": 6,
             "meta": [
                 {
                     "target": "target-party",
@@ -4724,21 +5154,26 @@
             ]
         },
         {
-            "name": "sonic wings",
-            "version": null,
-            "description": "Damages an enemy and delays its turn.",
-            "effect": "Deals unblockable ranged physical damage and weak Delay to one enemy.",
+            "ability_data": {
+                "name": "sonic wings",
+                "version": null,
+                "specification": null,
+                "description": "Damages an enemy and delays its turn.",
+                "effect": "Deals unblockable ranged physical damage and weak Delay to one enemy.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["valefor"],
             "default_ability_of": ["valefor"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -4787,21 +5222,26 @@
             ]
         },
         {
-            "name": "meteor strike",
-            "version": null,
-            "description": "Damages an enemy.",
-            "effect": "Deals unblockable ranged special damage to one enemy.",
+            "ability_data": {
+                "name": "meteor strike",
+                "version": null,
+                "specification": null,
+                "description": "Damages an enemy.",
+                "effect": "Deals unblockable ranged special damage to one enemy.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["ifrit"],
             "default_ability_of": ["ifrit"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -4842,21 +5282,26 @@
             ]
         },
         {
-            "name": "aerospark",
-            "version": null,
-            "description": "Damages an enemy and negates all spell effects.",
-            "effect": "Deals unblockable ranged physical damage to one enemy and removes all positive status effects from it.",
+            "ability_data": {
+                "name": "aerospark",
+                "version": null,
+                "specification": null,
+                "description": "Damages an enemy and negates all spell effects.",
+                "effect": "Deals unblockable ranged physical damage to one enemy and removes all positive status effects from it.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["ixion"],
             "default_ability_of": ["ixion"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -4897,21 +5342,26 @@
             ]
         },
         {
-            "name": "heavenly strike",
-            "version": null,
-            "description": "Deals unblockable ranged physical damage to one enemy and inflicts Threaten.",
-            "effect": "Damages an enemy and delays its movement.",
+            "ability_data": {
+                "name": "heavenly strike",
+                "version": null,
+                "specification": null,
+                "description": "Deals unblockable ranged physical damage to one enemy and inflicts Threaten.",
+                "effect": "Damages an enemy and delays its movement.",
+                "notes": null,
+                "rank": 4,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["shiva"],
             "default_ability_of": ["shiva"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 4,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -4959,21 +5409,26 @@
             ]
         },
         {
-            "name": "impulse",
-            "version": null,
-            "description": "Damages all enemies.",
-            "effect": "Deals unblockable ranged physical damage to all enemies.",
+            "ability_data": {
+                "name": "impulse",
+                "version": null,
+                "specification": null,
+                "description": "Damages all enemies.",
+                "effect": "Deals unblockable ranged physical damage to all enemies.",
+                "notes": null,
+                "rank": 6,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["bahamut"],
             "default_ability_of": ["bahamut"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 6,
             "meta": [
                 {
                     "target": "all-enemies",
@@ -5014,21 +5469,26 @@
             ]
         },
         {
-            "name": "pain",
-            "version": null,
-            "description": "Deals damage and Death to an enemy.",
-            "effect": "Deals magical damage to one enemy and always inflicts Death on it unless it is immune.",
+            "ability_data": {
+                "name": "pain",
+                "version": null,
+                "specification": null,
+                "description": "Deals damage and Death to an enemy.",
+                "effect": "Deals magical damage to one enemy and always inflicts Death on it unless it is immune.",
+                "notes": null,
+                "rank": 6,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["anima"],
             "default_ability_of": ["anima"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 6,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -5063,8 +5523,8 @@
                     "inflicted_status_conditions": [
                         {
                             "name": "death",
-                            "probability": 80,
-                            "duration_type": "",
+                            "probability": 100,
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -5076,21 +5536,26 @@
             ]
         },
         {
-            "name": "daigoro",
-            "version": null,
-            "description": null,
-            "effect": "Deals physical damage to one enemy.",
+            "ability_data": {
+                "name": "daigoro",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Deals physical damage to one enemy.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["yojimbo"],
             "default_ability_of": ["yojimbo"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -5131,21 +5596,26 @@
             ]
         },
         {
-            "name": "kozuka",
-            "version": null,
-            "description": null,
-            "effect": "Deals physical damage to one enemy.",
+            "ability_data": {
+                "name": "kozuka",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Deals physical damage to one enemy.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["yojimbo"],
             "default_ability_of": ["yojimbo"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -5186,21 +5656,26 @@
             ]
         },
         {
-            "name": "wakizashi",
-            "version": 1,
-            "description": null,
-            "effect": "Deals physical damage to one enemy.",
+            "ability_data": {
+                "name": "wakizashi",
+                "version": 1,
+                "specification": null,
+                "description": null,
+                "effect": "Deals physical damage to one enemy.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": [],
             "default_ability_of": [],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -5241,21 +5716,26 @@
             ]
         },
         {
-            "name": "wakizashi",
-            "version": 2,
-            "description": null,
-            "effect": "Deals physical damage to all enemies.",
+            "ability_data": {
+                "name": "wakizashi",
+                "version": 2,
+                "specification": null,
+                "description": null,
+                "effect": "Deals physical damage to all enemies.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": [],
             "default_ability_of": [],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "all-enemies",
@@ -5296,21 +5776,26 @@
             ]
         },
         {
-            "name": "zanmato",
-            "version": null,
-            "description": null,
-            "effect": "Inflicts Death on all enemies, ignoring immunities.",
+            "ability_data": {
+                "name": "zanmato",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Inflicts Death on all enemies, ignoring immunities.",
+                "notes": null,
+                "rank": 8,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": [],
             "default_ability_of": [],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 8,
             "meta": [
                 {
                     "target": "all-enemies",
@@ -5330,7 +5815,7 @@
                         {
                             "name": "death",
                             "probability": 255,
-                            "duration_type": "",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -5342,21 +5827,26 @@
             ]
         },
         {
-            "name": "camisade",
-            "version": null,
-            "description": null,
-            "effect": "Deals physical damage to one enemy.",
+            "ability_data": {
+                "name": "camisade",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Deals physical damage to one enemy.",
+                "notes": null,
+                "rank": 5,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["cindy"],
             "default_ability_of": ["cindy"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 5,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -5397,21 +5887,26 @@
             ]
         },
         {
-            "name": "razzia",
-            "version": null,
-            "description": null,
-            "effect": "Deals physical damage to one enemy.",
+            "ability_data": {
+                "name": "razzia",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Deals physical damage to one enemy.",
+                "notes": null,
+                "rank": 5,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["sandy"],
             "default_ability_of": ["sandy"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 5,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -5452,21 +5947,26 @@
             ]
         },
         {
-            "name": "nulall",
-            "version": null,
-            "description": null,
-            "effect": "Grants NulBlaze, NulShock, NulTide, and NulFrost to party.",
+            "ability_data": {
+                "name": "nulall",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Grants NulBlaze, NulShock, NulTide, and NulFrost to party.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["sandy"],
             "default_ability_of": ["sandy"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 4,
-            "rank": 3,
             "meta": [
                 {
                     "target": "all-characters",
@@ -5516,21 +6016,26 @@
             ]
         },
         {
-            "name": "passado",
-            "version": null,
-            "description": null,
-            "effect": "Deals 15 hits of physical damage to one enemy.",
+            "ability_data": {
+                "name": "passado",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Deals 15 hits of physical damage to one enemy.",
+                "notes": null,
+                "rank": 5,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["mindy"],
             "default_ability_of": ["mindy"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 5,
             "meta": [
                 {
                     "target": "single-enemy",
@@ -5571,21 +6076,26 @@
             ]
         },
         {
-            "name": "taking a break...",
-            "version": null,
-            "description": null,
-            "effect": "The user does nothing, essentially skipping their turn.",
+            "ability_data": {
+                "name": "taking a break...",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "The user does nothing, essentially skipping their turn.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "aeon-ability",
             "learned_by": ["magus sisters"],
             "default_ability_of": ["magus sisters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "self",
@@ -5610,21 +6120,26 @@
             ]
         },
         {
-            "name": "attack",
-            "version": 1,
-            "description": "Attack an enemy with equipped weapon.",
-            "effect": "Attacks one target with a physical attack.",
+            "ability_data": {
+                "name": "attack",
+                "version": 1,
+                "specification": null,
+                "description": "Attack an enemy with equipped weapon.",
+                "effect": "Attacks one target with a physical attack.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["characters", "seymour"],
             "default_ability_of": ["characters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -5665,21 +6180,26 @@
             ]
         },
         {
-            "name": "attack",
-            "version": 2,
-            "description": "Attack an enemy.",
-            "effect": "Attacks one target with a physical attack.",
+            "ability_data": {
+                "name": "attack",
+                "version": 2,
+                "specification": null,
+                "description": "Attack an enemy.",
+                "effect": "Attacks one target with a physical attack.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["aeons", "magus sisters"],
             "default_ability_of": ["aeons", "magus sisters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "single-target",
@@ -5720,21 +6240,26 @@
             ]
         },
         {
-            "name": "defend",
-            "version": null,
-            "description": null,
-            "effect": "Halves all physical damage taken by the user until their next turn.",
+            "ability_data": {
+                "name": "defend",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Halves all physical damage taken by the user until their next turn.",
+                "notes": null,
+                "rank": 2,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["characters", "seymour"],
             "default_ability_of": ["characters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 2,
             "meta": [
                 {
                     "target": "self",
@@ -5766,75 +6291,95 @@
             ]
         },
         {
-            "name": "switch",
-            "version": null,
-            "description": "Switch to $character.",
-            "effect": "Switch the user out with another available character. Doesn't cost a turn.",
+            "ability_data": {
+                "name": "switch",
+                "version": null,
+                "specification": null,
+                "description": "Switch to $character.",
+                "effect": "Switch the user out with another available character. Doesn't cost a turn.",
+                "notes": null,
+                "rank": 0,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["characters"],
             "default_ability_of": ["characters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 0,
             "meta": []
         },
         {
-            "name": "weapon",
-            "version": null,
-            "description": "Change equipped weapon.",
-            "effect": "Changes the user's Weapon.",
+            "ability_data": {
+                "name": "weapon",
+                "version": null,
+                "specification": null,
+                "description": "Change equipped weapon.",
+                "effect": "Changes the user's Weapon.",
+                "notes": null,
+                "rank": 1,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["characters"],
             "default_ability_of": ["characters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 1,
             "meta": []
         },
         {
-            "name": "armor",
-            "version": null,
-            "description": "Change equipped armor.",
-            "effect": "Changes the user's Armor.",
+            "ability_data": {
+                "name": "armor",
+                "version": null,
+                "specification": null,
+                "description": "Change equipped armor.",
+                "effect": "Changes the user's Armor.",
+                "notes": null,
+                "rank": 1,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["characters"],
             "default_ability_of": ["characters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 1,
             "meta": []
         },
         {
-            "name": "escape",
-            "version": null,
-            "description": "Run away from battle.",
-            "effect": "The user attempts to escape from battle. Has a 75% success rate. If successful, only the user of the ability is removed from battle.",
+            "ability_data": {
+                "name": "escape",
+                "version": null,
+                "specification": null,
+                "description": "Run away from battle.",
+                "effect": "The user attempts to escape from battle. Has a 75% success rate. If successful, only the user of the ability is removed from battle.",
+                "notes": null,
+                "rank": 1,
+                "appears_in__help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["characters"],
             "default_ability_of": ["characters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": true,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 1,
             "meta": [
                 {
                     "target": "self",
@@ -5866,21 +6411,26 @@
             ]
         },
         {
-            "name": "shield",
-            "version": null,
-            "description": "Take less damage, but Overdrive gauge won’t charge.",
-            "effect": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn.",
+            "ability_data": {
+                "name": "shield",
+                "version": null,
+                "specification": null,
+                "description": "Take less damage, but Overdrive gauge won’t charge.",
+                "effect": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["aeons"],
             "default_ability_of": ["aeons"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "self",
@@ -5912,21 +6462,26 @@
             ]
         },
         {
-            "name": "boost",
-            "version": null,
-            "description": "Take more damage, but charge Overdrive gauge faster.",
-            "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
+            "ability_data": {
+                "name": "boost",
+                "version": null,
+                "specification": null,
+                "description": "Take more damage, but charge Overdrive gauge faster.",
+                "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
+                "notes": null,
+                "rank": 3,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["aeons"],
             "default_ability_of": ["aeons"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 3,
             "meta": [
                 {
                     "target": "self",
@@ -5958,21 +6513,26 @@
             ]
         },
         {
-            "name": "dismiss",
-            "version": null,
-            "description": "Send aeon away.",
-            "effect": "Remove all your Aeons from the field and return to your active party. In the case of the Magus Sisters, any KO'd Sister will be revived with 1 HP.",
+            "ability_data": {
+                "name": "dismiss",
+                "version": null,
+                "specification": null,
+                "description": "Send aeon away.",
+                "effect": "Remove all your Aeons from the field and return to your active party. In the case of the Magus Sisters, any KO'd Sister will be revived with 1 HP.",
+                "notes": null,
+                "rank": 0,
+                "appears_in__help_bar": true,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "category": "other",
             "learned_by": ["aeons", "yojimbo", "magus sisters"],
             "default_ability_of": ["aeons", "yojimbo", "magus sisters"],
             "standard_grid_pos": null,
             "expert_grid_pos": null,
             "can_use_outside_battle": false,
-            "can_copycat": false,
-            "related_stats": [],
             "aeon_learn_item": null,
             "mp_cost": 0,
-            "rank": 0,
             "meta": []
         }
     ]

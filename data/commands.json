@@ -1,143 +1,213 @@
 {
     "commands_data": [
         {
-            "name": "attack",
-            "version": 1,
-            "description": "Attack an enemy with equipped weapon.",
-            "effect": "Attacks one target with a physical attack.",
+            "ability_data": {
+                "name": "attack",
+                "version": 1,
+                "specification": null,
+                "description": "Attack an enemy with equipped weapon.",
+                "effect": "Attacks one target with a physical attack.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "used_by": ["characters", "seymour"],
-            "rank": 3,
-            "can_copycat": true,
             "possible_abilities": []
         },
         {
-            "name": "attack",
-            "version": 2,
-            "description": "Attack an enemy.",
-            "effect": "Attacks one target with a physical attack.",
+            "ability_data": {
+                "name": "attack",
+                "version": 2,
+                "specification": null,
+                "description": "Attack an enemy.",
+                "effect": "Attacks one target with a physical attack.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["aeons", "magus sisters"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "defend",
-            "version": null,
-            "description": null,
-            "effect": "Halves all physical damage taken by the user until their next turn.",
+            "ability_data": {
+                "name": "defend",
+                "version": null,
+                "specification": null,
+                "description": null,
+                "effect": "Halves all physical damage taken by the user until their next turn.",
+                "rank": 2,
+                "appears_in_help_bar": false,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "used_by": ["characters", "seymour"],
-            "rank": 2,
-            "can_copycat": true,
             "possible_abilities": []
         },
         {
-            "name": "summon",
-            "version": null,
-            "description": "Summon an aeon.",
-            "effect": "Summon an aeon.",
+            "ability_data": {
+                "name": "summon",
+                "version": null,
+                "specification": null,
+                "description": "Summon an aeon.",
+                "effect": "Summon an aeon.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["yuna"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "skill",
-            "version": null,
-            "description": "Use Skills.",
-            "effect": "Use Skills.",
+            "ability_data": {
+                "name": "skill",
+                "version": null,
+                "specification": null,
+                "description": "Use Skills.",
+                "effect": "Use Skills.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["characters", "aeons"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "special",
-            "version": null,
-            "description": "Use Special Abilities.",
-            "effect": "Use Special Abilities.",
+            "ability_data": {
+                "name": "special",
+                "version": null,
+                "specification": null,
+                "description": "Use Special Abilities.",
+                "effect": "Use Special Abilities.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["characters", "aeons"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "wht magic",
-            "version": null,
-            "description": "Cast white magic spells.",
-            "effect": "Cast white magic spells.",
+            "ability_data": {
+                "name": "wht magic",
+                "version": null,
+                "specification": null,
+                "description": "Cast white magic spells.",
+                "effect": "Cast white magic spells.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["characters", "seymour", "aeons"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "blk magic",
-            "version": null,
-            "description": "Cast black magic spells.",
-            "effect": "Cast black magic spells.",
+            "ability_data": {
+                "name": "blk magic",
+                "version": null,
+                "specification": null,
+                "description": "Cast black magic spells.",
+                "effect": "Cast black magic spells.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["characters", "seymour", "aeons"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "item",
-            "version": null,
-            "description": "Use an item.",
-            "effect": "Use an item.",
+            "ability_data": {
+                "name": "item",
+                "version": null,
+                "specification": null,
+                "description": "Use an item.",
+                "effect": "Use an item.",
+                "rank": 2,
+                "appears_in_help_bar": false,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "used_by": ["characters", "seymour"],
-            "rank": 2,
-            "can_copycat": true,
             "possible_abilities": []
         },
         {
-            "name": "switch",
-            "version": null,
-            "description": "Switch to $character.",
-            "effect": "Switch the user out with another available character. Doesn't cost a turn.",
+            "ability_data": {
+                "name": "switch",
+                "version": null,
+                "specification": null,
+                "description": "Switch to $character.",
+                "effect": "Switch the user out with another available character. Doesn't cost a turn.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["characters"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "weapon",
-            "version": null,
-            "description": "Change equipped weapon.",
-            "effect": "Changes the user's Weapon.",
+            "ability_data": {
+                "name": "weapon",
+                "version": null,
+                "specification": null,
+                "description": "Change equipped weapon.",
+                "effect": "Changes the user's Weapon.",
+                "rank": 1,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["characters"],
-            "rank": 1,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "armor",
-            "version": null,
-            "description": "Change equipped armor.",
-            "effect": "Changes the user's Armor.",
+            "ability_data": {
+                "name": "armor",
+                "version": null,
+                "specification": null,
+                "description": "Change equipped armor.",
+                "effect": "Changes the user's Armor.",
+                "rank": 1,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["characters"],
-            "rank": 1,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "escape",
-            "version": null,
-            "description": "Run away from battle.",
-            "effect": "The user attempts to escape from battle. Has a 75% success rate. If successful, only the user of the ability is removed from battle.",
+            "ability_data": {
+                "name": "escape",
+                "version": null,
+                "specification": null,
+                "description": "Run away from battle.",
+                "effect": "The user attempts to escape from battle. Has a 75% success rate. If successful, only the user of the ability is removed from battle.",
+                "rank": 1,
+                "appears_in_help_bar": false,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "used_by": ["characters"],
-            "rank": 1,
-            "can_copycat": true,
             "possible_abilities": []
         },
         {
-            "name": "pay",
-            "version": null,
-            "description": "Pay Yojimbo for his services.",
-            "effect": "Pay Gil to Yojimbo in order for him to execute one of his abilities. 0 Gil to dismiss.",
+            "ability_data": {
+                "name": "pay",
+                "version": null,
+                "specification": null,
+                "description": "Pay Yojimbo for his services.",
+                "effect": "Pay Gil to Yojimbo in order for him to execute one of his abilities. 0 Gil to dismiss.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["yojimbo"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "yojimbo",
@@ -146,13 +216,18 @@
             ]
         },
         {
-            "name": "do as you will.",
-            "version": null,
-            "description": "Let the Sisters do as they please.",
-            "effect": "Ask the Magus Sisters to use a wide range of actions. Cindy may use Life-spells, Black Magic, attack. Sandy may use her physical or special attack, or cast reflect on Cindy. Mindy will use her physical or special attack. If Cindy has Reflect, Mindy will use Black Magic on her.",
+            "ability_data": {
+                "name": "do as you will.",
+                "version": null,
+                "specification": null,
+                "description": "Let the Sisters do as they please.",
+                "effect": "Ask the Magus Sisters to use a wide range of actions. Cindy may use Life-spells, Black Magic, attack. Sandy may use her physical or special attack, or cast reflect on Cindy. Mindy will use her physical or special attack. If Cindy has Reflect, Mindy will use Black Magic on her.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["magus sisters"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -169,13 +244,18 @@
             ]
         },
         {
-            "name": "one more time.",
-            "version": null,
-            "description": "Ask the Sisters to repeat their last move.",
-            "effect": "Ask the Magus Sisters to repeat their last move. They might use their physical or special attack instead.",
+            "ability_data": {
+                "name": "one more time.",
+                "version": null,
+                "specification": null,
+                "description": "Ask the Sisters to repeat their last move.",
+                "effect": "Ask the Magus Sisters to repeat their last move. They might use their physical or special attack instead.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["magus sisters"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -192,13 +272,18 @@
             ]
         },
         {
-            "name": "fight!",
-            "version": null,
-            "description": "Ask the Sisters to physically attack.",
-            "effect": "Ask the Magus Sisters to attack. They will either use their physical, or their special attack.",
+            "ability_data": {
+                "name": "fight!",
+                "version": null,
+                "specification": null,
+                "description": "Ask the Sisters to physically attack.",
+                "effect": "Ask the Magus Sisters to attack. They will either use their physical, or their special attack.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["magus sisters"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -215,13 +300,18 @@
             ]
         },
         {
-            "name": "go, go!",
-            "version": null,
-            "description": "Ask the Sisters to use offensive magic and skills.",
-            "effect": "Ask Cindy to use black magic. She sometimes uses Pray first.",
+            "ability_data": {
+                "name": "go, go!",
+                "version": null,
+                "specification": null,
+                "description": "Ask the Sisters to use offensive magic and skills.",
+                "effect": "Ask Cindy to use black magic. She sometimes uses Pray first.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["cindy"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -230,13 +320,18 @@
             ]
         },
         {
-            "name": "help each other!",
-            "version": null,
-            "description": "Ask the Sisters to use healing magic on each other.",
-            "effect": "Ask Cindy to cure or revive her sisters, or to cast Auto-Life.",
+            "ability_data": {
+                "name": "help each other!",
+                "version": null,
+                "specification": null,
+                "description": "Ask the Sisters to use healing magic on each other.",
+                "effect": "Ask Cindy to cure or revive her sisters, or to cast Auto-Life.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["cindy"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -245,13 +340,18 @@
             ]
         },
         {
-            "name": "defense!",
-            "version": null,
-            "description": "Ask the Sisters to use defensive and support magic.",
-            "effect": "Ask Sandy to use Haste, Protect, and Shell, or to cure her sisters.",
+            "ability_data": {
+                "name": "defense!",
+                "version": null,
+                "specification": null,
+                "description": "Ask the Sisters to use defensive and support magic.",
+                "effect": "Ask Sandy to use Haste, Protect, and Shell, or to cure her sisters.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["sandy"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "sandy",
@@ -260,13 +360,18 @@
             ]
         },
         {
-            "name": "are you alright?",
-            "version": null,
-            "description": "Ask the Sisters to absorb HP and MP from the enemy.",
-            "effect": "Ask Mindy to absorb HP and MP, if hers are low.",
+            "ability_data": {
+                "name": "are you alright?",
+                "version": null,
+                "specification": null,
+                "description": "Ask the Sisters to absorb HP and MP from the enemy.",
+                "effect": "Ask Mindy to absorb HP and MP, if hers are low.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["mindy"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "mindy",
@@ -275,13 +380,18 @@
             ]
         },
         {
-            "name": "combine powers!",
-            "version": null,
-            "description": "Ask the Sisters for their combined attack.",
-            "effect": "The Magus Sisters will use Delta-Attack, if all their Overdrive Gauges are full.",
+            "ability_data": {
+                "name": "combine powers!",
+                "version": null,
+                "specification": null,
+                "description": "Ask the Sisters for their combined attack.",
+                "effect": "The Magus Sisters will use Delta-Attack, if all their Overdrive Gauges are full.",
+                "rank": null,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["magus sisters"],
-            "rank": null,
-            "can_copycat": false,
             "possible_abilities": [
                 {
                     "user": "cindy",
@@ -298,33 +408,48 @@
             ]
         },
         {
-            "name": "shield",
-            "version": null,
-            "description": "Take less damage, but Overdrive gauge won’t charge.",
-            "effect": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn.",
+            "ability_data": {
+                "name": "shield",
+                "version": null,
+                "specification": null,
+                "description": "Take less damage, but Overdrive gauge won’t charge.",
+                "effect": "Causes the Aeon to take 75% less damage but gain no Overdrive gauge until its next turn.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["aeons"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "boost",
-            "version": null,
-            "description": "Take more damage, but charge Overdrive gauge faster.",
-            "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
+            "ability_data": {
+                "name": "boost",
+                "version": null,
+                "specification": null,
+                "description": "Take more damage, but charge Overdrive gauge faster.",
+                "effect": "Causes the Aeon to take 50% more damage but charge its Overdrive gauge 50% faster until its next turn.",
+                "rank": 3,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["aeons"],
-            "rank": 3,
-            "can_copycat": false,
             "possible_abilities": []
         },
         {
-            "name": "dismiss",
-            "version": null,
-            "description": "Send aeon away.",
-            "effect": "Remove all your Aeons from the field and return to your active party. In the case of the Magus Sisters, any KO'd Sisters will be revived with 1 HP.",
+            "ability_data": {
+                "name": "dismiss",
+                "version": null,
+                "specification": null,
+                "description": "Send aeon away.",
+                "effect": "Remove all your Aeons from the field and return to your active party. In the case of the Magus Sisters, any KO'd Sisters will be revived with 1 HP.",
+                "rank": 0,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
             "used_by": ["aeons", "yojimbo", "magus sisters"],
-            "rank": 0,
-            "can_copycat": false,
             "possible_abilities": []
         }
     ]

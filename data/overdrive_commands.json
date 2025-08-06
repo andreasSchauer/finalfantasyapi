@@ -4,11 +4,13 @@
             "ability_data": {
                 "name": "swordplay",
                 "version": null,
+                "specification": null,
                 "description": "Press button at the right time for extra damage!",
-                "effect": "",
-                "notes": "",
+                "effect": null,
+                "notes": null,
                 "rank": 0,
                 "appears_in_help_bar": false,
+                "can_copycat": false,
                 "related_stats": []
             },
             "user": "tidus",
@@ -17,14 +19,16 @@
                     "ability_data": {
                         "name": "spiral cut",
                         "version": null,
+                        "specification": null,
                         "description": "Damages an enemy.",
-                        "effect": "",
-                        "notes": "",
-                        "rank": 0,
+                        "effect": "Deals strength-based special damage to an enemy.",
+                        "notes": null,
+                        "rank": 3,
                         "appears_in_help_bar": true,
+                        "can_copycat": false,
                         "related_stats": []
                     },
-                    "unlock_condition": "",
+                    "unlock_condition": null,
                     "countdown_in_sec": 3,
                     "versions": [
                         {
@@ -36,14 +40,281 @@
                             "version": 2
                         }
                     ]
+                },
+                {
+                    "ability_data": {
+                        "name": "slice & dice",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals six randomly distributed hits of strength-based special damage to enemy party.",
+                        "notes": null,
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Overdrive used 10 times.",
+                    "countdown_in_sec": 3,
+                    "versions": [
+                        {
+                            "name": "slice & dice",
+                            "version": 1
+                        },
+                        {
+                            "name": "slice & dice",
+                            "version": 2
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "energy rain",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals strength-based special damage to enemy party.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Overdrive used 30 times.",
+                    "countdown_in_sec": 3,
+                    "versions": [
+                        {
+                            "name": "energy rain",
+                            "version": 1
+                        },
+                        {
+                            "name": "energy rain",
+                            "version": 2
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "blitz ace",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages an enemy.",
+                        "effect": "Deals eight hits of strength-based special damage to one enemy, plus another, stronger hit, if successful.",
+                        "notes": null,
+                        "rank": 7,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Overdrive used 80 times.",
+                    "countdown_in_sec": 2,
+                    "versions": [
+                        {
+                            "name": "blitz ace",
+                            "version": 1
+                        },
+                        {
+                            "name": "blitz ace",
+                            "version": 2
+                        }
+                    ]
                 }
             ]
         },
         {
-            "name": "grand summon",
-            "description": "Summon an aeon in Overdrive!",
-            "user": "yuna"
+            "ability_data": {
+                "name": "grand summon",
+                "version": null,
+                "specification": null,
+                "description": "Summon an aeon in Overdrive!",
+                "effect": "Summons an aeon with its overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                "notes": null,
+                "rank": 0,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "user": "yuna",
+            "overdrive_abilities": [
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 1,
+                        "specification": null,
+                        "description": "Summon the aeon Valefor.",
+                        "effect": "Summons Valefor with her overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 1
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 2,
+                        "specification": null,
+                        "description": "Summon the aeon Ifrit.",
+                        "effect": "Summons Ifrit with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Get Ifrit.",
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 2
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 3,
+                        "specification": null,
+                        "description": "Summon the aeon Ixion.",
+                        "effect": "Summons Ixion with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Get Ixion.",
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 4,
+                        "specification": null,
+                        "description": "Summon the aeon Shiva.",
+                        "effect": "Summons Shiva with her overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Get Shiva.",
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 4
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 5,
+                        "specification": null,
+                        "description": "Summon the aeon Bahamut.",
+                        "effect": "Summons Bahamut with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Get Bahamut.",
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 5
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 6,
+                        "specification": null,
+                        "description": "Summon the aeon Anima.",
+                        "effect": "Summons Anima with her overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Get Anima.",
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 6
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 7,
+                        "specification": null,
+                        "description": "Summon the aeon Yojimbo.",
+                        "effect": "Summons Yojimbo with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Get Yojimbo.",
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 7
+                        }
+                    ]
+                },
+                {
+                    "ability_data": {
+                        "name": "grand summon",
+                        "version": 8,
+                        "specification": null,
+                        "description": "Summon the Magus Sisters.",
+                        "effect": "Summons the Magus Sisters with their overdrive gauges fully charged. After using the overdrive, the gauges revert back to where they were before the summon, making it possible to use two overdrives consecutively.",
+                        "notes": null,
+                        "rank": 5,
+                        "appears_in_help_bar": false,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Get the Magus Sisters.",
+                    "countdown_in_sec": null,
+                    "versions": [
+                        {
+                            "name": "grand summon",
+                            "version": 8
+                        }
+                    ]
+                }
+            ]
         },
+        
         {
             "name": "slots",
             "description": "Get the right combination for the ultimate shot!",

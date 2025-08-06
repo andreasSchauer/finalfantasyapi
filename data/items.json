@@ -1,15 +1,23 @@
 {
     "items_data": [
         {
-            "name": "potion",
-            "description": "Restores 200 HP of one character.",
+            "ability_data": {
+                "name": "potion",
+                "version": null,
+                "specification": null,
+                "description": "Restores 200 HP of one character.",
+                "effect": "Restores 200 HP of one target. Damages zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Restores 200 HP of one target. Damages zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 50,
             "sell_value": 25,
             "meta": [
@@ -52,15 +60,23 @@
             ]
         },
         {
-            "name": "hi-potion",
-            "description": "Restores 1000 HP of one character.",
+            "ability_data": {
+                "name": "hi-potion",
+                "version": null,
+                "specification": null,
+                "description": "Restores 1000 HP of one character.",
+                "effect": "Restores 1000 HP of one target. Damages zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Restores 1000 HP of one target. Damages zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 500,
             "sell_value": 125,
             "meta": [
@@ -103,15 +119,23 @@
             ]
         },
         {
-            "name": "x-potion",
-            "description": "Fully restores HP of one character.",
+            "ability_data": {
+                "name": "x-potion",
+                "version": null,
+                "specification": null,
+                "description": "Fully restores HP of one character.",
+                "effect": "Fully restores HP of one target (maximum of 9,999 HP). zamages Zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Fully restores HP of one target (maximum of 9,999 HP). zamages Zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": [
@@ -154,15 +178,23 @@
             ]
         },
         {
-            "name": "mega-potion",
-            "description": "Restores 2000 HP of each party member.",
+            "ability_data": {
+                "name": "mega-potion",
+                "version": null,
+                "specification": null,
+                "description": "Restores 2000 HP of each party member.",
+                "effect": "Restores 2000 HP of target party. Damages Zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Restores 2000 HP of target party. Damages Zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 375,
             "meta": [
@@ -205,15 +237,23 @@
             ]
         },
         {
-            "name": "ether",
-            "description": "Restores 100 MP of one character.",
+            "ability_data": {
+                "name": "ether",
+                "version": null,
+                "specification": null,
+                "description": "Restores 100 MP of one character.",
+                "effect": "Restores 100 MP of one target. Lowers MP of zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Restores 100 MP of one target. Lowers MP of zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": [
@@ -256,15 +296,23 @@
             ]
         },
         {
-            "name": "turbo ether",
-            "description": "Restores 500 MP of one character.",
+            "ability_data": {
+                "name": "turbo ether",
+                "version": null,
+                "specification": null,
+                "description": "Restores 500 MP of one character.",
+                "effect": "Restores 500 MP of one target. Lowers MP of zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Restores 500 MP of one target. Lowers MP of zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 750,
             "meta": [
@@ -307,15 +355,23 @@
             ]
         },
         {
-            "name": "elixir",
-            "description": "Fully restores one character's HP & MP.",
+            "ability_data": {
+                "name": "elixir",
+                "version": null,
+                "specification": null,
+                "description": "Fully restores one character's HP & MP.",
+                "effect": "Fully restores HP & MP of one target (maximum of 9,999 HP and 999 MP). Damages zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Fully restores HP & MP of one target (maximum of 9,999 HP and 999 MP). Damages zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 1250,
             "meta": [
@@ -366,15 +422,23 @@
             ]
         },
         {
-            "name": "megalixir",
-            "description": "Fully restores HP & MP of party.",
+            "ability_data": {
+                "name": "megalixir",
+                "version": null,
+                "specification": null,
+                "description": "Fully restores HP & MP of party.",
+                "effect": "Fully restores HP & MP of target party (maximum of 9,999 HP and 999 MP). Damages zombies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Fully restores HP & MP of target party (maximum of 9,999 HP and 999 MP). Damages zombies.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 5000,
             "meta": [
@@ -425,15 +489,23 @@
             ]
         },
         {
-            "name": "phoenix down",
-            "description": "Revives one character from KO.",
+            "ability_data": {
+                "name": "phoenix down",
+                "version": null,
+                "specification": null,
+                "description": "Revives one character from KO.",
+                "effect": "Revives one character from KO with half of their max HP (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Revives one character from KO with half of their max HP (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": [
@@ -471,7 +543,7 @@
                         {
                             "name": "life",
                             "probability": 254,
-                            "duration_type": "endless",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -483,15 +555,23 @@
             ]
         },
         {
-            "name": "mega phoenix",
-            "description": "Revives party from KO.",
+            "ability_data": {
+                "name": "mega phoenix",
+                "version": null,
+                "specification": null,
+                "description": "Revives party from KO.",
+                "effect": "Revives party from KO and fully restores HP of revived characters (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Revives party from KO and fully restores HP of revived characters (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 1000,
             "meta": [
@@ -529,7 +609,7 @@
                         {
                             "name": "life",
                             "probability": 254,
-                            "duration_type": "endless",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -541,15 +621,23 @@
             ]
         },
         {
-            "name": "antidote",
-            "description": "Cures poison.",
+            "ability_data": {
+                "name": "antidote",
+                "version": null,
+                "specification": null,
+                "description": "Cures poison.",
+                "effect": "Cures poison of one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Cures poison of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": [
@@ -576,15 +664,23 @@
             ]
         },
         {
-            "name": "soft",
-            "description": "Cures petrification.",
+            "ability_data": {
+                "name": "soft",
+                "version": null,
+                "specification": null,
+                "description": "Cures petrification.",
+                "effect": "Cures petrification of one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Cures petrification of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": [
@@ -611,15 +707,23 @@
             ]
         },
         {
-            "name": "eye drops",
-            "description": "Cures darkness.",
+            "ability_data": {
+                "name": "eye drops",
+                "version": null,
+                "specification": null,
+                "description": "Cures darkness.",
+                "effect": "Cures darkness of one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Cures darkness of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": [
@@ -646,15 +750,23 @@
             ]
         },
         {
-            "name": "echo screen",
-            "description": "Cures silence.",
+            "ability_data": {
+                "name": "echo screen",
+                "version": null,
+                "specification": null,
+                "description": "Cures silence.",
+                "effect": "Cures silence of one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Cures silence of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": [
@@ -681,15 +793,23 @@
             ]
         },
         {
-            "name": "holy water",
-            "description": "Cures zombie and curse.",
+            "ability_data": {
+                "name": "holy water",
+                "version": null,
+                "specification": null,
+                "description": "Cures zombie and curse.",
+                "effect": "Cures zombie and curse of one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Cures zombie and curse of one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 300,
             "sell_value": 75,
             "meta": [
@@ -716,15 +836,23 @@
             ]
         },
         {
-            "name": "remedy",
-            "description": "Cures all status abnormalities.",
+            "ability_data": {
+                "name": "remedy",
+                "version": null,
+                "specification": null,
+                "description": "Cures all status abnormalities.",
+                "effect": "Cures all status ailments of one target, except breaks, curse, doom, and KO.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Cures all status ailments of one target, except breaks, curse, doom, and KO.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 1500,
             "sell_value": 375,
             "meta": [
@@ -751,15 +879,23 @@
             ]
         },
         {
-            "name": "power distiller",
-            "description": "Makes one enemy drop Power Spheres.",
+            "ability_data": {
+                "name": "power distiller",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Power Spheres.",
+                "effect": "Makes one enemy drop Power Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Makes one enemy drop Power Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": [
@@ -793,15 +929,23 @@
             ]
         },
         {
-            "name": "mana distiller",
-            "description": "Makes one enemy drop Mana Spheres.",
+            "ability_data": {
+                "name": "mana distiller",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Mana Spheres.",
+                "effect": "Makes one enemy drop Mana Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Makes one enemy drop Mana Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": [
@@ -835,15 +979,23 @@
             ]
         },
         {
-            "name": "speed distiller",
-            "description": "Makes one enemy drop Speed Spheres.",
+            "ability_data": {
+                "name": "speed distiller",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Speed Spheres.",
+                "effect": "Makes one enemy drop Speed Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Makes one enemy drop Speed Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": [
@@ -877,15 +1029,23 @@
             ]
         },
         {
-            "name": "ability distiller",
-            "description": "Makes one enemy drop Ability Spheres.",
+            "ability_data": {
+                "name": "ability distiller",
+                "version": null,
+                "specification": null,
+                "description": "Makes one enemy drop Ability Spheres.",
+                "effect": "Makes one enemy drop Ability Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Makes one enemy drop Ability Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
             "category": "distiller",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 100,
             "sell_value": 25,
             "meta": [
@@ -919,15 +1079,23 @@
             ]
         },
         {
-            "name": "al bhed potion",
-            "description": "Cures poison, silence, petrification. Gives 1000 HP to all.",
+            "ability_data": {
+                "name": "al bhed potion",
+                "version": null,
+                "specification": null,
+                "description": "Cures poison, silence, petrification. Gives 1000 HP to all.",
+                "effect": "Cures poison, silence, and petrification and restores 1000 HP of target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Cures poison, silence, and petrification and restores 1000 HP of target party.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": 1000,
             "sell_value": 250,
             "meta": [
@@ -970,15 +1138,23 @@
             ]
         },
         {
-            "name": "healing water",
-            "description": "Fully restores HP of party.",
+            "ability_data": {
+                "name": "healing water",
+                "version": null,
+                "specification": null,
+                "description": "Fully restores HP of party.",
+                "effect": "Fully restores HP of target party. Maximum of 9,999 HP.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Fully restores HP of target party. Maximum of 9,999 HP.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": [
@@ -1021,15 +1197,23 @@
             ]
         },
         {
-            "name": "tetra elemental",
-            "description": "Fully restores HP and casts NulAll on party.",
+            "ability_data": {
+                "name": "tetra elemental",
+                "version": null,
+                "specification": null,
+                "description": "Fully restores HP and casts NulAll on party.",
+                "effect": "Fully restores HP (maximum of 9,999 HP) and casts NulAll on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Fully restores HP (maximum of 9,999 HP) and casts NulAll on one target.",
             "category": "healing",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 200,
             "meta": [
@@ -1097,15 +1281,23 @@
             ]
         },
         {
-            "name": "antarctic wind",
-            "description": "Deals ice damage to an enemy.",
+            "ability_data": {
+                "name": "antarctic wind",
+                "version": null,
+                "specification": null,
+                "description": "Deals ice damage to an enemy.",
+                "effect": "Deals around 600 HP of ice-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 600 HP of ice-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -1148,15 +1340,23 @@
             ]
         },
         {
-            "name": "arctic wind",
-            "description": "Deals ice damage to an enemy.",
+            "ability_data": {
+                "name": "arctic wind",
+                "version": null,
+                "specification": null,
+                "description": "Deals ice damage to an enemy.",
+                "effect": "Deals around 1,000 HP of ice-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 1,000 HP of ice-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -1199,15 +1399,23 @@
             ]
         },
         {
-            "name": "ice gem",
-            "description": "Deals ice damage to all enemies.",
+            "ability_data": {
+                "name": "ice gem",
+                "version": null,
+                "specification": null,
+                "description": "Deals ice damage to all enemies.",
+                "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of ice-elemental special damage each.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of ice-elemental special damage each.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -1250,15 +1458,23 @@
             ]
         },
         {
-            "name": "bomb fragment",
-            "description": "Deals fire damage to an enemy.",
+            "ability_data": {
+                "name": "bomb fragment",
+                "version": null,
+                "specification": null,
+                "description": "Deals fire damage to an enemy.",
+                "effect": "Deals around 600 HP of fire-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 600 HP of fire-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -1301,15 +1517,23 @@
             ]
         },
         {
-            "name": "bomb core",
-            "description": "Deals fire damage to an enemy.",
+            "ability_data": {
+                "name": "bomb core",
+                "version": null,
+                "specification": null,
+                "description": "Deals fire damage to an enemy.",
+                "effect": "Deals around 1,000 HP of fire-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 1,000 HP of fire-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -1352,15 +1576,23 @@
             ]
         },
         {
-            "name": "fire gem",
-            "description": "Deals fire damage to all enemies.",
+            "ability_data": {
+                "name": "fire gem",
+                "version": null,
+                "specification": null,
+                "description": "Deals fire damage to all enemies.",
+                "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of fire-elemental special damage each.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of fire-elemental special damage each.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -1403,15 +1635,23 @@
             ]
         },
         {
-            "name": "electro marble",
-            "description": "Deals lightning damage to an enemy.",
+            "ability_data": {
+                "name": "electro marble",
+                "version": null,
+                "specification": null,
+                "description": "Deals lightning damage to an enemy.",
+                "effect": "Deals around 600 HP of lightning-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 600 HP of lightning-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -1454,15 +1694,23 @@
             ]
         },
         {
-            "name": "lightning marble",
-            "description": "Deals lightning damage to an enemy.",
+            "ability_data": {
+                "name": "lightning marble",
+                "version": null,
+                "specification": null,
+                "description": "Deals lightning damage to an enemy.",
+                "effect": "Deals around 1,000 HP of lightning-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 1,000 HP of lightning-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -1505,15 +1753,23 @@
             ]
         },
         {
-            "name": "lightning gem",
-            "description": "Deals lightning damage to all enemies.",
+            "ability_data": {
+                "name": "lightning gem",
+                "version": null,
+                "specification": null,
+                "description": "Deals lightning damage to all enemies.",
+                "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of lightning-elemental special damage each.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of lightning-elemental special damage each.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -1556,15 +1812,23 @@
             ]
         },
         {
-            "name": "fish scale",
-            "description": "Deals water damage to an enemy.",
+            "ability_data": {
+                "name": "fish scale",
+                "version": null,
+                "specification": null,
+                "description": "Deals water damage to an enemy.",
+                "effect": "Deals around 600 HP of water-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 600 HP of water-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -1607,15 +1871,23 @@
             ]
         },
         {
-            "name": "dragon scale",
-            "description": "Deals water damage to an enemy.",
+            "ability_data": {
+                "name": "dragon scale",
+                "version": null,
+                "specification": null,
+                "description": "Deals water damage to an enemy.",
+                "effect": "Deals around 1,000 HP of water-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 1,000 HP of water-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -1658,15 +1930,23 @@
             ]
         },
         {
-            "name": "water gem",
-            "description": "Deals water damage to all enemies.",
+            "ability_data": {
+                "name": "water gem",
+                "version": null,
+                "specification": null,
+                "description": "Deals water damage to all enemies.",
+                "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of water-elemental special damage each.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of water-elemental special damage each.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -1709,15 +1989,23 @@
             ]
         },
         {
-            "name": "grenade",
-            "description": "Damages all enemies.",
+            "ability_data": {
+                "name": "grenade",
+                "version": null,
+                "specification": null,
+                "description": "Damages all enemies.",
+                "effect": "Deals around 350 HP of non-elemental special damage to target party (can critical).",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 350 HP of non-elemental special damage to target party (can critical).",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": 300,
             "sell_value": 75,
             "meta": [
@@ -1760,15 +2048,23 @@
             ]
         },
         {
-            "name": "frag grenade",
-            "description": "Inflicts damage and Armor Break on all enemies.",
+            "ability_data": {
+                "name": "frag grenade",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts damage and Armor Break on all enemies.",
+                "effect": "Inflicts Armor Break on target party and deals around 800 HP of non-elemental special damage (can critical).",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Armor Break on target party and deals around 800 HP of non-elemental special damage (can critical).",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": [
@@ -1818,15 +2114,23 @@
             ]
         },
         {
-            "name": "sleeping powder",
-            "description": "Inflicts damage and sleep on all enemies.",
+            "ability_data": {
+                "name": "sleeping powder",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts damage and sleep on all enemies.",
+                "effect": "Inflicts Sleep and deals around 750 HP of non-elemental special damage to target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Sleep and deals around 750 HP of non-elemental special damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -1876,15 +2180,23 @@
             ]
         },
         {
-            "name": "dream powder",
-            "description": "Inflicts damage and sleep on all enemies.",
+            "ability_data": {
+                "name": "dream powder",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts damage and sleep on all enemies.",
+                "effect": "Inflicts Sleep and deals around 1000 HP of non-elemental special damage to target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Sleep and deals around 1000 HP of non-elemental special damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -1934,15 +2246,23 @@
             ]
         },
         {
-            "name": "silence grenade",
-            "description": "Inflicts damage and silence on all enemies.",
+            "ability_data": {
+                "name": "silence grenade",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts damage and silence on all enemies.",
+                "effect": "Inflicts Silence and deals around 750 HP of non-elemental special damage to target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Silence and deals around 750 HP of non-elemental special damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 37,
             "meta": [
@@ -1992,15 +2312,23 @@
             ]
         },
         {
-            "name": "smoke bomb",
-            "description": "Inflicts damage and darkness on all enemies.",
+            "ability_data": {
+                "name": "smoke bomb",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts damage and darkness on all enemies.",
+                "effect": "Inflicts Darkness and deals around 750 HP of non-elemental special damage to target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Darkness and deals around 750 HP of non-elemental special damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 37,
             "meta": [
@@ -2050,15 +2378,23 @@
             ]
         },
         {
-            "name": "shadow gem",
-            "description": "Reduces HP of all enemies by half.",
+            "ability_data": {
+                "name": "shadow gem",
+                "version": null,
+                "specification": null,
+                "description": "Reduces HP of all enemies by half.",
+                "effect": "Deals gravity-based special damage to target party equal to half their current HP (maximum of 9,999 HP).",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals gravity-based special damage to target party equal to half their current HP (maximum of 9,999 HP).",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -2101,15 +2437,23 @@
             ]
         },
         {
-            "name": "shining gem",
-            "description": "Damages an enemy.",
+            "ability_data": {
+                "name": "shining gem",
+                "version": null,
+                "specification": null,
+                "description": "Damages an enemy.",
+                "effect": "Deals around 6,000 HP of non-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 6,000 HP of non-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -2152,15 +2496,23 @@
             ]
         },
         {
-            "name": "blessed gem",
-            "description": "Damages an enemy.",
+            "ability_data": {
+                "name": "blessed gem",
+                "version": null,
+                "specification": null,
+                "description": "Damages an enemy.",
+                "effect": "Deals around 8,000 HP of holy-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 8,000 HP of holy-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": [
@@ -2203,15 +2555,23 @@
             ]
         },
         {
-            "name": "supreme gem",
-            "description": "Damages all enemies.",
+            "ability_data": {
+                "name": "supreme gem",
+                "version": null,
+                "specification": null,
+                "description": "Damages all enemies.",
+                "effect": "Deals around 10,000 HP of non-elemental special damage to one target (maximum of 9,999 HP).",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 10,000 HP of non-elemental special damage to one target (maximum of 9,999 HP).",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": [
@@ -2254,15 +2614,23 @@
             ]
         },
         {
-            "name": "poison fang",
-            "description": "Inflicts damage and poison on an enemy.",
+            "ability_data": {
+                "name": "poison fang",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts damage and poison on an enemy.",
+                "effect": "Inflicts Poison and deals around 2000 HP of non-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Poison and deals around 2000 HP of non-elemental special damage to one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -2312,15 +2680,23 @@
             ]
         },
         {
-            "name": "silver hourglass",
-            "description": "Delays next turn of all enemies.",
+            "ability_data": {
+                "name": "silver hourglass",
+                "version": null,
+                "specification": null,
+                "description": "Delays next turn of all enemies.",
+                "effect": "Inflicts Slow on target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Slow on target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -2362,15 +2738,23 @@
             ]
         },
         {
-            "name": "gold hourglass",
-            "description": "Damages all enemies and delays their next turn.",
+            "ability_data": {
+                "name": "gold hourglass",
+                "version": null,
+                "specification": null,
+                "description": "Damages all enemies and delays their next turn.",
+                "effect": "Inflicts Slow and weak Delay, and deals around 1000 HP of non-elemental special damage to target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Slow and weak Delay, and deals around 1000 HP of non-elemental special damage to target party.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 37,
             "meta": [
@@ -2428,15 +2812,23 @@
             ]
         },
         {
-            "name": "candle of life",
-            "description": "Casts Doom on an enemy.",
+            "ability_data": {
+                "name": "candle of life",
+                "version": null,
+                "specification": null,
+                "description": "Casts Doom on an enemy.",
+                "effect": "Inflicts Doom on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Doom on one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -2470,15 +2862,23 @@
             ]
         },
         {
-            "name": "petrify grenade",
-            "description": "Petrifies all enemies.",
+            "ability_data": {
+                "name": "petrify grenade",
+                "version": null,
+                "specification": null,
+                "description": "Petrifies all enemies.",
+                "effect": "Inflicts Petrification on all enemies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Petrification on all enemies.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -2512,15 +2912,23 @@
             ]
         },
         {
-            "name": "farplane shadow",
-            "description": "Inflicts death on an enemy.",
+            "ability_data": {
+                "name": "farplane shadow",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts death on an enemy.",
+                "effect": "Inflicts Death on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Death on one target.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -2542,7 +2950,7 @@
                         {
                             "name": "death",
                             "probability": 254,
-                            "duration_type": "endless",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -2554,15 +2962,23 @@
             ]
         },
         {
-            "name": "farplane wind",
-            "description": "Inflicts death on all enemies.",
+            "ability_data": {
+                "name": "farplane wind",
+                "version": null,
+                "specification": null,
+                "description": "Inflicts death on all enemies.",
+                "effect": "Inflicts Death on all enemies.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Inflicts Death on all enemies.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 100,
             "meta": [
@@ -2584,7 +3000,7 @@
                         {
                             "name": "death",
                             "probability": 254,
-                            "duration_type": "endless",
+                            "duration_type": "instant",
                             "amount": null
                         }
                     ],
@@ -2596,15 +3012,23 @@
             ]
         },
         {
-            "name": "dark matter",
-            "description": "Deals major damage to all enemies.",
+            "ability_data": {
+                "name": "dark matter",
+                "version": null,
+                "specification": null,
+                "description": "Deals major damage to all enemies.",
+                "effect": "Deals around 12,750 HP of non-elemental special damage to target party. Can break the damage limit without the auto-ability equipped.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Deals around 12,750 HP of non-elemental special damage to target party. Can break the damage limit without the auto-ability equipped.",
             "category": "offensive",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 7500,
             "meta": [
@@ -2647,15 +3071,23 @@
             ]
         },
         {
-            "name": "chocobo feather",
-            "description": "Casts Haste on one character.",
+            "ability_data": {
+                "name": "chocobo feather",
+                "version": null,
+                "specification": null,
+                "description": "Casts Haste on one character.",
+                "effect": "Casts Haste on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Casts Haste on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 40,
             "meta": [
@@ -2697,15 +3129,23 @@
             ]
         },
         {
-            "name": "chocobo wing",
-            "description": "Casts Haste on party.",
+            "ability_data": {
+                "name": "chocobo wing",
+                "version": null,
+                "specification": null,
+                "description": "Casts Haste on party.",
+                "effect": "Casts Haste on target party.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Casts Haste on target party.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -2747,15 +3187,23 @@
             ]
         },
         {
-            "name": "lunar curtain",
-            "description": "Casts Shell on one character.",
+            "ability_data": {
+                "name": "lunar curtain",
+                "version": null,
+                "specification": null,
+                "description": "Casts Shell on one character.",
+                "effect": "Casts Shell on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Casts Shell on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 45,
             "meta": [
@@ -2789,15 +3237,23 @@
             ]
         },
         {
-            "name": "light curtain",
-            "description": "Casts Protect on one character.",
+            "ability_data": {
+                "name": "light curtain",
+                "version": null,
+                "specification": null,
+                "description": "Casts Protect on one character.",
+                "effect": "Casts Protect on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Casts Protect on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 45,
             "meta": [
@@ -2831,15 +3287,23 @@
             ]
         },
         {
-            "name": "star curtain",
-            "description": "Casts Reflect on one character.",
+            "ability_data": {
+                "name": "star curtain",
+                "version": null,
+                "specification": null,
+                "description": "Casts Reflect on one character.",
+                "effect": "Casts Reflect on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Casts Reflect on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 45,
             "meta": [
@@ -2873,15 +3337,23 @@
             ]
         },
         {
-            "name": "healing spring",
-            "description": "Casts Regen on one character.",
+            "ability_data": {
+                "name": "healing spring",
+                "version": null,
+                "specification": null,
+                "description": "Casts Regen on one character.",
+                "effect": "Casts Regen on one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Casts Regen on one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 150,
             "meta": [
@@ -2915,15 +3387,23 @@
             ]
         },
         {
-            "name": "mana spring",
-            "description": "Absorbs MP from an enemy.",
+            "ability_data": {
+                "name": "mana spring",
+                "version": null,
+                "specification": null,
+                "description": "Absorbs MP from an enemy.",
+                "effect": "Absorbs around 1000 MP from one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Absorbs around 1000 MP from one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -2966,15 +3446,23 @@
             ]
         },
         {
-            "name": "stamina spring",
-            "description": "Absorbs HP from an enemy.",
+            "ability_data": {
+                "name": "stamina spring",
+                "version": null,
+                "specification": null,
+                "description": "Absorbs HP from an enemy.",
+                "effect": "Absorbs around 400 HP from one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Absorbs around 400 HP from one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -3017,15 +3505,23 @@
             ]
         },
         {
-            "name": "soul spring",
-            "description": "Absorbs HP & MP from an enemy.",
+            "ability_data": {
+                "name": "soul spring",
+                "version": null,
+                "specification": null,
+                "description": "Absorbs HP & MP from an enemy.",
+                "effect": "Absorbs around 1500 HP and MP from one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Absorbs around 1500 HP and MP from one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 100,
             "meta": [
@@ -3076,15 +3572,23 @@
             ]
         },
         {
-            "name": "purifying salt",
-            "description": "Damages an enemy and dispels its magic effects.",
+            "ability_data": {
+                "name": "purifying salt",
+                "version": null,
+                "specification": null,
+                "description": "Damages an enemy and dispels its magic effects.",
+                "effect": "Casts Dispel and deals around 1,100 HP of non-elemental special damage to one target.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Casts Dispel and deals around 1,100 HP of non-elemental special damage to one target.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 70,
             "meta": [
@@ -3127,15 +3631,23 @@
             ]
         },
         {
-            "name": "stamina tablet",
-            "description": "Doubles max HP of one character.",
+            "ability_data": {
+                "name": "stamina tablet",
+                "version": null,
+                "specification": null,
+                "description": "Doubles max HP of one character.",
+                "effect": "Doubles max HP of one character (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp"]
+            },
             "sphere_grid_description": null,
-            "effect": "Doubles max HP of one character (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": ["hp"],
             "base_price": null,
             "sell_value": 200,
             "meta": [
@@ -3169,15 +3681,23 @@
             ]
         },
         {
-            "name": "mana tablet",
-            "description": "Doubles max MP of one character.",
+            "ability_data": {
+                "name": "mana tablet",
+                "version": null,
+                "specification": null,
+                "description": "Doubles max MP of one character.",
+                "effect": "Doubles max MP of one character (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["mp"]
+            },
             "sphere_grid_description": null,
-            "effect": "Doubles max MP of one character (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 500,
             "meta": [
@@ -3211,15 +3731,23 @@
             ]
         },
         {
-            "name": "stamina tonic",
-            "description": "Doubles max HP of party.",
+            "ability_data": {
+                "name": "stamina tonic",
+                "version": null,
+                "specification": null,
+                "description": "Doubles max HP of party.",
+                "effect": "Doubles max HP of party (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp"]
+            },
             "sphere_grid_description": null,
-            "effect": "Doubles max HP of party (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": ["hp"],
             "base_price": null,
             "sell_value": 400,
             "meta": [
@@ -3253,15 +3781,23 @@
             ]
         },
         {
-            "name": "mana tonic",
-            "description": "Doubles max MP of party.",
+            "ability_data": {
+                "name": "mana tonic",
+                "version": null,
+                "specification": null,
+                "description": "Doubles max MP of party.",
+                "effect": "Doubles max MP of party (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["mp"]
+            },
             "sphere_grid_description": null,
-            "effect": "Doubles max MP of party (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 400,
             "meta": [
@@ -3295,15 +3831,23 @@
             ]
         },
         {
-            "name": "twin stars",
-            "description": "Reduces MP cost of one character to 0.",
+            "ability_data": {
+                "name": "twin stars",
+                "version": null,
+                "specification": null,
+                "description": "Reduces MP cost of one character to 0.",
+                "effect": "Reduces MP cost of one character to 0. Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["mp"]
+            },
             "sphere_grid_description": null,
-            "effect": "Reduces MP cost of one character to 0. Effect goes away when KO'd.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 200,
             "meta": [
@@ -3337,15 +3881,23 @@
             ]
         },
         {
-            "name": "three stars",
-            "description": "Reduces party's MP cost to 0.",
+            "ability_data": {
+                "name": "three stars",
+                "version": null,
+                "specification": null,
+                "description": "Reduces party's MP cost to 0.",
+                "effect": "Reduces MP cost of party to 0. Effect goes away when KO'd.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["mp"]
+            },
             "sphere_grid_description": null,
-            "effect": "Reduces MP cost of party to 0. Effect goes away when KO'd.",
             "category": "support",
             "can_use_in_battle": true,
             "can_use_outside_battle": false,
             "is_use_item": true,
-            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 2500,
             "meta": [
@@ -3379,15 +3931,23 @@
             ]
         },
         {
-            "name": "power sphere",
-            "description": "Activates nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "power sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates nodes on Sphere Grid.",
+                "effect": "Activates Strength, Defense, and HP nodes on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp", "strength", "defense"]
+            },
             "sphere_grid_description": "Activates Strength, Defense, or HP node.",
-            "effect": "Activates Strength, Defense, and HP nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["hp", "strength", "defense"],
             "base_price": null,
             "sell_value": 1,
             "meta": [
@@ -3414,15 +3974,23 @@
             ]
         },
         {
-            "name": "mana sphere",
-            "description": "Activates nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "mana sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates nodes on Sphere Grid.",
+                "effect": "Activates Magic, Magic Defense, and MP nodes on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["mp", "magic", "magic defense"]
+            },
             "sphere_grid_description": "Activates Magic, Magic Defense, or MP node.",
-            "effect": "Activates Magic, Magic Defense, and MP nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["mp", "magic", "magic defense"],
             "base_price": null,
             "sell_value": 1,
             "meta": [
@@ -3449,15 +4017,23 @@
             ]
         },
         {
-            "name": "speed sphere",
-            "description": "Activates nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "speed sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates nodes on Sphere Grid.",
+                "effect": "Activates Agility, Accuracy, and Evasion nodes on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["agility", "evasion", "accuracy"]
+            },
             "sphere_grid_description": "Activates Agility, Accuracy, or Evasion node.",
-            "effect": "Activates Agility, Accuracy, and Evasion nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["agility", "evasion", "accuracy"],
             "base_price": null,
             "sell_value": 1,
             "meta": [
@@ -3484,15 +4060,23 @@
             ]
         },
         {
-            "name": "ability sphere",
-            "description": "Activates nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "ability sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates nodes on Sphere Grid.",
+                "effect": "Activates Ability nodes on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Activates Ability node.",
-            "effect": "Activates Ability nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 1,
             "meta": [
@@ -3519,15 +4103,23 @@
             ]
         },
         {
-            "name": "fortune sphere",
-            "description": "Activates nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "fortune sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates nodes on Sphere Grid.",
+                "effect": "Activates Luck nodes on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["luck"]
+            },
             "sphere_grid_description": "Activates Luck node.",
-            "effect": "Activates Luck nodes on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["luck"],
             "base_price": null,
             "sell_value": 5,
             "meta": [
@@ -3554,15 +4146,23 @@
             ]
         },
         {
-            "name": "attribute sphere",
-            "description": "Activates Attribute nodes used by allies on Sphere Grid.",
+            "ability_data": {
+                "name": "attribute sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates Attribute nodes used by allies on Sphere Grid.",
+                "effect": "Activates an attribute-increasing node activated by another character on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"]
+            },
             "sphere_grid_description": "Activates Attribute node already used by ally.",
-            "effect": "Activates an attribute-increasing node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -3589,15 +4189,23 @@
             ]
         },
         {
-            "name": "special sphere",
-            "description": "Activates Special nodes used by allies on Sphere Grid.",
+            "ability_data": {
+                "name": "special sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates Special nodes used by allies on Sphere Grid.",
+                "effect": "Activates a Special Ability node activated by another character on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Activates Special node already used by ally.",
-            "effect": "Activates a Special Ability node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -3624,15 +4232,23 @@
             ]
         },
         {
-            "name": "skill sphere",
-            "description": "Activates Skill nodes used by allies on Sphere Grid.",
+            "ability_data": {
+                "name": "skill sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates Skill nodes used by allies on Sphere Grid.",
+                "effect": "Activates a Skill node activated by another character on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Activates Skill node already used by ally.",
-            "effect": "Activates a Skill node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -3659,15 +4275,23 @@
             ]
         },
         {
-            "name": "wht magic sphere",
-            "description": "Activates White Magic nodes used by allies on Sphere Grid.",
+            "ability_data": {
+                "name": "wht magic sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates White Magic nodes used by allies on Sphere Grid.",
+                "effect": "Activates a White Magic Ability node activated by another character on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Activates White Magic node already used by ally.",
-            "effect": "Activates a White Magic Ability node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -3694,15 +4318,23 @@
             ]
         },
         {
-            "name": "blk magic sphere",
-            "description": "Activates Black Magic nodes used by allies on Sphere Grid.",
+            "ability_data": {
+                "name": "blk magic sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates Black Magic nodes used by allies on Sphere Grid.",
+                "effect": "Activates a Black Magic Ability node activated by another character on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Activates Black Magic node already used by ally.",
-            "effect": "Activates a Black Magic Ability node activated by another character on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -3729,15 +4361,23 @@
             ]
         },
         {
-            "name": "master sphere",
-            "description": "Activates any Ability or Attribute nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "master sphere",
+                "version": null,
+                "specification": null,
+                "description": "Activates any Ability or Attribute nodes on Sphere Grid.",
+                "effect": "Activates any node on the Sphere Grid, regardless of location and activation.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"]
+            },
             "sphere_grid_description": "Activates any Ability or Attribute node.",
-            "effect": "Activates any node on the Sphere Grid, regardless of location and activation.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -3764,15 +4404,23 @@
             ]
         },
         {
-            "name": "lv. 1 key sphere",
-            "description": "Open Locks on Sphere Grid.",
+            "ability_data": {
+                "name": "lv. 1 key sphere",
+                "version": null,
+                "specification": null,
+                "description": "Open Locks on Sphere Grid.",
+                "effect": "Changes a Lv. 1 Lock on the Sphere Grid into an empty node.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Opens Lv. 1 Lock.",
-            "effect": "Changes a Lv. 1 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 25,
             "meta": [
@@ -3799,15 +4447,23 @@
             ]
         },
         {
-            "name": "lv. 2 key sphere",
-            "description": "Open Locks on Sphere Grid.",
+            "ability_data": {
+                "name": "lv. 2 key sphere",
+                "version": null,
+                "specification": null,
+                "description": "Open Locks on Sphere Grid.",
+                "effect": "Changes a Lv. 2 Lock on the Sphere Grid into an empty node.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Opens Lv. 2 Lock.",
-            "effect": "Changes a Lv. 2 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -3834,15 +4490,23 @@
             ]
         },
         {
-            "name": "lv. 3 key sphere",
-            "description": "Open Locks on Sphere Grid.",
+            "ability_data": {
+                "name": "lv. 3 key sphere",
+                "version": null,
+                "specification": null,
+                "description": "Open Locks on Sphere Grid.",
+                "effect": "Changes a Lv. 3 Lock on the Sphere Grid into an empty node.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Opens Lv. 3 Lock.",
-            "effect": "Changes a Lv. 3 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -3869,15 +4533,23 @@
             ]
         },
         {
-            "name": "lv. 4 key sphere",
-            "description": "Open Locks on Sphere Grid.",
+            "ability_data": {
+                "name": "lv. 4 key sphere",
+                "version": null,
+                "specification": null,
+                "description": "Open Locks on Sphere Grid.",
+                "effect": "Changes a Lv. 4 Lock on the Sphere Grid into an empty node.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Opens Lv. 4 Lock..",
-            "effect": "Changes a Lv. 4 Lock on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 100,
             "meta": [
@@ -3904,15 +4576,23 @@
             ]
         },
         {
-            "name": "hp sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "hp sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'HP +300'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp"]
+            },
             "sphere_grid_description": "Changes empty node into HP node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'HP +300'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["hp"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -3939,15 +4619,23 @@
             ]
         },
         {
-            "name": "mp sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "mp sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'MP +40'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["mp"]
+            },
             "sphere_grid_description": "Changes empty node into MP node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'MP +40'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["mp"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -3974,15 +4662,23 @@
             ]
         },
         {
-            "name": "strength sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "strength sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Strength +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["strength"]
+            },
             "sphere_grid_description": "Changes empty node into Strength node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Strength +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["strength"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4009,15 +4705,23 @@
             ]
         },
         {
-            "name": "defense sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "defense sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Defense +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["defense"]
+            },
             "sphere_grid_description": "Changes empty node into Defense node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Defense +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["defense"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4044,15 +4748,23 @@
             ]
         },
         {
-            "name": "magic sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "magic sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Magic +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["magic"]
+            },
             "sphere_grid_description": "Changes empty node into Magic node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Magic +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["magic"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4079,15 +4791,23 @@
             ]
         },
         {
-            "name": "magic def sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "magic def sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Magic Def +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["magic defense"]
+            },
             "sphere_grid_description": "Changes empty node into Magic Def node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Magic Def +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["magic defense"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4114,15 +4834,23 @@
             ]
         },
         {
-            "name": "agility sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "agility sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Agility +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["agility"]
+            },
             "sphere_grid_description": "Changes empty node into Agility node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Agility +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["agility"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4149,15 +4877,23 @@
             ]
         },
         {
-            "name": "evasion sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "evasion sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Evasion +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["evasion"]
+            },
             "sphere_grid_description": "Changes empty node into Evasion node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Evasion +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["evasion"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4184,15 +4920,23 @@
             ]
         },
         {
-            "name": "accuracy sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "accuracy sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Accuracy +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["accuracy"]
+            },
             "sphere_grid_description": "Changes empty node into Accuracy node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Accuracy +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["accuracy"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4219,15 +4963,23 @@
             ]
         },
         {
-            "name": "luck sphere",
-            "description": "Fills empty nodes on Sphere Grid.",
+            "ability_data": {
+                "name": "luck sphere",
+                "version": null,
+                "specification": null,
+                "description": "Fills empty nodes on Sphere Grid.",
+                "effect": "Converts an empty node on the Sphere Grid into 'Luck +4'.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["luck"]
+            },
             "sphere_grid_description": "Changes empty node into Luck node.",
-            "effect": "Converts an empty node on the Sphere Grid into 'Luck +4'.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["luck"],
             "base_price": null,
             "sell_value": 75,
             "meta": [
@@ -4254,15 +5006,23 @@
             ]
         },
         {
-            "name": "clear sphere",
-            "description": "Clears nodes from Sphere Grid.",
+            "ability_data": {
+                "name": "clear sphere",
+                "version": null,
+                "specification": null,
+                "description": "Clears nodes from Sphere Grid.",
+                "effect": "Converts an attribute-increasing node on the Sphere Grid into an empty node.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"]
+            },
             "sphere_grid_description": "Clears node from Grid.",
-            "effect": "Converts an attribute-increasing node on the Sphere Grid into an empty node.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"],
             "base_price": 10000,
             "sell_value": 2500,
             "meta": [
@@ -4289,15 +5049,23 @@
             ]
         },
         {
-            "name": "return sphere",
-            "description": "Changes current location on Sphere Grid.",
+            "ability_data": {
+                "name": "return sphere",
+                "version": null,
+                "specification": null,
+                "description": "Changes current location on Sphere Grid.",
+                "effect": "Enables move to any node on the Sphere Grid that is already activated by the current character.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Return to any previously activated node.",
-            "effect": "Enables move to any node on the Sphere Grid that is already activated by the current character.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 125,
             "meta": [
@@ -4324,15 +5092,23 @@
             ]
         },
         {
-            "name": "friend sphere",
-            "description": "Changes current location on Sphere Grid.",
+            "ability_data": {
+                "name": "friend sphere",
+                "version": null,
+                "specification": null,
+                "description": "Changes current location on Sphere Grid.",
+                "effect": "Enables move to another character's location on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Move to any ally's location.",
-            "effect": "Enables move to another character's location on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 150,
             "meta": [
@@ -4359,15 +5135,23 @@
             ]
         },
         {
-            "name": "teleport sphere",
-            "description": "Changes current location on Sphere Grid.",
+            "ability_data": {
+                "name": "teleport sphere",
+                "version": null,
+                "specification": null,
+                "description": "Changes current location on Sphere Grid.",
+                "effect": "Enables move to any node on the Sphere Grid that is already activated by a character.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Move to any node activated by ally.",
-            "effect": "Enables move to any node on the Sphere Grid that is already activated by a character.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 200,
             "meta": [
@@ -4394,15 +5178,23 @@
             ]
         },
         {
-            "name": "warp sphere",
-            "description": "Changes current location on Sphere Grid.",
+            "ability_data": {
+                "name": "warp sphere",
+                "version": null,
+                "specification": null,
+                "description": "Changes current location on Sphere Grid.",
+                "effect": "Enables move to any node on the Sphere Grid.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": "Move to any node.",
-            "effect": "Enables move to any node on the Sphere Grid.",
             "category": "sphere",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 250,
             "meta": [
@@ -4429,15 +5221,23 @@
             ]
         },
         {
-            "name": "map",
-            "description": "Displays world map.",
+            "ability_data": {
+                "name": "map",
+                "version": null,
+                "specification": null,
+                "description": "Displays world map.",
+                "effect": "Displays the world map.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Displays the world map.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": 50,
             "sell_value": 12,
             "meta": [
@@ -4464,15 +5264,23 @@
             ]
         },
         {
-            "name": "rename card",
-            "description": "Renames aeon.",
+            "ability_data": {
+                "name": "rename card",
+                "version": null,
+                "specification": null,
+                "description": "Renames aeon.",
+                "effect": "Renames any Aeon.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Renames any Aeon.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": true,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 5,
             "meta": [
@@ -4499,15 +5307,23 @@
             ]
         },
         {
-            "name": "musk",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "musk",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -4534,15 +5350,23 @@
             ]
         },
         {
-            "name": "hypello potion",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "hypello potion",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -4569,15 +5393,23 @@
             ]
         },
         {
-            "name": "shining thorn",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "shining thorn",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes, and for teaching Aeons the Mental Break ability.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes, and for teaching Aeons the Mental Break ability.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 50,
             "meta": [
@@ -4604,15 +5436,23 @@
             ]
         },
         {
-            "name": "pendulum",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "pendulum",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 1250,
             "meta": [
@@ -4639,15 +5479,23 @@
             ]
         },
         {
-            "name": "amulet",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "amulet",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 3450,
             "meta": [
@@ -4674,15 +5522,23 @@
             ]
         },
         {
-            "name": "designer wallet",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "designer wallet",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 200,
             "meta": [
@@ -4709,15 +5565,23 @@
             ]
         },
         {
-            "name": "door to tomorrow",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "door to tomorrow",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 2000,
             "meta": [
@@ -4744,15 +5608,23 @@
             ]
         },
         {
-            "name": "wings to discovery",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "wings to discovery",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 7500,
             "meta": [
@@ -4779,15 +5651,23 @@
             ]
         },
         {
-            "name": "gamblers spirit",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "gamblers spirit",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 4000,
             "meta": [
@@ -4814,15 +5694,23 @@
             ]
         },
         {
-            "name": "underdogs secret",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "underdogs secret",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 5000,
             "meta": [
@@ -4849,15 +5737,23 @@
             ]
         },
         {
-            "name": "winning formula",
-            "description": "There seems to be some use for this...",
+            "ability_data": {
+                "name": "winning formula",
+                "version": null,
+                "specification": null,
+                "description": "There seems to be some use for this...",
+                "effect": "Used for customization and mixes.",
+                "notes": null,
+                "rank": 2,
+                "appears_in_help_bar": true,
+                "can_copycat": true,
+                "related_stats": []
+            },
             "sphere_grid_description": null,
-            "effect": "Used for customization and mixes.",
             "category": "other",
             "can_use_in_battle": false,
             "can_use_outside_battle": false,
             "is_use_item": false,
-            "related_stats": [],
             "base_price": null,
             "sell_value": 10000,
             "meta": [
