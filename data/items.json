@@ -38,10 +38,10 @@
                                 "damage_constant": 4
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -99,10 +99,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -160,10 +160,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -221,10 +221,10 @@
                                 "damage_constant": 40
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -282,10 +282,10 @@
                                 "damage_constant": 2
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -343,10 +343,10 @@
                                 "damage_constant": 10
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -412,10 +412,10 @@
                             "damage_constant": 16
                         }
                     ],
-                    "can_critical": "never",
+                    "critical": null,
                     "critical_plus_val": null,
                     "is_piercing": true,
-                    "break_dmg_lmt": "never",
+                    "break_dmg_lmt": null,
                     "element": null
                 },
                 "shatter_rate": 0,
@@ -481,10 +481,10 @@
                             "damage_constant": 16
                         }
                     ],
-                    "can_critical": "never",
+                    "critical": null,
                     "critical_plus_val": null,
                     "is_piercing": true,
-                    "break_dmg_lmt": "never",
+                    "break_dmg_lmt": null,
                     "element": null
                 },
                 "shatter_rate": 0,
@@ -542,10 +542,10 @@
                                 "damage_constant": 8
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -610,10 +610,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -1156,10 +1156,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -1217,10 +1217,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -1278,10 +1278,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -1364,10 +1364,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "ice"
                     },
                     "shatter_rate": 30,
@@ -1425,10 +1425,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "ice"
                     },
                     "shatter_rate": 50,
@@ -1486,10 +1486,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "ice"
                     },
                     "shatter_rate": 70,
@@ -1547,10 +1547,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "fire"
                     },
                     "shatter_rate": 30,
@@ -1608,10 +1608,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "fire"
                     },
                     "shatter_rate": 50,
@@ -1669,10 +1669,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "fire"
                     },
                     "shatter_rate": 70,
@@ -1730,10 +1730,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "lightning" 
                     },
                     "shatter_rate": 30,
@@ -1791,10 +1791,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "lightning" 
                     },
                     "shatter_rate": 50,
@@ -1852,10 +1852,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "lightning" 
                     },
                     "shatter_rate": 70,
@@ -1913,10 +1913,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "water"
                     },
                     "shatter_rate": 30,
@@ -1974,10 +1974,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "water"
                     },
                     "shatter_rate": 50,
@@ -2035,10 +2035,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "water"
                     },
                     "shatter_rate": 70,
@@ -2096,10 +2096,10 @@
                                 "damage_constant": 7
                             }
                         ],
-                        "can_critical": "formula",
+                        "critical": "crit",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 50,
@@ -2157,10 +2157,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "formula",
+                        "critical": "crit",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 50,
@@ -2225,10 +2225,10 @@
                                 "damage_constant": 15
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -2293,10 +2293,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -2361,10 +2361,10 @@
                                 "damage_constant": 15
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -2429,10 +2429,10 @@
                                 "damage_constant": 15
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -2497,10 +2497,10 @@
                                 "damage_constant": 8
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 50,
@@ -2558,10 +2558,10 @@
                                 "damage_constant": 120
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -2619,10 +2619,10 @@
                                 "damage_constant": 160
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": "holy"
                     },
                     "shatter_rate": 100,
@@ -2680,10 +2680,10 @@
                                 "damage_constant": 200
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -2741,10 +2741,10 @@
                                 "damage_constant": 40
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 60,
@@ -2869,10 +2869,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "delay": [
@@ -3153,7 +3153,7 @@
                                 "damage_constant": 255
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
                         "break_dmg_lmt": "always",
@@ -3542,10 +3542,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 10,
@@ -3603,10 +3603,10 @@
                                 "damage_constant": 8
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 10,
@@ -3672,10 +3672,10 @@
                             "damage_constant": 30
                         }
                     ],
-                    "can_critical": "never",
+                    "critical": null,
                     "critical_plus_val": null,
                     "is_piercing": true,
-                    "break_dmg_lmt": "never",
+                    "break_dmg_lmt": null,
                     "element": null
                 },
                 "shatter_rate": 10,
@@ -3733,10 +3733,10 @@
                                 "damage_constant": 22
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 10,

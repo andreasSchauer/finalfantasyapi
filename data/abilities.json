@@ -11,7 +11,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -41,10 +41,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -82,7 +82,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -112,10 +112,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -153,7 +153,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -183,10 +183,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -224,7 +224,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -254,10 +254,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -295,7 +295,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -325,10 +325,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -366,7 +366,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -396,10 +396,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -437,7 +437,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -467,10 +467,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -508,7 +508,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -538,10 +538,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -591,7 +591,7 @@
             },
             "ability_data": {
                 "rank": 6,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -621,10 +621,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -663,7 +663,7 @@
             },
             "ability_data": {
                 "rank": 8,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -693,10 +693,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -735,7 +735,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["hp", "strength", "defense"]
             },
@@ -765,10 +765,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -806,7 +806,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["mp", "magic", "magic defense"]
             },
@@ -836,10 +836,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -877,7 +877,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["agility", "evasion", "accuracy"]
             },
@@ -907,10 +907,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -948,7 +948,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -978,10 +978,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1019,7 +1019,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1049,10 +1049,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1090,7 +1090,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1120,10 +1120,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1161,7 +1161,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1191,10 +1191,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1232,7 +1232,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1262,10 +1262,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1303,7 +1303,7 @@
             },
             "ability_data": {
                 "rank": 5,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1333,10 +1333,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -1392,7 +1392,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1419,10 +1419,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1453,7 +1453,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1480,10 +1480,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1514,7 +1514,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1541,10 +1541,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -1575,7 +1575,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1620,7 +1620,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1644,7 +1644,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1696,7 +1696,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -1726,10 +1726,10 @@
                                 "damage_constant": 8
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -1760,7 +1760,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["strength", "defense"]
             },
@@ -1820,7 +1820,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["accuracy"]
             },
@@ -1874,7 +1874,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["magic", "magic defense"]
             },
@@ -1934,7 +1934,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["evasion"]
             },
@@ -1988,7 +1988,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["luck", "accuracy"]
             },
@@ -2047,7 +2047,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": ["luck", "evasion"]
             },
@@ -2106,7 +2106,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2144,10 +2144,10 @@
                                 "damage_constant": 6
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -2178,7 +2178,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2230,7 +2230,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2282,7 +2282,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2309,10 +2309,10 @@
                                 "damage_constant": 1
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -2343,7 +2343,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2395,7 +2395,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2447,7 +2447,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2474,10 +2474,10 @@
                                 "damage_constant": null
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -2508,7 +2508,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -2553,7 +2553,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2598,7 +2598,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2622,7 +2622,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2649,7 +2649,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2694,7 +2694,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2724,10 +2724,10 @@
                                 "damage_constant": 24
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -2758,7 +2758,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2788,10 +2788,10 @@
                                 "damage_constant": 40
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -2822,7 +2822,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2852,10 +2852,10 @@
                                 "damage_constant": 80
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -2886,7 +2886,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2941,7 +2941,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2996,7 +2996,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3051,7 +3051,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3106,7 +3106,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3161,7 +3161,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3206,7 +3206,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3236,10 +3236,10 @@
                                 "damage_constant": 8
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -3277,7 +3277,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3307,10 +3307,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -3348,7 +3348,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3411,7 +3411,7 @@
             },
             "ability_data": {
                 "rank": 6,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3474,7 +3474,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3537,7 +3537,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3600,7 +3600,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3655,7 +3655,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3710,7 +3710,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3765,7 +3765,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3813,7 +3813,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3868,7 +3868,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3898,10 +3898,10 @@
                                 "damage_constant": 100
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "holy"
                     },
                     "shatter_rate": 100,
@@ -3932,7 +3932,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -3984,7 +3984,7 @@
             },
             "ability_data": {
                 "rank": null,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -4011,10 +4011,10 @@
                                 "damage_constant": 4
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 0,
@@ -4052,7 +4052,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4082,10 +4082,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "fire"
                     },
                     "shatter_rate": 10,
@@ -4116,7 +4116,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4146,10 +4146,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "lightning"
                     },
                     "shatter_rate": 10,
@@ -4180,7 +4180,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4210,10 +4210,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "water"
                     },
                     "shatter_rate": 10,
@@ -4244,7 +4244,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4274,10 +4274,10 @@
                                 "damage_constant": 12
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "ice"
                     },
                     "shatter_rate": 10,
@@ -4308,7 +4308,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4338,10 +4338,10 @@
                                 "damage_constant": 24
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "fire"
                     },
                     "shatter_rate": 10,
@@ -4372,7 +4372,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4402,10 +4402,10 @@
                                 "damage_constant": 24
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "lightning"
                     },
                     "shatter_rate": 10,
@@ -4436,7 +4436,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4466,10 +4466,10 @@
                                 "damage_constant": 24
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "water"
                     },
                     "shatter_rate": 10,
@@ -4500,7 +4500,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4530,10 +4530,10 @@
                                 "damage_constant": 24
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "ice"
                     },
                     "shatter_rate": 10,
@@ -4564,7 +4564,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4594,10 +4594,10 @@
                                 "damage_constant": 42
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "fire"
                     },
                     "shatter_rate": 10,
@@ -4628,7 +4628,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4658,10 +4658,10 @@
                                 "damage_constant": 42
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "lightning"
                     },
                     "shatter_rate": 10,
@@ -4692,7 +4692,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4722,10 +4722,10 @@
                                 "damage_constant": 42
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "water"
                     },
                     "shatter_rate": 10,
@@ -4756,7 +4756,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4786,10 +4786,10 @@
                                 "damage_constant": 42
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": "ice"
                     },
                     "shatter_rate": 10,
@@ -4820,7 +4820,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4875,7 +4875,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4905,10 +4905,10 @@
                                 "damage_constant": 4
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 10,
@@ -4939,7 +4939,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -4994,7 +4994,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -5024,10 +5024,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 10,
@@ -5058,7 +5058,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -5088,10 +5088,10 @@
                                 "damage_constant": 10
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "never",
+                        "break_dmg_lmt": null,
                         "element": null
                     },
                     "shatter_rate": 10,
@@ -5122,7 +5122,7 @@
             },
             "ability_data": {
                 "rank": 5,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -5152,10 +5152,10 @@
                                 "damage_constant": 60
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 10,
@@ -5186,7 +5186,7 @@
             },
             "ability_data": {
                 "rank": 6,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -5216,10 +5216,10 @@
                                 "damage_constant": 70
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 10,
@@ -5250,7 +5250,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5277,10 +5277,10 @@
                                 "damage_constant": 8
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -5319,7 +5319,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5346,10 +5346,10 @@
                                 "damage_constant": 17
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -5380,7 +5380,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5407,10 +5407,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -5441,7 +5441,7 @@
             },
             "ability_data": {
                 "rank": 4,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5468,10 +5468,10 @@
                                 "damage_constant": 17
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -5509,7 +5509,7 @@
             },
             "ability_data": {
                 "rank": 6,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5536,10 +5536,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 50,
@@ -5570,7 +5570,7 @@
             },
             "ability_data": {
                 "rank": 6,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5597,10 +5597,10 @@
                                 "damage_constant": 20
                             }
                         ],
-                        "can_critical": "never",
+                        "critical": null,
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -5638,7 +5638,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5665,10 +5665,10 @@
                                 "damage_constant": 10
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -5699,7 +5699,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5726,10 +5726,10 @@
                                 "damage_constant": 13
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -5760,7 +5760,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5787,10 +5787,10 @@
                                 "damage_constant": 18
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -5821,7 +5821,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5848,10 +5848,10 @@
                                 "damage_constant": 18
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 100,
@@ -5882,7 +5882,7 @@
             },
             "ability_data": {
                 "rank": 8,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5934,7 +5934,7 @@
             },
             "ability_data": {
                 "rank": 5,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -5961,10 +5961,10 @@
                                 "damage_constant": 21
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -5995,7 +5995,7 @@
             },
             "ability_data": {
                 "rank": 5,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6022,10 +6022,10 @@
                                 "damage_constant": 21
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -6056,7 +6056,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6126,7 +6126,7 @@
             },
             "ability_data": {
                 "rank": 5,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6153,10 +6153,10 @@
                                 "damage_constant": 2
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -6187,7 +6187,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6232,7 +6232,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -6259,10 +6259,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": null,
                         "is_piercing": false,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -6293,7 +6293,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6320,10 +6320,10 @@
                                 "damage_constant": 16
                             }
                         ],
-                        "can_critical": "crit+weapon%",
+                        "critical": "crit+weapon%",
                         "critical_plus_val": 6,
                         "is_piercing": true,
-                        "break_dmg_lmt": "auto-ability-needed",
+                        "break_dmg_lmt": "auto-ability",
                         "element": null
                     },
                     "shatter_rate": 30,
@@ -6354,7 +6354,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6378,7 +6378,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6402,7 +6402,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6426,7 +6426,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6450,7 +6450,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6474,7 +6474,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6498,7 +6498,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6522,7 +6522,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6546,7 +6546,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -6598,7 +6598,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6622,7 +6622,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6646,7 +6646,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6670,7 +6670,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": false,
+                "appears_in_help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -6722,7 +6722,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6774,7 +6774,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6826,7 +6826,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": true,
+                "appears_in_help_bar": true,
                 "can_copycat": false,
                 "related_stats": []
             },
