@@ -1,5 +1,5 @@
 {
-    "overdrives_data": [
+    "overdrive_abilities_data": [
             {
             "ability_info": {
                 "name": "spiral cut",
@@ -337,7 +337,7 @@
                 {
                     "target": "single-enemy",
                     "based_on_phys_attack": false,
-                    "range": "",
+                    "range": 1,
                     "damage": {
                         "damage_calc": [
                             {
@@ -5987,19 +5987,19 @@
                         {
                             "name": "sleep",
                             "probability": 150,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "silence",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "darkness",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
@@ -6060,19 +6060,19 @@
                         {
                             "name": "sleep",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 5
                         },
                         {
                             "name": "silence",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 5
                         },
                         {
                             "name": "darkness",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 5
                         },
                         {
@@ -6477,19 +6477,19 @@
                         {
                             "name": "sleep",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "silence",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "darkness",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
@@ -6791,19 +6791,19 @@
                         {
                             "name": "sleep",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "silence",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "darkness",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
@@ -7105,19 +7105,19 @@
                         {
                             "name": "sleep",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "silence",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "darkness",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
@@ -7419,19 +7419,19 @@
                         {
                             "name": "sleep",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "silence",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
                             "name": "darkness",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 4
                         },
                         {
@@ -8525,7 +8525,7 @@
                         {
                             "name": "regen",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 20
                         }
                     ],
@@ -8590,7 +8590,7 @@
                         {
                             "name": "regen",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 20
                         },
                         {

@@ -826,7 +826,7 @@
                         {
                             "name": "sleep",
                             "probability": 100,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 2
                         }
                     ],
@@ -887,7 +887,7 @@
                         {
                             "name": "silence",
                             "probability": 100,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 2
                         }
                     ],
@@ -948,7 +948,7 @@
                         {
                             "name": "darkness",
                             "probability": 100,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 2
                         }
                     ],
@@ -7648,7 +7648,7 @@
                         {
                             "name": "regen",
                             "probability": 254,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 2
                         }
                     ],
@@ -10035,7 +10035,7 @@
                         {
                             "name": "sleep",
                             "probability": 80,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 2
                         }
                     ],
@@ -10438,7 +10438,7 @@
                         {
                             "name": "slow",
                             "probability": 20,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 5
                         }
                     ],
@@ -12287,13 +12287,13 @@
                         {
                             "name": "darkness",
                             "probability": 255,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 2
                         },
                         {
                             "name": "silence",
                             "probability": 255,
-                            "duration_type": "",
+                            "duration_type": "turns",
                             "amount": 2
                         },
                         {
@@ -19366,44 +19366,7 @@
                 "can_copycat": false,
                 "related_stats": []
             },
-            "meta": [
-                {
-                    "target": "single-target",
-                    "based_on_phys_attack": false,
-                    "range": 3,
-                    "damage": {
-                        "damage_calc": [
-                            {
-                                "condition": null,
-                                "attack_type": "attack",
-                                "target_stat": "hp",
-                                "damage_type": "",
-                                "damage_formula": "",
-                                "damage_constant": 16
-                            }
-                        ],
-                        "can_critical": "never",
-                        "critical_plus_val": null,
-                        "is_piercing": false,
-                        "break_dmg_lmt": "never",
-                        "element": null
-                    },
-                    "shatter_rate": 0,
-                    "accuracy": {
-                        "acc_source": "rate",
-                        "hit_chance": 255,
-                        "acc_modifier": null
-                    },
-                    "affected_by": [],
-                    "hit_amount": 1,
-                    "delay": [],
-                    "inflicted_status_conditions": [],
-                    "removed_status_conditions": [],
-                    "copied_status_conditions": [],
-                    "stat_changes": [],
-                    "other_changes": []
-                }
-            ]
+            "meta": []
         },
         {
             "ability_info": {

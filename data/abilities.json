@@ -1615,12 +1615,12 @@
                 "version": null,
                 "specification": null,
                 "description": "Use special items.",
-                "effect": "Allows you to use certain items.",
+                "effect": "Opens the Use-Item menu.",
                 "notes": null
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2508,7 +2508,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -2598,7 +2598,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -2622,7 +2622,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -6232,7 +6232,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -6293,7 +6293,7 @@
             },
             "ability_data": {
                 "rank": 3,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6546,7 +6546,7 @@
             },
             "ability_data": {
                 "rank": 2,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },
@@ -6598,7 +6598,7 @@
             },
             "ability_data": {
                 "rank": 0,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6622,7 +6622,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6646,7 +6646,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
@@ -6670,7 +6670,7 @@
             },
             "ability_data": {
                 "rank": 1,
-                "appears_in__help_bar": true,
+                "appears_in__help_bar": false,
                 "can_copycat": true,
                 "related_stats": []
             },

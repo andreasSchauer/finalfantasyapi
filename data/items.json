@@ -3800,7 +3800,6 @@
                         {
                             "name": "hp",
                             "calculation_type": "multiply",
-                            "duration_type": "",
                             "value": 2
                         }
                     ],
@@ -3852,7 +3851,6 @@
                         {
                             "name": "mp",
                             "calculation_type": "multiply",
-                            "duration_type": "",
                             "value": 2
                         }
                     ],
@@ -3904,7 +3902,6 @@
                         {
                             "name": "hp",
                             "calculation_type": "multiply",
-                            "duration_type": "",
                             "value": 2
                         }
                     ],
@@ -3956,7 +3953,6 @@
                         {
                             "name": "mp",
                             "calculation_type": "multiply",
-                            "duration_type": "",
                             "value": 2
                         }
                     ],
@@ -4009,7 +4005,6 @@
                         {
                             "name": "mp-cost",
                             "calculation_type": "set-value",
-                            "duration_type": "",
                             "value": 0
                         }
                     ]
@@ -4061,7 +4056,6 @@
                         {
                             "name": "mp-cost",
                             "calculation_type": "set-value",
-                            "duration_type": "",
                             "value": 0
                         }
                     ]
