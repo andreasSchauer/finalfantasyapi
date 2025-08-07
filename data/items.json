@@ -1,13 +1,15 @@
 {
     "items_data": [
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "potion",
                 "version": null,
                 "specification": null,
                 "description": "Restores 200 HP of one character.",
                 "effect": "Restores 200 HP of one target. Damages zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -60,13 +62,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "hi-potion",
                 "version": null,
                 "specification": null,
                 "description": "Restores 1000 HP of one character.",
                 "effect": "Restores 1000 HP of one target. Damages zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -119,13 +123,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "x-potion",
                 "version": null,
                 "specification": null,
                 "description": "Fully restores HP of one character.",
                 "effect": "Fully restores HP of one target (maximum of 9,999 HP). zamages Zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -178,13 +184,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mega-potion",
                 "version": null,
                 "specification": null,
                 "description": "Restores 2000 HP of each party member.",
                 "effect": "Restores 2000 HP of target party. Damages Zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -237,13 +245,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "ether",
                 "version": null,
                 "specification": null,
                 "description": "Restores 100 MP of one character.",
                 "effect": "Restores 100 MP of one target. Lowers MP of zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -296,13 +306,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "turbo ether",
                 "version": null,
                 "specification": null,
                 "description": "Restores 500 MP of one character.",
                 "effect": "Restores 500 MP of one target. Lowers MP of zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -355,13 +367,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "elixir",
                 "version": null,
                 "specification": null,
                 "description": "Fully restores one character's HP & MP.",
                 "effect": "Fully restores HP & MP of one target (maximum of 9,999 HP and 999 MP). Damages zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -422,13 +436,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "megalixir",
                 "version": null,
                 "specification": null,
                 "description": "Fully restores HP & MP of party.",
                 "effect": "Fully restores HP & MP of target party (maximum of 9,999 HP and 999 MP). Damages zombies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -489,13 +505,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "phoenix down",
                 "version": null,
                 "specification": null,
                 "description": "Revives one character from KO.",
                 "effect": "Revives one character from KO with half of their max HP (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -555,13 +573,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mega phoenix",
                 "version": null,
                 "specification": null,
                 "description": "Revives party from KO.",
                 "effect": "Revives party from KO and fully restores HP of revived characters (maximum of 9,999 HP). Damages zombies and instant KO's them, if they're not immune to life.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -621,13 +641,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "antidote",
                 "version": null,
                 "specification": null,
                 "description": "Cures poison.",
                 "effect": "Cures poison of one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -664,13 +686,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "soft",
                 "version": null,
                 "specification": null,
                 "description": "Cures petrification.",
                 "effect": "Cures petrification of one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -707,13 +731,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "eye drops",
                 "version": null,
                 "specification": null,
                 "description": "Cures darkness.",
                 "effect": "Cures darkness of one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -750,13 +776,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "echo screen",
                 "version": null,
                 "specification": null,
                 "description": "Cures silence.",
                 "effect": "Cures silence of one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -793,13 +821,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "holy water",
                 "version": null,
                 "specification": null,
                 "description": "Cures zombie and curse.",
                 "effect": "Cures zombie and curse of one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -836,13 +866,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "remedy",
                 "version": null,
                 "specification": null,
                 "description": "Cures all status abnormalities.",
                 "effect": "Cures all status ailments of one target, except breaks, curse, doom, and KO.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -879,13 +911,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "power distiller",
                 "version": null,
                 "specification": null,
                 "description": "Makes one enemy drop Power Spheres.",
                 "effect": "Makes one enemy drop Power Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -929,13 +963,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mana distiller",
                 "version": null,
                 "specification": null,
                 "description": "Makes one enemy drop Mana Spheres.",
                 "effect": "Makes one enemy drop Mana Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -979,13 +1015,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "speed distiller",
                 "version": null,
                 "specification": null,
                 "description": "Makes one enemy drop Speed Spheres.",
                 "effect": "Makes one enemy drop Speed Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1029,13 +1067,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "ability distiller",
                 "version": null,
                 "specification": null,
                 "description": "Makes one enemy drop Ability Spheres.",
                 "effect": "Makes one enemy drop Ability Spheres. The amount dropped equals the amount of items the enemy would have dropped normally.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1079,13 +1119,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "al bhed potion",
                 "version": null,
                 "specification": null,
                 "description": "Cures poison, silence, petrification. Gives 1000 HP to all.",
                 "effect": "Cures poison, silence, and petrification and restores 1000 HP of target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1138,13 +1180,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "healing water",
                 "version": null,
                 "specification": null,
                 "description": "Fully restores HP of party.",
                 "effect": "Fully restores HP of target party. Maximum of 9,999 HP.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1197,13 +1241,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "tetra elemental",
                 "version": null,
                 "specification": null,
                 "description": "Fully restores HP and casts NulAll on party.",
                 "effect": "Fully restores HP (maximum of 9,999 HP) and casts NulAll on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1281,13 +1327,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "antarctic wind",
                 "version": null,
                 "specification": null,
                 "description": "Deals ice damage to an enemy.",
                 "effect": "Deals around 600 HP of ice-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1340,13 +1388,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "arctic wind",
                 "version": null,
                 "specification": null,
                 "description": "Deals ice damage to an enemy.",
                 "effect": "Deals around 1,000 HP of ice-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1399,13 +1449,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "ice gem",
                 "version": null,
                 "specification": null,
                 "description": "Deals ice damage to all enemies.",
                 "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of ice-elemental special damage each.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1458,13 +1510,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "bomb fragment",
                 "version": null,
                 "specification": null,
                 "description": "Deals fire damage to an enemy.",
                 "effect": "Deals around 600 HP of fire-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1517,13 +1571,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "bomb core",
                 "version": null,
                 "specification": null,
                 "description": "Deals fire damage to an enemy.",
                 "effect": "Deals around 1,000 HP of fire-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1576,13 +1632,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "fire gem",
                 "version": null,
                 "specification": null,
                 "description": "Deals fire damage to all enemies.",
                 "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of fire-elemental special damage each.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1635,13 +1693,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "electro marble",
                 "version": null,
                 "specification": null,
                 "description": "Deals lightning damage to an enemy.",
                 "effect": "Deals around 600 HP of lightning-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1694,13 +1754,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "lightning marble",
                 "version": null,
                 "specification": null,
                 "description": "Deals lightning damage to an enemy.",
                 "effect": "Deals around 1,000 HP of lightning-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1753,13 +1815,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "lightning gem",
                 "version": null,
                 "specification": null,
                 "description": "Deals lightning damage to all enemies.",
                 "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of lightning-elemental special damage each.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1812,13 +1876,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "fish scale",
                 "version": null,
                 "specification": null,
                 "description": "Deals water damage to an enemy.",
                 "effect": "Deals around 600 HP of water-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1871,13 +1937,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "dragon scale",
                 "version": null,
                 "specification": null,
                 "description": "Deals water damage to an enemy.",
                 "effect": "Deals around 1,000 HP of water-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1930,13 +1998,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "water gem",
                 "version": null,
                 "specification": null,
                 "description": "Deals water damage to all enemies.",
                 "effect": "Deals five randomly distributed hits to enemy party that deal about 600 HP of water-elemental special damage each.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -1989,13 +2059,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "grenade",
                 "version": null,
                 "specification": null,
                 "description": "Damages all enemies.",
                 "effect": "Deals around 350 HP of non-elemental special damage to target party (can critical).",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2048,13 +2120,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "frag grenade",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts damage and Armor Break on all enemies.",
                 "effect": "Inflicts Armor Break on target party and deals around 800 HP of non-elemental special damage (can critical).",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2114,13 +2188,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "sleeping powder",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts damage and sleep on all enemies.",
                 "effect": "Inflicts Sleep and deals around 750 HP of non-elemental special damage to target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2180,13 +2256,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "dream powder",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts damage and sleep on all enemies.",
                 "effect": "Inflicts Sleep and deals around 1000 HP of non-elemental special damage to target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2246,13 +2324,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "silence grenade",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts damage and silence on all enemies.",
                 "effect": "Inflicts Silence and deals around 750 HP of non-elemental special damage to target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2312,13 +2392,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "smoke bomb",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts damage and darkness on all enemies.",
                 "effect": "Inflicts Darkness and deals around 750 HP of non-elemental special damage to target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2378,13 +2460,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "shadow gem",
                 "version": null,
                 "specification": null,
                 "description": "Reduces HP of all enemies by half.",
                 "effect": "Deals gravity-based special damage to target party equal to half their current HP (maximum of 9,999 HP).",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2437,13 +2521,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "shining gem",
                 "version": null,
                 "specification": null,
                 "description": "Damages an enemy.",
                 "effect": "Deals around 6,000 HP of non-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2496,13 +2582,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "blessed gem",
                 "version": null,
                 "specification": null,
                 "description": "Damages an enemy.",
                 "effect": "Deals around 8,000 HP of holy-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2555,13 +2643,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "supreme gem",
                 "version": null,
                 "specification": null,
                 "description": "Damages all enemies.",
                 "effect": "Deals around 10,000 HP of non-elemental special damage to one target (maximum of 9,999 HP).",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2614,13 +2704,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "poison fang",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts damage and poison on an enemy.",
                 "effect": "Inflicts Poison and deals around 2000 HP of non-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2680,13 +2772,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "silver hourglass",
                 "version": null,
                 "specification": null,
                 "description": "Delays next turn of all enemies.",
                 "effect": "Inflicts Slow on target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2738,13 +2832,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "gold hourglass",
                 "version": null,
                 "specification": null,
                 "description": "Damages all enemies and delays their next turn.",
                 "effect": "Inflicts Slow and weak Delay, and deals around 1000 HP of non-elemental special damage to target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2812,13 +2908,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "candle of life",
                 "version": null,
                 "specification": null,
                 "description": "Casts Doom on an enemy.",
                 "effect": "Inflicts Doom on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2862,13 +2960,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "petrify grenade",
                 "version": null,
                 "specification": null,
                 "description": "Petrifies all enemies.",
                 "effect": "Inflicts Petrification on all enemies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2912,13 +3012,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "farplane shadow",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts death on an enemy.",
                 "effect": "Inflicts Death on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -2962,13 +3064,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "farplane wind",
                 "version": null,
                 "specification": null,
                 "description": "Inflicts death on all enemies.",
                 "effect": "Inflicts Death on all enemies.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3012,13 +3116,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "dark matter",
                 "version": null,
                 "specification": null,
                 "description": "Deals major damage to all enemies.",
                 "effect": "Deals around 12,750 HP of non-elemental special damage to target party. Can break the damage limit without the auto-ability equipped.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3071,13 +3177,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "chocobo feather",
                 "version": null,
                 "specification": null,
                 "description": "Casts Haste on one character.",
                 "effect": "Casts Haste on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3129,13 +3237,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "chocobo wing",
                 "version": null,
                 "specification": null,
                 "description": "Casts Haste on party.",
                 "effect": "Casts Haste on target party.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3187,13 +3297,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "lunar curtain",
                 "version": null,
                 "specification": null,
                 "description": "Casts Shell on one character.",
                 "effect": "Casts Shell on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3237,13 +3349,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "light curtain",
                 "version": null,
                 "specification": null,
                 "description": "Casts Protect on one character.",
                 "effect": "Casts Protect on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3287,13 +3401,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "star curtain",
                 "version": null,
                 "specification": null,
                 "description": "Casts Reflect on one character.",
                 "effect": "Casts Reflect on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3337,13 +3453,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "healing spring",
                 "version": null,
                 "specification": null,
                 "description": "Casts Regen on one character.",
                 "effect": "Casts Regen on one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3387,13 +3505,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mana spring",
                 "version": null,
                 "specification": null,
                 "description": "Absorbs MP from an enemy.",
                 "effect": "Absorbs around 1000 MP from one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3446,13 +3566,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "stamina spring",
                 "version": null,
                 "specification": null,
                 "description": "Absorbs HP from an enemy.",
                 "effect": "Absorbs around 400 HP from one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3505,13 +3627,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "soul spring",
                 "version": null,
                 "specification": null,
                 "description": "Absorbs HP & MP from an enemy.",
                 "effect": "Absorbs around 1500 HP and MP from one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3572,13 +3696,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "purifying salt",
                 "version": null,
                 "specification": null,
                 "description": "Damages an enemy and dispels its magic effects.",
                 "effect": "Casts Dispel and deals around 1,100 HP of non-elemental special damage to one target.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3631,13 +3757,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "stamina tablet",
                 "version": null,
                 "specification": null,
                 "description": "Doubles max HP of one character.",
                 "effect": "Doubles max HP of one character (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3681,13 +3809,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mana tablet",
                 "version": null,
                 "specification": null,
                 "description": "Doubles max MP of one character.",
                 "effect": "Doubles max MP of one character (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3731,13 +3861,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "stamina tonic",
                 "version": null,
                 "specification": null,
                 "description": "Doubles max HP of party.",
                 "effect": "Doubles max HP of party (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3781,13 +3913,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mana tonic",
                 "version": null,
                 "specification": null,
                 "description": "Doubles max MP of party.",
                 "effect": "Doubles max MP of party (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3831,13 +3965,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "twin stars",
                 "version": null,
                 "specification": null,
                 "description": "Reduces MP cost of one character to 0.",
                 "effect": "Reduces MP cost of one character to 0. Effect goes away when KO'd.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3881,13 +4017,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "three stars",
                 "version": null,
                 "specification": null,
                 "description": "Reduces party's MP cost to 0.",
                 "effect": "Reduces MP cost of party to 0. Effect goes away when KO'd.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3931,13 +4069,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "power sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates nodes on Sphere Grid.",
                 "effect": "Activates Strength, Defense, and HP nodes on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -3974,13 +4114,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mana sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates nodes on Sphere Grid.",
                 "effect": "Activates Magic, Magic Defense, and MP nodes on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4017,13 +4159,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "speed sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates nodes on Sphere Grid.",
                 "effect": "Activates Agility, Accuracy, and Evasion nodes on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4060,13 +4204,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "ability sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates nodes on Sphere Grid.",
                 "effect": "Activates Ability nodes on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4103,13 +4249,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "fortune sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates nodes on Sphere Grid.",
                 "effect": "Activates Luck nodes on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4146,7 +4294,7 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "attribute sphere",
                 "version": null,
                 "specification": null,
@@ -4156,7 +4304,9 @@
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
-                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"]
+                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion","accuracy"]
+            },"ability_data": {
+                
             },
             "sphere_grid_description": "Activates Attribute node already used by ally.",
             "category": "sphere",
@@ -4189,13 +4339,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "special sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates Special nodes used by allies on Sphere Grid.",
                 "effect": "Activates a Special Ability node activated by another character on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4232,13 +4384,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "skill sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates Skill nodes used by allies on Sphere Grid.",
                 "effect": "Activates a Skill node activated by another character on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4275,13 +4429,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "wht magic sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates White Magic nodes used by allies on Sphere Grid.",
                 "effect": "Activates a White Magic Ability node activated by another character on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4318,13 +4474,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "blk magic sphere",
                 "version": null,
                 "specification": null,
                 "description": "Activates Black Magic nodes used by allies on Sphere Grid.",
                 "effect": "Activates a Black Magic Ability node activated by another character on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4361,7 +4519,7 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "master sphere",
                 "version": null,
                 "specification": null,
@@ -4371,7 +4529,9 @@
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
-                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"]
+                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion","accuracy"]
+            },"ability_data": {
+                
             },
             "sphere_grid_description": "Activates any Ability or Attribute node.",
             "category": "sphere",
@@ -4404,13 +4564,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "lv. 1 key sphere",
                 "version": null,
                 "specification": null,
                 "description": "Open Locks on Sphere Grid.",
                 "effect": "Changes a Lv. 1 Lock on the Sphere Grid into an empty node.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4447,13 +4609,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "lv. 2 key sphere",
                 "version": null,
                 "specification": null,
                 "description": "Open Locks on Sphere Grid.",
                 "effect": "Changes a Lv. 2 Lock on the Sphere Grid into an empty node.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4490,13 +4654,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "lv. 3 key sphere",
                 "version": null,
                 "specification": null,
                 "description": "Open Locks on Sphere Grid.",
                 "effect": "Changes a Lv. 3 Lock on the Sphere Grid into an empty node.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4533,13 +4699,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "lv. 4 key sphere",
                 "version": null,
                 "specification": null,
                 "description": "Open Locks on Sphere Grid.",
                 "effect": "Changes a Lv. 4 Lock on the Sphere Grid into an empty node.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4576,13 +4744,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "hp sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'HP +300'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4619,13 +4789,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "mp sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'MP +40'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4662,13 +4834,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "strength sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Strength +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4705,13 +4879,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "defense sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Defense +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4748,13 +4924,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "magic sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Magic +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4791,13 +4969,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "magic def sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Magic Def +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4834,13 +5014,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "agility sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Agility +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4877,13 +5059,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "evasion sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Evasion +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4920,13 +5104,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "accuracy sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Accuracy +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -4963,13 +5149,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "luck sphere",
                 "version": null,
                 "specification": null,
                 "description": "Fills empty nodes on Sphere Grid.",
                 "effect": "Converts an empty node on the Sphere Grid into 'Luck +4'.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5006,7 +5194,7 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "clear sphere",
                 "version": null,
                 "specification": null,
@@ -5016,7 +5204,9 @@
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
-                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion", "accuracy"]
+                "related_stats": ["hp", "mp", "strength", "defense", "magic", "magic defense", "agility", "luck", "evasion","accuracy"]
+            },"ability_data": {
+                
             },
             "sphere_grid_description": "Clears node from Grid.",
             "category": "sphere",
@@ -5049,13 +5239,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "return sphere",
                 "version": null,
                 "specification": null,
                 "description": "Changes current location on Sphere Grid.",
                 "effect": "Enables move to any node on the Sphere Grid that is already activated by the current character.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5092,13 +5284,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "friend sphere",
                 "version": null,
                 "specification": null,
                 "description": "Changes current location on Sphere Grid.",
                 "effect": "Enables move to another character's location on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5135,13 +5329,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "teleport sphere",
                 "version": null,
                 "specification": null,
                 "description": "Changes current location on Sphere Grid.",
                 "effect": "Enables move to any node on the Sphere Grid that is already activated by a character.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5178,13 +5374,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "warp sphere",
                 "version": null,
                 "specification": null,
                 "description": "Changes current location on Sphere Grid.",
                 "effect": "Enables move to any node on the Sphere Grid.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5221,13 +5419,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "map",
                 "version": null,
                 "specification": null,
                 "description": "Displays world map.",
                 "effect": "Displays the world map.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5264,13 +5464,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "rename card",
                 "version": null,
                 "specification": null,
                 "description": "Renames aeon.",
                 "effect": "Renames any Aeon.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5307,13 +5509,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "musk",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5350,13 +5554,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "hypello potion",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5393,13 +5599,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "shining thorn",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes, and for teaching Aeons the Mental Break ability.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5436,13 +5644,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "pendulum",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5479,13 +5689,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "amulet",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5522,13 +5734,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "designer wallet",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5565,13 +5779,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "door to tomorrow",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5608,13 +5824,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "wings to discovery",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5651,13 +5869,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "gamblers spirit",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5694,13 +5914,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "underdogs secret",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,
@@ -5737,13 +5959,15 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "winning formula",
                 "version": null,
                 "specification": null,
                 "description": "There seems to be some use for this...",
                 "effect": "Used for customization and mixes.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 2,
                 "appears_in_help_bar": true,
                 "can_copycat": true,

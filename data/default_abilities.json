@@ -1,202 +1,665 @@
 {
     "default_abilities_data": [
         {
+            "name": "characters",
+            "default_abilities": [
+                {
+                    "name": "attack",
+                    "version": 1
+                },
+                {
+                    "name": "defend",
+                    "version": null
+                },
+                {
+                    "name": "weapon",
+                    "version": null
+                },
+                {
+                    "name": "armor",
+                    "version": null
+                },
+                {
+                    "name": "escape",
+                    "version": null
+                },
+                {
+                    "name": "switch",
+                    "version": null
+                }
+            ]
+        },
+        {
+            "name": "aeons",
+            "default_abilities": [
+                {
+                    "name": "dismiss",
+                    "version": null
+                }
+            ]
+        },
+        {
+            "name": "standard-aeons",
+            "default_abilities": [
+                {
+                    "name": "attack",
+                    "version": 2
+                },
+                {
+                    "name": "shield",
+                    "version": null
+                },
+                {
+                    "name": "boost",
+                    "version": null
+                }
+            ]
+        },
+        {
+            "name": "magus-sisters",
+            "default_abilities": [
+                {
+                    "name": "attack",
+                    "version": 2
+                },
+                {
+                    "name": "taking a break...",
+                    "version": null
+                }
+            ]
+        },
+        {
             "name": "tidus",
-            "skills": [],
-            "special": [],
-            "white_magic": [],
-            "black_magic": [],
-            "overdrives": ["spiral cut"],
-            "aeon_abilities": [],
-            "commands": ["item"],
-            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+            "default_abilities": []
         },
         {
             "name": "yuna",
-            "skills": [],
-            "special": [],
-            "white_magic": ["cure", "esuna"],
-            "black_magic": [],
-            "overdrives": ["grand summon"],
-            "aeon_abilities": [],
-            "commands": ["wht magic", "item"],
-            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+            "default_abilities": [
+                {
+                    "name": "cure",
+                    "version": null
+                },
+                {
+                    "name": "esuna",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "wakka",
-            "skills": ["dark attack"],
-            "special": [],
-            "white_magic": [],
-            "black_magic": [],
-            "overdrives": ["element reels"],
-            "aeon_abilities": [],
-            "commands": ["skills", "item"],
-            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+            "default_abilities": [
+                {
+                    "name": "dark attack",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "lulu",
-            "skills": [],
-            "special": [],
-            "white_magic": [],
-            "black_magic": ["fire", "thunder", "water", "blizzard"],
-            "overdrives": ["fire fury", "thunder fury", "water fury", "blizzard fury"],
-            "aeon_abilities": [],
-            "commands": ["blk magic", "item"],
-            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+            "default_abilities": [
+                {
+                    "name": "fire",
+                    "version": null
+                },
+                {
+                    "name": "thunder",
+                    "version": null
+                },
+                {
+                    "name": "water",
+                    "version": null
+                },
+                {
+                    "name": "blizzard",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "kimahri",
-            "skills": [],
-            "special": ["lancet"],
-            "white_magic": [],
-            "black_magic": [],
-            "overdrives": ["jump"],
-            "aeon_abilities": [],
-            "commands": ["special", "item"],
-            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+            "default_abilities": [
+                {
+                    "name": "lancet",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "auron",
-            "skills": ["power break"],
-            "special": [],
-            "white_magic": [],
-            "black_magic": [],
-            "overdrives": ["dragon fang"],
-            "aeon_abilities": [],
-            "commands": ["skills", "item"],
-            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+            "default_abilities": [
+                {
+                    "name": "power break",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "rikku",
-            "skills": [],
-            "special": ["steal", "use"],
-            "white_magic": [],
-            "black_magic": [],
-            "overdrives": ["mix"],
-            "aeon_abilities": [],
-            "commands": ["special", "item"],
-            "other": ["attack", "defend", "change weapon", "change armor", "escape", "switch"]
+            "default_abilities": [
+                {
+                    "name": "steal",
+                    "version": null
+                },
+                {
+                    "name": "use",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "seymour",
-            "skills": [],
-            "special": [],
-            "white_magic": ["cure", "cura", "scan", "nulblaze", "nulfrost", "nulshock", "nultide"],
-            "black_magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara"],
-            "overdrives": ["requiem"],
-            "aeon_abilities": [],
-            "commands": ["wht magic", "blk magic", "item"],
-            "other": ["attack", "defend", "switch"]
+            "default_abilities": [
+                {
+                    "name": "cure",
+                    "version": null
+                },
+                {
+                    "name": "cura",
+                    "version": null
+                },
+                {
+                    "name": "scan",
+                    "version": null
+                },
+                {
+                    "name": "nulblaze",
+                    "version": null
+                },
+                {
+                    "name": "nulshock",
+                    "version": null
+                },
+                {
+                    "name": "nultide",
+                    "version": null
+                },
+                {
+                    "name": "nulfrost",
+                    "version": null
+                },
+                {
+                    "name": "fire",
+                    "version": null
+                },
+                {
+                    "name": "thunder",
+                    "version": null
+                },
+                {
+                    "name": "water",
+                    "version": null
+                },
+                {
+                    "name": "blizzard",
+                    "version": null
+                },
+                {
+                    "name": "fira",
+                    "version": null
+                },
+                {
+                    "name": "thundara",
+                    "version": null
+                },
+                {
+                    "name": "watera",
+                    "version": null
+                },
+                {
+                    "name": "blizzara",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "valefor",
-            "skills": [],
-            "special": [],
-            "white_magic": [],
-            "black_magic": ["fire", "thunder", "water", "blizzard"],
-            "overdrives": ["energy ray"],
-            "aeon_abilities": ["sonic wings"],
-            "commands": ["blk magic"],
-            "other": ["attack", "shield", "boost", "dismiss"]
+            "default_abilities": [
+                {
+                    "name": "fire",
+                    "version": null
+                },
+                {
+                    "name": "thunder",
+                    "version": null
+                },
+                {
+                    "name": "water",
+                    "version": null
+                },
+                {
+                    "name": "blizzard",
+                    "version": null
+                },
+                {
+                    "name": "sonic wings",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "ifrit",
-            "skills": [],
-            "special": [],
-            "white_magic": ["nulblaze", "nulfrost"],
-            "black_magic": ["fire"],
-            "overdrives": ["hellfire"],
-            "aeon_abilities": ["meteor strike"],
-            "commands": ["wht magic", "blk magic"],
-            "other": ["attack", "shield", "boost", "dismiss"]
+            "default_abilities": [
+                {
+                    "name": "nulblaze",
+                    "version": null
+                },
+                {
+                    "name": "nulfrost",
+                    "version": null
+                },
+                {
+                    "name": "fire",
+                    "version": null
+                },
+                {
+                    "name": "meteor strike",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "ixion",
-            "skills": [],
-            "special": [],
-            "white_magic": ["nulshock", "nultide"],
-            "black_magic": ["thunder", "thundara"],
-            "overdrives": ["thor's hammer"],
-            "aeon_abilities": ["aerospark"],
-            "commands": ["wht magic", "blk magic"],
-            "other": ["attack", "shield", "boost", "dismiss"]
+            "default_abilities": [
+                {
+                    "name": "nulshock",
+                    "version": null
+                },
+                {
+                    "name": "nultide",
+                    "version": null
+                },
+                {
+                    "name": "thunder",
+                    "version": null
+                },
+                {
+                    "name": "thundara",
+                    "version": null
+                },
+                {
+                    "name": "aerospark",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "shiva",
-            "skills": [],
-            "special": [],
-            "white_magic": ["nulblaze", "nulfrost"],
-            "black_magic": ["blizzard", "blizzara"],
-            "overdrives": ["diamond dust"],
-            "aeon_abilities": ["heavenly strike"],
-            "commands": ["wht magic", "blk magic"],
-            "other": ["attack", "shield", "boost", "dismiss"]
+            "default_abilities": [
+                {
+                    "name": "nulblaze",
+                    "version": null
+                },
+                {
+                    "name": "nulfrost",
+                    "version": null
+                },
+                {
+                    "name": "blizzard",
+                    "version": null
+                },
+                {
+                    "name": "blizzara",
+                    "version": null
+                },
+                {
+                    "name": "heavenly strike",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "bahamut",
-            "skills": [],
-            "special": [],
-            "white_magic": [],
-            "black_magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga"],
-            "overdrives": ["mega flare"],
-            "aeon_abilities": ["impulse"],
-            "commands": ["blk magic"],
-            "other": ["attack", "shield", "boost", "dismiss"]
+            "default_abilities": [
+                {
+                    "name": "fire",
+                    "version": null
+                },
+                {
+                    "name": "thunder",
+                    "version": null
+                },
+                {
+                    "name": "water",
+                    "version": null
+                },
+                {
+                    "name": "blizzard",
+                    "version": null
+                },
+                {
+                    "name": "fira",
+                    "version": null
+                },
+                {
+                    "name": "thundara",
+                    "version": null
+                },
+                {
+                    "name": "watera",
+                    "version": null
+                },
+                {
+                    "name": "blizzara",
+                    "version": null
+                },
+                {
+                    "name": "firaga",
+                    "version": null
+                },
+                {
+                    "name": "thundaga",
+                    "version": null
+                },
+                {
+                    "name": "waterga",
+                    "version": null
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null
+                },
+                {
+                    "name": "impulse",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "anima",
-            "skills": ["sleep attack", "silence attack", "dark attack", "sleep buster", "silence buster", "dark buster", "zombie attack"],
-            "special": [],
-            "white_magic": [],
-            "black_magic": ["fire", "thunder", "water", "blizzard", "fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga", "bio", "death"],
-            "overdrives": ["oblivion"],
-            "aeon_abilities": ["pain"],
-            "commands": ["skills", "blk magic"],
-            "other": ["attack", "shield", "boost", "dismiss"]
+            "default_abilities": [
+                {
+                    "name": "sleep attack",
+                    "version": null
+                },
+                {
+                    "name": "silence attack",
+                    "version": null
+                },
+                {
+                    "name": "dark attack",
+                    "version": null
+                },
+                {
+                    "name": "sleep buster",
+                    "version": null
+                },
+                {
+                    "name": "silence buster",
+                    "version": null
+                },
+                {
+                    "name": "dark buster",
+                    "version": null
+                },
+                {
+                    "name": "zombie attack",
+                    "version": null
+                },
+                {
+                    "name": "fire",
+                    "version": null
+                },
+                {
+                    "name": "thunder",
+                    "version": null
+                },
+                {
+                    "name": "water",
+                    "version": null
+                },
+                {
+                    "name": "blizzard",
+                    "version": null
+                },
+                {
+                    "name": "fira",
+                    "version": null
+                },
+                {
+                    "name": "thundara",
+                    "version": null
+                },
+                {
+                    "name": "watera",
+                    "version": null
+                },
+                {
+                    "name": "blizzara",
+                    "version": null
+                },
+                {
+                    "name": "firaga",
+                    "version": null
+                },
+                {
+                    "name": "thundaga",
+                    "version": null
+                },
+                {
+                    "name": "waterga",
+                    "version": null
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null
+                },
+                {
+                    "name": "bio",
+                    "version": null
+                },
+                {
+                    "name": "death",
+                    "version": null
+                },
+                {
+                    "name": "pain",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "yojimbo",
-            "skills": [],
-            "special": [],
-            "white_magic": [],
-            "black_magic": [],
-            "overdrives": [],
-            "aeon_abilities": ["daigoro", "kozuka", "wakizashi", "zanmato"],
-            "commands": ["pay"],
-            "other": ["dismiss"]
+            "default_abilities": [
+                {
+                    "name": "daigoro",
+                    "version": null
+                },
+                {
+                    "name": "kozuka",
+                    "version": null
+                },
+                {
+                    "name": "wakizashi",
+                    "version": 1
+                },
+                {
+                    "name": "wakizashi",
+                    "version": 2
+                },
+                {
+                    "name": "zanmato",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "cindy",
-            "skills": [],
-            "special": ["pray"],
-            "white_magic": ["cure", "cura", "curaga", "life", "full-life", "auto-life"],
-            "black_magic": ["firaga", "thundaga", "waterga", "blizzaga", "drain", "osmose", "flare", "ultima"],
-            "overdrives": ["delta attack"],
-            "aeon_abilities": ["camisade"],
-            "commands": ["do as you will.", "one more time.", "fight!", "go, go!", "help each other!", "combine powers!"],
-            "other": ["attack", "dismiss", "taking a break..."]
+            "default_abilities": [
+                {
+                    "name": "pray",
+                    "version": null
+                },
+                {
+                    "name": "cure",
+                    "version": null
+                },
+                {
+                    "name": "cura",
+                    "version": null
+                },
+                {
+                    "name": "curaga",
+                    "version": null
+                },
+                {
+                    "name": "life",
+                    "version": null
+                },
+                {
+                    "name": "full-life",
+                    "version": null
+                },
+                {
+                    "name": "auto-life",
+                    "version": null
+                },
+                {
+                    "name": "firaga",
+                    "version": null
+                },
+                {
+                    "name": "thundaga",
+                    "version": null
+                },
+                {
+                    "name": "waterga",
+                    "version": null
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null
+                },
+                {
+                    "name": "drain",
+                    "version": null
+                },
+                {
+                    "name": "osmose",
+                    "version": null
+                },
+                {
+                    "name": "flare",
+                    "version": null
+                },
+                {
+                    "name": "ultima",
+                    "version": null
+                },
+                {
+                    "name": "camisade",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "sandy",
-            "skills": [],
-            "special": [],
-            "white_magic": ["cure", "cura", "curaga", "haste", "protect", "shell", "reflect"],
-            "black_magic": [],
-            "overdrives": ["delta attack"],
-            "aeon_abilities": ["razzia"],
-            "commands": ["do as you will.", "one more time.", "fight!", "defense!"],
-            "other": ["attack", "dismiss", "taking a break...", "nulall"]
+            "default_abilities": [
+                {
+                    "name": "cure",
+                    "version": null
+                },
+                {
+                    "name": "cura",
+                    "version": null
+                },
+                {
+                    "name": "curaga",
+                    "version": null
+                },
+                {
+                    "name": "haste",
+                    "version": null
+                },
+                {
+                    "name": "protect",
+                    "version": null
+                },
+                {
+                    "name": "shell",
+                    "version": null
+                },
+                {
+                    "name": "reflect",
+                    "version": null
+                },
+                {
+                    "name": "nulall",
+                    "version": null
+                },
+                {
+                    "name": "razzia",
+                    "version": null
+                }
+            ]
         },
         {
             "name": "mindy",
-            "skills": [],
-            "special": ["lancet", "doublecast"],
-            "white_magic": [],
-            "black_magic": ["fira", "thundara", "watera", "blizzara", "firaga", "thundaga", "waterga", "blizzaga",  "drain", "osmose", "bio", "death", "flare"],
-            "overdrives": ["delta attack"],
-            "aeon_abilities": ["passado"],
-            "commands": ["do as you will.", "one more time.", "fight!", "are you alright?"],
-            "other": ["attack", "dismiss", "taking a break..."]
+            "default_abilities": [
+                {
+                    "name": "lancet",
+                    "version": null
+                },
+                {
+                    "name": "doublecast",
+                    "version": null
+                },
+                {
+                    "name": "fira",
+                    "version": null
+                },
+                {
+                    "name": "thundara",
+                    "version": null
+                },
+                {
+                    "name": "watera",
+                    "version": null
+                },
+                {
+                    "name": "blizzara",
+                    "version": null
+                },
+                {
+                    "name": "firaga",
+                    "version": null
+                },
+                {
+                    "name": "thundaga",
+                    "version": null
+                },
+                {
+                    "name": "waterga",
+                    "version": null
+                },
+                {
+                    "name": "blizzaga",
+                    "version": null
+                },
+                {
+                    "name": "drain",
+                    "version": null
+                },
+                {
+                    "name": "osmose",
+                    "version": null
+                },
+                {
+                    "name": "bio",
+                    "version": null
+                },
+                {
+                    "name": "death",
+                    "version": null
+                },
+                {
+                    "name": "flare",
+                    "version": null
+                },
+                {
+                    "name": "passado",
+                    "version": null
+                }
+            ]
         }
     ]
 }

@@ -1,28 +1,32 @@
 {
     "overdrive_commands_data": [
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "swordplay",
                 "version": null,
                 "specification": null,
                 "description": "Press button at the right time for extra damage!",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 0,
                 "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
             "user": "tidus",
-            "overdrive_abilities": [
+            "overdrives": [
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "spiral cut",
                         "version": null,
                         "specification": null,
                         "description": "Damages an enemy.",
                         "effect": "Deals strength-based special damage to an enemy.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 3,
                         "appears_in_help_bar": true,
                         "can_copycat": false,
@@ -30,7 +34,7 @@
                     },
                     "unlock_condition": null,
                     "countdown_in_sec": 3,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "spiral cut",
                             "version": 1
@@ -42,13 +46,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "slice & dice",
                         "version": null,
                         "specification": null,
                         "description": "Damages all enemies.",
                         "effect": "Deals six randomly distributed hits of strength-based special damage to enemy party.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 4,
                         "appears_in_help_bar": true,
                         "can_copycat": false,
@@ -56,7 +62,7 @@
                     },
                     "unlock_condition": "Overdrive used 10 times.",
                     "countdown_in_sec": 3,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "slice & dice",
                             "version": 1
@@ -68,13 +74,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "energy rain",
                         "version": null,
                         "specification": null,
                         "description": "Damages all enemies.",
                         "effect": "Deals strength-based special damage to enemy party.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": true,
                         "can_copycat": false,
@@ -82,7 +90,7 @@
                     },
                     "unlock_condition": "Overdrive used 30 times.",
                     "countdown_in_sec": 3,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "energy rain",
                             "version": 1
@@ -94,13 +102,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "blitz ace",
                         "version": null,
                         "specification": null,
                         "description": "Damages an enemy.",
                         "effect": "Deals eight hits of strength-based special damage to one enemy, plus another, stronger hit, if successful.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 7,
                         "appears_in_help_bar": true,
                         "can_copycat": false,
@@ -108,7 +118,7 @@
                     },
                     "unlock_condition": "Overdrive used 80 times.",
                     "countdown_in_sec": 2,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "blitz ace",
                             "version": 1
@@ -122,28 +132,32 @@
             ]
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "grand summon",
                 "version": null,
                 "specification": null,
                 "description": "Summon an aeon in Overdrive!",
                 "effect": "Summons an aeon with its overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 0,
                 "appears_in_help_bar": false,
                 "can_copycat": false,
                 "related_stats": []
             },
             "user": "yuna",
-            "overdrive_abilities": [
+            "overdrives": [
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 1,
                         "specification": null,
                         "description": "Summon the aeon Valefor.",
                         "effect": "Summons Valefor with her overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -151,7 +165,7 @@
                     },
                     "unlock_condition": null,
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 1
@@ -159,13 +173,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 2,
                         "specification": null,
                         "description": "Summon the aeon Ifrit.",
                         "effect": "Summons Ifrit with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -173,7 +189,7 @@
                     },
                     "unlock_condition": "Get Ifrit.",
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 2
@@ -181,13 +197,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 3,
                         "specification": null,
                         "description": "Summon the aeon Ixion.",
                         "effect": "Summons Ixion with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -195,7 +213,7 @@
                     },
                     "unlock_condition": "Get Ixion.",
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 3
@@ -203,13 +221,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 4,
                         "specification": null,
                         "description": "Summon the aeon Shiva.",
                         "effect": "Summons Shiva with her overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -217,7 +237,7 @@
                     },
                     "unlock_condition": "Get Shiva.",
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 4
@@ -225,13 +245,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 5,
                         "specification": null,
                         "description": "Summon the aeon Bahamut.",
                         "effect": "Summons Bahamut with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -239,7 +261,7 @@
                     },
                     "unlock_condition": "Get Bahamut.",
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 5
@@ -247,13 +269,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 6,
                         "specification": null,
                         "description": "Summon the aeon Anima.",
                         "effect": "Summons Anima with her overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -261,7 +285,7 @@
                     },
                     "unlock_condition": "Get Anima.",
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 6
@@ -269,13 +293,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 7,
                         "specification": null,
                         "description": "Summon the aeon Yojimbo.",
                         "effect": "Summons Yojimbo with his overdrive gauge fully charged. After using the overdrive, the gauge reverts back to where it was before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -283,7 +309,7 @@
                     },
                     "unlock_condition": "Get Yojimbo.",
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 7
@@ -291,13 +317,15 @@
                     ]
                 },
                 {
-                    "ability_data": {
+                    "ability_info": {
                         "name": "grand summon",
                         "version": 8,
                         "specification": null,
                         "description": "Summon the Magus Sisters.",
                         "effect": "Summons the Magus Sisters with their overdrive gauges fully charged. After using the overdrive, the gauges revert back to where they were before the summon, making it possible to use two overdrives consecutively.",
-                        "notes": null,
+                        "notes": null
+                    },
+                    "ability_data": {
                         "rank": 5,
                         "appears_in_help_bar": false,
                         "can_copycat": false,
@@ -305,7 +333,7 @@
                     },
                     "unlock_condition": "Get the Magus Sisters.",
                     "countdown_in_sec": null,
-                    "versions": [
+                    "overdrive_abilities": [
                         {
                             "name": "grand summon",
                             "version": 8
@@ -314,31 +342,3163 @@
                 }
             ]
         },
-        
         {
-            "name": "slots",
-            "description": "Get the right combination for the ultimate shot!",
-            "user": "wakka"
+            "ability_info": {
+                "name": "slots",
+                "version": null,
+                "specification": null,
+                "description": "Get the right combination for the ultimate shot!",
+                "effect": null,
+                "notes": null
+            },
+            "ability_data": {
+                "rank": 5,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "user": "wakka",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "element reels",
+                        "version": null,
+                        "specification": null,
+                        "description": "Spins elemental damage slots.",
+                        "effect": "Deals strength-based special damage to a random enemy. If at least two symbols match, the attack gains the corresponding element. If three symbols match, this overdrive hits all enemies. Red = Fire; Yellow = Lightning; Blue = Water; White = Ice.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": 20,
+                    "overdrive_abilities": [
+                        {
+                            "name": "power shot",
+                            "version": null
+                        },
+                        {
+                            "name": "fire shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "fire shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "thunder shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "thunder shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "water shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "water shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "ice shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "ice shot",
+                            "version": 2
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "attack reels",
+                        "version": null,
+                        "specification": null,
+                        "description": "Spins multiple attack slots.",
+                        "effect": "Deals a varying amount of randomly distributed hits to enemy party. The amount of hits is determined by the slots. If three symbols match, the amount of hits gets doubled, for a maximum possible amount of 12 hits.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Appears as a prize in a blitzball tournament.",
+                    "countdown_in_sec": 20,
+                    "overdrive_abilities": [
+                        {
+                            "name": "attack reels",
+                            "version": 1
+                        },
+                        {
+                            "name": "attack reels",
+                            "version": 2
+                        },
+                        {
+                            "name": "attack reels",
+                            "version": 3
+                        },
+                        {
+                            "name": "attack reels",
+                            "version": 4
+                        },
+                        {
+                            "name": "attack reels",
+                            "version": 5
+                        },
+                        {
+                            "name": "attack reels",
+                            "version": 6
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "status reels",
+                        "version": null,
+                        "specification": null,
+                        "description": "Spins status ailment slots.",
+                        "effect": "Deals strength-based special damage to a random enemy. If at least two symbols match, the attack inflicts the corresponding status ailments. If three symbols match, this overdrive hits all enemies. Skull = Sleep, Silence, Darkness, Poison; Arrow = Full Break; Hourglass = Petrification and Delay.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Appears as a prize in a blitzball league after unlocking Attack Reels and participating in 250 battles outside of the Monster Arena.",
+                    "countdown_in_sec": 20,
+                    "overdrive_abilities": [
+                        {
+                            "name": "power shot",
+                            "version": null
+                        },
+                        {
+                            "name": "havoc shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "havoc shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "break shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "break shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "time shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "time shot",
+                            "version": 2
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "aurochs reels",
+                        "version": null,
+                        "specification": null,
+                        "description": "Spins Aurochs custom slots.",
+                        "effect": "Combines the symbols of Element and Status Reels and adds an Aurochs Symbol into the Slots. Deals strength-based special damage to a random enemy. If at least two symbols match, the attack gains the corresponding effect. If three symbols match, this overdrive hits all enemies. Two or three Aurochs-Symbols result in the Aurochs Shot, which is a powerful attack without any side-effects.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Appears as a prize in a blitzball tournament after unlocking Status Reels and participating in 450 battles outside of the Monster Arena.",
+                    "countdown_in_sec": 20,
+                    "overdrive_abilities": [
+                        {
+                            "name": "power shot",
+                            "version": null
+                        },
+                        {
+                            "name": "aurochs shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "aurochs shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "fire shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "fire shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "thunder shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "thunder shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "water shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "water shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "ice shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "ice shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "havoc shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "havoc shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "break shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "break shot",
+                            "version": 2
+                        },
+                        {
+                            "name": "time shot",
+                            "version": 1
+                        },
+                        {
+                            "name": "time shot",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "fury",
-            "description": "Unleash a barrage of spells on the enemy!",
-            "user": "lulu"
+            "ability_info": {
+                "name": "fury",
+                "version": null,
+                "specification": null,
+                "description": "Unleash a barrage of spells on the enemy!",
+                "effect": null,
+                "notes": null
+            },
+            "ability_data": {
+                "rank": 0,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "user": "lulu",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "fire fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple fire spells.",
+                        "effect": "Casts multiple Fire-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "fire fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "fire fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "fire fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "thunder fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple lightning spells.",
+                        "effect": "Casts multiple Thunder-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "thunder fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "thunder fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "thunder fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "water fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple water spells.",
+                        "effect": "Casts multiple Water-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "water fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "water fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "water fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "blizzard fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple ice spells.",
+                        "effect": "Casts multiple Blizzard-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "blizzard fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "blizzard fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "blizzard fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "fira fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple fire spells.",
+                        "effect": "Casts multiple Fira-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Fira with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "fira fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "fira fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "fira fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "thundara fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple lightning spells.",
+                        "effect": "Casts multiple Thundara-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Thundara with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "thundara fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "thundara fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "thundara fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "watera fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple water spells.",
+                        "effect": "Casts multiple Watera-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Watera with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "watera fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "watera fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "watera fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "blizzara fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple ice spells.",
+                        "effect": "Casts multiple Blizzara-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Blizzara with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "blizzara fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "blizzara fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "blizzara fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "firaga fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple fire spells.",
+                        "effect": "Casts multiple Firaga-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 12.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Firaga with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "firaga fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "firaga fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "firaga fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "thundaga fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple lightning spells.",
+                        "effect": "Casts multiple Thundaga-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 12.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Thundaga with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "thundaga fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "thundaga fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "thundaga fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "waterga fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple water spells.",
+                        "effect": "Casts multiple Waterga-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 12.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Waterga with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "waterga fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "waterga fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "waterga fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "blizzaga fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple ice spells.",
+                        "effect": "Casts multiple Blizzaga-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 12.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Blizzaga with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "blizzaga fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "blizzaga fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "blizzaga fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "bio fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple poison spells.",
+                        "effect": "Casts multiple Bio-spells that are randomly distributed and inflict poison with an 80% infliction rate. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 12.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Bio with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "bio fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "bio fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "bio fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "demi fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple spells that each reduce HP by 1/8.",
+                        "effect": "Casts multiple Demi-spells that reduce the enemy party's HP by 1/8 per spell (ignores Shell). The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 12.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Demi with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "demi fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "demi fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "demi fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "death fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple death spells.",
+                        "effect": "Casts multiple Death-spells that are randomly distributed and have an 80% infliction rate. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 12.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Death with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "death fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "death fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "death fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "drain fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple spells that absorb HP.",
+                        "effect": "Casts multiple Drain-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Drain with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "drain fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "drain fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "drain fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "osmose fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple spells that absorb MP.",
+                        "effect": "Casts multiple Osmose-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 16.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Osmose with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "osmose fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "osmose fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "osmose fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "flare fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple non-elemental damage spells.",
+                        "effect": "Casts multiple Flare-spells that are randomly distributed and deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 7.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 7,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Flare with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "flare fury",
+                            "version": 1
+                        },
+                        {
+                            "name": "flare fury",
+                            "version": 2
+                        },
+                        {
+                            "name": "flare fury",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "ultima fury",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast multiple non-elemental damage spells.",
+                        "effect": "Casts multiple Ultima-spells that deal magic-based special damage. The amount of spells cast depends on Lulu's magic. At 255 magic, the maximum amount of casts is 4.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 10,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Learn Ultima with Lulu.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "ultima fury",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "ronso rage",
-            "description": "Use fiends’ skills against them!",
-            "user": "kimahri"
+            "ability_info": {
+                "name": "ronso rage",
+                "version": null,
+                "specification": null,
+                "description": "Use fiends’ skills against them!",
+                "effect": null,
+                "notes": null
+            },
+            "ability_data": {
+                "rank": 0,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "user": "kimahri",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "jump",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages an enemy.",
+                        "effect": "Deals strength-based special damage to an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "jump",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "fire breath",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals fire damage to all enemies.",
+                        "effect": "Deals magic-based fire-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Dual Horn, Valaha, Grendel, or Yenke Ronso.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "fire breath",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "seed cannon",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages an enemy.",
+                        "effect": "Deals strength-based special damage to an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Ragora (tutorial).",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "seed cannon",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "self destruct",
+                        "version": null,
+                        "specification": null,
+                        "description": "Sacrifice life to heavily damage an enemy.",
+                        "effect": "Ejects Kimahri from the battle and deals a fixed amount of special damage to an enemy. The amount of damage dealt is Kimahri's max HP times 3.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Bomb, Grenade, Puroboros, or Biran Ronso.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "self destruct",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "thrust kick",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals damage and ejects enemy from battle.",
+                        "effect": "Deals strength-based special damage to an enemy and ejects it from the battle, if possible.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on YKT-63, YKT-11, or Biran Ronso.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "thrust kick",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "stone breath",
+                        "version": null,
+                        "specification": null,
+                        "description": "Petrifies all enemies.",
+                        "effect": "Petrifies all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Basilisk, Anacondaur, or Yenke Ronso.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "stone breath",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "aqua breath",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals water damage to all enemies.",
+                        "effect": "Deals magic-based water-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Chimera, Chimera Brain, or Yenke Ronso.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "aqua breath",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "doom",
+                        "version": null,
+                        "specification": null,
+                        "description": "Counts down to an enemy's doom.",
+                        "effect": "Inflicts Doom on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Ghost, Wraith, or Biran Ronso.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "doom",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "white wind",
+                        "version": null,
+                        "specification": null,
+                        "description": "Restores party’s HP.",
+                        "effect": "Restores HP of party (magic-based; ignores Shell).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 3,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Dark Flan, Spirit, or Yenke Ronso (after he used it).",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "white wind",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "bad breath",
+                        "version": null,
+                        "specification": null,
+                        "description": "Inflicts status ailments on all enemies.",
+                        "effect": "Inflicts Sleep, Silence, Darkness (10 turns each), and Poison on all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Malboro, or Great Malboro.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "bad breath",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mighty guard",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cast defensive spells on party.",
+                        "effect": "Casts NulAll, Shell, and Protect on party.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Behemoth, Behemoth King, or Biran Ronso (after he used it).",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mighty guard",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "nova",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals magic-based non-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 7,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Use Lancet on Omega Weapon, or Nemesis.",
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "nova",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "bushido",
-            "description": "Enter commands for a lethal sword attack!",
-            "user": "auron"
+            "ability_info": {
+                "name": "bushido",
+                "version": null,
+                "specification": null,
+                "description": "Enter commands for a lethal sword attack!",
+                "effect": null,
+                "notes": null
+            },
+            "ability_data": {
+                "rank": 0,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "user": "auron",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "dragon fang",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals strength-based special damage to all enemies. Also inflicts weak Delay, if the minigame was completed successfully.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "dragon fang",
+                            "version": 1
+                        },
+                        {
+                            "name": "dragon fang",
+                            "version": 2
+                        },
+                        {
+                            "name": "dragon fang",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "shooting star",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages an enemy.",
+                        "effect": "Deals strength-based special damage to one enemy and also ejects it from battle, if the minigame was completed successfully.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 5,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Defeat Spherimorph and watch Jecht's Sphere.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "shooting star",
+                            "version": 1
+                        },
+                        {
+                            "name": "shooting star",
+                            "version": 2
+                        },
+                        {
+                            "name": "shooting star",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "banishing blade",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages an enemy.",
+                        "effect": "Deals strength-based special damage to one enemy. Also inflicts Full Break, if the minigame was completed successfully.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Watch three Jecht Spheres.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "banishing blade",
+                            "version": 1
+                        },
+                        {
+                            "name": "banishing blade",
+                            "version": 2
+                        },
+                        {
+                            "name": "banishing blade",
+                            "version": 3
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "tornado",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals strength-based special damage to all enemies. Adds a second, stronger hit, if the minigame was completed successfully.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 7,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": "Watch all Jecht Spheres.",
+                    "countdown_in_sec": 4,
+                    "overdrive_abilities": [
+                        {
+                            "name": "tornado",
+                            "version": 1
+                        },
+                        {
+                            "name": "tornado",
+                            "version": 2
+                        }
+                    ]
+                }
+            ]
         },
         {
-            "name": "mix",
-            "description": "Combine items for various effects!",
-            "user": "rikku"
+            "ability_info": {
+                "name": "mix",
+                "version": null,
+                "specification": null,
+                "description": "Combine items for various effects!",
+                "effect": null,
+                "notes": null
+            },
+            "ability_data": {
+                "rank": 5,
+                "appears_in_help_bar": false,
+                "can_copycat": false,
+                "related_stats": []
+            },
+            "user": "rikku",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "grenade",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals around 350 HP of non-elemental special damage to all enemies (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "grenade",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "frag grenade",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damage and Armor Break to all enemies.",
+                        "effect": "Inflicts Armor Break on all enemies and deals around 800 HP of non-elemental special damage (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "frag grenade",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "pineapple",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals around 1350 HP of non-elemental special damage to all enemies (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "pineapple",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "potato masher",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals around 2700 HP of non-elemental special damage to all enemies (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "potato masher",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "cluster bomb",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals around 5000 HP of non-elemental special damage to all enemies (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "cluster bomb",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "tallboy",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals around 9000 HP of non-elemental special damage to all enemies (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "tallboy",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "blaster mine",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damage and status ailments to all enemies.",
+                        "effect": "Inflicts Sleep, Silence, and Darkness (3 turns each) on all enemies and deals around 1100 HP of non-elemental special damage (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "blaster mine",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "hazardous shell",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damage and status ailments to all enemies.",
+                        "effect": "Inflicts Sleep, Silence, and Darkness (4 turns each), and Poison on all enemies and deals around 2250 HP of non-elemental special damage (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hazardous shell",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "calamity bomb",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damage and status ailments to all enemies.",
+                        "effect": "Inflicts Sleep, Silence, and Darkness (5 turns each), Poison, and Full Break on all enemies and deals around 3600 HP of non-elemental special damage (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "calamity bomb",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "chaos grenade",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damage and status ailments to all enemies.",
+                        "effect": "Inflicts Sleep, Silence, and Darkness (8 turns each), Poison, Slow, and Full Break on all enemies and deals around 7300 HP of non-elemental special damage (can critical).",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "chaos grenade",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "heat blaster",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals fire damage to all enemies.",
+                        "effect": "Deals five randomly distributed hits to enemy party that deal about 400 HP of fire-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "heat blaster",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "firestorm",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals fire damage to all enemies.",
+                        "effect": "Deals six randomly distributed hits to enemy party that deal about 700 HP of fire-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "firestorm",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "burning soul",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals fire damage to all enemies.",
+                        "effect": "Deals nine randomly distributed hits to enemy party that deal about 900 HP of fire-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "burning soul",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "brimstone",
+                        "version": null,
+                        "specification": null,
+                        "description": "Fire damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 400 HP of fire-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (3 turns each), and Poison on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "brimstone",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "abaddon flame",
+                        "version": null,
+                        "specification": null,
+                        "description": "Fire damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 900 HP of fire-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (4 turns each), Poison, and Full Break on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "abaddon flame",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "thunderbolt",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals lightning damage to all enemies.",
+                        "effect": "Deals five randomly distributed hits to enemy party that deal about 400 HP of lightning-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "thunderbolt",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "rolling thunder",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals lightning damage to all enemies.",
+                        "effect": "Deals six randomly distributed hits to enemy party that deal about 700 HP of lightning-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "rolling thunder",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "lightning bolt",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals lightning damage to all enemies.",
+                        "effect": "Deals nine randomly distributed hits to enemy party that deal about 900 HP of lightning-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "lightning bolt",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "electroshock",
+                        "version": null,
+                        "specification": null,
+                        "description": "Lightning damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 400 HP of lightning-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (3 turns each), and Poison on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "electroshock",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "thunderblast",
+                        "version": null,
+                        "specification": null,
+                        "description": "Lightning damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 900 HP of lightning-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (4 turns each), Poison, and Full Break on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "thunderblast",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "waterfall",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals water damage to all enemies.",
+                        "effect": "Deals five randomly distributed hits to enemy party that deal about 400 HP of water-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "waterfall",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "flash flood",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals water damage to all enemies.",
+                        "effect": "Deals six randomly distributed hits to enemy party that deal about 700 HP of water-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "flash flood",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "tidal wave",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals water damage to all enemies.",
+                        "effect": "Deals nine randomly distributed hits to enemy party that deal about 900 HP of water-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "tidal wave",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "aqua toxin",
+                        "version": null,
+                        "specification": null,
+                        "description": "Water damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 400 HP of water-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (3 turns each), and Poison on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "aqua toxin",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "dark rain",
+                        "version": null,
+                        "specification": null,
+                        "description": "Water damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 900 HP of water-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (4 turns each), Poison, and Full Break on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "dark rain",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "snow flurry",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals ice damage to all enemies.",
+                        "effect": "Deals five randomly distributed hits to enemy party that deal about 400 HP of ice-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "snow flurry",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "icefall",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals ice damage to all enemies.",
+                        "effect": "Deals six randomly distributed hits to enemy party that deal about 700 HP of ice-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "icefall",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "winter storm",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals ice damage to all enemies.",
+                        "effect": "Deals nine randomly distributed hits to enemy party that deal about 900 HP of ice-elemental special damage each.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "winter storm",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "black ice",
+                        "version": null,
+                        "specification": null,
+                        "description": "Ice damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 400 HP of ice-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (3 turns each), and Poison on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "black ice",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "krysta",
+                        "version": null,
+                        "specification": null,
+                        "description": "Ice damage and status ailments to all enemies.",
+                        "effect": "Deals three randomly distributed hits to enemy party that deal about 900 HP of ice-elemental special damage each. Each hit inflicts Sleep, Silence, and Darkness (4 turns each), Poison, and Full Break on an enemy.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "krysta",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "nega burst",
+                        "version": null,
+                        "specification": null,
+                        "description": "Reduces HP of all enemies by 3/4.",
+                        "effect": "Deals gravity-based special damage to target party equal to 3/4 of their current HP.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "nega burst",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "black hole",
+                        "version": null,
+                        "specification": null,
+                        "description": "Reduces HP of all enemies by 15/16.",
+                        "effect": "Deals gravity-based special damage to target party equal to 15/16 of their current HP.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "black hole",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "sunburst",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals damage to all enemies.",
+                        "effect": "Deals a fixed 19998 HP of non-elemental special damage to all enemies. Can break the damage limit without the auto-ability equipped.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "sunburst",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "ultra potion",
+                        "version": null,
+                        "specification": null,
+                        "description": "Restores HP of party.",
+                        "effect": "Fully restores HP of party.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "ultra potion",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "panacea",
+                        "version": null,
+                        "specification": null,
+                        "description": "Cures party of all status ailments.",
+                        "effect": "Cures all status ailments of party, except breaks, doom, and KO.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "panacea",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "ultra cure",
+                        "version": null,
+                        "specification": null,
+                        "description": "Restores HP and cures all status ailments of party.",
+                        "effect": "Restores HP of party by half and cures all status ailments, except breaks, doom, and KO.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "ultra cure",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mega phoenix",
+                        "version": null,
+                        "specification": null,
+                        "description": "Revives party from KO status.",
+                        "effect": "Revives party from KO and fully restores HP of revived characters (maximum of 9,999 HP). Damages characters inflicted with Zombie and instant KO's them.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mega phoenix",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "final phoenix",
+                        "version": null,
+                        "specification": null,
+                        "description": "Revives party from KO status and fully restores HP.",
+                        "effect": "Revives party from KO and fully restores HP of all characters. Damages characters inflicted with Zombie and instant KO's them.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "final phoenix",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "elixir",
+                        "version": null,
+                        "specification": null,
+                        "description": "Fully restores HP & MP of one character.",
+                        "effect": "Fully restores HP & MP of a random character (maximum of 9,999 HP and 999 MP). Damages characters inflicted with Zombie.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "elixir",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "megalixir",
+                        "version": null,
+                        "specification": null,
+                        "description": "Fully restores HP & MP of party.",
+                        "effect": "Fully restores HP & MP of all characters (maximum of 9,999 HP and 999 MP). Damages characters inflicted with Zombie.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "megalixir",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "super elixir",
+                        "version": null,
+                        "specification": null,
+                        "description": "Full HP & MP to party and cures all status ailments.",
+                        "effect": "Fully restores HP & MP of all characters and cures all status ailments, except breaks, doom, and KO. Damages characters inflicted with Zombie.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "super elixir",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "final elixir",
+                        "version": null,
+                        "specification": null,
+                        "description": "Restores party to full health.",
+                        "effect": "Revives party from KO and fully restores HP & MP of all characters. Cures all status ailments, except breaks, doom, and KO. Can break the damage limit without the auto-ability equipped. Damages characters inflicted with Zombie and instant KO's them.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "final elixir",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "nulall",
+                        "version": null,
+                        "specification": null,
+                        "description": "Defends a character from all elements.",
+                        "effect": "Casts NulAll on a random character.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "nulall",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mega nulall",
+                        "version": null,
+                        "specification": null,
+                        "description": "Defends party from all elements.",
+                        "effect": "Casts NulAll on party.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mega nulall",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "hyper nulall",
+                        "version": null,
+                        "specification": null,
+                        "description": "Defends party from all elements. Adds Cheer & Focus.",
+                        "effect": "Casts NulAll on party. Also adds five times Cheer and Focus.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["strength", "defense", "magic", "magic defense"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hyper nulall",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "ultra nulall",
+                        "version": null,
+                        "specification": null,
+                        "description": "Defends party from all elements and raises attributes.",
+                        "effect": "Casts NulAll on party. Also adds five times Cheer, Focus, Aim and Reflex.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["strength", "defense", "magic", "magic defense", "evasion", "accuracy"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "ultra nulall",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mighty wall",
+                        "version": null,
+                        "specification": null,
+                        "description": "Casts Shell and Protect on party.",
+                        "effect": "Casts Shell and Protect on party.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mighty wall",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mighty g",
+                        "version": null,
+                        "specification": null,
+                        "description": "Casts Shell, Protect, and Haste on party.",
+                        "effect": "Casts Shell, Protect, and Haste on party.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mighty g",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "super mighty g",
+                        "version": null,
+                        "specification": null,
+                        "description": "Casts Mighty G and Regen on party.",
+                        "effect": "Casts Shell, Protect, Haste, and Regen (20 turns) on party.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "super mighty g",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "hyper mighty g",
+                        "version": null,
+                        "specification": null,
+                        "description": "Casts Mighty G, Regen, and Auto-Life on party.",
+                        "effect": "Casts Shell, Protect, Haste, Regen (20 turns), and Auto-Life on party.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hyper mighty g",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "vitality",
+                        "version": null,
+                        "specification": null,
+                        "description": "Doubles max HP of one character.",
+                        "effect": "Doubles max HP of a random character (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["hp"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "vitality",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mega vitality",
+                        "version": null,
+                        "specification": null,
+                        "description": "Doubles max HP of party.",
+                        "effect": "Doubles max HP of party (maximum of 9,999 HP without 'Break HP Limit'). Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["hp"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mega vitality",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "hyper vitality",
+                        "version": null,
+                        "specification": null,
+                        "description": "Doubles max HP and bestows Cheer on party.",
+                        "effect": "Doubles max HP of party (maximum of 9,999 HP without 'Break HP Limit'). Also adds five times Cheer. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["hp", "strength", "defense"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hyper vitality",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mana",
+                        "version": null,
+                        "specification": null,
+                        "description": "Doubles max MP of one character.",
+                        "effect": "Doubles max MP of a random character (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["mp"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mana",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "mega mana",
+                        "version": null,
+                        "specification": null,
+                        "description": "Doubles max MP of party.",
+                        "effect": "Doubles max MP of party (maximum of 999 MP without 'Break MP Limit'). Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["mp"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mega mana",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "hyper mana",
+                        "version": null,
+                        "specification": null,
+                        "description": "Doubles max MP and bestows Focus on party.",
+                        "effect": "Doubles max MP of party (maximum of 999 MP without 'Break MP Limit'). Also adds five times Focus. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["mp", "magic", "magic defense"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hyper mana",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "freedom",
+                        "version": null,
+                        "specification": null,
+                        "description": "Reduces MP cost of one character’s abilities to 0.",
+                        "effect": "Reduces MP cost of a random character to 0. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["mp"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "freedom",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "freedom x",
+                        "version": null,
+                        "specification": null,
+                        "description": "Reduces MP cost of party’s abilities to 0.",
+                        "effect": "Reduces MP cost of party to 0. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["mp"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "freedom x",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "quartet of 9",
+                        "version": null,
+                        "specification": null,
+                        "description": "Augments one character’s attacks to 9999 damage.",
+                        "effect": "The damage and heals of a random character always amount to at least 9999 HP. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "quartet of 9",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "trio of 9999",
+                        "version": null,
+                        "specification": null,
+                        "description": "Augments party’s attacks to 9999 damage.",
+                        "effect": "The damage and heals of all characters always amount to at least 9999 HP. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "trio of 9999",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "hero drink",
+                        "version": null,
+                        "specification": null,
+                        "description": "Allows character’s attacks to deal critical damage. Effect goes away when KO'd.",
+                        "effect": "A random character always does critical hits.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["luck"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hero drink",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "miracle drink",
+                        "version": null,
+                        "specification": null,
+                        "description": "Allows party’s attacks to deal critical damage. Effect goes away when KO'd.",
+                        "effect": "The party always does critical hits.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": ["luck"]
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "miracle drink",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "hot spurs",
+                        "version": null,
+                        "specification": null,
+                        "description": "Accelerates party’s Overdrive gauges.",
+                        "effect": "The party's Overdrive charge rate is multiplied by a factor of 1.5. This stacks with equipped Auto-Abilities and 'Eccentrick'. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hot spurs",
+                            "version": null
+                        }
+                    ]
+                },
+                {
+                    "ability_info": {
+                        "name": "eccentrick",
+                        "version": null,
+                        "specification": null,
+                        "description": "Hyper-accelerates party’s Overdrive gauges.",
+                        "effect": "The party's Overdrive charge rate is multiplied by a factor of 2. This stacks with equipped Auto-Abilities and 'Hot Spurs'. Effect goes away when KO'd.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "eccentrick",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "seymour",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "requiem",
+                        "version": null,
+                        "specification": null,
+                        "description": "Damages all enemies.",
+                        "effect": "Deals non-elemental magic damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 4,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "requiem",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "valefor",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "energy ray",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals non-elemental damage to all enemies.",
+                        "effect": "Deals magic-based non-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 8,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "energy ray",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "valefor",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "energy blast",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals non-elemental damage to all enemies.",
+                        "effect": "Deals magic-based non-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 9,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "energy blast",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "ifrit",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "hellfire",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals fire damage to all enemies.",
+                        "effect": "Deals magic-based fire-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 8,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "hellfire",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "ixion",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "thor's hammer",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals lightning damage to all enemies.",
+                        "effect": "Deals magic-based lightning-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 8,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "thor's hammer",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "shiva",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "diamond dust",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals ice damage to all enemies.",
+                        "effect": "Deals magic-based ice-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 8,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "diamond dust",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "bahamut",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "mega flare",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals non-elemental damage to all enemies.",
+                        "effect": "Deals magic-based non-elemental special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 8,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "mega flare",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "anima",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "oblivion",
+                        "version": null,
+                        "specification": null,
+                        "description": "Deals non-elemental damage to all enemies.",
+                        "effect": "Deals 16 hits of strength-based special damage to all enemies.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "oblivion",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ability_info": null,
+            "ability_data": null,
+            "user": "magus-sisters",
+            "overdrives": [
+                {
+                    "ability_info": {
+                        "name": "delta attack",
+                        "version": null,
+                        "specification": null,
+                        "description": "The Magus Sisters' combined attack.",
+                        "effect": "Deals 6 hits of strength-based special damage to all enemies. Each hit can get a critical hit.",
+                        "notes": null
+                    },
+                    "ability_data": {
+                        "rank": 6,
+                        "appears_in_help_bar": true,
+                        "can_copycat": false,
+                        "related_stats": []
+                    },
+                    "unlock_condition": null,
+                    "countdown_in_sec": null,
+                    "overdrive_abilities": [
+                        {
+                            "name": "delta attack",
+                            "version": null
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

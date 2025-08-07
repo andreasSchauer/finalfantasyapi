@@ -9,6 +9,7 @@
                 "area": "trials",
                 "section": null
             },
+            "category": "standard-aeons",
             "is_optional": false,
             "num_battles_to_regenerate": 8,
             "base_stats": [
@@ -82,6 +83,7 @@
                 "area": "trials",
                 "section": null
             },
+            "category": "standard-aeons",
             "is_optional": false,
             "num_battles_to_regenerate": 12,
             "base_stats": [
@@ -155,6 +157,7 @@
                 "area": "trials",
                 "section": null
             },
+            "category": "standard-aeons",
             "is_optional": false,
             "num_battles_to_regenerate": 20,
             "base_stats": [
@@ -228,6 +231,7 @@
                 "area": "trials",
                 "section": null
             },
+            "category": "standard-aeons",
             "is_optional": false,
             "num_battles_to_regenerate": 20,
             "base_stats": [
@@ -301,6 +305,7 @@
                 "area": "trials",
                 "section": null
             },
+            "category": "standard-aeons",
             "is_optional": false,
             "num_battles_to_regenerate": 24,
             "base_stats": [
@@ -374,6 +379,7 @@
                 "area": "chamber of the fayth",
                 "section": null
             },
+            "category": "standard-aeons",
             "is_optional": true,
             "num_battles_to_regenerate": 24,
             "base_stats": [
@@ -447,6 +453,7 @@
                 "area": "chamber of the fayth",
                 "section": null
             },
+            "category": null,
             "is_optional": true,
             "num_battles_to_regenerate": 24,
             "base_stats": [
@@ -512,6 +519,7 @@
                 "area": "fayth",
                 "section": null
             },
+            "category": "magus-sisters",
             "is_optional": true,
             "num_battles_to_regenerate": 30,
             "base_stats": [
@@ -585,6 +593,7 @@
                 "area": "fayth",
                 "section": null
             },
+            "category": "magus-sisters",
             "is_optional": true,
             "num_battles_to_regenerate": 30,
             "physical_attack_range": "close",
@@ -661,6 +670,7 @@
                 "area": "fayth",
                 "section": null
             },
+            "category": "magus-sisters",
             "is_optional": true,
             "num_battles_to_regenerate": 30,
             "physical_attack_range": "far",

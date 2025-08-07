@@ -857,6 +857,7 @@
             "altered_states": [
                 {
                     "condition": "While retreating.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "center",
@@ -867,6 +868,7 @@
                 },
                 {
                     "condition": "After 'Nautilus Charge', or when you flank it.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "close",
@@ -3908,6 +3910,7 @@
             "altered_states": [
                 {
                     "condition": "When leaving its shell after taking 600 HP worth of damage.",
+                    "permanent": true,
                     "properties": ["tough", "heavy"],
                     "auto_abilities": null,
                     "position": null,
@@ -4368,6 +4371,7 @@
             "altered_states": [
                 {
                     "condition": "After Oblitzerator's first turn.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -4380,6 +4384,7 @@
                 },
                 {
                     "condition": "When HP falls below 2000.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -4392,6 +4397,7 @@
                 },
                 {
                     "condition": "When HP falls below 500.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -6799,6 +6805,7 @@
             "altered_states": [
                 {
                     "condition": "While it's on its back.",
+                    "permanent": false,
                     "properties": ["tough"],
                     "auto_abilities": null,
                     "position": null,
@@ -8178,6 +8185,7 @@
             "altered_states": [
                 {
                     "condition": "While Gui blocks with its arms.",
+                    "permanent": false,
                     "properties": ["tough", "heavy", "armored"],
                     "auto_abilities": null,
                     "position": null,
@@ -8332,6 +8340,7 @@
             "altered_states": [
                 {
                     "condition": "While Gui blocks with its arms.",
+                    "permanent": false,
                     "properties": ["tough", "heavy", "armored"],
                     "auto_abilities": null,
                     "position": null,
@@ -10793,6 +10802,7 @@
             "altered_states": [
                 {
                     "condition": "Upon being Provoked.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -10805,6 +10815,7 @@
                 },
                 {
                     "condition": "While being Provoked, before Aqua Shooter is performed.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -10817,6 +10828,7 @@
                 },
                 {
                     "condition": "While being Provoked, after Extractor cools down.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -11927,6 +11939,7 @@
             "altered_states": [
                 {
                     "condition": "After hitting itself with Thundara for the first time.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -11941,6 +11954,7 @@
                 },
                 {
                     "condition": "After hitting itself with Thundara for the second time.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -11955,6 +11969,7 @@
                 },
                 {
                     "condition": "After hitting itself with Thundara for the third time.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -12526,6 +12541,7 @@
             "altered_states": [
                 {
                     "condition": "When encountered due to touching a red butterfly.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -12704,6 +12720,7 @@
             "altered_states": [
                 {
                     "condition": "When encountered due to touching a red butterfly.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -12930,6 +12947,7 @@
             "altered_states": [
                 {
                     "condition": "When encountered due to touching a red butterfly.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -13145,6 +13163,7 @@
             "altered_states": [
                 {
                     "condition": "When encountered due to touching a red butterfly.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -13325,6 +13344,7 @@
             "altered_states": [
                 {
                     "condition": "When encountered due to touching a red butterfly.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -13522,6 +13542,7 @@
             "altered_states": [
                 {
                     "condition": "When encountered due to touching a red butterfly.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -13725,6 +13746,7 @@
             "altered_states": [
                 {
                     "condition": "Fire-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -13752,6 +13774,7 @@
                 },
                 {
                     "condition": "Lightning-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -13779,6 +13802,7 @@
                 },
                 {
                     "condition": "Water-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -13806,6 +13830,7 @@
                 },
                 {
                     "condition": "Ice-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -15205,6 +15230,7 @@
             "altered_states": [
                 {
                     "condition": "After Anima is defeated.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -17661,6 +17687,7 @@
             "altered_states": [
                 {
                     "condition": "While 'Readying Quake'.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -17892,6 +17919,7 @@
             "altered_states": [
                 {
                     "condition": "When on the ground.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -19350,6 +19378,7 @@
             "altered_states": [
                 {
                     "condition": "When the Airship is far away.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "very-far",
@@ -20174,6 +20203,7 @@
             "altered_states": [
                 {
                     "condition": "Without front-line enemies.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "close",
@@ -20910,6 +20940,7 @@
             "altered_states": [
                 {
                     "condition": "After hitting itself with Watera for the first time.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -20924,6 +20955,7 @@
                 },
                 {
                     "condition": "After hitting itself with Watera for the second time.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -20938,6 +20970,7 @@
                 },
                 {
                     "condition": "After hitting itself with Watera for the third time.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -22830,6 +22863,7 @@
             "altered_states": [
                 {
                     "condition": "After second Mortibsorption.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -22842,6 +22876,7 @@
                 },
                 {
                     "condition": "After third Mortibsorption.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -22854,6 +22889,7 @@
                 },
                 {
                     "condition": "After fourth Mortibsorption.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -23293,6 +23329,7 @@
             "altered_states": [
                 {
                     "condition": "Chimera Brain starts the battle with a random Agility stat. There are four possibilities, each having a 25% chance of occuring.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -23305,6 +23342,7 @@
                 },
                 {
                     "condition": "Chimera Brain starts the battle with a random Agility stat. There are four possibilities, each having a 25% chance of occuring.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -23317,6 +23355,7 @@
                 },
                 {
                     "condition": "Chimera Brain starts the battle with a random Agility stat. There are four possibilities, each having a 25% chance of occuring.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -27143,6 +27182,7 @@
             "altered_states": [
                 {
                     "condition": "There's a 33% chance for Thorn to start the battle with an agility stat of 7.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -28074,6 +28114,7 @@
             "altered_states": [
                 {
                     "condition": "On first turn only.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -28086,6 +28127,7 @@
                 },
                 {
                     "condition": "While using 'Guard'.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -28252,6 +28294,7 @@
             "altered_states": [
                 {
                     "condition": "On first turn only.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -28264,6 +28307,7 @@
                 },
                 {
                     "condition": "While using 'Guard'.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29058,6 +29102,7 @@
             "altered_states": [
                 {
                     "condition": "After using Psych Up for the first time (over 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29072,6 +29117,7 @@
                 },
                 {
                     "condition": "After using Psych Up for the second time (over 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29086,6 +29132,7 @@
                 },
                 {
                     "condition": "After using Psych Up for the third time (over 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29100,6 +29147,7 @@
                 },
                 {
                     "condition": "After using Psych Up for the fourth time (over 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29114,6 +29162,7 @@
                 },
                 {
                     "condition": "After using Psych Up for the first time (below 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29128,6 +29177,7 @@
                 },
                 {
                     "condition": "After using Psych Up for the second time (below 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29142,6 +29192,7 @@
                 },
                 {
                     "condition": "After using Psych Up for the third time (below 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -29156,6 +29207,7 @@
                 },
                 {
                     "condition": "After using Psych Up for the fourth time (below 50% HP).",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -31818,6 +31870,7 @@
             "altered_states": [
                 {
                     "condition": "After second Mortibsorption.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -31830,6 +31883,7 @@
                 },
                 {
                     "condition": "After third Mortibsorption.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -31842,6 +31896,7 @@
                 },
                 {
                     "condition": "After fourth Mortibsorption.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -32050,6 +32105,7 @@
             "altered_states": [
                 {
                     "condition": "When using 'Curaga'.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -32062,6 +32118,7 @@
                 },
                 {
                     "condition": "Before using 'Mana Breath'.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -32809,6 +32866,7 @@
             "altered_states": [
                 {
                     "condition": "Without front-line enemies.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "close",
@@ -33396,6 +33454,7 @@
             "altered_states": [
                 {
                     "condition": "Second Form.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -33408,6 +33467,7 @@
                 },
                 {
                     "condition": "Third Form.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -33648,6 +33708,7 @@
             "altered_states": [
                 {
                     "condition": "After drawing closer to Sin.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "close",
@@ -33851,6 +33912,7 @@
             "altered_states": [
                 {
                     "condition": "After drawing closer to Sin.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "close",
@@ -34072,6 +34134,7 @@
             "altered_states": [
                 {
                     "condition": "While outside its shell.",
+                    "permanent": false,
                     "properties": ["tough", "heavy"],
                     "auto_abilities": null,
                     "position": null,
@@ -34263,6 +34326,7 @@
             "altered_states": [
                 {
                     "condition": "After defeating Sinspawn Genais.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "close",
@@ -34471,6 +34535,7 @@
             "altered_states": [
                 {
                     "condition": "After second 'Drawn to Sin'.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "center",
@@ -34481,6 +34546,7 @@
                 },
                 {
                     "condition": "After third 'Drawn to Sin'.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": "close",
@@ -36291,6 +36357,7 @@
             "altered_states": [
                 {
                     "condition": "While 'Readying Quake'.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -36728,6 +36795,7 @@
             "altered_states": [
                 {
                     "condition": "When using 'Dispel'.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -36740,6 +36808,7 @@
                 },
                 {
                     "condition": "After using 'Ultima'.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -36956,6 +37025,7 @@
             "altered_states": [
                 {
                     "condition": "Second Form.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -37182,6 +37252,7 @@
             "altered_states": [
                 {
                     "condition": "After first turn.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -38669,6 +38740,7 @@
             "altered_states": [
                 {
                     "condition": "While defending.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -38682,6 +38754,7 @@
                 },
                 {
                     "condition": "While evading.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -41183,6 +41256,7 @@
             "altered_states": [
                 {
                     "condition": "When fought inside Monster Arena.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": [],
                     "position": null,
@@ -43759,6 +43833,7 @@
             "altered_states": [
                 {
                     "condition": "While 'Readying Quake'.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -47808,6 +47883,7 @@
             "altered_states": [
                 {
                     "condition": "While it's on its back.",
+                    "permanent": false,
                     "properties": ["tough"],
                     "auto_abilities": null,
                     "position": null,
@@ -47996,6 +48072,7 @@
             "altered_states": [
                 {
                     "condition": "Fire-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -48027,6 +48104,7 @@
                 },
                 {
                     "condition": "Lightning-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -48058,6 +48136,7 @@
                 },
                 {
                     "condition": "Water-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -48089,6 +48168,7 @@
                 },
                 {
                     "condition": "Ice-elemental.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -48361,6 +48441,7 @@
             "altered_states": [
                 {
                     "condition": "When leaving its shell after taking 440000 HP worth of damage.",
+                    "permanent": true,
                     "properties": [],
                     "auto_abilities": null,
                     "position": null,
@@ -48748,6 +48829,7 @@
             "altered_states": [
                 {
                     "condition": "While hidden in its shell.",
+                    "permanent": false,
                     "properties": ["nul-physical"],
                     "auto_abilities": ["auto-regen"],
                     "position": null,
@@ -48758,6 +48840,7 @@
                 },
                 {
                     "condition": "Without its shell.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -48951,6 +49034,7 @@
             "altered_states": [
                 {
                     "condition": "While Ultima Buster blocks with its arms.",
+                    "permanent": false,
                     "properties": ["armored"],
                     "auto_abilities": null,
                     "position": null,
@@ -51476,6 +51560,7 @@
             "altered_states": [
                 {
                     "condition": "When HP falls below 9000000.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": [],
                     "position": null,
@@ -51595,6 +51680,7 @@
             "altered_states": [
                 {
                     "condition": "Before first turn.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -51607,6 +51693,7 @@
                 },
                 {
                     "condition": "While taking an action.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -51733,6 +51820,7 @@
             "altered_states": [
                 {
                     "condition": "Before first turn.",
+                    "permanent": true,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,
@@ -51745,6 +51833,7 @@
                 },
                 {
                     "condition": "While taking an action.",
+                    "permanent": false,
                     "properties": null,
                     "auto_abilities": null,
                     "position": null,

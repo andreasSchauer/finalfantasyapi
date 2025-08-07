@@ -1,13 +1,15 @@
 {
     "trigger_commands_data": [
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "stand by",
                 "version": null,
                 "specification": null,
                 "description": "Wait while recovering HP.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -51,13 +53,15 @@
             }
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "pincer attack",
                 "version": null,
                 "specification": null,
                 "description": "Attack enemy from both sides.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -66,13 +70,15 @@
             "meta": null
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "use crane",
                 "version": null,
                 "specification": null,
                 "description": "Activate crane.",
                 "effect": null,
-                "notes": "Available once the crane has been activated.",
+                "notes": "Available once the crane has been activated."
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -116,13 +122,15 @@
             }
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "talk",
                 "version": 1,
                 "specification": null,
                 "description": "Talk to enemy.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -156,13 +164,15 @@
             }
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "talk",
                 "version": 2,
                 "specification": null,
                 "description": "Talk to enemy.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -196,13 +206,15 @@
             }
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "move in",
                 "version": null,
                 "specification": null,
                 "description": "Ask Cid to close in on the enemy.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -211,13 +223,15 @@
             "meta": null
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "pull back",
                 "version": null,
                 "specification": null,
                 "description": "Ask Cid to move away from the enemy.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -226,13 +240,15 @@
             "meta": null
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "cancel",
                 "version": null,
                 "specification": null,
                 "description": "Cancel movement.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -241,13 +257,15 @@
             "meta": null
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "open lock",
                 "version": null,
                 "specification": null,
                 "description": "Open gate lock.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -291,13 +309,15 @@
             }
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "move",
                 "version": null,
                 "specification": null,
                 "description": "Move to an empty spot.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
@@ -325,13 +345,15 @@
             }
         },
         {
-            "ability_data": {
+            "ability_info": {
                 "name": "struggle",
                 "version": null,
                 "specification": null,
                 "description": "Attack enemy from inside.",
                 "effect": null,
-                "notes": null,
+                "notes": null
+            },
+            "ability_data": {
                 "rank": 3,
                 "appears_in_help_bar": true,
                 "can_copycat": false,
