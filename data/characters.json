@@ -6,7 +6,6 @@
             "weapon_type": "sword",
             "armor_type": "shield",
             "physical_attack_range": 1,
-            "overdrive_command": "swordplay",
             "can_fight_underwater": true,
             "base_stats": [
                 { "name": "hp",             "value": 520 },
@@ -27,7 +26,6 @@
             "weapon_type": "staff",
             "armor_type": "ring",
             "physical_attack_range": 1,
-            "overdrive_command": "grand summon",
             "can_fight_underwater": false,
             "base_stats": [
                 { "name": "hp",             "value": 475 },
@@ -48,7 +46,6 @@
             "weapon_type": "blitzball",
             "armor_type": "armguard",
             "physical_attack_range": 4,
-            "overdrive_command": "slots",
             "can_fight_underwater": true,
             "base_stats": [
                 { "name": "hp",             "value": 618 },
@@ -69,7 +66,6 @@
             "weapon_type": "doll",
             "armor_type": "bangle",
             "physical_attack_range": 1,
-            "overdrive_command": "fury",
             "can_fight_underwater": false,
             "base_stats": [
                 { "name": "hp",             "value": 380 },
@@ -90,7 +86,6 @@
             "weapon_type": "spear",
             "armor_type": "armlet",
             "physical_attack_range": 1,
-            "overdrive_command": "ronso rage",
             "can_fight_underwater": false,
             "base_stats": [
                 { "name": "hp",             "value": 644 },
@@ -111,7 +106,6 @@
             "weapon_type": "blade",
             "armor_type": "bracer",
             "physical_attack_range": 1,
-            "overdrive_command": "bushido",
             "can_fight_underwater": false,
             "base_stats": [
                 { "name": "hp",             "value": 1030 },
@@ -132,7 +126,6 @@
             "weapon_type": "claw",
             "armor_type": "targe",
             "physical_attack_range": 1,
-            "overdrive_command": "mix",
             "can_fight_underwater": true,
             "base_stats": [
                 { "name": "hp",             "value": 360 },
@@ -153,7 +146,6 @@
             "weapon_type": "seymour staff",
             "armor_type": "seymour armor",
             "physical_attack_range": 1,
-            "overdrive_command": "requiem",
             "can_fight_underwater": false,
             "base_stats": [
                 { "name": "hp",             "value": 1200 },
