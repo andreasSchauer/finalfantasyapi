@@ -4,361 +4,361 @@
             "name": "withered bouquet",
             "category": "story",
             "description": "Someone put heart and soul into making this.",
-            "use": "Combined with Flint to make fire."
+            "effect": "Combined with Flint to make fire."
         },
         {
             "name": "flint",
             "category": "story",
             "description": "Used to start fires.",
-            "use": "Combined with Withered Bouquet to make fire."
+            "effect": "Combined with Withered Bouquet to make fire."
         },
         {
             "name": "cloudy mirror",
             "category": "celestial",
             "description": "The surface is dark and clouded.",
-            "use": "Can be upgraded into the Celestial Mirror."
+            "effect": "Can be upgraded into the Celestial Mirror."
         },
         {
             "name": "celestial mirror",
             "category": "celestial",
             "description": "The surface is shiny and bright.",
-            "use": "Used in order to upgrade Celestial Weapons."
+            "effect": "Used in order to upgrade Celestial Weapons."
         },
         {
             "name": "summoner's soul",
             "category": "story",
             "description": "Allows the aeons to learn abilities.",
-            "use": "Used in order to teach aeons abilities."
+            "effect": "Used in order to teach aeons abilities."
         },
         {
             "name": "aeon's soul",
             "category": "story",
             "description": "Allows you to raise aeon's attributes.",
-            "use": "Used in order to increase an aeon's stats."
+            "effect": "Used in order to increase an aeon's stats."
         },
         {
             "name": "rusty sword",
             "category": "celestial",
             "description": "An old, rusty sword.",
-            "use": "Required to obtain Masamune."
+            "effect": "Required to obtain Masamune."
         },
         {
             "name": "mark of conquest",
             "category": "other",
             "description": "Distinguish a powerful fighter.",
-            "use": "Proof that the player has defeated Nemesis."
+            "effect": "Proof that the player has defeated Nemesis."
         },
         {
             "name": "blossom crown",
             "category": "other",
             "description": "Seems to have a connection with a hidden aeon...",
-            "use": "Breaks part of the seal to the Chamber of the Fayth at Remiem Temple."
+            "effect": "Breaks part of the seal to the Chamber of the Fayth at Remiem Temple."
         },
         {
             "name": "flower sceptre",
             "category": "other",
             "description": "Seems to have a connection with a hidden aeon...",
-            "use": "Breaks part of the seal to the Chamber of the Fayth at Remiem Temple."
+            "effect": "Breaks part of the seal to the Chamber of the Fayth at Remiem Temple."
         },
         {
             "name": "sun crest",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of the Sun.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Caladbolg."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Caladbolg."
         },
         {
             "name": "sun sigil",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of the Sun.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Caladbolg."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Caladbolg."
         },
         {
             "name": "moon crest",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of the Moon.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Nirvana."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Nirvana."
         },
         {
             "name": "moon sigil",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of the Moon.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Nirvana."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Nirvana."
         },
         {
             "name": "mars crest",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Mars.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Masamune."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Masamune."
         },
         {
             "name": "mars sigil",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Mars.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Masamune."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Masamune."
         },
         {
             "name": "saturn crest",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Saturn.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Spirit Lance."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Spirit Lance."
         },
         {
             "name": "saturn sigil",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Saturn.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Spirit Lance."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Spirit Lance."
         },
         {
             "name": "jupiter crest",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Jupiter.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the World Champion."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the World Champion."
         },
         {
             "name": "jupiter sigil",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Jupiter.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the World Champion."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the World Champion."
         },
         {
             "name": "venus crest",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Venus.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Onion Knight."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Onion Knight."
         },
         {
             "name": "venus sigil",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Venus.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Onion Knight."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Onion Knight."
         },
         {
             "name": "mercury crest",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Mercury.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Godhand."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Godhand."
         },
         {
             "name": "mercury sigil",
             "category": "celestial",
             "description": "A celestial token, fashioned in the shape of Mercury.",
-            "use": "Used in conjunction with the Celestial Mirror to upgrade the Godhand."
+            "effect": "Used in conjunction with the Celestial Mirror to upgrade the Godhand."
         },
         {
             "name": "jecht sphere 1",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "jecht sphere 2",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "jecht sphere 3",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "jecht sphere 4",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "jecht sphere 5",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "jecht sphere 6",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "jecht sphere 7",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "jecht sphere 8",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "braska's sphere",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "auron's sphere",
             "category": "jecht sphere",
             "description": "A sphere recorded by Jecht ten years ago.",
-            "use": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
+            "effect": "Contains recordings of Jecht, Braska and Auron. Allows Auron to learn new Overdrives."
         },
         {
             "name": "al bhed primer i",
             "category": "primer",
             "description": "Teaches the letter 'A' in Al Bhed.",
-            "use": "The Al Bhed letter 'A' is replaced with the English letter 'E' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'A' is replaced with the English letter 'E' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer ii",
             "category": "primer",
             "description": "Teaches the letter 'B' in Al Bhed.",
-            "use": "The Al Bhed letter 'B' is replaced with the English letter 'P' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'B' is replaced with the English letter 'P' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer iii",
             "category": "primer",
             "description": "Teaches the letter 'C' in Al Bhed.",
-            "use": "The Al Bhed letter 'C' is replaced with the English letter 'S' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'C' is replaced with the English letter 'S' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer iv",
             "category": "primer",
             "description": "Teaches the letter 'D' in Al Bhed.",
-            "use": "The Al Bhed letter 'D' is replaced with the English letter 'T' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'D' is replaced with the English letter 'T' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer v",
             "category": "primer",
             "description": "Teaches the letter 'E' in Al Bhed.",
-            "use": "The Al Bhed letter 'E' is replaced with the English letter 'I' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'E' is replaced with the English letter 'I' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer vi",
             "category": "primer",
             "description": "Teaches the letter 'F' in Al Bhed.",
-            "use": "The Al Bhed letter 'F' is replaced with the English letter 'W' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'F' is replaced with the English letter 'W' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer vii",
             "category": "primer",
             "description": "Teaches the letter 'G' in Al Bhed.",
-            "use": "The Al Bhed letter 'G' is replaced with the English letter 'K' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'G' is replaced with the English letter 'K' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer viii",
             "category": "primer",
             "description": "Teaches the letter 'H' in Al Bhed.",
-            "use": "The Al Bhed letter 'H' is replaced with the English letter 'N' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'H' is replaced with the English letter 'N' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer ix",
             "category": "primer",
             "description": "Teaches the letter 'I' in Al Bhed.",
-            "use": "The Al Bhed letter 'I' is replaced with the English letter 'U' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'I' is replaced with the English letter 'U' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer x",
             "category": "primer",
             "description": "Teaches the letter 'J' in Al Bhed.",
-            "use": "The Al Bhed letter 'J' is replaced with the English letter 'V' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'J' is replaced with the English letter 'V' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xi",
             "category": "primer",
             "description": "Teaches the letter 'K' in Al Bhed.",
-            "use": "The Al Bhed letter 'K' is replaced with the English letter 'G' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'K' is replaced with the English letter 'G' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xii",
             "category": "primer",
             "description": "Teaches the letter 'L' in Al Bhed.",
-            "use": "The Al Bhed letter 'L' is replaced with the English letter 'C' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'L' is replaced with the English letter 'C' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xiii",
             "category": "primer",
             "description": "Teaches the letter 'M' in Al Bhed.",
-            "use": "The Al Bhed letter 'M' is replaced with the English letter 'L' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'M' is replaced with the English letter 'L' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xiv",
             "category": "primer",
             "description": "Teaches the letter 'N' in Al Bhed.",
-            "use": "The Al Bhed letter 'N' is replaced with the English letter 'R' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'N' is replaced with the English letter 'R' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xv",
             "category": "primer",
             "description": "Teaches the letter 'O' in Al Bhed.",
-            "use": "The Al Bhed letter 'O' is replaced with the English letter 'Y' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'O' is replaced with the English letter 'Y' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xvi",
             "category": "primer",
             "description": "Teaches the letter 'P' in Al Bhed.",
-            "use": "The Al Bhed letter 'P' is replaced with the English letter 'B' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'P' is replaced with the English letter 'B' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xvii",
             "category": "primer",
             "description": "Teaches the letter 'Q' in Al Bhed.",
-            "use": "The Al Bhed letter 'Q' is replaced with the English letter 'X' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'Q' is replaced with the English letter 'X' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xviii",
             "category": "primer",
             "description": "Teaches the letter 'R' in Al Bhed.",
-            "use": "The Al Bhed letter 'R' is replaced with the English letter 'H' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'R' is replaced with the English letter 'H' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xix",
             "category": "primer",
             "description": "Teaches the letter 'S' in Al Bhed.",
-            "use": "The Al Bhed letter 'S' is replaced with the English letter 'M' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'S' is replaced with the English letter 'M' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xx",
             "category": "primer",
             "description": "Teaches the letter 'T' in Al Bhed.",
-            "use": "The Al Bhed letter 'T' is replaced with the English letter 'D' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'T' is replaced with the English letter 'D' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xxi",
             "category": "primer",
             "description": "Teaches the letter 'U' in Al Bhed.",
-            "use": "The Al Bhed letter 'U' is replaced with the English letter 'O' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'U' is replaced with the English letter 'O' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xxii",
             "category": "primer",
             "description": "Teaches the letter 'V' in Al Bhed.",
-            "use": "The Al Bhed letter 'V' is replaced with the English letter 'F' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'V' is replaced with the English letter 'F' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xxiii",
             "category": "primer",
             "description": "Teaches the letter 'W' in Al Bhed.",
-            "use": "The Al Bhed letter 'W' is replaced with the English letter 'Z' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'W' is replaced with the English letter 'Z' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xxiv",
             "category": "primer",
             "description": "Teaches the letter 'X' in Al Bhed.",
-            "use": "The Al Bhed letter 'X' is replaced with the English letter 'Q' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'X' is replaced with the English letter 'Q' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xxv",
             "category": "primer",
             "description": "Teaches the letter 'Y' in Al Bhed.",
-            "use": "The Al Bhed letter 'Y' is replaced with the English letter 'A' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'Y' is replaced with the English letter 'A' in Al Bhed subtitles and text."
         },
         {
             "name": "al bhed primer xxvi",
             "category": "primer",
             "description": "Teaches the letter 'Z' in Al Bhed.",
-            "use": "The Al Bhed letter 'Z' is replaced with the English letter 'J' in Al Bhed subtitles and text."
+            "effect": "The Al Bhed letter 'Z' is replaced with the English letter 'J' in Al Bhed subtitles and text."
         }
     ]
 }

@@ -6,15 +6,7 @@
             "effect": "The gauge fills when the character takes damage from an enemy.",
             "type": "formula",
             "fill_rate": null,
-            "actions_to_learn": {
-                "Tidus": 0,
-                "Yuna": 0,
-                "Wakka": 0,
-                "Lulu": 0,
-                "Kimahri": 0,
-                "Auron": 0,
-                "Rikku": 0
-            }
+            "actions_to_learn": []
         },
         {
             "name": "warrior",
@@ -22,15 +14,36 @@
             "effect": "The gauge fills when the character damages an enemy (excluding items and overdrives).",
             "type": "formula",
             "fill_rate": null,
-            "actions_to_learn": {
-                "Tidus": 150,
-                "Yuna": 200,
-                "Wakka": 160,
-                "Lulu": 300,
-                "Kimahri": 120,
-                "Auron": 100,
-                "Rikku": 140
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 150
+                },
+                {
+                    "user": "yuna",
+                    "amount": 200
+                },
+                {
+                    "user": "wakka",
+                    "amount": 160
+                },
+                {
+                    "user": "lulu",
+                    "amount": 300
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 120
+                },
+                {
+                    "user": "auron",
+                    "amount": 100
+                },
+                {
+                    "user": "rikku",
+                    "amount": 140
+                }
+            ]
         },
         {
             "name": "comrade",
@@ -38,15 +51,36 @@
             "effect": "The gauge fills when an ally takes damage.",
             "type": "formula",
             "fill_rate": null,
-            "actions_to_learn": {
-                "Tidus": 300,
-                "Yuna": 240,
-                "Wakka": 100,
-                "Lulu": 100,
-                "Kimahri": 100,
-                "Auron": 220,
-                "Rikku": 100
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 300
+                },
+                {
+                    "user": "yuna",
+                    "amount": 240
+                },
+                {
+                    "user": "wakka",
+                    "amount": 100
+                },
+                {
+                    "user": "lulu",
+                    "amount": 100
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 100
+                },
+                {
+                    "user": "auron",
+                    "amount": 220
+                },
+                {
+                    "user": "rikku",
+                    "amount": 100
+                }
+            ]
         },
         {
             "name": "healer",
@@ -54,15 +88,36 @@
             "effect": "The gauge fills when healing an ally, even with full HP.",
             "type": "formula",
             "fill_rate": null,
-            "actions_to_learn": {
-                "Tidus": 80,
-                "Yuna": 60,
-                "Wakka": 110,
-                "Lulu": 170,
-                "Kimahri": 100,
-                "Auron": 200,
-                "Rikku": 70
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 80
+                },
+                {
+                    "user": "yuna",
+                    "amount": 60
+                },
+                {
+                    "user": "wakka",
+                    "amount": 110
+                },
+                {
+                    "user": "lulu",
+                    "amount": 170
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 100
+                },
+                {
+                    "user": "auron",
+                    "amount": 200
+                },
+                {
+                    "user": "rikku",
+                    "amount": 70
+                }
+            ]
         },
         {
             "name": "tactician",
@@ -70,15 +125,36 @@
             "effect": "The gauge fills when the character inflicts status ailments onto an enemy.",
             "type": "per action",
             "fill_rate": 0.16,
-            "actions_to_learn": {
-                "Tidus": 75,
-                "Yuna": 100,
-                "Wakka": 80,
-                "Lulu": 75,
-                "Kimahri": 60,
-                "Auron": 110,
-                "Rikku": 90
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 75
+                },
+                {
+                    "user": "yuna",
+                    "amount": 100
+                },
+                {
+                    "user": "wakka",
+                    "amount": 80
+                },
+                {
+                    "user": "lulu",
+                    "amount": 75
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 60
+                },
+                {
+                    "user": "auron",
+                    "amount": 110
+                },
+                {
+                    "user": "rikku",
+                    "amount": 90
+                }
+            ]
         },
         {
             "name": "victim",
@@ -86,15 +162,36 @@
             "effect": "The gauge fills when an enemy inflicts status ailments onto the character.",
             "type": "per action",
             "fill_rate": 0.16,
-            "actions_to_learn": {
-                "Tidus": 120,
-                "Yuna": 100,
-                "Wakka": 110,
-                "Lulu": 130,
-                "Kimahri": 100,
-                "Auron": 160,
-                "Rikku": 125
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 120
+                },
+                {
+                    "user": "yuna",
+                    "amount": 100
+                },
+                {
+                    "user": "wakka",
+                    "amount": 110
+                },
+                {
+                    "user": "lulu",
+                    "amount": 130
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 100
+                },
+                {
+                    "user": "auron",
+                    "amount": 160
+                },
+                {
+                    "user": "rikku",
+                    "amount": 125
+                }
+            ]
         },
         {
             "name": "dancer",
@@ -102,15 +199,36 @@
             "effect": "The gauge fills when the character evades an enemy attack.",
             "type": "per action",
             "fill_rate": 0.16,
-            "actions_to_learn": {
-                "Tidus": 250,
-                "Yuna": 200,
-                "Wakka": 200,
-                "Lulu": 300,
-                "Kimahri": 130,
-                "Auron": 200,
-                "Rikku": 200
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 250
+                },
+                {
+                    "user": "yuna",
+                    "amount": 200
+                },
+                {
+                    "user": "wakka",
+                    "amount": 200
+                },
+                {
+                    "user": "lulu",
+                    "amount": 300
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 130
+                },
+                {
+                    "user": "auron",
+                    "amount": 200
+                },
+                {
+                    "user": "rikku",
+                    "amount": 200
+                }
+            ]
         },
         {
             "name": "avenger",
@@ -118,15 +236,36 @@
             "effect": "The gauge fills when an enemy KO's an ally.",
             "type": "per action",
             "fill_rate": 0.30,
-            "actions_to_learn": {
-                "Tidus": 100,
-                "Yuna": 80,
-                "Wakka": 100,
-                "Lulu": 150,
-                "Kimahri": 100,
-                "Auron": 120,
-                "Rikku": 90
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 100
+                },
+                {
+                    "user": "yuna",
+                    "amount": 80
+                },
+                {
+                    "user": "wakka",
+                    "amount": 100
+                },
+                {
+                    "user": "lulu",
+                    "amount": 150
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 100
+                },
+                {
+                    "user": "auron",
+                    "amount": 120
+                },
+                {
+                    "user": "rikku",
+                    "amount": 90
+                }
+            ]
         },
         {
             "name": "slayer",
@@ -134,15 +273,36 @@
             "effect": "The gauge fills when the character kills an enemy, including via stealing from Machina enemies and treasure chests. Weapons of Warrior Monks, Fallen Monks, Kimahri and Yojimbo (boss battles) also count.",
             "type": "per action",
             "fill_rate": 0.20,
-            "actions_to_learn": {
-                "Tidus": 100,
-                "Yuna": 110,
-                "Wakka": 90,
-                "Lulu": 130,
-                "Kimahri": 120,
-                "Auron": 80,
-                "Rikku": 100
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 100
+                },
+                {
+                    "user": "yuna",
+                    "amount": 110
+                },
+                {
+                    "user": "wakka",
+                    "amount": 90
+                },
+                {
+                    "user": "lulu",
+                    "amount": 130
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 120
+                },
+                {
+                    "user": "auron",
+                    "amount": 80
+                },
+                {
+                    "user": "rikku",
+                    "amount": 100
+                }
+            ]
         },
         {
             "name": "hero",
@@ -150,15 +310,36 @@
             "effect": "The gauge fills when the character kills an enemy with at least 10,000 HP, or at least 20x more HP than the estimated damage. For learning this mode, the amount is only 3x more HP. Estimated damage is damage dealt by the character's 'Attack' command, regardless of enemy Defense.",
             "type": "per action",
             "fill_rate": 0.20,
-            "actions_to_learn": {
-                "Tidus": 50,
-                "Yuna": 50,
-                "Wakka": 50,
-                "Lulu": 70,
-                "Kimahri": 45,
-                "Auron": 40,
-                "Rikku": 50
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 50
+                },
+                {
+                    "user": "yuna",
+                    "amount": 50
+                },
+                {
+                    "user": "wakka",
+                    "amount": 50
+                },
+                {
+                    "user": "lulu",
+                    "amount": 70
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 45
+                },
+                {
+                    "user": "auron",
+                    "amount": 40
+                },
+                {
+                    "user": "rikku",
+                    "amount": 50
+                }
+            ]
         },
         {
             "name": "rook",
@@ -166,15 +347,36 @@
             "effect": "The gauge fills when the character reduces or nullifies the damage inflicted by an enemy with Nulspells, Protect, Shell, and Reflect",
             "type": "per action",
             "fill_rate": 0.10,
-            "actions_to_learn": {
-                "Tidus": 120,
-                "Yuna": 110,
-                "Wakka": 120,
-                "Lulu": 120,
-                "Kimahri": 120,
-                "Auron": 120,
-                "Rikku": 120
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 120
+                },
+                {
+                    "user": "yuna",
+                    "amount": 110
+                },
+                {
+                    "user": "wakka",
+                    "amount": 120
+                },
+                {
+                    "user": "lulu",
+                    "amount": 120
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 120
+                },
+                {
+                    "user": "auron",
+                    "amount": 120
+                },
+                {
+                    "user": "rikku",
+                    "amount": 120
+                }
+            ]
         },
         {
             "name": "victor",
@@ -182,15 +384,36 @@
             "effect": "The gauge fills when winning a battle while being an active fighter.",
             "type": "per action",
             "fill_rate": 0.20,
-            "actions_to_learn": {
-                "Tidus": 120,
-                "Yuna": 150,
-                "Wakka": 160,
-                "Lulu": 200,
-                "Kimahri": 120,
-                "Auron": 200,
-                "Rikku": 140
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 120
+                },
+                {
+                    "user": "yuna",
+                    "amount": 150
+                },
+                {
+                    "user": "wakka",
+                    "amount": 160
+                },
+                {
+                    "user": "lulu",
+                    "amount": 200
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 120
+                },
+                {
+                    "user": "auron",
+                    "amount": 200
+                },
+                {
+                    "user": "rikku",
+                    "amount": 140
+                }
+            ]
         },
         {
             "name": "coward",
@@ -198,15 +421,36 @@
             "effect": "The gauge fills when the character escapes from battle. Using 'Flee' is also counted, regardless of who uses it.",
             "type": "per action",
             "fill_rate": 0.10,
-            "actions_to_learn": {
-                "Tidus": 600,
-                "Yuna": 900,
-                "Wakka": 400,
-                "Lulu": 980,
-                "Kimahri": 700,
-                "Auron": 1000,
-                "Rikku": 450
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 600
+                },
+                {
+                    "user": "yuna",
+                    "amount": 900
+                },
+                {
+                    "user": "wakka",
+                    "amount": 400
+                },
+                {
+                    "user": "lulu",
+                    "amount": 980
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 700
+                },
+                {
+                    "user": "auron",
+                    "amount": 1000
+                },
+                {
+                    "user": "rikku",
+                    "amount": 450
+                }
+            ]
         },
         {
             "name": "ally",
@@ -214,15 +458,36 @@
             "effect": "The gauge fills at the start of the character's turn.",
             "type": "per action",
             "fill_rate": 0.03,
-            "actions_to_learn": {
-                "Tidus": 600,
-                "Yuna": 500,
-                "Wakka": 350,
-                "Lulu": 480,
-                "Kimahri": 300,
-                "Auron": 450,
-                "Rikku": 320
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 600
+                },
+                {
+                    "user": "yuna",
+                    "amount": 500
+                },
+                {
+                    "user": "wakka",
+                    "amount": 350
+                },
+                {
+                    "user": "lulu",
+                    "amount": 480
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 300
+                },
+                {
+                    "user": "auron",
+                    "amount": 450
+                },
+                {
+                    "user": "rikku",
+                    "amount": 320
+                }
+            ]
         },
         {
             "name": "sufferer",
@@ -230,15 +495,36 @@
             "effect": "The gauge fills at the start of the character's turn while afflicted with a status ailment.",
             "type": "per action",
             "fill_rate": 0.16,
-            "actions_to_learn": {
-                "Tidus": 100,
-                "Yuna": 80,
-                "Wakka": 100,
-                "Lulu": 110,
-                "Kimahri": 130,
-                "Auron": 120,
-                "Rikku": 90
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 100
+                },
+                {
+                    "user": "yuna",
+                    "amount": 80
+                },
+                {
+                    "user": "wakka",
+                    "amount": 100
+                },
+                {
+                    "user": "lulu",
+                    "amount": 110
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 130
+                },
+                {
+                    "user": "auron",
+                    "amount": 120
+                },
+                {
+                    "user": "rikku",
+                    "amount": 90
+                }
+            ]
         },
         {
             "name": "daredevil",
@@ -246,15 +532,36 @@
             "effect": "The gauge fills at the start of the character's turn while in 'HP Critical' status.",
             "type": "per action",
             "fill_rate": 0.05,
-            "actions_to_learn": {
-                "Tidus": 170,
-                "Yuna": 90,
-                "Wakka": 140,
-                "Lulu": 150,
-                "Kimahri": 200,
-                "Auron": 260,
-                "Rikku": 110
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 170
+                },
+                {
+                    "user": "yuna",
+                    "amount": 90
+                },
+                {
+                    "user": "wakka",
+                    "amount": 140
+                },
+                {
+                    "user": "lulu",
+                    "amount": 150
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 200
+                },
+                {
+                    "user": "auron",
+                    "amount": 260
+                },
+                {
+                    "user": "rikku",
+                    "amount": 110
+                }
+            ]
         },
         {
             "name": "loner",
@@ -262,15 +569,36 @@
             "effect": "The gauge fills at the start of the character's turn while fighting alone.",
             "type": "per action",
             "fill_rate": 0.16,
-            "actions_to_learn": {
-                "Tidus": 60,
-                "Yuna": 180,
-                "Wakka": 110,
-                "Lulu": 45,
-                "Kimahri": 90,
-                "Auron": 35,
-                "Rikku": 170
-            }
+            "actions_to_learn": [
+                {
+                    "user": "tidus",
+                    "amount": 60
+                },
+                {
+                    "user": "yuna",
+                    "amount": 180
+                },
+                {
+                    "user": "wakka",
+                    "amount": 110
+                },
+                {
+                    "user": "lulu",
+                    "amount": 45
+                },
+                {
+                    "user": "kimahri",
+                    "amount": 90
+                },
+                {
+                    "user": "auron",
+                    "amount": 35
+                },
+                {
+                    "user": "rikku",
+                    "amount": 170
+                }
+            ]
         }
     ]
 }

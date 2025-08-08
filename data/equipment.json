@@ -2,7 +2,7 @@
     "equipment_data": [
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["break damage limit", "triple overdrive", "evade & counter", "magic counter"],
@@ -18,7 +18,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["break damage limit", "triple overdrive", "double ap", "one mp cost"],
@@ -34,7 +34,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["break damage limit", "triple overdrive", "double ap", "evade & counter"],
@@ -50,7 +50,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["break damage limit", "triple overdrive", "magic booster", "one mp cost"],
@@ -66,7 +66,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["break damage limit", "triple overdrive", "double ap", "evade & counter"],
@@ -82,7 +82,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["break damage limit", "triple overdrive", "first strike", "counterattack"],
@@ -98,7 +98,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["break damage limit", "triple overdrive", "double ap", "gillionaire"],
@@ -114,7 +114,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["no ap", "double overdrive"],
@@ -154,7 +154,7 @@
         },
         {
             "type": "weapon",
-            "classification": "celestial weapon",
+            "classification": "celestial-weapon",
             "priority": 1,
             "abilities": {
                 "required_abilities": ["no ap"],
@@ -194,7 +194,7 @@
         },
         {
             "type": "weapon",
-            "classification": "unique equipment",
+            "classification": "unique-equipment",
             "priority": 2,
             "abilities": {
                 "required_abilities": ["strength +5%", "strength +10%", "waterstrike", "sensor"],
@@ -210,7 +210,7 @@
         },
         {
             "type": "weapon",
-            "classification": "unique equipment",
+            "classification": "unique-equipment",
             "priority": 2,
             "abilities": {
                 "required_abilities": ["strength +5%"],
@@ -2935,7 +2935,7 @@
         },
         {
             "type": "weapon",
-            "classification": "unique equipment",
+            "classification": "unique-equipment",
             "priority": 0,
             "abilities": {
                 "required_abilities": ["piercing"],
@@ -6559,7 +6559,7 @@
         },
         {
             "type": "armor",
-            "classification": "unique equipment",
+            "classification": "unique-equipment",
             "priority": 0,
             "abilities": {
                 "required_abilities": ["sensor"],
